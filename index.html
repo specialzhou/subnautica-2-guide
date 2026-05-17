@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en" id="htmlRoot">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Subnautica 2 攻略大全 | 新手到高手完整指南 2026</title>
-  <meta name="description" content="Subnautica 2 最全中文攻略，含新手入门、氧气管理、合成配方材料产地、基地建设、潜水艇、联机技巧与生物群落，附第一小时清单和新手FAQ。" />
-  <meta property="og:title" content="Subnautica 2 攻略大全 | 新手到高手完整指南 2026" />
-  <meta property="og:description" content="从零开始征服深海：Subnautica 2 最全中文攻略，含配方产地、新手FAQ、联机技巧。" />
+  <title>Subnautica 2 Complete Guide | Beginner to Expert 2026</title>
+  <meta name="description" content="Complete Subnautica 2 guide for 2026 — beginner tips, oxygen management, crafting recipes with material locations, base building, vehicles, co-op strategies, and biome exploration." />
+  <meta property="og:title" content="Subnautica 2 Complete Guide | Beginner to Expert 2026" />
+  <meta property="og:description" content="Complete Subnautica 2 survival guide — crafting recipes, material locations, base building, and beginner tips." />
   <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
   <meta property="og:type" content="article" />
-  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Subnautica 2 攻略大全 2026" />
-  <meta name="twitter:description" content="从零开始征服深海：Subnautica 2 完整中文攻略" />
+  <meta name="twitter:title" content="Subnautica 2 Complete Guide 2026" />
+  <meta name="twitter:description" content="Complete Subnautica 2 survival guide — from beginner to expert" />
 
   <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Subnautica 2 攻略大全 | 新手到高手完整指南 2026",
-    "description": "Subnautica 2最全中文攻略，含新手入门、氧气管理、合成配方材料产地、基地建设、潜水艇、联机技巧、生物群落、新手FAQ。",
+    "headline": "Subnautica 2 Complete Guide | Beginner to Expert 2026",
+    "description": "Complete Subnautica 2 guide for 2026 — beginner tips, oxygen management, crafting recipes with material locations, base building, vehicles, co-op strategies, and biome exploration.",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
     "datePublished": "2026-05-17",
-    "dateModified": "2026-05-17",
-    "inLanguage": "zh-CN",
-    "author": { "@type": "Organization", "name": "GameGuide CN" },
+    "dateModified": "2026-05-18",
+    "inLanguage": "en",
+    "author": { "@type": "Organization", "name": "GameGuide" },
     "publisher": {
       "@type": "Organization",
-      "name": "GameGuide CN",
+      "name": "GameGuide",
       "logo": { "@type": "ImageObject", "url": "https://specialzhou.github.io/subnautica-2-guide/" }
     },
     "mainEntityOfPage": {
@@ -302,9 +302,6 @@ code {
 .banner-bg-faq {
   background: linear-gradient(135deg, #10100a 0%, #2a2a10 60%, #181808 100%);
 }
-.banner-bg-deploy {
-  background: linear-gradient(135deg, #0a0818 0%, #1a1040 60%, #080810 100%);
-}
 
 /* ═══════════════════════════════════════
    SECTIONS
@@ -511,7 +508,7 @@ tr:nth-child(even) td { background: rgba(15,32,64,0.4); }
   font-size: 13.5px; transition: max-height 0.3s ease, padding 0.3s;
   background: rgba(0,0,0,0.15);
 }
-.faq-item.open .faq-a { max-height: 400px; padding: 13px 16px; }
+.faq-item.open .faq-a { max-height: 500px; padding: 13px 16px; }
 
 /* ═══════════════════════════════════════
    AD SLOTS
@@ -531,6 +528,27 @@ footer {
   text-align: center; padding: 22px 16px;
   color: var(--text-dim); font-size: 12.5px; margin-top: 40px;
 }
+
+/* ═══════════════════════════════════════
+   LANGUAGE TOGGLE
+═══════════════════════════════════════ */
+.lang-zh { display: none; }
+body.zh .lang-zh { display: revert; }
+body.zh .lang-en { display: none; }
+.lang-switcher {
+  position: fixed; top: 14px; right: 16px; z-index: 3000;
+  display: flex; gap: 3px; background: var(--card);
+  border: 1px solid var(--border2); border-radius: 24px; padding: 4px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.45);
+}
+.lang-switcher button {
+  border: none; background: transparent; color: var(--text-dim);
+  padding: 5px 13px; border-radius: 20px; font-size: 13px;
+  cursor: pointer; transition: background 0.15s, color 0.15s; font-weight: 600;
+  white-space: nowrap;
+}
+.lang-switcher button:hover { color: var(--heading); background: rgba(0,212,255,0.08); }
+.lang-switcher button.active { background: var(--accent); color: #000; }
 
 /* ═══════════════════════════════════════
    RESPONSIVE
@@ -559,22 +577,28 @@ footer {
 </head>
 <body>
 
+<!-- ══════════ LANGUAGE SWITCHER ══════════ -->
+<div class="lang-switcher" id="langSwitcher">
+  <button id="btn-en" onclick="setLang('en')" class="active">🇺🇸 EN</button>
+  <button id="btn-zh" onclick="setLang('zh')">🇨🇳 中文</button>
+</div>
+
 <!-- ══════════ TOP HEADER ══════════ -->
 <header class="site-header">
-  <div class="site-brand">⚓ GameGuide CN</div>
-  <h1>🌊 Subnautica 2 攻略大全</h1>
-  <p class="header-sub">新手到高手 · 深海生存完整指南 · 2026年5月最新版</p>
+  <div class="site-brand"><span class="lang-en">⚓ GameGuide</span><span class="lang-zh">⚓ GameGuide CN</span></div>
+  <h1>🌊 <span class="lang-en">Subnautica 2 Complete Guide</span><span class="lang-zh">Subnautica 2 攻略大全</span></h1>
+  <p class="header-sub"><span class="lang-en">Beginner to Expert · Deep Sea Survival Guide · Updated May 2026</span><span class="lang-zh">新手到高手 · 深海生存完整指南 · 2026年5月最新版</span></p>
   <div>
-    <span class="badge">🔥 2026年5月热门</span>
-    <span class="badge">早期访问版</span>
-    <span class="badge">✅ 支持四人联机</span>
-    <span class="badge">🆕 含材料产地</span>
+    <span class="badge"><span class="lang-en">🔥 Top Game May 2026</span><span class="lang-zh">🔥 2026年5月热门</span></span>
+    <span class="badge"><span class="lang-en">Early Access</span><span class="lang-zh">早期访问版</span></span>
+    <span class="badge"><span class="lang-en">✅ 4-Player Co-op</span><span class="lang-zh">✅ 支持四人联机</span></span>
+    <span class="badge"><span class="lang-en">🆕 Material Locations</span><span class="lang-zh">🆕 含材料产地</span></span>
   </div>
 </header>
 
 <!-- ══════════ MOBILE OVERLAY ══════════ -->
 <div class="sidebar-overlay" id="overlay"></div>
-<button class="menu-toggle" id="menuToggle">☰ 目录</button>
+<button class="menu-toggle" id="menuToggle">☰ <span class="lang-en">Menu</span><span class="lang-zh">目录</span></button>
 
 <!-- ══════════ PAGE LAYOUT ══════════ -->
 <div class="page-layout">
@@ -582,85 +606,82 @@ footer {
 <!-- ────────────────────────────────────
      LEFT SIDEBAR
 ────────────────────────────────────── -->
-<nav class="sidebar" id="sidebar" aria-label="章节导航">
+<nav class="sidebar" id="sidebar" aria-label="Navigation">
 
   <div class="sidebar-logo">
-    🌊 Subnautica 2 攻略
-    <span>Early Access 版 · 2026.05</span>
+    🌊 <span class="lang-en">Subnautica 2 Guide</span><span class="lang-zh">Subnautica 2 攻略</span>
+    <span><span class="lang-en">Early Access · May 2026</span><span class="lang-zh">Early Access 版 · 2026.05</span></span>
   </div>
 
-  <div class="nav-section-label">快速入口</div>
+  <div class="nav-section-label"><span class="lang-en">QUICK LINKS</span><span class="lang-zh">快速入口</span></div>
   <ul class="nav-list">
-    <li><a class="nav-link" href="#intro"><span class="nav-icon">📖</span>游戏简介</a></li>
-    <li><a class="nav-link" href="#firsthour"><span class="nav-icon">⏱️</span>第一小时清单</a></li>
+    <li><a class="nav-link" href="#intro"><span class="nav-icon">📖</span><span class="lang-en">Introduction</span><span class="lang-zh">游戏简介</span></a></li>
+    <li><a class="nav-link" href="#firsthour"><span class="nav-icon">⏱️</span><span class="lang-en">First Hour Checklist</span><span class="lang-zh">第一小时清单</span></a></li>
   </ul>
 
-  <div class="nav-section-label">主要章节</div>
+  <div class="nav-section-label"><span class="lang-en">MAIN SECTIONS</span><span class="lang-zh">主要章节</span></div>
   <ul class="nav-list">
     <li>
-      <a class="nav-link" href="#basics"><span class="nav-icon">🎮</span>1. 新手入门</a>
+      <a class="nav-link" href="#basics"><span class="nav-icon">🎮</span><span class="lang-en">1. Beginner Basics</span><span class="lang-zh">1. 新手入门</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#first-steps">开局5件事</a></li>
-        <li><a class="nav-sub-link" href="#ui-guide">界面说明</a></li>
-        <li><a class="nav-sub-link" href="#controls">按键操作</a></li>
+        <li><a class="nav-sub-link" href="#first-steps"><span class="lang-en">First 5 Things</span><span class="lang-zh">开局5件事</span></a></li>
+        <li><a class="nav-sub-link" href="#ui-guide"><span class="lang-en">HUD Guide</span><span class="lang-zh">界面说明</span></a></li>
+        <li><a class="nav-sub-link" href="#controls"><span class="lang-en">Controls</span><span class="lang-zh">按键操作</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#oxygen"><span class="nav-icon">🫁</span>2. 氧气与生存</a>
+      <a class="nav-link" href="#oxygen"><span class="nav-icon">🫁</span><span class="lang-en">2. Oxygen &amp; Survival</span><span class="lang-zh">2. 氧气与生存</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#o2-route">氧气装备路线</a></li>
-        <li><a class="nav-sub-link" href="#food-water">食物与饮水</a></li>
+        <li><a class="nav-sub-link" href="#o2-route"><span class="lang-en">Oxygen Upgrades</span><span class="lang-zh">氧气装备路线</span></a></li>
+        <li><a class="nav-sub-link" href="#food-water"><span class="lang-en">Food &amp; Water</span><span class="lang-zh">食物与饮水</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#crafting"><span class="nav-icon">⚗️</span>3. 合成系统详解</a>
+      <a class="nav-link" href="#crafting"><span class="nav-icon">⚗️</span><span class="lang-en">3. Crafting System</span><span class="lang-zh">3. 合成系统详解</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#stations">合成台介绍</a></li>
-        <li><a class="nav-sub-link" href="#materials">材料在哪里找</a></li>
-        <li><a class="nav-sub-link" href="#recipes">重要配方详解</a></li>
-        <li><a class="nav-sub-link" href="#craft-order">合成优先顺序</a></li>
+        <li><a class="nav-sub-link" href="#stations"><span class="lang-en">Crafting Stations</span><span class="lang-zh">合成台介绍</span></a></li>
+        <li><a class="nav-sub-link" href="#materials"><span class="lang-en">Where to Find Materials</span><span class="lang-zh">材料在哪里找</span></a></li>
+        <li><a class="nav-sub-link" href="#recipes"><span class="lang-en">Key Recipes</span><span class="lang-zh">重要配方详解</span></a></li>
+        <li><a class="nav-sub-link" href="#craft-order"><span class="lang-en">Craft Priority</span><span class="lang-zh">合成优先顺序</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#base"><span class="nav-icon">🏗️</span>4. 基地建设</a>
+      <a class="nav-link" href="#base"><span class="nav-icon">🏗️</span><span class="lang-en">4. Base Building</span><span class="lang-zh">4. 基地建设</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#base-location">选址要点</a></li>
-        <li><a class="nav-sub-link" href="#base-order">建造顺序</a></li>
-        <li><a class="nav-sub-link" href="#base-power">供电系统</a></li>
+        <li><a class="nav-sub-link" href="#base-location"><span class="lang-en">Location Tips</span><span class="lang-zh">选址要点</span></a></li>
+        <li><a class="nav-sub-link" href="#base-order"><span class="lang-en">Build Order</span><span class="lang-zh">建造顺序</span></a></li>
+        <li><a class="nav-sub-link" href="#base-power"><span class="lang-en">Power Systems</span><span class="lang-zh">供电系统</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#vehicles"><span class="nav-icon">🚢</span>5. 载具指南</a>
+      <a class="nav-link" href="#vehicles"><span class="nav-icon">🚢</span><span class="lang-en">5. Vehicle Guide</span><span class="lang-zh">5. 载具指南</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#seamoth">海蛾详解</a></li>
-        <li><a class="nav-sub-link" href="#deep-vehicles">深层载具</a></li>
+        <li><a class="nav-sub-link" href="#seamoth"><span class="lang-en">Seamoth Details</span><span class="lang-zh">海蛾详解</span></a></li>
+        <li><a class="nav-sub-link" href="#deep-vehicles"><span class="lang-en">Deep Vehicles</span><span class="lang-zh">深层载具</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#coop"><span class="nav-icon">👥</span>6. 联机技巧</a>
+      <a class="nav-link" href="#coop"><span class="nav-icon">👥</span><span class="lang-en">6. Co-op Strategies</span><span class="lang-zh">6. 联机技巧</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#coop-roles">分工方案</a></li>
-        <li><a class="nav-sub-link" href="#coop-tips">联机注意事项</a></li>
+        <li><a class="nav-sub-link" href="#coop-roles"><span class="lang-en">Role Division</span><span class="lang-zh">分工方案</span></a></li>
+        <li><a class="nav-sub-link" href="#coop-tips"><span class="lang-en">Co-op Tips</span><span class="lang-zh">联机注意事项</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#biomes"><span class="nav-icon">🌏</span>7. 生物群落</a>
+      <a class="nav-link" href="#biomes"><span class="nav-icon">🌏</span><span class="lang-en">7. Biomes</span><span class="lang-zh">7. 生物群落</span></a>
       <ul class="nav-sub">
-        <li><a class="nav-sub-link" href="#biome-list">各区域介绍</a></li>
-        <li><a class="nav-sub-link" href="#predators">危险生物</a></li>
+        <li><a class="nav-sub-link" href="#biome-list"><span class="lang-en">Biome List</span><span class="lang-zh">各区域介绍</span></a></li>
+        <li><a class="nav-sub-link" href="#predators"><span class="lang-en">Predators</span><span class="lang-zh">危险生物</span></a></li>
       </ul>
     </li>
     <li>
-      <a class="nav-link" href="#faq"><span class="nav-icon">❓</span>8. 新手常见问题</a>
-    </li>
-    <li>
-      <a class="nav-link" href="#deploy"><span class="nav-icon">🚀</span>9. 部署到 GitHub</a>
+      <a class="nav-link" href="#faq"><span class="nav-icon">❓</span><span class="lang-en">8. Beginner FAQ</span><span class="lang-zh">8. 新手常见问题</span></a>
     </li>
   </ul>
 
   <div class="sidebar-footer">
-    📅 更新：2026年5月<br>
-    基于 Subnautica 2 早期访问版
+    <span class="lang-en">📅 Updated: May 2026<br>Based on Subnautica 2 Early Access</span>
+    <span class="lang-zh">📅 更新：2026年5月<br>基于 Subnautica 2 早期访问版</span>
   </div>
 </nav>
 
@@ -670,162 +691,202 @@ footer {
 <main class="main-content">
 
   <!-- AD SLOT TOP -->
-  <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — 替换为 AdSense 代码 -->
-  <div class="ad-slot">📢 广告位 · 728×90 横幅广告</div>
+  <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — Replace with AdSense code -->
+  <div class="ad-slot"><span class="lang-en">📢 Ad Slot · 728×90 Banner</span><span class="lang-zh">📢 广告位 · 728×90 横幅广告</span></div>
 
-  <!-- ══ 游戏简介 ══ -->
+  <!-- ══ 游戏简介 / Introduction ══ -->
   <section id="intro">
     <div class="hero-image">
       <img
         src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
-        alt="Subnautica 2 游戏封面 — 2026年最热深海生存游戏，Steam历史并发第29位"
+        alt="Subnautica 2 — Top game May 2026, 467K peak concurrent on Steam"
         onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
       />
       <div class="hero-fallback" style="display:none;">🌊</div>
-      <div class="hero-caption">Subnautica 2 · 2026年5月14日抢先体验 · 图片来源：Steam 官方</div>
+      <div class="hero-caption"><span class="lang-en">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</span><span class="lang-zh">Subnautica 2 · 2026年5月14日抢先体验 · 图片来源：Steam 官方</span></div>
     </div>
 
-    <p style="margin-top:18px;">
-      <strong>Subnautica 2</strong> 是 Unknown Worlds 和 Krafton 联合开发的深海生存探索游戏，于 <strong>2026年5月14日</strong> 进入抢先体验（Early Access）。上市12小时内售出 <strong>200万份</strong>，Steam 历史峰值在线 <strong>467,582人</strong>，Twitch 同时观看峰值 <strong>413,200人</strong>，登上 Steam 历史并发排行第29位。
-    </p>
-    <p>
-      游戏延续第一代深海探索的核心体验，在全新的外星海洋星球上进行，并首次加入最多 <strong>4人联机</strong> 模式。你将从一个坠落的逃生舱开始，在没有地图、没有任务箭头的情况下，靠自己的探索在未知深海中生存下去。
-    </p>
-
-    <div class="tip-box">
-      <div class="box-label">💡 对新手说一句话</div>
-      游戏的"没有指引"设计是故意的，也是最好玩的部分。不要焦虑，也不要急着去深处——先把浅海玩透，装备自然就会解锁，进度自然会推进。
+    <div class="lang-en">
+      <p style="margin-top:18px;"><strong>Subnautica 2</strong> is a deep-sea survival exploration game developed by Unknown Worlds and Krafton, launching into Early Access on <strong>May 14, 2026</strong>. It sold <strong>2 million copies</strong> in the first 12 hours, peaked at <strong>467,582 concurrent players</strong> on Steam (all-time rank #29), and hit <strong>413,200 simultaneous Twitch viewers</strong>.</p>
+      <p>Building on the original's beloved exploration formula, Subnautica 2 drops you on a brand-new alien ocean planet — now with <strong>up to 4-player co-op</strong>. Starting from a crashed escape pod with no map and no quest markers, you'll survive by crafting gear, building a base, and exploring the unknown depths.</p>
+      <div class="tip-box">
+        <div class="box-label">💡 A word for new players</div>
+        No quest markers is intentional — and it's the best part. Don't panic, don't rush into the deep. Master the shallows first, and gear will unlock naturally as you go.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <p style="margin-top:18px;">
+        <strong>Subnautica 2</strong> 是 Unknown Worlds 和 Krafton 联合开发的深海生存探索游戏，于 <strong>2026年5月14日</strong> 进入抢先体验（Early Access）。上市12小时内售出 <strong>200万份</strong>，Steam 历史峰值在线 <strong>467,582人</strong>，Twitch 同时观看峰值 <strong>413,200人</strong>，登上 Steam 历史并发排行第29位。
+      </p>
+      <p>游戏延续第一代深海探索的核心体验，在全新的外星海洋星球上进行，并首次加入最多 <strong>4人联机</strong> 模式。你将从一个坠落的逃生舱开始，在没有地图、没有任务箭头的情况下，靠自己的探索在未知深海中生存下去。</p>
+      <div class="tip-box">
+        <div class="box-label">💡 对新手说一句话</div>
+        游戏的"没有指引"设计是故意的，也是最好玩的部分。不要焦虑，也不要急着去深处——先把浅海玩透，装备自然就会解锁，进度自然会推进。
+      </div>
     </div>
   </section>
 
-  <!-- ══ 第一小时清单 ══ -->
+  <!-- ══ First Hour Checklist ══ -->
   <section id="firsthour">
     <div class="section-banner banner-bg-basics">
       <div class="banner-icon">⏱️</div>
       <div>
-        <h2 class="banner-title">第一小时清单</h2>
-        <div class="banner-sub">从落地到站稳脚跟的完整路线图</div>
+        <h2 class="banner-title"><span class="lang-en">First Hour Checklist</span><span class="lang-zh">第一小时清单</span></h2>
+        <div class="banner-sub"><span class="lang-en">Step-by-step roadmap from landing to getting stable</span><span class="lang-zh">从落地到站稳脚跟的完整路线图</span></div>
       </div>
     </div>
 
-    <p>很多新手开局不知道该做什么，这里给你一个分钟级的行动计划，照着做就能度过最危险的早期阶段。</p>
+    <div class="lang-en"><p>Not sure what to do at the start? Here's a minute-by-minute action plan to get you through the most dangerous early phase.</p></div>
+    <div class="lang-zh"><p>很多新手开局不知道该做什么，这里给你一个分钟级的行动计划，照着做就能度过最危险的早期阶段。</p></div>
 
     <ul class="checklist">
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">0–3分钟</div>
-        <div>打开逃生舱里所有储物箱，拿走全部物品。特别注意：<strong>急救包、营养棒</strong>一定要拿，这是你最早的续命道具。</div>
+        <div class="check-time">0–3 min</div>
+        <div>
+          <div class="lang-en">Open every locker in the escape pod. Grab everything — especially the <strong>medkit and nutrition bar</strong>. These are your first lifelines.</div>
+          <div class="lang-zh">打开逃生舱里所有储物箱，拿走全部物品。特别注意：<strong>急救包、营养棒</strong>一定要拿，这是你最早的续命道具。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">3–5分钟</div>
-        <div>按 <strong>Tab</strong> 打开 PDA，读完所有<strong>生存警报</strong>。游戏里没有任务栏，PDA 就是你的任务书。</div>
+        <div class="check-time">3–5 min</div>
+        <div>
+          <div class="lang-en">Press <strong>Tab</strong> to open the PDA. Read all <strong>survival alerts</strong> — the PDA is your quest log. There's no quest tracker in this game.</div>
+          <div class="lang-zh">按 <strong>Tab</strong> 打开 PDA，读完所有<strong>生存警报</strong>。游戏里没有任务栏，PDA 就是你的任务书。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">5–15分钟</div>
-        <div>在逃生舱附近 <strong>0–30米</strong> 范围下水，捡起橙色岩石（<strong>钛矿石</strong>）和绿斑岩石（<strong>铜矿</strong>），各捡5块以上。这个深度很安全，不用担心氧气。</div>
+        <div class="check-time">5–15 min</div>
+        <div>
+          <div class="lang-en">Dive in the <strong>0–30m</strong> zone near the pod. Collect orange rocks (<strong>Titanium</strong>) and green-spotted rocks (<strong>Copper Ore</strong>), at least 5 of each. This depth is safe — no oxygen worries.</div>
+          <div class="lang-zh">在逃生舱附近 <strong>0–30米</strong> 范围下水，捡起橙色岩石（<strong>钛矿石</strong>）和绿斑岩石（<strong>铜矿</strong>），各捡5块以上。这个深度很安全，不用担心氧气。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">15–20分钟</div>
-        <div>用随身合成器合成：<strong>标准氧气罐（钛×1）</strong>。马上装备，潜水时间立刻延长。这是全游戏第一优先级合成。</div>
+        <div class="check-time">15–20 min</div>
+        <div>
+          <div class="lang-en">Craft a <strong>Standard O₂ Tank (Titanium ×1)</strong> in your fabricator. Equip it immediately — extends dive time right away. This is the #1 priority craft.</div>
+          <div class="lang-zh">用随身合成器合成：<strong>标准氧气罐（钛×1）</strong>。马上装备，潜水时间立刻延长。这是全游戏第一优先级合成。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">20–25分钟</div>
-        <div>合成<strong>刀具</strong>（钛×1 + 硅胶×1）。硅胶来自逃生舱附近的<strong>橙色蘑菇状植物</strong>，用手直接采摘。刀可以采集植物，也能击退小鱼。</div>
+        <div class="check-time">20–25 min</div>
+        <div>
+          <div class="lang-en">Craft a <strong>Knife (Titanium ×1 + Silicone ×1)</strong>. Silicone comes from the <strong>orange mushroom-like plants</strong> near the pod — harvest by hand. The knife lets you collect plant samples and fend off small fish.</div>
+          <div class="lang-zh">合成<strong>刀具</strong>（钛×1 + 硅胶×1）。硅胶来自逃生舱附近的<strong>橙色蘑菇状植物</strong>，用手直接采摘。刀可以采集植物，也能击退小鱼。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">25–35分钟</div>
-        <div>在逃生舱外放置一个<strong>信标（Beacon）</strong>（铜×1 + 钛×1），防止你以后找不到回家的路。这一步很重要，很多新手第一次探索就迷路了。</div>
+        <div class="check-time">25–35 min</div>
+        <div>
+          <div class="lang-en">Place a <strong>Beacon (Copper ×1 + Titanium ×1)</strong> outside your pod so you can always find home. Many beginners get lost on their very first dive.</div>
+          <div class="lang-zh">在逃生舱外放置一个<strong>信标（Beacon）</strong>（铜×1 + 钛×1），防止你以后找不到回家的路。这一步很重要，很多新手第一次探索就迷路了。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">35–50分钟</div>
-        <div>合成<strong>扫描仪</strong>（钛×1 + 电池×1），电池需要 铜×2 + 酸性蘑菇×2。开始扫描周围的<strong>生物和植物</strong>，扫描完成后 PDA 会解锁相关条目，有时会触发新图纸。</div>
+        <div class="check-time">35–50 min</div>
+        <div>
+          <div class="lang-en">Craft a <strong>Scanner (Titanium ×1 + Battery ×1)</strong>. Battery needs Copper ×2 + Acid Mushroom ×2. Start scanning <strong>creatures and plants</strong> — each scan unlocks PDA entries and sometimes new blueprints.</div>
+          <div class="lang-zh">合成<strong>扫描仪</strong>（钛×1 + 电池×1），电池需要 铜×2 + 酸性蘑菇×2。开始扫描周围的<strong>生物和植物</strong>，扫描完成后 PDA 会解锁相关条目，有时会触发新图纸。</div>
+        </div>
       </li>
       <li>
         <div class="check-bullet"></div>
-        <div class="check-time">50–60分钟</div>
-        <div>找一块相对平坦的海底，放置你的第一个<strong>基础舱（Base Foundation）</strong>。别担心选址不完美——早期基地随时可以拆了重建，关键是现在就开始积累合成台。</div>
+        <div class="check-time">50–60 min</div>
+        <div>
+          <div class="lang-en">Find a flat patch of seabed and place your first <strong>Base Foundation</strong>. Don't worry about the perfect spot — early bases can always be rebuilt. The goal is to start accumulating crafting stations.</div>
+          <div class="lang-zh">找一块相对平坦的海底，放置你的第一个<strong>基础舱（Base Foundation）</strong>。别担心选址不完美——早期基地随时可以拆了重建，关键是现在就开始积累合成台。</div>
+        </div>
       </li>
     </ul>
 
-    <div class="tip-box">
-      <div class="box-label">💡 第一小时结束后你应该拥有</div>
-      标准氧气罐、刀具、扫描仪、信标（×1个）、第一个基础舱雏形。如果这些都有了，你的开局是成功的。
+    <div class="lang-en">
+      <div class="tip-box">
+        <div class="box-label">💡 By end of hour one you should have</div>
+        Standard O₂ Tank, Knife, Scanner, 1× Beacon, and the start of your first base. If you have all of these, your start is a success.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="tip-box">
+        <div class="box-label">💡 第一小时结束后你应该拥有</div>
+        标准氧气罐、刀具、扫描仪、信标（×1个）、第一个基础舱雏形。如果这些都有了，你的开局是成功的。
+      </div>
     </div>
   </section>
 
   <!-- AD SLOT MID-1 -->
-  <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — 替换为 AdSense 代码 -->
-  <div class="ad-slot">📢 广告位 · 300×250 矩形广告</div>
+  <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — Replace with AdSense code -->
+  <div class="ad-slot"><span class="lang-en">📢 Ad Slot · 300×250 Rectangle</span><span class="lang-zh">📢 广告位 · 300×250 矩形广告</span></div>
 
   <!-- ══ Section 1: Basics ══ -->
   <section id="basics">
     <div class="section-banner banner-bg-basics">
       <div class="banner-icon">🎮</div>
       <div>
-        <h2 class="banner-title">1. 新手入门 — 游戏基础</h2>
-        <div class="banner-sub">开局做什么 · 界面说明 · 按键指南</div>
+        <h2 class="banner-title"><span class="lang-en">1. Beginner Basics — Core Gameplay</span><span class="lang-zh">1. 新手入门 — 游戏基础</span></h2>
+        <div class="banner-sub"><span class="lang-en">What to do first · HUD explained · Key controls</span><span class="lang-zh">开局做什么 · 界面说明 · 按键指南</span></div>
       </div>
     </div>
 
-    <h3 id="first-steps">刚开始要做的 5 件事</h3>
+    <h3 id="first-steps"><span class="lang-en">First 5 Things To Do</span><span class="lang-zh">刚开始要做的 5 件事</span></h3>
     <ol class="step-list">
-      <li>检查逃生舱内的所有储物箱，拿走<strong>急救包、营养棒和基础材料</strong>。</li>
-      <li>按 <strong>Tab</strong> 打开 PDA，阅读系统自动发送的<strong>生存警报</strong>，了解当前优先任务。</li>
-      <li>在舱外浅海（0–30 米）采集<strong>石英、钛矿石、铜矿</strong>，这是合成一切的基础。</li>
-      <li>合成<strong>氧气罐</strong>（需要钛×1），这是最优先的合成目标，马上扩充潜水时间。</li>
-      <li>在逃生舱周围放置一个<strong>信标</strong>，防止迷路找不到回家的路。</li>
+      <li><span class="lang-en">Search every locker in the escape pod and grab the <strong>medkit, nutrition bar, and basic materials</strong>.</span><span class="lang-zh">检查逃生舱内的所有储物箱，拿走<strong>急救包、营养棒和基础材料</strong>。</span></li>
+      <li><span class="lang-en">Press <strong>Tab</strong> to open the PDA and read all <strong>survival alerts</strong> — this is your mission log.</span><span class="lang-zh">按 <strong>Tab</strong> 打开 PDA，阅读系统自动发送的<strong>生存警报</strong>，了解当前优先任务。</span></li>
+      <li><span class="lang-en">Dive in the shallows (0–30m) and collect <strong>Quartz, Titanium, and Copper</strong> — these craft everything.</span><span class="lang-zh">在舱外浅海（0–30 米）采集<strong>石英、钛矿石、铜矿</strong>，这是合成一切的基础。</span></li>
+      <li><span class="lang-en">Craft an <strong>O₂ Tank</strong> (Titanium ×1) — your #1 priority. Extends dive time immediately.</span><span class="lang-zh">合成<strong>氧气罐</strong>（需要钛×1），这是最优先的合成目标，马上扩充潜水时间。</span></li>
+      <li><span class="lang-en">Place a <strong>Beacon</strong> near your pod so you can always find your way back.</span><span class="lang-zh">在逃生舱周围放置一个<strong>信标</strong>，防止迷路找不到回家的路。</span></li>
     </ol>
 
-    <h3 id="ui-guide">界面说明</h3>
+    <h3 id="ui-guide"><span class="lang-en">HUD Explained</span><span class="lang-zh">界面说明</span></h3>
     <div class="card-grid">
       <div class="card">
         <div class="icon">💨</div>
-        <h4>氧气条（蓝色）</h4>
-        <p>屏幕左侧，在水面可自动回复。越深消耗越快，快没了赶紧上浮！</p>
+        <h4><span class="lang-en">Oxygen Bar (Blue)</span><span class="lang-zh">氧气条（蓝色）</span></h4>
+        <p><span class="lang-en">Left side. Auto-refills at surface. The deeper you go, the faster it drains — surface when it's running low!</span><span class="lang-zh">屏幕左侧，在水面可自动回复。越深消耗越快，快没了赶紧上浮！</span></p>
       </div>
       <div class="card">
         <div class="icon">🍔</div>
-        <h4>食物条</h4>
-        <p>右侧橙色条。耗尽会减速和掉血，但不像氧气那么紧急，别慌。</p>
+        <h4><span class="lang-en">Food Bar</span><span class="lang-zh">食物条</span></h4>
+        <p><span class="lang-en">Orange bar, right side. Depletes slowly — you'll slow and take damage if empty, but it's less urgent than oxygen.</span><span class="lang-zh">右侧橙色条。耗尽会减速和掉血，但不像氧气那么紧急，别慌。</span></p>
       </div>
       <div class="card">
         <div class="icon">💧</div>
-        <h4>水分条</h4>
-        <p>右侧蓝色条。喝水或净化海水补充，耗尽比食物更危险。</p>
+        <h4><span class="lang-en">Water Bar</span><span class="lang-zh">水分条</span></h4>
+        <p><span class="lang-en">Blue bar, right side. Drink filtered water to refill. Depleting it is more dangerous than food — don't ignore it.</span><span class="lang-zh">右侧蓝色条。喝水或净化海水补充，耗尽比食物更危险。</span></p>
       </div>
       <div class="card">
         <div class="icon">❤️</div>
-        <h4>生命值（红色）</h4>
-        <p>被生物咬或撞载具会减少，急救包回复。不冒险基本不会掉。</p>
+        <h4><span class="lang-en">Health (Red)</span><span class="lang-zh">生命值（红色）</span></h4>
+        <p><span class="lang-en">Decreases from creature attacks or vehicle collisions. Medkits restore. Rarely drains if you play carefully.</span><span class="lang-zh">被生物咬或撞载具会减少，急救包回复。不冒险基本不会掉。</span></p>
       </div>
       <div class="card">
         <div class="icon">🌡️</div>
-        <h4>温度警告</h4>
-        <p>深层热泉区才出现，早期不用担心。出现时赶紧离开热泉区域。</p>
+        <h4><span class="lang-en">Temperature Warning</span><span class="lang-zh">温度警告</span></h4>
+        <p><span class="lang-en">Only appears in deep thermal vent zones — not a concern early on. Leave the area if it appears.</span><span class="lang-zh">深层热泉区才出现，早期不用担心。出现时赶紧离开热泉区域。</span></p>
       </div>
       <div class="card">
         <div class="icon">📱</div>
-        <h4>PDA（Tab键）</h4>
-        <p>游戏的"任务书"，所有数据、图纸、故事线都在这里，多读！</p>
+        <h4><span class="lang-en">PDA (Tab key)</span><span class="lang-zh">PDA（Tab键）</span></h4>
+        <p><span class="lang-en">Your quest journal — all data entries, blueprints, and story content live here. Read everything.</span><span class="lang-zh">游戏的"任务书"，所有数据、图纸、故事线都在这里，多读！</span></p>
       </div>
     </div>
 
-    <h3 id="controls">按键速查</h3>
+    <h3 id="controls"><span class="lang-en">Quick Controls</span><span class="lang-zh">按键速查</span></h3>
     <table>
-      <thead><tr><th>按键</th><th>功能</th><th>新手提示</th></tr></thead>
+      <thead><tr><th><span class="lang-en">Key</span><span class="lang-zh">按键</span></th><th><span class="lang-en">Function</span><span class="lang-zh">功能</span></th><th><span class="lang-en">Beginner Tip</span><span class="lang-zh">新手提示</span></th></tr></thead>
       <tbody>
-        <tr><td><strong>Tab</strong></td><td>打开 PDA</td><td>经常开，里面信息很重要</td></tr>
-        <tr><td><strong>Q/E</strong></td><td>上浮/下潜（水中）</td><td>氧气快没了猛按 Q 上浮</td></tr>
-        <tr><td><strong>F</strong></td><td>与物体互动 / 拾取</td><td>靠近物体时会有提示</td></tr>
-        <tr><td><strong>B</strong></td><td>放置信标</td><td>探索前先放信标再走</td></tr>
-        <tr><td><strong>X</strong></td><td>打开合成器</td><td>背包里随时可以合成</td></tr>
-        <tr><td><strong>鼠标滚轮</strong></td><td>切换工具栏物品</td><td>把常用物品放工具栏第1-5格</td></tr>
+        <tr><td><strong>Tab</strong></td><td><span class="lang-en">Open PDA</span><span class="lang-zh">打开 PDA</span></td><td><span class="lang-en">Open often — it has critical info</span><span class="lang-zh">经常开，里面信息很重要</span></td></tr>
+        <tr><td><strong>Q/E</strong></td><td><span class="lang-en">Ascend/Descend (in water)</span><span class="lang-zh">上浮/下潜（水中）</span></td><td><span class="lang-en">Spam Q to surface when oxygen is low</span><span class="lang-zh">氧气快没了猛按 Q 上浮</span></td></tr>
+        <tr><td><strong>F</strong></td><td><span class="lang-en">Interact / Pick up</span><span class="lang-zh">与物体互动 / 拾取</span></td><td><span class="lang-en">Prompt appears when near objects</span><span class="lang-zh">靠近物体时会有提示</span></td></tr>
+        <tr><td><strong>B</strong></td><td><span class="lang-en">Place Beacon</span><span class="lang-zh">放置信标</span></td><td><span class="lang-en">Place one before exploring</span><span class="lang-zh">探索前先放信标再走</span></td></tr>
+        <tr><td><strong>X</strong></td><td><span class="lang-en">Open Fabricator</span><span class="lang-zh">打开合成器</span></td><td><span class="lang-en">Craft anytime from your backpack</span><span class="lang-zh">背包里随时可以合成</span></td></tr>
+        <tr><td><span class="lang-en">Mouse Wheel</span><span class="lang-zh">鼠标滚轮</span></td><td><span class="lang-en">Switch toolbar item</span><span class="lang-zh">切换工具栏物品</span></td><td><span class="lang-en">Put essentials in slots 1–5</span><span class="lang-zh">把常用物品放工具栏第1-5格</span></td></tr>
       </tbody>
     </table>
   </section>
@@ -835,43 +896,74 @@ footer {
     <div class="section-banner banner-bg-oxygen">
       <div class="banner-icon">🫁</div>
       <div>
-        <h2 class="banner-title">2. 氧气与生存管理</h2>
-        <div class="banner-sub">潜水时间 · 食物饮水 · 不再溺死的秘诀</div>
+        <h2 class="banner-title"><span class="lang-en">2. Oxygen &amp; Survival Management</span><span class="lang-zh">2. 氧气与生存管理</span></h2>
+        <div class="banner-sub"><span class="lang-en">Dive time · Food &amp; water · How to stop drowning</span><span class="lang-zh">潜水时间 · 食物饮水 · 不再溺死的秘诀</span></div>
       </div>
     </div>
 
-    <p>Subnautica 2 最容易死亡的原因是<strong>溺死</strong>，而不是被生物攻击。管好氧气，你就能活很久。</p>
+    <div class="lang-en"><p>The #1 cause of death in Subnautica 2 is <strong>drowning</strong>, not creatures. Manage your oxygen and you'll survive almost anything.</p></div>
+    <div class="lang-zh"><p>Subnautica 2 最容易死亡的原因是<strong>溺死</strong>，而不是被生物攻击。管好氧气，你就能活很久。</p></div>
 
-    <div class="warn-box">
-      <div class="box-label">⚠️ 新手最常见死法</div>
-      探索太投入忘看氧气条，等发现只剩一点点时已经来不及上浮。<strong>氧气条低于30%就要往上游</strong>，养成习惯。
+    <div class="lang-en">
+      <div class="warn-box">
+        <div class="box-label">⚠️ Most Common Beginner Death</div>
+        Getting absorbed in exploration and forgetting to check your oxygen. By the time you notice it's nearly gone, it's too late to surface. <strong>Start ascending when oxygen hits 30%</strong> — make it a habit.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="warn-box">
+        <div class="box-label">⚠️ 新手最常见死法</div>
+        探索太投入忘看氧气条，等发现只剩一点点时已经来不及上浮。<strong>氧气条低于30%就要往上游</strong>，养成习惯。
+      </div>
     </div>
 
-    <h3 id="o2-route">氧气装备升级路线</h3>
+    <h3 id="o2-route"><span class="lang-en">Oxygen Equipment Upgrade Path</span><span class="lang-zh">氧气装备升级路线</span></h3>
     <table>
       <thead>
-        <tr><th>装备</th><th>所需材料</th><th>增加潜水时间</th><th>何时获取</th></tr>
+        <tr><th><span class="lang-en">Equipment</span><span class="lang-zh">装备</span></th><th><span class="lang-en">Materials</span><span class="lang-zh">所需材料</span></th><th><span class="lang-en">Dive Time Added</span><span class="lang-zh">增加潜水时间</span></th><th><span class="lang-en">When to Get</span><span class="lang-zh">何时获取</span></th></tr>
       </thead>
       <tbody>
-        <tr><td>🔵 标准氧气罐</td><td>钛 ×1</td><td>+30秒</td><td>开局第一优先</td></tr>
-        <tr><td>🔷 高容量氧气罐</td><td>钛 ×3 + 玻璃 ×1</td><td>+90秒</td><td>前30分钟合成</td></tr>
-        <tr><td>🔶 超高容量罐</td><td>高容量罐 ×2</td><td>+180秒</td><td>中期主力装备</td></tr>
-        <tr><td>♻️ 再呼吸器</td><td>铜 ×2 + 钛 ×1</td><td>消耗速度减半</td><td>中期辅助神器</td></tr>
+        <tr><td>🔵 <span class="lang-en">Standard O₂ Tank</span><span class="lang-zh">标准氧气罐</span></td><td><span class="lang-en">Titanium ×1</span><span class="lang-zh">钛 ×1</span></td><td>+30<span class="lang-en"> sec</span><span class="lang-zh">秒</span></td><td><span class="lang-en">First priority</span><span class="lang-zh">开局第一优先</span></td></tr>
+        <tr><td>🔷 <span class="lang-en">High Cap O₂ Tank</span><span class="lang-zh">高容量氧气罐</span></td><td><span class="lang-en">Titanium ×3 + Glass ×1</span><span class="lang-zh">钛 ×3 + 玻璃 ×1</span></td><td>+90<span class="lang-en"> sec</span><span class="lang-zh">秒</span></td><td><span class="lang-en">Within first 30 min</span><span class="lang-zh">前30分钟合成</span></td></tr>
+        <tr><td>🔶 <span class="lang-en">Ultra High Cap Tank</span><span class="lang-zh">超高容量罐</span></td><td><span class="lang-en">High Cap ×2</span><span class="lang-zh">高容量罐 ×2</span></td><td>+180<span class="lang-en"> sec</span><span class="lang-zh">秒</span></td><td><span class="lang-en">Mid-game primary</span><span class="lang-zh">中期主力装备</span></td></tr>
+        <tr><td>♻️ <span class="lang-en">Rebreather</span><span class="lang-zh">再呼吸器</span></td><td><span class="lang-en">Copper ×2 + Titanium ×1</span><span class="lang-zh">铜 ×2 + 钛 ×1</span></td><td><span class="lang-en">Halves consumption</span><span class="lang-zh">消耗速度减半</span></td><td><span class="lang-en">Mid-game utility</span><span class="lang-zh">中期辅助神器</span></td></tr>
       </tbody>
     </table>
 
-    <div class="tip-box">
-      <div class="box-label">💡 玻璃怎么合成？</div>
-      玻璃 = 石英 ×2，在随身合成器就能做。石英是白色半透明晶体，在浅海沙地大量分布，很好认。
+    <div class="lang-en">
+      <div class="tip-box">
+        <div class="box-label">💡 How to craft Glass?</div>
+        Glass = Quartz ×2, made in your personal fabricator. Quartz is the white transparent crystal scattered on shallow sandy floors — very easy to spot.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="tip-box">
+        <div class="box-label">💡 玻璃怎么合成？</div>
+        玻璃 = 石英 ×2，在随身合成器就能做。石英是白色半透明晶体，在浅海沙地大量分布，很好认。
+      </div>
     </div>
 
-    <h3 id="food-water">食物与饮水指南</h3>
-    <p><strong>早期（0–1小时）：</strong> 靠逃生舱里的营养棒撑一段时间。同时捡浅海里漂着的<strong>橙色浆果</strong>（直接食用），喝用<strong>过滤瓶</strong>净化的海水。</p>
-    <p><strong>中期（1–5小时）：</strong> 在基地里建<strong>生物反应舱</strong>，种植外星菌菇。一旦建好，食物问题永久解决。</p>
+    <h3 id="food-water"><span class="lang-en">Food &amp; Water Guide</span><span class="lang-zh">食物与饮水指南</span></h3>
+    <div class="lang-en">
+      <p><strong>Early game (0–1 hr):</strong> Rely on pod nutrition bars. Grab the <strong>orange berries</strong> floating in shallow water (eat directly), and drink seawater filtered through a <strong>Filter Bottle</strong>.</p>
+      <p><strong>Mid-game (1–5 hr):</strong> Build a <strong>Bioreactor</strong> in your base and grow alien mushrooms. Once set up, food is no longer a concern.</p>
+    </div>
+    <div class="lang-zh">
+      <p><strong>早期（0–1小时）：</strong> 靠逃生舱里的营养棒撑一段时间。同时捡浅海里漂着的<strong>橙色浆果</strong>（直接食用），喝用<strong>过滤瓶</strong>净化的海水。</p>
+      <p><strong>中期（1–5小时）：</strong> 在基地里建<strong>生物反应舱</strong>，种植外星菌菇。一旦建好，食物问题永久解决。</p>
+    </div>
 
-    <div class="warn-box">
-      <div class="box-label">⚠️ 不要直接喝海水</div>
-      外星星球海水盐度极高，直接喝会<strong>加速脱水</strong>！必须用<strong>过滤瓶</strong>（铜×1 + 钛×1 + 硅胶×1）净化后再喝。
+    <div class="lang-en">
+      <div class="warn-box">
+        <div class="box-label">⚠️ Never Drink Raw Seawater</div>
+        The alien ocean is hyper-saline — drinking it raw <strong>accelerates dehydration</strong>! Always filter through a <strong>Filter Bottle</strong> (Copper ×1 + Titanium ×1 + Silicone ×1) first.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="warn-box">
+        <div class="box-label">⚠️ 不要直接喝海水</div>
+        外星星球海水盐度极高，直接喝会<strong>加速脱水</strong>！必须用<strong>过滤瓶</strong>（铜×1 + 钛×1 + 硅胶×1）净化后再喝。
+      </div>
     </div>
   </section>
 
@@ -880,106 +972,108 @@ footer {
     <div class="section-banner banner-bg-crafting">
       <div class="banner-icon">⚗️</div>
       <div>
-        <h2 class="banner-title">3. 合成系统详解</h2>
-        <div class="banner-sub">配方 · 材料在哪里找 · 合成优先顺序</div>
+        <h2 class="banner-title"><span class="lang-en">3. Crafting System In Depth</span><span class="lang-zh">3. 合成系统详解</span></h2>
+        <div class="banner-sub"><span class="lang-en">Recipes · Where to find materials · Craft priority</span><span class="lang-zh">配方 · 材料在哪里找 · 合成优先顺序</span></div>
       </div>
     </div>
 
-    <h3 id="stations">合成台介绍：三级体系</h3>
+    <h3 id="stations"><span class="lang-en">Crafting Stations: Three Tiers</span><span class="lang-zh">合成台介绍：三级体系</span></h3>
     <div class="card-grid">
       <div class="card">
         <div class="icon">🎒</div>
-        <h4>随身合成器</h4>
-        <p>按 X 打开，随时随地可用。合成基础工具和早期装备，不需要基地。</p>
+        <h4><span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></h4>
+        <p><span class="lang-en">Press X, use anywhere. Crafts basic tools and early gear — no base required.</span><span class="lang-zh">按 X 打开，随时随地可用。合成基础工具和早期装备，不需要基地。</span></p>
       </div>
       <div class="card">
         <div class="icon">🔧</div>
-        <h4>工作台</h4>
-        <p>需要放置在基地内。解锁中级图纸（海蛾、基础舱扩展等），是中期核心。</p>
+        <h4><span class="lang-en">Workbench</span><span class="lang-zh">工作台</span></h4>
+        <p><span class="lang-en">Placed inside a base. Unlocks mid-tier blueprints (Seamoth, base expansions). Core mid-game station.</span><span class="lang-zh">需要放置在基地内。解锁中级图纸（海蛾、基础舱扩展等），是中期核心。</span></p>
       </div>
       <div class="card">
         <div class="icon">🏭</div>
-        <h4>改装站</h4>
-        <p>高级装备和载具改装在这里做。后期必备，用于制作深层装备。</p>
+        <h4><span class="lang-en">Modification Station</span><span class="lang-zh">改装站</span></h4>
+        <p><span class="lang-en">Advanced gear and vehicle upgrades. End-game essential for deep-dive equipment.</span><span class="lang-zh">高级装备和载具改装在这里做。后期必备，用于制作深层装备。</span></p>
       </div>
     </div>
 
-    <h3 id="materials">材料在哪里找？完整指南</h3>
-    <p>这是新手最常困惑的问题。以下每种材料都标注了<strong>外观、具体位置和采集难度</strong>：</p>
+    <h3 id="materials"><span class="lang-en">Where to Find Materials — Complete Guide</span><span class="lang-zh">材料在哪里找？完整指南</span></h3>
+    <div class="lang-en"><p>The most common beginner question. Every material below includes its <strong>appearance, exact location, and difficulty</strong>:</p></div>
+    <div class="lang-zh"><p>这是新手最常困惑的问题。以下每种材料都标注了<strong>外观、具体位置和采集难度</strong>：</p></div>
 
     <table>
       <thead>
-        <tr><th>材料</th><th>外观特征</th><th>在哪里找</th><th>深度</th><th>难度</th></tr>
+        <tr><th><span class="lang-en">Material</span><span class="lang-zh">材料</span></th><th><span class="lang-en">Appearance</span><span class="lang-zh">外观特征</span></th><th><span class="lang-en">Where to Find</span><span class="lang-zh">在哪里找</span></th><th><span class="lang-en">Depth</span><span class="lang-zh">深度</span></th><th><span class="lang-en">Difficulty</span><span class="lang-zh">难度</span></th></tr>
       </thead>
       <tbody>
         <tr>
-          <td>🟠 <strong>钛矿石</strong></td>
-          <td>橙棕色岩块，有金属光泽</td>
-          <td>浅海礁石底部、礁石表面大量分布，随处可见</td>
+          <td>🟠 <strong><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></strong></td>
+          <td><span class="lang-en">Orange-brown rock with metallic sheen</span><span class="lang-zh">橙棕色岩块，有金属光泽</span></td>
+          <td><span class="lang-en">Abundant on shallow reef floors — everywhere</span><span class="lang-zh">浅海礁石底部、礁石表面大量分布，随处可见</span></td>
           <td>0–100m</td>
-          <td><span class="diff-badge diff-easy">简单</span></td>
+          <td><span class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></span></td>
         </tr>
         <tr>
-          <td>🟢 <strong>铜矿石</strong></td>
-          <td>绿色斑点岩，表面有孔洞</td>
-          <td>礁石区和沙地交界处，和钛矿石同一区域</td>
+          <td>🟢 <strong><span class="lang-en">Copper Ore</span><span class="lang-zh">铜矿石</span></strong></td>
+          <td><span class="lang-en">Green-spotted rock with pores</span><span class="lang-zh">绿色斑点岩，表面有孔洞</span></td>
+          <td><span class="lang-en">Where reef meets sandy floor, same zone as Titanium</span><span class="lang-zh">礁石区和沙地交界处，和钛矿石同一区域</span></td>
           <td>0–150m</td>
-          <td><span class="diff-badge diff-easy">简单</span></td>
+          <td><span class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></span></td>
         </tr>
         <tr>
-          <td>⚪ <strong>石英</strong></td>
-          <td>白色半透明晶体，像玻璃碎片</td>
-          <td>浅海沙地上大量散布，很容易辨认</td>
+          <td>⚪ <strong><span class="lang-en">Quartz</span><span class="lang-zh">石英</span></strong></td>
+          <td><span class="lang-en">White translucent crystal, like glass shards</span><span class="lang-zh">白色半透明晶体，像玻璃碎片</span></td>
+          <td><span class="lang-en">Scattered across shallow sandy floors</span><span class="lang-zh">浅海沙地上大量散布，很容易辨认</span></td>
           <td>0–80m</td>
-          <td><span class="diff-badge diff-easy">简单</span></td>
+          <td><span class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></span></td>
         </tr>
         <tr>
-          <td>🍄 <strong>硅胶</strong>（橡胶）</td>
-          <td>不是矿石！是橙色蘑菇状植物的分泌物</td>
-          <td>用刀砍橙色海底蘑菇植物即可采集</td>
+          <td>🍄 <strong><span class="lang-en">Silicone Rubber</span><span class="lang-zh">硅胶</span></strong></td>
+          <td><span class="lang-en">NOT a rock — from orange mushroom-like plants</span><span class="lang-zh">不是矿石！是橙色蘑菇状植物的分泌物</span></td>
+          <td><span class="lang-en">Use knife on orange sea mushroom plants</span><span class="lang-zh">用刀砍橙色海底蘑菇植物即可采集</span></td>
           <td>0–60m</td>
-          <td><span class="diff-badge diff-easy">简单</span></td>
+          <td><span class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></span></td>
         </tr>
         <tr>
-          <td>🍋 <strong>酸性蘑菇</strong></td>
-          <td>黄绿色发光小蘑菇，成片生长</td>
-          <td>礁石阴暗面和洞穴入口附近</td>
+          <td>🍋 <strong><span class="lang-en">Acid Mushroom</span><span class="lang-zh">酸性蘑菇</span></strong></td>
+          <td><span class="lang-en">Yellow-green glowing small mushrooms in clusters</span><span class="lang-zh">黄绿色发光小蘑菇，成片生长</span></td>
+          <td><span class="lang-en">Shaded sides of reefs and near cave entrances</span><span class="lang-zh">礁石阴暗面和洞穴入口附近</span></td>
           <td>0–100m</td>
-          <td><span class="diff-badge diff-easy">简单</span></td>
+          <td><span class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></span></td>
         </tr>
         <tr>
-          <td>⚡ <strong>磁铁矿</strong></td>
-          <td>黑色八面体晶体，会轻微发光</td>
-          <td>磁力异常区（指南针会乱转的地方），找异常区域</td>
+          <td>⚡ <strong><span class="lang-en">Magnetite</span><span class="lang-zh">磁铁矿</span></strong></td>
+          <td><span class="lang-en">Black octahedral crystal, faint glow</span><span class="lang-zh">黑色八面体晶体，会轻微发光</span></td>
+          <td><span class="lang-en">Magnetic anomaly zones (where compass spins erratically)</span><span class="lang-zh">磁力异常区（指南针会乱转的地方）</span></td>
           <td>50–200m</td>
-          <td><span class="diff-badge diff-medium">中等</span></td>
+          <td><span class="diff-badge diff-medium"><span class="lang-en">Medium</span><span class="lang-zh">中等</span></span></td>
         </tr>
         <tr>
-          <td>🪨 <strong>银矿石</strong></td>
-          <td>银白色纹路岩石，比钛矿更亮</td>
-          <td>中层洞穴内和礁石深处，需要主动找洞穴</td>
+          <td>🪨 <strong><span class="lang-en">Silver Ore</span><span class="lang-zh">银矿石</span></strong></td>
+          <td><span class="lang-en">Silver-white veined rock, brighter than Titanium</span><span class="lang-zh">银白色纹路岩石，比钛矿更亮</span></td>
+          <td><span class="lang-en">Inside mid-depth caves and deeper reef formations</span><span class="lang-zh">中层洞穴内和礁石深处，需要主动找洞穴</span></td>
           <td>100–300m</td>
-          <td><span class="diff-badge diff-medium">中等</span></td>
+          <td><span class="diff-badge diff-medium"><span class="lang-en">Medium</span><span class="lang-zh">中等</span></span></td>
         </tr>
         <tr>
-          <td>🟡 <strong>黄金</strong></td>
-          <td>金黄色晶体，非常醒目</td>
-          <td>火山岩石区域（颜色偏红黑的地方）</td>
+          <td>🟡 <strong><span class="lang-en">Gold</span><span class="lang-zh">黄金</span></strong></td>
+          <td><span class="lang-en">Vivid gold crystal, unmissable</span><span class="lang-zh">金黄色晶体，非常醒目</span></td>
+          <td><span class="lang-en">Volcanic reddish-black terrain zones</span><span class="lang-zh">火山岩石区域（颜色偏红黑的地方）</span></td>
           <td>200–500m</td>
-          <td><span class="diff-badge diff-medium">中等</span></td>
+          <td><span class="diff-badge diff-medium"><span class="lang-en">Medium</span><span class="lang-zh">中等</span></span></td>
         </tr>
         <tr>
-          <td>💎 <strong>钻石</strong></td>
-          <td>蓝色半透明宝石，发蓝光</td>
-          <td>深层熔岩带，必须有载具才能到达</td>
+          <td>💎 <strong><span class="lang-en">Diamond</span><span class="lang-zh">钻石</span></strong></td>
+          <td><span class="lang-en">Blue semi-transparent gem with blue glow</span><span class="lang-zh">蓝色半透明宝石，发蓝光</span></td>
+          <td><span class="lang-en">Deep lava zones — requires a vehicle to reach</span><span class="lang-zh">深层熔岩带，必须有载具才能到达</span></td>
           <td>500m+</td>
-          <td><span class="diff-badge diff-hard">困难</span></td>
+          <td><span class="diff-badge diff-hard"><span class="lang-en">Hard</span><span class="lang-zh">困难</span></span></td>
         </tr>
       </tbody>
     </table>
 
-    <h3 id="recipes">重要配方详解（含材料产地）</h3>
-    <p>以下是早中期最重要的合成配方，每种材料都标注了<strong>去哪里找</strong>：</p>
+    <h3 id="recipes"><span class="lang-en">Key Recipes (With Material Locations)</span><span class="lang-zh">重要配方详解（含材料产地）</span></h3>
+    <div class="lang-en"><p>The most important early/mid-game recipes — every material notes <strong>exactly where to find it</strong>:</p></div>
+    <div class="lang-zh"><p>以下是早中期最重要的合成配方，每种材料都标注了<strong>去哪里找</strong>：</p></div>
 
     <div class="craft-grid">
 
@@ -987,20 +1081,20 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">🔵</div>
           <div>
-            <div class="craft-card-name">标准氧气罐</div>
-            <div class="craft-card-desc">延长水下呼吸时间，开局第一优先</div>
+            <div class="craft-card-name"><span class="lang-en">Standard O₂ Tank</span><span class="lang-zh">标准氧气罐</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Extends underwater breathing — first craft priority</span><span class="lang-zh">延长水下呼吸时间，开局第一优先</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟠</div>
               <div class="mat-info">
-                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">浅海礁石底部，橙棕色岩块，随处可见（0–100m）</div>
+                <div><span class="mat-name"><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef floors, orange-brown rock, everywhere (0–100m)</span><span class="lang-zh">浅海礁石底部，橙棕色岩块，随处可见（0–100m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1010,28 +1104,28 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">🔋</div>
           <div>
-            <div class="craft-card-name">电池</div>
-            <div class="craft-card-desc">扫描仪、修复工具等全部需要，早期消耗品</div>
+            <div class="craft-card-name"><span class="lang-en">Battery</span><span class="lang-zh">电池</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Powers scanner, repair tool, and more — early consumable</span><span class="lang-zh">扫描仪、修复工具等全部需要，早期消耗品</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟢</div>
               <div class="mat-info">
-                <div><span class="mat-name">铜矿石</span><span class="mat-amount">×2</span></div>
-                <div class="mat-location">浅海礁石和沙地交界，绿斑岩石（0–150m）</div>
+                <div><span class="mat-name"><span class="lang-en">Copper Ore</span><span class="lang-zh">铜矿石</span></span><span class="mat-amount">×2</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef meets sand floor, green-spotted rock (0–150m)</span><span class="lang-zh">浅海礁石和沙地交界，绿斑岩石（0–150m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🍋</div>
               <div class="mat-info">
-                <div><span class="mat-name">酸性蘑菇</span><span class="mat-amount">×2</span></div>
-                <div class="mat-location">礁石阴暗面，黄绿色小蘑菇，成片生长（0–100m）</div>
+                <div><span class="mat-name"><span class="lang-en">Acid Mushroom</span><span class="lang-zh">酸性蘑菇</span></span><span class="mat-amount">×2</span></div>
+                <div class="mat-location"><span class="lang-en">Shaded reef sides, yellow-green glowing mushrooms (0–100m)</span><span class="lang-zh">礁石阴暗面，黄绿色小蘑菇，成片生长（0–100m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1041,28 +1135,28 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">🔬</div>
           <div>
-            <div class="craft-card-name">扫描仪</div>
-            <div class="craft-card-desc">扫描生物和残骸解锁新图纸，核心工具</div>
+            <div class="craft-card-name"><span class="lang-en">Scanner</span><span class="lang-zh">扫描仪</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Scan wrecks and creatures to unlock blueprints — core tool</span><span class="lang-zh">扫描生物和残骸解锁新图纸，核心工具</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟠</div>
               <div class="mat-info">
-                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">浅海礁石底部（0–100m）</div>
+                <div><span class="mat-name"><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef floors (0–100m)</span><span class="lang-zh">浅海礁石底部（0–100m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🔋</div>
               <div class="mat-info">
-                <div><span class="mat-name">电池</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">先合成：铜×2 + 酸性蘑菇×2</div>
+                <div><span class="mat-name"><span class="lang-en">Battery</span><span class="lang-zh">电池</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Craft first: Copper ×2 + Acid Mushroom ×2</span><span class="lang-zh">先合成：铜×2 + 酸性蘑菇×2</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1072,28 +1166,28 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">🔪</div>
           <div>
-            <div class="craft-card-name">刀具</div>
-            <div class="craft-card-desc">采集植物样本，近距离击退小型生物</div>
+            <div class="craft-card-name"><span class="lang-en">Knife</span><span class="lang-zh">刀具</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Harvest plant samples, fend off small creatures</span><span class="lang-zh">采集植物样本，近距离击退小型生物</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟠</div>
               <div class="mat-info">
-                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">浅海礁石（0–100m）</div>
+                <div><span class="mat-name"><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef (0–100m)</span><span class="lang-zh">浅海礁石（0–100m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🍄</div>
               <div class="mat-info">
-                <div><span class="mat-name">硅胶</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">用刀砍浅海橙色蘑菇植物，立刻掉落</div>
+                <div><span class="mat-name"><span class="lang-en">Silicone Rubber</span><span class="lang-zh">硅胶</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Use knife on shallow orange mushroom plants — instant drop</span><span class="lang-zh">用刀砍浅海橙色蘑菇植物，立刻掉落</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1103,28 +1197,28 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">📍</div>
           <div>
-            <div class="craft-card-name">信标</div>
-            <div class="craft-card-desc">在地图上标记位置，防止迷路必备</div>
+            <div class="craft-card-name"><span class="lang-en">Beacon</span><span class="lang-zh">信标</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Mark locations on the map — essential to avoid getting lost</span><span class="lang-zh">在地图上标记位置，防止迷路必备</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟢</div>
               <div class="mat-info">
-                <div><span class="mat-name">铜矿石</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">浅海礁石和沙地（0–150m）</div>
+                <div><span class="mat-name"><span class="lang-en">Copper Ore</span><span class="lang-zh">铜矿石</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef meets sand (0–150m)</span><span class="lang-zh">浅海礁石和沙地（0–150m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🟠</div>
               <div class="mat-info">
-                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">浅海礁石（0–100m）</div>
+                <div><span class="mat-name"><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef (0–100m)</span><span class="lang-zh">浅海礁石（0–100m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1134,28 +1228,28 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">🔷</div>
           <div>
-            <div class="craft-card-name">高容量氧气罐</div>
-            <div class="craft-card-desc">比标准罐多3倍潜水时间，中期必升</div>
+            <div class="craft-card-name"><span class="lang-en">High Capacity O₂ Tank</span><span class="lang-zh">高容量氧气罐</span></div>
+            <div class="craft-card-desc"><span class="lang-en">3× more dive time than standard — must upgrade mid-game</span><span class="lang-zh">比标准罐多3倍潜水时间，中期必升</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟠</div>
               <div class="mat-info">
-                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×3</span></div>
-                <div class="mat-location">浅海礁石（0–100m），多跑几圈</div>
+                <div><span class="mat-name"><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span><span class="mat-amount">×3</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef (0–100m), take a few trips</span><span class="lang-zh">浅海礁石（0–100m），多跑几圈</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🪟</div>
               <div class="mat-info">
-                <div><span class="mat-name">玻璃</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">先合成：石英×2 → 玻璃。石英在浅海沙地，白色透明晶体</div>
+                <div><span class="mat-name"><span class="lang-en">Glass</span><span class="lang-zh">玻璃</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Craft: Quartz ×2 → Glass. Quartz on shallow sandy floors, white transparent crystal.</span><span class="lang-zh">先合成：石英×2 → 玻璃。石英在浅海沙地，白色透明晶体</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1165,36 +1259,36 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">🔧</div>
           <div>
-            <div class="craft-card-name">修复工具</div>
-            <div class="craft-card-desc">修复残骸电路，解锁大量新图纸，中期核心</div>
+            <div class="craft-card-name"><span class="lang-en">Repair Tool</span><span class="lang-zh">修复工具</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Fix wreck circuits to unlock blueprints — mid-game core</span><span class="lang-zh">修复残骸电路，解锁大量新图纸，中期核心</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🟠</div>
               <div class="mat-info">
-                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×2</span></div>
-                <div class="mat-location">浅海礁石（0–100m）</div>
+                <div><span class="mat-name"><span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span><span class="mat-amount">×2</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef (0–100m)</span><span class="lang-zh">浅海礁石（0–100m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🟢</div>
               <div class="mat-info">
-                <div><span class="mat-name">铜矿石</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">浅海礁石和沙地（0–150m）</div>
+                <div><span class="mat-name"><span class="lang-en">Copper Ore</span><span class="lang-zh">铜矿石</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Shallow reef and sand (0–150m)</span><span class="lang-zh">浅海礁石和沙地（0–150m）</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🍄</div>
               <div class="mat-info">
-                <div><span class="mat-name">硅胶</span><span class="mat-amount">×1</span></div>
-                <div class="mat-location">砍浅海橙色蘑菇植物即得</div>
+                <div><span class="mat-name"><span class="lang-en">Silicone Rubber</span><span class="lang-zh">硅胶</span></span><span class="mat-amount">×1</span></div>
+                <div class="mat-location"><span class="lang-en">Cut orange mushroom plants instantly</span><span class="lang-zh">砍浅海橙色蘑菇植物即得</span></div>
               </div>
-              <div class="diff-badge diff-easy">简单</div>
+              <div class="diff-badge diff-easy"><span class="lang-en">Easy</span><span class="lang-zh">简单</span></div>
             </li>
           </ul>
         </div>
@@ -1204,20 +1298,20 @@ footer {
         <div class="craft-card-header">
           <div class="craft-card-icon">⚡</div>
           <div>
-            <div class="craft-card-name">线路板（Wiring Kit）</div>
-            <div class="craft-card-desc">中期合成的核心零件，大量中级图纸需要</div>
+            <div class="craft-card-name"><span class="lang-en">Wiring Kit</span><span class="lang-zh">线路板（Wiring Kit）</span></div>
+            <div class="craft-card-desc"><span class="lang-en">Core component for many mid-tier blueprints</span><span class="lang-zh">中期合成的核心零件，大量中级图纸需要</span></div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🎒 随身合成器</div>
+          <div class="craft-station">🎒 <span class="lang-en">Personal Fabricator</span><span class="lang-zh">随身合成器</span></div>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🪨</div>
               <div class="mat-info">
-                <div><span class="mat-name">银矿石</span><span class="mat-amount">×2</span></div>
-                <div class="mat-location">中层洞穴内，银白色纹路岩石（100–300m）<br><strong>提示：</strong>先扫描洞穴残骸解锁位置标记</div>
+                <div><span class="mat-name"><span class="lang-en">Silver Ore</span><span class="lang-zh">银矿石</span></span><span class="mat-amount">×2</span></div>
+                <div class="mat-location"><span class="lang-en">Mid-depth caves (100–300m) — scan wreck fragments first to find locations</span><span class="lang-zh">中层洞穴内，银白色纹路岩石（100–300m）<br><strong>提示：</strong>先扫描洞穴残骸解锁位置标记</span></div>
               </div>
-              <div class="diff-badge diff-medium">中等</div>
+              <div class="diff-badge diff-medium"><span class="lang-en">Medium</span><span class="lang-zh">中等</span></div>
             </li>
           </ul>
         </div>
@@ -1225,16 +1319,16 @@ footer {
 
     </div><!-- /craft-grid -->
 
-    <h3 id="craft-order">合成优先顺序（推荐路线）</h3>
+    <h3 id="craft-order"><span class="lang-en">Recommended Craft Priority Order</span><span class="lang-zh">合成优先顺序（推荐路线）</span></h3>
     <ol class="step-list">
-      <li>🔵 <strong>标准氧气罐</strong> → 开局最重要，不合这个就是在赌命</li>
-      <li>🔪 <strong>刀具</strong> → 采集植物样本必需，顺手击退小生物</li>
-      <li>📍 <strong>信标（×3–5个）</strong> → 防迷路，便宜，多放</li>
-      <li>🔬 <strong>扫描仪</strong> → 扫描残骸和生物，解锁图纸库</li>
-      <li>🔧 <strong>修复工具</strong> → 修残骸，解锁大量中级图纸</li>
-      <li>🔷 <strong>高容量氧气罐</strong> → 替换掉标准罐，中期必升</li>
-      <li>🏗️ <strong>基础舱 + 工作台</strong> → 建立永久基地，解锁中级合成</li>
-      <li>🚤 <strong>海蛾一型</strong> → 有了载具才能去更深的地方</li>
+      <li>🔵 <strong><span class="lang-en">Standard O₂ Tank</span><span class="lang-zh">标准氧气罐</span></strong> → <span class="lang-en">First and most important. Skipping this is gambling your life.</span><span class="lang-zh">开局最重要，不合这个就是在赌命</span></li>
+      <li>🔪 <strong><span class="lang-en">Knife</span><span class="lang-zh">刀具</span></strong> → <span class="lang-en">Essential for harvesting plants and deterring small creatures.</span><span class="lang-zh">采集植物样本必需，顺手击退小生物</span></li>
+      <li>📍 <strong><span class="lang-en">Beacons (×3–5)</span><span class="lang-zh">信标（×3–5个）</span></strong> → <span class="lang-en">Cheap. Prevent getting lost. Place many.</span><span class="lang-zh">防迷路，便宜，多放</span></li>
+      <li>🔬 <strong><span class="lang-en">Scanner</span><span class="lang-zh">扫描仪</span></strong> → <span class="lang-en">Scan wrecks and creatures to build your blueprint library.</span><span class="lang-zh">扫描残骸和生物，解锁图纸库</span></li>
+      <li>🔧 <strong><span class="lang-en">Repair Tool</span><span class="lang-zh">修复工具</span></strong> → <span class="lang-en">Fix wrecks, unlock a wave of mid-tier blueprints.</span><span class="lang-zh">修残骸，解锁大量中级图纸</span></li>
+      <li>🔷 <strong><span class="lang-en">High Cap O₂ Tank</span><span class="lang-zh">高容量氧气罐</span></strong> → <span class="lang-en">Replace the standard one — must-upgrade mid-game.</span><span class="lang-zh">替换掉标准罐，中期必升</span></li>
+      <li>🏗️ <strong><span class="lang-en">Base Foundation + Workbench</span><span class="lang-zh">基础舱 + 工作台</span></strong> → <span class="lang-en">Permanent base, unlock mid-tier crafting.</span><span class="lang-zh">建立永久基地，解锁中级合成</span></li>
+      <li>🚤 <strong><span class="lang-en">Seamoth Mk.I</span><span class="lang-zh">海蛾一型</span></strong> → <span class="lang-en">A vehicle is mandatory to reach deeper zones.</span><span class="lang-zh">有了载具才能去更深的地方</span></li>
     </ol>
   </section>
 
@@ -1243,96 +1337,115 @@ footer {
     <div class="section-banner banner-bg-base">
       <div class="banner-icon">🏗️</div>
       <div>
-        <h2 class="banner-title">4. 基地建设指南</h2>
-        <div class="banner-sub">选址 · 建造顺序 · 供电 · 结构完整性</div>
+        <h2 class="banner-title"><span class="lang-en">4. Base Building Guide</span><span class="lang-zh">4. 基地建设指南</span></h2>
+        <div class="banner-sub"><span class="lang-en">Location · Build order · Power · Hull integrity</span><span class="lang-zh">选址 · 建造顺序 · 供电 · 结构完整性</span></div>
       </div>
     </div>
 
-    <p>基地是你在深海的<strong>永久立足点</strong>，也是联机玩法的核心枢纽。早期先建一个临时基地，等探索更多后再迁移到更好的位置。</p>
+    <div class="lang-en"><p>Your base is your <strong>permanent foothold</strong> in the deep — and the central hub for co-op. Build a temporary base early, then relocate once you've explored more.</p></div>
+    <div class="lang-zh"><p>基地是你在深海的<strong>永久立足点</strong>，也是联机玩法的核心枢纽。早期先建一个临时基地，等探索更多后再迁移到更好的位置。</p></div>
 
-    <div class="tip-box">
-      <div class="box-label">💡 新手常见误区</div>
-      不要等到"找到完美位置"才开始建基地。先随便搭一个有工作台的雏形，用了几小时再迁移也不晚。早建早用！
+    <div class="lang-en">
+      <div class="tip-box">
+        <div class="box-label">💡 Common Beginner Mistake</div>
+        Don't wait for the "perfect spot" before building. Slap together a base with a workbench, use it for a few hours, then relocate. Build early, build often!
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="tip-box">
+        <div class="box-label">💡 新手常见误区</div>
+        不要等到"找到完美位置"才开始建基地。先随便搭一个有工作台的雏形，用了几小时再迁移也不晚。早建早用！
+      </div>
     </div>
 
-    <h3 id="base-location">选址要点</h3>
+    <h3 id="base-location"><span class="lang-en">Location Tips</span><span class="lang-zh">选址要点</span></h3>
     <div class="card-grid">
-      <div class="card"><div class="icon">🌿</div><h4>靠近资源区</h4><p>距主要矿脉不超过200米，减少来回时间。</p></div>
-      <div class="card"><div class="icon">☀️</div><h4>阳光层（0–200m）</h4><p>太阳能板可用，适合主要居住基地，供电简单。</p></div>
-      <div class="card"><div class="icon">🦈</div><h4>远离掠食者巢穴</h4><p>用扫描仪确认周边没有大型生物盘踞。</p></div>
-      <div class="card"><div class="icon">🪨</div><h4>平坦海底</h4><p>建造基础舱时需要相对平整的地面。</p></div>
+      <div class="card"><div class="icon">🌿</div><h4><span class="lang-en">Near Resources</span><span class="lang-zh">靠近资源区</span></h4><p><span class="lang-en">Within 200m of major ore deposits — reduces travel time.</span><span class="lang-zh">距主要矿脉不超过200米，减少来回时间。</span></p></div>
+      <div class="card"><div class="icon">☀️</div><h4><span class="lang-en">Sunlight Zone (0–200m)</span><span class="lang-zh">阳光层（0–200m）</span></h4><p><span class="lang-en">Solar panels work here — easy power for your main base.</span><span class="lang-zh">太阳能板可用，适合主要居住基地，供电简单。</span></p></div>
+      <div class="card"><div class="icon">🦈</div><h4><span class="lang-en">Away from Predator Nests</span><span class="lang-zh">远离掠食者巢穴</span></h4><p><span class="lang-en">Scan first to confirm no large creatures are nesting nearby.</span><span class="lang-zh">用扫描仪确认周边没有大型生物盘踞。</span></p></div>
+      <div class="card"><div class="icon">🪨</div><h4><span class="lang-en">Flat Seabed</span><span class="lang-zh">平坦海底</span></h4><p><span class="lang-en">Base foundations require relatively flat terrain.</span><span class="lang-zh">建造基础舱时需要相对平整的地面。</span></p></div>
     </div>
 
-    <h3 id="base-order">建造顺序（推荐）</h3>
+    <h3 id="base-order"><span class="lang-en">Build Order (Recommended)</span><span class="lang-zh">建造顺序（推荐）</span></h3>
     <ol class="step-list">
-      <li>放置<strong>基础舱（Base Foundation）</strong>作为起点——材料：钛×2 + 玻璃×1</li>
-      <li>放置<strong>走廊舱</strong>扩展空间，连接各功能舱</li>
-      <li>建造<strong>工作台</strong>——解锁中级合成，基地的核心</li>
-      <li>建造<strong>太阳能板</strong>（浅层）或<strong>生物反应堆</strong>（深层）供电</li>
-      <li>添加<strong>医疗舱</strong>和<strong>食物储存间</strong>，保障生存</li>
-      <li>建造<strong>水培室</strong>种植食物，实现自给自足</li>
-      <li>建造<strong>改装站</strong>，解锁高级装备图纸</li>
-      <li>最后建造<strong>潜艇坞</strong>，停放和充能海蛾等载具</li>
+      <li><span class="lang-en">Place a <strong>Base Foundation</strong> as your anchor — Materials: Titanium ×2 + Glass ×1</span><span class="lang-zh">放置<strong>基础舱（Base Foundation）</strong>作为起点——材料：钛×2 + 玻璃×1</span></li>
+      <li><span class="lang-en">Add <strong>Corridor Modules</strong> to expand space and connect functional rooms</span><span class="lang-zh">放置<strong>走廊舱</strong>扩展空间，连接各功能舱</span></li>
+      <li><span class="lang-en">Build a <strong>Workbench</strong> — unlocks mid-tier crafting, the base's heart</span><span class="lang-zh">建造<strong>工作台</strong>——解锁中级合成，基地的核心</span></li>
+      <li><span class="lang-en">Install <strong>Solar Panels</strong> (shallow) or a <strong>Bioreactor</strong> (deep) for power</span><span class="lang-zh">建造<strong>太阳能板</strong>（浅层）或<strong>生物反应堆</strong>（深层）供电</span></li>
+      <li><span class="lang-en">Add a <strong>Medical Room</strong> and <strong>Food Storage</strong> for survival essentials</span><span class="lang-zh">添加<strong>医疗舱</strong>和<strong>食物储存间</strong>，保障生存</span></li>
+      <li><span class="lang-en">Build a <strong>Grow Bed</strong> to farm food — achieve self-sufficiency</span><span class="lang-zh">建造<strong>水培室</strong>种植食物，实现自给自足</span></li>
+      <li><span class="lang-en">Build a <strong>Modification Station</strong> to unlock advanced equipment blueprints</span><span class="lang-zh">建造<strong>改装站</strong>，解锁高级装备图纸</span></li>
+      <li><span class="lang-en">Finally, build a <strong>Moonpool</strong> to dock and charge your vehicles</span><span class="lang-zh">最后建造<strong>潜艇坞</strong>，停放和充能海蛾等载具</span></li>
     </ol>
 
-    <h3 id="base-power">供电系统说明</h3>
+    <h3 id="base-power"><span class="lang-en">Power Systems Explained</span><span class="lang-zh">供电系统说明</span></h3>
     <table>
-      <thead><tr><th>发电方式</th><th>所需材料</th><th>适用场景</th></tr></thead>
+      <thead><tr><th><span class="lang-en">Power Source</span><span class="lang-zh">发电方式</span></th><th><span class="lang-en">Materials</span><span class="lang-zh">所需材料</span></th><th><span class="lang-en">Best Used</span><span class="lang-zh">适用场景</span></th></tr></thead>
       <tbody>
-        <tr><td>☀️ 太阳能板</td><td>石英×2 + 铜×1</td><td>浅层基地（0–200m），白天自动充电，无消耗</td></tr>
-        <tr><td>🌿 生物反应堆</td><td>钛×3 + 玻璃×2</td><td>深层基地，用生物材料（鱼/植物）发电，持续稳定</td></tr>
-        <tr><td>🌊 热能发电机</td><td>钛×5 + 磁铁矿×2</td><td>热泉附近，发电量最大，适合深层永久基地</td></tr>
+        <tr><td>☀️ <span class="lang-en">Solar Panel</span><span class="lang-zh">太阳能板</span></td><td><span class="lang-en">Quartz ×2 + Copper ×1</span><span class="lang-zh">石英×2 + 铜×1</span></td><td><span class="lang-en">Shallow bases (0–200m). Auto-charges during day, zero upkeep.</span><span class="lang-zh">浅层基地（0–200m），白天自动充电，无消耗</span></td></tr>
+        <tr><td>🌿 <span class="lang-en">Bioreactor</span><span class="lang-zh">生物反应堆</span></td><td><span class="lang-en">Titanium ×3 + Glass ×2</span><span class="lang-zh">钛×3 + 玻璃×2</span></td><td><span class="lang-en">Deep bases. Burns biological material (fish/plants) for steady power.</span><span class="lang-zh">深层基地，用生物材料（鱼/植物）发电，持续稳定</span></td></tr>
+        <tr><td>🌊 <span class="lang-en">Thermal Generator</span><span class="lang-zh">热能发电机</span></td><td><span class="lang-en">Titanium ×5 + Magnetite ×2</span><span class="lang-zh">钛×5 + 磁铁矿×2</span></td><td><span class="lang-en">Near thermal vents. Highest output — ideal for deep permanent bases.</span><span class="lang-zh">热泉附近，发电量最大，适合深层永久基地</span></td></tr>
       </tbody>
     </table>
 
-    <div class="warn-box">
-      <div class="box-label">⚠️ 结构完整性</div>
-      每个舱体有<strong>结构完整性（Hull Integrity）</strong>值。越深水压越高，需要加<strong>加固隔板</strong>（钛×3 + 玻璃×1，提供 +7 完整性）。每下潜100米消耗约1点完整性，完整性为0会进水！
+    <div class="lang-en">
+      <div class="warn-box">
+        <div class="box-label">⚠️ Hull Integrity</div>
+        Every base module has a <strong>Hull Integrity</strong> value. Deeper water = higher pressure. Add <strong>Reinforcement Panels</strong> (Titanium ×3 + Glass ×1 = +7 integrity each). Roughly 1 integrity lost per 100m depth. Zero integrity = flooding!
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="warn-box">
+        <div class="box-label">⚠️ 结构完整性</div>
+        每个舱体有<strong>结构完整性（Hull Integrity）</strong>值。越深水压越高，需要加<strong>加固隔板</strong>（钛×3 + 玻璃×1，提供 +7 完整性）。每下潜100米消耗约1点完整性，完整性为0会进水！
+      </div>
     </div>
   </section>
 
   <!-- AD SLOT MID-2 -->
-  <!-- ADVERTISEMENT SLOT 3 (300x250) — 替换为 AdSense 代码 -->
-  <div class="ad-slot">📢 广告位 · 300×250 矩形广告（文中）</div>
+  <!-- ADVERTISEMENT SLOT 3 (300x250) — Replace with AdSense code -->
+  <div class="ad-slot"><span class="lang-en">📢 Ad Slot · 300×250 Rectangle (Mid-page)</span><span class="lang-zh">📢 广告位 · 300×250 矩形广告（文中）</span></div>
 
   <!-- ══ Section 5: Vehicles ══ -->
   <section id="vehicles">
     <div class="section-banner banner-bg-vehicles">
       <div class="banner-icon">🚢</div>
       <div>
-        <h2 class="banner-title">5. 潜水艇与载具</h2>
-        <div class="banner-sub">海蛾 · 改装顺序 · 深层载具</div>
+        <h2 class="banner-title"><span class="lang-en">5. Submarines &amp; Vehicles</span><span class="lang-zh">5. 潜水艇与载具</span></h2>
+        <div class="banner-sub"><span class="lang-en">Seamoth · Upgrade priority · Deep vehicles</span><span class="lang-zh">海蛾 · 改装顺序 · 深层载具</span></div>
       </div>
     </div>
 
-    <p>没有载具，你永远无法到达中层以下的区域。<strong>海蛾一型</strong>是你的第一辆载具，也是游戏中期最常用的座驾。</p>
+    <div class="lang-en"><p>Without a vehicle you'll never reach the mid-depths. The <strong>Seamoth Mk.I</strong> is your first vehicle and mid-game workhorse.</p></div>
+    <div class="lang-zh"><p>没有载具，你永远无法到达中层以下的区域。<strong>海蛾一型</strong>是你的第一辆载具，也是游戏中期最常用的座驾。</p></div>
 
     <table>
-      <thead><tr><th>载具</th><th>最大深度</th><th>特点</th><th>适合阶段</th></tr></thead>
+      <thead><tr><th><span class="lang-en">Vehicle</span><span class="lang-zh">载具</span></th><th><span class="lang-en">Max Depth</span><span class="lang-zh">最大深度</span></th><th><span class="lang-en">Features</span><span class="lang-zh">特点</span></th><th><span class="lang-en">Best Stage</span><span class="lang-zh">适合阶段</span></th></tr></thead>
       <tbody>
-        <tr><td>🦋 <strong>海蛾一型</strong></td><td>200m（改装后900m）</td><td>灵活小巧，速度快，单人为主</td><td>早中期</td></tr>
-        <tr><td>🦾 <strong>PRAWN 外骨骼</strong></td><td>1700m</td><td>适合岩石地形采矿，可以跳跃</td><td>中后期</td></tr>
-        <tr><td>🐉 <strong>海龙（Sea Dragon）</strong></td><td>1700m+</td><td>超大容量，可搭载海蛾，团队探索</td><td>后期</td></tr>
+        <tr><td>🦋 <strong>Seamoth Mk.I</strong></td><td>200m (<span class="lang-en">upgradeable to 900m</span><span class="lang-zh">改装后900m</span>)</td><td><span class="lang-en">Nimble and fast, mainly solo</span><span class="lang-zh">灵活小巧，速度快，单人为主</span></td><td><span class="lang-en">Early–Mid</span><span class="lang-zh">早中期</span></td></tr>
+        <tr><td>🦾 <strong>PRAWN Suit</strong></td><td>1700m</td><td><span class="lang-en">Great for rocky terrain mining, can jump</span><span class="lang-zh">适合岩石地形采矿，可以跳跃</span></td><td><span class="lang-en">Mid–Late</span><span class="lang-zh">中后期</span></td></tr>
+        <tr><td>🐉 <strong>Sea Dragon</strong></td><td>1700m+</td><td><span class="lang-en">Huge capacity, can carry a Seamoth, team exploration</span><span class="lang-zh">超大容量，可搭载海蛾，团队探索</span></td><td><span class="lang-en">Late game</span><span class="lang-zh">后期</span></td></tr>
       </tbody>
     </table>
 
-    <h3 id="seamoth">海蛾一型：详细使用指南</h3>
-    <p>海蛾是游戏里最早获得的载具，材料都在浅海，应该尽早合成。</p>
+    <h3 id="seamoth"><span class="lang-en">Seamoth Mk.I: Detailed Usage Guide</span><span class="lang-zh">海蛾一型：详细使用指南</span></h3>
+    <div class="lang-en"><p>The Seamoth is your earliest vehicle — all materials come from shallow waters. Craft it as soon as you can.</p></div>
+    <div class="lang-zh"><p>海蛾是游戏里最早获得的载具，材料都在浅海，应该尽早合成。</p></div>
 
     <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr));">
-      <div class="card"><div class="icon">⚡</div><h4>电量管理</h4><p>海蛾用电池驱动，快用完时及时回基地充电（潜艇坞会自动充）。</p></div>
-      <div class="card"><div class="icon">🔦</div><h4>灯光</h4><p>按 F 开关车灯，进入黑暗区域前一定要开灯，否则什么都看不见。</p></div>
-      <div class="card"><div class="icon">🐟</div><h4>生物碰撞</h4><p>被大型生物咬会伤到载具，修复工具可以修，但要小心血量。</p></div>
-      <div class="card"><div class="icon">📦</div><h4>储物空间</h4><p>默认4格，升级储物模块后扩至8格，出门前先清空手动背包。</p></div>
+      <div class="card"><div class="icon">⚡</div><h4><span class="lang-en">Power Management</span><span class="lang-zh">电量管理</span></h4><p><span class="lang-en">Runs on batteries. Return to base when low — Moonpool charges automatically.</span><span class="lang-zh">海蛾用电池驱动，快用完时及时回基地充电（潜艇坞会自动充）。</span></p></div>
+      <div class="card"><div class="icon">🔦</div><h4><span class="lang-en">Headlights</span><span class="lang-zh">灯光</span></h4><p><span class="lang-en">Press F to toggle. Always on before entering dark zones — otherwise you can't see anything.</span><span class="lang-zh">按 F 开关车灯，进入黑暗区域前一定要开灯，否则什么都看不见。</span></p></div>
+      <div class="card"><div class="icon">🐟</div><h4><span class="lang-en">Creature Collisions</span><span class="lang-zh">生物碰撞</span></h4><p><span class="lang-en">Large creatures can bite the hull. Repair tool fixes damage — but watch your health.</span><span class="lang-zh">被大型生物咬会伤到载具，修复工具可以修，但要小心血量。</span></p></div>
+      <div class="card"><div class="icon">📦</div><h4><span class="lang-en">Storage</span><span class="lang-zh">储物空间</span></h4><p><span class="lang-en">Default 4 slots. Storage Module upgrades to 8 slots — clear your inventory before leaving base.</span><span class="lang-zh">默认4格，升级储物模块后扩至8格，出门前先清空手动背包。</span></p></div>
     </div>
 
-    <h3 id="deep-vehicles">海蛾改装优先级</h3>
+    <h3 id="deep-vehicles"><span class="lang-en">Seamoth Upgrade Priority</span><span class="lang-zh">海蛾改装优先级</span></h3>
     <ol class="step-list">
-      <li><strong>深度模块 Mk.1</strong>：200m → 400m，获取中层矿物必须</li>
-      <li><strong>储物扩展模块</strong>：存储格 ×2，采矿效率翻倍</li>
-      <li><strong>鱼雷系统</strong>：遭遇大型掠食者的保命手段</li>
-      <li><strong>深度模块 Mk.2</strong>：400m → 600m，进入蘑菇林区</li>
-      <li><strong>深度模块 Mk.3</strong>：600m → 900m，解锁大部分中层区域</li>
+      <li><strong><span class="lang-en">Depth Module Mk.1</span><span class="lang-zh">深度模块 Mk.1</span></strong>: <span class="lang-en">200m → 400m — mandatory to access mid-depth minerals</span><span class="lang-zh">200m → 400m，获取中层矿物必须</span></li>
+      <li><strong><span class="lang-en">Storage Module</span><span class="lang-zh">储物扩展模块</span></strong>: <span class="lang-en">+2 storage slots — doubles mining efficiency</span><span class="lang-zh">存储格 ×2，采矿效率翻倍</span></li>
+      <li><strong><span class="lang-en">Torpedo System</span><span class="lang-zh">鱼雷系统</span></strong>: <span class="lang-en">Escape tool against large predators</span><span class="lang-zh">遭遇大型掠食者的保命手段</span></li>
+      <li><strong><span class="lang-en">Depth Module Mk.2</span><span class="lang-zh">深度模块 Mk.2</span></strong>: <span class="lang-en">400m → 600m — opens the Mushroom Forest zone</span><span class="lang-zh">400m → 600m，进入蘑菇林区</span></li>
+      <li><strong><span class="lang-en">Depth Module Mk.3</span><span class="lang-zh">深度模块 Mk.3</span></strong>: <span class="lang-en">600m → 900m — unlocks most mid-tier zones</span><span class="lang-zh">600m → 900m，解锁大部分中层区域</span></li>
     </ol>
   </section>
 
@@ -1341,33 +1454,58 @@ footer {
     <div class="section-banner banner-bg-coop">
       <div class="banner-icon">👥</div>
       <div>
-        <h2 class="banner-title">6. 四人联机技巧</h2>
-        <div class="banner-sub">分工方案 · 联机独有注意事项</div>
+        <h2 class="banner-title"><span class="lang-en">6. Four-Player Co-op Strategies</span><span class="lang-zh">6. 四人联机技巧</span></h2>
+        <div class="banner-sub"><span class="lang-en">Role division · Co-op-specific tips</span><span class="lang-zh">分工方案 · 联机独有注意事项</span></div>
       </div>
     </div>
 
-    <p>Subnautica 2 首次引入最多 <strong>4人联机</strong>，是系列最大玩法革新。合理分工可以让资源积累速度翻4倍。</p>
+    <div class="lang-en"><p>Subnautica 2 introduces up to <strong>4-player co-op</strong> for the first time in the series. Smart role division can multiply your resource gathering speed by 4×.</p></div>
+    <div class="lang-zh"><p>Subnautica 2 首次引入最多 <strong>4人联机</strong>，是系列最大玩法革新。合理分工可以让资源积累速度翻4倍。</p></div>
 
-    <h3 id="coop-roles">推荐分工方案</h3>
+    <h3 id="coop-roles"><span class="lang-en">Recommended Role Division</span><span class="lang-zh">推荐分工方案</span></h3>
     <div class="card-grid">
-      <div class="card"><div class="icon">⛏️</div><h4>采矿手 ×1</h4><p>专注浅海资源采集，保证基地原料供给稳定，是队伍后勤核心。</p></div>
-      <div class="card"><div class="icon">🔬</div><h4>科技官 ×1</h4><p>驻守基地，负责合成装备、管理供电和储物，让其他人专心探索。</p></div>
-      <div class="card"><div class="icon">🗺️</div><h4>探索者 ×1</h4><p>驾驶海蛾深层侦察，扫描生物，寻找残骸图纸，绘制安全路线。</p></div>
-      <div class="card"><div class="icon">🛡️</div><h4>护卫 ×1</h4><p>保护采矿手和探索者，携带鱼雷和诱饵，应对大型掠食者。</p></div>
+      <div class="card"><div class="icon">⛏️</div><h4><span class="lang-en">Miner ×1</span><span class="lang-zh">采矿手 ×1</span></h4><p><span class="lang-en">Focuses on shallow resource collection. Keeps material supply flowing — the team's logistical backbone.</span><span class="lang-zh">专注浅海资源采集，保证基地原料供给稳定，是队伍后勤核心。</span></p></div>
+      <div class="card"><div class="icon">🔬</div><h4><span class="lang-en">Tech Officer ×1</span><span class="lang-zh">科技官 ×1</span></h4><p><span class="lang-en">Stays at base. Handles crafting, power management, and inventory — frees others to explore.</span><span class="lang-zh">驻守基地，负责合成装备、管理供电和储物，让其他人专心探索。</span></p></div>
+      <div class="card"><div class="icon">🗺️</div><h4><span class="lang-en">Scout ×1</span><span class="lang-zh">探索者 ×1</span></h4><p><span class="lang-en">Pilots Seamoth for deep recon. Scans creatures, discovers wrecks, maps safe routes.</span><span class="lang-zh">驾驶海蛾深层侦察，扫描生物，寻找残骸图纸，绘制安全路线。</span></p></div>
+      <div class="card"><div class="icon">🛡️</div><h4><span class="lang-en">Guard ×1</span><span class="lang-zh">护卫 ×1</span></h4><p><span class="lang-en">Protects Miner and Scout. Carries torpedoes and decoys for large predator encounters.</span><span class="lang-zh">保护采矿手和探索者，携带鱼雷和诱饵，应对大型掠食者。</span></p></div>
     </div>
 
-    <h3 id="coop-tips">联机注意事项</h3>
-    <div class="warn-box">
-      <div class="box-label">⚠️ 重要：共享储物</div>
-      联机中<strong>所有人都能拿共享箱里的物品</strong>。提前约好谁管物资，否则关键材料会被误拿。建议科技官专门管理仓库。
+    <h3 id="coop-tips"><span class="lang-en">Co-op Tips &amp; Warnings</span><span class="lang-zh">联机注意事项</span></h3>
+    <div class="lang-en">
+      <div class="warn-box">
+        <div class="box-label">⚠️ Important: Shared Storage</div>
+        <strong>All players can take from shared containers.</strong> Agree in advance who manages supplies, or key materials will vanish. Recommend the Tech Officer as designated inventory manager.
+      </div>
     </div>
-    <div class="tip-box">
-      <div class="box-label">💡 信标共享</div>
-      任何人放置的信标<strong>对全队可见</strong>。建立统一命名规则，比如"矿点1""危险区域"，让全队都能看懂。
+    <div class="lang-zh">
+      <div class="warn-box">
+        <div class="box-label">⚠️ 重要：共享储物</div>
+        联机中<strong>所有人都能拿共享箱里的物品</strong>。提前约好谁管物资，否则关键材料会被误拿。建议科技官专门管理仓库。
+      </div>
     </div>
-    <div class="info-box">
-      <div class="box-label">💬 推荐配合方式</div>
-      联机时强烈建议开语音（Discord等）。游戏本身无语音功能，文字聊天在紧急情况下太慢。
+    <div class="lang-en">
+      <div class="tip-box">
+        <div class="box-label">💡 Beacon Visibility</div>
+        Beacons placed by any player are <strong>visible to the entire team</strong>. Use a naming convention — e.g., "Mine-1", "Danger Zone" — so everyone understands.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="tip-box">
+        <div class="box-label">💡 信标共享</div>
+        任何人放置的信标<strong>对全队可见</strong>。建立统一命名规则，比如"矿点1""危险区域"，让全队都能看懂。
+      </div>
+    </div>
+    <div class="lang-en">
+      <div class="info-box">
+        <div class="box-label">💬 Communication</div>
+        Strongly recommend voice chat (Discord, etc.). The game has no built-in voice — text chat is too slow in emergencies.
+      </div>
+    </div>
+    <div class="lang-zh">
+      <div class="info-box">
+        <div class="box-label">💬 推荐配合方式</div>
+        联机时强烈建议开语音（Discord等）。游戏本身无语音功能，文字聊天在紧急情况下太慢。
+      </div>
     </div>
   </section>
 
@@ -1376,105 +1514,106 @@ footer {
     <div class="section-banner banner-bg-biomes">
       <div class="banner-icon">🌏</div>
       <div>
-        <h2 class="banner-title">7. 生物群落与探索进阶</h2>
-        <div class="banner-sub">各区域资源 · 危险生物 · 探索建议</div>
+        <h2 class="banner-title"><span class="lang-en">7. Biomes &amp; Advanced Exploration</span><span class="lang-zh">7. 生物群落与探索进阶</span></h2>
+        <div class="banner-sub"><span class="lang-en">Zone resources · Dangerous creatures · Exploration tips</span><span class="lang-zh">各区域资源 · 危险生物 · 探索建议</span></div>
       </div>
     </div>
 
-    <p>星球海洋分为5个主要生物群落，按深度从浅到深探索是最安全的进度路线。<strong>不要跳过层级</strong>——没有对应深度的载具和装备，强行进入会直接死亡。</p>
+    <div class="lang-en"><p>The planet's ocean has 5 major biomes. Exploring shallow-to-deep is the safest progression. <strong>Don't skip tiers</strong> — entering a zone without the right gear means instant death.</p></div>
+    <div class="lang-zh"><p>星球海洋分为5个主要生物群落，按深度从浅到深探索是最安全的进度路线。<strong>不要跳过层级</strong>——没有对应深度的载具和装备，强行进入会直接死亡。</p></div>
 
-    <h3 id="biome-list">各区域详解</h3>
+    <h3 id="biome-list"><span class="lang-en">Zone Breakdown</span><span class="lang-zh">各区域详解</span></h3>
 
     <div class="biome-card">
       <div class="biome-header">
         <div class="biome-icon">🌊</div>
-        <div class="biome-name">浅海珊瑚礁</div>
+        <div class="biome-name"><span class="lang-en">Shallow Coral Reef</span><span class="lang-zh">浅海珊瑚礁</span></div>
         <div class="biome-depth">0 – 100m</div>
       </div>
       <div class="depth-bar"><div class="depth-fill" style="width:10%"></div></div>
-      <p>游戏起始区域。资源最丰富，掠食者最温和。这里是你的主要采矿区，前几个小时几乎都在这里度过。</p>
+      <p><span class="lang-en">Your starting zone. Richest in resources, gentlest predators. This is your main mining area for the first few hours.</span><span class="lang-zh">游戏起始区域。资源最丰富，掠食者最温和。这里是你的主要采矿区，前几个小时几乎都在这里度过。</span></p>
       <div class="biome-tags">
-        <span class="biome-tag resource">🟠 钛矿石</span>
-        <span class="biome-tag resource">🟢 铜矿石</span>
-        <span class="biome-tag resource">⚪ 石英</span>
-        <span class="biome-tag resource">🍄 硅胶植物</span>
-        <span class="biome-tag">安全等级：★★★★★</span>
+        <span class="biome-tag resource">🟠 <span class="lang-en">Titanium Ore</span><span class="lang-zh">钛矿石</span></span>
+        <span class="biome-tag resource">🟢 <span class="lang-en">Copper Ore</span><span class="lang-zh">铜矿石</span></span>
+        <span class="biome-tag resource">⚪ <span class="lang-en">Quartz</span><span class="lang-zh">石英</span></span>
+        <span class="biome-tag resource">🍄 <span class="lang-en">Silicone Plants</span><span class="lang-zh">硅胶植物</span></span>
+        <span class="biome-tag"><span class="lang-en">Safety: ★★★★★</span><span class="lang-zh">安全等级：★★★★★</span></span>
       </div>
     </div>
 
     <div class="biome-card">
       <div class="biome-header">
         <div class="biome-icon">🌿</div>
-        <div class="biome-name">漂浮岛礁带</div>
+        <div class="biome-name"><span class="lang-en">Floating Island Belt</span><span class="lang-zh">漂浮岛礁带</span></div>
         <div class="biome-depth">50 – 200m</div>
       </div>
       <div class="depth-bar"><div class="depth-fill" style="width:22%"></div></div>
-      <p>巨型漂浮藻类结构，视觉震撼。含有银矿和特殊植物样本，需要海蛾才能有效探索。注意<strong>沙牙鱼</strong>会主动跟踪玩家，但不会主动攻击，离开即可。</p>
+      <p><span class="lang-en">Massive floating kelp structures — visually stunning. Contains silver and rare plant samples. Needs the Seamoth to explore effectively. <strong>Sand Sharks</strong> follow you but won't attack unless provoked.</span><span class="lang-zh">巨型漂浮藻类结构，视觉震撼。含有银矿和特殊植物样本，需要海蛾才能有效探索。注意<strong>沙牙鱼</strong>会主动跟踪玩家，但不会主动攻击，离开即可。</span></p>
       <div class="biome-tags">
-        <span class="biome-tag resource">🪨 银矿石</span>
-        <span class="biome-tag resource">🌺 稀有植物</span>
-        <span class="biome-tag danger">⚠️ 沙牙鱼</span>
-        <span class="biome-tag">安全等级：★★★★☆</span>
+        <span class="biome-tag resource">🪨 <span class="lang-en">Silver Ore</span><span class="lang-zh">银矿石</span></span>
+        <span class="biome-tag resource">🌺 <span class="lang-en">Rare Plants</span><span class="lang-zh">稀有植物</span></span>
+        <span class="biome-tag danger">⚠️ <span class="lang-en">Sand Sharks</span><span class="lang-zh">沙牙鱼</span></span>
+        <span class="biome-tag"><span class="lang-en">Safety: ★★★★☆</span><span class="lang-zh">安全等级：★★★★☆</span></span>
       </div>
     </div>
 
     <div class="biome-card">
       <div class="biome-header">
         <div class="biome-icon">🍄</div>
-        <div class="biome-name">中层发光蘑菇林</div>
+        <div class="biome-name"><span class="lang-en">Glowing Mushroom Forest</span><span class="lang-zh">中层发光蘑菇林</span></div>
         <div class="biome-depth">200 – 500m</div>
       </div>
       <div class="depth-bar"><div class="depth-fill" style="width:50%"></div></div>
-      <p>数百米高的巨型发光蘑菇覆盖整个区域，是游戏最美丽的场景之一。但<strong>幽灵幼虫</strong>在此出没，必须携带声诱饵绕行。需要海蛾二型（深度模块Mk.2）。</p>
+      <p><span class="lang-en">Bioluminescent mushrooms hundreds of meters tall — one of the game's most beautiful areas. But <strong>Ghost Leviathan Juveniles</strong> patrol here — bring sound decoys. Needs Seamoth with Depth Module Mk.2.</span><span class="lang-zh">数百米高的巨型发光蘑菇覆盖整个区域，是游戏最美丽的场景之一。但<strong>幽灵幼虫</strong>在此出没，必须携带声诱饵绕行。需要海蛾二型（深度模块Mk.2）。</span></p>
       <div class="biome-tags">
-        <span class="biome-tag resource">🟡 黄金</span>
-        <span class="biome-tag resource">⚡ 磁铁矿</span>
-        <span class="biome-tag danger">👻 幽灵幼虫</span>
-        <span class="biome-tag">安全等级：★★★☆☆</span>
+        <span class="biome-tag resource">🟡 <span class="lang-en">Gold</span><span class="lang-zh">黄金</span></span>
+        <span class="biome-tag resource">⚡ <span class="lang-en">Magnetite</span><span class="lang-zh">磁铁矿</span></span>
+        <span class="biome-tag danger">👻 <span class="lang-en">Ghost Leviathan Juv.</span><span class="lang-zh">幽灵幼虫</span></span>
+        <span class="biome-tag"><span class="lang-en">Safety: ★★★☆☆</span><span class="lang-zh">安全等级：★★★☆☆</span></span>
       </div>
     </div>
 
     <div class="biome-card">
       <div class="biome-header">
         <div class="biome-icon">🔥</div>
-        <div class="biome-name">深层熔岩带</div>
+        <div class="biome-name"><span class="lang-en">Deep Lava Zone</span><span class="lang-zh">深层熔岩带</span></div>
         <div class="biome-depth">500 – 1200m</div>
       </div>
       <div class="depth-bar"><div class="depth-fill" style="width:80%"></div></div>
-      <p>高温高压区域，需要<strong>防热装甲</strong>才能进入。含有稀有钻石和稀有晶体。<strong>龙鳗</strong>和<strong>幽灵幼虫成体</strong>在此守卫。必须驾驶 PRAWN 外骨骼进入。</p>
+      <p><span class="lang-en">Extreme heat and pressure — requires <strong>Thermal Protection</strong> armor. Contains rare Diamonds and crystals. <strong>Dragon Eels</strong> and adult Ghost Leviathans guard it. Must use PRAWN Suit.</span><span class="lang-zh">高温高压区域，需要<strong>防热装甲</strong>才能进入。含有稀有钻石和稀有晶体。<strong>龙鳗</strong>和<strong>幽灵幼虫成体</strong>在此守卫。必须驾驶 PRAWN 外骨骼进入。</span></p>
       <div class="biome-tags">
-        <span class="biome-tag resource">💎 钻石</span>
-        <span class="biome-tag resource">🔮 稀有晶体</span>
-        <span class="biome-tag danger">🐉 龙鳗</span>
-        <span class="biome-tag danger">👻 幽灵幼虫成体</span>
-        <span class="biome-tag">安全等级：★★☆☆☆</span>
+        <span class="biome-tag resource">💎 <span class="lang-en">Diamond</span><span class="lang-zh">钻石</span></span>
+        <span class="biome-tag resource">🔮 <span class="lang-en">Rare Crystals</span><span class="lang-zh">稀有晶体</span></span>
+        <span class="biome-tag danger">🐉 <span class="lang-en">Dragon Eel</span><span class="lang-zh">龙鳗</span></span>
+        <span class="biome-tag danger">👻 <span class="lang-en">Ghost Leviathan Adult</span><span class="lang-zh">幽灵幼虫成体</span></span>
+        <span class="biome-tag"><span class="lang-en">Safety: ★★☆☆☆</span><span class="lang-zh">安全等级：★★☆☆☆</span></span>
       </div>
     </div>
 
     <div class="biome-card">
       <div class="biome-header">
         <div class="biome-icon">🌋</div>
-        <div class="biome-name">深渊核心</div>
+        <div class="biome-name"><span class="lang-en">Abyss Core</span><span class="lang-zh">深渊核心</span></div>
         <div class="biome-depth">1200m+</div>
       </div>
       <div class="depth-bar"><div class="depth-fill" style="width:100%"></div></div>
-      <p>游戏终局区域，含故事核心内容。极端环境，没有满配装备不要强行进入。需要海龙潜艇 + 完整防护套装 + 大量物资储备。</p>
+      <p><span class="lang-en">Endgame zone with the story's core content. Extreme environment — don't enter without full gear. Requires Sea Dragon submarine + full protective suit + massive supply reserves.</span><span class="lang-zh">游戏终局区域，含故事核心内容。极端环境，没有满配装备不要强行进入。需要海龙潜艇 + 完整防护套装 + 大量物资储备。</span></p>
       <div class="biome-tags">
-        <span class="biome-tag resource">🗺️ 故事内容</span>
-        <span class="biome-tag danger">❌ 极端环境</span>
-        <span class="biome-tag">安全等级：★☆☆☆☆</span>
+        <span class="biome-tag resource">🗺️ <span class="lang-en">Story Content</span><span class="lang-zh">故事内容</span></span>
+        <span class="biome-tag danger">❌ <span class="lang-en">Extreme Environment</span><span class="lang-zh">极端环境</span></span>
+        <span class="biome-tag"><span class="lang-en">Safety: ★☆☆☆☆</span><span class="lang-zh">安全等级：★☆☆☆☆</span></span>
       </div>
     </div>
 
-    <h3 id="predators">掠食者威胁等级与应对</h3>
+    <h3 id="predators"><span class="lang-en">Predator Threat Levels &amp; How to Respond</span><span class="lang-zh">掠食者威胁等级与应对</span></h3>
     <table>
-      <thead><tr><th>生物</th><th>区域</th><th>威胁</th><th>应对方法</th></tr></thead>
+      <thead><tr><th><span class="lang-en">Creature</span><span class="lang-zh">生物</span></th><th><span class="lang-en">Zone</span><span class="lang-zh">区域</span></th><th><span class="lang-en">Threat</span><span class="lang-zh">威胁</span></th><th><span class="lang-en">Response</span><span class="lang-zh">应对方法</span></th></tr></thead>
       <tbody>
-        <tr><td>🐠 沙牙鱼</td><td>浅-中层</td><td>⭐⭐</td><td>游离开，不主动攻击，无视即可</td></tr>
-        <tr><td>🦈 骨鲨</td><td>中层</td><td>⭐⭐⭐</td><td>声诱饵丢出后绕行</td></tr>
-        <tr><td>👻 幽灵幼虫（幼）</td><td>蘑菇林</td><td>⭐⭐⭐</td><td>声诱饵 + 海蛾加速撤离</td></tr>
-        <tr><td>👻 幽灵幼虫（成）</td><td>深层</td><td>⭐⭐⭐⭐⭐</td><td>不要接近，绕远路，看到就跑</td></tr>
-        <tr><td>🐉 龙鳗</td><td>熔岩带</td><td>⭐⭐⭐⭐⭐</td><td>PRAWN 外骨骼抵御，或绕行</td></tr>
+        <tr><td>🐠 <span class="lang-en">Sand Shark</span><span class="lang-zh">沙牙鱼</span></td><td><span class="lang-en">Shallow–Mid</span><span class="lang-zh">浅-中层</span></td><td>⭐⭐</td><td><span class="lang-en">Swim away — doesn't attack first, just ignore</span><span class="lang-zh">游离开，不主动攻击，无视即可</span></td></tr>
+        <tr><td>🦈 <span class="lang-en">Bone Shark</span><span class="lang-zh">骨鲨</span></td><td><span class="lang-en">Mid-depth</span><span class="lang-zh">中层</span></td><td>⭐⭐⭐</td><td><span class="lang-en">Throw a sound decoy, then detour</span><span class="lang-zh">声诱饵丢出后绕行</span></td></tr>
+        <tr><td>👻 <span class="lang-en">Ghost Leviathan (Juv.)</span><span class="lang-zh">幽灵幼虫（幼）</span></td><td><span class="lang-en">Mushroom Forest</span><span class="lang-zh">蘑菇林</span></td><td>⭐⭐⭐</td><td><span class="lang-en">Decoy + accelerate Seamoth to escape</span><span class="lang-zh">声诱饵 + 海蛾加速撤离</span></td></tr>
+        <tr><td>👻 <span class="lang-en">Ghost Leviathan (Adult)</span><span class="lang-zh">幽灵幼虫（成）</span></td><td><span class="lang-en">Deep zone</span><span class="lang-zh">深层</span></td><td>⭐⭐⭐⭐⭐</td><td><span class="lang-en">Wide detour — run on sight, do not approach</span><span class="lang-zh">不要接近，绕远路，看到就跑</span></td></tr>
+        <tr><td>🐉 <span class="lang-en">Dragon Eel</span><span class="lang-zh">龙鳗</span></td><td><span class="lang-en">Lava zone</span><span class="lang-zh">熔岩带</span></td><td>⭐⭐⭐⭐⭐</td><td><span class="lang-en">PRAWN Suit to absorb hits, or wide detour</span><span class="lang-zh">PRAWN 外骨骼抵御，或绕行</span></td></tr>
       </tbody>
     </table>
   </section>
@@ -1484,145 +1623,94 @@ footer {
     <div class="section-banner banner-bg-faq">
       <div class="banner-icon">❓</div>
       <div>
-        <h2 class="banner-title">8. 新手常见问题</h2>
-        <div class="banner-sub">最高频问题的直接解答</div>
+        <h2 class="banner-title"><span class="lang-en">8. Beginner FAQ</span><span class="lang-zh">8. 新手常见问题</span></h2>
+        <div class="banner-sub"><span class="lang-en">Direct answers to the most common questions</span><span class="lang-zh">最高频问题的直接解答</span></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">我一直在溺死，怎么办？<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">I keep drowning — what am I doing wrong?</span><span class="lang-zh">我一直在溺死，怎么办？</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>溺死是新手最常见的死法。记住两条铁则：<br>
-        ① <strong>氧气低于30%立刻往上浮</strong>，不要再贪心继续采集；<br>
-        ② <strong>合成高容量氧气罐</strong>（钛×3 + 玻璃×1）比标准罐多3倍时间，一定要尽早升级。<br>
-        另外，水面换气是免费的，多用"出水→换气→再下去"的节奏，不要一次潜太久。</p>
+        <div class="lang-en"><p>Two golden rules:<br>① <strong>Surface when oxygen hits 30%</strong> — don't keep mining those last few rocks;<br>② <strong>Craft the High Cap O₂ Tank</strong> (Titanium ×3 + Glass ×1) — it gives 3× more dive time. Upgrade ASAP.<br>Also: use the surface → breathe → dive rhythm. Don't try to maximize every single dive.</p></div>
+        <div class="lang-zh"><p>溺死是新手最常见的死法。记住两条铁则：<br>① <strong>氧气低于30%立刻往上浮</strong>，不要再贪心继续采集；<br>② <strong>合成高容量氧气罐</strong>（钛×3 + 玻璃×1）比标准罐多3倍时间，一定要尽早升级。<br>另外，水面换气是免费的，多用"出水→换气→再下去"的节奏，不要一次潜太久。</p></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">游戏没有任务箭头，我该去哪里？<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">There are no quest markers — where do I go?</span><span class="lang-zh">游戏没有任务箭头，我该去哪里？</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>Subnautica 2 的设计理念就是"自己探索"，没有任务箭头是故意的。正确的探索顺序：<br>
-        ① 读 PDA（Tab键）——所有故事线索都在里面，每次扫描残骸和生物都会更新；<br>
-        ② 跟着残骸走——水面和浅海会有大量坠落的飞船残骸，走近就会触发新内容；<br>
-        ③ 不要想太多，随便游就行——好东西都是"意外"发现的，享受探索本身。</p>
+        <div class="lang-en"><p>Subnautica 2's design philosophy is "explore for yourself" — no markers is intentional. The right approach:<br>① Open the PDA (Tab) — all story clues are inside, updated whenever you scan a wreck or creature;<br>② Follow the wreckage — ship debris on the surface and in shallow water triggers new content when approached;<br>③ Just swim and enjoy — the best finds are accidental. Embrace the exploration.</p></div>
+        <div class="lang-zh"><p>Subnautica 2 的设计理念就是"自己探索"，没有任务箭头是故意的。正确的探索顺序：<br>① 读 PDA（Tab键）——所有故事线索都在里面，每次扫描残骸和生物都会更新；<br>② 跟着残骸走——水面和浅海会有大量坠落的飞船残骸，走近就会触发新内容；<br>③ 不要想太多，随便游就行——好东西都是"意外"发现的，享受探索本身。</p></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">被大型生物吓到不敢下水怎么办？<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">I'm terrified of the creatures — how do I cope?</span><span class="lang-zh">被大型生物吓到不敢下水怎么办？</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>这是正常反应！开发者专门设计了"深海恐惧感"。几个降低恐惧的实用技巧：<br>
-        ① <strong>开灯</strong>——黑暗本身就是恐惧来源，随时开海蛾车灯；<br>
-        ② <strong>带诱饵</strong>——声诱饵（磁铁矿×1 + 植物×1）能把大部分中型生物引开；<br>
-        ③ <strong>了解生物</strong>——扫描仪扫过的生物会在 PDA 里显示习性，知道它吃什么才会攻击，恐惧感会大幅降低；<br>
-        ④ 大部分生物不会主动攻击——你先不碰它，它一般不咬你。</p>
+        <div class="lang-en"><p>Completely normal — the developers deliberately designed thalassophobia. Practical tips:<br>① <strong>Use your lights</strong> — darkness is the biggest fear source, always keep the Seamoth headlights on;<br>② <strong>Carry decoys</strong> — Sound Decoys (Magnetite ×1 + Plant ×1) distract most mid-tier creatures;<br>③ <strong>Scan everything</strong> — the PDA shows behavior patterns after scanning; knowing what triggers it reduces fear drastically;<br>④ Most creatures don't aggress first — leave them alone and they'll leave you alone.</p></div>
+        <div class="lang-zh"><p>这是正常反应！开发者专门设计了"深海恐惧感"。几个降低恐惧的实用技巧：<br>① <strong>开灯</strong>——黑暗本身就是恐惧来源，随时开海蛾车灯；<br>② <strong>带诱饵</strong>——声诱饵（磁铁矿×1 + 植物×1）能把大部分中型生物引开；<br>③ <strong>了解生物</strong>——扫描仪扫过的生物会在 PDA 里显示习性，知道它吃什么才会攻击，恐惧感会大幅降低；<br>④ 大部分生物不会主动攻击——你先不碰它，它一般不咬你。</p></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">联机和单机哪个更适合新手？<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">Is multiplayer or solo better for beginners?</span><span class="lang-zh">联机和单机哪个更适合新手？</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>两种都可以，但各有优缺点：<br>
-        <strong>单机：</strong> 体验更完整，自己掌控节奏，不用担心别人拿走你的资源，恐惧感更强烈（褒义）。<br>
-        <strong>联机：</strong> 资源积累快4倍，有队友分工更安全，大型生物遇到时不那么怕，适合不喜欢孤独感的玩家。<br>
-        建议：第一次玩先单机体验剧情，二周目再联机体验全新分工乐趣。</p>
+        <div class="lang-en"><p>Both work — each has trade-offs:<br><strong>Solo:</strong> More immersive, you control the pace, no one takes your resources, and the fear factor is legendary (in a good way).<br><strong>Multiplayer:</strong> Resources accumulate 4× faster, teammates divide the danger, large creatures less frightening. Better for players who don't enjoy isolation.<br>Recommendation: Solo first playthrough for the story experience, then co-op for a fresh run with role specialization.</p></div>
+        <div class="lang-zh"><p>两种都可以，但各有优缺点：<br><strong>单机：</strong> 体验更完整，自己掌控节奏，不用担心别人拿走你的资源，恐惧感更强烈（褒义）。<br><strong>联机：</strong> 资源积累快4倍，有队友分工更安全，大型生物遇到时不那么怕，适合不喜欢孤独感的玩家。<br>建议：第一次玩先单机体验剧情，二周目再联机体验全新分工乐趣。</p></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">我的基地进水了怎么办？<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">My base is flooding — what do I do?</span><span class="lang-zh">我的基地进水了怎么办？</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>基地进水说明<strong>结构完整性</strong>降到0了。解决步骤：<br>
-        ① 先建造<strong>加固隔板</strong>（钛×3 + 玻璃×1）补强结构，每个提供 +7 完整性；<br>
-        ② 用<strong>修复工具</strong>在漏水点右键修复裂缝；<br>
-        ③ 如果大面积进水，先游出基地，加足够的加固隔板后再修复漏洞；<br>
-        ④ 基地深度每增加100米就消耗约1点完整性，注意提前准备加固隔板再建深层基地。</p>
+        <div class="lang-en"><p>Flooding means <strong>Hull Integrity</strong> hit zero. Fix steps:<br>① Build <strong>Reinforcement Panels</strong> (Titanium ×3 + Glass ×1 = +7 integrity each) to restore structure;<br>② Use a <strong>Repair Tool</strong> to right-click and fix each crack;<br>③ If heavily flooded, swim out first, add panels, then repair the cracks;<br>④ Every 100m of depth costs ~1 integrity — always build reinforcement panels before expanding a deep base.</p></div>
+        <div class="lang-zh"><p>基地进水说明<strong>结构完整性</strong>降到0了。解决步骤：<br>① 先建造<strong>加固隔板</strong>（钛×3 + 玻璃×1）补强结构，每个提供 +7 完整性；<br>② 用<strong>修复工具</strong>在漏水点右键修复裂缝；<br>③ 如果大面积进水，先游出基地，加足够的加固隔板后再修复漏洞；<br>④ 基地深度每增加100米就消耗约1点完整性，注意提前准备加固隔板再建深层基地。</p></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">游戏里到了晚上怎么应对？<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">How do I handle the night cycle?</span><span class="lang-zh">游戏里到了晚上怎么应对？</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>Subnautica 2 有昼夜循环，夜晚水下一片漆黑，恐惧感翻倍。应对方法：<br>
-        ① <strong>夜晚留在基地</strong>——整理物资、合成装备，等天亮再出发；<br>
-        ② 如果要出门，<strong>开全部灯光</strong>，随身携带<strong>荧光棒</strong>（丢出去照明）；<br>
-        ③ 夜晚有一些生物反而更安静，有经验的玩家会利用夜晚探索——但新手不建议。<br>
-        ④ 某些深层区域的生物在夜晚有不同的行为模式，扫描仪可以查到。</p>
+        <div class="lang-en"><p>Subnautica 2 has a day/night cycle. At night the underwater world goes pitch black, and fear doubles. How to cope:<br>① <strong>Stay at base at night</strong> — organize inventory, craft gear, wait for dawn;<br>② If you must go out, <strong>turn on all lights</strong> and bring <strong>Flares</strong> (throwable for area lighting);<br>③ Some creatures are actually quieter at night — experienced players exploit this, but beginners shouldn't;<br>④ Certain deep creatures have different night behaviors — PDA entries reveal these patterns.</p></div>
+        <div class="lang-zh"><p>Subnautica 2 有昼夜循环，夜晚水下一片漆黑，恐惧感翻倍。应对方法：<br>① <strong>夜晚留在基地</strong>——整理物资、合成装备，等天亮再出发；<br>② 如果要出门，<strong>开全部灯光</strong>，随身携带<strong>荧光棒</strong>（丢出去照明）；<br>③ 夜晚有一些生物反而更安静，有经验的玩家会利用夜晚探索——但新手不建议。<br>④ 某些深层区域的生物在夜晚有不同的行为模式，扫描仪可以查到。</p></div>
       </div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">图纸怎么解锁？我合成不了很多东西。<span class="faq-toggle">+</span></div>
+      <div class="faq-q" onclick="toggleFaq(this)"><span class="lang-en">I can't unlock blueprints — how does it work?</span><span class="lang-zh">图纸怎么解锁？我合成不了很多东西。</span><span class="faq-toggle">+</span></div>
       <div class="faq-a">
-        <p>图纸解锁有三种方式：<br>
-        ① <strong>扫描仪</strong>扫描残骸碎片——在水下找到飞船残骸的碎片，靠近后用扫描仪扫，扫满4片解锁一张图纸；<br>
-        ② <strong>修复工具</strong>修复残骸电路板——靠近有损坏电路板的残骸，用修复工具修复，有时会给新图纸；<br>
-        ③ 读 PDA 里的<strong>数据记录</strong>——有些图纸通过故事事件自动解锁。<br>
-        总结：多去找残骸，多扫描，多读 PDA，图纸自然越来越多。</p>
+        <div class="lang-en"><p>Three ways to unlock blueprints:<br>① <strong>Scanner on wreck fragments</strong> — find crashed ship debris underwater, scan 4 fragments of the same type to unlock a blueprint;<br>② <strong>Repair Tool on wreck circuit boards</strong> — approach a damaged circuit panel on a wreck, repair it, sometimes gives a new blueprint;<br>③ <strong>Read PDA data logs</strong> — some blueprints auto-unlock through story events.<br>Summary: find wrecks, scan everything, read every PDA entry — blueprints pile up naturally.</p></div>
+        <div class="lang-zh"><p>图纸解锁有三种方式：<br>① <strong>扫描仪</strong>扫描残骸碎片——在水下找到飞船残骸的碎片，靠近后用扫描仪扫，扫满4片解锁一张图纸；<br>② <strong>修复工具</strong>修复残骸电路板——靠近有损坏电路板的残骸，用修复工具修复，有时会给新图纸；<br>③ 读 PDA 里的<strong>数据记录</strong>——有些图纸通过故事事件自动解锁。<br>总结：多去找残骸，多扫描，多读 PDA，图纸自然越来越多。</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ══ Section 9: Deploy ══ -->
-  <section id="deploy">
-    <div class="section-banner banner-bg-deploy">
-      <div class="banner-icon">🚀</div>
-      <div>
-        <h2 class="banner-title">9. 部署到 GitHub Pages</h2>
-        <div class="banner-sub">免费建站 · 三步上线 · 广告变现</div>
-      </div>
-    </div>
-
-    <p>将这个攻略页面上传到 GitHub，即可获得免费公开网址，便于分享和被搜索引擎收录。</p>
-
-    <h3>步骤一：创建 GitHub 仓库</h3>
-    <ol class="step-list">
-      <li>登录 <a href="https://github.com" target="_blank">github.com</a>，点击右上角 <strong>+</strong> → <strong>New repository</strong></li>
-      <li>仓库名建议：<code>subnautica-2-guide</code>（全小写，短横线分隔）</li>
-      <li>选择 <strong>Public</strong>（公开仓库，GitHub Pages 免费版必须公开）</li>
-      <li>点击 <strong>Create repository</strong></li>
-    </ol>
-
-    <h3>步骤二：上传 HTML 文件</h3>
-    <ol class="step-list">
-      <li>进入仓库页面，点击 <strong>Add file</strong> → <strong>Upload files</strong></li>
-      <li>将本攻略的 <code>index.html</code> 文件拖入上传区域</li>
-      <li>填写提交信息（如 <em>"Add Subnautica 2 guide"</em>），点击 <strong>Commit changes</strong></li>
-    </ol>
-
-    <h3>步骤三：开启 GitHub Pages</h3>
-    <ol class="step-list">
-      <li>进入仓库 <strong>Settings</strong>（右上角齿轮图标）</li>
-      <li>左侧菜单找到 <strong>Pages</strong></li>
-      <li>Source 选 <strong>Deploy from a branch</strong>，Branch 选 <strong>main</strong>，目录选 <strong>/ (root)</strong></li>
-      <li>点击 <strong>Save</strong>，等待约 1–3 分钟</li>
-      <li>页面顶部会显示网址：<code>https://你的用户名.github.io/subnautica-2-guide/</code></li>
-    </ol>
-
-    <div class="tip-box">
-      <div class="box-label">💡 加速被 Google 收录</div>
-      部署完后去 <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a> 提交你的 URL。一般 1–7 天可以被收录。
-    </div>
-
-    <h3>广告变现（Google AdSense）</h3>
-    <p>等网站有一定访问量后（通常 1000+ UV/月），可申请 <strong>Google AdSense</strong>。审核通过后，将 AdSense 代码粘贴到本文件中标有 <code>ADVERTISEMENT SLOT</code> 注释的位置即可自动展示广告并获得收益。</p>
-  </section>
 
   <!-- AD SLOT BOTTOM -->
-  <!-- ADVERTISEMENT SLOT 4 (728x90 Footer) — 替换为 AdSense 代码 -->
-  <div class="ad-slot">📢 广告位 · 728×90 底部横幅广告</div>
+  <!-- ADVERTISEMENT SLOT 4 (728x90 Footer) — Replace with AdSense code -->
+  <div class="ad-slot"><span class="lang-en">📢 Ad Slot · 728×90 Footer Banner</span><span class="lang-zh">📢 广告位 · 728×90 底部横幅广告</span></div>
 
 </main>
 </div><!-- /page-layout -->
 
 <footer>
-  <p>📅 最后更新：2026年5月 &nbsp;|&nbsp; 基于 <strong>Subnautica 2 Early Access</strong></p>
-  <p style="margin-top:6px;">非官方攻略站，内容仅供参考。官方页面：<a href="https://store.steampowered.com/app/3026940" target="_blank" rel="noopener">Steam 官方页面</a></p>
-  <p style="margin-top:6px; color:#3a5070; font-size:11px;">© 2026 GameGuide CN · 联系：admin@example.com</p>
+  <p><span class="lang-en">📅 Last Updated: May 2026 &nbsp;|&nbsp; Based on <strong>Subnautica 2 Early Access</strong></span><span class="lang-zh">📅 最后更新：2026年5月 &nbsp;|&nbsp; 基于 <strong>Subnautica 2 Early Access</strong></span></p>
+  <p style="margin-top:6px;"><span class="lang-en">Unofficial guide — for reference only. Official page: <a href="https://store.steampowered.com/app/3026940" target="_blank" rel="noopener">Steam Store Page</a></span><span class="lang-zh">非官方攻略站，内容仅供参考。官方页面：<a href="https://store.steampowered.com/app/3026940" target="_blank" rel="noopener">Steam 官方页面</a></span></p>
+  <p style="margin-top:6px; color:#3a5070; font-size:11px;"><span class="lang-en">© 2026 GameGuide · contact: admin@example.com</span><span class="lang-zh">© 2026 GameGuide CN · 联系：admin@example.com</span></p>
 </footer>
 
 <script>
+/* ── Language switcher ── */
+function setLang(lang) {
+  const isZh = lang === 'zh';
+  document.body.classList.toggle('zh', isZh);
+  document.getElementById('htmlRoot').lang = isZh ? 'zh-CN' : 'en';
+  document.getElementById('btn-en').classList.toggle('active', !isZh);
+  document.getElementById('btn-zh').classList.toggle('active', isZh);
+  localStorage.setItem('lang', lang);
+}
+setLang(localStorage.getItem('lang') || 'en');
+
 /* ── Sidebar active tracking ── */
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-link[href^="#"], .nav-sub-link[href^="#"]');
@@ -1648,12 +1736,12 @@ const overlay = document.getElementById('overlay');
 function openSidebar() {
   sidebar.classList.add('open');
   overlay.classList.add('active');
-  toggle.textContent = '✕ 关闭';
+  toggle.innerHTML = '✕ <span class="lang-en">Close</span><span class="lang-zh">关闭</span>';
 }
 function closeSidebar() {
   sidebar.classList.remove('open');
   overlay.classList.remove('active');
-  toggle.textContent = '☰ 目录';
+  toggle.innerHTML = '☰ <span class="lang-en">Menu</span><span class="lang-zh">目录</span>';
 }
 
 toggle.addEventListener('click', () => {

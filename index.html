@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subnautica 2 攻略大全 | 新手到高手完整指南 2026</title>
+  <meta name="description" content="Subnautica 2 最全中文攻略，含新手入门、氧气管理、合成配方材料产地、基地建设、潜水艇、联机技巧与生物群落，附第一小时清单和新手FAQ。" />
+  <meta property="og:title" content="Subnautica 2 攻略大全 | 新手到高手完整指南 2026" />
+  <meta property="og:description" content="从零开始征服深海：Subnautica 2 最全中文攻略，含配方产地、新手FAQ、联机技巧。" />
+  <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Subnautica 2 攻略大全 2026" />
+  <meta name="twitter:description" content="从零开始征服深海：Subnautica 2 完整中文攻略" />
+
+  <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Subnautica 2 攻略大全 | 新手到高手完整指南 2026",
+    "description": "Subnautica 2最全中文攻略，含新手入门、氧气管理、合成配方材料产地、基地建设、潜水艇、联机技巧、生物群落、新手FAQ。",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
+    "datePublished": "2026-05-17",
+    "dateModified": "2026-05-17",
+    "inLanguage": "zh-CN",
+    "author": { "@type": "Organization", "name": "GameGuide CN" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GameGuide CN",
+      "logo": { "@type": "ImageObject", "url": "https://specialzhou.github.io/subnautica-2-guide/" }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://specialzhou.github.io/subnautica-2-guide/"
+    }
+  }
+  </script>
+<style>
+/* ═══════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════ */
+:root {
+  --bg: #080e1c;
+  --surface: #0b1525;
+  --card: #0f2040;
+  --card2: #102245;
+  --accent: #00d4ff;
+  --accent2: #0077bb;
+  --accent-glow: rgba(0,212,255,0.18);
+  --text: #c8d8f0;
+  --text-dim: #7a90b0;
+  --heading: #e4f0ff;
+  --border: #1a3055;
+  --border2: #224070;
+  --sidebar-w: 258px;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --easy: #22c55e;
+  --medium: #f59e0b;
+  --hard: #ef4444;
+}
+
+/* ═══════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════ */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.78;
+  font-size: 15.5px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { color: var(--heading); }
+code {
+  background: var(--card); color: var(--accent);
+  padding: 1px 7px; border-radius: 4px;
+  font-size: 0.88em; font-family: 'Consolas', monospace;
+}
+
+/* ═══════════════════════════════════════
+   HEADER (top bar)
+═══════════════════════════════════════ */
+.site-header {
+  background: linear-gradient(135deg, #04101f 0%, #0b2040 50%, #060f1e 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 22px 24px 18px;
+  text-align: center;
+  position: relative; overflow: hidden;
+  z-index: 200;
+}
+.site-header::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0,212,255,0.08) 0%, transparent 65%);
+  pointer-events:none;
+}
+.site-brand { font-size:11px; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+.site-header h1 {
+  font-size: clamp(20px,4vw,32px); color:var(--heading);
+  font-weight:800; text-shadow:0 0 28px rgba(0,212,255,0.35);
+  margin-bottom:8px;
+}
+.header-sub { font-size:13px; color:var(--text-dim); margin-bottom:10px; }
+.badge {
+  display:inline-block; background:rgba(0,212,255,0.12);
+  border:1px solid rgba(0,212,255,0.4); color:var(--accent);
+  padding:2px 10px; border-radius:20px; font-size:11.5px; margin:2px 3px;
+}
+
+/* ═══════════════════════════════════════
+   MOBILE MENU TOGGLE
+═══════════════════════════════════════ */
+.menu-toggle {
+  display: none;
+  position: fixed; bottom: 20px; right: 20px; z-index: 1100;
+  background: var(--accent); color: #000;
+  border: none; border-radius: 50px;
+  padding: 12px 20px; font-size: 14px; font-weight: 700;
+  cursor: pointer; box-shadow: 0 4px 20px rgba(0,212,255,0.4);
+}
+.sidebar-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.55); z-index: 900; backdrop-filter: blur(2px);
+}
+.sidebar-overlay.active { display: block; }
+
+/* ═══════════════════════════════════════
+   PAGE LAYOUT
+═══════════════════════════════════════ */
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: calc(100vh - 80px);
+}
+
+/* ═══════════════════════════════════════
+   SIDEBAR
+═══════════════════════════════════════ */
+.sidebar {
+  width: var(--sidebar-w);
+  min-width: var(--sidebar-w);
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border2) transparent;
+  z-index: 800;
+  flex-shrink: 0;
+}
+.sidebar::-webkit-scrollbar { width: 4px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+.sidebar-logo {
+  padding: 18px 16px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px; font-weight: 700; color: var(--accent);
+  letter-spacing: 0.5px;
+}
+.sidebar-logo span { display:block; font-size:11px; color:var(--text-dim); font-weight:400; margin-top:2px; }
+
+.nav-section-label {
+  padding: 14px 16px 4px;
+  font-size: 10px; letter-spacing: 2px;
+  color: var(--text-dim); text-transform: uppercase;
+}
+
+.nav-list { list-style: none; padding: 0 8px; margin-bottom: 8px; }
+.nav-list li { margin: 1px 0; }
+
+.nav-link {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 10px; border-radius: var(--radius-sm);
+  color: var(--text); font-size: 13.5px;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer; text-decoration: none;
+  position: relative;
+}
+.nav-link:hover { background: rgba(0,212,255,0.08); color: var(--heading); text-decoration: none; }
+.nav-link.active {
+  background: rgba(0,212,255,0.14);
+  color: var(--accent);
+  font-weight: 600;
+}
+.nav-link.active::before {
+  content:''; position:absolute; left:0; top:20%; bottom:20%;
+  width:3px; background:var(--accent); border-radius:0 2px 2px 0;
+}
+.nav-link .nav-icon { font-size:15px; flex-shrink:0; width:20px; text-align:center; }
+
+.nav-sub { list-style:none; padding: 2px 0 2px 28px; }
+.nav-sub li { margin: 1px 0; }
+.nav-sub-link {
+  display: block; padding: 5px 8px;
+  font-size: 12.5px; color: var(--text-dim);
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background 0.15s;
+  text-decoration: none;
+}
+.nav-sub-link:hover { color: var(--accent); background: rgba(0,212,255,0.06); text-decoration:none; }
+.nav-sub-link.active { color: var(--accent); font-weight:500; }
+
+.sidebar-footer {
+  padding: 14px 16px;
+  border-top: 1px solid var(--border);
+  font-size: 11px; color: var(--text-dim);
+  margin-top: 10px;
+}
+
+/* ═══════════════════════════════════════
+   MAIN CONTENT
+═══════════════════════════════════════ */
+.main-content {
+  flex: 1;
+  min-width: 0;
+  padding: 0 28px 60px;
+  max-width: 860px;
+}
+
+/* ═══════════════════════════════════════
+   HERO IMAGE
+═══════════════════════════════════════ */
+.hero-image {
+  width: 100%; border-radius: var(--radius);
+  margin: 20px 0 0; overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.hero-image img {
+  width: 100%; display: block;
+  height: 200px; object-fit: cover;
+}
+.hero-fallback {
+  height: 200px;
+  background: linear-gradient(135deg, #061326 0%, #083060 50%, #05192e 100%);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 48px;
+}
+.hero-caption {
+  position: absolute; bottom:0; left:0; right:0;
+  background: linear-gradient(transparent, rgba(5,15,30,0.95));
+  padding: 24px 16px 10px;
+  font-size: 12px; color: var(--text-dim);
+}
+
+/* ═══════════════════════════════════════
+   SECTION BANNERS (CSS art, no external deps)
+═══════════════════════════════════════ */
+.section-banner {
+  height: 110px; border-radius: var(--radius);
+  margin-bottom: 20px; position: relative;
+  overflow: hidden; border: 1px solid var(--border);
+  display: flex; align-items: center; padding: 0 24px;
+}
+.section-banner .banner-icon {
+  font-size: 44px; margin-right: 16px; filter: drop-shadow(0 0 12px currentColor);
+  position: relative; z-index: 1;
+}
+.section-banner .banner-title {
+  font-size: 22px; font-weight: 800; color: var(--heading);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  position: relative; z-index: 1;
+}
+.section-banner .banner-sub {
+  font-size: 13px; color: var(--text-dim);
+  position: relative; z-index: 1;
+}
+.banner-bg-basics {
+  background: linear-gradient(135deg, #041828 0%, #0a3a6e 55%, #053055 100%);
+}
+.banner-bg-basics::after {
+  content:''; position:absolute; right:-20px; top:-20px;
+  width:200px; height:200px; border-radius:50%;
+  background: radial-gradient(circle, rgba(0,212,255,0.12), transparent 70%);
+}
+.banner-bg-oxygen {
+  background: linear-gradient(135deg, #031520 0%, #054078 60%, #031825 100%);
+}
+.banner-bg-crafting {
+  background: linear-gradient(135deg, #0a1a10 0%, #0d3a20 60%, #091510 100%);
+}
+.banner-bg-base {
+  background: linear-gradient(135deg, #1a1008 0%, #3d2a08 60%, #1a1005 100%);
+}
+.banner-bg-vehicles {
+  background: linear-gradient(135deg, #080a1e 0%, #1a1a50 60%, #080818 100%);
+}
+.banner-bg-coop {
+  background: linear-gradient(135deg, #180820 0%, #3a1050 60%, #100818 100%);
+}
+.banner-bg-biomes {
+  background: linear-gradient(135deg, #051018 0%, #082840 50%, #0f1a30 100%);
+}
+.banner-bg-faq {
+  background: linear-gradient(135deg, #10100a 0%, #2a2a10 60%, #181808 100%);
+}
+.banner-bg-deploy {
+  background: linear-gradient(135deg, #0a0818 0%, #1a1040 60%, #080810 100%);
+}
+
+/* ═══════════════════════════════════════
+   SECTIONS
+═══════════════════════════════════════ */
+section {
+  margin: 32px 0;
+  scroll-margin-top: 16px;
+}
+section h2:not(.banner-title) { display: none; }
+h2.banner-title { margin: 0; font-size: clamp(17px,2.5vw,22px); }
+section h3 {
+  font-size: 16.5px; color: var(--accent);
+  margin: 24px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+section p { color: var(--text); margin-bottom: 12px; }
+
+/* ═══════════════════════════════════════
+   CARDS
+═══════════════════════════════════════ */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px; margin: 14px 0;
+}
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 15px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.card .icon { font-size: 24px; margin-bottom: 8px; }
+.card h4 { color: var(--heading); font-size: 13.5px; margin-bottom: 5px; }
+.card p { font-size: 12.5px; color: var(--text-dim); margin: 0; }
+
+/* ═══════════════════════════════════════
+   CRAFT CARDS
+═══════════════════════════════════════ */
+.craft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px; margin: 14px 0;
+}
+.craft-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden;
+  transition: border-color 0.2s;
+}
+.craft-card:hover { border-color: var(--accent2); }
+.craft-card-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px; background: rgba(0,0,0,0.2);
+  border-bottom: 1px solid var(--border);
+}
+.craft-card-icon { font-size: 28px; }
+.craft-card-name { font-size: 14.5px; font-weight: 700; color: var(--heading); }
+.craft-card-desc { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+.craft-card-body { padding: 12px 14px; }
+.craft-station {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(0,212,255,0.1); border: 1px solid rgba(0,212,255,0.25);
+  color: var(--accent); font-size: 11.5px; font-weight: 600;
+  padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;
+}
+.mat-list { list-style: none; padding: 0; }
+.mat-item {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 13px;
+}
+.mat-item:last-child { border-bottom: none; }
+.mat-emoji { font-size: 18px; flex-shrink: 0; width: 24px; }
+.mat-info { flex: 1; }
+.mat-name { color: var(--heading); font-weight: 600; }
+.mat-amount { color: var(--text-dim); font-size: 12px; margin-left: 4px; }
+.mat-location {
+  font-size: 11.5px; color: var(--text-dim); margin-top: 1px;
+  display: flex; align-items: center; gap: 4px;
+}
+.mat-location::before { content:'📍'; font-size:10px; }
+.diff-badge {
+  font-size: 10.5px; font-weight: 700; padding: 1px 7px;
+  border-radius: 10px; flex-shrink: 0; align-self: center;
+}
+.diff-easy { background: rgba(34,197,94,0.15); color: var(--easy); border: 1px solid rgba(34,197,94,0.3); }
+.diff-medium { background: rgba(245,158,11,0.15); color: var(--medium); border: 1px solid rgba(245,158,11,0.3); }
+.diff-hard { background: rgba(239,68,68,0.15); color: var(--hard); border: 1px solid rgba(239,68,68,0.3); }
+
+/* ═══════════════════════════════════════
+   TIP / WARNING BOXES
+═══════════════════════════════════════ */
+.tip-box, .warn-box, .info-box {
+  border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
+}
+.tip-box {
+  background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25);
+}
+.warn-box {
+  background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25);
+}
+.info-box {
+  background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25);
+}
+.box-label {
+  font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 800; margin-bottom: 5px;
+}
+.tip-box .box-label { color: var(--accent); }
+.warn-box .box-label { color: #f87171; }
+.info-box .box-label { color: var(--medium); }
+
+/* ═══════════════════════════════════════
+   STEP LIST
+═══════════════════════════════════════ */
+.step-list { counter-reset: step; list-style: none; padding: 0; margin: 12px 0; }
+.step-list li {
+  counter-increment: step;
+  position: relative; padding: 11px 12px 11px 50px;
+  margin-bottom: 8px; background: var(--card);
+  border-radius: var(--radius); border: 1px solid var(--border);
+  font-size: 14px;
+}
+.step-list li::before {
+  content: counter(step);
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; background: var(--accent); color: #000;
+  border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-weight: 700; font-size: 12px;
+}
+
+/* ═══════════════════════════════════════
+   CHECKLIST (first-hour)
+═══════════════════════════════════════ */
+.checklist { list-style: none; padding: 0; margin: 12px 0; }
+.checklist li {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 9px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 14px;
+}
+.checklist li:last-child { border-bottom: none; }
+.check-bullet {
+  width: 22px; height: 22px; border: 2px solid var(--border2);
+  border-radius: 4px; flex-shrink: 0; margin-top: 2px;
+}
+.check-time {
+  font-size: 11px; color: var(--accent); font-weight: 700;
+  white-space: nowrap; margin-top: 3px; min-width: 55px;
+}
+
+/* ═══════════════════════════════════════
+   TABLE
+═══════════════════════════════════════ */
+table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
+th {
+  background: var(--card2); color: var(--accent);
+  padding:9px 13px; text-align:left; border:1px solid var(--border);
+  font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase;
+}
+td { padding:8px 13px; border:1px solid var(--border); color:var(--text); }
+tr:nth-child(even) td { background: rgba(15,32,64,0.4); }
+
+/* ═══════════════════════════════════════
+   BIOME CARDS
+═══════════════════════════════════════ */
+.biome-card {
+  background: var(--card); border:1px solid var(--border);
+  border-radius: var(--radius); padding: 15px; margin-bottom: 10px;
+  transition: border-color 0.2s;
+}
+.biome-card:hover { border-color: var(--accent2); }
+.biome-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.biome-icon { font-size: 22px; }
+.biome-name { font-size: 15px; font-weight: 700; color: var(--heading); }
+.biome-depth { font-size: 11.5px; color: var(--text-dim); margin-left: auto; }
+.depth-bar { height:5px; background:var(--border); border-radius:3px; margin:6px 0 10px; overflow:hidden; }
+.depth-fill { height:100%; background:linear-gradient(90deg,var(--accent2),var(--accent)); border-radius:3px; }
+.biome-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.biome-tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 10px;
+  background: rgba(0,212,255,0.08); border: 1px solid rgba(0,212,255,0.2); color: var(--accent);
+}
+.biome-tag.danger { background:rgba(239,68,68,0.08); border-color:rgba(239,68,68,0.25); color:#f87171; }
+.biome-tag.resource { background:rgba(34,197,94,0.08); border-color:rgba(34,197,94,0.25); color:#4ade80; }
+
+/* ═══════════════════════════════════════
+   FAQ
+═══════════════════════════════════════ */
+.faq-item {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  margin-bottom: 10px; overflow: hidden;
+}
+.faq-q {
+  padding: 13px 16px; background: var(--card);
+  font-size: 14px; font-weight: 600; color: var(--heading);
+  cursor: pointer; display: flex; align-items: center; gap: 10px;
+  user-select: none;
+}
+.faq-q::before { content:'❓'; font-size: 16px; }
+.faq-q .faq-toggle { margin-left: auto; color: var(--accent); font-size: 18px; transition: transform 0.2s; }
+.faq-item.open .faq-toggle { transform: rotate(45deg); }
+.faq-a {
+  padding: 0 16px; max-height: 0; overflow: hidden;
+  font-size: 13.5px; transition: max-height 0.3s ease, padding 0.3s;
+  background: rgba(0,0,0,0.15);
+}
+.faq-item.open .faq-a { max-height: 400px; padding: 13px 16px; }
+
+/* ═══════════════════════════════════════
+   AD SLOTS
+═══════════════════════════════════════ */
+.ad-slot {
+  background: rgba(8,14,28,0.8); border: 1px dashed var(--border);
+  border-radius: var(--radius); text-align: center; padding: 14px;
+  margin: 24px 0; color: var(--text-dim); font-size: 12px;
+  min-height: 90px; display: flex; align-items: center; justify-content: center;
+}
+
+/* ═══════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════ */
+footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  text-align: center; padding: 22px 16px;
+  color: var(--text-dim); font-size: 12.5px; margin-top: 40px;
+}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════ */
+@media (max-width: 820px) {
+  .sidebar {
+    position: fixed; left: calc(-1 * var(--sidebar-w));
+    top: 0; height: 100%; transition: left 0.28s ease;
+    z-index: 950; box-shadow: 4px 0 20px rgba(0,0,0,0.5);
+  }
+  .sidebar.open { left: 0; }
+  .menu-toggle { display: block; }
+  .main-content { padding: 0 16px 60px; }
+  .craft-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 500px) {
+  .card-grid { grid-template-columns: 1fr 1fr; }
+  .section-banner { height: 88px; }
+  .section-banner .banner-icon { font-size: 32px; }
+  .section-banner .banner-title { font-size: 17px; }
+}
+@media (max-width: 360px) {
+  .card-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════ TOP HEADER ══════════ -->
+<header class="site-header">
+  <div class="site-brand">⚓ GameGuide CN</div>
+  <h1>🌊 Subnautica 2 攻略大全</h1>
+  <p class="header-sub">新手到高手 · 深海生存完整指南 · 2026年5月最新版</p>
+  <div>
+    <span class="badge">🔥 2026年5月热门</span>
+    <span class="badge">早期访问版</span>
+    <span class="badge">✅ 支持四人联机</span>
+    <span class="badge">🆕 含材料产地</span>
+  </div>
+</header>
+
+<!-- ══════════ MOBILE OVERLAY ══════════ -->
+<div class="sidebar-overlay" id="overlay"></div>
+<button class="menu-toggle" id="menuToggle">☰ 目录</button>
+
+<!-- ══════════ PAGE LAYOUT ══════════ -->
+<div class="page-layout">
+
+<!-- ────────────────────────────────────
+     LEFT SIDEBAR
+────────────────────────────────────── -->
+<nav class="sidebar" id="sidebar" aria-label="章节导航">
+
+  <div class="sidebar-logo">
+    🌊 Subnautica 2 攻略
+    <span>Early Access 版 · 2026.05</span>
+  </div>
+
+  <div class="nav-section-label">快速入口</div>
+  <ul class="nav-list">
+    <li><a class="nav-link" href="#intro"><span class="nav-icon">📖</span>游戏简介</a></li>
+    <li><a class="nav-link" href="#firsthour"><span class="nav-icon">⏱️</span>第一小时清单</a></li>
+  </ul>
+
+  <div class="nav-section-label">主要章节</div>
+  <ul class="nav-list">
+    <li>
+      <a class="nav-link" href="#basics"><span class="nav-icon">🎮</span>1. 新手入门</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#first-steps">开局5件事</a></li>
+        <li><a class="nav-sub-link" href="#ui-guide">界面说明</a></li>
+        <li><a class="nav-sub-link" href="#controls">按键操作</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#oxygen"><span class="nav-icon">🫁</span>2. 氧气与生存</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#o2-route">氧气装备路线</a></li>
+        <li><a class="nav-sub-link" href="#food-water">食物与饮水</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#crafting"><span class="nav-icon">⚗️</span>3. 合成系统详解</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#stations">合成台介绍</a></li>
+        <li><a class="nav-sub-link" href="#materials">材料在哪里找</a></li>
+        <li><a class="nav-sub-link" href="#recipes">重要配方详解</a></li>
+        <li><a class="nav-sub-link" href="#craft-order">合成优先顺序</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#base"><span class="nav-icon">🏗️</span>4. 基地建设</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#base-location">选址要点</a></li>
+        <li><a class="nav-sub-link" href="#base-order">建造顺序</a></li>
+        <li><a class="nav-sub-link" href="#base-power">供电系统</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#vehicles"><span class="nav-icon">🚢</span>5. 载具指南</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#seamoth">海蛾详解</a></li>
+        <li><a class="nav-sub-link" href="#deep-vehicles">深层载具</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#coop"><span class="nav-icon">👥</span>6. 联机技巧</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#coop-roles">分工方案</a></li>
+        <li><a class="nav-sub-link" href="#coop-tips">联机注意事项</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#biomes"><span class="nav-icon">🌏</span>7. 生物群落</a>
+      <ul class="nav-sub">
+        <li><a class="nav-sub-link" href="#biome-list">各区域介绍</a></li>
+        <li><a class="nav-sub-link" href="#predators">危险生物</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="nav-link" href="#faq"><span class="nav-icon">❓</span>8. 新手常见问题</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#deploy"><span class="nav-icon">🚀</span>9. 部署到 GitHub</a>
+    </li>
+  </ul>
+
+  <div class="sidebar-footer">
+    📅 更新：2026年5月<br>
+    基于 Subnautica 2 早期访问版
+  </div>
+</nav>
+
+<!-- ────────────────────────────────────
+     MAIN CONTENT
+────────────────────────────────────── -->
+<main class="main-content">
+
+  <!-- AD SLOT TOP -->
+  <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — 替换为 AdSense 代码 -->
+  <div class="ad-slot">📢 广告位 · 728×90 横幅广告</div>
+
+  <!-- ══ 游戏简介 ══ -->
+  <section id="intro">
+    <div class="hero-image">
+      <img
+        src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
+        alt="Subnautica 2 游戏封面 — 2026年最热深海生存游戏，Steam历史并发第29位"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+      />
+      <div class="hero-fallback" style="display:none;">🌊</div>
+      <div class="hero-caption">Subnautica 2 · 2026年5月14日抢先体验 · 图片来源：Steam 官方</div>
+    </div>
+
+    <p style="margin-top:18px;">
+      <strong>Subnautica 2</strong> 是 Unknown Worlds 和 Krafton 联合开发的深海生存探索游戏，于 <strong>2026年5月14日</strong> 进入抢先体验（Early Access）。上市12小时内售出 <strong>200万份</strong>，Steam 历史峰值在线 <strong>467,582人</strong>，Twitch 同时观看峰值 <strong>413,200人</strong>，登上 Steam 历史并发排行第29位。
+    </p>
+    <p>
+      游戏延续第一代深海探索的核心体验，在全新的外星海洋星球上进行，并首次加入最多 <strong>4人联机</strong> 模式。你将从一个坠落的逃生舱开始，在没有地图、没有任务箭头的情况下，靠自己的探索在未知深海中生存下去。
+    </p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 对新手说一句话</div>
+      游戏的"没有指引"设计是故意的，也是最好玩的部分。不要焦虑，也不要急着去深处——先把浅海玩透，装备自然就会解锁，进度自然会推进。
+    </div>
+  </section>
+
+  <!-- ══ 第一小时清单 ══ -->
+  <section id="firsthour">
+    <div class="section-banner banner-bg-basics">
+      <div class="banner-icon">⏱️</div>
+      <div>
+        <h2 class="banner-title">第一小时清单</h2>
+        <div class="banner-sub">从落地到站稳脚跟的完整路线图</div>
+      </div>
+    </div>
+
+    <p>很多新手开局不知道该做什么，这里给你一个分钟级的行动计划，照着做就能度过最危险的早期阶段。</p>
+
+    <ul class="checklist">
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">0–3分钟</div>
+        <div>打开逃生舱里所有储物箱，拿走全部物品。特别注意：<strong>急救包、营养棒</strong>一定要拿，这是你最早的续命道具。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">3–5分钟</div>
+        <div>按 <strong>Tab</strong> 打开 PDA，读完所有<strong>生存警报</strong>。游戏里没有任务栏，PDA 就是你的任务书。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">5–15分钟</div>
+        <div>在逃生舱附近 <strong>0–30米</strong> 范围下水，捡起橙色岩石（<strong>钛矿石</strong>）和绿斑岩石（<strong>铜矿</strong>），各捡5块以上。这个深度很安全，不用担心氧气。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">15–20分钟</div>
+        <div>用随身合成器合成：<strong>标准氧气罐（钛×1）</strong>。马上装备，潜水时间立刻延长。这是全游戏第一优先级合成。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">20–25分钟</div>
+        <div>合成<strong>刀具</strong>（钛×1 + 硅胶×1）。硅胶来自逃生舱附近的<strong>橙色蘑菇状植物</strong>，用手直接采摘。刀可以采集植物，也能击退小鱼。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">25–35分钟</div>
+        <div>在逃生舱外放置一个<strong>信标（Beacon）</strong>（铜×1 + 钛×1），防止你以后找不到回家的路。这一步很重要，很多新手第一次探索就迷路了。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">35–50分钟</div>
+        <div>合成<strong>扫描仪</strong>（钛×1 + 电池×1），电池需要 铜×2 + 酸性蘑菇×2。开始扫描周围的<strong>生物和植物</strong>，扫描完成后 PDA 会解锁相关条目，有时会触发新图纸。</div>
+      </li>
+      <li>
+        <div class="check-bullet"></div>
+        <div class="check-time">50–60分钟</div>
+        <div>找一块相对平坦的海底，放置你的第一个<strong>基础舱（Base Foundation）</strong>。别担心选址不完美——早期基地随时可以拆了重建，关键是现在就开始积累合成台。</div>
+      </li>
+    </ul>
+
+    <div class="tip-box">
+      <div class="box-label">💡 第一小时结束后你应该拥有</div>
+      标准氧气罐、刀具、扫描仪、信标（×1个）、第一个基础舱雏形。如果这些都有了，你的开局是成功的。
+    </div>
+  </section>
+
+  <!-- AD SLOT MID-1 -->
+  <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — 替换为 AdSense 代码 -->
+  <div class="ad-slot">📢 广告位 · 300×250 矩形广告</div>
+
+  <!-- ══ Section 1: Basics ══ -->
+  <section id="basics">
+    <div class="section-banner banner-bg-basics">
+      <div class="banner-icon">🎮</div>
+      <div>
+        <h2 class="banner-title">1. 新手入门 — 游戏基础</h2>
+        <div class="banner-sub">开局做什么 · 界面说明 · 按键指南</div>
+      </div>
+    </div>
+
+    <h3 id="first-steps">刚开始要做的 5 件事</h3>
+    <ol class="step-list">
+      <li>检查逃生舱内的所有储物箱，拿走<strong>急救包、营养棒和基础材料</strong>。</li>
+      <li>按 <strong>Tab</strong> 打开 PDA，阅读系统自动发送的<strong>生存警报</strong>，了解当前优先任务。</li>
+      <li>在舱外浅海（0–30 米）采集<strong>石英、钛矿石、铜矿</strong>，这是合成一切的基础。</li>
+      <li>合成<strong>氧气罐</strong>（需要钛×1），这是最优先的合成目标，马上扩充潜水时间。</li>
+      <li>在逃生舱周围放置一个<strong>信标</strong>，防止迷路找不到回家的路。</li>
+    </ol>
+
+    <h3 id="ui-guide">界面说明</h3>
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">💨</div>
+        <h4>氧气条（蓝色）</h4>
+        <p>屏幕左侧，在水面可自动回复。越深消耗越快，快没了赶紧上浮！</p>
+      </div>
+      <div class="card">
+        <div class="icon">🍔</div>
+        <h4>食物条</h4>
+        <p>右侧橙色条。耗尽会减速和掉血，但不像氧气那么紧急，别慌。</p>
+      </div>
+      <div class="card">
+        <div class="icon">💧</div>
+        <h4>水分条</h4>
+        <p>右侧蓝色条。喝水或净化海水补充，耗尽比食物更危险。</p>
+      </div>
+      <div class="card">
+        <div class="icon">❤️</div>
+        <h4>生命值（红色）</h4>
+        <p>被生物咬或撞载具会减少，急救包回复。不冒险基本不会掉。</p>
+      </div>
+      <div class="card">
+        <div class="icon">🌡️</div>
+        <h4>温度警告</h4>
+        <p>深层热泉区才出现，早期不用担心。出现时赶紧离开热泉区域。</p>
+      </div>
+      <div class="card">
+        <div class="icon">📱</div>
+        <h4>PDA（Tab键）</h4>
+        <p>游戏的"任务书"，所有数据、图纸、故事线都在这里，多读！</p>
+      </div>
+    </div>
+
+    <h3 id="controls">按键速查</h3>
+    <table>
+      <thead><tr><th>按键</th><th>功能</th><th>新手提示</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Tab</strong></td><td>打开 PDA</td><td>经常开，里面信息很重要</td></tr>
+        <tr><td><strong>Q/E</strong></td><td>上浮/下潜（水中）</td><td>氧气快没了猛按 Q 上浮</td></tr>
+        <tr><td><strong>F</strong></td><td>与物体互动 / 拾取</td><td>靠近物体时会有提示</td></tr>
+        <tr><td><strong>B</strong></td><td>放置信标</td><td>探索前先放信标再走</td></tr>
+        <tr><td><strong>X</strong></td><td>打开合成器</td><td>背包里随时可以合成</td></tr>
+        <tr><td><strong>鼠标滚轮</strong></td><td>切换工具栏物品</td><td>把常用物品放工具栏第1-5格</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ Section 2: Oxygen ══ -->
+  <section id="oxygen">
+    <div class="section-banner banner-bg-oxygen">
+      <div class="banner-icon">🫁</div>
+      <div>
+        <h2 class="banner-title">2. 氧气与生存管理</h2>
+        <div class="banner-sub">潜水时间 · 食物饮水 · 不再溺死的秘诀</div>
+      </div>
+    </div>
+
+    <p>Subnautica 2 最容易死亡的原因是<strong>溺死</strong>，而不是被生物攻击。管好氧气，你就能活很久。</p>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ 新手最常见死法</div>
+      探索太投入忘看氧气条，等发现只剩一点点时已经来不及上浮。<strong>氧气条低于30%就要往上游</strong>，养成习惯。
+    </div>
+
+    <h3 id="o2-route">氧气装备升级路线</h3>
+    <table>
+      <thead>
+        <tr><th>装备</th><th>所需材料</th><th>增加潜水时间</th><th>何时获取</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>🔵 标准氧气罐</td><td>钛 ×1</td><td>+30秒</td><td>开局第一优先</td></tr>
+        <tr><td>🔷 高容量氧气罐</td><td>钛 ×3 + 玻璃 ×1</td><td>+90秒</td><td>前30分钟合成</td></tr>
+        <tr><td>🔶 超高容量罐</td><td>高容量罐 ×2</td><td>+180秒</td><td>中期主力装备</td></tr>
+        <tr><td>♻️ 再呼吸器</td><td>铜 ×2 + 钛 ×1</td><td>消耗速度减半</td><td>中期辅助神器</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <div class="box-label">💡 玻璃怎么合成？</div>
+      玻璃 = 石英 ×2，在随身合成器就能做。石英是白色半透明晶体，在浅海沙地大量分布，很好认。
+    </div>
+
+    <h3 id="food-water">食物与饮水指南</h3>
+    <p><strong>早期（0–1小时）：</strong> 靠逃生舱里的营养棒撑一段时间。同时捡浅海里漂着的<strong>橙色浆果</strong>（直接食用），喝用<strong>过滤瓶</strong>净化的海水。</p>
+    <p><strong>中期（1–5小时）：</strong> 在基地里建<strong>生物反应舱</strong>，种植外星菌菇。一旦建好，食物问题永久解决。</p>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ 不要直接喝海水</div>
+      外星星球海水盐度极高，直接喝会<strong>加速脱水</strong>！必须用<strong>过滤瓶</strong>（铜×1 + 钛×1 + 硅胶×1）净化后再喝。
+    </div>
+  </section>
+
+  <!-- ══ Section 3: Crafting ══ -->
+  <section id="crafting">
+    <div class="section-banner banner-bg-crafting">
+      <div class="banner-icon">⚗️</div>
+      <div>
+        <h2 class="banner-title">3. 合成系统详解</h2>
+        <div class="banner-sub">配方 · 材料在哪里找 · 合成优先顺序</div>
+      </div>
+    </div>
+
+    <h3 id="stations">合成台介绍：三级体系</h3>
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">🎒</div>
+        <h4>随身合成器</h4>
+        <p>按 X 打开，随时随地可用。合成基础工具和早期装备，不需要基地。</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔧</div>
+        <h4>工作台</h4>
+        <p>需要放置在基地内。解锁中级图纸（海蛾、基础舱扩展等），是中期核心。</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏭</div>
+        <h4>改装站</h4>
+        <p>高级装备和载具改装在这里做。后期必备，用于制作深层装备。</p>
+      </div>
+    </div>
+
+    <h3 id="materials">材料在哪里找？完整指南</h3>
+    <p>这是新手最常困惑的问题。以下每种材料都标注了<strong>外观、具体位置和采集难度</strong>：</p>
+
+    <table>
+      <thead>
+        <tr><th>材料</th><th>外观特征</th><th>在哪里找</th><th>深度</th><th>难度</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🟠 <strong>钛矿石</strong></td>
+          <td>橙棕色岩块，有金属光泽</td>
+          <td>浅海礁石底部、礁石表面大量分布，随处可见</td>
+          <td>0–100m</td>
+          <td><span class="diff-badge diff-easy">简单</span></td>
+        </tr>
+        <tr>
+          <td>🟢 <strong>铜矿石</strong></td>
+          <td>绿色斑点岩，表面有孔洞</td>
+          <td>礁石区和沙地交界处，和钛矿石同一区域</td>
+          <td>0–150m</td>
+          <td><span class="diff-badge diff-easy">简单</span></td>
+        </tr>
+        <tr>
+          <td>⚪ <strong>石英</strong></td>
+          <td>白色半透明晶体，像玻璃碎片</td>
+          <td>浅海沙地上大量散布，很容易辨认</td>
+          <td>0–80m</td>
+          <td><span class="diff-badge diff-easy">简单</span></td>
+        </tr>
+        <tr>
+          <td>🍄 <strong>硅胶</strong>（橡胶）</td>
+          <td>不是矿石！是橙色蘑菇状植物的分泌物</td>
+          <td>用刀砍橙色海底蘑菇植物即可采集</td>
+          <td>0–60m</td>
+          <td><span class="diff-badge diff-easy">简单</span></td>
+        </tr>
+        <tr>
+          <td>🍋 <strong>酸性蘑菇</strong></td>
+          <td>黄绿色发光小蘑菇，成片生长</td>
+          <td>礁石阴暗面和洞穴入口附近</td>
+          <td>0–100m</td>
+          <td><span class="diff-badge diff-easy">简单</span></td>
+        </tr>
+        <tr>
+          <td>⚡ <strong>磁铁矿</strong></td>
+          <td>黑色八面体晶体，会轻微发光</td>
+          <td>磁力异常区（指南针会乱转的地方），找异常区域</td>
+          <td>50–200m</td>
+          <td><span class="diff-badge diff-medium">中等</span></td>
+        </tr>
+        <tr>
+          <td>🪨 <strong>银矿石</strong></td>
+          <td>银白色纹路岩石，比钛矿更亮</td>
+          <td>中层洞穴内和礁石深处，需要主动找洞穴</td>
+          <td>100–300m</td>
+          <td><span class="diff-badge diff-medium">中等</span></td>
+        </tr>
+        <tr>
+          <td>🟡 <strong>黄金</strong></td>
+          <td>金黄色晶体，非常醒目</td>
+          <td>火山岩石区域（颜色偏红黑的地方）</td>
+          <td>200–500m</td>
+          <td><span class="diff-badge diff-medium">中等</span></td>
+        </tr>
+        <tr>
+          <td>💎 <strong>钻石</strong></td>
+          <td>蓝色半透明宝石，发蓝光</td>
+          <td>深层熔岩带，必须有载具才能到达</td>
+          <td>500m+</td>
+          <td><span class="diff-badge diff-hard">困难</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 id="recipes">重要配方详解（含材料产地）</h3>
+    <p>以下是早中期最重要的合成配方，每种材料都标注了<strong>去哪里找</strong>：</p>
+
+    <div class="craft-grid">
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔵</div>
+          <div>
+            <div class="craft-card-name">标准氧气罐</div>
+            <div class="craft-card-desc">延长水下呼吸时间，开局第一优先</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info">
+                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">浅海礁石底部，橙棕色岩块，随处可见（0–100m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔋</div>
+          <div>
+            <div class="craft-card-name">电池</div>
+            <div class="craft-card-desc">扫描仪、修复工具等全部需要，早期消耗品</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟢</div>
+              <div class="mat-info">
+                <div><span class="mat-name">铜矿石</span><span class="mat-amount">×2</span></div>
+                <div class="mat-location">浅海礁石和沙地交界，绿斑岩石（0–150m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🍋</div>
+              <div class="mat-info">
+                <div><span class="mat-name">酸性蘑菇</span><span class="mat-amount">×2</span></div>
+                <div class="mat-location">礁石阴暗面，黄绿色小蘑菇，成片生长（0–100m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔬</div>
+          <div>
+            <div class="craft-card-name">扫描仪</div>
+            <div class="craft-card-desc">扫描生物和残骸解锁新图纸，核心工具</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info">
+                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">浅海礁石底部（0–100m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info">
+                <div><span class="mat-name">电池</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">先合成：铜×2 + 酸性蘑菇×2</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔪</div>
+          <div>
+            <div class="craft-card-name">刀具</div>
+            <div class="craft-card-desc">采集植物样本，近距离击退小型生物</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info">
+                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">浅海礁石（0–100m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🍄</div>
+              <div class="mat-info">
+                <div><span class="mat-name">硅胶</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">用刀砍浅海橙色蘑菇植物，立刻掉落</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">📍</div>
+          <div>
+            <div class="craft-card-name">信标</div>
+            <div class="craft-card-desc">在地图上标记位置，防止迷路必备</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟢</div>
+              <div class="mat-info">
+                <div><span class="mat-name">铜矿石</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">浅海礁石和沙地（0–150m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info">
+                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">浅海礁石（0–100m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔷</div>
+          <div>
+            <div class="craft-card-name">高容量氧气罐</div>
+            <div class="craft-card-desc">比标准罐多3倍潜水时间，中期必升</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info">
+                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×3</span></div>
+                <div class="mat-location">浅海礁石（0–100m），多跑几圈</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🪟</div>
+              <div class="mat-info">
+                <div><span class="mat-name">玻璃</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">先合成：石英×2 → 玻璃。石英在浅海沙地，白色透明晶体</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔧</div>
+          <div>
+            <div class="craft-card-name">修复工具</div>
+            <div class="craft-card-desc">修复残骸电路，解锁大量新图纸，中期核心</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info">
+                <div><span class="mat-name">钛矿石</span><span class="mat-amount">×2</span></div>
+                <div class="mat-location">浅海礁石（0–100m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟢</div>
+              <div class="mat-info">
+                <div><span class="mat-name">铜矿石</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">浅海礁石和沙地（0–150m）</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🍄</div>
+              <div class="mat-info">
+                <div><span class="mat-name">硅胶</span><span class="mat-amount">×1</span></div>
+                <div class="mat-location">砍浅海橙色蘑菇植物即得</div>
+              </div>
+              <div class="diff-badge diff-easy">简单</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">⚡</div>
+          <div>
+            <div class="craft-card-name">线路板（Wiring Kit）</div>
+            <div class="craft-card-desc">中期合成的核心零件，大量中级图纸需要</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🎒 随身合成器</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info">
+                <div><span class="mat-name">银矿石</span><span class="mat-amount">×2</span></div>
+                <div class="mat-location">中层洞穴内，银白色纹路岩石（100–300m）<br><strong>提示：</strong>先扫描洞穴残骸解锁位置标记</div>
+              </div>
+              <div class="diff-badge diff-medium">中等</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /craft-grid -->
+
+    <h3 id="craft-order">合成优先顺序（推荐路线）</h3>
+    <ol class="step-list">
+      <li>🔵 <strong>标准氧气罐</strong> → 开局最重要，不合这个就是在赌命</li>
+      <li>🔪 <strong>刀具</strong> → 采集植物样本必需，顺手击退小生物</li>
+      <li>📍 <strong>信标（×3–5个）</strong> → 防迷路，便宜，多放</li>
+      <li>🔬 <strong>扫描仪</strong> → 扫描残骸和生物，解锁图纸库</li>
+      <li>🔧 <strong>修复工具</strong> → 修残骸，解锁大量中级图纸</li>
+      <li>🔷 <strong>高容量氧气罐</strong> → 替换掉标准罐，中期必升</li>
+      <li>🏗️ <strong>基础舱 + 工作台</strong> → 建立永久基地，解锁中级合成</li>
+      <li>🚤 <strong>海蛾一型</strong> → 有了载具才能去更深的地方</li>
+    </ol>
+  </section>
+
+  <!-- ══ Section 4: Base ══ -->
+  <section id="base">
+    <div class="section-banner banner-bg-base">
+      <div class="banner-icon">🏗️</div>
+      <div>
+        <h2 class="banner-title">4. 基地建设指南</h2>
+        <div class="banner-sub">选址 · 建造顺序 · 供电 · 结构完整性</div>
+      </div>
+    </div>
+
+    <p>基地是你在深海的<strong>永久立足点</strong>，也是联机玩法的核心枢纽。早期先建一个临时基地，等探索更多后再迁移到更好的位置。</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 新手常见误区</div>
+      不要等到"找到完美位置"才开始建基地。先随便搭一个有工作台的雏形，用了几小时再迁移也不晚。早建早用！
+    </div>
+
+    <h3 id="base-location">选址要点</h3>
+    <div class="card-grid">
+      <div class="card"><div class="icon">🌿</div><h4>靠近资源区</h4><p>距主要矿脉不超过200米，减少来回时间。</p></div>
+      <div class="card"><div class="icon">☀️</div><h4>阳光层（0–200m）</h4><p>太阳能板可用，适合主要居住基地，供电简单。</p></div>
+      <div class="card"><div class="icon">🦈</div><h4>远离掠食者巢穴</h4><p>用扫描仪确认周边没有大型生物盘踞。</p></div>
+      <div class="card"><div class="icon">🪨</div><h4>平坦海底</h4><p>建造基础舱时需要相对平整的地面。</p></div>
+    </div>
+
+    <h3 id="base-order">建造顺序（推荐）</h3>
+    <ol class="step-list">
+      <li>放置<strong>基础舱（Base Foundation）</strong>作为起点——材料：钛×2 + 玻璃×1</li>
+      <li>放置<strong>走廊舱</strong>扩展空间，连接各功能舱</li>
+      <li>建造<strong>工作台</strong>——解锁中级合成，基地的核心</li>
+      <li>建造<strong>太阳能板</strong>（浅层）或<strong>生物反应堆</strong>（深层）供电</li>
+      <li>添加<strong>医疗舱</strong>和<strong>食物储存间</strong>，保障生存</li>
+      <li>建造<strong>水培室</strong>种植食物，实现自给自足</li>
+      <li>建造<strong>改装站</strong>，解锁高级装备图纸</li>
+      <li>最后建造<strong>潜艇坞</strong>，停放和充能海蛾等载具</li>
+    </ol>
+
+    <h3 id="base-power">供电系统说明</h3>
+    <table>
+      <thead><tr><th>发电方式</th><th>所需材料</th><th>适用场景</th></tr></thead>
+      <tbody>
+        <tr><td>☀️ 太阳能板</td><td>石英×2 + 铜×1</td><td>浅层基地（0–200m），白天自动充电，无消耗</td></tr>
+        <tr><td>🌿 生物反应堆</td><td>钛×3 + 玻璃×2</td><td>深层基地，用生物材料（鱼/植物）发电，持续稳定</td></tr>
+        <tr><td>🌊 热能发电机</td><td>钛×5 + 磁铁矿×2</td><td>热泉附近，发电量最大，适合深层永久基地</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ 结构完整性</div>
+      每个舱体有<strong>结构完整性（Hull Integrity）</strong>值。越深水压越高，需要加<strong>加固隔板</strong>（钛×3 + 玻璃×1，提供 +7 完整性）。每下潜100米消耗约1点完整性，完整性为0会进水！
+    </div>
+  </section>
+
+  <!-- AD SLOT MID-2 -->
+  <!-- ADVERTISEMENT SLOT 3 (300x250) — 替换为 AdSense 代码 -->
+  <div class="ad-slot">📢 广告位 · 300×250 矩形广告（文中）</div>
+
+  <!-- ══ Section 5: Vehicles ══ -->
+  <section id="vehicles">
+    <div class="section-banner banner-bg-vehicles">
+      <div class="banner-icon">🚢</div>
+      <div>
+        <h2 class="banner-title">5. 潜水艇与载具</h2>
+        <div class="banner-sub">海蛾 · 改装顺序 · 深层载具</div>
+      </div>
+    </div>
+
+    <p>没有载具，你永远无法到达中层以下的区域。<strong>海蛾一型</strong>是你的第一辆载具，也是游戏中期最常用的座驾。</p>
+
+    <table>
+      <thead><tr><th>载具</th><th>最大深度</th><th>特点</th><th>适合阶段</th></tr></thead>
+      <tbody>
+        <tr><td>🦋 <strong>海蛾一型</strong></td><td>200m（改装后900m）</td><td>灵活小巧，速度快，单人为主</td><td>早中期</td></tr>
+        <tr><td>🦾 <strong>PRAWN 外骨骼</strong></td><td>1700m</td><td>适合岩石地形采矿，可以跳跃</td><td>中后期</td></tr>
+        <tr><td>🐉 <strong>海龙（Sea Dragon）</strong></td><td>1700m+</td><td>超大容量，可搭载海蛾，团队探索</td><td>后期</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="seamoth">海蛾一型：详细使用指南</h3>
+    <p>海蛾是游戏里最早获得的载具，材料都在浅海，应该尽早合成。</p>
+
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr));">
+      <div class="card"><div class="icon">⚡</div><h4>电量管理</h4><p>海蛾用电池驱动，快用完时及时回基地充电（潜艇坞会自动充）。</p></div>
+      <div class="card"><div class="icon">🔦</div><h4>灯光</h4><p>按 F 开关车灯，进入黑暗区域前一定要开灯，否则什么都看不见。</p></div>
+      <div class="card"><div class="icon">🐟</div><h4>生物碰撞</h4><p>被大型生物咬会伤到载具，修复工具可以修，但要小心血量。</p></div>
+      <div class="card"><div class="icon">📦</div><h4>储物空间</h4><p>默认4格，升级储物模块后扩至8格，出门前先清空手动背包。</p></div>
+    </div>
+
+    <h3 id="deep-vehicles">海蛾改装优先级</h3>
+    <ol class="step-list">
+      <li><strong>深度模块 Mk.1</strong>：200m → 400m，获取中层矿物必须</li>
+      <li><strong>储物扩展模块</strong>：存储格 ×2，采矿效率翻倍</li>
+      <li><strong>鱼雷系统</strong>：遭遇大型掠食者的保命手段</li>
+      <li><strong>深度模块 Mk.2</strong>：400m → 600m，进入蘑菇林区</li>
+      <li><strong>深度模块 Mk.3</strong>：600m → 900m，解锁大部分中层区域</li>
+    </ol>
+  </section>
+
+  <!-- ══ Section 6: Co-op ══ -->
+  <section id="coop">
+    <div class="section-banner banner-bg-coop">
+      <div class="banner-icon">👥</div>
+      <div>
+        <h2 class="banner-title">6. 四人联机技巧</h2>
+        <div class="banner-sub">分工方案 · 联机独有注意事项</div>
+      </div>
+    </div>
+
+    <p>Subnautica 2 首次引入最多 <strong>4人联机</strong>，是系列最大玩法革新。合理分工可以让资源积累速度翻4倍。</p>
+
+    <h3 id="coop-roles">推荐分工方案</h3>
+    <div class="card-grid">
+      <div class="card"><div class="icon">⛏️</div><h4>采矿手 ×1</h4><p>专注浅海资源采集，保证基地原料供给稳定，是队伍后勤核心。</p></div>
+      <div class="card"><div class="icon">🔬</div><h4>科技官 ×1</h4><p>驻守基地，负责合成装备、管理供电和储物，让其他人专心探索。</p></div>
+      <div class="card"><div class="icon">🗺️</div><h4>探索者 ×1</h4><p>驾驶海蛾深层侦察，扫描生物，寻找残骸图纸，绘制安全路线。</p></div>
+      <div class="card"><div class="icon">🛡️</div><h4>护卫 ×1</h4><p>保护采矿手和探索者，携带鱼雷和诱饵，应对大型掠食者。</p></div>
+    </div>
+
+    <h3 id="coop-tips">联机注意事项</h3>
+    <div class="warn-box">
+      <div class="box-label">⚠️ 重要：共享储物</div>
+      联机中<strong>所有人都能拿共享箱里的物品</strong>。提前约好谁管物资，否则关键材料会被误拿。建议科技官专门管理仓库。
+    </div>
+    <div class="tip-box">
+      <div class="box-label">💡 信标共享</div>
+      任何人放置的信标<strong>对全队可见</strong>。建立统一命名规则，比如"矿点1""危险区域"，让全队都能看懂。
+    </div>
+    <div class="info-box">
+      <div class="box-label">💬 推荐配合方式</div>
+      联机时强烈建议开语音（Discord等）。游戏本身无语音功能，文字聊天在紧急情况下太慢。
+    </div>
+  </section>
+
+  <!-- ══ Section 7: Biomes ══ -->
+  <section id="biomes">
+    <div class="section-banner banner-bg-biomes">
+      <div class="banner-icon">🌏</div>
+      <div>
+        <h2 class="banner-title">7. 生物群落与探索进阶</h2>
+        <div class="banner-sub">各区域资源 · 危险生物 · 探索建议</div>
+      </div>
+    </div>
+
+    <p>星球海洋分为5个主要生物群落，按深度从浅到深探索是最安全的进度路线。<strong>不要跳过层级</strong>——没有对应深度的载具和装备，强行进入会直接死亡。</p>
+
+    <h3 id="biome-list">各区域详解</h3>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-icon">🌊</div>
+        <div class="biome-name">浅海珊瑚礁</div>
+        <div class="biome-depth">0 – 100m</div>
+      </div>
+      <div class="depth-bar"><div class="depth-fill" style="width:10%"></div></div>
+      <p>游戏起始区域。资源最丰富，掠食者最温和。这里是你的主要采矿区，前几个小时几乎都在这里度过。</p>
+      <div class="biome-tags">
+        <span class="biome-tag resource">🟠 钛矿石</span>
+        <span class="biome-tag resource">🟢 铜矿石</span>
+        <span class="biome-tag resource">⚪ 石英</span>
+        <span class="biome-tag resource">🍄 硅胶植物</span>
+        <span class="biome-tag">安全等级：★★★★★</span>
+      </div>
+    </div>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-icon">🌿</div>
+        <div class="biome-name">漂浮岛礁带</div>
+        <div class="biome-depth">50 – 200m</div>
+      </div>
+      <div class="depth-bar"><div class="depth-fill" style="width:22%"></div></div>
+      <p>巨型漂浮藻类结构，视觉震撼。含有银矿和特殊植物样本，需要海蛾才能有效探索。注意<strong>沙牙鱼</strong>会主动跟踪玩家，但不会主动攻击，离开即可。</p>
+      <div class="biome-tags">
+        <span class="biome-tag resource">🪨 银矿石</span>
+        <span class="biome-tag resource">🌺 稀有植物</span>
+        <span class="biome-tag danger">⚠️ 沙牙鱼</span>
+        <span class="biome-tag">安全等级：★★★★☆</span>
+      </div>
+    </div>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-icon">🍄</div>
+        <div class="biome-name">中层发光蘑菇林</div>
+        <div class="biome-depth">200 – 500m</div>
+      </div>
+      <div class="depth-bar"><div class="depth-fill" style="width:50%"></div></div>
+      <p>数百米高的巨型发光蘑菇覆盖整个区域，是游戏最美丽的场景之一。但<strong>幽灵幼虫</strong>在此出没，必须携带声诱饵绕行。需要海蛾二型（深度模块Mk.2）。</p>
+      <div class="biome-tags">
+        <span class="biome-tag resource">🟡 黄金</span>
+        <span class="biome-tag resource">⚡ 磁铁矿</span>
+        <span class="biome-tag danger">👻 幽灵幼虫</span>
+        <span class="biome-tag">安全等级：★★★☆☆</span>
+      </div>
+    </div>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-icon">🔥</div>
+        <div class="biome-name">深层熔岩带</div>
+        <div class="biome-depth">500 – 1200m</div>
+      </div>
+      <div class="depth-bar"><div class="depth-fill" style="width:80%"></div></div>
+      <p>高温高压区域，需要<strong>防热装甲</strong>才能进入。含有稀有钻石和稀有晶体。<strong>龙鳗</strong>和<strong>幽灵幼虫成体</strong>在此守卫。必须驾驶 PRAWN 外骨骼进入。</p>
+      <div class="biome-tags">
+        <span class="biome-tag resource">💎 钻石</span>
+        <span class="biome-tag resource">🔮 稀有晶体</span>
+        <span class="biome-tag danger">🐉 龙鳗</span>
+        <span class="biome-tag danger">👻 幽灵幼虫成体</span>
+        <span class="biome-tag">安全等级：★★☆☆☆</span>
+      </div>
+    </div>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-icon">🌋</div>
+        <div class="biome-name">深渊核心</div>
+        <div class="biome-depth">1200m+</div>
+      </div>
+      <div class="depth-bar"><div class="depth-fill" style="width:100%"></div></div>
+      <p>游戏终局区域，含故事核心内容。极端环境，没有满配装备不要强行进入。需要海龙潜艇 + 完整防护套装 + 大量物资储备。</p>
+      <div class="biome-tags">
+        <span class="biome-tag resource">🗺️ 故事内容</span>
+        <span class="biome-tag danger">❌ 极端环境</span>
+        <span class="biome-tag">安全等级：★☆☆☆☆</span>
+      </div>
+    </div>
+
+    <h3 id="predators">掠食者威胁等级与应对</h3>
+    <table>
+      <thead><tr><th>生物</th><th>区域</th><th>威胁</th><th>应对方法</th></tr></thead>
+      <tbody>
+        <tr><td>🐠 沙牙鱼</td><td>浅-中层</td><td>⭐⭐</td><td>游离开，不主动攻击，无视即可</td></tr>
+        <tr><td>🦈 骨鲨</td><td>中层</td><td>⭐⭐⭐</td><td>声诱饵丢出后绕行</td></tr>
+        <tr><td>👻 幽灵幼虫（幼）</td><td>蘑菇林</td><td>⭐⭐⭐</td><td>声诱饵 + 海蛾加速撤离</td></tr>
+        <tr><td>👻 幽灵幼虫（成）</td><td>深层</td><td>⭐⭐⭐⭐⭐</td><td>不要接近，绕远路，看到就跑</td></tr>
+        <tr><td>🐉 龙鳗</td><td>熔岩带</td><td>⭐⭐⭐⭐⭐</td><td>PRAWN 外骨骼抵御，或绕行</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ Section 8: FAQ ══ -->
+  <section id="faq">
+    <div class="section-banner banner-bg-faq">
+      <div class="banner-icon">❓</div>
+      <div>
+        <h2 class="banner-title">8. 新手常见问题</h2>
+        <div class="banner-sub">最高频问题的直接解答</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">我一直在溺死，怎么办？<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>溺死是新手最常见的死法。记住两条铁则：<br>
+        ① <strong>氧气低于30%立刻往上浮</strong>，不要再贪心继续采集；<br>
+        ② <strong>合成高容量氧气罐</strong>（钛×3 + 玻璃×1）比标准罐多3倍时间，一定要尽早升级。<br>
+        另外，水面换气是免费的，多用"出水→换气→再下去"的节奏，不要一次潜太久。</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">游戏没有任务箭头，我该去哪里？<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>Subnautica 2 的设计理念就是"自己探索"，没有任务箭头是故意的。正确的探索顺序：<br>
+        ① 读 PDA（Tab键）——所有故事线索都在里面，每次扫描残骸和生物都会更新；<br>
+        ② 跟着残骸走——水面和浅海会有大量坠落的飞船残骸，走近就会触发新内容；<br>
+        ③ 不要想太多，随便游就行——好东西都是"意外"发现的，享受探索本身。</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">被大型生物吓到不敢下水怎么办？<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>这是正常反应！开发者专门设计了"深海恐惧感"。几个降低恐惧的实用技巧：<br>
+        ① <strong>开灯</strong>——黑暗本身就是恐惧来源，随时开海蛾车灯；<br>
+        ② <strong>带诱饵</strong>——声诱饵（磁铁矿×1 + 植物×1）能把大部分中型生物引开；<br>
+        ③ <strong>了解生物</strong>——扫描仪扫过的生物会在 PDA 里显示习性，知道它吃什么才会攻击，恐惧感会大幅降低；<br>
+        ④ 大部分生物不会主动攻击——你先不碰它，它一般不咬你。</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">联机和单机哪个更适合新手？<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>两种都可以，但各有优缺点：<br>
+        <strong>单机：</strong> 体验更完整，自己掌控节奏，不用担心别人拿走你的资源，恐惧感更强烈（褒义）。<br>
+        <strong>联机：</strong> 资源积累快4倍，有队友分工更安全，大型生物遇到时不那么怕，适合不喜欢孤独感的玩家。<br>
+        建议：第一次玩先单机体验剧情，二周目再联机体验全新分工乐趣。</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">我的基地进水了怎么办？<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>基地进水说明<strong>结构完整性</strong>降到0了。解决步骤：<br>
+        ① 先建造<strong>加固隔板</strong>（钛×3 + 玻璃×1）补强结构，每个提供 +7 完整性；<br>
+        ② 用<strong>修复工具</strong>在漏水点右键修复裂缝；<br>
+        ③ 如果大面积进水，先游出基地，加足够的加固隔板后再修复漏洞；<br>
+        ④ 基地深度每增加100米就消耗约1点完整性，注意提前准备加固隔板再建深层基地。</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">游戏里到了晚上怎么应对？<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>Subnautica 2 有昼夜循环，夜晚水下一片漆黑，恐惧感翻倍。应对方法：<br>
+        ① <strong>夜晚留在基地</strong>——整理物资、合成装备，等天亮再出发；<br>
+        ② 如果要出门，<strong>开全部灯光</strong>，随身携带<strong>荧光棒</strong>（丢出去照明）；<br>
+        ③ 夜晚有一些生物反而更安静，有经验的玩家会利用夜晚探索——但新手不建议。<br>
+        ④ 某些深层区域的生物在夜晚有不同的行为模式，扫描仪可以查到。</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">图纸怎么解锁？我合成不了很多东西。<span class="faq-toggle">+</span></div>
+      <div class="faq-a">
+        <p>图纸解锁有三种方式：<br>
+        ① <strong>扫描仪</strong>扫描残骸碎片——在水下找到飞船残骸的碎片，靠近后用扫描仪扫，扫满4片解锁一张图纸；<br>
+        ② <strong>修复工具</strong>修复残骸电路板——靠近有损坏电路板的残骸，用修复工具修复，有时会给新图纸；<br>
+        ③ 读 PDA 里的<strong>数据记录</strong>——有些图纸通过故事事件自动解锁。<br>
+        总结：多去找残骸，多扫描，多读 PDA，图纸自然越来越多。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ Section 9: Deploy ══ -->
+  <section id="deploy">
+    <div class="section-banner banner-bg-deploy">
+      <div class="banner-icon">🚀</div>
+      <div>
+        <h2 class="banner-title">9. 部署到 GitHub Pages</h2>
+        <div class="banner-sub">免费建站 · 三步上线 · 广告变现</div>
+      </div>
+    </div>
+
+    <p>将这个攻略页面上传到 GitHub，即可获得免费公开网址，便于分享和被搜索引擎收录。</p>
+
+    <h3>步骤一：创建 GitHub 仓库</h3>
+    <ol class="step-list">
+      <li>登录 <a href="https://github.com" target="_blank">github.com</a>，点击右上角 <strong>+</strong> → <strong>New repository</strong></li>
+      <li>仓库名建议：<code>subnautica-2-guide</code>（全小写，短横线分隔）</li>
+      <li>选择 <strong>Public</strong>（公开仓库，GitHub Pages 免费版必须公开）</li>
+      <li>点击 <strong>Create repository</strong></li>
+    </ol>
+
+    <h3>步骤二：上传 HTML 文件</h3>
+    <ol class="step-list">
+      <li>进入仓库页面，点击 <strong>Add file</strong> → <strong>Upload files</strong></li>
+      <li>将本攻略的 <code>index.html</code> 文件拖入上传区域</li>
+      <li>填写提交信息（如 <em>"Add Subnautica 2 guide"</em>），点击 <strong>Commit changes</strong></li>
+    </ol>
+
+    <h3>步骤三：开启 GitHub Pages</h3>
+    <ol class="step-list">
+      <li>进入仓库 <strong>Settings</strong>（右上角齿轮图标）</li>
+      <li>左侧菜单找到 <strong>Pages</strong></li>
+      <li>Source 选 <strong>Deploy from a branch</strong>，Branch 选 <strong>main</strong>，目录选 <strong>/ (root)</strong></li>
+      <li>点击 <strong>Save</strong>，等待约 1–3 分钟</li>
+      <li>页面顶部会显示网址：<code>https://你的用户名.github.io/subnautica-2-guide/</code></li>
+    </ol>
+
+    <div class="tip-box">
+      <div class="box-label">💡 加速被 Google 收录</div>
+      部署完后去 <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a> 提交你的 URL。一般 1–7 天可以被收录。
+    </div>
+
+    <h3>广告变现（Google AdSense）</h3>
+    <p>等网站有一定访问量后（通常 1000+ UV/月），可申请 <strong>Google AdSense</strong>。审核通过后，将 AdSense 代码粘贴到本文件中标有 <code>ADVERTISEMENT SLOT</code> 注释的位置即可自动展示广告并获得收益。</p>
+  </section>
+
+  <!-- AD SLOT BOTTOM -->
+  <!-- ADVERTISEMENT SLOT 4 (728x90 Footer) — 替换为 AdSense 代码 -->
+  <div class="ad-slot">📢 广告位 · 728×90 底部横幅广告</div>
+
+</main>
+</div><!-- /page-layout -->
+
+<footer>
+  <p>📅 最后更新：2026年5月 &nbsp;|&nbsp; 基于 <strong>Subnautica 2 Early Access</strong></p>
+  <p style="margin-top:6px;">非官方攻略站，内容仅供参考。官方页面：<a href="https://store.steampowered.com/app/3026940" target="_blank" rel="noopener">Steam 官方页面</a></p>
+  <p style="margin-top:6px; color:#3a5070; font-size:11px;">© 2026 GameGuide CN · 联系：admin@example.com</p>
+</footer>
+
+<script>
+/* ── Sidebar active tracking ── */
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-link[href^="#"], .nav-sub-link[href^="#"]');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      const id = entry.target.id;
+      const active = document.querySelector(`.nav-link[href="#${id}"], .nav-sub-link[href="#${id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { threshold: 0.25, rootMargin: '-10% 0px -60% 0px' });
+
+sections.forEach(s => observer.observe(s));
+
+/* ── Mobile sidebar toggle ── */
+const toggle = document.getElementById('menuToggle');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+
+function openSidebar() {
+  sidebar.classList.add('open');
+  overlay.classList.add('active');
+  toggle.textContent = '✕ 关闭';
+}
+function closeSidebar() {
+  sidebar.classList.remove('open');
+  overlay.classList.remove('active');
+  toggle.textContent = '☰ 目录';
+}
+
+toggle.addEventListener('click', () => {
+  sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+});
+overlay.addEventListener('click', closeSidebar);
+
+/* Close sidebar when a nav link is clicked (mobile) */
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth <= 820) closeSidebar();
+  });
+});
+
+/* ── FAQ accordion ── */
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+
+</body>
+</html>

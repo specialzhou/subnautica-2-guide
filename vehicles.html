@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subnautica 2 Vehicles &amp; Submarines Guide 2026 | Tadpole, Seamoth &amp; More</title>
+  <meta name="description" content="Complete Subnautica 2 vehicles guide — Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first." />
+  <meta property="og:title" content="Subnautica 2 Vehicles &amp; Submarines Guide 2026 | Tadpole, Seamoth &amp; More" />
+  <meta property="og:description" content="Complete Subnautica 2 vehicles guide — Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first." />
+  <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Subnautica 2 Vehicles &amp; Submarines Guide 2026" />
+  <meta name="twitter:description" content="Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first." />
+
+  <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/vehicles.html" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7R7JWG7M2S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7R7JWG7M2S');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Subnautica 2 Vehicles & Submarines Guide 2026",
+    "description": "Complete Subnautica 2 vehicles guide — Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first.",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "inLanguage": "en",
+    "author": { "@type": "Organization", "name": "GameGuide" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GameGuide",
+      "logo": { "@type": "ImageObject", "url": "https://specialzhou.github.io/subnautica-2-guide/" }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://specialzhou.github.io/subnautica-2-guide/vehicles.html"
+    }
+  }
+  </script>
+
+<style>
+/* ═══════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════ */
+:root {
+  --bg: #080e1c;
+  --surface: #0b1525;
+  --card: #0f2040;
+  --card2: #102245;
+  --accent: #00d4ff;
+  --accent2: #0077bb;
+  --accent-glow: rgba(0,212,255,0.18);
+  --text: #c8d8f0;
+  --text-dim: #7a90b0;
+  --heading: #e4f0ff;
+  --border: #1a3055;
+  --border2: #224070;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --easy: #22c55e;
+  --medium: #f59e0b;
+  --hard: #ef4444;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.78;
+  font-size: 15.5px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { color: var(--heading); }
+code {
+  background: var(--card); color: var(--accent);
+  padding: 1px 7px; border-radius: 4px;
+  font-size: 0.88em; font-family: 'Consolas', monospace;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #04101f 0%, #0b2040 50%, #060f1e 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 22px 24px 18px;
+  text-align: center;
+  position: relative; overflow: hidden;
+}
+.site-header::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0,212,255,0.08) 0%, transparent 65%);
+  pointer-events:none;
+}
+.site-brand { font-size:11px; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+.site-header h1 {
+  font-size: clamp(18px,3.5vw,28px); color:var(--heading);
+  font-weight:800; text-shadow:0 0 28px rgba(0,212,255,0.35);
+  margin-bottom:8px;
+}
+.header-sub { font-size:13px; color:var(--text-dim); }
+.badge {
+  display:inline-block; background:rgba(0,212,255,0.12);
+  border:1px solid rgba(0,212,255,0.4); color:var(--accent);
+  padding:2px 10px; border-radius:20px; font-size:11.5px; margin:4px 3px;
+}
+
+.back-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 14px;
+  font-size: 13px; color: var(--accent); margin: 18px 0 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+.back-link:hover { background: rgba(0,212,255,0.1); border-color: var(--accent); text-decoration: none; }
+
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+.hero-image {
+  width: 100%; border-radius: var(--radius);
+  margin: 20px 0; overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.hero-image img {
+  width: 100%; display: block;
+  height: 200px; object-fit: cover;
+}
+.hero-caption {
+  position: absolute; bottom:0; left:0; right:0;
+  background: linear-gradient(transparent, rgba(5,15,30,0.95));
+  padding: 24px 16px 10px;
+  font-size: 12px; color: var(--text-dim);
+}
+
+.section-banner {
+  height: 110px; border-radius: var(--radius);
+  margin-bottom: 20px; position: relative;
+  overflow: hidden; border: 1px solid var(--border);
+  display: flex; align-items: center; padding: 0 24px;
+}
+.section-banner .banner-icon {
+  font-size: 44px; margin-right: 16px; filter: drop-shadow(0 0 12px currentColor);
+}
+.section-banner .banner-title {
+  font-size: clamp(17px,2.5vw,22px); font-weight: 800; color: var(--heading);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+.section-banner .banner-sub {
+  font-size: 13px; color: var(--text-dim);
+}
+.banner-bg-vehicles {
+  background: linear-gradient(135deg, #04101f 0%, #0a2a4e 60%, #041828 100%);
+}
+
+section { margin: 32px 0; scroll-margin-top: 16px; }
+h2 { font-size: clamp(17px,2.5vw,22px); color: var(--heading); margin-bottom: 12px; }
+h3 {
+  font-size: 16.5px; color: var(--accent);
+  margin: 24px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+p { color: var(--text); margin-bottom: 12px; }
+
+.vehicle-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden; margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+.vehicle-card:hover { border-color: var(--accent2); }
+.vehicle-card-header {
+  display: flex; align-items: center; gap: 16px;
+  padding: 16px 20px; background: rgba(0,0,0,0.25);
+  border-bottom: 1px solid var(--border);
+}
+.vehicle-icon { font-size: 42px; }
+.vehicle-title { font-size: 18px; font-weight: 800; color: var(--heading); }
+.vehicle-tagline { font-size: 13px; color: var(--text-dim); margin-top: 2px; }
+.vehicle-card-body { padding: 16px 20px; }
+.vehicle-stats {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr));
+  gap: 10px; margin: 14px 0;
+}
+.stat-chip {
+  background: rgba(0,0,0,0.3); border: 1px solid var(--border2);
+  border-radius: var(--radius-sm); padding: 8px 12px; text-align: center;
+}
+.stat-label { font-size: 10px; letter-spacing: 1px; color: var(--text-dim); text-transform: uppercase; }
+.stat-value { font-size: 15px; font-weight: 700; color: var(--accent); margin-top: 2px; }
+
+.craft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px; margin: 14px 0;
+}
+.craft-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden;
+  transition: border-color 0.2s;
+}
+.craft-card:hover { border-color: var(--accent2); }
+.craft-card-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px; background: rgba(0,0,0,0.2);
+  border-bottom: 1px solid var(--border);
+}
+.craft-card-icon { font-size: 28px; }
+.craft-card-name { font-size: 14.5px; font-weight: 700; color: var(--heading); }
+.craft-card-desc { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+.craft-card-body { padding: 12px 14px; }
+.craft-station {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(0,212,255,0.1); border: 1px solid rgba(0,212,255,0.25);
+  color: var(--accent); font-size: 11.5px; font-weight: 600;
+  padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;
+}
+.mat-list { list-style: none; padding: 0; }
+.mat-item {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 13px;
+}
+.mat-item:last-child { border-bottom: none; }
+.mat-emoji { font-size: 18px; flex-shrink: 0; width: 24px; }
+.mat-info { flex: 1; }
+.mat-name { color: var(--heading); font-weight: 600; }
+.mat-amount { color: var(--text-dim); font-size: 12px; margin-left: 4px; }
+.mat-location {
+  font-size: 11.5px; color: var(--text-dim); margin-top: 1px;
+  display: flex; align-items: center; gap: 4px;
+}
+.mat-location::before { content:'📍'; font-size:10px; }
+.diff-badge {
+  font-size: 10.5px; font-weight: 700; padding: 1px 7px;
+  border-radius: 10px; flex-shrink: 0; align-self: center;
+}
+.diff-easy { background: rgba(34,197,94,0.15); color: var(--easy); border: 1px solid rgba(34,197,94,0.3); }
+.diff-medium { background: rgba(245,158,11,0.15); color: var(--medium); border: 1px solid rgba(245,158,11,0.3); }
+.diff-hard { background: rgba(239,68,68,0.15); color: var(--hard); border: 1px solid rgba(239,68,68,0.3); }
+
+.tip-box, .warn-box, .info-box {
+  border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
+}
+.tip-box { background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25); }
+.warn-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); }
+.info-box { background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25); }
+.box-label {
+  font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 800; margin-bottom: 5px;
+}
+.tip-box .box-label { color: var(--accent); }
+.warn-box .box-label { color: #f87171; }
+.info-box .box-label { color: var(--medium); }
+
+table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
+th {
+  background: var(--card2); color: var(--accent);
+  padding:9px 13px; text-align:left; border:1px solid var(--border);
+  font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase;
+}
+td { padding:8px 13px; border:1px solid var(--border); color:var(--text); }
+tr:nth-child(even) td { background: rgba(15,32,64,0.4); }
+
+.step-list { counter-reset: step; list-style: none; padding: 0; margin: 12px 0; }
+.step-list li {
+  counter-increment: step;
+  position: relative; padding: 11px 12px 11px 50px;
+  margin-bottom: 8px; background: var(--card);
+  border-radius: var(--radius); border: 1px solid var(--border);
+  font-size: 14px;
+}
+.step-list li::before {
+  content: counter(step);
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; background: var(--accent); color: #000;
+  border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-weight: 700; font-size: 12px;
+}
+
+.ad-slot {
+  background: rgba(8,14,28,0.8); border: 1px dashed var(--border);
+  border-radius: var(--radius); text-align: center; padding: 14px;
+  margin: 24px 0; color: var(--text-dim); font-size: 12px;
+  min-height: 90px; display: flex; align-items: center; justify-content: center;
+}
+
+footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  text-align: center; padding: 22px 16px;
+  color: var(--text-dim); font-size: 12.5px; margin-top: 40px;
+}
+
+.toc-box {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px; margin: 20px 0;
+}
+.toc-box h4 { color: var(--accent); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+.toc-box ul { list-style: none; padding: 0; }
+.toc-box li { padding: 4px 0; font-size: 13.5px; }
+.toc-box li::before { content: '→ '; color: var(--accent); }
+
+.upgrade-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap: 12px; margin: 14px 0;
+}
+.upgrade-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 12px 14px;
+}
+.upgrade-name { font-weight: 700; color: var(--heading); font-size: 14px; }
+.upgrade-desc { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+.upgrade-req { font-size: 11.5px; color: var(--accent); margin-top: 6px; }
+
+@media (max-width: 640px) {
+  .craft-grid { grid-template-columns: 1fr; }
+  .vehicle-stats { grid-template-columns: repeat(2,1fr); }
+  .page-wrapper { padding: 0 14px 50px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-brand">⚓ GameGuide</div>
+  <h1>🚢 Subnautica 2 Vehicles &amp; Submarines Guide</h1>
+  <p class="header-sub">Tadpole Modular Sub · Seamoth · PRAWN Suit · Depth Limits · Power Management · May 2026</p>
+  <div>
+    <span class="badge">🔥 Early Access 2026</span>
+    <span class="badge">🚢 All Vehicles</span>
+    <span class="badge">⚡ Power Tips</span>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <a href="index.html" class="back-link">← Back to Complete Guide</a>
+
+  <div class="hero-image">
+    <img
+      src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
+      alt="Subnautica 2 Vehicles and Submarines Guide 2026"
+      onerror="this.style.display='none';"
+    />
+    <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
+  </div>
+
+  <!-- ADVERTISEMENT SLOT -->
+  <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
+
+  <section id="overview">
+    <div class="section-banner banner-bg-vehicles">
+      <div class="banner-icon">🚢</div>
+      <div>
+        <div class="banner-title">Subnautica 2 Vehicles — Complete Guide</div>
+        <div class="banner-sub">Every submarine, every module, every upgrade — all depths covered</div>
+      </div>
+    </div>
+
+    <div class="toc-box">
+      <h4>On This Page</h4>
+      <ul>
+        <li><a href="#which-first">Which Vehicle to Build First</a></li>
+        <li><a href="#tadpole">Tadpole Modular Submarine</a></li>
+        <li><a href="#seamoth">Seamoth</a></li>
+        <li><a href="#prawn">PRAWN Suit</a></li>
+        <li><a href="#power-cells">Power Cell Management</a></li>
+        <li><a href="#upgrades">Vehicle Upgrades</a></li>
+        <li><a href="#depth-table">Vehicle Depth Comparison</a></li>
+        <li><a href="#biome-nav">Navigating Dangerous Biomes</a></li>
+        <li><a href="#vehicle-tips">Pro Tips</a></li>
+      </ul>
+    </div>
+
+    <p>Subnautica 2 vehicles are the backbone of mid-to-late game exploration. Without a submarine, you are limited to the shallowest 50–100 meters — which means you will miss the vast majority of the ocean's resources, story content, and base-building locations. This guide covers every vehicle available in the Early Access version (May 2026), including the brand-new <strong>Tadpole modular submarine</strong>, a signature addition to the sequel's co-op-focused design.</p>
+
+    <p>Whether you're playing <a href="coop.html">solo or with friends in co-op</a>, understanding your vehicles' depth ratings, power systems, and upgrade slots is the difference between a successful deep-sea expedition and a catastrophic loss of gear. The vehicles in Subnautica 2 are significantly more capable than those in the original game — but they also require more resources and planning to build and maintain.</p>
+  </section>
+
+  <section id="which-first">
+    <h3>Which Vehicle to Build First — and Why</h3>
+
+    <p>New players often wonder whether to prioritize the Seamoth or dive straight into the Tadpole. The answer depends on whether you are playing <a href="coop.html">co-op or solo</a>.</p>
+
+    <div class="tip-box">
+      <div class="box-label">🏆 Recommendation</div>
+      <strong>Solo players:</strong> Build the Seamoth first. It is cheaper, faster to construct, and gives you immediate access to 200m depth. Upgrade to the Tadpole once you have a stable resource base.<br/><br/>
+      <strong>Co-op players (2–4 players):</strong> One player should prioritize the Tadpole immediately. Its multi-passenger cabin makes resource runs dramatically more efficient when everyone can ride together.
+    </div>
+
+    <p>The build order most experienced players recommend:</p>
+    <ol class="step-list">
+      <li>Craft the Mobile Vehicle Bay (deployable vehicle constructor) — requires Titanium Ingot ×1, Lubricant ×1, Power Cell ×1</li>
+      <li>Build the Seamoth for immediate mobility and 200m depth access</li>
+      <li>Install a Moonpool in your base and add the Vehicle Upgrade Console</li>
+      <li>Upgrade Seamoth with Depth Module Mk1 to push to 300m</li>
+      <li>Begin gathering resources for the Tadpole or PRAWN Suit depending on goals</li>
+      <li>Build the PRAWN Suit for accessing the 500m+ zones like the Lost River</li>
+    </ol>
+  </section>
+
+  <section id="tadpole">
+    <h3>Tadpole Modular Submarine</h3>
+
+    <div class="vehicle-card">
+      <div class="vehicle-card-header">
+        <div class="vehicle-icon">🐟</div>
+        <div>
+          <div class="vehicle-title">Tadpole</div>
+          <div class="vehicle-tagline">Subnautica 2's signature modular submarine — fully customizable hull design</div>
+        </div>
+      </div>
+      <div class="vehicle-card-body">
+        <div class="vehicle-stats">
+          <div class="stat-chip"><div class="stat-label">Base Depth</div><div class="stat-value">300m</div></div>
+          <div class="stat-chip"><div class="stat-label">Max Depth (upgraded)</div><div class="stat-value">600m+</div></div>
+          <div class="stat-chip"><div class="stat-label">Passengers</div><div class="stat-value">Up to 4</div></div>
+          <div class="stat-chip"><div class="stat-label">Power Source</div><div class="stat-value">Power Cells ×2</div></div>
+          <div class="stat-chip"><div class="stat-label">Module Slots</div><div class="stat-value">6 (expandable)</div></div>
+          <div class="stat-chip"><div class="stat-label">Speed</div><div class="stat-value">Medium</div></div>
+        </div>
+
+        <p>The <strong>Tadpole</strong> is Subnautica 2's headline new vehicle and the heart of the co-op experience. Unlike any vehicle in the original Subnautica, the Tadpole features a <strong>modular chassis system</strong> — you choose the hull configuration when constructing it, and you can add modules over time to expand its capabilities. Think of it as building a ship from components rather than clicking a single button.</p>
+
+        <p>The Tadpole features a pressurized multi-passenger cabin at the front of the hull. In <a href="coop.html">co-op mode</a>, up to four players can ride simultaneously — two in the pilot/co-pilot seats and two in rear observation pods. The pilot controls movement; other passengers can deploy drones, manage modules, or scan the surrounding environment from inside the sub.</p>
+      </div>
+    </div>
+
+    <h3>Tadpole Chassis Options</h3>
+    <p>When you build a Tadpole, you select a starting chassis configuration. You can only choose one at construction time — upgrading to a different chassis requires significant additional resources.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Chassis</th>
+          <th>Focus</th>
+          <th>Module Slots</th>
+          <th>Best For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Scout Hull</strong></td>
+          <td>Speed + Agility</td>
+          <td>4 slots</td>
+          <td>Exploration, fast travel, solo play</td>
+        </tr>
+        <tr>
+          <td><strong>Cargo Hull</strong></td>
+          <td>Storage capacity</td>
+          <td>5 slots, 3 cargo bays</td>
+          <td>Resource gathering, co-op mining runs</td>
+        </tr>
+        <tr>
+          <td><strong>Deep Hull</strong></td>
+          <td>Pressure resistance</td>
+          <td>5 slots</td>
+          <td>Deep-sea exploration, accessing 500m+ zones</td>
+        </tr>
+        <tr>
+          <td><strong>Combat Hull</strong></td>
+          <td>Defense and weapons</td>
+          <td>4 slots, hardpoints</td>
+          <td>Traversing <a href="biomes.html">dangerous biomes</a> with aggressive fauna</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Building the Tadpole — Required Materials</h3>
+    <div class="craft-grid">
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🏗️</div>
+          <div>
+            <div class="craft-card-name">Tadpole Core Frame</div>
+            <div class="craft-card-desc">The structural backbone of the sub</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Plasteel Ingot</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Titanium Ingot + Lithium ×2</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Enameled Glass</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Glass + Stalker Tooth</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: 2× Battery + Silicone Rubber</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Advanced Wiring Kit</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: Gold + Computer Chip + Wiring Kit</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">⚙️</div>
+              <div class="mat-info"><span class="mat-name">Lubricant</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Creepvine Seeds ×2</div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🪟</div>
+          <div>
+            <div class="craft-card-name">Passenger Cabin Module</div>
+            <div class="craft-card-desc">Multi-seat pressurized cabin</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 10× Titanium</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Enameled Glass</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from Glass + Stalker Tooth</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Wiring Kit</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Silver Ore ×2</div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <div class="box-label">📌 Tadpole Storage Note</div>
+      The Tadpole has a shared inventory system — all passengers can access the storage bins simultaneously. This is a huge advantage for <a href="coop.html">co-op resource runs</a>: your designated harvester fills the cargo bins while the pilot navigates to the next node.
+    </div>
+  </section>
+
+  <section id="seamoth">
+    <h3>Seamoth</h3>
+
+    <div class="vehicle-card">
+      <div class="vehicle-card-header">
+        <div class="vehicle-icon">🐬</div>
+        <div>
+          <div class="vehicle-title">Seamoth</div>
+          <div class="vehicle-tagline">Fast, agile one-person submarine — the ideal early-game vehicle</div>
+        </div>
+      </div>
+      <div class="vehicle-card-body">
+        <div class="vehicle-stats">
+          <div class="stat-chip"><div class="stat-label">Base Depth</div><div class="stat-value">200m</div></div>
+          <div class="stat-chip"><div class="stat-label">Max Depth (Mk3)</div><div class="stat-value">900m</div></div>
+          <div class="stat-chip"><div class="stat-label">Passengers</div><div class="stat-value">1</div></div>
+          <div class="stat-chip"><div class="stat-label">Power Source</div><div class="stat-value">Power Cell ×1</div></div>
+          <div class="stat-chip"><div class="stat-label">Upgrade Slots</div><div class="stat-value">4</div></div>
+          <div class="stat-chip"><div class="stat-label">Speed</div><div class="stat-value">Fast</div></div>
+        </div>
+
+        <p>The <strong>Seamoth</strong> returns from the original Subnautica as the essential first vehicle. It is relatively cheap to build, extremely agile, and can be upgraded to impressive depths with the right modules. The Seamoth is the workhouse of early and mid-game exploration — you will rely on it heavily until your <a href="biomes.html">target biomes</a> exceed its upgraded depth rating.</p>
+
+        <p>The Seamoth is a single-passenger vehicle. It seats one player and has four upgrade slots accessed via the Vehicle Upgrade Console in your Moonpool. Its power cell is user-replaceable — you can carry spare cells and swap them in the field without returning to base.</p>
+      </div>
+    </div>
+
+    <h3>Building the Seamoth — Required Materials</h3>
+    <div class="craft-grid">
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🔵</div>
+          <div>
+            <div class="craft-card-name">Seamoth</div>
+            <div class="craft-card-desc">Full build recipe</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
+          <span class="diff-badge diff-medium">Mid-Game</span>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 10× Titanium → 1 Ingot</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Glass</span><span class="mat-amount">×2</span><div class="mat-location">Crafted from Quartz, 0–100m</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">⚙️</div>
+              <div class="mat-info"><span class="mat-name">Lubricant</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from 2× Creepvine Seeds</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 2× Battery + Silicone Rubber</div></div>
+            </li>
+          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Where to find Titanium: orange ore rocks in all biomes, 0–200m. Farm 30+ pieces before starting to build.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>Seamoth Upgrades</h3>
+    <p>All Seamoth upgrades are crafted at the <strong>Vehicle Upgrade Console</strong> inside your base's Moonpool room. The Seamoth has 4 upgrade slots — plan your loadout carefully for each dive type.</p>
+
+    <div class="upgrade-grid">
+      <div class="upgrade-item">
+        <div class="upgrade-name">Depth Module Mk1</div>
+        <div class="upgrade-desc">+100m depth (total: 300m)</div>
+        <div class="upgrade-req">Titanium ×3 + Glass ×2</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Depth Module Mk2</div>
+        <div class="upgrade-desc">+200m depth (total: 500m)</div>
+        <div class="upgrade-req">Mk1 + Plasteel Ingot ×3</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Depth Module Mk3</div>
+        <div class="upgrade-desc">+400m depth (total: 900m)</div>
+        <div class="upgrade-req">Mk2 + Kyanite ×3</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Sonar</div>
+        <div class="upgrade-desc">Pings surrounding terrain map</div>
+        <div class="upgrade-req">Copper ×2 + Ruby ×1</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Torpedo System</div>
+        <div class="upgrade-desc">Fires gas torpedoes at threats</div>
+        <div class="upgrade-req">Titanium ×2 + Lithium ×1</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Storage Module</div>
+        <div class="upgrade-desc">Adds 4×4 external storage</div>
+        <div class="upgrade-req">Titanium ×3</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Power Efficiency</div>
+        <div class="upgrade-desc">Reduces power drain by 50%</div>
+        <div class="upgrade-req">Ruby ×1 + Wiring Kit ×1</div>
+      </div>
+      <div class="upgrade-item">
+        <div class="upgrade-name">Perimeter Defense</div>
+        <div class="upgrade-desc">Electric shock repels creatures</div>
+        <div class="upgrade-req">Wiring Kit ×2 + Nickel ×2</div>
+      </div>
+    </div>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Depth Warning</div>
+      Exceeding your Seamoth's current depth limit causes hull integrity damage. At 50m over the limit you hear cracking sounds — exit immediately. At 100m over, the sub implodes, destroying it and everything inside. Always know your current depth rating before descending.
+    </div>
+  </section>
+
+  <!-- ADVERTISEMENT SLOT -->
+  <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
+
+  <section id="prawn">
+    <h3>PRAWN Suit</h3>
+
+    <div class="vehicle-card">
+      <div class="vehicle-card-header">
+        <div class="vehicle-icon">🦾</div>
+        <div>
+          <div class="vehicle-title">PRAWN Suit</div>
+          <div class="vehicle-tagline">Pressurized Reactive Armored Waterproof Nano-suit — for extreme depths</div>
+        </div>
+      </div>
+      <div class="vehicle-card-body">
+        <div class="vehicle-stats">
+          <div class="stat-chip"><div class="stat-label">Base Depth</div><div class="stat-value">900m</div></div>
+          <div class="stat-chip"><div class="stat-label">Max Depth (Mk3)</div><div class="stat-value">1700m</div></div>
+          <div class="stat-chip"><div class="stat-label">Passengers</div><div class="stat-value">1 (pilot only)</div></div>
+          <div class="stat-chip"><div class="stat-label">Power Source</div><div class="stat-value">Power Cell ×1</div></div>
+          <div class="stat-chip"><div class="stat-label">Arm Slots</div><div class="stat-value">2</div></div>
+          <div class="stat-chip"><div class="stat-label">Upgrade Slots</div><div class="stat-value">4</div></div>
+        </div>
+
+        <p>The <strong>PRAWN Suit</strong> is a hardened exosuit designed for extreme depths — the deepest zones of Subnautica 2 that no other vehicle can reach without extensive upgrading. Unlike the Seamoth or Tadpole, the PRAWN Suit is not a submarine you sit inside — you wear it, like a mech. You walk along the seafloor, use grappling hooks to climb cliff faces, and use interchangeable arm attachments for mining, combat, and propulsion.</p>
+
+        <p>The PRAWN Suit is essential for reaching the <a href="biomes.html">Lost River, Inactive Lava Zone, and Active Lava Zone</a> — the final content areas of Subnautica 2. It is expensive to build and requires materials that are only available at 300m+, so plan accordingly.</p>
+      </div>
+    </div>
+
+    <h3>Building the PRAWN Suit — Required Materials</h3>
+    <div class="craft-grid">
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🦾</div>
+          <div>
+            <div class="craft-card-name">PRAWN Suit</div>
+            <div class="craft-card-desc">Full build recipe — late game</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
+          <span class="diff-badge diff-hard">Late-Game</span>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Plasteel Ingot</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Titanium Ingot + Lithium ×2</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Aerogel</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Gel Sack + Ruby</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Enameled Glass</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: Glass + Stalker Tooth</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium</span><span class="mat-amount">×5</span><div class="mat-location">All biomes, 0–200m</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">⚙️</div>
+              <div class="mat-info"><span class="mat-name">Lubricant</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from 2× Creepvine Seeds</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 2× Battery + Silicone Rubber</div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3>PRAWN Suit Arm Attachments</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Arm Attachment</th>
+          <th>Function</th>
+          <th>Key Materials</th>
+          <th>Best Use</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Drill Arm</strong></td>
+          <td>Mines large resource deposits</td>
+          <td>Diamond ×2 + Titanium ×2</td>
+          <td>Resource harvesting in deep zones</td>
+        </tr>
+        <tr>
+          <td><strong>Grappling Arm</strong></td>
+          <td>Grapple to surfaces, swing through water</td>
+          <td>Titanium ×2 + Aerogel ×1</td>
+          <td>Traversal, especially in Lost River caves</td>
+        </tr>
+        <tr>
+          <td><strong>Torpedo Arm</strong></td>
+          <td>Fires torpedoes at creatures</td>
+          <td>Titanium ×2 + Nickel ×2</td>
+          <td>Combat in <a href="biomes.html">Active Lava Zone</a></td>
+        </tr>
+        <tr>
+          <td><strong>Propulsion Arm</strong></td>
+          <td>Grabs and throws objects</td>
+          <td>Magnetite ×2 + Titanium ×2</td>
+          <td>Moving large objects, puzzle solving</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <div class="box-label">💡 PRAWN Tip</div>
+      Equip the <strong>Grappling Arm</strong> in one slot and <strong>Drill Arm</strong> in the other for the most versatile configuration. The grapple lets you launch through water at high speed — nearly as fast as swimming with full fins. This is the recommended loadout for the Lost River and Lava Zones.
+    </div>
+  </section>
+
+  <section id="power-cells">
+    <h3>Power Cell Management</h3>
+    <p>All vehicles in Subnautica 2 run on Power Cells — rechargeable battery packs that drain as you move the vehicle, use active sonar, fire weapons, or run auxiliary systems. Running out of power in a deep zone is one of the most dangerous situations in the game.</p>
+
+    <h3>Power Cell Types</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Cell Type</th>
+          <th>Capacity</th>
+          <th>Recipe</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Standard Power Cell</strong></td>
+          <td>200 units</td>
+          <td>Battery ×2 + Silicone Rubber ×1</td>
+          <td>Early game; crafted at Fabricator</td>
+        </tr>
+        <tr>
+          <td><strong>Ion Power Cell</strong></td>
+          <td>1000 units</td>
+          <td>Power Cell + Ion Crystal ×2</td>
+          <td>5× capacity; requires late-game Ion Crystals</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Power cells recharge automatically in the Moonpool when your vehicle is docked. You can also manually swap cells in the field — open the vehicle's power cell panel (interact key on the rear of the Seamoth) and replace the depleted cell with a fresh one from your inventory.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Power Management Strategy</div>
+      Always carry 1–2 spare power cells in your personal inventory when diving deep. If your Seamoth or Tadpole runs out of power, you can manually insert a new cell and get moving again. Without a spare cell, you are stranded — which means swimming to the surface from potentially 500m down.
+    </div>
+
+    <h3>Power Conservation Tips</h3>
+    <ul style="list-style:none;padding:0;">
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🔋 Install the <strong>Power Efficiency Module</strong> to cut passive drain by 50%</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🌊 Coast without thrust when traveling long horizontal distances — momentum carries you further than constant boosting</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📡 Turn off <strong>Sonar</strong> when not actively mapping — it drains power continuously when active</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">⚡ Switch to Ion Power Cells before deep expeditions — they last 5× as long</li>
+      <li style="padding:8px 0;font-size:14px;">🔌 Dock in the Moonpool between expeditions to fully recharge at no cost</li>
+    </ul>
+  </section>
+
+  <section id="depth-table">
+    <h3>Vehicle Depth Comparison Table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Vehicle</th>
+          <th>Base Depth</th>
+          <th>Mk1</th>
+          <th>Mk2</th>
+          <th>Mk3</th>
+          <th>Accessible Biomes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Seamoth</strong></td>
+          <td>200m</td>
+          <td>300m</td>
+          <td>500m</td>
+          <td>900m</td>
+          <td>Safe Shallows → Grand Reef → Lost River</td>
+        </tr>
+        <tr>
+          <td><strong>Tadpole (Scout)</strong></td>
+          <td>300m</td>
+          <td>450m</td>
+          <td>650m</td>
+          <td>900m</td>
+          <td>Kelp Forest → Blood Kelp → Deep Grand Reef</td>
+        </tr>
+        <tr>
+          <td><strong>Tadpole (Deep Hull)</strong></td>
+          <td>400m</td>
+          <td>600m</td>
+          <td>800m</td>
+          <td>1100m</td>
+          <td>Grand Reef → Lost River → Inactive Lava Zone</td>
+        </tr>
+        <tr>
+          <td><strong>PRAWN Suit</strong></td>
+          <td>900m</td>
+          <td>1100m</td>
+          <td>1400m</td>
+          <td>1700m</td>
+          <td>Lost River → Active Lava Zone → Primary Containment</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>For a full breakdown of what you'll find at each depth, see the <a href="biomes.html">Subnautica 2 Biomes Guide</a>. Matching the right vehicle to the right depth zone is essential for safe and efficient exploration.</p>
+  </section>
+
+  <section id="biome-nav">
+    <h3>Navigating Dangerous Biomes in Your Vehicle</h3>
+    <p>Vehicles change how creatures interact with you. Smaller vehicles like the Seamoth are targeted by many predators (Reapers, Ghost Leviathans) and can be damaged or grabbed. The Tadpole and PRAWN Suit offer significantly better protection.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Biome</th>
+          <th>Main Threats</th>
+          <th>Recommended Vehicle</th>
+          <th>Tips</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="biomes.html">Safe Shallows</a></td>
+          <td>Crashfish</td>
+          <td>Any</td>
+          <td>No vehicle needed but Seamoth is convenient</td>
+        </tr>
+        <tr>
+          <td><a href="biomes.html">Kelp Forest</a></td>
+          <td>Stalkers</td>
+          <td>Seamoth</td>
+          <td>Stalkers rarely attack vehicles; safe to explore</td>
+        </tr>
+        <tr>
+          <td><a href="biomes.html">Mushroom Forest</a></td>
+          <td>Bone Sharks</td>
+          <td>Seamoth + Perimeter Defense</td>
+          <td>Defense module shocks Bone Sharks off hull</td>
+        </tr>
+        <tr>
+          <td><a href="biomes.html">Blood Kelp Zone</a></td>
+          <td>Warper, Sea Dragon</td>
+          <td>Tadpole or upgraded Seamoth</td>
+          <td>Move quickly; don't linger in open water</td>
+        </tr>
+        <tr>
+          <td><a href="biomes.html">Lost River</a></td>
+          <td>Ghost Leviathan</td>
+          <td>PRAWN Suit (in tunnels)</td>
+          <td>Ghost Leviathans don't fit in narrow passages</td>
+        </tr>
+        <tr>
+          <td><a href="biomes.html">Active Lava Zone</a></td>
+          <td>Sea Dragon Leviathan</td>
+          <td>PRAWN Suit + Torpedo Arm</td>
+          <td>Fire torpedoes to distract, move fast</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Leviathan Warning</div>
+      Leviathans target vehicles and can deal massive hull damage in seconds. The Seamoth has relatively low hull integrity — three bites from a Reaper Leviathan will destroy it. Always have an escape plan and know where the surface is when traversing Leviathan-heavy biomes.
+    </div>
+  </section>
+
+  <section id="vehicle-tips">
+    <h3>Pro Tips for Vehicle Mastery</h3>
+
+    <h3>Always Leave a Beacon at Your Vehicle</h3>
+    <p>When you exit your vehicle to explore on foot, always drop a <a href="crafting.html">Beacon</a> next to it. Getting back to your vehicle after an unexpected creature encounter or oxygen emergency is far easier with a visible HUD marker. Losing track of your Seamoth at 300m depth is a genuinely terrifying experience.</p>
+
+    <h3>Use the Moonpool as a Staging Area</h3>
+    <p>Your base Moonpool is more than a docking station — it is your vehicle's service bay. Use it to swap upgrades between the Seamoth and Tadpole, recharge cells, and load cargo before major expeditions. See the <a href="base-building.html">Base Building Guide</a> for Moonpool placement tips.</p>
+
+    <h3>Manage Your Upgrade Slots Situationally</h3>
+    <p>There is no single "best" upgrade loadout. Configure your slots based on what the dive demands:</p>
+    <ul style="list-style:none;padding:0;">
+      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">🔍 <strong>Exploration dive:</strong> Sonar + Depth Module + Storage + Power Efficiency</li>
+      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">⚔️ <strong>Dangerous biome:</strong> Perimeter Defense + Torpedo + Depth Module + Power Efficiency</li>
+      <li style="padding:7px 0;font-size:14px;">📦 <strong>Resource run:</strong> 2× Storage Module + Depth Module + Power Efficiency</li>
+    </ul>
+
+    <h3>The Tadpole Is Not a Late-Game Exclusive</h3>
+    <p>Many players assume the Tadpole is a late-game vehicle. In co-op, it should be your first priority. The ability to transport your entire four-player team in one submarine changes the pacing of the game dramatically — no more splitting up and losing track of teammates. If you need coordination tips, check the <a href="coop.html">Co-op Guide</a>.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Final Tip</div>
+      Keep a spare, basic Seamoth always docked at your base even after you build the Tadpole or PRAWN Suit. It's your emergency transport if your primary vehicle gets destroyed during an expedition. The Seamoth is cheap enough that having a backup is always worth it.
+    </div>
+  </section>
+
+</div><!-- end page-wrapper -->
+
+<footer>
+  <p>Subnautica 2 Vehicles &amp; Submarines Guide · Updated May 2026 · Based on Early Access version</p>
+  <p style="margin-top:8px;">
+    <a href="index.html">← Complete Guide</a> ·
+    <a href="crafting.html">Crafting Recipes</a> ·
+    <a href="oxygen.html">Oxygen Guide</a> ·
+    <a href="base-building.html">Base Building</a> ·
+    <a href="coop.html">Co-op Guide</a> ·
+    <a href="biomes.html">Biomes Guide</a>
+  </p>
+  <p style="margin-top:8px;color:#4a6080;font-size:11px;">This is a fan-made guide. Subnautica 2 is developed by Unknown Worlds Entertainment &amp; Krafton.</p>
+</footer>
+
+</body>
+</html>

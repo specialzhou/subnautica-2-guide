@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subnautica 2 Co-op Guide 2026 | 4-Player Multiplayer Tips &amp; Strategies</title>
+  <meta name="description" content="Subnautica 2 co-op guide for 4 players — role assignments, shared base building, oxygen coordination, communication tips, and multiplayer survival strategies." />
+  <meta property="og:title" content="Subnautica 2 Co-op Guide 2026 | 4-Player Multiplayer Tips &amp; Strategies" />
+  <meta property="og:description" content="Subnautica 2 co-op guide for 4 players — role assignments, shared base building, oxygen coordination, communication tips, and multiplayer survival strategies." />
+  <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Subnautica 2 Co-op Guide 2026 | 4-Player Multiplayer" />
+  <meta name="twitter:description" content="Role assignments, shared base building, oxygen coordination, and 4-player survival strategies for Subnautica 2." />
+
+  <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/coop.html" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7R7JWG7M2S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7R7JWG7M2S');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Subnautica 2 Co-op Guide 2026 | 4-Player Multiplayer Tips & Strategies",
+    "description": "Subnautica 2 co-op guide for 4 players — role assignments, shared base building, oxygen coordination, communication tips, and multiplayer survival strategies.",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "inLanguage": "en",
+    "author": { "@type": "Organization", "name": "GameGuide" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GameGuide",
+      "logo": { "@type": "ImageObject", "url": "https://specialzhou.github.io/subnautica-2-guide/" }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://specialzhou.github.io/subnautica-2-guide/coop.html"
+    }
+  }
+  </script>
+
+<style>
+/* ═══════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════ */
+:root {
+  --bg: #080e1c;
+  --surface: #0b1525;
+  --card: #0f2040;
+  --card2: #102245;
+  --accent: #00d4ff;
+  --accent2: #0077bb;
+  --accent-glow: rgba(0,212,255,0.18);
+  --text: #c8d8f0;
+  --text-dim: #7a90b0;
+  --heading: #e4f0ff;
+  --border: #1a3055;
+  --border2: #224070;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --easy: #22c55e;
+  --medium: #f59e0b;
+  --hard: #ef4444;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.78;
+  font-size: 15.5px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { color: var(--heading); }
+code {
+  background: var(--card); color: var(--accent);
+  padding: 1px 7px; border-radius: 4px;
+  font-size: 0.88em; font-family: 'Consolas', monospace;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #04101f 0%, #0b2040 50%, #060f1e 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 22px 24px 18px;
+  text-align: center;
+  position: relative; overflow: hidden;
+}
+.site-header::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0,212,255,0.08) 0%, transparent 65%);
+  pointer-events:none;
+}
+.site-brand { font-size:11px; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+.site-header h1 {
+  font-size: clamp(18px,3.5vw,28px); color:var(--heading);
+  font-weight:800; text-shadow:0 0 28px rgba(0,212,255,0.35);
+  margin-bottom:8px;
+}
+.header-sub { font-size:13px; color:var(--text-dim); }
+.badge {
+  display:inline-block; background:rgba(0,212,255,0.12);
+  border:1px solid rgba(0,212,255,0.4); color:var(--accent);
+  padding:2px 10px; border-radius:20px; font-size:11.5px; margin:4px 3px;
+}
+
+.back-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 14px;
+  font-size: 13px; color: var(--accent); margin: 18px 0 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+.back-link:hover { background: rgba(0,212,255,0.1); border-color: var(--accent); text-decoration: none; }
+
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+.hero-image {
+  width: 100%; border-radius: var(--radius);
+  margin: 20px 0; overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.hero-image img {
+  width: 100%; display: block;
+  height: 200px; object-fit: cover;
+}
+.hero-caption {
+  position: absolute; bottom:0; left:0; right:0;
+  background: linear-gradient(transparent, rgba(5,15,30,0.95));
+  padding: 24px 16px 10px;
+  font-size: 12px; color: var(--text-dim);
+}
+
+.section-banner {
+  height: 110px; border-radius: var(--radius);
+  margin-bottom: 20px; position: relative;
+  overflow: hidden; border: 1px solid var(--border);
+  display: flex; align-items: center; padding: 0 24px;
+}
+.section-banner .banner-icon {
+  font-size: 44px; margin-right: 16px; filter: drop-shadow(0 0 12px currentColor);
+}
+.section-banner .banner-title {
+  font-size: clamp(17px,2.5vw,22px); font-weight: 800; color: var(--heading);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+.section-banner .banner-sub {
+  font-size: 13px; color: var(--text-dim);
+}
+.banner-bg-coop {
+  background: linear-gradient(135deg, #041828 0%, #0a2a50 60%, #051020 100%);
+}
+
+section { margin: 32px 0; scroll-margin-top: 16px; }
+h2 { font-size: clamp(17px,2.5vw,22px); color: var(--heading); margin-bottom: 12px; }
+h3 {
+  font-size: 16.5px; color: var(--accent);
+  margin: 24px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+p { color: var(--text); margin-bottom: 12px; }
+
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px; margin: 14px 0;
+}
+.role-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px;
+  text-align: center; transition: border-color 0.2s;
+}
+.role-card:hover { border-color: var(--accent2); }
+.role-icon { font-size: 36px; margin-bottom: 8px; }
+.role-name { font-size: 15px; font-weight: 800; color: var(--heading); }
+.role-desc { font-size: 12px; color: var(--text-dim); margin-top: 6px; line-height: 1.6; }
+.role-tasks { font-size: 11.5px; color: var(--accent); margin-top: 8px; }
+
+.tip-box, .warn-box, .info-box {
+  border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
+}
+.tip-box { background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25); }
+.warn-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); }
+.info-box { background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25); }
+.box-label {
+  font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 800; margin-bottom: 5px;
+}
+.tip-box .box-label { color: var(--accent); }
+.warn-box .box-label { color: #f87171; }
+.info-box .box-label { color: var(--medium); }
+
+table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
+th {
+  background: var(--card2); color: var(--accent);
+  padding:9px 13px; text-align:left; border:1px solid var(--border);
+  font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase;
+}
+td { padding:8px 13px; border:1px solid var(--border); color:var(--text); }
+tr:nth-child(even) td { background: rgba(15,32,64,0.4); }
+
+.step-list { counter-reset: step; list-style: none; padding: 0; margin: 12px 0; }
+.step-list li {
+  counter-increment: step;
+  position: relative; padding: 11px 12px 11px 50px;
+  margin-bottom: 8px; background: var(--card);
+  border-radius: var(--radius); border: 1px solid var(--border);
+  font-size: 14px;
+}
+.step-list li::before {
+  content: counter(step);
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; background: var(--accent); color: #000;
+  border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-weight: 700; font-size: 12px;
+}
+
+.ad-slot {
+  background: rgba(8,14,28,0.8); border: 1px dashed var(--border);
+  border-radius: var(--radius); text-align: center; padding: 14px;
+  margin: 24px 0; color: var(--text-dim); font-size: 12px;
+  min-height: 90px; display: flex; align-items: center; justify-content: center;
+}
+
+footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  text-align: center; padding: 22px 16px;
+  color: var(--text-dim); font-size: 12.5px; margin-top: 40px;
+}
+
+.toc-box {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px; margin: 20px 0;
+}
+.toc-box h4 { color: var(--accent); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+.toc-box ul { list-style: none; padding: 0; }
+.toc-box li { padding: 4px 0; font-size: 13.5px; }
+.toc-box li::before { content: '→ '; color: var(--accent); }
+
+.mistake-item {
+  background: var(--card); border-left: 3px solid var(--hard);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px 16px; margin-bottom: 10px;
+}
+.mistake-title { font-weight: 700; color: #f87171; font-size: 14px; }
+.mistake-fix { font-size: 13px; color: var(--text); margin-top: 4px; }
+
+.strategy-item {
+  background: var(--card); border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px 16px; margin-bottom: 10px;
+}
+.strategy-title { font-weight: 700; color: var(--accent); font-size: 14px; }
+.strategy-desc { font-size: 13px; color: var(--text); margin-top: 4px; }
+
+@media (max-width: 640px) {
+  .role-grid { grid-template-columns: repeat(2,1fr); }
+  .page-wrapper { padding: 0 14px 50px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-brand">⚓ GameGuide</div>
+  <h1>👥 Subnautica 2 Co-op Guide — 4-Player Multiplayer</h1>
+  <p class="header-sub">Join Friends · Role Splits · Shared Base Building · Oxygen Coordination · May 2026</p>
+  <div>
+    <span class="badge">🔥 Early Access 2026</span>
+    <span class="badge">👥 4-Player Co-op</span>
+    <span class="badge">🎯 Role Strategies</span>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <a href="index.html" class="back-link">← Back to Complete Guide</a>
+
+  <div class="hero-image">
+    <img
+      src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
+      alt="Subnautica 2 Co-op Multiplayer Guide 2026"
+      onerror="this.style.display='none';"
+    />
+    <div class="hero-caption">Subnautica 2 · 4-Player Co-op · Early Access May 14, 2026 · Image: Steam Official</div>
+  </div>
+
+  <!-- ADVERTISEMENT SLOT -->
+  <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
+
+  <section id="overview">
+    <div class="section-banner banner-bg-coop">
+      <div class="banner-icon">👥</div>
+      <div>
+        <div class="banner-title">Subnautica 2 Co-op — Complete Guide</div>
+        <div class="banner-sub">Play with up to 4 players — roles, strategies, and shared survival</div>
+      </div>
+    </div>
+
+    <div class="toc-box">
+      <h4>On This Page</h4>
+      <ul>
+        <li><a href="#how-coop-works">How Co-op Works in Subnautica 2</a></li>
+        <li><a href="#join-invite">How to Join or Invite Friends</a></li>
+        <li><a href="#roles">Recommended Role Splits</a></li>
+        <li><a href="#oxygen-coop">Oxygen Coordination in Co-op</a></li>
+        <li><a href="#base-coop">Shared Base Building</a></li>
+        <li><a href="#vehicles-coop">Vehicles in Co-op</a></li>
+        <li><a href="#communication">Communication Tips</a></li>
+        <li><a href="#mistakes">Common Co-op Mistakes</a></li>
+        <li><a href="#advanced">Advanced 4-Player Strategies</a></li>
+      </ul>
+    </div>
+
+    <p>Subnautica 2 was built from the ground up with multiplayer co-op as a <strong>first-class feature</strong> — not an afterthought bolted onto a solo experience. Up to four players can explore the alien ocean together, share resources, build a communal base, and tackle the story side by side. The co-op implementation is deeply integrated: players share a single world state, base, and inventory ecosystem rather than having parallel sessions.</p>
+
+    <p>This guide covers everything you need to know to have a smooth and successful co-op run — from the initial lobby setup through advanced four-player coordination strategies. Whether you're playing with close friends or random online players, the strategies here will save you hours of frustration. Be sure to also read the <a href="vehicles.html">Vehicles Guide</a> to understand how the Tadpole changes co-op dynamics, and the <a href="biomes.html">Biomes Guide</a> to plan which areas to explore as a group.</p>
+  </section>
+
+  <section id="how-coop-works">
+    <h3>How Co-op Works in Subnautica 2</h3>
+
+    <p>Subnautica 2 co-op uses a <strong>host-client model</strong>. One player hosts the game session and their save file is the persistent world. Other players join as clients — if the host logs off, the session ends. Client progress (inventory, personal upgrades, XP) is saved to their own file, but world changes (base construction, resources collected, story progress) are all tied to the host's save.</p>
+
+    <div class="info-box">
+      <div class="box-label">📌 Host Responsibility</div>
+      The host player's internet connection determines the session quality for all players. If you have a slow or unstable connection, consider letting the player with the best connection host. The host can also set session privacy: Open (anyone can join), Friends Only, or Invite Only.
+    </div>
+
+    <p>Key co-op mechanics to understand:</p>
+    <ul style="list-style:none;padding:0;margin:12px 0;">
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🌊 <strong>Shared world:</strong> Resources, structures, and creature behavior are consistent for all players</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🎒 <strong>Personal inventory:</strong> Each player has their own backpack — items are not automatically shared</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🏗️ <strong>Shared base:</strong> All players contribute to and can modify the same base structures</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🫁 <strong>Individual oxygen:</strong> Each player manages their own oxygen supply independently</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📖 <strong>Shared blueprints:</strong> When one player scans a fragment, the blueprint unlocks for all players in the session</li>
+      <li style="padding:8px 0;font-size:14px;">🚢 <strong>Shared vehicles:</strong> Any player can pilot any vehicle — there is no vehicle ownership</li>
+    </ul>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Blueprint Sharing Tip</div>
+      The shared blueprint system is one of the most powerful co-op advantages. Split up to scan different wrecks simultaneously — one player scanning a wreck in the Kelp Forest while another scans a different wreck in the Mushroom Forest means you unlock blueprints at roughly 4× the rate of solo play.
+    </div>
+  </section>
+
+  <section id="join-invite">
+    <h3>How to Join or Invite Friends</h3>
+
+    <ol class="step-list">
+      <li>From the main menu, select <strong>Play</strong> then choose <strong>Multiplayer</strong> (to join a friend's session) or start a new game with multiplayer enabled</li>
+      <li>To host: Start a new game, select <strong>Co-op Session</strong>, choose your privacy setting (Friends Only recommended for first playthroughs), and launch</li>
+      <li>To invite friends once in-game: Open the pause menu, go to <strong>Session Settings</strong>, and use the <strong>Invite Friends</strong> button — this sends Steam/console invites</li>
+      <li>To join a friend: From the main menu select <strong>Join Friend's Game</strong>, or accept the invite notification if they sent you one</li>
+      <li>Late-joining players spawn at the shared base if one has been built, otherwise at the escape pod location</li>
+    </ol>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Late Join Warning</div>
+      Players who join a session already in progress will spawn with a basic starting inventory — they will not have the gear their character had in previous sessions. For this reason, it is best to play regular sessions with the same group rather than constantly mixing players in and out of a run.
+    </div>
+  </section>
+
+  <section id="roles">
+    <h3>Recommended Role Splits for 4 Players</h3>
+    <p>Subnautica 2 does not have a formal class system, but co-op groups perform dramatically better when players specialize. Here are the four roles that work best in a full 4-player group:</p>
+
+    <div class="role-grid">
+      <div class="role-card">
+        <div class="role-icon">🏗️</div>
+        <div class="role-name">Builder</div>
+        <div class="role-desc">Focuses on base construction, power systems, and upgrading facilities</div>
+        <div class="role-tasks">Builder Tool · Moonpool · Solar &amp; Thermal Power · Storage Systems</div>
+      </div>
+      <div class="role-card">
+        <div class="role-icon">🔍</div>
+        <div class="role-name">Explorer</div>
+        <div class="role-desc">Scouts new biomes, scans fragments, and unlocks blueprints</div>
+        <div class="role-tasks">Scanner · Beacons · Mapping new areas · Story progression</div>
+      </div>
+      <div class="role-card">
+        <div class="role-icon">⛏️</div>
+        <div class="role-name">Harvester</div>
+        <div class="role-desc">Focuses on bulk resource collection to fuel crafting and construction</div>
+        <div class="role-tasks">Resource runs · Drill Arm · Cargo Tadpole · Storage management</div>
+      </div>
+      <div class="role-card">
+        <div class="role-icon">🚢</div>
+        <div class="role-name">Pilot</div>
+        <div class="role-desc">Operates the Tadpole, coordinates team transport and deep dives</div>
+        <div class="role-tasks">Tadpole navigation · Depth modules · Emergency rescue · Vehicle maintenance</div>
+      </div>
+    </div>
+
+    <h3>2-Player Role Splits</h3>
+    <p>With only two players, combine roles as follows:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Primary Role</th>
+          <th>Secondary Role</th>
+          <th>Focus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Player 1</strong></td>
+          <td>Builder</td>
+          <td>Harvester</td>
+          <td>Base infrastructure + bulk resource collection</td>
+        </tr>
+        <tr>
+          <td><strong>Player 2</strong></td>
+          <td>Explorer</td>
+          <td>Pilot</td>
+          <td>Scouting new areas + operating vehicles</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>3-Player Role Splits</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Role</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Player 1</strong></td>
+          <td>Builder + Harvester</td>
+          <td>Handles all base construction and resource logistics</td>
+        </tr>
+        <tr>
+          <td><strong>Player 2</strong></td>
+          <td>Explorer</td>
+          <td>Dedicated scanner and story progression</td>
+        </tr>
+        <tr>
+          <td><strong>Player 3</strong></td>
+          <td>Pilot + Combat</td>
+          <td>Operates Tadpole and handles creature threats</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ADVERTISEMENT SLOT -->
+  <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
+
+  <section id="oxygen-coop">
+    <h3>Oxygen Coordination in Co-op</h3>
+
+    <p>Oxygen management is fundamentally individual in Subnautica 2 — each player has their own <a href="oxygen.html">oxygen supply</a> and cannot directly share air with another player. However, co-op creates powerful new oxygen strategies that solo players cannot replicate.</p>
+
+    <h3>Shared Oxygen Stations</h3>
+    <p>The most impactful co-op oxygen strategy is placing <strong>Oxygen Stations</strong> (small base modules that emit a bubble of breathable air) at key waypoints throughout your exploration routes. In co-op, the Builder can construct a network of these stations while other players are actively diving — dramatically extending everyone's range without requiring surface trips.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 The Oxygen Chain</div>
+      Have your Builder place Oxygen Stations at 50m intervals along your primary exploration corridor. Explorers and Harvesters can then dive indefinitely along that route, only needing to touch the surface when venturing off the marked path. This technique — called "the oxygen chain" — is the single biggest co-op efficiency improvement in the game.
+    </div>
+
+    <h3>Vehicle-Based Oxygen Sharing</h3>
+    <p>The <a href="vehicles.html">Tadpole submarine</a> functions as a moving oxygen source. When you are inside the Tadpole's pressurized cabin, your oxygen fills automatically — even when the sub is at 500m depth. This turns the Tadpole into a "dive base": the pilot holds position near a resource node while other players swim out to collect materials, then return to the sub to refill before the next collection run.</p>
+
+    <p>This technique requires zero surface trips and allows your team to harvest at extreme depths for extended periods. See the <a href="vehicles.html">Vehicles Guide</a> for optimal Tadpole upgrade configurations for deep diving.</p>
+
+    <h3>Emergency Oxygen Protocols</h3>
+    <p>Establish these protocols before deep dives:</p>
+    <ul style="list-style:none;padding:0;margin:12px 0;">
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🚨 <strong>Low O2 alert:</strong> When any player's oxygen drops below 30%, they call "low O2" and the pilot brings the Tadpole to their position immediately</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">⚠️ <strong>Emergency surface:</strong> If oxygen reaches critical levels, the player ascends regardless of what the group is doing — never wait for permission</li>
+      <li style="padding:8px 0;font-size:14px;">🎯 <strong>Beacon protocol:</strong> Every player should always have a Beacon in their inventory. If a player drowns, their gear beacon helps teammates recover the dropped inventory</li>
+    </ul>
+  </section>
+
+  <section id="base-coop">
+    <h3>Shared Base Building in Co-op</h3>
+
+    <p>Base building in co-op is one of the most enjoyable aspects of Subnautica 2 multiplayer. Multiple players with Builder Tools can construct simultaneously — the Builder places structural components while another player simultaneously installs furniture and equipment modules inside finished rooms.</p>
+
+    <h3>Base Construction Division of Labor</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Who Does It</th>
+          <th>Materials Needed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Structural tubes and foundations</td>
+          <td>Builder</td>
+          <td>Titanium (bulk), Lead</td>
+        </tr>
+        <tr>
+          <td>Power systems (solar, thermal)</td>
+          <td>Builder or Harvester</td>
+          <td>Quartz, Titanium</td>
+        </tr>
+        <tr>
+          <td>Fabricator installation</td>
+          <td>Any player</td>
+          <td>Gold, Copper Wire, Titanium</td>
+        </tr>
+        <tr>
+          <td>Moonpool (vehicle dock)</td>
+          <td>Builder + Pilot together</td>
+          <td>Titanium ×2, Lubricant ×1, Lead ×2</td>
+        </tr>
+        <tr>
+          <td>Storage containers</td>
+          <td>Harvester (they need them most)</td>
+          <td>Titanium ×2</td>
+        </tr>
+        <tr>
+          <td>Modification Station</td>
+          <td>Builder</td>
+          <td>Diamond ×2, Lead ×1, Lithium ×1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <div class="box-label">📌 Storage Organization</div>
+      In co-op, label your storage containers clearly. The Harvester returns with hundreds of resources per run — if storage is disorganized, the Builder wastes significant time finding the right materials. Dedicate specific containers to specific material categories: one for metals, one for electronic components, one for rare/exotic resources.
+    </div>
+
+    <h3>Recommended Base Layout for 4 Players</h3>
+    <p>A co-op base needs more space than a solo base. The following room configuration supports four active players comfortably:</p>
+    <ul style="list-style:none;padding:0;margin:12px 0;">
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🏗️ <strong>Large Room ×2</strong> — Primary living/crafting hub; place Fabricators and Modification Station here</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🚢 <strong>Moonpool ×2</strong> — One dock per vehicle (Seamoth + Tadpole); both need Vehicle Upgrade Consoles</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📦 <strong>I-Tube Corridor (dedicated storage wing)</strong> — Fill with storage containers, organized by material type</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">⚡ <strong>Power room</strong> — 4+ Solar Panels plus Bioreactor or Thermal Plant for reliable power at depth</li>
+      <li style="padding:8px 0;font-size:14px;">🌱 <strong>Alien Containment room</strong> — Farm fish for food; critical when 4 players are consuming supplies rapidly</li>
+    </ul>
+
+    <p>For full base building guidance including hull integrity management and deep-sea placements, see the <a href="base-building.html">Base Building Guide</a>.</p>
+  </section>
+
+  <section id="vehicles-coop">
+    <h3>Vehicles in Co-op</h3>
+
+    <p>The <a href="vehicles.html">Tadpole submarine</a> was designed specifically for co-op play. In a 4-player session, it transforms vehicle management from a logistical headache into a powerful team asset.</p>
+
+    <h3>Vehicle Assignment Strategy</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Vehicle</th>
+          <th>Who Uses It</th>
+          <th>Configuration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Tadpole (Cargo Hull)</strong></td>
+          <td>Pilot + up to 3 passengers</td>
+          <td>Storage modules, Power Efficiency, Depth upgrade</td>
+        </tr>
+        <tr>
+          <td><strong>Seamoth ×1</strong></td>
+          <td>Explorer (solo scouting)</td>
+          <td>Sonar, Depth upgrade, Perimeter Defense</td>
+        </tr>
+        <tr>
+          <td><strong>PRAWN Suit ×1–2</strong></td>
+          <td>Harvesters in deep zones</td>
+          <td>Drill Arm + Grappling Arm</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <div class="box-label">💡 The "Drop Pod" Strategy</div>
+      The most efficient 4-player deep dive pattern: Pilot takes everyone down in the Tadpole to the target depth. Two Harvesters exit the Tadpole with their PRAWN Suits and mine the area. One Explorer swims the perimeter scanning fragments. The Pilot remains in the Tadpole, maintaining its position as a mobile oxygen source and cargo drop-off point. Every 3–4 minutes the Harvesters return to unload into the Tadpole's shared cargo bays.
+    </div>
+  </section>
+
+  <section id="communication">
+    <h3>Communication Tips for Co-op</h3>
+
+    <p>Subnautica 2 has in-game proximity voice chat, but most players prefer external voice communication (Discord, TeamSpeak, etc.) for a more reliable experience. Regardless of your communication tool, establish these communication conventions before playing:</p>
+
+    <h3>Standard Callouts</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Callout</th>
+          <th>Meaning</th>
+          <th>Expected Response</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>"Low O2"</code></td>
+          <td>Player below 30% oxygen</td>
+          <td>Pilot moves Tadpole to player's position</td>
+        </tr>
+        <tr>
+          <td><code>"Critical O2"</code></td>
+          <td>Player below 10% oxygen</td>
+          <td>Player ascends immediately; team clears path</td>
+        </tr>
+        <tr>
+          <td><code>"Leviathan"</code></td>
+          <td>Leviathan-class creature spotted</td>
+          <td>All players return to vehicle or base; no exceptions</td>
+        </tr>
+        <tr>
+          <td><code>"Base low power"</code></td>
+          <td>Base power reserve below 20%</td>
+          <td>Builder or Harvester handles power system</td>
+        </tr>
+        <tr>
+          <td><code>"Drop off"</code></td>
+          <td>Player returning to Tadpole to unload</td>
+          <td>Pilot maintains position; other players clear docking area</td>
+        </tr>
+        <tr>
+          <td><code>"Blueprint unlocked"</code></td>
+          <td>New blueprint available for all</td>
+          <td>Builder reviews and queues required materials</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>HUD Markers and Beacons</h3>
+    <p>Use <a href="crafting.html">Beacons</a> liberally in co-op — they are cheap and invaluable. Recommended beacon placements for a 4-player session:</p>
+    <ul style="list-style:none;padding:0;margin:12px 0;">
+      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">📍 One beacon at the base entrance (always)</li>
+      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">📍 One beacon per vehicle whenever parked outside the Moonpool</li>
+      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">📍 One beacon at the entrance of any cave or wreck being explored</li>
+      <li style="padding:7px 0;font-size:14px;">📍 Temporary beacons at resource-rich nodes discovered by the Explorer so the Harvester can return</li>
+    </ul>
+  </section>
+
+  <section id="mistakes">
+    <h3>Common Co-op Mistakes to Avoid</h3>
+
+    <div class="mistake-item">
+      <div class="mistake-title">All four players doing the same thing</div>
+      <div class="mistake-fix">Fix: Assign roles before the session starts. Four players all scanning fragments makes blueprint unlocking only marginally faster than solo, while the base sits unbuilt and resources go ungathered.</div>
+    </div>
+
+    <div class="mistake-item">
+      <div class="mistake-title">No dedicated pilot for the Tadpole</div>
+      <div class="mistake-fix">Fix: The Tadpole is only useful as a team asset if someone is actively piloting it. An unattended Tadpole drifting 200m from where the team is working provides zero value. The Pilot role must be taken seriously.</div>
+    </div>
+
+    <div class="mistake-item">
+      <div class="mistake-title">Not building enough storage early</div>
+      <div class="mistake-fix">Fix: Four players generate four times the resources. Your storage runs out far faster in co-op than solo. Build at least 8–10 storage containers before your first major resource run.</div>
+    </div>
+
+    <div class="mistake-item">
+      <div class="mistake-title">Ignoring power management</div>
+      <div class="mistake-fix">Fix: Four players running equipment, charging cells, and using base systems drains power much faster than solo. Install at least 6 Solar Panels and a Bioreactor before expanding the base significantly.</div>
+    </div>
+
+    <div class="mistake-item">
+      <div class="mistake-title">Splitting up without beacons</div>
+      <div class="mistake-fix">Fix: When players explore in different directions, they can easily get disoriented or lost. Every player must have and use beacons. The Explorer should leave a trail of beacons when venturing into a new biome for the first time.</div>
+    </div>
+
+    <div class="mistake-item">
+      <div class="mistake-title">One player advancing the story while others miss content</div>
+      <div class="mistake-fix">Fix: Subnautica 2 story events (PDA entries, cutscenes) trigger for all players simultaneously if they are online. However, major story objectives — like visiting the Aurora or key alien facilities — should be done as a group so nobody misses the experience.</div>
+    </div>
+  </section>
+
+  <section id="advanced">
+    <h3>Advanced 4-Player Strategies</h3>
+
+    <div class="strategy-item">
+      <div class="strategy-title">The Parallel Base Strategy</div>
+      <div class="strategy-desc">Build a secondary "outpost" base near mid-game resource nodes (around 200–300m depth) so teams don't have to return to the main base after every run. The Harvester and Builder set up a small outpost with storage, a Fabricator, and power — while the Explorer and Pilot range further. See the <a href="base-building.html">Base Building Guide</a> for outpost construction tips.</div>
+    </div>
+
+    <div class="strategy-item">
+      <div class="strategy-title">Speed Blueprint Unlocking</div>
+      <div class="strategy-desc">In the first 30 minutes of a session, all four players should split up with scanners and each take a different wreck or biome. Since blueprints unlock for the entire group, this approach unlocks most Tier 1 blueprints within the first hour — far faster than sticking together early.</div>
+    </div>
+
+    <div class="strategy-item">
+      <div class="strategy-title">The Resource Pipeline</div>
+      <div class="strategy-desc">Establish a dedicated route: Harvester collects at the resource node, deposits into the Tadpole, Pilot returns to base, Builder unloads and queues crafting jobs. This assembly-line approach eliminates downtime between resource collection and construction — the Builder never waits for materials and the Harvester never manages storage logistics.</div>
+    </div>
+
+    <div class="strategy-item">
+      <div class="strategy-title">4-Player Leviathan Management</div>
+      <div class="strategy-desc">Four players with Stasis Rifles can chain-stun a Leviathan indefinitely — one player fires while another recharges. This makes it possible to explore <a href="biomes.html">Leviathan-heavy biomes</a> safely with careful coordination. Assign one dedicated "crowd control" player who keeps the Stasis Rifle active at all times during dangerous biome runs.</div>
+    </div>
+
+    <div class="strategy-item">
+      <div class="strategy-title">Rotating "Night Watch" for Base Power</div>
+      <div class="strategy-desc">Solar panels don't generate power at night. In long sessions, designate a player to handle the Bioreactor or Thermal Plant so base power is maintained while others sleep in-game. This matters more in co-op where 4× the power consumption can drain reserves overnight.</div>
+    </div>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Final Co-op Tip</div>
+      The best co-op sessions are those where everyone feels useful. If one player feels like they have nothing to do, assign them a specific task — even scouting for resources counts. A bored player will start making chaotic decisions that cost the whole team time. Clear roles, clear communication, and shared goals make Subnautica 2 co-op one of the best survival game experiences available in 2026.
+    </div>
+  </section>
+
+</div><!-- end page-wrapper -->
+
+<footer>
+  <p>Subnautica 2 Co-op &amp; Multiplayer Guide · Updated May 2026 · Based on Early Access version</p>
+  <p style="margin-top:8px;">
+    <a href="index.html">← Complete Guide</a> ·
+    <a href="crafting.html">Crafting Recipes</a> ·
+    <a href="oxygen.html">Oxygen Guide</a> ·
+    <a href="base-building.html">Base Building</a> ·
+    <a href="vehicles.html">Vehicles Guide</a> ·
+    <a href="biomes.html">Biomes Guide</a>
+  </p>
+  <p style="margin-top:8px;color:#4a6080;font-size:11px;">This is a fan-made guide. Subnautica 2 is developed by Unknown Worlds Entertainment &amp; Krafton.</p>
+</footer>
+
+</body>
+</html>

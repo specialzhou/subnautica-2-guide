@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subnautica 2 Base Building Guide — Complete 2026</title>
+  <meta name="description" content="Complete Subnautica 2 base building guide 2026 — best locations, build order, power systems, hull integrity, room types, and advanced base design tips." />
+  <meta property="og:title" content="Subnautica 2 Base Building Guide — Complete 2026" />
+  <meta property="og:description" content="Everything about Subnautica 2 base building — best locations, build order, power systems, hull integrity, and room layouts for Early Access 2026." />
+  <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Subnautica 2 Base Building Guide 2026" />
+  <meta name="twitter:description" content="Complete Subnautica 2 base building guide — locations, power, hull integrity, and room types." />
+
+  <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/base-building.html" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7R7JWG7M2S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7R7JWG7M2S');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Subnautica 2 Base Building Guide — Complete 2026",
+    "description": "Complete Subnautica 2 base building guide for 2026 — best locations, build order, power systems, hull integrity, room types, and advanced base design for Early Access.",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
+    "datePublished": "2026-05-18",
+    "dateModified": "2026-05-19",
+    "inLanguage": "en",
+    "author": { "@type": "Organization", "name": "GameGuide" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GameGuide",
+      "logo": { "@type": "ImageObject", "url": "https://specialzhou.github.io/subnautica-2-guide/" }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://specialzhou.github.io/subnautica-2-guide/base-building.html"
+    }
+  }
+  </script>
+
+<style>
+/* ═══════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════ */
+:root {
+  --bg: #080e1c;
+  --surface: #0b1525;
+  --card: #0f2040;
+  --card2: #102245;
+  --accent: #00d4ff;
+  --accent2: #0077bb;
+  --accent-glow: rgba(0,212,255,0.18);
+  --text: #c8d8f0;
+  --text-dim: #7a90b0;
+  --heading: #e4f0ff;
+  --border: #1a3055;
+  --border2: #224070;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --easy: #22c55e;
+  --medium: #f59e0b;
+  --hard: #ef4444;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.78;
+  font-size: 15.5px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { color: var(--heading); }
+code {
+  background: var(--card); color: var(--accent);
+  padding: 1px 7px; border-radius: 4px;
+  font-size: 0.88em; font-family: 'Consolas', monospace;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #1a1008 0%, #3d2a08 60%, #1a1005 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 22px 24px 18px;
+  text-align: center;
+  position: relative; overflow: hidden;
+}
+.site-header::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0,212,255,0.08) 0%, transparent 65%);
+  pointer-events:none;
+}
+.site-brand { font-size:11px; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+.site-header h1 {
+  font-size: clamp(18px,3.5vw,28px); color:var(--heading);
+  font-weight:800; text-shadow:0 0 28px rgba(0,212,255,0.35);
+  margin-bottom:8px;
+}
+.header-sub { font-size:13px; color:var(--text-dim); }
+.badge {
+  display:inline-block; background:rgba(0,212,255,0.12);
+  border:1px solid rgba(0,212,255,0.4); color:var(--accent);
+  padding:2px 10px; border-radius:20px; font-size:11.5px; margin:4px 3px;
+}
+
+.back-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 14px;
+  font-size: 13px; color: var(--accent); margin: 18px 0 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+.back-link:hover { background: rgba(0,212,255,0.1); border-color: var(--accent); text-decoration: none; }
+
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+.hero-image {
+  width: 100%; border-radius: var(--radius);
+  margin: 20px 0; overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.hero-image img {
+  width: 100%; display: block;
+  height: 200px; object-fit: cover;
+}
+.hero-caption {
+  position: absolute; bottom:0; left:0; right:0;
+  background: linear-gradient(transparent, rgba(5,15,30,0.95));
+  padding: 24px 16px 10px;
+  font-size: 12px; color: var(--text-dim);
+}
+
+.section-banner {
+  height: 110px; border-radius: var(--radius);
+  margin-bottom: 20px; position: relative;
+  overflow: hidden; border: 1px solid var(--border);
+  display: flex; align-items: center; padding: 0 24px;
+}
+.section-banner .banner-icon { font-size: 44px; margin-right: 16px; }
+.section-banner .banner-title {
+  font-size: clamp(17px,2.5vw,22px); font-weight: 800; color: var(--heading);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+.section-banner .banner-sub { font-size: 13px; color: var(--text-dim); }
+.banner-bg-base { background: linear-gradient(135deg, #1a1008 0%, #3d2a08 60%, #1a1005 100%); }
+
+section { margin: 32px 0; scroll-margin-top: 16px; }
+h3 {
+  font-size: 16.5px; color: var(--accent);
+  margin: 24px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+p { color: var(--text); margin-bottom: 12px; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px; margin: 14px 0;
+}
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 15px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.card .icon { font-size: 24px; margin-bottom: 8px; }
+.card h4 { color: var(--heading); font-size: 13.5px; margin-bottom: 5px; }
+.card p { font-size: 12.5px; color: var(--text-dim); margin: 0; }
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px; margin: 14px 0;
+}
+.room-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px;
+  transition: border-color 0.2s;
+}
+.room-card:hover { border-color: var(--accent2); }
+.room-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.room-icon { font-size: 26px; }
+.room-name { font-size: 14.5px; font-weight: 700; color: var(--heading); }
+.room-recipe { font-size: 11.5px; color: var(--text-dim); margin-top: 2px; }
+.room-desc { font-size: 13px; color: var(--text); }
+.priority-tag {
+  display: inline-block; font-size: 10.5px; font-weight: 700; padding: 2px 8px;
+  border-radius: 10px; margin-bottom: 8px;
+}
+.priority-essential { background: rgba(34,197,94,0.15); color: var(--easy); border: 1px solid rgba(34,197,94,0.3); }
+.priority-important { background: rgba(245,158,11,0.15); color: var(--medium); border: 1px solid rgba(245,158,11,0.3); }
+.priority-advanced { background: rgba(239,68,68,0.15); color: var(--hard); border: 1px solid rgba(239,68,68,0.3); }
+
+.tip-box, .warn-box, .info-box {
+  border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
+}
+.tip-box { background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25); }
+.warn-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); }
+.info-box { background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25); }
+.box-label {
+  font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 800; margin-bottom: 5px;
+}
+.tip-box .box-label { color: var(--accent); }
+.warn-box .box-label { color: #f87171; }
+.info-box .box-label { color: var(--medium); }
+
+table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
+th {
+  background: var(--card2); color: var(--accent);
+  padding:9px 13px; text-align:left; border:1px solid var(--border);
+  font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase;
+}
+td { padding:8px 13px; border:1px solid var(--border); color:var(--text); }
+tr:nth-child(even) td { background: rgba(15,32,64,0.4); }
+
+.step-list { counter-reset: step; list-style: none; padding: 0; margin: 12px 0; }
+.step-list li {
+  counter-increment: step;
+  position: relative; padding: 11px 12px 11px 50px;
+  margin-bottom: 8px; background: var(--card);
+  border-radius: var(--radius); border: 1px solid var(--border);
+  font-size: 14px;
+}
+.step-list li::before {
+  content: counter(step);
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; background: var(--accent); color: #000;
+  border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-weight: 700; font-size: 12px;
+}
+
+.integrity-meter {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px; margin: 14px 0;
+}
+.integrity-meter h4 { color: var(--heading); margin-bottom: 12px; font-size: 14px; }
+.integrity-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.integrity-label { font-size: 13px; color: var(--text); min-width: 200px; }
+.integrity-bar-track { flex: 1; height: 10px; background: rgba(0,0,0,0.3); border-radius: 5px; overflow: hidden; }
+.integrity-bar-fill { height: 100%; border-radius: 5px; }
+.integrity-val { font-size: 12px; color: var(--text-dim); min-width: 60px; text-align: right; }
+
+.location-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px; margin-bottom: 12px;
+  transition: border-color 0.2s;
+}
+.location-card:hover { border-color: var(--accent2); }
+.location-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.location-icon { font-size: 24px; }
+.location-name { font-size: 15px; font-weight: 700; color: var(--heading); }
+.location-depth { font-size: 11px; color: var(--text-dim); margin-left: auto; }
+.location-pros { font-size: 13px; color: var(--easy); }
+.location-cons { font-size: 13px; color: #f87171; }
+
+.ad-slot {
+  background: rgba(8,14,28,0.8); border: 1px dashed var(--border);
+  border-radius: var(--radius); text-align: center; padding: 14px;
+  margin: 24px 0; color: var(--text-dim); font-size: 12px;
+  min-height: 90px; display: flex; align-items: center; justify-content: center;
+}
+
+footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  text-align: center; padding: 22px 16px;
+  color: var(--text-dim); font-size: 12.5px; margin-top: 40px;
+}
+
+.toc-box {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px; margin: 20px 0;
+}
+.toc-box h4 { color: var(--accent); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+.toc-box ul { list-style: none; padding: 0; }
+.toc-box li { padding: 4px 0; font-size: 13.5px; }
+.toc-box li::before { content: '→ '; color: var(--accent); }
+
+@media (max-width: 640px) {
+  .room-grid { grid-template-columns: 1fr; }
+  .card-grid { grid-template-columns: 1fr; }
+  .page-wrapper { padding: 0 14px 50px; }
+  .integrity-label { min-width: 140px; font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-brand">⚓ GameGuide</div>
+  <h1>🏗️ Subnautica 2 Base Building Guide</h1>
+  <p class="header-sub">Best Locations · Build Order · Power Systems · Hull Integrity · Advanced Layouts · 2026</p>
+  <div>
+    <span class="badge">🔥 Early Access 2026</span>
+    <span class="badge">🏗️ Complete Guide</span>
+    <span class="badge">⚡ Power Systems</span>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <a href="index.html" class="back-link">← Back to Complete Guide</a>
+
+  <div class="hero-image">
+    <img
+      src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
+      alt="Subnautica 2 Base Building Guide 2026"
+      onerror="this.style.display='none';"
+    />
+    <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
+  </div>
+
+  <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — Replace with AdSense code -->
+  <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
+
+  <section id="overview">
+    <div class="section-banner banner-bg-base">
+      <div class="banner-icon">🏗️</div>
+      <div>
+        <div class="banner-title">Subnautica 2 Base Building Guide</div>
+        <div class="banner-sub">From your first foundation to a deep-sea megabase</div>
+      </div>
+    </div>
+
+    <div class="toc-box">
+      <h4>On This Page</h4>
+      <ul>
+        <li><a href="#why-build">Why Build a Base (and When)</a></li>
+        <li><a href="#builder-tool">Getting the Builder Tool</a></li>
+        <li><a href="#best-locations">Best Base Locations</a></li>
+        <li><a href="#hull-integrity">Hull Integrity Explained</a></li>
+        <li><a href="#build-order">Recommended Build Order</a></li>
+        <li><a href="#room-types">Room Types &amp; Their Uses</a></li>
+        <li><a href="#power-systems">Power Systems Guide</a></li>
+        <li><a href="#storage">Storage &amp; Organization</a></li>
+        <li><a href="#advanced-bases">Advanced Base Designs</a></li>
+        <li><a href="#coop-bases">Base Building in Co-op</a></li>
+      </ul>
+    </div>
+
+    <p><strong>Base building</strong> in Subnautica 2 transforms you from a desperate survivor into a well-equipped deep-sea explorer. Your base serves as a crafting hub, storage center, vehicle dock, oxygen refill station, and safe haven from the creatures of the alien ocean. Building it well — in the right location, with the right layout — is the difference between thriving and constantly struggling.</p>
+
+    <p>Unlike many survival games, Subnautica 2 does not rush you into base building. You can survive for hours in your escape pod. But once you start building, the game opens up dramatically. This guide covers everything from placing your first Foundation to designing efficient megabases for late-game exploration.</p>
+  </section>
+
+  <section id="why-build">
+    <h3>Why Build a Base — and When</h3>
+    <p>Your base provides capabilities your escape pod simply cannot:</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">🔬</div>
+        <h4>Crafting Stations</h4>
+        <p>The Modification Station and Vehicle Upgrade Console can only be placed in a base. These unlock mid-to-late game technology.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📦</div>
+        <h4>Unlimited Storage</h4>
+        <p>You can build unlimited Lockers in your base. Your escape pod holds ~30 slots — a base removes storage as a bottleneck entirely.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🫁</div>
+        <h4>Air Pocket</h4>
+        <p>Any pressurized room is an air pocket. Dive out, collect resources, return to breathe — your base is a dive hub.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🚢</div>
+        <h4>Vehicle Dock</h4>
+        <p>The Moonpool lets your Seamoth dock, recharge, and receive upgrades. Essential once you build your first vehicle.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🌱</div>
+        <h4>Food Farm</h4>
+        <p>An Alien Containment room farms fish automatically. Eliminates food/water as a concern by mid-game.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📡</div>
+        <h4>Signal Hub</h4>
+        <p>The Radio in your base receives story transmissions. Some story signals only trigger when you're at a base, not the pod.</p>
+      </div>
+    </div>
+
+    <p><strong>When to build:</strong> Start your first base once you have ~5× Titanium, 2× Quartz, and a Foundation unlocked. This happens naturally within the first 30–45 minutes for most players. Your first base does not need to be good — it just needs to exist and have a Fabricator. You will rebuild and expand as resources allow.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Build Early, Build Simply</div>
+      A bad base started early beats a perfect base started late. Even a single corridor with a Fabricator and two Lockers unlocks the Modification Station and Vehicle Bay crafting pipeline. Get your base started, then improve it over time.
+    </div>
+  </section>
+
+  <section id="builder-tool">
+    <h3>Getting the Builder Tool</h3>
+    <p>All base pieces are built using the <strong>Builder Tool</strong> (also called the Habitat Builder). This is the first major crafting goal after your basic survival kit.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Recipe</th>
+          <th>Materials Needed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Wiring Kit</strong></td>
+          <td>Fabricator</td>
+          <td>Silver Ore ×2 (Shale outcrops, 50–200m)</td>
+        </tr>
+        <tr>
+          <td><strong>Computer Chip</strong></td>
+          <td>Fabricator</td>
+          <td>Table Coral ×2 + Copper Wire ×1 + Gold ×1 + Titanium ×1</td>
+        </tr>
+        <tr>
+          <td><strong>Builder Tool</strong></td>
+          <td>Fabricator</td>
+          <td>Wiring Kit ×1 + Computer Chip ×1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The main bottleneck is usually the <strong>Silver Ore</strong> for the Wiring Kit. Silver starts appearing in Shale outcrops from around 80–150m depth in the Grassy Plateaus. Once you have the Builder Tool, select it from your inventory to access the Base Building menu and start placing pieces.</p>
+
+    <div class="info-box">
+      <div class="box-label">📌 Table Coral</div>
+      Table Coral is the flat, glowing coral you see in the Safe Shallows at 0–50m. Collect it before going deeper — many players pass over it early and regret it later when they need Computer Chips.
+    </div>
+  </section>
+
+  <section id="best-locations">
+    <h3>Best Base Locations</h3>
+    <p>Where you place your base matters enormously. The best early bases are close to resources, safe from predators, flat enough to build on, and shallow enough for Solar Panels. Here are the top early-to-mid game locations:</p>
+
+    <div class="location-card">
+      <div class="location-header">
+        <div class="location-icon">🌿</div>
+        <div class="location-name">Safe Shallows Edge / Kelp Forest Border</div>
+        <div class="location-depth">0–50m</div>
+      </div>
+      <p class="location-pros">✅ Pros: Close to spawn, abundant Titanium and Copper, safe from large predators, Solar Panels work at full efficiency, good visibility.</p>
+      <p class="location-cons">❌ Cons: Limited mid-game resources nearby. You will need a second deeper base as you progress.</p>
+      <p style="font-size:13px;margin-top:8px;"><strong>Best for:</strong> Your first base. Set up here, establish your crafting pipeline, then relocate or build a second base deeper.</p>
+    </div>
+
+    <div class="location-card">
+      <div class="location-header">
+        <div class="location-icon">🌱</div>
+        <div class="location-name">Grassy Plateaus</div>
+        <div class="location-depth">50–200m</div>
+      </div>
+      <p class="location-pros">✅ Pros: Flat terrain ideal for base construction, Silver and Gold in Shale outcrops, Rebreather fragments spawn here, moderate predator density.</p>
+      <p class="location-cons">❌ Cons: Solar Panels become less efficient below 100m. Some Stalker activity near Titanium deposits.</p>
+      <p style="font-size:13px;margin-top:8px;"><strong>Best for:</strong> Mid-game primary base. Great resources for Wiring Kit and Computer Chip crafting.</p>
+    </div>
+
+    <div class="location-card">
+      <div class="location-header">
+        <div class="location-icon">🍄</div>
+        <div class="location-name">Mushroom Forest</div>
+        <div class="location-depth">100–300m</div>
+      </div>
+      <p class="location-pros">✅ Pros: Beautiful scenery, Gold in Shale outcrops, accessible Cyclops fragments, relatively low creature aggression, good cave access.</p>
+      <p class="location-cons">❌ Cons: Irregular terrain makes flat foundations harder to place. Reaper Leviathans patrol nearby zones.</p>
+      <p style="font-size:13px;margin-top:8px;"><strong>Best for:</strong> Secondary mid-game base, especially for Cyclops blueprint hunting.</p>
+    </div>
+
+    <div class="location-card">
+      <div class="location-header">
+        <div class="location-icon">🌊</div>
+        <div class="location-name">Grand Reef</div>
+        <div class="location-depth">150–400m</div>
+      </div>
+      <p class="location-pros">✅ Pros: Rich in Lithium (key for late-game recipes), contains Alien Data Terminal access points, relatively safe despite depth, stunning visuals.</p>
+      <p class="location-cons">❌ Cons: Thermal Plants required for power (no solar). Ghosts Leviathans patrol deeper sections.</p>
+      <p style="font-size:13px;margin-top:8px;"><strong>Best for:</strong> Late-game outpost base. Place here once you have a Cyclops and Thermal Plant blueprints.</p>
+    </div>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Avoid These Locations</div>
+      Do not build in the Crash Zone (Aurora radiation and large predators), the Dunes (Reaper Leviathan density is the highest in the game), or any Active Lava Zone (extreme heat destroys hull integrity rapidly without special modules).
+    </div>
+  </section>
+
+  <section id="hull-integrity">
+    <h3>Hull Integrity Explained</h3>
+    <p>Hull integrity is the structural health of your base. It starts at 10 and represents how well your base can withstand water pressure. If hull integrity drops to 0, your base floods and begins taking damage. Here is how it works:</p>
+
+    <div class="integrity-meter">
+      <h4>Hull Integrity Impact per Room Type</h4>
+      <div class="integrity-row">
+        <div class="integrity-label">Foundation (flat)</div>
+        <div class="integrity-bar-track"><div class="integrity-bar-fill" style="width:100%;background:var(--easy)"></div></div>
+        <div class="integrity-val" style="color:var(--easy)">+2 (adds)</div>
+      </div>
+      <div class="integrity-row">
+        <div class="integrity-label">Large Room</div>
+        <div class="integrity-bar-track"><div class="integrity-bar-fill" style="width:25%;background:var(--hard)"></div></div>
+        <div class="integrity-val" style="color:var(--hard)">-2 (costs)</div>
+      </div>
+      <div class="integrity-row">
+        <div class="integrity-label">Standard Corridor (I, L, T, X)</div>
+        <div class="integrity-bar-track"><div class="integrity-bar-fill" style="width:12%;background:var(--hard)"></div></div>
+        <div class="integrity-val" style="color:var(--hard)">-1 (costs)</div>
+      </div>
+      <div class="integrity-row">
+        <div class="integrity-label">Glass Corridor</div>
+        <div class="integrity-bar-track"><div class="integrity-bar-fill" style="width:20%;background:var(--hard)"></div></div>
+        <div class="integrity-val" style="color:var(--hard)">-1 (costs)</div>
+      </div>
+      <div class="integrity-row">
+        <div class="integrity-label">Moonpool</div>
+        <div class="integrity-bar-track"><div class="integrity-bar-fill" style="width:25%;background:var(--hard)"></div></div>
+        <div class="integrity-val" style="color:var(--hard)">-2 (costs)</div>
+      </div>
+      <div class="integrity-row">
+        <div class="integrity-label">Reinforcement (add-on)</div>
+        <div class="integrity-bar-track"><div class="integrity-bar-fill" style="width:150%;max-width:100%;background:var(--easy)"></div></div>
+        <div class="integrity-val" style="color:var(--easy)">+7 (adds)</div>
+      </div>
+    </div>
+
+    <p>If your Hull Integrity drops below 0, warning alarms sound and your base begins taking damage. To fix this, either <strong>remove modules</strong> (reduces complexity) or add <strong>Reinforcement pieces</strong> to the hull exterior. Reinforcements are cheap (<code>Titanium ×3</code> each) and add +7 integrity each — essential for large deep-water bases.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Always Check Integrity</div>
+      The Builder Tool shows your current Hull Integrity in real-time as you add pieces. Keep it above 0 at all times. Getting it as high as possible before going deep (below 200m) prevents catastrophic flooding if a Leviathan attacks your base.
+    </div>
+
+    <h3>Depth and Integrity</h3>
+    <p>Water pressure at depth increases the effective load on your hull. While the game does not explicitly show a "pressure penalty" on integrity, the risk of hull damage from creature attacks and random events is higher in deeper biomes. A base at 500m should have significantly higher integrity than one at 50m to maintain the same safety margin.</p>
+  </section>
+
+  <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — Replace with AdSense code -->
+  <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
+
+  <section id="build-order">
+    <h3>Recommended Build Order</h3>
+    <p>Build in this order to maximize efficiency. Each step unlocks the next capability:</p>
+
+    <ol class="step-list">
+      <li><strong>Foundation + 1× I-Corridor + 1× Hatch.</strong> The absolute minimum viable base. It is an air pocket. That alone makes it valuable. Cost: ~Titanium ×5, Lead ×2, Quartz ×2.</li>
+      <li><strong>Fabricator (Base).</strong> Place immediately inside your first room. Now you can craft away from your escape pod. Recipe: Titanium ×1 + Gold ×2 + Copper Wire ×1.</li>
+      <li><strong>2–4 Lockers.</strong> Storage is immediately critical. Each Locker holds ~16 slots. Fill your base with them before adding anything else. Recipe per Locker: Titanium ×2.</li>
+      <li><strong>Solar Panel (×2 minimum).</strong> Power your base. Two solar panels cover a small base comfortably at depths under 100m. Recipe: Quartz ×2 + Titanium ×3 each.</li>
+      <li><strong>Modification Station.</strong> Unlocks tank upgrades, Rebreather crafting, and equipment improvements. Recipe: Titanium ×2 + Cave Sulfur ×2 + Computer Chip ×1.</li>
+      <li><strong>Moonpool.</strong> Lets you dock and upgrade the Seamoth. Large hull cost (−2), but essential once you build your first vehicle. Recipe: Titanium Ingot ×2 + Lubricant ×1 + Lead ×2.</li>
+      <li><strong>Vehicle Upgrade Console.</strong> Installs inside the Moonpool area. Crafts vehicle depth and speed modules. Recipe: Computer Chip ×1 + Titanium ×5 + Gold ×2.</li>
+      <li><strong>Alien Containment Room.</strong> A large glass room that farms fish. Place 2 of any fish species inside and they breed. Recipe (Large Room): Titanium ×3 + Glass ×2 per wall segment.</li>
+      <li><strong>Nuclear/Thermal Reactor.</strong> For deep bases where solar does not reach. Thermal Reactors place near hydrothermal vents and generate free infinite power. Recipe varies.</li>
+    </ol>
+  </section>
+
+  <section id="room-types">
+    <h3>Room Types &amp; Their Uses</h3>
+
+    <div class="room-grid">
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">🔲</div>
+          <div>
+            <div class="room-name">Foundation</div>
+            <div class="room-recipe">Titanium ×2 + Lead ×1</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-essential">Essential</span>
+        <div class="room-desc">Anchors your base to the seabed. Adds +2 hull integrity. Always start with at least one.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">➖</div>
+          <div>
+            <div class="room-name">I-Corridor</div>
+            <div class="room-recipe">Titanium ×2</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-essential">Essential</span>
+        <div class="room-desc">Basic hallway piece. Used to connect all rooms. Has glass and solid variants. Bread-and-butter of base layout.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">🚪</div>
+          <div>
+            <div class="room-name">Hatch</div>
+            <div class="room-recipe">Quartz ×2 + Titanium ×1</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-essential">Essential</span>
+        <div class="room-desc">The only way in and out of your base. Every base needs at least two hatches (one as a spare). Connects interior to ocean.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">🔲</div>
+          <div>
+            <div class="room-name">Large Room</div>
+            <div class="room-recipe">Titanium ×6 + Glass ×2</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-important">Important</span>
+        <div class="room-desc">Large cubic room — fits more equipment and is required for Alien Containment. Costs −2 integrity. Add Reinforcements when using these.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">🚢</div>
+          <div>
+            <div class="room-name">Moonpool</div>
+            <div class="room-recipe">Titanium Ingot ×2 + Lubricant ×1 + Lead ×2</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-important">Important</span>
+        <div class="room-desc">Vehicle docking bay. Lets Seamoth dock, recharge, and receive upgrade modules via the Vehicle Upgrade Console.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">🌡️</div>
+          <div>
+            <div class="room-name">Observatory</div>
+            <div class="room-recipe">Enameled Glass ×3</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-important">Important</span>
+        <div class="room-desc">360° glass dome room. No functional equipment slots, but provides panoramic view. Worth building for scenic locations — and morale.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">🐟</div>
+          <div>
+            <div class="room-name">Alien Containment</div>
+            <div class="room-recipe">Glass ×5 + Titanium ×3 (Large Room)</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-advanced">Advanced</span>
+        <div class="room-desc">Fish breeding enclosure. Place 2 of any fish species and they breed automatically. Your permanent food solution.</div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-header">
+          <div class="room-icon">☢️</div>
+          <div>
+            <div class="room-name">Nuclear Reactor</div>
+            <div class="room-recipe">Plasteel ×3 + Lead ×5 + Advanced Wiring Kit ×1</div>
+          </div>
+        </div>
+        <span class="priority-tag priority-advanced">Advanced</span>
+        <div class="room-desc">Generates massive power for deep-water bases where solar doesn't work. Requires Uraninite rods as fuel. Late-game essential.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="power-systems">
+    <h3>Power Systems Guide</h3>
+    <p>Your base needs power to run Fabricators, charge vehicles in the Moonpool, and maintain systems like the Alien Containment and Grow Beds. Running out of power shuts down everything. Here are all the power sources:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Power Source</th>
+          <th>Output</th>
+          <th>Depth Limit</th>
+          <th>Fuel / Requirement</th>
+          <th>Best For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Solar Panel</strong></td>
+          <td>75/day (100% at 0m)</td>
+          <td>Effective under 200m</td>
+          <td>None — free, infinite</td>
+          <td>Early &amp; mid-game shallow bases</td>
+        </tr>
+        <tr>
+          <td><strong>Thermal Plant</strong></td>
+          <td>Varies (scales with heat)</td>
+          <td>No limit</td>
+          <td>Hydrothermal vent proximity</td>
+          <td>Deep bases near vents (300m+)</td>
+        </tr>
+        <tr>
+          <td><strong>Bioreactor</strong></td>
+          <td>Medium constant output</td>
+          <td>No limit</td>
+          <td>Organic materials (plants, fish)</td>
+          <td>Mid-game supplement when solar insufficient</td>
+        </tr>
+        <tr>
+          <td><strong>Nuclear Reactor</strong></td>
+          <td>250/unit (massive)</td>
+          <td>No limit</td>
+          <td>Reactor Rod (Uraninite ×3 + Titanium ×3)</td>
+          <td>Late-game deep bases, power-hungry setups</td>
+        </tr>
+        <tr>
+          <td><strong>Power Transmitter</strong></td>
+          <td>Extends existing source</td>
+          <td>No limit</td>
+          <td>Gold ×1 + Titanium ×1 per node</td>
+          <td>Chain power from surface to deep bases</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Solar Panel Strategy</h3>
+    <p>Solar Panels are the go-to early power source. Their output scales with depth — at 0m, 100% output. At 100m, ~80%. At 200m, ~50%. Below 200m, they become insufficient for most bases. Build at least 4 Solar Panels for an early base — they are cheap and stack additively.</p>
+    <p>A Power Cell Charger installed in your base lets you recharge Power Cells from base power, which then power your vehicles. This is the key link between your base power system and your vehicle range.</p>
+
+    <h3>Deep Base Power</h3>
+    <p>For bases below 200m, transition to Thermal Plants if you can find a hydrothermal vent nearby. Vents appear in the Crag Field, Grand Reef (deep), and the Lava Zones. A single Thermal Plant near a hot vent can power an entire large base indefinitely with zero fuel cost.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Power Buffer</div>
+      Your base automatically stores excess power in a Power Storage module (if installed). Without storage, any power generation above consumption is wasted. Build at least one Power Storage before running power-hungry equipment like the Vehicle Upgrade Console.
+    </div>
+  </section>
+
+  <section id="storage">
+    <h3>Storage &amp; Organization</h3>
+    <p>Poor storage organization is one of the most common friction points in mid-game Subnautica 2. Here is a system that scales from your first base to a late-game megabase:</p>
+
+    <h3>The Zone System</h3>
+    <p>Organize your base into dedicated zones, each with color-coded Lockers (you can rename lockers with a label tool):</p>
+    <ul style="padding-left:20px;margin:10px 0;">
+      <li style="padding:6px 0;"><strong style="color:var(--heading);">Raw Materials Zone:</strong> One corridor dedicated entirely to Lockers for raw ores and minerals. Separate lockers for Titanium, Copper, Quartz, Silver, Gold, etc.</li>
+      <li style="padding:6px 0;"><strong style="color:var(--heading);">Processed Materials Zone:</strong> Ingots, Wiring Kits, Computer Chips, Fiber Mesh — crafted items awaiting use.</li>
+      <li style="padding:6px 0;"><strong style="color:var(--heading);">Food &amp; Water Zone:</strong> Adjacent to your Alien Containment and Water Filtration Machine. Everything consumable stays here.</li>
+      <li style="padding:6px 0;"><strong style="color:var(--heading);">Tools &amp; Equipment Zone:</strong> Spare weapons, tanks, fins — gear you swap situationally.</li>
+      <li style="padding:6px 0;"><strong style="color:var(--heading);">Vehicle Zone:</strong> Near the Moonpool. Vehicle upgrades, spare Power Cells, Lubricant, vehicle repair tools.</li>
+    </ul>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Build More Lockers Than You Think</div>
+      New players consistently underestimate how much storage they need. Build twice as many Lockers as you think you'll use. Titanium (the recipe) is trivial, and running out of storage mid-resource-run is intensely frustrating.
+    </div>
+  </section>
+
+  <section id="advanced-bases">
+    <h3>Advanced Base Designs</h3>
+    <p>Once you have the basics down, these advanced techniques separate efficient bases from truly exceptional ones.</p>
+
+    <h3>The Hub-and-Spoke Layout</h3>
+    <p>Place one Large Room in the center as your hub, with corridors branching out to specialized wings: a crafting wing, a storage wing, a vehicle wing (Moonpool), and a farming wing (Alien Containment). This layout minimizes travel time inside the base and keeps function separate from storage.</p>
+
+    <h3>Multi-Level Bases</h3>
+    <p>Using vertical connectors (Vertical Connectors / Hatches placed on room floors), you can stack base rooms vertically. A two-story base lets you put the messy infrastructure (storage, reactors) on the lower level and the clean workspace (Observatory, crafting) on the upper level.</p>
+
+    <h3>The Relay Base Chain</h3>
+    <p>For exploring distant biomes, build small "outpost" bases — just Foundation + Corridor + Hatch + 2 Lockers + Fabricator + Solar Panel. Place one at each major biome boundary. These cost under 20 materials total and give you: a safe air pocket, emergency storage, crafting access, and a fast travel reference point. Build a chain of them between your main base and your exploration frontier.</p>
+
+    <div class="info-box">
+      <div class="box-label">📌 Cyclops as Mobile Base</div>
+      In late-game, the Cyclops submarine effectively acts as a mobile base. It has enough interior space for a Fabricator, storage, and vehicle bay. Some players prefer to use the Cyclops rather than building deep permanent bases — it lets you move your operations as the story progresses.
+    </div>
+
+    <h3>Base Defense Positioning</h3>
+    <p>While your base cannot be destroyed in the traditional sense, it can take hull damage from creature attacks. To minimize this risk:</p>
+    <ul style="padding-left:20px;margin:10px 0;">
+      <li style="padding:6px 0;">Build in biomes with lower predator density (Safe Shallows, Grassy Plateaus) when possible</li>
+      <li style="padding:6px 0;">Keep Hull Integrity as high as possible — a base with 15+ integrity can absorb multiple creature hits without flooding</li>
+      <li style="padding:6px 0;">Avoid building directly in Leviathan patrol routes — scout with the Seamoth first</li>
+      <li style="padding:6px 0;">Build decoy structures (cheap single-corridor extensions) away from the main base to draw creature attention</li>
+    </ul>
+  </section>
+
+  <section id="coop-bases">
+    <h3>Base Building in Co-op</h3>
+    <p>In Subnautica 2's 4-player co-op, base building becomes a collaborative exercise. The most efficient teams assign roles early:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Role</th>
+          <th>Responsibility</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Architect</strong></td>
+          <td>Plans and places base pieces</td>
+          <td>One person with a vision prevents overlapping build plans and layout conflicts</td>
+        </tr>
+        <tr>
+          <td><strong>Miner</strong></td>
+          <td>Supplies raw materials</td>
+          <td>One or two players focused on resource collection keep the Architect well supplied</td>
+        </tr>
+        <tr>
+          <td><strong>Crafter</strong></td>
+          <td>Processes materials at the Fabricator</td>
+          <td>Raw ore → processed components is a bottleneck — a dedicated crafter keeps the pipeline flowing</td>
+        </tr>
+        <tr>
+          <td><strong>Scout</strong></td>
+          <td>Explores new biomes and reports locations</td>
+          <td>Feeding the team information about resource nodes and wreck locations while others build</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>Shared Storage:</strong> All players can access the same base Lockers. Establish a naming convention early — chaotic storage in co-op becomes exponentially worse with each player who dumps items randomly. Enforce the zone system from the beginning.</p>
+
+    <p><strong>Parallel Base Building:</strong> Each player can build simultaneously. Two players building at once dramatically cuts construction time. Pair an Architect (places pieces) with a Miner (delivers materials) for maximum efficiency.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Build Together, Then Explore Apart</div>
+      The most successful co-op teams spend the first hour building a solid communal base before splitting off to explore independently. A well-equipped base means every player returns to a safe, well-stocked hub rather than struggling alone in the deep.
+    </div>
+  </section>
+
+</div><!-- end page-wrapper -->
+
+<footer>
+  <p>Subnautica 2 Base Building Guide · Updated May 2026 · Based on Early Access version</p>
+  <p style="margin-top:8px;"><a href="index.html">← Back to Complete Subnautica 2 Guide</a> · <a href="crafting.html">Crafting Recipes</a> · <a href="oxygen.html">Oxygen Guide</a></p>
+  <p style="margin-top:8px;color:#4a6080;font-size:11px;">This is a fan-made guide. Subnautica 2 is developed by Unknown Worlds Entertainment &amp; Krafton.</p>
+</footer>
+
+</body>
+</html>

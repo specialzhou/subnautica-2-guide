@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subnautica 2 Oxygen Guide — Never Run Out Again 2026</title>
+  <meta name="description" content="Complete Subnautica 2 oxygen guide for 2026 — how oxygen works, every tank upgrade, rebreather, and dive strategy to explore deeper without drowning." />
+  <meta property="og:title" content="Subnautica 2 Oxygen Guide — Never Run Out Again 2026" />
+  <meta property="og:description" content="Master oxygen management in Subnautica 2 — tank upgrades, depth penalties, rebreather, and advanced dive strategies for Early Access 2026." />
+  <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Subnautica 2 Oxygen Guide 2026" />
+  <meta name="twitter:description" content="Master oxygen in Subnautica 2 — tanks, rebreather, and deep-dive strategies." />
+
+  <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/oxygen.html" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7R7JWG7M2S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7R7JWG7M2S');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Subnautica 2 Oxygen Guide — Never Run Out Again 2026",
+    "description": "Complete Subnautica 2 oxygen guide — how oxygen works, every tank upgrade, rebreather recipe, and advanced dive strategies for Early Access 2026.",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
+    "datePublished": "2026-05-18",
+    "dateModified": "2026-05-19",
+    "inLanguage": "en",
+    "author": { "@type": "Organization", "name": "GameGuide" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GameGuide",
+      "logo": { "@type": "ImageObject", "url": "https://specialzhou.github.io/subnautica-2-guide/" }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://specialzhou.github.io/subnautica-2-guide/oxygen.html"
+    }
+  }
+  </script>
+
+<style>
+/* ═══════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════ */
+:root {
+  --bg: #080e1c;
+  --surface: #0b1525;
+  --card: #0f2040;
+  --card2: #102245;
+  --accent: #00d4ff;
+  --accent2: #0077bb;
+  --accent-glow: rgba(0,212,255,0.18);
+  --text: #c8d8f0;
+  --text-dim: #7a90b0;
+  --heading: #e4f0ff;
+  --border: #1a3055;
+  --border2: #224070;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --easy: #22c55e;
+  --medium: #f59e0b;
+  --hard: #ef4444;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.78;
+  font-size: 15.5px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { color: var(--heading); }
+code {
+  background: var(--card); color: var(--accent);
+  padding: 1px 7px; border-radius: 4px;
+  font-size: 0.88em; font-family: 'Consolas', monospace;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #031520 0%, #054078 60%, #031825 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 22px 24px 18px;
+  text-align: center;
+  position: relative; overflow: hidden;
+}
+.site-header::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0,212,255,0.08) 0%, transparent 65%);
+  pointer-events:none;
+}
+.site-brand { font-size:11px; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:6px; }
+.site-header h1 {
+  font-size: clamp(18px,3.5vw,28px); color:var(--heading);
+  font-weight:800; text-shadow:0 0 28px rgba(0,212,255,0.35);
+  margin-bottom:8px;
+}
+.header-sub { font-size:13px; color:var(--text-dim); }
+.badge {
+  display:inline-block; background:rgba(0,212,255,0.12);
+  border:1px solid rgba(0,212,255,0.4); color:var(--accent);
+  padding:2px 10px; border-radius:20px; font-size:11.5px; margin:4px 3px;
+}
+
+.back-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 8px 14px;
+  font-size: 13px; color: var(--accent); margin: 18px 0 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+.back-link:hover { background: rgba(0,212,255,0.1); border-color: var(--accent); text-decoration: none; }
+
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+.hero-image {
+  width: 100%; border-radius: var(--radius);
+  margin: 20px 0; overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.hero-image img {
+  width: 100%; display: block;
+  height: 200px; object-fit: cover;
+}
+.hero-caption {
+  position: absolute; bottom:0; left:0; right:0;
+  background: linear-gradient(transparent, rgba(5,15,30,0.95));
+  padding: 24px 16px 10px;
+  font-size: 12px; color: var(--text-dim);
+}
+
+.section-banner {
+  height: 110px; border-radius: var(--radius);
+  margin-bottom: 20px; position: relative;
+  overflow: hidden; border: 1px solid var(--border);
+  display: flex; align-items: center; padding: 0 24px;
+}
+.section-banner .banner-icon { font-size: 44px; margin-right: 16px; }
+.section-banner .banner-title {
+  font-size: clamp(17px,2.5vw,22px); font-weight: 800; color: var(--heading);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+.section-banner .banner-sub { font-size: 13px; color: var(--text-dim); }
+.banner-bg-oxygen { background: linear-gradient(135deg, #031520 0%, #054078 60%, #031825 100%); }
+
+section { margin: 32px 0; scroll-margin-top: 16px; }
+h3 {
+  font-size: 16.5px; color: var(--accent);
+  margin: 24px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+p { color: var(--text); margin-bottom: 12px; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px; margin: 14px 0;
+}
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 15px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.card .icon { font-size: 24px; margin-bottom: 8px; }
+.card h4 { color: var(--heading); font-size: 13.5px; margin-bottom: 5px; }
+.card p { font-size: 12.5px; color: var(--text-dim); margin: 0; }
+
+.upgrade-track {
+  display: flex; flex-direction: column; gap: 0; margin: 14px 0;
+}
+.upgrade-step {
+  display: flex; align-items: stretch; gap: 0;
+}
+.upgrade-connector {
+  display: flex; flex-direction: column; align-items: center; width: 40px; flex-shrink: 0;
+}
+.upgrade-dot {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--accent); flex-shrink: 0; margin-top: 18px;
+  box-shadow: 0 0 10px rgba(0,212,255,0.5);
+}
+.upgrade-line {
+  width: 2px; flex: 1; background: var(--border2); margin: 2px 0;
+  min-height: 20px;
+}
+.upgrade-content {
+  flex: 1; background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px; margin: 6px 0 6px 8px;
+}
+.upgrade-content:hover { border-color: var(--accent2); }
+.upgrade-name { font-size: 15px; font-weight: 700; color: var(--heading); margin-bottom: 4px; }
+.upgrade-stat { font-size: 13px; color: var(--accent); margin-bottom: 6px; }
+.upgrade-recipe { font-size: 12px; color: var(--text-dim); }
+
+.tip-box, .warn-box, .info-box {
+  border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
+}
+.tip-box { background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25); }
+.warn-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); }
+.info-box { background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25); }
+.box-label {
+  font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 800; margin-bottom: 5px;
+}
+.tip-box .box-label { color: var(--accent); }
+.warn-box .box-label { color: #f87171; }
+.info-box .box-label { color: var(--medium); }
+
+table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
+th {
+  background: var(--card2); color: var(--accent);
+  padding:9px 13px; text-align:left; border:1px solid var(--border);
+  font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase;
+}
+td { padding:8px 13px; border:1px solid var(--border); color:var(--text); }
+tr:nth-child(even) td { background: rgba(15,32,64,0.4); }
+
+.step-list { counter-reset: step; list-style: none; padding: 0; margin: 12px 0; }
+.step-list li {
+  counter-increment: step;
+  position: relative; padding: 11px 12px 11px 50px;
+  margin-bottom: 8px; background: var(--card);
+  border-radius: var(--radius); border: 1px solid var(--border);
+  font-size: 14px;
+}
+.step-list li::before {
+  content: counter(step);
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; background: var(--accent); color: #000;
+  border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-weight: 700; font-size: 12px;
+}
+
+.o2-bar-demo {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 18px; margin: 14px 0;
+}
+.o2-bar-label { font-size: 12px; color: var(--text-dim); margin-bottom: 8px; }
+.o2-bar-track {
+  height: 16px; background: rgba(0,0,0,0.3);
+  border-radius: 8px; overflow: hidden; margin-bottom: 6px;
+  border: 1px solid var(--border2);
+}
+.o2-bar-fill {
+  height: 100%; border-radius: 8px;
+  background: linear-gradient(90deg, #0088cc, #00d4ff);
+  transition: width 0.3s;
+}
+.o2-bar-name { font-size: 11px; color: var(--accent); text-align: right; }
+
+.ad-slot {
+  background: rgba(8,14,28,0.8); border: 1px dashed var(--border);
+  border-radius: var(--radius); text-align: center; padding: 14px;
+  margin: 24px 0; color: var(--text-dim); font-size: 12px;
+  min-height: 90px; display: flex; align-items: center; justify-content: center;
+}
+
+footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  text-align: center; padding: 22px 16px;
+  color: var(--text-dim); font-size: 12.5px; margin-top: 40px;
+}
+
+.toc-box {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px; margin: 20px 0;
+}
+.toc-box h4 { color: var(--accent); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+.toc-box ul { list-style: none; padding: 0; }
+.toc-box li { padding: 4px 0; font-size: 13.5px; }
+.toc-box li::before { content: '→ '; color: var(--accent); }
+
+@media (max-width: 640px) {
+  .card-grid { grid-template-columns: 1fr; }
+  .page-wrapper { padding: 0 14px 50px; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-brand">⚓ GameGuide</div>
+  <h1>🫁 Subnautica 2 Oxygen Guide</h1>
+  <p class="header-sub">Never Run Out of Oxygen · Tank Upgrades · Rebreather · Deep Dive Strategy · 2026</p>
+  <div>
+    <span class="badge">🔥 Early Access 2026</span>
+    <span class="badge">🫁 Full Oxygen System</span>
+    <span class="badge">🌊 Deep Dive Ready</span>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <a href="index.html" class="back-link">← Back to Complete Guide</a>
+
+  <div class="hero-image">
+    <img
+      src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
+      alt="Subnautica 2 Oxygen Management Guide 2026"
+      onerror="this.style.display='none';"
+    />
+    <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
+  </div>
+
+  <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — Replace with AdSense code -->
+  <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
+
+  <section id="overview">
+    <div class="section-banner banner-bg-oxygen">
+      <div class="banner-icon">🫁</div>
+      <div>
+        <div class="banner-title">Subnautica 2 Oxygen Guide</div>
+        <div class="banner-sub">Master the most critical survival mechanic in the game</div>
+      </div>
+    </div>
+
+    <div class="toc-box">
+      <h4>On This Page</h4>
+      <ul>
+        <li><a href="#how-oxygen-works">How Oxygen Works</a></li>
+        <li><a href="#oxygen-bar">Reading the Oxygen Bar</a></li>
+        <li><a href="#depth-penalty">The Depth Consumption Penalty</a></li>
+        <li><a href="#tank-upgrades">Tank Upgrade Path</a></li>
+        <li><a href="#rebreather">Rebreather — What It Does</a></li>
+        <li><a href="#oxygen-sources">Alternative Oxygen Sources</a></li>
+        <li><a href="#vehicle-oxygen">Vehicle Oxygen Systems</a></li>
+        <li><a href="#dive-planning">Dive Planning Strategy</a></li>
+        <li><a href="#emergency">Emergency Procedures</a></li>
+        <li><a href="#coop-oxygen">Oxygen in Co-op</a></li>
+      </ul>
+    </div>
+
+    <p><strong>Oxygen management</strong> is the heartbeat of Subnautica 2. Every dive is a calculated risk — how deep can you go, how long can you stay, and can you make it back? Unlike most survival games where resource depletion is a slow concern, in Subnautica 2 oxygen can kill you in under 30 seconds if you miscalculate. This guide covers the complete oxygen system: how it works mechanically, every upgrade available, and advanced strategies for maximizing your dive time safely.</p>
+
+    <p>The good news: with the right upgrades and techniques, you can go from a terrifying 45-second dive window at game start to <strong>over 10 minutes of continuous underwater time</strong> in the Seamoth — enough to explore even the deepest accessible zones at your leisure.</p>
+  </section>
+
+  <section id="how-oxygen-works">
+    <h3>How Oxygen Works in Subnautica 2</h3>
+    <p>In Subnautica 2, your oxygen supply is shown as a blue bar on the left side of your HUD. It begins depleting the moment you submerge and refills automatically when you surface. The mechanics are straightforward but have critical nuances:</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">📉</div>
+        <h4>Depletion Rate</h4>
+        <p>Oxygen depletes at a base rate while swimming. Rate increases with depth (see depth penalty section). Sprint swimming slightly accelerates depletion.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📈</div>
+        <h4>Refill Rate</h4>
+        <p>At the surface, oxygen refills approximately 3× faster than it depletes. Refill also occurs inside air pockets in caves and inside your base.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🚨</div>
+        <h4>Warning Sounds</h4>
+        <p>At ~30% oxygen, a low beep sounds. At ~15%, a rapid alarm triggers. Below 10%, the screen edge darkens. These are non-negotiable signals to ascend.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💀</div>
+        <h4>Oxygen Death</h4>
+        <p>At 0%, you begin taking health damage — rapidly. Death from oxygen takes only 8–12 seconds. Your pod respawn loses all held inventory in Survival mode.</p>
+      </div>
+    </div>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Critical Warning</div>
+      When you hear the rapid oxygen alarm, stop what you are doing immediately and ascend. Every second spent "just grabbing one more resource" at that stage statistically leads to death. The resource will still be there on your next dive.
+    </div>
+  </section>
+
+  <section id="oxygen-bar">
+    <h3>Reading the Oxygen Bar</h3>
+    <p>The oxygen bar is your most important HUD element. Here is what to watch for:</p>
+
+    <div class="o2-bar-demo">
+      <div class="o2-bar-label">Full oxygen (comfortable, continue diving)</div>
+      <div class="o2-bar-track"><div class="o2-bar-fill" style="width:100%"></div></div>
+      <div class="o2-bar-name">100%</div>
+    </div>
+    <div class="o2-bar-demo">
+      <div class="o2-bar-label">50% — This is your "start heading up" signal at deep depths</div>
+      <div class="o2-bar-track"><div class="o2-bar-fill" style="width:50%;background:linear-gradient(90deg,#0099cc,#00aadd)"></div></div>
+      <div class="o2-bar-name">50%</div>
+    </div>
+    <div class="o2-bar-demo">
+      <div class="o2-bar-label">25% — Danger zone. Ascend NOW regardless of depth</div>
+      <div class="o2-bar-track"><div class="o2-bar-fill" style="width:25%;background:linear-gradient(90deg,#f59e0b,#fbbf24)"></div></div>
+      <div class="o2-bar-name">25%</div>
+    </div>
+    <div class="o2-bar-demo">
+      <div class="o2-bar-label">10% — Critical. Rapid alarm active. You may not survive the ascent from deep water</div>
+      <div class="o2-bar-track"><div class="o2-bar-fill" style="width:10%;background:linear-gradient(90deg,#ef4444,#f87171)"></div></div>
+      <div class="o2-bar-name">10%</div>
+    </div>
+
+    <p style="margin-top:16px;">The rule of thumb most experienced players use is the <strong>"50% rule for deep dives"</strong>: when your oxygen hits 50%, turn back immediately. This leaves ample buffer for the ascent. In shallow water (under 100m), you can push to 30%, but never less.</p>
+  </section>
+
+  <section id="depth-penalty">
+    <h3>The Depth Consumption Penalty</h3>
+    <p>This is the single most important mechanical fact new players miss: <strong>oxygen depletes faster at greater depth</strong>. The penalty is not linear — it accelerates significantly past certain depth thresholds.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Depth Zone</th>
+          <th>Depth Range</th>
+          <th>O₂ Burn Rate</th>
+          <th>Effective Dive Time (Base Tank)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Safe Shallows</td>
+          <td>0–100m</td>
+          <td>1× (baseline)</td>
+          <td>~45 seconds</td>
+        </tr>
+        <tr>
+          <td>Mid Zone</td>
+          <td>100–300m</td>
+          <td>~1.5× faster</td>
+          <td>~30 seconds</td>
+        </tr>
+        <tr>
+          <td>Deep Zone</td>
+          <td>300–500m</td>
+          <td>~2.5× faster</td>
+          <td>~18 seconds</td>
+        </tr>
+        <tr>
+          <td>Danger Zone</td>
+          <td>500m+</td>
+          <td>~4× faster</td>
+          <td>~11 seconds</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>These numbers assume the <strong>base-game starting tank with no upgrades</strong>. With the High Capacity Tank and Rebreather equipped, you can realistically extend mid-zone dives to 5+ minutes and deep-zone dives to 2 minutes. But even experienced players avoid 500m+ free-diving — that's what vehicles are for.</p>
+
+    <div class="info-box">
+      <div class="box-label">📌 The Rebreather Mechanic</div>
+      Without a Rebreather equipped, your oxygen consumption penalty at depth is severe. With a Rebreather, the penalty is completely eliminated — your O₂ depletes at the same rate at 500m as at 10m. This single item transforms deep-sea exploration. See the Rebreather section below for the recipe.
+    </div>
+  </section>
+
+  <section id="tank-upgrades">
+    <h3>Tank Upgrade Path — From 45 Seconds to 5 Minutes</h3>
+    <p>Upgrading your oxygen tank is the most impactful progression path in the early and mid game. Here is the complete upgrade chain:</p>
+
+    <div class="upgrade-track">
+      <div class="upgrade-step">
+        <div class="upgrade-connector">
+          <div class="upgrade-dot"></div>
+          <div class="upgrade-line"></div>
+        </div>
+        <div class="upgrade-content">
+          <div class="upgrade-name">🫁 Starting O₂ (No Tank)</div>
+          <div class="upgrade-stat">~25 seconds dive time</div>
+          <div class="upgrade-recipe">Default — no crafting needed. This is your starting state. Craft a tank immediately.</div>
+        </div>
+      </div>
+
+      <div class="upgrade-step">
+        <div class="upgrade-connector">
+          <div class="upgrade-dot"></div>
+          <div class="upgrade-line"></div>
+        </div>
+        <div class="upgrade-content">
+          <div class="upgrade-name">🫁 Standard O₂ Tank</div>
+          <div class="upgrade-stat">~45 seconds dive time (+80%)</div>
+          <div class="upgrade-recipe">Fabricator · <strong>Titanium ×1</strong> · Craft this as your very first item in the game.</div>
+        </div>
+      </div>
+
+      <div class="upgrade-step">
+        <div class="upgrade-connector">
+          <div class="upgrade-dot"></div>
+          <div class="upgrade-line"></div>
+        </div>
+        <div class="upgrade-content">
+          <div class="upgrade-name">🫁 Large O₂ Tank</div>
+          <div class="upgrade-stat">~90 seconds dive time (+100%)</div>
+          <div class="upgrade-recipe">Fabricator · <strong>Titanium ×3 + Glass ×1</strong> · Available after scanning a Large Tank fragment (usually found in Kelp Forest wrecks).</div>
+        </div>
+      </div>
+
+      <div class="upgrade-step">
+        <div class="upgrade-connector">
+          <div class="upgrade-dot"></div>
+          <div class="upgrade-line"></div>
+        </div>
+        <div class="upgrade-content">
+          <div class="upgrade-name">🫁 High Capacity O₂ Tank</div>
+          <div class="upgrade-stat">~4–5 minutes dive time (+200%)</div>
+          <div class="upgrade-recipe">Modification Station · <strong>Large O₂ Tank ×1 + Lithium ×3 + Titanium Ingot ×1</strong> · Requires mid-game base setup. The biggest single upgrade jump in the game.</div>
+        </div>
+      </div>
+
+      <div class="upgrade-step">
+        <div class="upgrade-connector">
+          <div class="upgrade-dot"></div>
+        </div>
+        <div class="upgrade-content">
+          <div class="upgrade-name">🫁 Ultra High Capacity Tank (Late Game)</div>
+          <div class="upgrade-stat">~8–9 minutes dive time (+80% over HC Tank)</div>
+          <div class="upgrade-recipe">Modification Station · <strong>High Capacity Tank ×1 + Kyanite ×2 + Nickel Ore ×3</strong> · Requires deep-biome materials (600m+). The ultimate free-diving tank.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Priority Order</div>
+      Standard Tank → Large Tank → get your Rebreather → High Capacity Tank. The Rebreather should come before the High Capacity Tank in your priority list because the depth penalty negates much of the HC Tank's benefit without it.
+    </div>
+  </section>
+
+  <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — Replace with AdSense code -->
+  <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
+
+  <section id="rebreather">
+    <h3>The Rebreather — The Most Important Oxygen Item</h3>
+    <p>The Rebreather is a helmet piece that <strong>eliminates the depth-based oxygen consumption penalty</strong>. Without it, diving below 100m becomes exponentially dangerous. With it, your oxygen depletes at a flat rate regardless of how deep you go.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h4>Recipe</h4>
+        <p>Fabricator · Wiring Kit ×1 + Silicone Rubber ×2</p>
+      </div>
+      <div class="card">
+        <div class="icon">📋</div>
+        <h4>Blueprint Source</h4>
+        <p>Scan 2× Rebreather fragments — found in Grassy Plateaus wrecks at 80–200m depth</p>
+      </div>
+      <div class="card">
+        <div class="icon">💡</div>
+        <h4>Effect</h4>
+        <p>Removes the depth O₂ penalty entirely. Same burn rate at 10m as at 500m when wearing it</p>
+      </div>
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h4>No Power Required</h4>
+        <p>Unlike some equipment, the Rebreather uses no battery. It is always active when equipped with zero maintenance</p>
+      </div>
+    </div>
+
+    <h3>Materials for the Rebreather</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>How to Get It</th>
+          <th>Where to Find</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Wiring Kit</strong></td>
+          <td>Craft at Fabricator: Silver Ore ×2</td>
+          <td>Silver from Shale outcrops, Grassy Plateaus 50–200m</td>
+        </tr>
+        <tr>
+          <td><strong>Silicone Rubber ×2</strong></td>
+          <td>Craft at Fabricator: Creepvine Seed Cluster ×2</td>
+          <td>Seed clusters in Kelp Forest, 50–200m — the glowing bulbs on vines</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Get the Rebreather Early</div>
+      The Rebreather is surprisingly cheap given its impact. Getting 2× Silver Ore for the Wiring Kit is the only moderate challenge — Silver starts appearing in Shale outcrops around 80–150m. Make this your first real "mid-tier" goal after the Large Tank.
+    </div>
+  </section>
+
+  <section id="oxygen-sources">
+    <h3>Alternative Oxygen Sources</h3>
+    <p>Your tank is not the only oxygen source in Subnautica 2. Knowing all the alternatives can save your life in emergencies:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Source</th>
+          <th>How It Works</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Surface / Open Water</strong></td>
+          <td>Swim to the surface. Tank refills at 3× depletion rate.</td>
+          <td>Always safe at the top. Don't forget — the ocean surface is always "up".</td>
+        </tr>
+        <tr>
+          <td><strong>Base Rooms</strong></td>
+          <td>Any pressurized base module contains air. Walk in and breathe.</td>
+          <td>Your base is an air pocket. You can refill here even at depth.</td>
+        </tr>
+        <tr>
+          <td><strong>Seamoth / Vehicle Interior</strong></td>
+          <td>Inside a Seamoth or Cyclops, you breathe from the vehicle's air supply.</td>
+          <td>Vehicles have their own O₂ tanks — separate from your personal tank.</td>
+        </tr>
+        <tr>
+          <td><strong>Air Pockets in Caves</strong></td>
+          <td>Many caves have trapped air near the ceiling. Swim up into these.</td>
+          <td>Look for brightness and shimmer near cave ceilings. Often life-saving.</td>
+        </tr>
+        <tr>
+          <td><strong>Alien Bases</strong></td>
+          <td>Alien structures are internally pressurized — you can breathe inside them.</td>
+          <td>Late-game discovery. Very useful for extended Alien Base exploration.</td>
+        </tr>
+        <tr>
+          <td><strong>Wreck Interiors</strong></td>
+          <td>Some rooms in wrecks have trapped air. Not all — test carefully.</td>
+          <td>Check ceiling areas of wreck rooms before committing to exploration.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The most underused technique by beginners is <strong>base oxygen refilling</strong>. If you place your early base in a resource-rich area, you can use it as a dive hub — swim out, collect resources, return to base to breathe, repeat. This effectively eliminates oxygen as a constraint for shallow-to-mid-depth resource runs.</p>
+  </section>
+
+  <section id="vehicle-oxygen">
+    <h3>Vehicle Oxygen Systems</h3>
+    <p>Once you build vehicles, oxygen management changes dramatically. Vehicles have independent oxygen supplies that don't share with your personal tank.</p>
+
+    <h3>Seamoth Oxygen</h3>
+    <p>The <strong>Seamoth</strong> has an internal air supply. While you are inside the cockpit, you breathe from the Seamoth's air — your personal tank does not deplete. The Seamoth's air supply is large and refills automatically when the vehicle surfaces. This makes the Seamoth an enormous quality-of-life improvement for diving: you effectively have a mobile air station.</p>
+    <p>However, if you exit the Seamoth underwater, you immediately switch to your personal tank. Plan exits carefully — always exit in a place where you can quickly re-enter or ascend.</p>
+
+    <h3>Cyclops Oxygen</h3>
+    <p>The <strong>Cyclops</strong> is a full submarine. Inside, you breathe unlimited air as long as the ship maintains integrity. The Cyclops can dive to 500m base depth (upgradeable to 1700m with modules). It is the definitive solution to oxygen concerns — park it near your exploration target and use it as an underwater base of operations.</p>
+
+    <h3>PRAWN Suit Oxygen</h3>
+    <p>The <strong>PRAWN Suit</strong> (Pressure-Reactive Armored Waterproof Nano Suit) has its own air supply and provides the same benefit as the Seamoth — you breathe the suit's air, not your tank. The PRAWN is designed for the deepest zones (500m+) and is critical for Inactive Lava Zone and beyond.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Vehicle</th>
+          <th>Base Depth Limit</th>
+          <th>O₂ Source</th>
+          <th>Best Use</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Seamoth</strong></td>
+          <td>200m (upgradeable to 900m)</td>
+          <td>Internal, auto-refills at surface</td>
+          <td>Fast mid-range exploration</td>
+        </tr>
+        <tr>
+          <td><strong>Cyclops</strong></td>
+          <td>500m (upgradeable to 1700m)</td>
+          <td>Unlimited internal air</td>
+          <td>Mobile deep-sea base</td>
+        </tr>
+        <tr>
+          <td><strong>PRAWN Suit</strong></td>
+          <td>900m (upgradeable to 1700m)</td>
+          <td>Internal suit air</td>
+          <td>Extreme depth traversal</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="dive-planning">
+    <h3>Dive Planning Strategy</h3>
+    <p>The difference between a successful dive and a death is usually <strong>planning</strong>. Experienced players plan every dive before entering the water. Here is a framework that works at all stages of the game:</p>
+
+    <ol class="step-list">
+      <li><strong>Know your target.</strong> What are you diving for? Specific ore? A wreck? A creature? Define a clear objective so you aren't wandering aimlessly underwater burning oxygen.</li>
+      <li><strong>Note the depth.</strong> Check the depth of your target. Apply the depth penalty mentally — at 200m with a standard tank, your effective window is around 18 seconds per 10m of ascent. Plan accordingly.</li>
+      <li><strong>Pick your turn-back point.</strong> Decide your oxygen threshold for turning around before you dive. 50% for deep dives, 30% for shallow runs. Commit to it — do not rationalize "just a few more seconds."</li>
+      <li><strong>Use breadcrumbs.</strong> Deploy Beacons at the entrance to any wreck or cave system you explore. Getting disoriented inside a structure with 20% oxygen is a common cause of death.</li>
+      <li><strong>Know your exits.</strong> Before descending into a cave or wreck, mentally note at least two potential ascent routes. Cave systems in particular can be disorienting when you are rushing to surface.</li>
+      <li><strong>Park vehicles strategically.</strong> If using the Seamoth, park it near your dive target so you can quickly re-enter it when your oxygen gets low. Don't park it at the surface while diving 200m below.</li>
+    </ol>
+
+    <div class="info-box">
+      <div class="box-label">📌 The Ascent Rule</div>
+      In Subnautica 2, ascending at full swim speed takes roughly 1 second per 10 meters. From 200m, a full-speed ascent takes ~20 seconds. From 500m, ~50 seconds. Always factor in ascent time when calculating your safe oxygen threshold.
+    </div>
+  </section>
+
+  <section id="emergency">
+    <h3>Emergency Procedures — Low Oxygen Recovery</h3>
+    <p>Even the best plans go wrong. Here is what to do when you find yourself critically low on oxygen:</p>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Emergency Protocol</div>
+      <strong>1. STOP MOVING LATERALLY.</strong> Every horizontal movement delays your ascent. Point straight up and sprint swim vertically.<br><br>
+      <strong>2. DROP HEAVY ITEMS.</strong> In Survival mode, dropping items from inventory does not help directly, but accessing the Cyclops or base immediately is the priority.<br><br>
+      <strong>3. LOOK FOR AIR POCKETS.</strong> Any cave ceiling shimmer could buy you precious seconds.<br><br>
+      <strong>4. USE THE SEAMOTH.</strong> If your vehicle is within 50m, dive toward it. Entering the cockpit instantly gives you fresh air.<br><br>
+      <strong>5. ACCEPT THE DEATH.</strong> In Survival mode, you respawn. In Hardcore mode, one-shot means one-shot. Know the mode you're playing.
+    </div>
+
+    <h3>Preventable Death Checklist</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Common Mistake</th>
+          <th>Prevention</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ignoring the 30% alarm while collecting</td>
+          <td>Set 50% as your hard turn-back line for depths below 100m</td>
+        </tr>
+        <tr>
+          <td>Getting lost inside a wreck</td>
+          <td>Always place a Beacon at the entrance before entering</td>
+        </tr>
+          <tr>
+          <td>Parking the Seamoth too far from dive site</td>
+          <td>Park within 100m horizontal distance of your target</td>
+        </tr>
+        <tr>
+          <td>No Rebreather at 200m+</td>
+          <td>Prioritize the Rebreather before mid-game depth exploration</td>
+        </tr>
+        <tr>
+          <td>Rushing to reach a specific depth</td>
+          <td>Slow down — depth zones unlock naturally as your gear improves</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="coop-oxygen">
+    <h3>Oxygen in Co-op</h3>
+    <p>Subnautica 2's co-op mode (up to 4 players) introduces team dynamics around oxygen management. Each player has their own independent oxygen supply — there is no shared pool. However, coordinated play changes how oxygen impacts your runs significantly.</p>
+
+    <h3>Co-op Oxygen Strategies</h3>
+    <p><strong>Designated Driver Role:</strong> In a team of 4, having one player stay inside the Cyclops while others explore gives the team a mobile oxygen station. Explorers can return to the Cyclops to breathe without surfacing, dramatically extending dive depth and time for everyone.</p>
+    <p><strong>Buddy System:</strong> Pair up for deep dives. If one player gets critically low, the other can guide them to the nearest air source. Solo emergency ascents from deep water are riskier than guided ones.</p>
+    <p><strong>Base Relay Chain:</strong> For exploring extended cave systems, set up a chain of small single-room bases with Fabricators — they are cheap to build and serve as oxygen refill stations at key points in a cave. This technique lets a co-op team penetrate extremely long cave systems safely.</p>
+    <p><strong>Scanner Role:</strong> If one team member is scanning for blueprints in a specific area, they will naturally dive longer but less far. Assign them a designated Seamoth parked at depth so they can always refill without surfacing. Other players can focus on resource collection at greater range.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Co-op Communication</div>
+      Call out your oxygen levels during dives. A simple "50% — heading back" in voice chat gives your teammates context and builds a shared situational awareness. Most co-op deaths come from everyone assuming someone else has their oxygen under control.
+    </div>
+  </section>
+
+</div><!-- end page-wrapper -->
+
+<footer>
+  <p>Subnautica 2 Oxygen Guide · Updated May 2026 · Based on Early Access version</p>
+  <p style="margin-top:8px;"><a href="index.html">← Back to Complete Subnautica 2 Guide</a> · <a href="crafting.html">Crafting Recipes</a> · <a href="base-building.html">Base Building Guide</a></p>
+  <p style="margin-top:8px;color:#4a6080;font-size:11px;">This is a fan-made guide. Subnautica 2 is developed by Unknown Worlds Entertainment &amp; Krafton.</p>
+</footer>
+
+</body>
+</html>

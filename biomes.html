@@ -4,15 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Subnautica 2 Biomes Guide 2026 | All Areas, Depths &amp; Resources</title>
-  <meta name="description" content="Subnautica 2 biomes guide — every area, depth range, unique resources, dangers, and recommended gear for each biome." />
+  <meta name="description" content="Subnautica 2 biomes guide — every area on the ocean moon Proteus, depth range, unique resources, dangers, and recommended gear for each biome." />
   <meta property="og:title" content="Subnautica 2 Biomes Guide 2026 | All Areas, Depths &amp; Resources" />
-  <meta property="og:description" content="Subnautica 2 biomes guide — every area, depth range, unique resources, dangers, and recommended gear for each biome." />
+  <meta property="og:description" content="Subnautica 2 biomes guide — every area on the ocean moon Proteus, depth range, unique resources, dangers, and recommended gear for each biome." />
   <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Subnautica 2 Biomes Guide 2026 | All Areas, Depths &amp; Resources" />
-  <meta name="twitter:description" content="Every Subnautica 2 biome, depth range, unique resources, dangers, and recommended equipment." />
+  <meta name="twitter:description" content="Every Subnautica 2 biome on Proteus — depth range, unique resources, dangers, and recommended equipment." />
 
   <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/biomes.html" />
 
@@ -30,10 +30,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Subnautica 2 Biomes Guide 2026 | All Areas, Depths & Resources",
-    "description": "Subnautica 2 biomes guide — every area, depth range, unique resources, dangers, and recommended gear for each biome.",
+    "description": "Subnautica 2 biomes guide — every area on the ocean moon Proteus, depth range, unique resources, dangers, and recommended gear for each biome.",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
     "datePublished": "2026-05-19",
-    "dateModified": "2026-05-19",
+    "dateModified": "2026-05-21",
     "inLanguage": "en",
     "author": { "@type": "Organization", "name": "GameGuide" },
     "publisher": {
@@ -166,6 +166,10 @@ code {
 .banner-bg-biomes {
   background: linear-gradient(135deg, #021420 0%, #083a50 60%, #051830 100%);
 }
+.banner-bg-lore {
+  background: linear-gradient(135deg, #1a0d2e 0%, #2d1b4e 50%, #0f0820 100%);
+  border-color: #5a3a8a;
+}
 
 section { margin: 32px 0; scroll-margin-top: 16px; }
 h2 { font-size: clamp(17px,2.5vw,22px); color: var(--heading); margin-bottom: 12px; }
@@ -201,6 +205,7 @@ p { color: var(--text); margin-bottom: 12px; }
 .tag-medium { background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); color: var(--medium); }
 .tag-hard { background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.3); color: var(--hard); }
 .tag-extreme { background: rgba(139,0,0,0.2); border: 1px solid rgba(200,0,0,0.4); color: #ff6b6b; }
+.tag-locked { background: rgba(90,58,138,0.2); border: 1px solid rgba(150,100,220,0.4); color: #c084fc; }
 
 .biome-body {
   display: grid; grid-template-columns: 1fr 1fr;
@@ -234,12 +239,13 @@ p { color: var(--text); margin-bottom: 12px; }
 
 .biome-desc { padding: 0 20px 14px; border-top: 1px solid var(--border); font-size: 13.5px; padding-top: 14px; }
 
-.tip-box, .warn-box, .info-box {
+.tip-box, .warn-box, .info-box, .lore-box {
   border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
 }
 .tip-box { background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25); }
 .warn-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); }
 .info-box { background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25); }
+.lore-box { background: rgba(90,58,138,0.08); border: 1px solid rgba(150,100,220,0.3); }
 .box-label {
   font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
   font-weight: 800; margin-bottom: 5px;
@@ -247,6 +253,33 @@ p { color: var(--text); margin-bottom: 12px; }
 .tip-box .box-label { color: var(--accent); }
 .warn-box .box-label { color: #f87171; }
 .info-box .box-label { color: var(--medium); }
+.lore-box .box-label { color: #c084fc; }
+
+/* Lore clarification table */
+.lore-grid {
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin: 16px 0;
+}
+.lore-card {
+  background: rgba(8,14,28,0.7); border: 1px solid var(--border2);
+  border-radius: var(--radius); padding: 14px 16px;
+}
+.lore-card-label {
+  font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 800; margin-bottom: 6px;
+}
+.lore-card-name {
+  font-size: 18px; font-weight: 900; color: var(--heading); margin-bottom: 4px;
+}
+.lore-card-type {
+  font-size: 11px; color: var(--text-dim); margin-bottom: 8px;
+}
+.lore-card-desc { font-size: 12.5px; color: var(--text); }
+.lc-moon .lore-card-label { color: #00d4ff; }
+.lc-planet .lore-card-label { color: #f59e0b; }
+.lc-ship .lore-card-label { color: #c084fc; }
+.lc-moon { border-color: rgba(0,212,255,0.35); background: rgba(0,212,255,0.04); }
+.lc-planet { border-color: rgba(245,158,11,0.35); background: rgba(245,158,11,0.04); }
+.lc-ship { border-color: rgba(150,100,220,0.35); background: rgba(90,58,138,0.06); }
 
 table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
 th {
@@ -287,11 +320,27 @@ footer {
 .toc-box li { padding: 4px 0; font-size: 13.5px; }
 .toc-box li::before { content: '→ '; color: var(--accent); }
 
+.region-header {
+  background: linear-gradient(135deg, #031a2e 0%, #0a2a45 100%);
+  border: 1px solid var(--border2); border-radius: var(--radius);
+  padding: 12px 20px; margin: 28px 0 16px;
+  display: flex; align-items: center; gap: 12px;
+}
+.region-label {
+  font-size: 10px; letter-spacing: 3px; text-transform: uppercase;
+  color: var(--accent); font-weight: 800;
+}
+.region-name {
+  font-size: 15px; font-weight: 800; color: var(--heading);
+}
+.region-note { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+
 @media (max-width: 640px) {
   .biome-body { grid-template-columns: 1fr; }
   .biome-col:first-child { border-right: none; border-bottom: 1px solid var(--border); }
   .toc-box ul { grid-template-columns: 1fr; }
   .page-wrapper { padding: 0 14px 50px; }
+  .lore-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -300,7 +349,7 @@ footer {
 <header class="site-header">
   <div class="site-brand">⚓ GameGuide</div>
   <h1>🌊 Subnautica 2 Biomes Guide — All Areas &amp; Resources</h1>
-  <p class="header-sub">Every Biome · Depth Ranges · Unique Resources · Dangers · Recommended Gear · May 2026</p>
+  <p class="header-sub">Every Biome on Proteus · Depth Ranges · Unique Resources · Dangers · May 2026</p>
   <div>
     <span class="badge">🔥 Early Access 2026</span>
     <span class="badge">🗺️ All Biomes</span>
@@ -315,7 +364,7 @@ footer {
   <div class="hero-image">
     <img
       src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
-      alt="Subnautica 2 Biomes Guide — All Areas and Resources 2026"
+      alt="Subnautica 2 Biomes Guide — All Areas and Resources on Proteus 2026"
       onerror="this.style.display='none';"
     />
     <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
@@ -324,49 +373,117 @@ footer {
   <!-- ADVERTISEMENT SLOT -->
   <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
 
+  <!-- ═══════════════════════════════════════════
+       LORE CLARIFICATION — most guides get this wrong
+  ════════════════════════════════════════════ -->
+  <section id="lore-clarification">
+    <div class="section-banner banner-bg-lore">
+      <div class="banner-icon">🪐</div>
+      <div>
+        <div class="banner-title">Proteus vs Zezura vs CICADA — Get the Setting Right</div>
+        <div class="banner-sub">Most other guides confuse these — here is what they actually are</div>
+      </div>
+    </div>
+
+    <div class="lore-box">
+      <div class="box-label">📖 Lore Primer — Read This First</div>
+      <p>Subnautica 2 takes place on <strong>Proteus</strong> — an ocean moon orbiting a gas giant in the binary-star Eido-Thea System. Many guides incorrectly call it a planet, or invent names like "Cesura" that do not exist in the game. The three things you need to know:</p>
+    </div>
+
+    <div class="lore-grid">
+      <div class="lore-card lc-moon">
+        <div class="lore-card-label">Where You Are</div>
+        <div class="lore-card-name">Proteus</div>
+        <div class="lore-card-type">Ocean Moon (orbits a gas giant)</div>
+        <div class="lore-card-desc">The playable world. An ocean moon in the Eido-Thea System. Your lifepod landed here after CICADA broke apart in its atmosphere. Every biome in this guide is on Proteus.</div>
+      </div>
+      <div class="lore-card lc-planet">
+        <div class="lore-card-label">The Intended Destination</div>
+        <div class="lore-card-name">Zezura</div>
+        <div class="lore-card-type">Desert Planet (never reached)</div>
+        <div class="lore-card-desc">The colonization target — a desert planet the ~40,000 colonists aboard CICADA were bound for. The ship's AI "NoA" redirected mid-journey. The colonists never arrived.</div>
+      </div>
+      <div class="lore-card lc-ship">
+        <div class="lore-card-label">What Crashed</div>
+        <div class="lore-card-name">CICADA</div>
+        <div class="lore-card-type">Alterra Colony Ship (destroyed)</div>
+        <div class="lore-card-desc">The Alterra corporation colony ship carrying ~40,000 colonists. It broke apart in Proteus's atmosphere. Survivors' lifepods scattered across the ocean surface — including yours.</div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <div class="box-label">📌 The Central Threat — The Blight</div>
+      <p>The Blight is a mysterious bacterium present on Proteus that mutates local flora and fauna. It is the central story threat of Subnautica 2. Several biomes show heavy Blight mutation. Understanding and ultimately countering the Blight drives the game's main progression.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION & ADAPTATION DISCLAIMER
+  ════════════════════════════════════════════ -->
   <section id="overview">
     <div class="section-banner banner-bg-biomes">
       <div class="banner-icon">🌊</div>
       <div>
         <div class="banner-title">Subnautica 2 Biomes — Complete Guide</div>
-        <div class="banner-sub">Every area, every resource, every creature — from the shallows to the lava zones</div>
+        <div class="banner-sub">Coral Gardens region (starting area) and Karakorum region (~1,000m east)</div>
       </div>
+    </div>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Adaptation-Gated Biomes</div>
+      <p>Unlike the original Subnautica, some biomes in Subnautica 2 cannot be entered simply by swimming deeper. Several areas are <strong>locked behind Adaptations (Biomods)</strong> — biological modifications your character acquires through gameplay. For example, the Graveyard requires the <strong>Heat Tolerance</strong> adaptation before you can survive inside it. Depth alone is not the gating factor for all biomes.</p>
+    </div>
+
+    <div class="tip-box">
+      <div class="box-label">🧭 No In-Game Map</div>
+      <p>Subnautica 2 has no in-game map. Navigate by <strong>compass and landmarks</strong>. Directional references in this guide (N, NE, E, NW) are relative to your starting Lifepod. Memorize key visual landmarks in each biome to aid orientation.</p>
     </div>
 
     <div class="toc-box">
       <h4>Biomes on This Page</h4>
       <ul>
-        <li><a href="#safe-shallows">Safe Shallows (0–50m)</a></li>
-        <li><a href="#kelp-forest">Kelp Forest (0–100m)</a></li>
-        <li><a href="#grassy-plateaus">Grassy Plateaus (50–200m)</a></li>
-        <li><a href="#mushroom-forest">Mushroom Forest (100–300m)</a></li>
-        <li><a href="#blood-kelp">Blood Kelp Zone (150–300m)</a></li>
-        <li><a href="#deep-grand-reef">Deep Grand Reef (200–400m)</a></li>
-        <li><a href="#lost-river">Lost River (300–600m)</a></li>
-        <li><a href="#lava-zone">Inactive/Active Lava Zone (600m+)</a></li>
-        <li><a href="#progression">Biome Progression Order</a></li>
-        <li><a href="#resources-table">Master Resources Table</a></li>
+        <li><a href="#region-coral-gardens">Region 1: Coral Gardens</a></li>
+        <li><a href="#shallows">The Shallows (0–200m)</a></li>
+        <li><a href="#plateaus">The Plateaus (~70m)</a></li>
+        <li><a href="#necrolei-hills">Necrolei Hills (shallow, NW)</a></li>
+        <li><a href="#lead-zone">Lead Zone (~60m caves, E)</a></li>
+        <li><a href="#dolerite-spires">Dolerite Spires (shallow-mid)</a></li>
+        <li><a href="#graveyard">Graveyard (Heat Tolerance req.)</a></li>
+        <li><a href="#region-karakorum">Region 2: Karakorum (~1,000m E)</a></li>
+        <li><a href="#root-canyon">Root Canyon (365–750m)</a></li>
+        <li><a href="#observatory">Observatory Island (~300m)</a></li>
+        <li><a href="#karakorum-power-plant">Karakorum Power Plant</a></li>
+        <li><a href="#thermal-vents">Thermal Vent Clusters</a></li>
       </ul>
     </div>
 
-    <p>Subnautica 2 takes place on an alien ocean world with a layered ecosystem — the deeper you go, the more alien, dangerous, and resource-rich the environment becomes. Each biome is a distinct visual zone with its own creature roster, plant life, mineral deposits, and structural features. Understanding <strong>which biome holds which resources</strong> is the core knowledge that separates efficient players from those who grind endlessly in the wrong location.</p>
+    <p>Subnautica 2 takes place on <strong>Proteus</strong>, an alien ocean moon with a layered ecosystem. The world is divided into distinct regions, each containing multiple biomes. This Early Access guide covers the two confirmed accessible regions: the starting <strong>Coral Gardens</strong> region and the distant <strong>Karakorum</strong> region to the east.</p>
 
-    <p>This guide covers all major biomes in the Early Access version of Subnautica 2 (May 2026). For each biome, you will find the depth range, all collectable resources, dangerous creatures, recommended equipment, and specific tips for what to prioritize collecting. Note that biome layouts are procedurally influenced by world seeds — exact positions will vary, but the biome characteristics, resources, and creatures remain consistent.</p>
-
-    <p>To reach many of these biomes you will need a proper vehicle. See the <a href="vehicles.html">Vehicles Guide</a> for depth ratings and which sub to take. For co-op exploration of biomes, see the <a href="coop.html">Co-op Guide</a>.</p>
+    <p><em>All depth ranges are from the current Early Access build and may shift with future patches.</em> The World Tree is visible from the ocean surface but is inaccessible in the current Early Access build.</p>
   </section>
 
-  <section id="safe-shallows">
-    <h3>Safe Shallows</h3>
+  <!-- ═══════════════════════════════════════════
+       REGION 1 — CORAL GARDENS
+  ════════════════════════════════════════════ -->
+  <div class="region-header" id="region-coral-gardens">
+    <div>
+      <div class="region-label">Region 1</div>
+      <div class="region-name">Coral Gardens — Starting Region</div>
+      <div class="region-note">Surrounds the Lifepod landing zone · Multiple sub-biomes within swimming / early-vehicle range</div>
+    </div>
+  </div>
+
+  <section id="shallows">
+    <h3>The Shallows</h3>
 
     <div class="biome-card">
       <div class="biome-header">
         <div class="biome-emoji">🏖️</div>
         <div class="biome-header-info">
-          <div class="biome-name">Safe Shallows</div>
-          <div class="biome-tagline">Your starting biome — bright, warm, and full of beginner-friendly resources</div>
+          <div class="biome-name">The Shallows</div>
+          <div class="biome-tagline">Your starting zone — bright, warm, and the safest area on Proteus</div>
           <div class="biome-tags">
-            <span class="biome-tag tag-depth">0–50m depth</span>
+            <span class="biome-tag tag-depth">Surface – ~200m</span>
             <span class="biome-tag tag-easy">Danger: Low</span>
           </div>
         </div>
@@ -375,124 +492,109 @@ footer {
         <div class="biome-col">
           <div class="biome-col-title">Key Resources</div>
           <span class="resource-tag">Titanium</span>
-          <span class="resource-tag">Copper Ore</span>
+          <span class="resource-tag">Copper</span>
           <span class="resource-tag">Quartz</span>
-          <span class="resource-tag">Table Coral</span>
-          <span class="resource-tag">Acid Mushroom</span>
-          <span class="resource-tag">Coral Tube Sample</span>
-          <span class="resource-tag">Salt Deposit</span>
-          <span class="resource-tag">Limestone Outcrops</span>
+          <span class="resource-tag">Fibrous Pulp</span>
+          <span class="resource-tag">Medical Gel Sacs</span>
         </div>
         <div class="biome-col">
           <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Crashfish (explosive)</span>
-          <span class="danger-tag">Biter (minor damage)</span>
+          <span class="danger-tag">Early Blight mutations</span>
           <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">Survival Knife</span>
-          <span class="gear-tag">Scanner</span>
-          <span class="gear-tag">O2 Tank</span>
+          <div class="biome-col-title">Notes</div>
+          <span class="gear-tag">Lifepod landing zone</span>
+          <span class="gear-tag">Safest biome</span>
         </div>
       </div>
       <div class="biome-desc">
-        <p>The Safe Shallows surround your starting escape pod. Sunlight filters all the way to the seafloor, giving it a warm teal glow. This biome is essentially a training ground — resources are plentiful and creature threats are minimal. The two dangers worth knowing are <strong>Crashfish</strong> (which explode when you approach their nesting holes in the rock wall) and <strong>Biters</strong> (small aggressive fish that deal minor damage).</p>
-        <p><strong>What to collect:</strong> Harvest Titanium and Copper from limestone outcrops. Collect Table Coral from flat coral formations — you need these for Computer Chips later. Grab Acid Mushrooms for Battery crafting. Pick up Quartz (white crystalline rocks) for Glass.</p>
+        <p>The Shallows is the Coral Gardens region's primary safe zone, stretching from the ocean surface down to approximately 200m. Sunlight illuminates the water column fully, giving it a warm, teal-blue hue. This is where your Lifepod landed after CICADA broke apart in Proteus's atmosphere, and it is the natural starting point for all exploration.</p>
+        <p><strong>Key early priorities:</strong> Titanium and Copper form the backbone of your first tools and structures. Fibrous Pulp is the Proteus equivalent of fiber mesh. Medical Gel Sacs are a critical early healing resource — stockpile them before venturing into more dangerous biomes.</p>
         <div class="tip-box" style="margin-top:10px;">
-          <div class="box-label">💡 Crashfish Tip</div>
-          Never approach dark holes in rock walls without slowing down and looking first. If you see a glowing orange dot in the hole, back away slowly. The Crashfish will not leave the hole if you don't get close. Craft a <a href="crafting.html">Beacon</a> and mark Crashfish holes so you avoid them on return trips.
+          <div class="box-label">💡 Depths are Early Access Estimates</div>
+          The ~200m lower boundary of The Shallows is from the current Early Access build. These depth ranges may shift as Unknown Worlds continues to iterate on the game.
         </div>
       </div>
     </div>
   </section>
 
-  <section id="kelp-forest">
-    <h3>Kelp Forest</h3>
+  <section id="plateaus">
+    <h3>The Plateaus</h3>
 
     <div class="biome-card">
       <div class="biome-header">
-        <div class="biome-emoji">🌿</div>
+        <div class="biome-emoji">🐟</div>
         <div class="biome-header-info">
-          <div class="biome-name">Kelp Forest</div>
-          <div class="biome-tagline">Dense towers of Creepvine — your primary source of Fiber Mesh and Silicone Rubber</div>
+          <div class="biome-name">The Plateaus</div>
+          <div class="biome-tagline">Flat seafloor shelves north and northeast of Lifepod — notable for giant jellyfish-like creatures</div>
           <div class="biome-tags">
-            <span class="biome-tag tag-depth">0–100m depth</span>
+            <span class="biome-tag tag-depth">Seafloor ~70m</span>
             <span class="biome-tag tag-easy">Danger: Low-Medium</span>
           </div>
         </div>
       </div>
       <div class="biome-body">
         <div class="biome-col">
-          <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Creepvine Samples (Fiber Mesh)</span>
-          <span class="resource-tag">Creepvine Seeds (Silicone Rubber)</span>
-          <span class="resource-tag">Titanium</span>
-          <span class="resource-tag">Copper Ore</span>
-          <span class="resource-tag">Gold (outcrops)</span>
-          <span class="resource-tag">Lead</span>
-          <span class="resource-tag">Cave Sulfur</span>
+          <div class="biome-col-title">Location</div>
+          <span class="resource-tag">N / NE of Lifepod</span>
+          <span class="resource-tag">Flat seafloor shelves</span>
+          <br/><br/>
+          <div class="biome-col-title">Notable Features</div>
+          <span class="resource-tag">Giant jellyfish-like creatures</span>
+          <span class="resource-tag">Open terrain</span>
         </div>
         <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Stalker (persistent aggression)</span>
-          <span class="danger-tag">Gasopod (gas cloud)</span>
+          <div class="biome-col-title">Depth</div>
+          <span class="gear-tag">Seafloor at ~70m</span>
           <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">Survival Knife (for creepvine)</span>
-          <span class="gear-tag">Stasis Rifle</span>
-          <span class="gear-tag">Seamoth</span>
+          <div class="biome-col-title">Navigation</div>
+          <span class="gear-tag">Compass heading: N / NE</span>
+          <span class="gear-tag">Open visibility</span>
         </div>
       </div>
       <div class="biome-desc">
-        <p>The Kelp Forest is defined by massive towers of Creepvine — alien kelp strands rising 30–40 meters from the seafloor. These are your primary source of two critical early-game materials: <strong>Creepvine Samples</strong> (harvested by knifing the vine, used to craft Fiber Mesh) and <strong>Creepvine Seeds</strong> (the glowing bulbs at the top, used for Silicone Rubber). These two materials look similar but are completely different — beginners frequently confuse them. See the <a href="crafting.html">Crafting Guide</a> for details.</p>
-        <p><strong>Stalkers</strong> are the main hazard — large, aggressive marine predators that will pursue and attack you relentlessly. They can be stunned with the Stasis Rifle or distracted by dropping Metal Salvage on the seafloor (they are attracted to shiny objects). Stalkers sometimes drop Stalker Teeth, which are needed for crafting Enameled Glass — a component for <a href="vehicles.html">vehicle construction</a>.</p>
+        <p>The Plateaus are wide, flat seafloor shelves sitting at approximately 70m depth, located north and northeast of the starting Lifepod. The terrain is open and well-lit, making navigation straightforward — one of the few biomes where you can see clearly in all directions without lighting equipment.</p>
+        <p>The defining visual feature of The Plateaus is the presence of <strong>giant jellyfish-like creatures</strong> drifting above the seafloor. These are some of the most visually striking fauna in the early game. Scan everything you encounter for Adaptation and recipe unlocks.</p>
       </div>
     </div>
   </section>
 
-  <section id="grassy-plateaus">
-    <h3>Grassy Plateaus</h3>
+  <section id="necrolei-hills">
+    <h3>Necrolei Hills</h3>
 
     <div class="biome-card">
       <div class="biome-header">
-        <div class="biome-emoji">🌾</div>
+        <div class="biome-emoji">🦠</div>
         <div class="biome-header-info">
-          <div class="biome-name">Grassy Plateaus</div>
-          <div class="biome-tagline">Expansive flat zones rich in mid-game minerals — your first major stepping stone</div>
+          <div class="biome-name">Necrolei Hills</div>
+          <div class="biome-tagline">Shallow biome NW of Lifepod — heavy Blight mutation, Copper and Silver deposits</div>
           <div class="biome-tags">
-            <span class="biome-tag tag-depth">50–200m depth</span>
-            <span class="biome-tag tag-medium">Danger: Medium</span>
+            <span class="biome-tag tag-depth">Shallow depth</span>
+            <span class="biome-tag tag-medium">Danger: Medium (Blight)</span>
           </div>
         </div>
       </div>
       <div class="biome-body">
         <div class="biome-col">
           <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Silver Ore</span>
-          <span class="resource-tag">Gold</span>
-          <span class="resource-tag">Lead</span>
-          <span class="resource-tag">Titanium</span>
-          <span class="resource-tag">Lithium (sparse)</span>
-          <span class="resource-tag">Shale Outcrops</span>
-          <span class="resource-tag">Gel Sacks</span>
+          <span class="resource-tag">Necrolei Cysts</span>
+          <span class="resource-tag">Copper</span>
+          <span class="resource-tag">Silver</span>
         </div>
         <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Bone Sharks</span>
-          <span class="danger-tag">Sand Sharks (buried)</span>
-          <span class="danger-tag">Warper (200m+)</span>
+          <div class="biome-col-title">Location</div>
+          <span class="gear-tag">NW of Lifepod</span>
           <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">Seamoth</span>
-          <span class="gear-tag">Stasis Rifle</span>
-          <span class="gear-tag">Rebreather</span>
+          <div class="biome-col-title">Hazard</div>
+          <span class="danger-tag">Heavy Blight mutation</span>
+          <span class="danger-tag">Mutated flora and fauna</span>
         </div>
       </div>
       <div class="biome-desc">
-        <p>The Grassy Plateaus are wide, open zones with relatively flat terrain covered in sea grass and outcrops. They are the primary source of <strong>Silver Ore</strong> and a reliable location for Gold — both are essential for crafting Wiring Kits, Computer Chips, and Advanced Wiring Kits. Shale outcrops here have an excellent loot table, commonly dropping Gold, Silver, and occasionally Lithium.</p>
-        <p>The main threats are <strong>Bone Sharks</strong> (armored aggressive predators) and <strong>Sand Sharks</strong> (buried in the sand, ambush-style attackers). Both respond well to the Stasis Rifle. At the deeper edges (150–200m), Warpers begin appearing — teleporting bio-mechanical creatures that can pull you out of your vehicle.</p>
+        <p>The Necrolei Hills sit northwest of the starting Lifepod and represent your first encounter with serious <strong>Blight mutation</strong>. The Blight bacterium has heavily altered the flora and fauna here — expect visually corrupted creatures and plant life. The "Necrolei" designation comes from the characteristic Necrolei Cysts, growths produced by Blight-mutated organisms.</p>
+        <p>Despite the Blight presence, the Necrolei Hills are worth visiting for <strong>Copper and Silver deposits</strong>. Silver is essential for mid-game crafting. Exercise caution: Blight-mutated creatures may behave differently from their baseline counterparts in The Shallows. Keep an eye on the visual corruption markers that indicate Blight-heavy zones.</p>
         <div class="warn-box" style="margin-top:10px;">
-          <div class="box-label">⚠️ Warper Warning</div>
-          Warpers can teleport you out of the Seamoth — one moment you are piloting your sub, the next you are free-swimming at 180m depth. Always have your Stasis Rifle equipped and accessible when operating near Warper territory.
+          <div class="box-label">⚠️ Blight Exposure</div>
+          The Necrolei Hills have the highest Blight concentration near the starting area. The full implications of Blight exposure for your character are central to the game's story — pay attention to any environmental warnings and scan Blight-mutated organisms.
         </div>
       </div>
     </div>
@@ -501,162 +603,144 @@ footer {
   <!-- ADVERTISEMENT SLOT -->
   <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
 
-  <section id="mushroom-forest">
-    <h3>Mushroom Forest</h3>
+  <section id="lead-zone">
+    <h3>Lead Zone</h3>
 
     <div class="biome-card">
       <div class="biome-header">
-        <div class="biome-emoji">🍄</div>
+        <div class="biome-emoji">⛏️</div>
         <div class="biome-header-info">
-          <div class="biome-name">Mushroom Forest</div>
-          <div class="biome-tagline">Alien fungal landscape with Gold concentrations and unique scan opportunities</div>
+          <div class="biome-name">Lead Zone</div>
+          <div class="biome-tagline">Cave system east of Lifepod — primary source of Lead in the early game</div>
           <div class="biome-tags">
-            <span class="biome-tag tag-depth">100–300m depth</span>
-            <span class="biome-tag tag-medium">Danger: Medium</span>
+            <span class="biome-tag tag-depth">Caves ~60m</span>
+            <span class="biome-tag tag-easy">Danger: Low</span>
           </div>
         </div>
       </div>
       <div class="biome-body">
         <div class="biome-col">
           <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Gold (concentrated)</span>
-          <span class="resource-tag">Silver Ore</span>
-          <span class="resource-tag">Magnetite</span>
-          <span class="resource-tag">Shale Outcrops (excellent)</span>
-          <span class="resource-tag">Table Coral</span>
-          <span class="resource-tag">Lithium (sparse)</span>
+          <span class="resource-tag">Lead deposits</span>
         </div>
         <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Bone Sharks (aggressive)</span>
-          <span class="danger-tag">Cave Crawler (on mushrooms)</span>
-          <span class="danger-tag">Warper</span>
-          <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">Seamoth + Depth Mk1</span>
-          <span class="gear-tag">Stasis Rifle</span>
-          <span class="gear-tag">Perimeter Defense</span>
+          <div class="biome-col-title">Location</div>
+          <span class="gear-tag">E of Lifepod</span>
+          <span class="gear-tag">Cave system at ~60m</span>
         </div>
       </div>
       <div class="biome-desc">
-        <p>The Mushroom Forest features enormous bioluminescent fungal structures rising from the seafloor, creating a surreal landscape. The structures themselves can be scaled — Cave Crawlers patrol their surfaces, so be aware when swimming near the mushroom caps. This biome has exceptional Shale outcrop density and is one of the best sources of Gold in the mid-game. You will return here multiple times for Gold and Silver.</p>
-        <p>The Mushroom Forest also contains <strong>Tree Mushrooms</strong> — enormous floating fungal islands that are the habitat of several unique creatures worth scanning for blueprints. The underside of Tree Mushrooms hides hidden air pockets where you can replenish <a href="oxygen.html">oxygen</a> without surfacing.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="blood-kelp">
-    <h3>Blood Kelp Zone</h3>
-
-    <div class="biome-card">
-      <div class="biome-header">
-        <div class="biome-emoji">🩸</div>
-        <div class="biome-header-info">
-          <div class="biome-name">Blood Kelp Zone</div>
-          <div class="biome-tagline">Dark, ominous red-black zone — rich in rare resources but significantly more dangerous</div>
-          <div class="biome-tags">
-            <span class="biome-tag tag-depth">150–300m depth</span>
-            <span class="biome-tag tag-hard">Danger: High</span>
-          </div>
-        </div>
-      </div>
-      <div class="biome-body">
-        <div class="biome-col">
-          <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Diamond</span>
-          <span class="resource-tag">Kyanite (sparse)</span>
-          <span class="resource-tag">Lithium</span>
-          <span class="resource-tag">Nickel Ore</span>
-          <span class="resource-tag">Blood Oil (unique)</span>
-          <span class="resource-tag">Ghost Weed (unique)</span>
-          <span class="resource-tag">Shale Outcrops</span>
-        </div>
-        <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Ghost Leviathan (juvenile)</span>
-          <span class="danger-tag">Warper</span>
-          <span class="danger-tag">Sea Treader (massive)</span>
-          <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">Seamoth + Depth Mk2</span>
-          <span class="gear-tag">Sonar Module</span>
-          <span class="gear-tag">Perimeter Defense</span>
-          <span class="gear-tag">Spare Power Cell</span>
-        </div>
-      </div>
-      <div class="biome-desc">
-        <p>The Blood Kelp Zone is one of the most striking environmental transitions in Subnautica 2. As you descend into it, sunlight fades and the water fills with dark crimson kelp strands that obscure vision and navigation. <strong>Diamond</strong> appears here in significant quantities for the first time — a critical material for Reinforced Dive Suit and late-game gear.</p>
-        <p>The primary danger is <strong>juvenile Ghost Leviathans</strong>. While smaller than the adults found deeper, these creatures are still lethal to an unupgraded Seamoth. Move quickly, avoid hovering in open water, and use Sonar to detect them before they detect you. Blood Oil is a unique resource found only here — harvest it in bulk when you visit, as it has several crafting uses.</p>
-        <div class="warn-box" style="margin-top:10px;">
-          <div class="box-label">⚠️ Navigation Warning</div>
-          The dense kelp severely limits visibility. Use Sonar frequently and keep Beacons active to track your vehicle position. It is very easy to become disoriented in the Blood Kelp Zone, and disorientation while a Ghost Leviathan is nearby is a fatal combination.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="deep-grand-reef">
-    <h3>Deep Grand Reef</h3>
-
-    <div class="biome-card">
-      <div class="biome-header">
-        <div class="biome-emoji">🪸</div>
-        <div class="biome-header-info">
-          <div class="biome-name">Deep Grand Reef</div>
-          <div class="biome-tagline">Vast underwater canyon system — the gateway to truly deep-sea exploration</div>
-          <div class="biome-tags">
-            <span class="biome-tag tag-depth">200–400m depth</span>
-            <span class="biome-tag tag-hard">Danger: High</span>
-          </div>
-        </div>
-      </div>
-      <div class="biome-body">
-        <div class="biome-col">
-          <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Lithium (excellent)</span>
-          <span class="resource-tag">Diamond</span>
-          <span class="resource-tag">Nickel Ore</span>
-          <span class="resource-tag">Uraninite (sparse)</span>
-          <span class="resource-tag">Shale Outcrops (rich)</span>
-          <span class="resource-tag">Deep Shroom (unique)</span>
-          <span class="resource-tag">Gel Sacks (Aerogel)</span>
-        </div>
-        <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Ghost Leviathan</span>
-          <span class="danger-tag">Crabsnake (in lilypads)</span>
-          <span class="danger-tag">Warper</span>
-          <span class="danger-tag">Extreme darkness</span>
-          <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">Seamoth + Depth Mk2</span>
-          <span class="gear-tag">Tadpole + Depth upgrade</span>
-          <span class="gear-tag">Sonar</span>
-          <span class="gear-tag">Ion Power Cells</span>
-        </div>
-      </div>
-      <div class="biome-desc">
-        <p>The Deep Grand Reef is the richest mid-game biome for Lithium — a resource you will need in enormous quantities for Plasteel Ingots. The reef structures here are enormous, creating dramatic canyon walls full of shale outcrops. This is also where <strong>Crabsnakes</strong> live inside Jellyshroom plants — approach Jellyshrooms cautiously, as a Crabsnake ambush at 350m depth can be fatal.</p>
-        <p>Alien ruins begin appearing in the Deep Grand Reef — scan everything you find. These ruins contain data terminals that unlock advanced blueprints and provide story context. The Deep Grand Reef connects to the Lost River via cave passages — these caves are narrow enough to exclude most Leviathans, making them the safest route to deeper zones. See the <a href="vehicles.html">Vehicles Guide</a> for recommended vehicle configurations for this depth range.</p>
+        <p>The Lead Zone is a cave system located east of the starting Lifepod, with cave entrances accessible at approximately 60m depth. Lead is an essential early-to-mid game resource used in radiation suits and several key crafting recipes. This is your most reliable local source.</p>
+        <p>The caves are relatively safe compared to other Coral Gardens sub-biomes. Bring a light source — cave interiors lose natural sunlight. Because there is no in-game map, mark the cave entrance with a beacon on your first visit so you can return efficiently.</p>
         <div class="tip-box" style="margin-top:10px;">
-          <div class="box-label">💡 Lithium Farm Strategy</div>
-          The Deep Grand Reef contains the highest concentration of Lithium in the game. Run resource loops here specifically for Lithium when preparing for late-game builds. In <a href="coop.html">co-op</a>, send the Harvester here with the Cargo Tadpole — they can fill the cargo bays in a single session.
+          <div class="box-label">💡 Beacon Your Cave Entrances</div>
+          The Lead Zone caves are easy to lose sight of from the surface. Drop a beacon at the entrance on your first visit. Since Subnautica 2 has no map, beacons are your primary navigation tool for returning to known locations.
         </div>
       </div>
     </div>
   </section>
 
-  <section id="lost-river">
-    <h3>Lost River</h3>
+  <section id="dolerite-spires">
+    <h3>Dolerite Spires</h3>
 
     <div class="biome-card">
       <div class="biome-header">
-        <div class="biome-emoji">🦴</div>
+        <div class="biome-emoji">🗿</div>
         <div class="biome-header-info">
-          <div class="biome-name">Lost River</div>
-          <div class="biome-tagline">Ancient river of glowing brine — alien fossil canyon and story-critical zone</div>
+          <div class="biome-name">Dolerite Spires</div>
+          <div class="biome-tagline">Maze of jagged volcanic pillars — disorienting and dark, bring light sources</div>
           <div class="biome-tags">
-            <span class="biome-tag tag-depth">300–600m depth</span>
+            <span class="biome-tag tag-depth">Shallow–Mid depth</span>
+            <span class="biome-tag tag-medium">Danger: Medium (navigation)</span>
+          </div>
+        </div>
+      </div>
+      <div class="biome-body">
+        <div class="biome-col">
+          <div class="biome-col-title">Key Features</div>
+          <span class="resource-tag">Jagged volcanic pillars</span>
+          <span class="resource-tag">Maze-like terrain</span>
+          <span class="resource-tag">Deep shadows</span>
+        </div>
+        <div class="biome-col">
+          <div class="biome-col-title">Primary Hazard</div>
+          <span class="danger-tag">Disorientation risk</span>
+          <span class="danger-tag">Low visibility</span>
+          <br/><br/>
+          <div class="biome-col-title">Essential Gear</div>
+          <span class="gear-tag">Light source (mandatory)</span>
+          <span class="gear-tag">Compass</span>
+        </div>
+      </div>
+      <div class="biome-desc">
+        <p>The Dolerite Spires are a field of tall, jagged volcanic rock formations that rise from the seafloor in dense clusters. The tight spacing between spires creates a maze-like environment that is easy to get turned around in — particularly dangerous in a game with no map. The volcanic rock blocks sunlight, creating deep shadow channels between pillars.</p>
+        <p><strong>Always bring a light source</strong> into the Dolerite Spires. Without one, visibility drops to near zero in the deeper shadow zones between pillars. Use your compass to maintain a consistent heading, and drop beacons at entry points to ensure you can find your way back out.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="graveyard">
+    <h3>Graveyard</h3>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-emoji">💀</div>
+        <div class="biome-header-info">
+          <div class="biome-name">Graveyard</div>
+          <div class="biome-tagline">Hot zone rich in Gold — locked behind the Heat Tolerance Adaptation</div>
+          <div class="biome-tags">
+            <span class="biome-tag tag-depth">Shallow-Mid</span>
+            <span class="biome-tag tag-hard">Danger: High (heat)</span>
+            <span class="biome-tag tag-locked">Requires: Heat Tolerance Adaptation</span>
+          </div>
+        </div>
+      </div>
+      <div class="biome-body">
+        <div class="biome-col">
+          <div class="biome-col-title">Key Resources</div>
+          <span class="resource-tag">Gold deposits</span>
+        </div>
+        <div class="biome-col">
+          <div class="biome-col-title">Entry Requirement</div>
+          <span class="danger-tag">Heat Tolerance Adaptation</span>
+          <br/><br/>
+          <div class="biome-col-title">Hazard Type</div>
+          <span class="danger-tag">Extreme ambient heat</span>
+        </div>
+      </div>
+      <div class="biome-desc">
+        <p>The Graveyard is one of the clearest examples of an <strong>Adaptation-gated biome</strong> in Subnautica 2. It is a thermally active hot zone — the ambient heat will damage and kill you without the <strong>Heat Tolerance Adaptation (Biomod)</strong>. You cannot enter simply by swimming there; you must have acquired the correct biological modification first.</p>
+        <p>Once you have Heat Tolerance, the Graveyard offers concentrated <strong>Gold deposits</strong>. Gold is a mid-game crafting essential for electronics. The biome's name reflects its visual character — it is a grim, geothermally scarred landscape of dead or dying organisms that could not survive the heat, contrasting sharply with the lush Shallows nearby.</p>
+        <div class="warn-box" style="margin-top:10px;">
+          <div class="box-label">⚠️ Do Not Attempt Without Heat Tolerance</div>
+          The Graveyard's heat will cause continuous damage immediately upon entry if you lack the Heat Tolerance Adaptation. Unlike deep-water zones where you can retreat by ascending, there is no safe depth range inside this biome without the Biomod. Acquire the Adaptation first.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       REGION 2 — KARAKORUM
+  ════════════════════════════════════════════ -->
+  <div class="region-header" id="region-karakorum">
+    <div>
+      <div class="region-label">Region 2</div>
+      <div class="region-name">Karakorum — ~1,000m East of Start</div>
+      <div class="region-note">Reached by sustained eastward travel · Major progression landmark · Depths to 750m+</div>
+    </div>
+  </div>
+
+  <section id="root-canyon">
+    <h3>Root Canyon</h3>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-emoji">🏔️</div>
+        <div class="biome-header-info">
+          <div class="biome-name">Root Canyon</div>
+          <div class="biome-tagline">Deepest currently explorable biome — rare and exotic resources at significant depth</div>
+          <div class="biome-tags">
+            <span class="biome-tag tag-depth">~365m – 750m</span>
             <span class="biome-tag tag-hard">Danger: Very High</span>
           </div>
         </div>
@@ -664,101 +748,166 @@ footer {
       <div class="biome-body">
         <div class="biome-col">
           <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Nickel Ore (primary source)</span>
-          <span class="resource-tag">Kyanite (sparse)</span>
-          <span class="resource-tag">Uraninite</span>
-          <span class="resource-tag">Diamond</span>
-          <span class="resource-tag">Ancient Fossil Samples</span>
-          <span class="resource-tag">Alien Artifacts</span>
+          <span class="resource-tag">Celestite</span>
+          <span class="resource-tag">Gold</span>
+          <span class="resource-tag">Sulfur</span>
+          <span class="resource-tag">Silver</span>
+          <span class="resource-tag">Atacamite</span>
+          <span class="resource-tag">Conduit Crystals</span>
+          <span class="resource-tag">Angel Combs</span>
         </div>
         <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Ghost Leviathan (multiple)</span>
-          <span class="danger-tag">River Prowler</span>
-          <span class="danger-tag">Extreme darkness</span>
-          <span class="danger-tag">Brine pools (damage)</span>
+          <div class="biome-col-title">Depth Range</div>
+          <span class="gear-tag">~365m upper entrance</span>
+          <span class="gear-tag">~750m deepest floor</span>
           <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">PRAWN Suit</span>
-          <span class="gear-tag">Seamoth + Depth Mk3</span>
-          <span class="gear-tag">Grappling Arm</span>
-          <span class="gear-tag">Ion Power Cells</span>
+          <div class="biome-col-title">Status</div>
+          <span class="gear-tag">Deepest EA biome</span>
+          <span class="danger-tag">Requires vehicle depth upgrades</span>
         </div>
       </div>
       <div class="biome-desc">
-        <p>The Lost River is one of the most spectacular biomes in Subnautica 2 — a vast underground river system flowing through ancient cave networks filled with the fossilized remains of enormous leviathan-class creatures. The brine flows with a ghostly teal glow, and alien plant life illuminates the cave walls. Visually, it is breathtaking. In terms of danger, it is one of the most hostile environments in the game.</p>
-        <p><strong>Nickel Ore</strong> is found almost exclusively in the Lost River — this makes it a mandatory destination for players building PRAWN Suit upgrades and advanced vehicle modules. Enter via the narrow cave passages from the Deep Grand Reef — these tunnels are too small for Ghost Leviathans to follow, making them the safest entry route.</p>
-        <p>The Lost River also contains critical story content — alien structures and data terminals that reveal major lore about the planet's history. Explore thoroughly and scan everything. Don't rush this biome; the story content here changes how you interpret the entire game.</p>
+        <p>Root Canyon is the deepest currently explorable biome in the Early Access build of Subnautica 2, accessible from around 365m and plunging to approximately 750m at its lowest point. Located within the Karakorum region (~1,000m east of the starting Lifepod), reaching Root Canyon is itself a significant logistical achievement.</p>
+        <p>The resource roster here reflects its late-progression status: <strong>Celestite</strong>, <strong>Atacamite</strong>, <strong>Conduit Crystals</strong>, and <strong>Angel Combs</strong> are unique to this depth range and unavailable elsewhere. Gold and Silver appear in quantity for players who have not exhausted shallower sources. Sulfur deposits support thermal energy systems.</p>
+        <p><em>Depth ranges are from the current Early Access build and may shift with patches.</em></p>
         <div class="warn-box" style="margin-top:10px;">
-          <div class="box-label">⚠️ Brine Pool Warning</div>
-          The glowing brine pools on the river floor deal continuous damage. They look beautiful but are lethal if you walk into them with your PRAWN Suit. Stay on solid ground and watch your footing when harvesting near the river's edge.
+          <div class="box-label">⚠️ Vehicle Preparation Essential</div>
+          At 750m, you are beyond base vehicle depth limits. Ensure your vehicle has appropriate depth upgrades before attempting Root Canyon's lower sections. A vehicle implosion at 700m is an extremely costly setback.
         </div>
       </div>
     </div>
   </section>
 
-  <section id="lava-zone">
-    <h3>Inactive and Active Lava Zone</h3>
+  <section id="observatory">
+    <h3>Observatory Island (The Observatory)</h3>
 
     <div class="biome-card">
       <div class="biome-header">
-        <div class="biome-emoji">🌋</div>
+        <div class="biome-emoji">🔭</div>
         <div class="biome-header-info">
-          <div class="biome-name">Inactive / Active Lava Zone</div>
-          <div class="biome-tagline">The deepest frontier — volcanic hell filled with the game's most powerful resources</div>
+          <div class="biome-name">Observatory Island / The Observatory</div>
+          <div class="biome-tagline">Alien structures at ~300m — a story-critical location in the Karakorum region</div>
           <div class="biome-tags">
-            <span class="biome-tag tag-depth">600–1700m depth</span>
-            <span class="biome-tag tag-extreme">Danger: Extreme</span>
+            <span class="biome-tag tag-depth">~300m</span>
+            <span class="biome-tag tag-medium">Danger: Medium</span>
+          </div>
+        </div>
+      </div>
+      <div class="biome-body">
+        <div class="biome-col">
+          <div class="biome-col-title">Key Features</div>
+          <span class="resource-tag">Alien structures</span>
+          <span class="resource-tag">Story content</span>
+          <span class="resource-tag">Data terminals</span>
+        </div>
+        <div class="biome-col">
+          <div class="biome-col-title">Depth</div>
+          <span class="gear-tag">~300m</span>
+          <br/><br/>
+          <div class="biome-col-title">Region</div>
+          <span class="gear-tag">Karakorum region</span>
+        </div>
+      </div>
+      <div class="biome-desc">
+        <p>The Observatory (also called Observatory Island) sits at approximately 300m depth within the Karakorum region. It is defined by the presence of <strong>alien structures</strong> — evidence of pre-human activity on Proteus. Like all alien structure locations in Subnautica 2, scanning everything here is essential for story progression and blueprint unlocks.</p>
+        <p>The structures appear designed for observation, consistent with the name. Their purpose ties into the broader lore of who built them, what they were observing, and how it relates to the Blight. Do not rush through — absorb the environmental storytelling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVERTISEMENT SLOT -->
+  <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
+
+  <section id="karakorum-power-plant">
+    <h3>Karakorum Power Plant</h3>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-emoji">⚡</div>
+        <div class="biome-header-info">
+          <div class="biome-name">Karakorum Power Plant</div>
+          <div class="biome-tagline">Major progression landmark in the Karakorum region — key story and mechanics milestone</div>
+          <div class="biome-tags">
+            <span class="biome-tag tag-depth">Karakorum region</span>
+            <span class="biome-tag tag-hard">Danger: High</span>
+          </div>
+        </div>
+      </div>
+      <div class="biome-body">
+        <div class="biome-col">
+          <div class="biome-col-title">Significance</div>
+          <span class="resource-tag">Major progression gate</span>
+          <span class="resource-tag">Story landmark</span>
+        </div>
+        <div class="biome-col">
+          <div class="biome-col-title">Region</div>
+          <span class="gear-tag">Karakorum (~1,000m E)</span>
+        </div>
+      </div>
+      <div class="biome-desc">
+        <p>The Karakorum Power Plant is one of the most significant landmarks in the Karakorum region and a major waypoint in game progression. Reaching and interacting with it is a key story milestone. Specific mechanics tied to the Power Plant may involve activating systems, acquiring resources, or unlocking new areas — detailed walkthroughs are available in the <a href="index.html">main guide</a>.</p>
+        <p>The Power Plant's scale and purpose reflect the scope of whatever civilization used Proteus before the CICADA survivors arrived. It is not a human installation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="thermal-vents">
+    <h3>Thermal Vent Clusters</h3>
+
+    <div class="biome-card">
+      <div class="biome-header">
+        <div class="biome-emoji">🌡️</div>
+        <div class="biome-header-info">
+          <div class="biome-name">Thermal Vent Clusters</div>
+          <div class="biome-tagline">Hot zones in Karakorum — Gold deposits and excellent thermal power generation</div>
+          <div class="biome-tags">
+            <span class="biome-tag tag-depth">Karakorum region</span>
+            <span class="biome-tag tag-hard">Danger: High (heat)</span>
+            <span class="biome-tag tag-locked">Check Heat Tolerance req.</span>
           </div>
         </div>
       </div>
       <div class="biome-body">
         <div class="biome-col">
           <div class="biome-col-title">Key Resources</div>
-          <span class="resource-tag">Kyanite (primary source)</span>
-          <span class="resource-tag">Ion Crystals</span>
-          <span class="resource-tag">Uraninite (rich)</span>
-          <span class="resource-tag">Nickel Ore</span>
-          <span class="resource-tag">Diamond</span>
-          <span class="resource-tag">Alien Technology Components</span>
+          <span class="resource-tag">Gold</span>
+          <br/><br/>
+          <div class="biome-col-title">Energy Potential</div>
+          <span class="resource-tag">Thermal power (abundant)</span>
         </div>
         <div class="biome-col">
-          <div class="biome-col-title">Dangers</div>
-          <span class="danger-tag">Sea Dragon Leviathan</span>
-          <span class="danger-tag">Lava Larva (drains power)</span>
-          <span class="danger-tag">Lava Geysers</span>
-          <span class="danger-tag">Environmental lava damage</span>
+          <div class="biome-col-title">Hazard</div>
+          <span class="danger-tag">Extreme heat (hot zone)</span>
           <br/><br/>
-          <div class="biome-col-title">Recommended Gear</div>
-          <span class="gear-tag">PRAWN Suit + Depth Mk3</span>
-          <span class="gear-tag">Torpedo Arm</span>
-          <span class="gear-tag">Ion Power Cells</span>
-          <span class="gear-tag">Thermal Reactor</span>
+          <div class="biome-col-title">Best Use</div>
+          <span class="gear-tag">Thermal reactor base location</span>
+          <span class="gear-tag">Gold farming</span>
         </div>
       </div>
       <div class="biome-desc">
-        <p>The Lava Zone is divided into two sub-biomes. The <strong>Inactive Lava Zone</strong> (600–900m) is geologically calm — ancient basalt formations and fossilized lava tubes, relatively stable to navigate. The <strong>Active Lava Zone</strong> (900m+) is a living hell — rivers of flowing magma, constant geyser eruptions, and the most dangerous creature in the game.</p>
-        <p>The <strong>Sea Dragon Leviathan</strong> patrols the Active Lava Zone. This creature is enormous — large enough to grip and lift even the PRAWN Suit. Do not fight it; use Torpedo Arms to distract it and sprint past. It is territorial and will disengage if you leave its patrol area.</p>
-        <p><strong>Lava Larvae</strong> are a subtle but devastating hazard — small creatures that attach to your PRAWN Suit and drain its power cells. In the Active Lava Zone, a PRAWN Suit with attached Lava Larvae can be drained completely in minutes. Brush them off with the Suit's arms immediately upon detection.</p>
-        <p>The final story objectives of Subnautica 2 are located in the Active Lava Zone — in the Primary Alien Containment Facility. Bring Ion Power Cells, fully upgraded depth modules, and a plan. This is not a zone to casually explore. In <a href="coop.html">co-op</a>, bring all four players — having teammates covering different threat vectors makes the Sea Dragon Leviathan encounters survivable.</p>
+        <p>The Thermal Vent Clusters in Karakorum are classified as hot zones — approach with the same caution you would apply to the Graveyard in Coral Gardens. <strong>Verify whether your Heat Tolerance Adaptation is required</strong> before entering vent-proximate zones; this may vary by specific cluster location.</p>
+        <p><strong>Gold</strong> concentrates around active thermal vents. More practically, these clusters are ideal locations for <strong>thermal power generation</strong> — outpost bases built near active vents can run thermal reactors at high efficiency with no ongoing fuel cost. A forward base here provides excellent staging for deeper Karakorum exploration.</p>
         <div class="tip-box" style="margin-top:10px;">
-          <div class="box-label">💡 Thermal Power in the Lava Zone</div>
-          Thermal Reactors generate power from ambient heat — and the Lava Zone is extremely hot. Build a small outpost base here powered entirely by Thermal Reactors at zero ongoing resource cost. Use it as a staging point for deep exploration runs.
+          <div class="box-label">💡 Thermal Base Strategy</div>
+          The Karakorum Thermal Vent Clusters are among the best locations in the current Early Access build for thermal reactor output. If you are establishing a forward operating base in the Karakorum region, build it near a vent cluster for free, sustained power.
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ═══════════════════════════════════════════
+       PROGRESSION TABLE
+  ════════════════════════════════════════════ -->
   <section id="progression">
     <h3>Biome Progression Order</h3>
-    <p>Follow this sequence to progress efficiently through Subnautica 2. Deviating (going deeper than your gear supports) is the number one cause of vehicle loss and player death.</p>
+    <p>Follow this sequence to progress efficiently through Subnautica 2 on Proteus. Some biomes require Adaptations (Biomods) — depth alone is not always the gating factor.</p>
 
     <table>
       <thead>
         <tr>
           <th>Stage</th>
-          <th>Biome(s)</th>
-          <th>Depth</th>
+          <th>Biome</th>
+          <th>Region</th>
           <th>Unlock Requirement</th>
           <th>Goal</th>
         </tr>
@@ -766,98 +915,107 @@ footer {
       <tbody>
         <tr>
           <td><span class="diff-badge diff-easy">Stage 1</span></td>
-          <td>Safe Shallows</td>
-          <td>0–50m</td>
+          <td>The Shallows</td>
+          <td>Coral Gardens</td>
           <td>Starting gear only</td>
-          <td>Gather Titanium, Copper, Table Coral; build Scanner, O2 Tank, Knife</td>
+          <td>Titanium, Copper, Quartz, Fibrous Pulp, Medical Gel Sacs</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-easy">Stage 2</span></td>
-          <td>Kelp Forest</td>
-          <td>0–100m</td>
-          <td>Survival Knife, basic O2</td>
-          <td>Bulk collect Creepvine Samples and Seeds; Fiber Mesh stockpile</td>
+          <td>The Plateaus</td>
+          <td>Coral Gardens</td>
+          <td>Basic dive gear; N/NE heading</td>
+          <td>Explore open terrain, scan jellyfish-like creatures</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-easy">Stage 3</span></td>
-          <td>Grassy Plateaus</td>
-          <td>50–200m</td>
-          <td>Seamoth (base depth)</td>
-          <td>Silver Ore for Wiring Kits; Gold for Computer Chips; establish base</td>
+          <td>Lead Zone</td>
+          <td>Coral Gardens</td>
+          <td>Basic dive gear; E heading</td>
+          <td>Lead deposits for early crafting recipes</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-medium">Stage 4</span></td>
-          <td>Mushroom Forest</td>
-          <td>100–300m</td>
-          <td>Seamoth + Depth Mk1</td>
-          <td>Gold stockpile; Magnetite for Stasis Rifle; scan fragments</td>
+          <td>Necrolei Hills</td>
+          <td>Coral Gardens</td>
+          <td>Basic dive gear; NW heading</td>
+          <td>Silver, Copper; first heavy Blight encounter; scan mutations</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-medium">Stage 5</span></td>
-          <td>Blood Kelp + Deep Grand Reef</td>
-          <td>150–400m</td>
-          <td>Seamoth + Depth Mk2</td>
-          <td>Diamond; Lithium for Plasteel; Nickel for PRAWN upgrades</td>
+          <td>Dolerite Spires</td>
+          <td>Coral Gardens</td>
+          <td>Light source, compass</td>
+          <td>Navigate maze terrain; scan unique geological formations</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-hard">Stage 6</span></td>
-          <td>Lost River</td>
-          <td>300–600m</td>
-          <td>PRAWN Suit or Seamoth Mk3</td>
-          <td>Nickel Ore; story content; Alien structures and data terminals</td>
+          <td>Graveyard</td>
+          <td>Coral Gardens</td>
+          <td><strong>Heat Tolerance Adaptation required</strong></td>
+          <td>Gold deposits; blocked entirely without Biomod</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-hard">Stage 7</span></td>
-          <td>Inactive Lava Zone</td>
-          <td>600–900m</td>
-          <td>PRAWN Suit + Depth Mk2</td>
-          <td>Kyanite; Ion Crystals; Alien tech; prepare for endgame</td>
+          <td>Observatory Island</td>
+          <td>Karakorum (~1,000m E)</td>
+          <td>Vehicle capable of ~300m + eastward range</td>
+          <td>Alien structures; story lore; blueprint unlocks</td>
         </tr>
         <tr>
           <td><span class="diff-badge diff-hard">Stage 8</span></td>
-          <td>Active Lava Zone</td>
-          <td>900m+</td>
-          <td>PRAWN Suit + Depth Mk3 + Ion Cells</td>
-          <td>Final story objectives; Primary Containment Facility</td>
+          <td>Thermal Vent Clusters + Power Plant</td>
+          <td>Karakorum</td>
+          <td>Heat Tolerance (for vent zones); vehicle depth</td>
+          <td>Gold; thermal base setup; Power Plant story progression</td>
+        </tr>
+        <tr>
+          <td><span class="diff-badge diff-hard">Stage 9</span></td>
+          <td>Root Canyon</td>
+          <td>Karakorum</td>
+          <td>Vehicle with depth upgrades to 750m</td>
+          <td>Celestite, Atacamite, Conduit Crystals, Angel Combs — deepest EA content</td>
         </tr>
       </tbody>
     </table>
+
+    <div class="info-box">
+      <div class="box-label">📌 Early Access Note</div>
+      <p>This progression table reflects the current Early Access build. Additional biomes, regions, and Adaptation gates will be added as development continues. The World Tree is visible but not yet accessible.</p>
+    </div>
   </section>
 
+  <!-- ═══════════════════════════════════════════
+       MASTER RESOURCES TABLE
+  ════════════════════════════════════════════ -->
   <section id="resources-table">
     <h3>Master Resources by Biome Table</h3>
-    <p>Use this as a quick reference to find any resource. Resources listed in <strong>bold</strong> indicate the primary source biome for that material.</p>
+    <p>Use this as a quick reference to find any resource. Resources in <strong>bold</strong> indicate the primary or exclusive source biome for that material in the current Early Access build.</p>
 
     <table>
       <thead>
         <tr>
           <th>Resource</th>
           <th>Primary Biome(s)</th>
-          <th>Depth Range</th>
-          <th>Form</th>
+          <th>Region</th>
+          <th>Notes</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td><strong>Titanium</strong></td><td>Safe Shallows, All Biomes</td><td>0–200m</td><td>Orange limestone rocks, shale outcrops</td></tr>
-        <tr><td><strong>Copper Ore</strong></td><td>Safe Shallows, Kelp Forest</td><td>0–200m</td><td>Green-spotted rocks</td></tr>
-        <tr><td><strong>Quartz</strong></td><td>Safe Shallows, Kelp Forest</td><td>0–100m</td><td>White crystalline rocks</td></tr>
-        <tr><td><strong>Table Coral</strong></td><td>Safe Shallows</td><td>0–50m</td><td>Flat coral formations</td></tr>
-        <tr><td><strong>Acid Mushroom</strong></td><td>Safe Shallows, Kelp Forest</td><td>0–100m</td><td>Mushroom-type fauna</td></tr>
-        <tr><td><strong>Creepvine Samples</strong></td><td>Kelp Forest</td><td>0–100m</td><td>Knife the kelp vine strands</td></tr>
-        <tr><td><strong>Creepvine Seeds</strong></td><td>Kelp Forest</td><td>0–100m</td><td>Glowing bulbs atop creepvine</td></tr>
-        <tr><td><strong>Silver Ore</strong></td><td>Grassy Plateaus</td><td>50–250m</td><td>Shale outcrops</td></tr>
-        <tr><td><strong>Gold</strong></td><td>Mushroom Forest, Grassy Plateaus</td><td>100–350m</td><td>Shale outcrops (high drop rate)</td></tr>
-        <tr><td><strong>Lead</strong></td><td>All mid biomes</td><td>50–200m</td><td>Dark grey rocks with radiation markers</td></tr>
-        <tr><td><strong>Magnetite</strong></td><td>Mushroom Forest, Mountains</td><td>100–300m</td><td>Dark volcanic rocks</td></tr>
-        <tr><td><strong>Lithium</strong></td><td>Deep Grand Reef, Grassy Plateaus</td><td>100–400m</td><td>Lavender-purple rocks</td></tr>
-        <tr><td><strong>Diamond</strong></td><td>Blood Kelp, Deep Grand Reef</td><td>200–500m</td><td>Shale outcrops + large deposits</td></tr>
-        <tr><td><strong>Nickel Ore</strong></td><td>Lost River</td><td>300–600m</td><td>Orange-brown rocks on river floor</td></tr>
-        <tr><td><strong>Uraninite</strong></td><td>Lost River, Active Lava Zone</td><td>400–900m</td><td>Green-glowing rocks</td></tr>
-        <tr><td><strong>Kyanite</strong></td><td>Inactive/Active Lava Zone</td><td>600–900m</td><td>Blue crystal clusters on cave walls</td></tr>
-        <tr><td><strong>Ion Crystals</strong></td><td>Active Lava Zone, Alien Structures</td><td>800m+</td><td>Alien containment units</td></tr>
-        <tr><td><strong>Cave Sulfur</strong></td><td>Crash Zone, Kelp Forest caves</td><td>0–100m</td><td>Dropped by Crashfish</td></tr>
-        <tr><td><strong>Stalker Teeth</strong></td><td>Kelp Forest</td><td>0–100m</td><td>Dropped by Stalkers near Metal Salvage</td></tr>
-        <tr><td><strong>Blood Oil</strong></td><td>Blood Kelp Zone</td><td>150–300m</td><td>Unique kelp strands in Blood Kelp</td></tr>
+        <tr><td><strong>Titanium</strong></td><td>The Shallows</td><td>Coral Gardens</td><td>Most abundant near Lifepod</td></tr>
+        <tr><td><strong>Copper</strong></td><td>The Shallows, Necrolei Hills</td><td>Coral Gardens</td><td>Essential for early electronics</td></tr>
+        <tr><td><strong>Quartz</strong></td><td>The Shallows</td><td>Coral Gardens</td><td>White crystalline deposits</td></tr>
+        <tr><td><strong>Fibrous Pulp</strong></td><td>The Shallows</td><td>Coral Gardens</td><td>Fiber Mesh equivalent for Proteus</td></tr>
+        <tr><td><strong>Medical Gel Sacs</strong></td><td>The Shallows</td><td>Coral Gardens</td><td>Critical healing resource; stockpile early</td></tr>
+        <tr><td><strong>Lead</strong></td><td>Lead Zone (caves ~60m E)</td><td>Coral Gardens</td><td>Primary local source</td></tr>
+        <tr><td><strong>Silver</strong></td><td>Necrolei Hills</td><td>Coral Gardens</td><td>Mid-game crafting essential</td></tr>
+        <tr><td><strong>Necrolei Cysts</strong></td><td>Necrolei Hills</td><td>Coral Gardens</td><td>Blight mutation product; unique to this biome</td></tr>
+        <tr><td><strong>Gold</strong></td><td>Graveyard (Heat Tol. req.), Thermal Vent Clusters, Root Canyon</td><td>Both regions</td><td>Multiple sources; Graveyard requires Biomod</td></tr>
+        <tr><td><strong>Sulfur</strong></td><td>Root Canyon</td><td>Karakorum</td><td>Thermal energy systems</td></tr>
+        <tr><td><strong>Celestite</strong></td><td>Root Canyon</td><td>Karakorum</td><td>Unique to Root Canyon depth range</td></tr>
+        <tr><td><strong>Atacamite</strong></td><td>Root Canyon</td><td>Karakorum</td><td>Rare; Root Canyon exclusive in EA</td></tr>
+        <tr><td><strong>Conduit Crystals</strong></td><td>Root Canyon</td><td>Karakorum</td><td>Unique to Root Canyon depth range</td></tr>
+        <tr><td><strong>Angel Combs</strong></td><td>Root Canyon</td><td>Karakorum</td><td>Unique to Root Canyon depth range</td></tr>
       </tbody>
     </table>
 
@@ -870,7 +1028,7 @@ footer {
 </div><!-- end page-wrapper -->
 
 <footer>
-  <p>Subnautica 2 Biomes Guide · Updated May 2026 · Based on Early Access version</p>
+  <p>Subnautica 2 Biomes Guide · Updated May 2026 · Based on Early Access build · Depths may shift with patches</p>
   <p style="margin-top:8px;">
     <a href="index.html">← Complete Guide</a> ·
     <a href="crafting.html">Crafting Recipes</a> ·

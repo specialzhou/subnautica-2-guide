@@ -501,7 +501,7 @@ footer {
 
   <section id="hull-integrity">
     <h3>Hull Integrity Explained</h3>
-    <p>Hull integrity is the structural health of your base. It starts at 10 and represents how well your base can withstand water pressure. If hull integrity drops to 0, your base floods and begins taking damage. Here is how it works:</p>
+    <p>Hull integrity is the structural health of your base. It <strong>starts at 10</strong> and represents how well your base can withstand water pressure. If hull integrity falls <strong>below zero</strong>, your base floods — and in Subnautica 2 this is worse than the original game: <strong>multiple sections can flood simultaneously</strong>, not just one at a time. Here is how it works:</p>
 
     <div class="integrity-meter">
       <h4>Hull Integrity Impact per Room Type</h4>
@@ -537,7 +537,12 @@ footer {
       </div>
     </div>
 
-    <p>If your Hull Integrity drops below 0, warning alarms sound and your base begins taking damage. To fix this, either <strong>remove modules</strong> (reduces complexity) or add <strong>Reinforcement pieces</strong> to the hull exterior. Reinforcements are cheap (<code>Titanium ×3</code> each) and add +7 integrity each — essential for large deep-water bases.</p>
+    <p>If your Hull Integrity drops below 0, warning alarms sound and your base begins taking damage — with <strong>multiple sections flooding simultaneously</strong> in Subnautica 2 (significantly worse than the original). To fix this, either <strong>remove modules</strong> (reduces complexity) or add <strong>Reinforcement pieces</strong> to the hull exterior. Reinforcements are cheap (<code>Titanium ×3</code> each) and add +7 integrity each — essential for large deep-water bases.</p>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Multi-Section Flooding Warning</div>
+      Unlike the original Subnautica where flooding was contained to individual sections, Subnautica 2's flooding mechanic can cascade across multiple rooms at once when integrity drops below zero. Do not wait until you are in the red — keep integrity comfortably above zero, especially at depth.
+    </div>
 
     <div class="tip-box">
       <div class="box-label">💡 Always Check Integrity</div>
@@ -545,7 +550,7 @@ footer {
     </div>
 
     <h3>Depth and Integrity</h3>
-    <p>Water pressure at depth increases the effective load on your hull. While the game does not explicitly show a "pressure penalty" on integrity, the risk of hull damage from creature attacks and random events is higher in deeper biomes. A base at 500m should have significantly higher integrity than one at 50m to maintain the same safety margin.</p>
+    <p>Water pressure at depth affects hull integrity with a <strong>depth multiplier</strong>: negative integrity changes (adding rooms, large structures) are multiplied by depth, making each new room more costly at greater depths. Positive changes — adding Foundations and Reinforcements — are <em>not</em> depth-scaled, so they remain equally effective at any depth. This means deep bases require proportionally more Reinforcements than shallow ones. A base at 500m should have significantly higher integrity than one at 50m.</p>
   </section>
 
   <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — Replace with AdSense code -->
@@ -557,11 +562,12 @@ footer {
 
     <ol class="step-list">
       <li><strong>Foundation + 1× I-Corridor + 1× Hatch.</strong> The absolute minimum viable base. It is an air pocket. That alone makes it valuable. Cost: ~Titanium ×5, Lead ×2, Quartz ×2.</li>
-      <li><strong>Fabricator (Base).</strong> Place immediately inside your first room. Now you can craft away from your escape pod. Recipe: Titanium ×1 + Gold ×2 + Copper Wire ×1.</li>
-      <li><strong>2–4 Lockers.</strong> Storage is immediately critical. Each Locker holds ~16 slots. Fill your base with them before adding anything else. Recipe per Locker: Titanium ×2.</li>
-      <li><strong>Solar Panel (×2 minimum).</strong> Power your base. Two solar panels cover a small base comfortably at depths under 100m. Recipe: Quartz ×2 + Titanium ×3 each.</li>
+      <li><strong>Fabricator (Base) — build a new one immediately.</strong> The lifepod Fabricator is intentionally broken and limited — it cannot craft everything you need. Build a proper base Fabricator as your very first interior module. Recipe: Titanium ×1 + Gold ×2 + Copper Wire ×1.</li>
+      <li><strong>Storage Lockers (×4 minimum).</strong> Storage is immediately critical. Each Locker holds ~16 slots. Fill your base with them early — running out of storage mid-resource-run is one of the most frustrating setbacks in the game. Recipe per Locker: Titanium ×2.</li>
+      <li><strong>Solar Panel (×2 minimum).</strong> Power your base. Two solar panels cover a small base comfortably at depths under 100m. Recipe: <strong>Titanium ×1 + Quartz ×2</strong> each. Unlocked by default — no scanning required.</li>
+      <li><strong>Processor / Biolab.</strong> Expands your crafting options significantly. Build these before diving into mid-game technology.</li>
       <li><strong>Modification Station.</strong> Unlocks tank upgrades, Rebreather crafting, and equipment improvements. Recipe: Titanium ×2 + Cave Sulfur ×2 + Computer Chip ×1.</li>
-      <li><strong>Moonpool.</strong> Lets you dock and upgrade the Seamoth. Large hull cost (−2), but essential once you build your first vehicle. Recipe: Titanium Ingot ×2 + Lubricant ×1 + Lead ×2.</li>
+      <li><strong>Moonpool.</strong> Lets you dock and upgrade the Seamoth/Tadpole. Large hull cost (−2), but essential once you build your first vehicle. Recipe: Titanium Ingot ×2 + Lubricant ×1 + Lead ×2. Note: natural moonpools (air-pocket caverns) exist in the world — you can dock vehicles in these without building a Moonpool module.</li>
       <li><strong>Vehicle Upgrade Console.</strong> Installs inside the Moonpool area. Crafts vehicle depth and speed modules. Recipe: Computer Chip ×1 + Titanium ×5 + Gold ×2.</li>
       <li><strong>Alien Containment Room.</strong> A large glass room that farms fish. Place 2 of any fish species inside and they breed. Recipe (Large Room): Titanium ×3 + Glass ×2 per wall segment.</li>
       <li><strong>Nuclear/Thermal Reactor.</strong> For deep bases where solar does not reach. Thermal Reactors place near hydrothermal vents and generate free infinite power. Recipe varies.</li>
@@ -672,63 +678,75 @@ footer {
 
   <section id="power-systems">
     <h3>Power Systems Guide</h3>
-    <p>Your base needs power to run Fabricators, charge vehicles in the Moonpool, and maintain systems like the Alien Containment and Grow Beds. Running out of power shuts down everything. Here are all the power sources:</p>
+    <p>Your base needs power to run Fabricators, charge vehicles in the Moonpool, and maintain life-support systems. Here are all the power sources available:</p>
+
+    <div class="warn-box">
+      <div class="box-label">🚨 Critical — Power Loss = Drowning</div>
+      Running out of base power <strong>shuts off oxygen generation</strong>. You have approximately <strong>45 seconds</strong> to reach breathable air before drowning. Always maintain redundant power sources — never rely on a single generator. This is not a minor inconvenience; it is a survival-critical warning.
+    </div>
 
     <table>
       <thead>
         <tr>
           <th>Power Source</th>
           <th>Output</th>
-          <th>Depth Limit</th>
-          <th>Fuel / Requirement</th>
+          <th>Recipe</th>
+          <th>Requirement / Notes</th>
           <th>Best For</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td><strong>Solar Panel</strong></td>
-          <td>75/day (100% at 0m)</td>
-          <td>Effective under 200m</td>
-          <td>None — free, infinite</td>
-          <td>Early &amp; mid-game shallow bases</td>
+          <td>~8/sec (day) · ~1/sec (dark)</td>
+          <td>Titanium ×1 + Quartz ×2</td>
+          <td>Default unlock — no scanning needed. Efficient above 200m.</td>
+          <td>Early game — best first power source</td>
+        </tr>
+        <tr>
+          <td><strong>Hydroelectric Turbine</strong></td>
+          <td>~12/sec constant</td>
+          <td>Scan fragments to unlock</td>
+          <td>Requires placement in a strong underwater current</td>
+          <td>Long-term no-fuel power where currents exist</td>
         </tr>
         <tr>
           <td><strong>Thermal Plant</strong></td>
-          <td>Varies (scales with heat)</td>
-          <td>No limit</td>
-          <td>Hydrothermal vent proximity</td>
-          <td>Deep bases near vents (300m+)</td>
+          <td>~16/sec at active vents</td>
+          <td>Scan fragments to unlock</td>
+          <td>Must be placed near hydrothermal vents. Requires heat tolerance equipment at depth.</td>
+          <td>Endgame — deep bases near vents (300m+)</td>
         </tr>
         <tr>
           <td><strong>Bioreactor</strong></td>
-          <td>Medium constant output</td>
-          <td>No limit</td>
-          <td>Organic materials (plants, fish)</td>
-          <td>Mid-game supplement when solar insufficient</td>
+          <td>10/sec normal · 20/sec overcharged</td>
+          <td>Titanium Ingot ×2 + Copper Ingot ×2</td>
+          <td>Burns bio matter (Biofuel Blocks, Necrolei Cyst, organic material). Scan fragments to unlock.</td>
+          <td>Mid-game supplement; any depth</td>
         </tr>
         <tr>
           <td><strong>Nuclear Reactor</strong></td>
-          <td>250/unit (massive)</td>
-          <td>No limit</td>
-          <td>Reactor Rod (Uraninite ×3 + Titanium ×3)</td>
-          <td>Late-game deep bases, power-hungry setups</td>
+          <td>High baseload output</td>
+          <td>Scan fragments to unlock</td>
+          <td>Requires fuel rods. Best where thermal/current power is unavailable.</td>
+          <td>Late-game deep bases with no vent access</td>
         </tr>
         <tr>
           <td><strong>Power Transmitter</strong></td>
           <td>Extends existing source</td>
-          <td>No limit</td>
-          <td>Gold ×1 + Titanium ×1 per node</td>
-          <td>Chain power from surface to deep bases</td>
+          <td>Titanium ×1 + Copper ×1 per node</td>
+          <td>Required to daisy-chain exterior generators to your base. Each node extends the power cable.</td>
+          <td>Linking surface solar to deep base</td>
         </tr>
       </tbody>
     </table>
 
     <h3>Solar Panel Strategy</h3>
-    <p>Solar Panels are the go-to early power source. Their output scales with depth — at 0m, 100% output. At 100m, ~80%. At 200m, ~50%. Below 200m, they become insufficient for most bases. Build at least 4 Solar Panels for an early base — they are cheap and stack additively.</p>
+    <p>Solar Panels are the go-to early power source. They output approximately <strong>8 power/sec during the day</strong> and drop to about <strong>1 power/sec in darkness</strong>. Their output also scales with depth — less effective below 200m. Build at least 4 Solar Panels for an early base — they are cheap (1 Titanium + 2 Quartz each), unlocked by default, and stack additively.</p>
     <p>A Power Cell Charger installed in your base lets you recharge Power Cells from base power, which then power your vehicles. This is the key link between your base power system and your vehicle range.</p>
 
     <h3>Deep Base Power</h3>
-    <p>For bases below 200m, transition to Thermal Plants if you can find a hydrothermal vent nearby. Vents appear in the Crag Field, Grand Reef (deep), and the Lava Zones. A single Thermal Plant near a hot vent can power an entire large base indefinitely with zero fuel cost.</p>
+    <p>For bases below 200m, transition to Thermal Plants if you can find a hydrothermal vent nearby — they output ~16/sec and require no fuel. Alternatively, the Hydroelectric Turbine provides ~12/sec constant output in strong currents. For areas with neither vents nor currents, the Nuclear Reactor is your best option. <strong>Always run at least two independent power sources</strong> — remember that losing power means losing oxygen generation.</p>
 
     <div class="tip-box">
       <div class="box-label">💡 Power Buffer</div>
@@ -820,7 +838,7 @@ footer {
       </tbody>
     </table>
 
-    <p><strong>Shared Storage:</strong> All players can access the same base Lockers. Establish a naming convention early — chaotic storage in co-op becomes exponentially worse with each player who dumps items randomly. Enforce the zone system from the beginning.</p>
+    <p><strong>Shared Storage:</strong> All base Storage Lockers are fully shared — every player can open and take from any locker. Only items in a player's personal character inventory are individual. Private storage is planned but not yet in the game. Because of this, establish a naming and organization convention early — chaotic storage in co-op becomes exponentially worse with each player who dumps items randomly. Enforce the zone system from the beginning.</p>
 
     <p><strong>Parallel Base Building:</strong> Each player can build simultaneously. Two players building at once dramatically cuts construction time. Pair an Architect (places pieces) with a Miner (delivers materials) for maximum efficiency.</p>
 

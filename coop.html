@@ -337,21 +337,22 @@ footer {
   <section id="how-coop-works">
     <h3>How Co-op Works in Subnautica 2</h3>
 
-    <p>Subnautica 2 co-op uses a <strong>host-client model</strong>. One player hosts the game session and their save file is the persistent world. Other players join as clients — if the host logs off, the session ends. Client progress (inventory, personal upgrades, XP) is saved to their own file, but world changes (base construction, resources collected, story progress) are all tied to the host's save.</p>
+    <p>Subnautica 2 co-op uses a <strong>host-client model</strong>. One player hosts the game session and their machine holds the world save — the save lives on the host's computer. Other players join as clients. <strong>If the host is offline, guest players cannot access or play that world.</strong> All world changes (base construction, resources collected, story progress, Data Entries) are saved to the host's file. Make sure your regular host is available before scheduling long play sessions.</p>
 
     <div class="info-box">
-      <div class="box-label">📌 Host Responsibility</div>
-      The host player's internet connection determines the session quality for all players. If you have a slow or unstable connection, consider letting the player with the best connection host. The host can also set session privacy: Open (anyone can join), Friends Only, or Invite Only.
+      <div class="box-label">📌 Host &amp; Crossplay</div>
+      Subnautica 2 supports full crossplay between <strong>Steam, Epic Games Store, and Xbox Series X|S</strong>. Each player needs their own copy of the game. The host's internet connection determines session quality for all players — let the player with the best connection host. Session privacy options: Open (anyone can join), Friends Only, or Invite Only.
     </div>
 
     <p>Key co-op mechanics to understand:</p>
     <ul style="list-style:none;padding:0;margin:12px 0;">
       <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🌊 <strong>Shared world:</strong> Resources, structures, and creature behavior are consistent for all players</li>
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🎒 <strong>Personal inventory:</strong> Each player has their own backpack — items are not automatically shared</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📦 <strong>Shared storage lockers:</strong> All base Storage Lockers are accessible by every player — this is the primary way teams share materials. Only items in your <em>personal character inventory</em> (your backpack) are individual. <em>Note: private/personal storage is planned but not yet in the game.</em></li>
       <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🏗️ <strong>Shared base:</strong> All players contribute to and can modify the same base structures</li>
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🫁 <strong>Individual oxygen:</strong> Each player manages their own oxygen supply independently</li>
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📖 <strong>Shared blueprints:</strong> When one player scans a fragment, the blueprint unlocks for all players in the session</li>
-      <li style="padding:8px 0;font-size:14px;">🚢 <strong>Shared vehicles:</strong> Any player can pilot any vehicle — there is no vehicle ownership</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🫁 <strong>Individual oxygen:</strong> Each player manages their own oxygen bar independently. The Tadpole provides O2 while you are piloting or inside the cabin.</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📖 <strong>Shared Data Entries &amp; blueprints:</strong> When one player scans a fragment or receives a PDA entry, it unlocks for all players in the session</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🚢 <strong>Shared vehicles:</strong> Any player can pilot any vehicle — there is no vehicle ownership. Build duplicate vehicles since they are shared resources.</li>
+      <li style="padding:8px 0;font-size:14px;">🔄 <strong>Drop-in / drop-out:</strong> New players can join a mid-progression world at any time — no restrictions. A solo world can also be converted to co-op while keeping all progression.</li>
     </ul>
 
     <div class="tip-box">
@@ -366,14 +367,14 @@ footer {
     <ol class="step-list">
       <li>From the main menu, select <strong>Play</strong> then choose <strong>Multiplayer</strong> (to join a friend's session) or start a new game with multiplayer enabled</li>
       <li>To host: Start a new game, select <strong>Co-op Session</strong>, choose your privacy setting (Friends Only recommended for first playthroughs), and launch</li>
-      <li>To invite friends once in-game: Open the pause menu, go to <strong>Session Settings</strong>, and use the <strong>Invite Friends</strong> button — this sends Steam/console invites</li>
-      <li>To join a friend: From the main menu select <strong>Join Friend's Game</strong>, or accept the invite notification if they sent you one</li>
-      <li>Late-joining players spawn at the shared base if one has been built, otherwise at the escape pod location</li>
+      <li>To invite friends once in-game: Open the pause menu, go to <strong>Session Settings</strong>, and use the <strong>Invite Friends</strong> button — or share your in-game <strong>Friend Code</strong> (recommended for cross-platform play between Steam, Epic, and Xbox players)</li>
+      <li>To join a friend: From the main menu select <strong>Join Friend's Game</strong>, accept the invite notification, or enter their Friend Code directly — Friend Code is the most reliable method for cross-platform sessions</li>
+      <li>Drop-in / drop-out is fully supported — new players can join a mid-progression world at any time. Late joiners spawn at the shared base if one exists, otherwise at the escape pod location</li>
     </ol>
 
-    <div class="warn-box">
-      <div class="box-label">⚠️ Late Join Warning</div>
-      Players who join a session already in progress will spawn with a basic starting inventory — they will not have the gear their character had in previous sessions. For this reason, it is best to play regular sessions with the same group rather than constantly mixing players in and out of a run.
+    <div class="info-box">
+      <div class="box-label">📌 Solo World Conversion</div>
+      Already started a solo world and want to bring friends in? You can convert a solo save to co-op — all your existing progression, base structures, and resources carry over. No need to start fresh to play with friends.
     </div>
   </section>
 
@@ -543,8 +544,8 @@ footer {
     </table>
 
     <div class="info-box">
-      <div class="box-label">📌 Storage Organization</div>
-      In co-op, label your storage containers clearly. The Harvester returns with hundreds of resources per run — if storage is disorganized, the Builder wastes significant time finding the right materials. Dedicate specific containers to specific material categories: one for metals, one for electronic components, one for rare/exotic resources.
+      <div class="box-label">📌 Storage Is Fully Shared</div>
+      In Subnautica 2 co-op, <strong>all Storage Lockers in the base are shared</strong> — any player can open and take from any locker. Only items sitting in your personal character inventory (your backpack) are yours alone. Private/personal storage lockers are planned but not in the game yet. Because of this, label your containers clearly and agree on a naming convention early. The Harvester returns with hundreds of resources per run — if storage is disorganized, the Builder wastes significant time hunting for the right materials. Dedicate specific containers to specific categories: one for metals, one for electronic components, one for rare resources.
     </div>
 
     <h3>Recommended Base Layout for 4 Players</h3>
@@ -667,7 +668,7 @@ footer {
 
     <div class="mistake-item">
       <div class="mistake-title">No dedicated pilot for the Tadpole</div>
-      <div class="mistake-fix">Fix: The Tadpole is only useful as a team asset if someone is actively piloting it. An unattended Tadpole drifting 200m from where the team is working provides zero value. The Pilot role must be taken seriously.</div>
+      <div class="mistake-fix">Fix: The Tadpole is only useful as a team asset if someone is actively piloting it. An unattended Tadpole drifting 200m from where the team is working provides zero value. The Pilot role must be taken seriously. Also remember: all vehicles are shared — build duplicate Tadpoles or Seamoths so players are not fighting over the single vehicle.</div>
     </div>
 
     <div class="mistake-item">

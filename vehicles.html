@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Subnautica 2 Vehicles &amp; Submarines Guide 2026 | Tadpole, Seamoth &amp; More</title>
-  <meta name="description" content="Complete Subnautica 2 vehicles guide — Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first." />
-  <meta property="og:title" content="Subnautica 2 Vehicles &amp; Submarines Guide 2026 | Tadpole, Seamoth &amp; More" />
-  <meta property="og:description" content="Complete Subnautica 2 vehicles guide — Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first." />
+  <title>Subnautica 2 Vehicles Guide 2026 | Tadpole Submarine, Chassis &amp; Upgrades</title>
+  <meta name="description" content="Complete Subnautica 2 vehicles guide for Early Access 2026 — Tadpole submarine recipe, ScoutRay and Haul chassis, Vehicle Fabricator, depth limits, and co-op tips." />
+  <meta property="og:title" content="Subnautica 2 Vehicles Guide 2026 | Tadpole Submarine, Chassis &amp; Upgrades" />
+  <meta property="og:description" content="Complete Subnautica 2 vehicles guide for Early Access 2026 — Tadpole submarine recipe, ScoutRay and Haul chassis, Vehicle Fabricator, depth limits, and co-op tips." />
   <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg" />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Subnautica 2 Vehicles &amp; Submarines Guide 2026" />
-  <meta name="twitter:description" content="Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first." />
+  <meta name="twitter:title" content="Subnautica 2 Vehicles Guide 2026" />
+  <meta name="twitter:description" content="Tadpole submarine recipe, chassis swaps, depth limits, power cells, and which vehicle to build first in Subnautica 2 Early Access." />
 
   <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/vehicles.html" />
 
@@ -29,11 +29,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Subnautica 2 Vehicles & Submarines Guide 2026",
-    "description": "Complete Subnautica 2 vehicles guide — Tadpole submarine modules, Seamoth upgrades, depth limits, power cells, and which vehicle to build first.",
+    "headline": "Subnautica 2 Vehicles Guide 2026",
+    "description": "Complete Subnautica 2 vehicles guide for Early Access 2026 — Tadpole submarine recipe, ScoutRay and Haul chassis, Vehicle Fabricator, depth limits, and co-op tips.",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
     "datePublished": "2026-05-19",
-    "dateModified": "2026-05-19",
+    "dateModified": "2026-05-21",
     "inLanguage": "en",
     "author": { "@type": "Organization", "name": "GameGuide" },
     "publisher": {
@@ -253,12 +253,13 @@ p { color: var(--text); margin-bottom: 12px; }
 .diff-medium { background: rgba(245,158,11,0.15); color: var(--medium); border: 1px solid rgba(245,158,11,0.3); }
 .diff-hard { background: rgba(239,68,68,0.15); color: var(--hard); border: 1px solid rgba(239,68,68,0.3); }
 
-.tip-box, .warn-box, .info-box {
+.tip-box, .warn-box, .info-box, .early-access-box {
   border-radius: var(--radius); padding: 14px 18px; margin: 14px 0;
 }
 .tip-box { background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.25); }
 .warn-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); }
 .info-box { background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.25); }
+.early-access-box { background: rgba(138,43,226,0.07); border: 1px solid rgba(138,43,226,0.35); }
 .box-label {
   font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase;
   font-weight: 800; margin-bottom: 5px;
@@ -266,6 +267,7 @@ p { color: var(--text); margin-bottom: 12px; }
 .tip-box .box-label { color: var(--accent); }
 .warn-box .box-label { color: #f87171; }
 .info-box .box-label { color: var(--medium); }
+.early-access-box .box-label { color: #c084fc; }
 
 table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13.5px; }
 th {
@@ -326,6 +328,14 @@ footer {
 .upgrade-desc { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
 .upgrade-req { font-size: 11.5px; color: var(--accent); margin-top: 6px; }
 
+.chassis-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 18px; margin-bottom: 14px;
+}
+.chassis-card:hover { border-color: var(--accent2); }
+.chassis-name { font-size: 16px; font-weight: 800; color: var(--heading); margin-bottom: 4px; }
+.chassis-role { font-size: 12px; color: var(--accent); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
+
 @media (max-width: 640px) {
   .craft-grid { grid-template-columns: 1fr; }
   .vehicle-stats { grid-template-columns: repeat(2,1fr); }
@@ -337,8 +347,8 @@ footer {
 
 <header class="site-header">
   <div class="site-brand">⚓ GameGuide</div>
-  <h1>🚢 Subnautica 2 Vehicles &amp; Submarines Guide</h1>
-  <p class="header-sub">Tadpole Modular Sub · Seamoth · PRAWN Suit · Depth Limits · Power Management · May 2026</p>
+  <h1>🚢 Subnautica 2 Vehicles Guide</h1>
+  <p class="header-sub">Tadpole Submarine · Chassis System · Vehicle Fabricator · Power Cells · Co-op · May 2026</p>
   <div>
     <span class="badge">🔥 Early Access 2026</span>
     <span class="badge">🚢 All Vehicles</span>
@@ -353,10 +363,16 @@ footer {
   <div class="hero-image">
     <img
       src="https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg"
-      alt="Subnautica 2 Vehicles and Submarines Guide 2026"
+      alt="Subnautica 2 Vehicles Guide 2026"
       onerror="this.style.display='none';"
     />
     <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
+  </div>
+
+  <!-- EARLY ACCESS DISCLAIMER -->
+  <div class="early-access-box">
+    <div class="box-label">📅 Early Access Build — May 2026</div>
+    This guide covers the Early Access launch build (May 2026). Vehicles, recipes, and chassis options are updated as patches release. Subnautica 2 launched into Early Access with a focused vehicle roster — more vehicles are confirmed for later updates. Check back here as the game expands.
   </div>
 
   <!-- ADVERTISEMENT SLOT -->
@@ -367,609 +383,283 @@ footer {
       <div class="banner-icon">🚢</div>
       <div>
         <div class="banner-title">Subnautica 2 Vehicles — Complete Guide</div>
-        <div class="banner-sub">Every submarine, every module, every upgrade — all depths covered</div>
+        <div class="banner-sub">The Tadpole, swappable chassis, Vehicle Fabricator, and what's coming next</div>
       </div>
     </div>
 
     <div class="toc-box">
       <h4>On This Page</h4>
       <ul>
-        <li><a href="#which-first">Which Vehicle to Build First</a></li>
-        <li><a href="#tadpole">Tadpole Modular Submarine</a></li>
-        <li><a href="#seamoth">Seamoth</a></li>
-        <li><a href="#prawn">PRAWN Suit</a></li>
+        <li><a href="#vehicle-fabricator">Vehicle Fabricator — How to Build Vehicles</a></li>
+        <li><a href="#tadpole">Tadpole Submarine</a></li>
+        <li><a href="#chassis">Chassis System (ScoutRay, Haul, Seafrog)</a></li>
         <li><a href="#power-cells">Power Cell Management</a></li>
-        <li><a href="#upgrades">Vehicle Upgrades</a></li>
-        <li><a href="#depth-table">Vehicle Depth Comparison</a></li>
-        <li><a href="#biome-nav">Navigating Dangerous Biomes</a></li>
+        <li><a href="#coop-vehicles">Co-op and Vehicles</a></li>
+        <li><a href="#coming-soon">Vehicles Confirmed for Future Updates</a></li>
         <li><a href="#vehicle-tips">Pro Tips</a></li>
       </ul>
     </div>
 
-    <p>Subnautica 2 vehicles are the backbone of mid-to-late game exploration. Without a submarine, you are limited to the shallowest 50–100 meters — which means you will miss the vast majority of the ocean's resources, story content, and base-building locations. This guide covers every vehicle available in the Early Access version (May 2026), including the brand-new <strong>Tadpole modular submarine</strong>, a signature addition to the sequel's co-op-focused design.</p>
+    <p>Subnautica 2 takes a different approach to vehicles than the original game. Instead of a roster of separate submarines — a Seamoth for shallow dives, a PRAWN Suit for the depths — the sequel is built around one core vehicle, the <strong>Tadpole</strong>, which you customize through a swappable <strong>chassis system</strong>. At Early Access launch, the Tadpole is the only craftable vehicle in the game.</p>
 
-    <p>Whether you're playing <a href="coop.html">solo or with friends in co-op</a>, understanding your vehicles' depth ratings, power systems, and upgrade slots is the difference between a successful deep-sea expedition and a catastrophic loss of gear. The vehicles in Subnautica 2 are significantly more capable than those in the original game — but they also require more resources and planning to build and maintain.</p>
+    <p>This guide covers everything confirmed and verified for the May 2026 Early Access build. Where information is incomplete or still subject to change, we say so clearly rather than guessing. Subnautica 2 is actively developing — vehicles and recipes will be added throughout Early Access.</p>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Not in Subnautica 2</div>
+      The Seamoth, PRAWN Suit, Cyclops, and Seaglide are vehicles from the <strong>original Subnautica</strong>. They do not exist in Subnautica 2. If you've seen guides or videos mentioning them in the context of Subnautica 2, that information is incorrect.
+    </div>
   </section>
 
-  <section id="which-first">
-    <h3>Which Vehicle to Build First — and Why</h3>
+  <section id="vehicle-fabricator">
+    <h3>Vehicle Fabricator — How to Build the Tadpole</h3>
 
-    <p>New players often wonder whether to prioritize the Seamoth or dive straight into the Tadpole. The answer depends on whether you are playing <a href="coop.html">co-op or solo</a>.</p>
+    <p>In Subnautica 2, you don't build vehicles at a bench — you build them at the <strong>Vehicle Fabricator</strong>, a floating bay you craft and deploy in the water. Think of it as a construction rig that assembles the Tadpole hull right in front of you. You'll need to build the Vehicle Fabricator before you can craft any vehicle.</p>
 
-    <div class="tip-box">
-      <div class="box-label">🏆 Recommendation</div>
-      <strong>Solo players:</strong> Build the Seamoth first. It is cheaper, faster to construct, and gives you immediate access to 200m depth. Upgrade to the Tadpole once you have a stable resource base.<br/><br/>
-      <strong>Co-op players (2–4 players):</strong> One player should prioritize the Tadpole immediately. Its multi-passenger cabin makes resource runs dramatically more efficient when everyone can ride together.
+    <div class="craft-grid">
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🏗️</div>
+          <div>
+            <div class="craft-card-name">Vehicle Fabricator</div>
+            <div class="craft-card-desc">Floating bay — required to craft vehicles</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🔧 Fabricator (your starting workbench)</div>
+          <span class="diff-badge diff-medium">Early-Mid Game</span>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×2</span><div class="mat-location">Crafted from Titanium ore</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟠</div>
+              <div class="mat-info"><span class="mat-name">Copper Ingot</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from Copper Ore</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Glass</span><span class="mat-amount">×2</span><div class="mat-location">Crafted from Quartz</div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <p>The build order most experienced players recommend:</p>
-    <ol class="step-list">
-      <li>Craft the Mobile Vehicle Bay (deployable vehicle constructor) — requires Titanium Ingot ×1, Lubricant ×1, Power Cell ×1</li>
-      <li>Build the Seamoth for immediate mobility and 200m depth access</li>
-      <li>Install a Moonpool in your base and add the Vehicle Upgrade Console</li>
-      <li>Upgrade Seamoth with Depth Module Mk1 to push to 300m</li>
-      <li>Begin gathering resources for the Tadpole or PRAWN Suit depending on goals</li>
-      <li>Build the PRAWN Suit for accessing the 500m+ zones like the Lost River</li>
-    </ol>
+    <p>Once placed, the Vehicle Fabricator floats at the surface where you deployed it. Interact with it to open the vehicle build menu, then select the Tadpole once you have the required fragments scanned and materials gathered.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Scanning Tip</div>
+      You must scan <strong>3 Tadpole Fragments</strong> before the Tadpole blueprint becomes available in the Vehicle Fabricator. Keep an eye out for wreckage and debris fields in the early biomes — that's where fragments typically spawn.
+    </div>
   </section>
 
   <section id="tadpole">
-    <h3>Tadpole Modular Submarine</h3>
+    <h3>Tadpole Submarine</h3>
 
     <div class="vehicle-card">
       <div class="vehicle-card-header">
         <div class="vehicle-icon">🐟</div>
         <div>
           <div class="vehicle-title">Tadpole</div>
-          <div class="vehicle-tagline">Subnautica 2's signature modular submarine — fully customizable hull design</div>
+          <div class="vehicle-tagline">The only craftable vehicle at Early Access launch — modular chassis, co-op ready</div>
         </div>
       </div>
       <div class="vehicle-card-body">
         <div class="vehicle-stats">
-          <div class="stat-chip"><div class="stat-label">Base Depth</div><div class="stat-value">300m</div></div>
-          <div class="stat-chip"><div class="stat-label">Max Depth (upgraded)</div><div class="stat-value">600m+</div></div>
-          <div class="stat-chip"><div class="stat-label">Passengers</div><div class="stat-value">Up to 4</div></div>
-          <div class="stat-chip"><div class="stat-label">Power Source</div><div class="stat-value">Power Cells ×2</div></div>
-          <div class="stat-chip"><div class="stat-label">Module Slots</div><div class="stat-value">6 (expandable)</div></div>
-          <div class="stat-chip"><div class="stat-label">Speed</div><div class="stat-value">Medium</div></div>
+          <div class="stat-chip"><div class="stat-label">Base Crush Depth</div><div class="stat-value">250m</div></div>
+          <div class="stat-chip"><div class="stat-label">Upgrade Slots</div><div class="stat-value">4</div></div>
+          <div class="stat-chip"><div class="stat-label">Power Slot</div><div class="stat-value">1× Power Cell</div></div>
+          <div class="stat-chip"><div class="stat-label">Co-op</div><div class="stat-value">Side handle grip</div></div>
         </div>
 
-        <p>The <strong>Tadpole</strong> is Subnautica 2's headline new vehicle and the heart of the co-op experience. Unlike any vehicle in the original Subnautica, the Tadpole features a <strong>modular chassis system</strong> — you choose the hull configuration when constructing it, and you can add modules over time to expand its capabilities. Think of it as building a ship from components rather than clicking a single button.</p>
+        <p>The <strong>Tadpole</strong> is the signature vehicle of Subnautica 2. At its base configuration it reaches a crush depth of 250 meters — enough to cover most of the early-game zones. You pilot it from inside a pressurized cabin, with oxygen supplied while you remain seated. It has four upgrade module slots and a single Power Cell slot for power.</p>
 
-        <p>The Tadpole features a pressurized multi-passenger cabin at the front of the hull. In <a href="coop.html">co-op mode</a>, up to four players can ride simultaneously — two in the pilot/co-pilot seats and two in rear observation pods. The pilot controls movement; other passengers can deploy drones, manage modules, or scan the surrounding environment from inside the sub.</p>
+        <p>The Tadpole is designed with co-op in mind from the ground up. Side handles on the exterior let other players grab on while one player pilots — useful for short trips and for keeping the group together without needing a second vehicle early on. As the game develops and more chassis options arrive, the Tadpole's role will expand significantly.</p>
       </div>
     </div>
 
-    <h3>Tadpole Chassis Options</h3>
-    <p>When you build a Tadpole, you select a starting chassis configuration. You can only choose one at construction time — upgrading to a different chassis requires significant additional resources.</p>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Chassis</th>
-          <th>Focus</th>
-          <th>Module Slots</th>
-          <th>Best For</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Scout Hull</strong></td>
-          <td>Speed + Agility</td>
-          <td>4 slots</td>
-          <td>Exploration, fast travel, solo play</td>
-        </tr>
-        <tr>
-          <td><strong>Cargo Hull</strong></td>
-          <td>Storage capacity</td>
-          <td>5 slots, 3 cargo bays</td>
-          <td>Resource gathering, co-op mining runs</td>
-        </tr>
-        <tr>
-          <td><strong>Deep Hull</strong></td>
-          <td>Pressure resistance</td>
-          <td>5 slots</td>
-          <td>Deep-sea exploration, accessing 500m+ zones</td>
-        </tr>
-        <tr>
-          <td><strong>Combat Hull</strong></td>
-          <td>Defense and weapons</td>
-          <td>4 slots, hardpoints</td>
-          <td>Traversing <a href="biomes.html">dangerous biomes</a> with aggressive fauna</td>
-        </tr>
-      </tbody>
-    </table>
-
     <h3>Building the Tadpole — Required Materials</h3>
+
     <div class="craft-grid">
       <div class="craft-card">
         <div class="craft-card-header">
-          <div class="craft-card-icon">🏗️</div>
+          <div class="craft-card-icon">🐟</div>
           <div>
-            <div class="craft-card-name">Tadpole Core Frame</div>
-            <div class="craft-card-desc">The structural backbone of the sub</div>
+            <div class="craft-card-name">Tadpole</div>
+            <div class="craft-card-desc">Full build recipe — unlock by scanning 3 Tadpole Fragments</div>
           </div>
         </div>
         <div class="craft-card-body">
-          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
+          <div class="craft-station">🏗️ Vehicle Fabricator</div>
+          <span class="diff-badge diff-medium">Mid-Game</span>
           <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🪨</div>
-              <div class="mat-info"><span class="mat-name">Plasteel Ingot</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Titanium Ingot + Lithium ×2</div></div>
+              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×2</span><div class="mat-location">Crafted from Titanium ore</div></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🔵</div>
-              <div class="mat-info"><span class="mat-name">Enameled Glass</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Glass + Stalker Tooth</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
-              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: 2× Battery + Silicone Rubber</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🟡</div>
-              <div class="mat-info"><span class="mat-name">Advanced Wiring Kit</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: Gold + Computer Chip + Wiring Kit</div></div>
+              <div class="mat-info"><span class="mat-name">Glass</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from Quartz</div></div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">⚙️</div>
-              <div class="mat-info"><span class="mat-name">Lubricant</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Creepvine Seeds ×2</div></div>
+              <div class="mat-info"><span class="mat-name">System Chip</span><span class="mat-amount">×1</span><div class="mat-location">Crafted or found in the world</div></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×1</span><div class="mat-location">Crafted at your Fabricator</div></div>
             </li>
           </ul>
-        </div>
-      </div>
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🪟</div>
-          <div>
-            <div class="craft-card-name">Passenger Cabin Module</div>
-            <div class="craft-card-desc">Multi-seat pressurized cabin</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 10× Titanium</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info"><span class="mat-name">Enameled Glass</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from Glass + Stalker Tooth</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🟡</div>
-              <div class="mat-info"><span class="mat-name">Wiring Kit</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Silver Ore ×2</div></div>
-            </li>
-          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Remember: you need the Vehicle Fabricator built and deployed first. The Tadpole blueprint also requires scanning 3 Tadpole Fragments in the world.</p>
         </div>
       </div>
     </div>
 
     <div class="info-box">
-      <div class="box-label">📌 Tadpole Storage Note</div>
-      The Tadpole has a shared inventory system — all passengers can access the storage bins simultaneously. This is a huge advantage for <a href="coop.html">co-op resource runs</a>: your designated harvester fills the cargo bins while the pilot navigates to the next node.
+      <div class="box-label">📌 Oxygen While Piloting</div>
+      The Tadpole supplies oxygen to the pilot as long as you're seated inside. You are only consuming your personal oxygen tank when you exit the vehicle — so longer dives become practical once you have the Tadpole. Stay inside during transit; only exit when you're ready to explore on foot.
     </div>
   </section>
 
-  <section id="seamoth">
-    <h3>Seamoth</h3>
+  <section id="chassis">
+    <h3>Chassis System — Changing the Tadpole's Role</h3>
 
-    <div class="vehicle-card">
-      <div class="vehicle-card-header">
-        <div class="vehicle-icon">🐬</div>
-        <div>
-          <div class="vehicle-title">Seamoth</div>
-          <div class="vehicle-tagline">Fast, agile one-person submarine — the ideal early-game vehicle</div>
-        </div>
-      </div>
-      <div class="vehicle-card-body">
-        <div class="vehicle-stats">
-          <div class="stat-chip"><div class="stat-label">Base Depth</div><div class="stat-value">200m</div></div>
-          <div class="stat-chip"><div class="stat-label">Max Depth (Mk3)</div><div class="stat-value">900m</div></div>
-          <div class="stat-chip"><div class="stat-label">Passengers</div><div class="stat-value">1</div></div>
-          <div class="stat-chip"><div class="stat-label">Power Source</div><div class="stat-value">Power Cell ×1</div></div>
-          <div class="stat-chip"><div class="stat-label">Upgrade Slots</div><div class="stat-value">4</div></div>
-          <div class="stat-chip"><div class="stat-label">Speed</div><div class="stat-value">Fast</div></div>
-        </div>
+    <p>One of the most interesting mechanics in Subnautica 2 is the <strong>chassis swap</strong>. The Tadpole can accept different chassis configurations that fundamentally change its silhouette, capabilities, and purpose. Rather than building a new vehicle for a new task, you modify the one you already have. Chassis are unlocked the same way as the base vehicle — scan the corresponding fragments in the world, then craft the chassis at the Vehicle Fabricator.</p>
 
-        <p>The <strong>Seamoth</strong> returns from the original Subnautica as the essential first vehicle. It is relatively cheap to build, extremely agile, and can be upgraded to impressive depths with the right modules. The Seamoth is the workhouse of early and mid-game exploration — you will rely on it heavily until your <a href="biomes.html">target biomes</a> exceed its upgraded depth rating.</p>
+    <p>At Early Access launch, two chassis are confirmed: the <strong>ScoutRay</strong> and the <strong>Haul</strong>. A third, called the Seafrog, is referenced but not confirmed for the launch window.</p>
 
-        <p>The Seamoth is a single-passenger vehicle. It seats one player and has four upgrade slots accessed via the Vehicle Upgrade Console in your Moonpool. Its power cell is user-replaceable — you can carry spare cells and swap them in the field without returning to base.</p>
+    <div class="chassis-card">
+      <div class="chassis-name">ScoutRay Chassis</div>
+      <div class="chassis-role">High-speed scout configuration</div>
+      <p>The ScoutRay chassis transforms the Tadpole into an aggressive, fast-moving scout build with an acceleration of <strong>1600 cm/s²</strong>. If you're covering ground quickly, mapping new biomes, or running ahead of the group in co-op, this is the chassis you want. The sleeker profile also makes it easier to thread through tighter terrain.</p>
+      <p><strong>Recipe:</strong> 2× Plasteel Ingot, 1× Advanced Wiring Kit, 1× Dedicated Core, 1× Strong Acid</p>
+      <p style="font-size:13px;color:var(--text-dim);">Unlock: scan ScoutRay Chassis fragments in the world, then craft at the Vehicle Fabricator.</p>
+    </div>
+
+    <div class="chassis-card">
+      <div class="chassis-name">Haul Chassis</div>
+      <div class="chassis-role">Cargo and passenger capacity</div>
+      <p>The Haul chassis is built for resource runs and moving a full crew. It expands cargo capacity and provides room for additional passengers beyond what the base Tadpole supports — useful in a four-player co-op session where the group wants to gather and carry in bulk.</p>
+      <div class="info-box" style="margin-top:10px;">
+        <div class="box-label">📋 Recipe Not Yet Verified</div>
+        The Haul Chassis recipe is not confirmed in current public sources. When you scan Haul Chassis fragments in-game, the exact recipe will be revealed at that point. We won't invent numbers here — check your in-game blueprints once you have the fragments scanned.
       </div>
     </div>
 
-    <h3>Building the Seamoth — Required Materials</h3>
-    <div class="craft-grid">
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🔵</div>
-          <div>
-            <div class="craft-card-name">Seamoth</div>
-            <div class="craft-card-desc">Full build recipe</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
-          <span class="diff-badge diff-medium">Mid-Game</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 10× Titanium → 1 Ingot</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info"><span class="mat-name">Glass</span><span class="mat-amount">×2</span><div class="mat-location">Crafted from Quartz, 0–100m</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">⚙️</div>
-              <div class="mat-info"><span class="mat-name">Lubricant</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from 2× Creepvine Seeds</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
-              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 2× Battery + Silicone Rubber</div></div>
-            </li>
-          </ul>
-          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Where to find Titanium: orange ore rocks in all biomes, 0–200m. Farm 30+ pieces before starting to build.</p>
-        </div>
-      </div>
+    <div class="chassis-card" style="opacity:0.7;border-style:dashed;">
+      <div class="chassis-name">Seafrog Chassis</div>
+      <div class="chassis-role" style="color:var(--text-dim);">Status: Coming in a future update</div>
+      <p>The Seafrog chassis is referenced in development materials but is <strong>not available at Early Access launch</strong>. Its role and recipe have not been finalized. We'll update this section when it releases — do not expect to find Seafrog fragments in the May 2026 build.</p>
     </div>
 
-    <h3>Seamoth Upgrades</h3>
-    <p>All Seamoth upgrades are crafted at the <strong>Vehicle Upgrade Console</strong> inside your base's Moonpool room. The Seamoth has 4 upgrade slots — plan your loadout carefully for each dive type.</p>
-
-    <div class="upgrade-grid">
-      <div class="upgrade-item">
-        <div class="upgrade-name">Depth Module Mk1</div>
-        <div class="upgrade-desc">+100m depth (total: 300m)</div>
-        <div class="upgrade-req">Titanium ×3 + Glass ×2</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Depth Module Mk2</div>
-        <div class="upgrade-desc">+200m depth (total: 500m)</div>
-        <div class="upgrade-req">Mk1 + Plasteel Ingot ×3</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Depth Module Mk3</div>
-        <div class="upgrade-desc">+400m depth (total: 900m)</div>
-        <div class="upgrade-req">Mk2 + Kyanite ×3</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Sonar</div>
-        <div class="upgrade-desc">Pings surrounding terrain map</div>
-        <div class="upgrade-req">Copper ×2 + Ruby ×1</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Torpedo System</div>
-        <div class="upgrade-desc">Fires gas torpedoes at threats</div>
-        <div class="upgrade-req">Titanium ×2 + Lithium ×1</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Storage Module</div>
-        <div class="upgrade-desc">Adds 4×4 external storage</div>
-        <div class="upgrade-req">Titanium ×3</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Power Efficiency</div>
-        <div class="upgrade-desc">Reduces power drain by 50%</div>
-        <div class="upgrade-req">Ruby ×1 + Wiring Kit ×1</div>
-      </div>
-      <div class="upgrade-item">
-        <div class="upgrade-name">Perimeter Defense</div>
-        <div class="upgrade-desc">Electric shock repels creatures</div>
-        <div class="upgrade-req">Wiring Kit ×2 + Nickel ×2</div>
-      </div>
-    </div>
-
-    <div class="warn-box">
-      <div class="box-label">⚠️ Depth Warning</div>
-      Exceeding your Seamoth's current depth limit causes hull integrity damage. At 50m over the limit you hear cracking sounds — exit immediately. At 100m over, the sub implodes, destroying it and everything inside. Always know your current depth rating before descending.
+    <div class="tip-box">
+      <div class="box-label">💡 Chassis Strategy</div>
+      You don't need to commit to one chassis permanently. Swapping chassis costs materials but lets you repurpose the same Tadpole for different expeditions. Many players keep the ScoutRay chassis for solo biome runs and switch to the Haul chassis before coordinated co-op resource sessions.
     </div>
   </section>
 
   <!-- ADVERTISEMENT SLOT -->
   <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
 
-  <section id="prawn">
-    <h3>PRAWN Suit</h3>
-
-    <div class="vehicle-card">
-      <div class="vehicle-card-header">
-        <div class="vehicle-icon">🦾</div>
-        <div>
-          <div class="vehicle-title">PRAWN Suit</div>
-          <div class="vehicle-tagline">Pressurized Reactive Armored Waterproof Nano-suit — for extreme depths</div>
-        </div>
-      </div>
-      <div class="vehicle-card-body">
-        <div class="vehicle-stats">
-          <div class="stat-chip"><div class="stat-label">Base Depth</div><div class="stat-value">900m</div></div>
-          <div class="stat-chip"><div class="stat-label">Max Depth (Mk3)</div><div class="stat-value">1700m</div></div>
-          <div class="stat-chip"><div class="stat-label">Passengers</div><div class="stat-value">1 (pilot only)</div></div>
-          <div class="stat-chip"><div class="stat-label">Power Source</div><div class="stat-value">Power Cell ×1</div></div>
-          <div class="stat-chip"><div class="stat-label">Arm Slots</div><div class="stat-value">2</div></div>
-          <div class="stat-chip"><div class="stat-label">Upgrade Slots</div><div class="stat-value">4</div></div>
-        </div>
-
-        <p>The <strong>PRAWN Suit</strong> is a hardened exosuit designed for extreme depths — the deepest zones of Subnautica 2 that no other vehicle can reach without extensive upgrading. Unlike the Seamoth or Tadpole, the PRAWN Suit is not a submarine you sit inside — you wear it, like a mech. You walk along the seafloor, use grappling hooks to climb cliff faces, and use interchangeable arm attachments for mining, combat, and propulsion.</p>
-
-        <p>The PRAWN Suit is essential for reaching the <a href="biomes.html">Lost River, Inactive Lava Zone, and Active Lava Zone</a> — the final content areas of Subnautica 2. It is expensive to build and requires materials that are only available at 300m+, so plan accordingly.</p>
-      </div>
-    </div>
-
-    <h3>Building the PRAWN Suit — Required Materials</h3>
-    <div class="craft-grid">
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🦾</div>
-          <div>
-            <div class="craft-card-name">PRAWN Suit</div>
-            <div class="craft-card-desc">Full build recipe — late game</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🚢 Mobile Vehicle Bay</div>
-          <span class="diff-badge diff-hard">Late-Game</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info"><span class="mat-name">Plasteel Ingot</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Titanium Ingot + Lithium ×2</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🟡</div>
-              <div class="mat-info"><span class="mat-name">Aerogel</span><span class="mat-amount">×2</span><div class="mat-location">Crafted: Gel Sack + Ruby</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info"><span class="mat-name">Enameled Glass</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: Glass + Stalker Tooth</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info"><span class="mat-name">Titanium</span><span class="mat-amount">×5</span><div class="mat-location">All biomes, 0–200m</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">⚙️</div>
-              <div class="mat-info"><span class="mat-name">Lubricant</span><span class="mat-amount">×1</span><div class="mat-location">Crafted from 2× Creepvine Seeds</div></div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
-              <div class="mat-info"><span class="mat-name">Power Cell</span><span class="mat-amount">×1</span><div class="mat-location">Crafted: 2× Battery + Silicone Rubber</div></div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <h3>PRAWN Suit Arm Attachments</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Arm Attachment</th>
-          <th>Function</th>
-          <th>Key Materials</th>
-          <th>Best Use</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Drill Arm</strong></td>
-          <td>Mines large resource deposits</td>
-          <td>Diamond ×2 + Titanium ×2</td>
-          <td>Resource harvesting in deep zones</td>
-        </tr>
-        <tr>
-          <td><strong>Grappling Arm</strong></td>
-          <td>Grapple to surfaces, swing through water</td>
-          <td>Titanium ×2 + Aerogel ×1</td>
-          <td>Traversal, especially in Lost River caves</td>
-        </tr>
-        <tr>
-          <td><strong>Torpedo Arm</strong></td>
-          <td>Fires torpedoes at creatures</td>
-          <td>Titanium ×2 + Nickel ×2</td>
-          <td>Combat in <a href="biomes.html">Active Lava Zone</a></td>
-        </tr>
-        <tr>
-          <td><strong>Propulsion Arm</strong></td>
-          <td>Grabs and throws objects</td>
-          <td>Magnetite ×2 + Titanium ×2</td>
-          <td>Moving large objects, puzzle solving</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="tip-box">
-      <div class="box-label">💡 PRAWN Tip</div>
-      Equip the <strong>Grappling Arm</strong> in one slot and <strong>Drill Arm</strong> in the other for the most versatile configuration. The grapple lets you launch through water at high speed — nearly as fast as swimming with full fins. This is the recommended loadout for the Lost River and Lava Zones.
-    </div>
-  </section>
-
   <section id="power-cells">
     <h3>Power Cell Management</h3>
-    <p>All vehicles in Subnautica 2 run on Power Cells — rechargeable battery packs that drain as you move the vehicle, use active sonar, fire weapons, or run auxiliary systems. Running out of power in a deep zone is one of the most dangerous situations in the game.</p>
 
-    <h3>Power Cell Types</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Cell Type</th>
-          <th>Capacity</th>
-          <th>Recipe</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Standard Power Cell</strong></td>
-          <td>200 units</td>
-          <td>Battery ×2 + Silicone Rubber ×1</td>
-          <td>Early game; crafted at Fabricator</td>
-        </tr>
-        <tr>
-          <td><strong>Ion Power Cell</strong></td>
-          <td>1000 units</td>
-          <td>Power Cell + Ion Crystal ×2</td>
-          <td>5× capacity; requires late-game Ion Crystals</td>
-        </tr>
-      </tbody>
-    </table>
+    <p>The Tadpole runs on a single <strong>Power Cell</strong>, which is a higher-capacity battery format distinct from the smaller batteries used in handheld tools. Running out of power mid-dive is one of the more stressful situations you'll encounter — the sub goes dark and stops moving, and you're left swimming from whatever depth you're at. Avoid this with a little preparation.</p>
 
-    <p>Power cells recharge automatically in the Moonpool when your vehicle is docked. You can also manually swap cells in the field — open the vehicle's power cell panel (interact key on the rear of the Seamoth) and replace the depleted cell with a fresh one from your inventory.</p>
+    <p>The good news is that Power Cells are relatively straightforward to craft and carry. Keep a spare in your personal inventory on any dive that pushes toward your depth limit, and swap it in via the vehicle's power panel if the cell runs low before you're back at base.</p>
 
     <div class="tip-box">
       <div class="box-label">💡 Power Management Strategy</div>
-      Always carry 1–2 spare power cells in your personal inventory when diving deep. If your Seamoth or Tadpole runs out of power, you can manually insert a new cell and get moving again. Without a spare cell, you are stranded — which means swimming to the surface from potentially 500m down.
+      Craft a spare Power Cell before your first major deep dive. If the Tadpole's cell runs out at depth, you can open the power panel and insert the spare — you don't need to return to base or abandon the vehicle. Without a spare, swimming up from 200m+ is slow and oxygen-expensive.
     </div>
 
     <h3>Power Conservation Tips</h3>
     <ul style="list-style:none;padding:0;">
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🔋 Install the <strong>Power Efficiency Module</strong> to cut passive drain by 50%</li>
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🌊 Coast without thrust when traveling long horizontal distances — momentum carries you further than constant boosting</li>
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📡 Turn off <strong>Sonar</strong> when not actively mapping — it drains power continuously when active</li>
-      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">⚡ Switch to Ion Power Cells before deep expeditions — they last 5× as long</li>
-      <li style="padding:8px 0;font-size:14px;">🔌 Dock in the Moonpool between expeditions to fully recharge at no cost</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🌊 Coast when traveling long horizontal stretches — momentum carries you further than constant thrust</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">🔋 Always carry a spare Power Cell once you're regularly diving past 150m</li>
+      <li style="padding:8px 0;border-bottom:1px solid var(--border);font-size:14px;">📡 Turn off active systems when not using them — passive drain adds up over long expeditions</li>
+      <li style="padding:8px 0;font-size:14px;">🔌 Dock at base between major expeditions to recharge fully before your next run</li>
     </ul>
   </section>
 
-  <section id="depth-table">
-    <h3>Vehicle Depth Comparison Table</h3>
+  <section id="coop-vehicles">
+    <h3>Co-op and Vehicles</h3>
+
+    <p>Subnautica 2's vehicle design is built around co-op from the start, and the Tadpole reflects that clearly. The <strong>side handles</strong> on the exterior let passengers grip on while someone else pilots — it's not the same as riding inside a pressurized cabin, but it gets the group moving together without requiring a second Tadpole early on.</p>
+
+    <p>In a full group, the common split is one player piloting while others scan, gather, and manage inventory. The Haul Chassis (when unlocked) formalizes this further by adding passenger capacity and more storage, turning the Tadpole into a proper crew transport.</p>
+
+    <div class="info-box">
+      <div class="box-label">📌 Oxygen While Riding External Handles</div>
+      Players gripping the exterior handles are exposed to open water — they consume their personal oxygen supply as normal. Make sure everyone has adequate oxygen before long transits, and plan surface breaks accordingly. Only the pilot gets pressurized oxygen from inside the cabin.
+    </div>
+
+    <p>For detailed co-op strategy, communication tips, and role setups for a full four-player crew, see the <a href="coop.html">Co-op Guide</a>.</p>
+  </section>
+
+  <section id="coming-soon">
+    <h3>Vehicles Confirmed for Future Updates</h3>
+
+    <p>Unknown Worlds has been transparent about the fact that Subnautica 2 is launching Early Access with a limited vehicle roster, with more planned throughout development. Here's what's confirmed or strongly indicated for later updates:</p>
+
     <table>
       <thead>
         <tr>
           <th>Vehicle</th>
-          <th>Base Depth</th>
-          <th>Mk1</th>
-          <th>Mk2</th>
-          <th>Mk3</th>
-          <th>Accessible Biomes</th>
+          <th>Role</th>
+          <th>Status</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Seamoth</strong></td>
-          <td>200m</td>
-          <td>300m</td>
-          <td>500m</td>
-          <td>900m</td>
-          <td>Safe Shallows → Grand Reef → Lost River</td>
+          <td><strong>Large Multi-Crew Submarine</strong></td>
+          <td>Fills the "big sub" role — crew quarters, interior space, multi-room design</td>
+          <td>Planned for later Early Access. Name unconfirmed.</td>
         </tr>
         <tr>
-          <td><strong>Tadpole (Scout)</strong></td>
-          <td>300m</td>
-          <td>450m</td>
-          <td>650m</td>
-          <td>900m</td>
-          <td>Kelp Forest → Blood Kelp → Deep Grand Reef</td>
+          <td><strong>Deep-Water Mech Suit</strong></td>
+          <td>Pressurized suit for extreme depths, tied to deep biome content</td>
+          <td>Planned when deep biome content releases. Details TBD.</td>
         </tr>
         <tr>
-          <td><strong>Tadpole (Deep Hull)</strong></td>
-          <td>400m</td>
-          <td>600m</td>
-          <td>800m</td>
-          <td>1100m</td>
-          <td>Grand Reef → Lost River → Inactive Lava Zone</td>
-        </tr>
-        <tr>
-          <td><strong>PRAWN Suit</strong></td>
-          <td>900m</td>
-          <td>1100m</td>
-          <td>1400m</td>
-          <td>1700m</td>
-          <td>Lost River → Active Lava Zone → Primary Containment</td>
+          <td><strong>Seafrog Chassis</strong></td>
+          <td>Alternative Tadpole configuration</td>
+          <td>Referenced in development, not in May 2026 launch build.</td>
         </tr>
       </tbody>
     </table>
 
-    <p>For a full breakdown of what you'll find at each depth, see the <a href="biomes.html">Subnautica 2 Biomes Guide</a>. Matching the right vehicle to the right depth zone is essential for safe and efficient exploration.</p>
-  </section>
-
-  <section id="biome-nav">
-    <h3>Navigating Dangerous Biomes in Your Vehicle</h3>
-    <p>Vehicles change how creatures interact with you. Smaller vehicles like the Seamoth are targeted by many predators (Reapers, Ghost Leviathans) and can be damaged or grabbed. The Tadpole and PRAWN Suit offer significantly better protection.</p>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Biome</th>
-          <th>Main Threats</th>
-          <th>Recommended Vehicle</th>
-          <th>Tips</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="biomes.html">Safe Shallows</a></td>
-          <td>Crashfish</td>
-          <td>Any</td>
-          <td>No vehicle needed but Seamoth is convenient</td>
-        </tr>
-        <tr>
-          <td><a href="biomes.html">Kelp Forest</a></td>
-          <td>Stalkers</td>
-          <td>Seamoth</td>
-          <td>Stalkers rarely attack vehicles; safe to explore</td>
-        </tr>
-        <tr>
-          <td><a href="biomes.html">Mushroom Forest</a></td>
-          <td>Bone Sharks</td>
-          <td>Seamoth + Perimeter Defense</td>
-          <td>Defense module shocks Bone Sharks off hull</td>
-        </tr>
-        <tr>
-          <td><a href="biomes.html">Blood Kelp Zone</a></td>
-          <td>Warper, Sea Dragon</td>
-          <td>Tadpole or upgraded Seamoth</td>
-          <td>Move quickly; don't linger in open water</td>
-        </tr>
-        <tr>
-          <td><a href="biomes.html">Lost River</a></td>
-          <td>Ghost Leviathan</td>
-          <td>PRAWN Suit (in tunnels)</td>
-          <td>Ghost Leviathans don't fit in narrow passages</td>
-        </tr>
-        <tr>
-          <td><a href="biomes.html">Active Lava Zone</a></td>
-          <td>Sea Dragon Leviathan</td>
-          <td>PRAWN Suit + Torpedo Arm</td>
-          <td>Fire torpedoes to distract, move fast</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="warn-box">
-      <div class="box-label">⚠️ Leviathan Warning</div>
-      Leviathans target vehicles and can deal massive hull damage in seconds. The Seamoth has relatively low hull integrity — three bites from a Reaper Leviathan will destroy it. Always have an escape plan and know where the surface is when traversing Leviathan-heavy biomes.
+    <div class="early-access-box">
+      <div class="box-label">🔭 Early Access Roadmap Note</div>
+      The large multi-crew submarine fills the role that the Cyclops played in the original Subnautica — a mobile base you can live and work from at depth. It is not in the game yet. Similarly, the deep-water mech suit (comparable to the original PRAWN Suit) will arrive alongside the deep biome content it's designed for. Both are confirmed plans, not speculation.
     </div>
   </section>
 
   <section id="vehicle-tips">
     <h3>Pro Tips for Vehicle Mastery</h3>
 
-    <h3>Always Leave a Beacon at Your Vehicle</h3>
-    <p>When you exit your vehicle to explore on foot, always drop a <a href="crafting.html">Beacon</a> next to it. Getting back to your vehicle after an unexpected creature encounter or oxygen emergency is far easier with a visible HUD marker. Losing track of your Seamoth at 300m depth is a genuinely terrifying experience.</p>
+    <h3>Build the Vehicle Fabricator Early</h3>
+    <p>The Vehicle Fabricator is not expensive — 2 Titanium Ingots, 1 Copper Ingot, 2 Glass. Build it as soon as you have the materials and deploy it near your starting base. Then start scanning for Tadpole Fragments immediately. The Tadpole unlocks a huge amount of the game's map and makes resource gathering dramatically faster.</p>
 
-    <h3>Use the Moonpool as a Staging Area</h3>
-    <p>Your base Moonpool is more than a docking station — it is your vehicle's service bay. Use it to swap upgrades between the Seamoth and Tadpole, recharge cells, and load cargo before major expeditions. See the <a href="base-building.html">Base Building Guide</a> for Moonpool placement tips.</p>
+    <h3>Scan Everything That Looks Like Wreckage</h3>
+    <p>Tadpole Fragments, ScoutRay Chassis fragments, and Vehicle Fabricator blueprints all come from scanning debris in the environment. Make scanning a habit early — every time you see a piece of wreckage or unidentified object, scan it before you move on. Fragment scanning in Subnautica 2 is cumulative across multiple pieces, so three fragments of the same item anywhere in the world will complete the blueprint.</p>
 
-    <h3>Manage Your Upgrade Slots Situationally</h3>
-    <p>There is no single "best" upgrade loadout. Configure your slots based on what the dive demands:</p>
-    <ul style="list-style:none;padding:0;">
-      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">🔍 <strong>Exploration dive:</strong> Sonar + Depth Module + Storage + Power Efficiency</li>
-      <li style="padding:7px 0;border-bottom:1px solid var(--border);font-size:14px;">⚔️ <strong>Dangerous biome:</strong> Perimeter Defense + Torpedo + Depth Module + Power Efficiency</li>
-      <li style="padding:7px 0;font-size:14px;">📦 <strong>Resource run:</strong> 2× Storage Module + Depth Module + Power Efficiency</li>
-    </ul>
+    <h3>The Side Handles Are Better Than They Sound</h3>
+    <p>Until someone in your co-op group has the Haul Chassis or a second Tadpole, the exterior handles are how everyone travels together. Coordinate so the player with the lowest oxygen supply sets the pace. The pilot should check in verbally or via chat before descending past 100m to make sure handle riders are still comfortable on their O2.</p>
 
-    <h3>The Tadpole Is Not a Late-Game Exclusive</h3>
-    <p>Many players assume the Tadpole is a late-game vehicle. In co-op, it should be your first priority. The ability to transport your entire four-player team in one submarine changes the pacing of the game dramatically — no more splitting up and losing track of teammates. If you need coordination tips, check the <a href="coop.html">Co-op Guide</a>.</p>
+    <h3>Don't Overextend Your First Dives</h3>
+    <p>The base Tadpole crushes at 250m. That's a firm limit — go past it and the hull integrity will take damage rapidly. Respect the depth ceiling on every dive until you have the upgrade modules in place to extend it. Losing a Tadpole to crush damage is a painful and expensive setback in Early Access.</p>
 
     <div class="tip-box">
       <div class="box-label">💡 Final Tip</div>
-      Keep a spare, basic Seamoth always docked at your base even after you build the Tadpole or PRAWN Suit. It's your emergency transport if your primary vehicle gets destroyed during an expedition. The Seamoth is cheap enough that having a backup is always worth it.
+      Keep the Vehicle Fabricator deployed and accessible rather than stashing it in your inventory. Repairs, chassis swaps, and future vehicle builds all require it. A floating fabricator near your base is a quality-of-life upgrade that pays off immediately.
     </div>
   </section>
 
 </div><!-- end page-wrapper -->
 
 <footer>
-  <p>Subnautica 2 Vehicles &amp; Submarines Guide · Updated May 2026 · Based on Early Access version</p>
+  <p>Subnautica 2 Vehicles Guide · Updated May 2026 · Based on Early Access launch build</p>
   <p style="margin-top:8px;">
     <a href="index.html">← Complete Guide</a> ·
     <a href="crafting.html">Crafting Recipes</a> ·

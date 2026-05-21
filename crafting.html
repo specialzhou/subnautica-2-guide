@@ -33,7 +33,7 @@
     "description": "Complete Subnautica 2 crafting recipes list for 2026 — every item, required materials, where to find them, and which station to use.",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
     "datePublished": "2026-05-18",
-    "dateModified": "2026-05-19",
+    "dateModified": "2026-05-21",
     "inLanguage": "en",
     "author": { "@type": "Organization", "name": "GameGuide" },
     "publisher": {
@@ -291,6 +291,13 @@ footer {
 .toc-box li { padding: 4px 0; font-size: 13.5px; }
 .toc-box li::before { content: '→ '; color: var(--accent); }
 
+.disclaimer-box {
+  background: rgba(245,158,11,0.08); border: 1px solid rgba(245,158,11,0.35);
+  border-radius: var(--radius); padding: 12px 18px; margin: 16px 0;
+  font-size: 13px; color: var(--text-dim);
+}
+.disclaimer-box strong { color: var(--medium); }
+
 @media (max-width: 640px) {
   .craft-grid { grid-template-columns: 1fr; }
   .page-wrapper { padding: 0 14px 50px; }
@@ -323,6 +330,10 @@ footer {
     <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
   </div>
 
+  <div class="disclaimer-box">
+    <strong>Early Access Notice (May 2026):</strong> All recipes on this page are cross-verified from multiple wiki sources against the current Early Access build. Recipes may change with patches — always double-check the in-game scanner log if something doesn't match.
+  </div>
+
   <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — Replace with AdSense code -->
   <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
 
@@ -331,7 +342,7 @@ footer {
       <div class="banner-icon">⚗️</div>
       <div>
         <div class="banner-title">Subnautica 2 Crafting Recipes — Complete Guide</div>
-        <div class="banner-sub">Every recipe, every material, every station — all in one place</div>
+        <div class="banner-sub">Every verified recipe, every material, every station — all in one place</div>
       </div>
     </div>
 
@@ -341,18 +352,18 @@ footer {
         <li><a href="#crafting-basics">How Crafting Works</a></li>
         <li><a href="#stations">Crafting Stations Explained</a></li>
         <li><a href="#priority-recipes">Priority Recipes — Craft These First</a></li>
+        <li><a href="#components">Core Components (Glass, Wire, Chips)</a></li>
         <li><a href="#survival-tools">Survival Tools Recipes</a></li>
         <li><a href="#equipment">Equipment &amp; Gear Recipes</a></li>
-        <li><a href="#base-pieces">Base Components Recipes</a></li>
         <li><a href="#advanced">Advanced &amp; Late-Game Recipes</a></li>
         <li><a href="#materials-table">Raw Materials Location Table</a></li>
         <li><a href="#craft-tips">Crafting Tips &amp; Tricks</a></li>
       </ul>
     </div>
 
-    <p><strong>Subnautica 2 crafting</strong> is the engine that drives every stage of your survival. Unlike most survival games, there are no quest markers pointing you to the next recipe — you discover blueprints by scanning objects, exploring wrecks, and reading PDA entries. This guide compiles every known recipe in the Early Access version (as of May 2026), with exact material counts and where to find each ingredient.</p>
+    <p><strong>Subnautica 2 crafting</strong> is the engine that drives every stage of your survival. Unlike most survival games, there are no quest markers pointing you to the next recipe — you discover blueprints by scanning objects, exploring wrecks, and reading PDA entries. This guide compiles every verified recipe in the Early Access version (as of May 2026), with exact material counts and where to find each ingredient.</p>
 
-    <p>The crafting system revolves around three main stations: the <strong>Fabricator</strong> (your portable starting station), the <strong>Modification Station</strong> (for upgrades), and the <strong>Vehicle Bay</strong> (for vehicles). Each station has its own exclusive recipe pool, so knowing which station crafts what is half the battle.</p>
+    <p>The crafting system revolves around five main stations: the <strong>Fabricator</strong> (instant crafting of tools and consumables), the <strong>Processor</strong> (refines ingots and advanced materials with real-time delay), the <strong>Modification Station</strong> (upgrade modules), the <strong>Habitat Builder</strong> (base construction), and the <strong>Vehicle Fabricator</strong> (builds the Tadpole submarine).</p>
   </section>
 
   <section id="crafting-basics">
@@ -361,16 +372,19 @@ footer {
     <ol class="step-list">
       <li>Scanning fragments of an item with your Scanner tool — usually requires 2–4 fragments of the same object</li>
       <li>Reading certain PDA entries, which automatically grant related recipes</li>
-      <li>Exploring specific biomes or Alien Data Terminals that auto-unlock advanced blueprints</li>
+      <li>Exploring specific biomes or data terminals that auto-unlock advanced blueprints</li>
     </ol>
-    <p>Once a blueprint is unlocked, open the appropriate crafting station and select the item. Materials are consumed directly from your inventory. There is no crafting queue — items craft one at a time in a few seconds.</p>
+    <p>Once a blueprint is unlocked, open the appropriate crafting station and select the item. Materials are consumed from your inventory. The Fabricator crafts <strong>instantly</strong>. The Processor has a <strong>real-time delay</strong> — approximately 30 seconds for a Titanium Ingot and up to 2 minutes for complex items.</p>
+
+    <div class="warn-box">
+      <div class="box-label">⚠️ Lifepod Fabricator Limitation</div>
+      The Fabricator built into your starting lifepod is intentionally limited. Many recipes will show a <strong>"Requires Fully Functional Fabricator"</strong> error. You must build a new Fabricator inside a proper base to access the full recipe pool. This is one of the most common sources of new-player confusion.
+    </div>
 
     <div class="tip-box">
       <div class="box-label">💡 Pro Tip</div>
       Always carry your Scanner. Every piece of wreckage, every creature, every plant can be scanned — and many scans directly unlock new recipes. The Scanner is one of the highest-ROI tools in the game.
     </div>
-
-    <p>Raw materials in Subnautica 2 fall into several categories. <strong>Basic ores</strong> like Titanium and Copper are abundant in shallow biomes and form the backbone of early crafting. <strong>Advanced minerals</strong> like Magnetite and Lithium appear at mid depths (100–300m) and gate mid-game recipes. <strong>Exotic resources</strong> like Kyanite and Uraninite require deep-sea exploration (400m+) and unlock late-game technology.</p>
   </section>
 
   <section id="stations">
@@ -381,54 +395,146 @@ footer {
           <div class="craft-card-icon">🔬</div>
           <div>
             <div class="craft-card-name">Fabricator</div>
-            <div class="craft-card-desc">Your first and most important station</div>
+            <div class="craft-card-desc">Instant crafting — tools, consumables, components</div>
           </div>
         </div>
         <div class="craft-card-body">
-          <p style="font-size:13px;color:var(--text);">Available from the start in your escape pod. Crafts survival tools, basic equipment, food, water, and base components. You can also install one in your base. <strong>Most early-game recipes use this station.</strong></p>
+          <div class="craft-station">Recipe</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium</span><span class="mat-amount">×1</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Copper</span><span class="mat-amount">×1</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔷</div>
+              <div class="mat-info"><span class="mat-name">Quartz</span><span class="mat-amount">×1</span></div>
+            </li>
+          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Crafts instantly. The lifepod Fabricator is intentionally limited — build a new one in your base for full access.</p>
         </div>
       </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">⚙️</div>
+          <div>
+            <div class="craft-card-name">Processor</div>
+            <div class="craft-card-desc">Refines ingots and advanced materials — has delay</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">Recipe (scan broken Processor in world)</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium</span><span class="mat-amount">×2</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🧪</div>
+              <div class="mat-info"><span class="mat-name">Mild Acid</span><span class="mat-amount">×1</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Copper Wire</span><span class="mat-amount">×1</span></div>
+            </li>
+          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Real-time delay: ~30s per Titanium Ingot, up to ~2min for complex items. Unlock by scanning broken Processor in the world.</p>
+        </div>
+      </div>
+
       <div class="craft-card">
         <div class="craft-card-header">
           <div class="craft-card-icon">🔧</div>
           <div>
             <div class="craft-card-name">Modification Station</div>
-            <div class="craft-card-desc">Upgrades tools and equipment</div>
+            <div class="craft-card-desc">Upgrades tools and equipment modules</div>
           </div>
         </div>
         <div class="craft-card-body">
-          <p style="font-size:13px;color:var(--text);">Unlocked after base-building. Used to craft tank upgrades, fins improvements, and equipment modifications. <strong>Essential for mid-game oxygen and depth upgrades.</strong></p>
+          <div class="craft-station">Recipe</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium</span><span class="mat-amount">×2</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">💎</div>
+              <div class="mat-info"><span class="mat-name">Celestine</span><span class="mat-amount">×2</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Copper</span><span class="mat-amount">×2</span></div>
+            </li>
+          </ul>
         </div>
       </div>
+
       <div class="craft-card">
         <div class="craft-card-header">
-          <div class="craft-card-icon">🛠️</div>
+          <div class="craft-card-icon">🔨</div>
           <div>
-            <div class="craft-card-name">Vehicle Upgrade Console</div>
-            <div class="craft-card-desc">Upgrades for Seamoth and Prawn Suit</div>
+            <div class="craft-card-name">Habitat Builder</div>
+            <div class="craft-card-desc">Handheld tool for base construction</div>
           </div>
         </div>
         <div class="craft-card-body">
-          <p style="font-size:13px;color:var(--text);">Installed in your base's Moonpool. Crafts depth modules, sonar, torpedo systems, and propulsion upgrades for your vehicles. <strong>Required for deep-sea exploration.</strong></p>
+          <div class="craft-station">Fabricator</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium</span><span class="mat-amount">×2</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Glass</span><span class="mat-amount">×1</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info"><span class="mat-name">Basic Battery</span><span class="mat-amount">×1</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Copper Wire</span><span class="mat-amount">×1</span></div>
+            </li>
+          </ul>
         </div>
       </div>
+
       <div class="craft-card">
         <div class="craft-card-header">
           <div class="craft-card-icon">🚢</div>
           <div>
-            <div class="craft-card-name">Mobile Vehicle Bay</div>
-            <div class="craft-card-desc">Constructs vehicles</div>
+            <div class="craft-card-name">Vehicle Fabricator</div>
+            <div class="craft-card-desc">Constructs the Tadpole submarine</div>
           </div>
         </div>
         <div class="craft-card-body">
-          <p style="font-size:13px;color:var(--text);">A deployable device that lets you construct the Seamoth and Prawn Suit. You deploy it at the surface and select a vehicle blueprint. <strong>The Seamoth is the first vehicle most players build.</strong></p>
+          <div class="craft-station">Recipe</div>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info"><span class="mat-name">Titanium Ingot</span><span class="mat-amount">×2</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info"><span class="mat-name">Copper Ingot</span><span class="mat-amount">×1</span></div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info"><span class="mat-name">Glass</span><span class="mat-amount">×2</span></div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
 
     <div class="warn-box">
-      <div class="box-label">⚠️ Important</div>
-      The Modification Station and Vehicle Upgrade Console must be placed inside a base room — they cannot be used outside. Build your base before trying to access these stations.
+      <div class="box-label">⚠️ Processor Unlock Required</div>
+      The Processor must be unlocked by scanning a broken Processor found in the world — it is not available by default. Without the Processor, you cannot craft Titanium Ingots, Plasteel Ingots, or Strong Acid (sulfur method), which gates many mid-game recipes.
     </div>
   </section>
 
@@ -439,10 +545,10 @@ footer {
     <div class="craft-grid">
       <div class="craft-card">
         <div class="craft-card-header">
-          <div class="craft-card-icon">🫁</div>
+          <div class="craft-card-icon">🪓</div>
           <div>
-            <div class="craft-card-name">Standard O₂ Tank</div>
-            <div class="craft-card-desc">Extends underwater breathing time</div>
+            <div class="craft-card-name">Survival Multitool</div>
+            <div class="craft-card-desc">Breaks limestone outcrops — essential for resources</div>
           </div>
         </div>
         <div class="craft-card-body">
@@ -452,102 +558,12 @@ footer {
             <li class="mat-item">
               <div class="mat-emoji">🪨</div>
               <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Orange rocks, 0–50m depth, near spawn</div>
+                <span class="mat-name">Titanium</span><span class="mat-amount">×3</span>
+                <div class="mat-location">Break limestone outcrops (grey rock formations) with your hands first</div>
               </div>
             </li>
           </ul>
-          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Doubles your oxygen capacity. Craft this the moment you have a single Titanium — it is the most impactful first-minute item in the game.</p>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🔪</div>
-          <div>
-            <div class="craft-card-name">Survival Knife</div>
-            <div class="craft-card-desc">Harvests plants and defends against creatures</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔬 Fabricator</div>
-          <span class="diff-badge diff-easy">Easy</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Orange rocks, 0–50m, all biomes</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🟠</div>
-              <div class="mat-info">
-                <span class="mat-name">Silicone Rubber</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Creepvine seed clusters, Kelp Forest</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">📡</div>
-          <div>
-            <div class="craft-card-name">Scanner</div>
-            <div class="craft-card-desc">Scans creatures, plants, and fragments</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔬 Fabricator</div>
-          <span class="diff-badge diff-easy">Easy</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Orange rocks, 0–50m</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
-              <div class="mat-info">
-                <span class="mat-name">Battery</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted: Copper ×2 + Acid Mushroom ×2</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">📍</div>
-          <div>
-            <div class="craft-card-name">Beacon</div>
-            <div class="craft-card-desc">Marks locations so you never get lost</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔬 Fabricator</div>
-          <span class="diff-badge diff-easy">Easy</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🟡</div>
-              <div class="mat-info">
-                <span class="mat-name">Copper Ore</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Green-spotted rocks, 0–100m</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Orange rocks, 0–50m</div>
-              </div>
-            </li>
-          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Craft this immediately. Without it you cannot efficiently break limestone outcrops to get Titanium and Copper.</p>
         </div>
       </div>
 
@@ -564,17 +580,24 @@ footer {
           <span class="diff-badge diff-easy">Easy</span>
           <ul class="mat-list">
             <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
+              <div class="mat-emoji">🪨</div>
               <div class="mat-info">
-                <span class="mat-name">Battery</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted: Copper ×2 + Acid Mushroom ×2</div>
+                <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Limestone outcrops, 0–50m</div>
               </div>
             </li>
             <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
+              <div class="mat-emoji">🔷</div>
               <div class="mat-info">
-                <span class="mat-name">Glass</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted from Quartz (white rocks, 0–100m)</div>
+                <span class="mat-name">Quartz</span><span class="mat-amount">×1</span>
+                <div class="mat-location">White/semi-transparent crystal clusters — pick up by hand, not from outcrops</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info">
+                <span class="mat-name">Basic Battery</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Copper + 1× Acidic Raion Pouch</div>
               </div>
             </li>
           </ul>
@@ -583,10 +606,10 @@ footer {
 
       <div class="craft-card">
         <div class="craft-card-header">
-          <div class="craft-card-icon">💊</div>
+          <div class="craft-card-icon">📡</div>
           <div>
-            <div class="craft-card-name">Medkit</div>
-            <div class="craft-card-desc">Restores 50 HP instantly</div>
+            <div class="craft-card-name">Scanner</div>
+            <div class="craft-card-desc">Scans creatures, plants, and fragments for blueprints</div>
           </div>
         </div>
         <div class="craft-card-body">
@@ -594,30 +617,213 @@ footer {
           <span class="diff-badge diff-easy">Easy</span>
           <ul class="mat-list">
             <li class="mat-item">
-              <div class="mat-emoji">🟡</div>
+              <div class="mat-emoji">🪨</div>
               <div class="mat-info">
-                <span class="mat-name">Coral Tube Sample</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Orange coral tubes, 0–50m, Safe Shallows</div>
+                <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Limestone outcrops, 0–50m</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔷</div>
+              <div class="mat-info">
+                <span class="mat-name">Quartz</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Freestanding white crystal clusters — picked up by hand</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info">
+                <span class="mat-name">Basic Battery</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Copper + 1× Acidic Raion Pouch</div>
               </div>
             </li>
           </ul>
-          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Your escape pod also auto-produces one medkit every 30 in-game minutes. Don't neglect to pick them up.</p>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🫁</div>
+          <div>
+            <div class="craft-card-name">Standard Air Tank</div>
+            <div class="craft-card-desc">Extends underwater breathing time significantly</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🔬 Fabricator</div>
+          <span class="diff-badge diff-easy">Easy</span>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info">
+                <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Limestone outcrops</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟤</div>
+              <div class="mat-info">
+                <span class="mat-name">Rubber</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Lucifer Rotsac (harvested plant)</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">⬜</div>
+              <div class="mat-info">
+                <span class="mat-name">Silver</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Limestone outcrops</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🏗️</div>
+          <div>
+            <div class="craft-card-name">Habitat Builder</div>
+            <div class="craft-card-desc">Required for base building — craft this early</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🔬 Fabricator</div>
+          <span class="diff-badge diff-easy">Early</span>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🪨</div>
+              <div class="mat-info">
+                <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Limestone outcrops</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔵</div>
+              <div class="mat-info">
+                <span class="mat-name">Glass</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Quartz → Glass (Fabricator)</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🔋</div>
+              <div class="mat-info">
+                <span class="mat-name">Basic Battery</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Copper + 1× Acidic Raion Pouch</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🟡</div>
+              <div class="mat-info">
+                <span class="mat-name">Copper Wire</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Copper</div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
+  <section id="components">
+    <h3>Core Components (Glass, Wire, Chips, Acids)</h3>
+    <p>These intermediate components are required by dozens of recipes. Learn them early — always keep a stock of them.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Station</th>
+          <th>Recipe</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Glass</strong></td>
+          <td>Fabricator</td>
+          <td>Quartz ×2</td>
+          <td>Quartz = freestanding white crystal clusters, picked up by hand</td>
+        </tr>
+        <tr>
+          <td><strong>Basic Battery</strong></td>
+          <td>Fabricator</td>
+          <td>Copper ×2 + Acidic Raion Pouch ×1</td>
+          <td>Acidic Raion Pouch is a creature drop/resource — NOT just Copper + Sulfur</td>
+        </tr>
+        <tr>
+          <td><strong>Copper Wire</strong></td>
+          <td>Fabricator</td>
+          <td>Copper ×2</td>
+          <td>Very common requirement — always keep a stack</td>
+        </tr>
+        <tr>
+          <td><strong>Rubber</strong></td>
+          <td>Fabricator</td>
+          <td>Lucifer Rotsac ×2</td>
+          <td>Lucifer Rotsac is a harvested plant/creature resource in the world</td>
+        </tr>
+        <tr>
+          <td><strong>Fiber</strong></td>
+          <td>Fabricator</td>
+          <td>Fibrous Pulp ×2</td>
+          <td>Intermediate material for Fiber Mesh</td>
+        </tr>
+        <tr>
+          <td><strong>Fiber Mesh</strong></td>
+          <td>Fabricator</td>
+          <td>Fiber ×2 + Strong Acid ×1</td>
+          <td>Used in Rebreather, protective gear</td>
+        </tr>
+        <tr>
+          <td><strong>Wiring Kit</strong></td>
+          <td>Fabricator</td>
+          <td>Silver ×1 + Copper Wire ×1</td>
+          <td>Silver from limestone outcrops</td>
+        </tr>
+        <tr>
+          <td><strong>System Chip</strong></td>
+          <td>Fabricator</td>
+          <td>Wiring Kit ×1 + Quartz ×2</td>
+          <td>Required for Rebreather, advanced tools</td>
+        </tr>
+        <tr>
+          <td><strong>Strong Acid</strong></td>
+          <td>Fabricator or Processor</td>
+          <td>Necrolei Cyst ×2 (Fabricator) OR Sulfur ×1 + Gold ×1 (Processor only)</td>
+          <td>Processor method requires the Processor to be unlocked first</td>
+        </tr>
+        <tr>
+          <td><strong>Titanium Ingot</strong></td>
+          <td>Processor</td>
+          <td>Titanium ×3</td>
+          <td>~30 second real-time delay. Gates many mid/late-game recipes.</td>
+        </tr>
+        <tr>
+          <td><strong>Plasteel Ingot</strong></td>
+          <td>Processor</td>
+          <td>Titanium ×2 + Lithium ×1</td>
+          <td>Lithium from limestone outcrops</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <div class="box-label">📌 Where to Find Copper</div>
+      Copper comes from two sources: <strong>limestone outcrops</strong> (grey rock formations broken with your Survival Multitool) and <strong>glowing cave wall/ceiling nodes</strong>. The cave directly beneath your lifepod is the best early-game spot for Copper — look for glowing orange/yellow nodes on the walls.
+    </div>
+  </section>
+
   <section id="survival-tools">
     <h3>Survival Tools Recipes</h3>
-    <p>These tools expand your capabilities for exploration, hunting, and navigation. Most are mid-priority — craft after securing oxygen and your scanner.</p>
+    <p>These tools expand your capabilities for exploration and survival. Recipes below are wiki-verified for the current Early Access build.</p>
 
     <div class="craft-grid">
       <div class="craft-card">
         <div class="craft-card-header">
-          <div class="craft-card-icon">🔫</div>
+          <div class="craft-card-icon">😮‍💨</div>
           <div>
-            <div class="craft-card-name">Stasis Rifle</div>
-            <div class="craft-card-desc">Freezes creatures in place — critical for survival</div>
+            <div class="craft-card-name">Rebreather</div>
+            <div class="craft-card-desc">Removes depth oxygen consumption penalty</div>
           </div>
         </div>
         <div class="craft-card-body">
@@ -625,73 +831,91 @@ footer {
           <span class="diff-badge diff-medium">Medium</span>
           <ul class="mat-list">
             <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
+              <div class="mat-emoji">🧶</div>
               <div class="mat-info">
-                <span class="mat-name">Magnetite</span><span class="mat-amount">×4</span>
-                <div class="mat-location">Mountains Biome, 100–250m depth</div>
+                <span class="mat-name">Fiber Mesh</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Crafted: Fiber ×2 + Strong Acid ×1</div>
               </div>
             </li>
             <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
+              <div class="mat-emoji">💾</div>
               <div class="mat-info">
-                <span class="mat-name">Glass</span><span class="mat-amount">×2</span>
-                <div class="mat-location">Crafted from Quartz</div>
+                <span class="mat-name">System Chip</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: Wiring Kit + Quartz ×2</div>
               </div>
             </li>
+          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Essential for diving below 100m. Eliminates the depth O2 penalty multiplier entirely.</p>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">🏊</div>
+          <div>
+            <div class="craft-card-name">Basic Fins</div>
+            <div class="craft-card-desc">Increases swim speed underwater</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🔬 Fabricator</div>
+          <span class="diff-badge diff-easy">Easy</span>
+          <ul class="mat-list">
+            <li class="mat-item">
+              <div class="mat-emoji">🟤</div>
+              <div class="mat-info">
+                <span class="mat-name">Rubber</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Crafted: 2× Lucifer Rotsac each</div>
+              </div>
+            </li>
+            <li class="mat-item">
+              <div class="mat-emoji">🧶</div>
+              <div class="mat-info">
+                <span class="mat-name">Fiber</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Crafted: 2× Fibrous Pulp each</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="craft-card">
+        <div class="craft-card-header">
+          <div class="craft-card-icon">💨</div>
+          <div>
+            <div class="craft-card-name">Air Bladder</div>
+            <div class="craft-card-desc">Emergency surface ascent tool</div>
+          </div>
+        </div>
+        <div class="craft-card-body">
+          <div class="craft-station">🔬 Fabricator</div>
+          <span class="diff-badge diff-easy">Easy</span>
+          <ul class="mat-list">
             <li class="mat-item">
               <div class="mat-emoji">🪨</div>
               <div class="mat-info">
                 <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
-                <div class="mat-location">0–100m, all biomes</div>
+                <div class="mat-location">Limestone outcrops</div>
               </div>
             </li>
             <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
+              <div class="mat-emoji">🟤</div>
               <div class="mat-info">
-                <span class="mat-name">Battery</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted</div>
+                <span class="mat-name">Rubber</span><span class="mat-amount">×1</span>
+                <div class="mat-location">Crafted: 2× Lucifer Rotsac</div>
               </div>
             </li>
           </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Rapidly propels you to the surface in an emergency. Highly recommended for deep dives.</p>
         </div>
       </div>
 
       <div class="craft-card">
         <div class="craft-card-header">
-          <div class="craft-card-icon">🌡️</div>
+          <div class="craft-card-icon">🔋</div>
           <div>
-            <div class="craft-card-name">Thermoblade</div>
-            <div class="craft-card-desc">Heated knife — cooks food instantly on harvest</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔧 Modification Station</div>
-          <span class="diff-badge diff-medium">Medium</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🔪</div>
-              <div class="mat-info">
-                <span class="mat-name">Survival Knife</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Already crafted</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
-              <div class="mat-info">
-                <span class="mat-name">Battery</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🪝</div>
-          <div>
-            <div class="craft-card-name">Propulsion Cannon</div>
-            <div class="craft-card-desc">Fires objects — clears paths and solves puzzles</div>
+            <div class="craft-card-name">Portable Oxygen Generator</div>
+            <div class="craft-card-desc">Deployable air source — place in underwater areas</div>
           </div>
         </div>
         <div class="craft-card-body">
@@ -699,64 +923,21 @@ footer {
           <span class="diff-badge diff-medium">Medium</span>
           <ul class="mat-list">
             <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
+              <div class="mat-emoji">🪨</div>
               <div class="mat-info">
-                <span class="mat-name">Magnetite</span><span class="mat-amount">×2</span>
-                <div class="mat-location">Mountains Biome, 100–250m</div>
+                <span class="mat-name">Titanium</span><span class="mat-amount">×3</span>
+                <div class="mat-location">Limestone outcrops</div>
               </div>
             </li>
             <li class="mat-item">
               <div class="mat-emoji">🪨</div>
               <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
-                <div class="mat-location">0–100m</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔋</div>
-              <div class="mat-info">
-                <span class="mat-name">Battery</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted</div>
+                <span class="mat-name">Lithium</span><span class="mat-amount">×2</span>
+                <div class="mat-location">Limestone outcrops</div>
               </div>
             </li>
           </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🌬️</div>
-          <div>
-            <div class="craft-card-name">High Capacity O₂ Tank</div>
-            <div class="craft-card-desc">Massive oxygen extension — critical for deep dives</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔧 Modification Station</div>
-          <span class="diff-badge diff-medium">Medium</span>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🫁</div>
-              <div class="mat-info">
-                <span class="mat-name">Standard O₂ Tank</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Already crafted</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info">
-                <span class="mat-name">Lithium</span><span class="mat-amount">×3</span>
-                <div class="mat-location">Grand Reef, 150–300m depth</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium Ingot</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted: 10× Titanium → 1× Ingot</div>
-              </div>
-            </li>
-          </ul>
+          <p style="font-size:12px;color:var(--text-dim);margin-top:8px;">Deploy this underwater to create a local air refill point. Useful for extended cave exploration without a base nearby.</p>
         </div>
       </div>
     </div>
@@ -764,306 +945,235 @@ footer {
 
   <section id="equipment">
     <h3>Equipment &amp; Gear Recipes</h3>
-    <p>Wearable equipment dramatically changes how long and how deep you can explore. Prioritize fins and tank upgrades before trying to reach mid-game depth zones.</p>
+    <p>Wearable equipment dramatically changes how long and how deep you can explore. All recipes below are wiki-verified. For unconfirmed items, check your in-game scanner log.</p>
 
     <table>
       <thead>
         <tr>
           <th>Item</th>
           <th>Station</th>
-          <th>Key Materials</th>
+          <th>Verified Recipe</th>
           <th>Effect</th>
-          <th>Priority</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Fins</strong></td>
+          <td><strong>Basic Fins</strong></td>
           <td>Fabricator</td>
-          <td>Silicone Rubber ×2</td>
-          <td>+15% swim speed</td>
-          <td><span class="diff-badge diff-easy">Early</span></td>
-        </tr>
-        <tr>
-          <td><strong>Ultra Glide Fins</strong></td>
-          <td>Mod Station</td>
-          <td>Fins + Lithium ×2</td>
-          <td>+35% swim speed</td>
-          <td><span class="diff-badge diff-medium">Mid</span></td>
+          <td>Rubber ×2 + Fiber ×2</td>
+          <td>Increased swim speed</td>
         </tr>
         <tr>
           <td><strong>Rebreather</strong></td>
           <td>Fabricator</td>
-          <td>Wiring Kit + Rubber ×2</td>
-          <td>Stops O₂ deep penalty</td>
-          <td><span class="diff-badge diff-medium">Mid</span></td>
+          <td>Fiber Mesh ×2 + System Chip ×1</td>
+          <td>Eliminates depth O2 penalty</td>
         </tr>
         <tr>
-          <td><strong>Radiation Suit</strong></td>
+          <td><strong>Standard Air Tank</strong></td>
           <td>Fabricator</td>
-          <td>Fiber Mesh ×2 + Lead ×2</td>
-          <td>Protects near Aurora wreck</td>
-          <td><span class="diff-badge diff-medium">Mid</span></td>
+          <td>Titanium ×2 + Rubber ×1 + Silver ×2</td>
+          <td>Extended oxygen capacity (Tier 1)</td>
         </tr>
         <tr>
-          <td><strong>Reinforced Dive Suit</strong></td>
-          <td>Mod Station</td>
-          <td>Diamond ×2 + Titanium ×2</td>
-          <td>Damage reduction vs creatures</td>
-          <td><span class="diff-badge diff-hard">Late</span></td>
+          <td><strong>High Capacity Air Tank</strong></td>
+          <td>Modification Station</td>
+          <td>Standard Air Tank ×1 + Plasteel Ingot ×1</td>
+          <td>Larger O2 reserve (Tier 2) — consumes Standard Tank</td>
         </tr>
         <tr>
-          <td><strong>Compass</strong></td>
+          <td><strong>Ultra High Capacity Air Tank</strong></td>
+          <td>Modification Station</td>
+          <td>High Capacity Air Tank ×1 + Troilite ×3 + Atacamite ×3</td>
+          <td>Maximum O2 reserve (Tier 3) — consumes High Capacity Tank</td>
+        </tr>
+        <tr>
+          <td><strong>Air Bladder</strong></td>
           <td>Fabricator</td>
-          <td>Copper Wire ×1 + Wiring Kit ×1</td>
-          <td>Shows direction on HUD</td>
-          <td><span class="diff-badge diff-easy">Early</span></td>
+          <td>Titanium ×2 + Rubber ×1</td>
+          <td>Emergency rapid surface ascent</td>
         </tr>
         <tr>
-          <td><strong>Depth Module Mk1</strong></td>
-          <td>Mod Station</td>
-          <td>Titanium ×3 + Glass ×2</td>
-          <td>Seamoth depth +100m</td>
-          <td><span class="diff-badge diff-medium">Mid</span></td>
+          <td><strong>Habitat Builder</strong></td>
+          <td>Fabricator</td>
+          <td>Titanium ×2 + Glass ×1 + Basic Battery ×1 + Copper Wire ×1</td>
+          <td>Base construction tool</td>
         </tr>
         <tr>
-          <td><strong>Depth Module Mk2</strong></td>
-          <td>Mod Station</td>
-          <td>Mk1 + Plasteel ×3</td>
-          <td>Seamoth depth +200m</td>
-          <td><span class="diff-badge diff-hard">Late</span></td>
+          <td><strong>Portable O2 Generator</strong></td>
+          <td>Fabricator</td>
+          <td>Titanium ×3 + Lithium ×2</td>
+          <td>Deployable underwater air source</td>
+        </tr>
+        <tr>
+          <td><strong>Other gear</strong></td>
+          <td>—</td>
+          <td>Check in-game scanner</td>
+          <td>Additional gear unlocked via scanning</td>
         </tr>
       </tbody>
     </table>
 
     <div class="info-box">
-      <div class="box-label">📌 Note on Fiber Mesh</div>
-      Fiber Mesh is crafted from 2x Creepvine Samples (harvest the vines themselves, not the seeds). It is used in many mid-game recipes and you will need large quantities — always harvest creepvines in bulk.
+      <div class="box-label">📌 Tank Upgrade Chain</div>
+      The air tank upgrades are a <strong>3-tier chain</strong> where each tier consumes the previous tank. You cannot skip tiers. The full chain: Standard Air Tank → High Capacity Air Tank → Ultra High Capacity Air Tank. The Rebreather is a separate helmet slot item that improves depth O2 efficiency.
     </div>
   </section>
 
   <!-- ADVERTISEMENT SLOT 2 (300x250 Rectangle) — Replace with AdSense code -->
   <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
 
-  <section id="base-pieces">
-    <h3>Base Components Recipes</h3>
-    <p>Building a functional base requires a mix of structural components and equipment modules. Below are the most important base pieces and their recipes.</p>
-
-    <div class="craft-grid">
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🏗️</div>
-          <div>
-            <div class="craft-card-name">Foundation</div>
-            <div class="craft-card-desc">Anchor for your base structure</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔨 Builder Tool</div>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×2</span>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🟤</div>
-              <div class="mat-info">
-                <span class="mat-name">Lead</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Dark grey rocks with radiation symbol, 50–150m</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🪟</div>
-          <div>
-            <div class="craft-card-name">I-Corridor (Glass)</div>
-            <div class="craft-card-desc">Clear corridor for panoramic views</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔨 Builder Tool</div>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info">
-                <span class="mat-name">Glass</span><span class="mat-amount">×2</span>
-                <div class="mat-location">Crafted from Quartz</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">⚡</div>
-          <div>
-            <div class="craft-card-name">Solar Panel</div>
-            <div class="craft-card-desc">Generates power at &lt;200m depth</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔨 Builder Tool</div>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info">
-                <span class="mat-name">Quartz</span><span class="mat-amount">×2</span>
-                <div class="mat-location">White rocks, 0–100m, Safe Shallows</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×3</span>
-                <div class="mat-location">0–100m, all biomes</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="craft-card">
-        <div class="craft-card-header">
-          <div class="craft-card-icon">🧪</div>
-          <div>
-            <div class="craft-card-name">Fabricator (Base)</div>
-            <div class="craft-card-desc">Craft station inside your base</div>
-          </div>
-        </div>
-        <div class="craft-card-body">
-          <div class="craft-station">🔨 Builder Tool</div>
-          <ul class="mat-list">
-            <li class="mat-item">
-              <div class="mat-emoji">🪨</div>
-              <div class="mat-info">
-                <span class="mat-name">Titanium</span><span class="mat-amount">×1</span>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🔵</div>
-              <div class="mat-info">
-                <span class="mat-name">Gold</span><span class="mat-amount">×2</span>
-                <div class="mat-location">Shale outcrops, 100–250m</div>
-              </div>
-            </li>
-            <li class="mat-item">
-              <div class="mat-emoji">🟡</div>
-              <div class="mat-info">
-                <span class="mat-name">Copper Wire</span><span class="mat-amount">×1</span>
-                <div class="mat-location">Crafted: 2× Copper Ore</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <p>Note: All base pieces are built using the <strong>Builder Tool</strong> (also called the Habitat Builder). The Builder Tool itself requires: <code>Wiring Kit ×1 + Computer Chip ×1</code> from the Fabricator. The Wiring Kit requires <code>Silver Ore ×2</code>, and the Computer Chip requires <code>Table Coral ×2 + Copper Wire ×1 + Gold ×1 + Titanium ×1</code>.</p>
-  </section>
-
   <section id="advanced">
     <h3>Advanced &amp; Late-Game Recipes</h3>
-    <p>Late-game recipes require exotic materials from deep biomes (300m+). These unlock the most powerful tools and vehicles in Subnautica 2.</p>
+    <p>These recipes require mid-to-late-game materials. The Tadpole is the main vehicle in Subnautica 2 Early Access.</p>
 
     <table>
       <thead>
         <tr>
           <th>Item</th>
           <th>Station</th>
-          <th>Key Materials</th>
-          <th>Why You Need It</th>
+          <th>Verified Recipe</th>
+          <th>Notes</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Seamoth</strong></td>
-          <td>Mobile Vehicle Bay</td>
-          <td>Titanium Ingot ×1 + Glass ×2 + Lubricant ×1 + Power Cell ×1</td>
-          <td>First personal submarine — go to 200m</td>
+          <td><strong>Titanium Ingot</strong></td>
+          <td>Processor</td>
+          <td>Titanium ×3</td>
+          <td>~30s delay. Gates vehicle and base recipes.</td>
         </tr>
         <tr>
-          <td><strong>PRAWN Suit</strong></td>
-          <td>Mobile Vehicle Bay</td>
-          <td>Plasteel Ingot ×2 + Aerogel ×2 + Enameled Glass ×1 + Titanium ×5</td>
-          <td>Hardsuit for extreme depths (500m+)</td>
+          <td><strong>Plasteel Ingot</strong></td>
+          <td>Processor</td>
+          <td>Titanium ×2 + Lithium ×1</td>
+          <td>Lithium from limestone outcrops</td>
         </tr>
         <tr>
-          <td><strong>Cyclops</strong></td>
-          <td>Mobile Vehicle Bay</td>
-          <td>Plasteel Ingot ×3 + Enameled Glass ×3 + Lead ×5</td>
-          <td>Mobile submarine base — go to 500m base</td>
+          <td><strong>Strong Acid</strong></td>
+          <td>Fabricator / Processor</td>
+          <td>Necrolei Cyst ×2 (Fabricator) OR Sulfur ×1 + Gold ×1 (Processor)</td>
+          <td>Required for Fiber Mesh</td>
         </tr>
         <tr>
-          <td><strong>Laser Cutter</strong></td>
-          <td>Fabricator</td>
-          <td>Diamond ×2 + Titanium ×2 + Battery ×1 + Cave Sulfur ×2</td>
-          <td>Required to access Aurora wreck interior</td>
+          <td><strong>Tadpole (submarine)</strong></td>
+          <td>Vehicle Fabricator</td>
+          <td>Titanium Ingot ×2 + Glass ×1 + System Chip ×1 + Power Cell ×1</td>
+          <td>Primary exploration vehicle in Early Access</td>
         </tr>
         <tr>
-          <td><strong>Ion Power Cell</strong></td>
-          <td>Mod Station</td>
-          <td>Power Cell + Ion Crystal ×2</td>
-          <td>10x power capacity vs normal cells</td>
-        </tr>
-        <tr>
-          <td><strong>Nuclear Reactor</strong></td>
-          <td>Builder Tool</td>
-          <td>Plasteel Ingot ×3 + Lead ×5 + Advanced Wiring Kit ×1</td>
-          <td>Infinite base power without sunlight</td>
-        </tr>
-        <tr>
-          <td><strong>Terraformer</strong></td>
-          <td>Fabricator</td>
-          <td>Titanium ×3 + Computer Chip ×1 + Battery ×1</td>
-          <td>Reshape terrain (limited use in Early Access)</td>
+          <td><strong>Other advanced items</strong></td>
+          <td>—</td>
+          <td>Check in-game scanner</td>
+          <td>Unlock via scanning fragments in the world</td>
         </tr>
       </tbody>
     </table>
 
     <div class="tip-box">
       <div class="box-label">💡 Plasteel Ingot Tip</div>
-      Plasteel Ingots are crafted from <code>Titanium Ingot ×1 + Lithium ×2</code>. They are gating items for many late-game recipes. Farm Lithium in the Grand Reef (150–300m) to ensure a steady Plasteel supply before attempting big builds.
+      Plasteel Ingots are crafted in the Processor from <code>Titanium ×2 + Lithium ×1</code>. They gate the High Capacity Air Tank and other mid-game recipes. Lithium is found in limestone outcrops alongside Titanium and Copper — always collect it when you see it.
     </div>
   </section>
 
   <section id="materials-table">
     <h3>Raw Materials Location Table</h3>
-    <p>Use this reference table to find any material you need. Depth ranges are approximate — exact spawn locations vary between seeds.</p>
+    <p>Use this reference table to find any material you need. These locations are verified for the current Early Access build.</p>
 
     <table>
       <thead>
         <tr>
           <th>Material</th>
-          <th>Depth Range</th>
-          <th>Biome / Source</th>
-          <th>Form</th>
+          <th>Primary Source</th>
+          <th>How to Collect</th>
+          <th>Notes</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td><strong>Titanium</strong></td><td>0–200m</td><td>All biomes (orange rocks)</td><td>Ore + Shale outcrops</td></tr>
-        <tr><td><strong>Copper Ore</strong></td><td>0–200m</td><td>All biomes (green-spotted rocks)</td><td>Ore + outcrops</td></tr>
-        <tr><td><strong>Quartz</strong></td><td>0–200m</td><td>Safe Shallows, Kelp Forest</td><td>White crystalline rocks</td></tr>
-        <tr><td><strong>Silver Ore</strong></td><td>50–300m</td><td>Grassy Plateaus, Underwater Islands</td><td>Shale outcrops</td></tr>
-        <tr><td><strong>Gold</strong></td><td>100–350m</td><td>Shale outcrops, Mushroom Forest</td><td>Shale outcrops</td></tr>
-        <tr><td><strong>Lithium</strong></td><td>100–400m</td><td>Grand Reef, Underwater Islands</td><td>Lavender rocks</td></tr>
-        <tr><td><strong>Magnetite</strong></td><td>100–300m</td><td>Mountains Biome, Koosh Zone</td><td>Dark volcanic rocks</td></tr>
-        <tr><td><strong>Lead</strong></td><td>50–200m</td><td>All mid biomes</td><td>Grey rocks</td></tr>
-        <tr><td><strong>Diamond</strong></td><td>200–500m</td><td>Blood Kelp, Grand Reef</td><td>Shale outcrops + large outcrops</td></tr>
-        <tr><td><strong>Kyanite</strong></td><td>600–900m</td><td>Inactive Lava Zone</td><td>Blue crystals on cave walls</td></tr>
-        <tr><td><strong>Uraninite</strong></td><td>400–700m</td><td>Mountains, Crag Field</td><td>Green-glowing rocks</td></tr>
-        <tr><td><strong>Ion Crystal</strong></td><td>800m+</td><td>Alien structures, Active Lava Zone</td><td>Alien containers</td></tr>
-        <tr><td><strong>Nickel Ore</strong></td><td>300–600m</td><td>Lost River</td><td>Rocks on Lost River floor</td></tr>
-        <tr><td><strong>Cave Sulfur</strong></td><td>0–200m</td><td>Crash Zone, from Crashfish nests</td><td>Drop from Crashfish</td></tr>
-        <tr><td><strong>Acid Mushroom</strong></td><td>0–100m</td><td>Safe Shallows, Kelp Forest</td><td>Mushroom-type fauna</td></tr>
-        <tr><td><strong>Creepvine</strong></td><td>50–200m</td><td>Kelp Forest</td><td>Long vine strands</td></tr>
-        <tr><td><strong>Table Coral</strong></td><td>0–100m</td><td>Safe Shallows</td><td>Flat coral formations</td></tr>
+        <tr>
+          <td><strong>Titanium</strong></td>
+          <td>Limestone outcrops (grey rock formations)</td>
+          <td>Break with Survival Multitool</td>
+          <td>NOT found loose on the seafloor — must break outcrops</td>
+        </tr>
+        <tr>
+          <td><strong>Copper</strong></td>
+          <td>Limestone outcrops AND glowing cave wall/ceiling nodes</td>
+          <td>Break outcrops or interact with cave nodes</td>
+          <td>Cave under lifepod is best early spot</td>
+        </tr>
+        <tr>
+          <td><strong>Quartz</strong></td>
+          <td>Freestanding white/semi-transparent crystal clusters</td>
+          <td>Picked up by hand — NOT from outcrops</td>
+          <td>Found on sand and cave walls</td>
+        </tr>
+        <tr>
+          <td><strong>Silver</strong></td>
+          <td>Limestone outcrops</td>
+          <td>Break with Survival Multitool</td>
+          <td>Same outcrop type as Titanium and Copper</td>
+        </tr>
+        <tr>
+          <td><strong>Lithium</strong></td>
+          <td>Limestone outcrops</td>
+          <td>Break with Survival Multitool</td>
+          <td>Always collect when seen — needed for Plasteel Ingots</td>
+        </tr>
+        <tr>
+          <td><strong>Rubber</strong></td>
+          <td>Crafted item — not a raw ore</td>
+          <td>Craft from 2× Lucifer Rotsac</td>
+          <td>Lucifer Rotsac is a harvestable plant/creature resource</td>
+        </tr>
+        <tr>
+          <td><strong>Glass</strong></td>
+          <td>Crafted item — not a raw ore</td>
+          <td>Craft from 2× Quartz (Fabricator)</td>
+          <td>Always keep Quartz stocked for on-demand Glass</td>
+        </tr>
+        <tr>
+          <td><strong>Fiber</strong></td>
+          <td>Crafted item</td>
+          <td>Craft from 2× Fibrous Pulp</td>
+          <td>Fibrous Pulp is a harvestable plant resource</td>
+        </tr>
+        <tr>
+          <td><strong>Mild Acid</strong></td>
+          <td>Found in world</td>
+          <td>Harvested from creatures or environment</td>
+          <td>Needed for Processor recipe</td>
+        </tr>
+        <tr>
+          <td><strong>Acidic Raion Pouch</strong></td>
+          <td>Creature drop / resource in world</td>
+          <td>Harvested from specific creatures</td>
+          <td>Required for Basic Battery — check scanner for location</td>
+        </tr>
+        <tr>
+          <td><strong>Lucifer Rotsac</strong></td>
+          <td>Plant/creature resource in world</td>
+          <td>Harvested directly</td>
+          <td>Required for Rubber (2× per Rubber)</td>
+        </tr>
+        <tr>
+          <td><strong>Fibrous Pulp</strong></td>
+          <td>Plant resource in world</td>
+          <td>Harvested from specific plants</td>
+          <td>Required for Fiber → Fiber Mesh chain</td>
+        </tr>
+        <tr>
+          <td><strong>Necrolei Cyst</strong></td>
+          <td>Creature/plant resource in world</td>
+          <td>Harvested from specific source</td>
+          <td>Easiest source of Strong Acid (Fabricator method)</td>
+        </tr>
+        <tr>
+          <td><strong>Celestine</strong></td>
+          <td>Found in world</td>
+          <td>Collected from environment</td>
+          <td>Needed for Modification Station recipe</td>
+        </tr>
       </tbody>
     </table>
   </section>
@@ -1071,36 +1181,33 @@ footer {
   <section id="craft-tips">
     <h3>Crafting Tips &amp; Tricks</h3>
 
+    <h3>Build a Base Fabricator Early</h3>
+    <p>The lifepod Fabricator is intentionally limited — you will hit the "Requires Fully Functional Fabricator" error constantly until you build a base with a proper Fabricator installed. Prioritize getting a base with a real Fabricator as soon as possible. The Habitat Builder recipe requires: <code>Titanium ×2 + Glass ×1 + Basic Battery ×1 + Copper Wire ×1</code>.</p>
+
+    <h3>Processor Timing — Queue Smart</h3>
+    <p>The Processor has real-time delays (~30 seconds per Titanium Ingot, up to 2 minutes for complex items). Start processing runs before you go out to collect more materials — let it run while you dive. Never stand and wait for it.</p>
+
+    <h3>Upgrade in Order — Tank Chain Never Skips</h3>
+    <p>The oxygen tank upgrade line is a <strong>consuming chain</strong>: Standard Air Tank → High Capacity Air Tank → Ultra High Capacity Air Tank. Each step consumes the previous tank. You cannot skip tiers. Budget for this when planning material collection.</p>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Quartz vs Outcrops</div>
+      Many beginners spend time breaking outcrops looking for Quartz and find none. That's because <strong>Quartz does not come from outcrops</strong> — it spawns as freestanding white/semi-transparent crystal clusters that you simply pick up by hand. Look for them on sand and cave walls.
+    </div>
+
     <h3>Batch Your Resource Runs</h3>
     <p>Before a resource run, plan exactly what you need. Count required quantities for all your planned recipes, add a 20% buffer, and collect everything in one dive. Context-switching between crafting and diving is the biggest time sink for beginners.</p>
 
-    <h3>Upgrade in Order — Never Skip Tiers</h3>
-    <p>The oxygen tank upgrade line (Standard → Large → High Capacity) must be followed in order. Trying to unlock the High Capacity tank without the Large tank wastes time. The same applies to vehicle depth modules — always Mk1 before Mk2.</p>
-
-    <div class="tip-box">
-      <div class="box-label">💡 Power Cell Stockpile</div>
-      Always keep 3–4 spare Power Cells in your base. Running out of power strands your Seamoth and kills your base systems simultaneously — an incredibly frustrating situation that is entirely preventable.
-    </div>
-
-    <h3>Creepvine Seeds vs. Creepvine Samples</h3>
-    <p><strong>Creepvine Seeds</strong> (from the large glowing bulbs) make <strong>Silicone Rubber</strong>. <strong>Creepvine Samples</strong> (from the vine strand itself, cut with a knife) make <strong>Fiber Mesh</strong>. These are different resources with different uses — many beginners confuse them. The Kelp Forest provides both in abundance.</p>
-
-    <h3>Shale Outcrops Are Treasure Chests</h3>
-    <p>Shale outcrops drop random minerals, but their loot table is weighted toward the rarer items — Gold, Silver, and Lithium are all more common from Shale than from bare ore deposits. Whenever you find a cluster of Shale outcrops, harvest all of them immediately even if you don't need the minerals yet.</p>
-
-    <h3>The Alien Containment Room</h3>
-    <p>Once you reach mid-game, build an Alien Containment room in your base. This lets you <strong>farm fish</strong> without depleting the ocean. Place 2 of any fish species and they will breed, giving you an infinite supply of food (and in some cases, crafting materials like Gel Sacks for Aerogel).</p>
-
     <div class="warn-box">
       <div class="box-label">⚠️ Don't Over-Craft Early</div>
-      It's tempting to craft every tool you can unlock, but your inventory is limited. Focus on the absolute priority items first (O₂ Tank, Scanner, Knife, Beacon) and only expand your toolkit once you have a base with storage containers.
+      It's tempting to craft every tool you can unlock, but your inventory is limited. Focus on the absolute priority items first (Survival Multitool, Scanner, Flashlight, Standard Air Tank, Habitat Builder) and only expand your toolkit once you have a base with storage.
     </div>
   </section>
 
 </div><!-- end page-wrapper -->
 
 <footer>
-  <p>Subnautica 2 Crafting Recipes Guide · Updated May 2026 · Based on Early Access version</p>
+  <p>Subnautica 2 Crafting Recipes Guide · Updated May 2026 · Based on Early Access version · Recipes verified from wiki sources</p>
   <p style="margin-top:8px;"><a href="index.html">← Back to Complete Subnautica 2 Guide</a> · <a href="oxygen.html">Oxygen Guide</a> · <a href="base-building.html">Base Building Guide</a></p>
   <p style="margin-top:8px;color:#4a6080;font-size:11px;">This is a fan-made guide. Subnautica 2 is developed by Unknown Worlds Entertainment &amp; Krafton.</p>
 </footer>

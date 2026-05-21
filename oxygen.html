@@ -33,7 +33,7 @@
     "description": "Complete Subnautica 2 oxygen guide — how oxygen works, every tank upgrade, rebreather recipe, and advanced dive strategies for Early Access 2026.",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026940/header.jpg",
     "datePublished": "2026-05-18",
-    "dateModified": "2026-05-19",
+    "dateModified": "2026-05-21",
     "inLanguage": "en",
     "author": { "@type": "Organization", "name": "GameGuide" },
     "publisher": {
@@ -290,6 +290,13 @@ footer {
 .toc-box li { padding: 4px 0; font-size: 13.5px; }
 .toc-box li::before { content: '→ '; color: var(--accent); }
 
+.disclaimer-box {
+  background: rgba(245,158,11,0.08); border: 1px solid rgba(245,158,11,0.35);
+  border-radius: var(--radius); padding: 12px 18px; margin: 16px 0;
+  font-size: 13px; color: var(--text-dim);
+}
+.disclaimer-box strong { color: var(--medium); }
+
 @media (max-width: 640px) {
   .card-grid { grid-template-columns: 1fr; }
   .page-wrapper { padding: 0 14px 50px; }
@@ -322,6 +329,10 @@ footer {
     <div class="hero-caption">Subnautica 2 · Early Access May 14, 2026 · Image: Steam Official</div>
   </div>
 
+  <div class="disclaimer-box">
+    <strong>Early Access build (May 2026) — recipes may change with patches.</strong> All tank recipes and upgrade chains on this page are cross-verified from multiple wiki sources. If something doesn't match your game version, check the in-game scanner log for the current recipe.
+  </div>
+
   <!-- ADVERTISEMENT SLOT 1 (728x90 / 320x50 Mobile) — Replace with AdSense code -->
   <div class="ad-slot">📢 Ad Slot · 728×90 Banner</div>
 
@@ -340,10 +351,10 @@ footer {
         <li><a href="#how-oxygen-works">How Oxygen Works</a></li>
         <li><a href="#oxygen-bar">Reading the Oxygen Bar</a></li>
         <li><a href="#depth-penalty">The Depth Consumption Penalty</a></li>
-        <li><a href="#tank-upgrades">Tank Upgrade Path</a></li>
-        <li><a href="#rebreather">Rebreather — What It Does</a></li>
+        <li><a href="#tank-upgrades">Tank Upgrade Path — 3-Tier Chain</a></li>
+        <li><a href="#rebreather">Rebreather — Deep Efficiency Item</a></li>
+        <li><a href="#portable-o2">Portable Oxygen Generator</a></li>
         <li><a href="#oxygen-sources">Alternative Oxygen Sources</a></li>
-        <li><a href="#vehicle-oxygen">Vehicle Oxygen Systems</a></li>
         <li><a href="#dive-planning">Dive Planning Strategy</a></li>
         <li><a href="#emergency">Emergency Procedures</a></li>
         <li><a href="#coop-oxygen">Oxygen in Co-op</a></li>
@@ -352,33 +363,33 @@ footer {
 
     <p><strong>Oxygen management</strong> is the heartbeat of Subnautica 2. Every dive is a calculated risk — how deep can you go, how long can you stay, and can you make it back? Unlike most survival games where resource depletion is a slow concern, in Subnautica 2 oxygen can kill you in under 30 seconds if you miscalculate. This guide covers the complete oxygen system: how it works mechanically, every upgrade available, and advanced strategies for maximizing your dive time safely.</p>
 
-    <p>The good news: with the right upgrades and techniques, you can go from a terrifying 45-second dive window at game start to <strong>over 10 minutes of continuous underwater time</strong> in the Seamoth — enough to explore even the deepest accessible zones at your leisure.</p>
+    <p>The good news: with the right upgrades and techniques, you can go from a terrifying short dive window at game start to extended continuous underwater time — enough to explore even deep zones comfortably. The three-tier tank chain combined with the Rebreather and the Portable Oxygen Generator gives you complete control over your oxygen situation.</p>
   </section>
 
   <section id="how-oxygen-works">
     <h3>How Oxygen Works in Subnautica 2</h3>
-    <p>In Subnautica 2, your oxygen supply is shown as a blue bar on the left side of your HUD. It begins depleting the moment you submerge and refills automatically when you surface. The mechanics are straightforward but have critical nuances:</p>
+    <p>In Subnautica 2, your oxygen supply is shown as a blue bar on your HUD. It begins depleting the moment you submerge and refills automatically when you surface. The mechanics are straightforward but have critical nuances:</p>
 
     <div class="card-grid">
       <div class="card">
         <div class="icon">📉</div>
         <h4>Depletion Rate</h4>
-        <p>Oxygen depletes at a base rate while swimming. Rate increases with depth (see depth penalty section). Sprint swimming slightly accelerates depletion.</p>
+        <p>Oxygen depletes at a base rate while swimming. Rate increases with depth (see depth penalty section below). Sprint swimming slightly accelerates depletion.</p>
       </div>
       <div class="card">
         <div class="icon">📈</div>
         <h4>Refill Rate</h4>
-        <p>At the surface, oxygen refills approximately 3× faster than it depletes. Refill also occurs inside air pockets in caves and inside your base.</p>
+        <p>At the surface, oxygen refills faster than it depletes. Refill also occurs inside air pockets in caves and inside your pressurized base rooms.</p>
       </div>
       <div class="card">
         <div class="icon">🚨</div>
         <h4>Warning Sounds</h4>
-        <p>At ~30% oxygen, a low beep sounds. At ~15%, a rapid alarm triggers. Below 10%, the screen edge darkens. These are non-negotiable signals to ascend.</p>
+        <p>At low oxygen, a beep sounds. At critical oxygen, a rapid alarm triggers. These are non-negotiable signals to ascend immediately.</p>
       </div>
       <div class="card">
         <div class="icon">💀</div>
         <h4>Oxygen Death</h4>
-        <p>At 0%, you begin taking health damage — rapidly. Death from oxygen takes only 8–12 seconds. Your pod respawn loses all held inventory in Survival mode.</p>
+        <p>At 0%, you begin taking health damage rapidly. Death from oxygen deprivation takes only seconds. In Survival mode, you respawn and lose held inventory.</p>
       </div>
     </div>
 
@@ -418,15 +429,15 @@ footer {
 
   <section id="depth-penalty">
     <h3>The Depth Consumption Penalty</h3>
-    <p>This is the single most important mechanical fact new players miss: <strong>oxygen depletes faster at greater depth</strong>. The penalty is not linear — it accelerates significantly past certain depth thresholds.</p>
+    <p>This is the single most important mechanical fact new players miss: <strong>oxygen depletes faster at greater depth</strong>. The penalty multiplier accelerates significantly past certain depth thresholds.</p>
 
     <table>
       <thead>
         <tr>
           <th>Depth Zone</th>
           <th>Depth Range</th>
-          <th>O₂ Burn Rate</th>
-          <th>Effective Dive Time (Base Tank)</th>
+          <th>O2 Burn Rate</th>
+          <th>Key Advice</th>
         </tr>
       </thead>
       <tbody>
@@ -434,40 +445,37 @@ footer {
           <td>Safe Shallows</td>
           <td>0–100m</td>
           <td>1× (baseline)</td>
-          <td>~45 seconds</td>
+          <td>Comfortable for beginners without upgrades</td>
         </tr>
         <tr>
           <td>Mid Zone</td>
           <td>100–300m</td>
-          <td>~1.5× faster</td>
-          <td>~30 seconds</td>
+          <td>Faster (penalty active)</td>
+          <td>Rebreather strongly recommended here</td>
         </tr>
         <tr>
           <td>Deep Zone</td>
-          <td>300–500m</td>
-          <td>~2.5× faster</td>
-          <td>~18 seconds</td>
-        </tr>
-        <tr>
-          <td>Danger Zone</td>
-          <td>500m+</td>
-          <td>~4× faster</td>
-          <td>~11 seconds</td>
+          <td>300m+</td>
+          <td>Much faster (heavy penalty)</td>
+          <td>Rebreather required — do not free-dive without it</td>
         </tr>
       </tbody>
     </table>
 
-    <p>These numbers assume the <strong>base-game starting tank with no upgrades</strong>. With the High Capacity Tank and Rebreather equipped, you can realistically extend mid-zone dives to 5+ minutes and deep-zone dives to 2 minutes. But even experienced players avoid 500m+ free-diving — that's what vehicles are for.</p>
-
     <div class="info-box">
-      <div class="box-label">📌 The Rebreather Mechanic</div>
-      Without a Rebreather equipped, your oxygen consumption penalty at depth is severe. With a Rebreather, the penalty is completely eliminated — your O₂ depletes at the same rate at 500m as at 10m. This single item transforms deep-sea exploration. See the Rebreather section below for the recipe.
+      <div class="box-label">📌 The Rebreather Eliminates the Penalty</div>
+      Without a Rebreather equipped, your oxygen consumption penalty at depth is severe. With a Rebreather, the penalty is significantly reduced — your O2 depletes much more efficiently even at depth. This single item transforms deep-sea exploration. See the Rebreather section below for the exact recipe.
     </div>
   </section>
 
   <section id="tank-upgrades">
-    <h3>Tank Upgrade Path — From 45 Seconds to 5 Minutes</h3>
-    <p>Upgrading your oxygen tank is the most impactful progression path in the early and mid game. Here is the complete upgrade chain:</p>
+    <h3>Tank Upgrade Path — 3-Tier Consuming Chain</h3>
+    <p>Upgrading your oxygen tank is the most impactful progression path in the early and mid game. <strong>This is a 3-tier consuming chain</strong> — each upgrade consumes the previous tier tank. You cannot skip tiers.</p>
+
+    <div class="info-box">
+      <div class="box-label">📌 How the Chain Works</div>
+      Each tank upgrade <strong>consumes the previous tier tank</strong> as a crafting ingredient. You do not keep your old tank when upgrading. Budget for this when planning material collection.
+    </div>
 
     <div class="upgrade-track">
       <div class="upgrade-step">
@@ -476,9 +484,9 @@ footer {
           <div class="upgrade-line"></div>
         </div>
         <div class="upgrade-content">
-          <div class="upgrade-name">🫁 Starting O₂ (No Tank)</div>
-          <div class="upgrade-stat">~25 seconds dive time</div>
-          <div class="upgrade-recipe">Default — no crafting needed. This is your starting state. Craft a tank immediately.</div>
+          <div class="upgrade-name">🫁 Starting State (No Tank)</div>
+          <div class="upgrade-stat">Very short dive time — craft a tank immediately</div>
+          <div class="upgrade-recipe">Default — no crafting needed. This is your starting state. Craft the Standard Air Tank as your first priority item.</div>
         </div>
       </div>
 
@@ -488,9 +496,13 @@ footer {
           <div class="upgrade-line"></div>
         </div>
         <div class="upgrade-content">
-          <div class="upgrade-name">🫁 Standard O₂ Tank</div>
-          <div class="upgrade-stat">~45 seconds dive time (+80%)</div>
-          <div class="upgrade-recipe">Fabricator · <strong>Titanium ×1</strong> · Craft this as your very first item in the game.</div>
+          <div class="upgrade-name">🫁 Tier 1: Standard Air Tank</div>
+          <div class="upgrade-stat">Extended oxygen capacity — first major upgrade</div>
+          <div class="upgrade-recipe">
+            <strong>Station:</strong> Fabricator<br>
+            <strong>Recipe:</strong> Titanium ×2 + Rubber ×1 + Silver ×2<br>
+            <strong>Notes:</strong> Rubber = craft from 2× Lucifer Rotsac. Silver from limestone outcrops. Craft this as your very first serious item.
+          </div>
         </div>
       </div>
 
@@ -500,21 +512,13 @@ footer {
           <div class="upgrade-line"></div>
         </div>
         <div class="upgrade-content">
-          <div class="upgrade-name">🫁 Large O₂ Tank</div>
-          <div class="upgrade-stat">~90 seconds dive time (+100%)</div>
-          <div class="upgrade-recipe">Fabricator · <strong>Titanium ×3 + Glass ×1</strong> · Available after scanning a Large Tank fragment (usually found in Kelp Forest wrecks).</div>
-        </div>
-      </div>
-
-      <div class="upgrade-step">
-        <div class="upgrade-connector">
-          <div class="upgrade-dot"></div>
-          <div class="upgrade-line"></div>
-        </div>
-        <div class="upgrade-content">
-          <div class="upgrade-name">🫁 High Capacity O₂ Tank</div>
-          <div class="upgrade-stat">~4–5 minutes dive time (+200%)</div>
-          <div class="upgrade-recipe">Modification Station · <strong>Large O₂ Tank ×1 + Lithium ×3 + Titanium Ingot ×1</strong> · Requires mid-game base setup. The biggest single upgrade jump in the game.</div>
+          <div class="upgrade-name">🫁 Tier 2: High Capacity Air Tank</div>
+          <div class="upgrade-stat">Significantly larger O2 reserve — the biggest upgrade jump</div>
+          <div class="upgrade-recipe">
+            <strong>Station:</strong> Modification Station<br>
+            <strong>Recipe:</strong> Standard Air Tank ×1 + Plasteel Ingot ×1<br>
+            <strong>Notes:</strong> Consumes your Standard Air Tank. Plasteel Ingot = Processor: Titanium ×2 + Lithium ×1. Requires Modification Station built in base.
+          </div>
         </div>
       </div>
 
@@ -523,16 +527,20 @@ footer {
           <div class="upgrade-dot"></div>
         </div>
         <div class="upgrade-content">
-          <div class="upgrade-name">🫁 Ultra High Capacity Tank (Late Game)</div>
-          <div class="upgrade-stat">~8–9 minutes dive time (+80% over HC Tank)</div>
-          <div class="upgrade-recipe">Modification Station · <strong>High Capacity Tank ×1 + Kyanite ×2 + Nickel Ore ×3</strong> · Requires deep-biome materials (600m+). The ultimate free-diving tank.</div>
+          <div class="upgrade-name">🫁 Tier 3: Ultra High Capacity Air Tank</div>
+          <div class="upgrade-stat">Maximum oxygen reserve — late-game ultimate tank</div>
+          <div class="upgrade-recipe">
+            <strong>Station:</strong> Modification Station<br>
+            <strong>Recipe:</strong> High Capacity Air Tank ×1 + Troilite ×3 + Atacamite ×3<br>
+            <strong>Notes:</strong> Consumes your High Capacity Air Tank. Troilite and Atacamite are deep-biome materials. The definitive free-diving tank.
+          </div>
         </div>
       </div>
     </div>
 
     <div class="tip-box">
-      <div class="box-label">💡 Priority Order</div>
-      Standard Tank → Large Tank → get your Rebreather → High Capacity Tank. The Rebreather should come before the High Capacity Tank in your priority list because the depth penalty negates much of the HC Tank's benefit without it.
+      <div class="box-label">💡 Recommended Priority Order</div>
+      Standard Air Tank → get your Rebreather → High Capacity Air Tank → Ultra High Capacity Air Tank (late game). The Rebreather should come before the High Capacity Tank in your priority list because the depth penalty negates much of the HC Tank's benefit without it.
     </div>
   </section>
 
@@ -540,58 +548,86 @@ footer {
   <div class="ad-slot">📢 Ad Slot · 300×250 Rectangle</div>
 
   <section id="rebreather">
-    <h3>The Rebreather — The Most Important Oxygen Item</h3>
-    <p>The Rebreather is a helmet piece that <strong>eliminates the depth-based oxygen consumption penalty</strong>. Without it, diving below 100m becomes exponentially dangerous. With it, your oxygen depletes at a flat rate regardless of how deep you go.</p>
+    <h3>The Rebreather — Deep Efficiency Item</h3>
+    <p>The Rebreather is a helmet piece that <strong>significantly improves oxygen efficiency at depth</strong>. Without it, diving below 100m becomes exponentially more dangerous because of the depth consumption penalty. With it, your oxygen depletes much more efficiently regardless of depth.</p>
 
     <div class="card-grid">
       <div class="card">
         <div class="icon">⚙️</div>
-        <h4>Recipe</h4>
-        <p>Fabricator · Wiring Kit ×1 + Silicone Rubber ×2</p>
+        <h4>Verified Recipe</h4>
+        <p>Fabricator · Fiber Mesh ×2 + System Chip ×1</p>
       </div>
       <div class="card">
-        <div class="icon">📋</div>
-        <h4>Blueprint Source</h4>
-        <p>Scan 2× Rebreather fragments — found in Grassy Plateaus wrecks at 80–200m depth</p>
+        <div class="icon">🧱</div>
+        <h4>Fiber Mesh Recipe</h4>
+        <p>Fabricator · Fiber ×2 + Strong Acid ×1<br>(Fiber = 2× Fibrous Pulp)</p>
+      </div>
+      <div class="card">
+        <div class="icon">💾</div>
+        <h4>System Chip Recipe</h4>
+        <p>Fabricator · Wiring Kit ×1 + Quartz ×2<br>(Wiring Kit = Silver ×1 + Copper Wire ×1)</p>
       </div>
       <div class="card">
         <div class="icon">💡</div>
         <h4>Effect</h4>
-        <p>Removes the depth O₂ penalty entirely. Same burn rate at 10m as at 500m when wearing it</p>
-      </div>
-      <div class="card">
-        <div class="icon">⚡</div>
-        <h4>No Power Required</h4>
-        <p>Unlike some equipment, the Rebreather uses no battery. It is always active when equipped with zero maintenance</p>
+        <p>Improves deep O2 efficiency — reduces the depth consumption penalty multiplier significantly</p>
       </div>
     </div>
 
-    <h3>Materials for the Rebreather</h3>
+    <h3>Full Material Chain for the Rebreather</h3>
     <table>
       <thead>
         <tr>
-          <th>Material</th>
-          <th>How to Get It</th>
-          <th>Where to Find</th>
+          <th>Final Component</th>
+          <th>Made From</th>
+          <th>Made From (raw)</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Wiring Kit</strong></td>
-          <td>Craft at Fabricator: Silver Ore ×2</td>
-          <td>Silver from Shale outcrops, Grassy Plateaus 50–200m</td>
+          <td><strong>Fiber Mesh ×2</strong></td>
+          <td>Fiber ×2 + Strong Acid ×1</td>
+          <td>Fiber = Fibrous Pulp ×2 each · Strong Acid = Necrolei Cyst ×2 (Fabricator) or Sulfur + Gold (Processor)</td>
         </tr>
         <tr>
-          <td><strong>Silicone Rubber ×2</strong></td>
-          <td>Craft at Fabricator: Creepvine Seed Cluster ×2</td>
-          <td>Seed clusters in Kelp Forest, 50–200m — the glowing bulbs on vines</td>
+          <td><strong>System Chip ×1</strong></td>
+          <td>Wiring Kit ×1 + Quartz ×2</td>
+          <td>Wiring Kit = Silver ×1 + Copper Wire ×1 · Copper Wire = Copper ×2 · Quartz = picked up by hand</td>
         </tr>
       </tbody>
     </table>
 
     <div class="tip-box">
-      <div class="box-label">💡 Get the Rebreather Early</div>
-      The Rebreather is surprisingly cheap given its impact. Getting 2× Silver Ore for the Wiring Kit is the only moderate challenge — Silver starts appearing in Shale outcrops around 80–150m. Make this your first real "mid-tier" goal after the Large Tank.
+      <div class="box-label">💡 Prioritize the Rebreather</div>
+      The Rebreather's material chain looks complex but the raw materials are all shallow-to-mid depth. Make it your first "mid-tier" crafting goal after the Standard Air Tank. It transforms the viability of mid-depth exploration.
+    </div>
+  </section>
+
+  <section id="portable-o2">
+    <h3>Portable Oxygen Generator — Deployable Air Source</h3>
+    <p>The Portable Oxygen Generator is a deployable item you can place underwater to create a local oxygen refill point. This is distinct from your personal tank — it acts as a deployable air station.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h4>Verified Recipe</h4>
+        <p>Fabricator · Titanium ×3 + Lithium ×2</p>
+      </div>
+      <div class="card">
+        <div class="icon">📍</div>
+        <h4>How to Use</h4>
+        <p>Deploy it in a cave or deep area. Return to it to refill oxygen without surfacing or having a base nearby.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏔️</div>
+        <h4>Best Use Cases</h4>
+        <p>Long cave systems, extended wreck exploration, anywhere you want an oxygen checkpoint without building a full base.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <div class="box-label">💡 Cave Exploration Trick</div>
+      For co-op teams exploring extended cave systems, plant a Portable Oxygen Generator at a key junction point. This eliminates the need to surface mid-exploration and dramatically extends how far into a cave system you can safely penetrate.
     </div>
   </section>
 
@@ -610,8 +646,8 @@ footer {
       <tbody>
         <tr>
           <td><strong>Surface / Open Water</strong></td>
-          <td>Swim to the surface. Tank refills at 3× depletion rate.</td>
-          <td>Always safe at the top. Don't forget — the ocean surface is always "up".</td>
+          <td>Swim to the surface. Tank refills rapidly.</td>
+          <td>Always safe at the top. The ocean surface is always "up."</td>
         </tr>
         <tr>
           <td><strong>Base Rooms</strong></td>
@@ -619,9 +655,9 @@ footer {
           <td>Your base is an air pocket. You can refill here even at depth.</td>
         </tr>
         <tr>
-          <td><strong>Seamoth / Vehicle Interior</strong></td>
-          <td>Inside a Seamoth or Cyclops, you breathe from the vehicle's air supply.</td>
-          <td>Vehicles have their own O₂ tanks — separate from your personal tank.</td>
+          <td><strong>Portable Oxygen Generator</strong></td>
+          <td>Deployable device — place it and return to refill.</td>
+          <td>Recipe: Titanium ×3 + Lithium ×2. Great for extended cave runs.</td>
         </tr>
         <tr>
           <td><strong>Air Pockets in Caves</strong></td>
@@ -629,65 +665,19 @@ footer {
           <td>Look for brightness and shimmer near cave ceilings. Often life-saving.</td>
         </tr>
         <tr>
-          <td><strong>Alien Bases</strong></td>
-          <td>Alien structures are internally pressurized — you can breathe inside them.</td>
-          <td>Late-game discovery. Very useful for extended Alien Base exploration.</td>
-        </tr>
-        <tr>
           <td><strong>Wreck Interiors</strong></td>
           <td>Some rooms in wrecks have trapped air. Not all — test carefully.</td>
           <td>Check ceiling areas of wreck rooms before committing to exploration.</td>
+        </tr>
+        <tr>
+          <td><strong>Air Bladder</strong></td>
+          <td>Emergency rapid surface tool — propels you upward quickly.</td>
+          <td>Recipe: Titanium ×2 + Rubber ×1. Use in emergencies to surface fast.</td>
         </tr>
       </tbody>
     </table>
 
     <p>The most underused technique by beginners is <strong>base oxygen refilling</strong>. If you place your early base in a resource-rich area, you can use it as a dive hub — swim out, collect resources, return to base to breathe, repeat. This effectively eliminates oxygen as a constraint for shallow-to-mid-depth resource runs.</p>
-  </section>
-
-  <section id="vehicle-oxygen">
-    <h3>Vehicle Oxygen Systems</h3>
-    <p>Once you build vehicles, oxygen management changes dramatically. Vehicles have independent oxygen supplies that don't share with your personal tank.</p>
-
-    <h3>Seamoth Oxygen</h3>
-    <p>The <strong>Seamoth</strong> has an internal air supply. While you are inside the cockpit, you breathe from the Seamoth's air — your personal tank does not deplete. The Seamoth's air supply is large and refills automatically when the vehicle surfaces. This makes the Seamoth an enormous quality-of-life improvement for diving: you effectively have a mobile air station.</p>
-    <p>However, if you exit the Seamoth underwater, you immediately switch to your personal tank. Plan exits carefully — always exit in a place where you can quickly re-enter or ascend.</p>
-
-    <h3>Cyclops Oxygen</h3>
-    <p>The <strong>Cyclops</strong> is a full submarine. Inside, you breathe unlimited air as long as the ship maintains integrity. The Cyclops can dive to 500m base depth (upgradeable to 1700m with modules). It is the definitive solution to oxygen concerns — park it near your exploration target and use it as an underwater base of operations.</p>
-
-    <h3>PRAWN Suit Oxygen</h3>
-    <p>The <strong>PRAWN Suit</strong> (Pressure-Reactive Armored Waterproof Nano Suit) has its own air supply and provides the same benefit as the Seamoth — you breathe the suit's air, not your tank. The PRAWN is designed for the deepest zones (500m+) and is critical for Inactive Lava Zone and beyond.</p>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Vehicle</th>
-          <th>Base Depth Limit</th>
-          <th>O₂ Source</th>
-          <th>Best Use</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Seamoth</strong></td>
-          <td>200m (upgradeable to 900m)</td>
-          <td>Internal, auto-refills at surface</td>
-          <td>Fast mid-range exploration</td>
-        </tr>
-        <tr>
-          <td><strong>Cyclops</strong></td>
-          <td>500m (upgradeable to 1700m)</td>
-          <td>Unlimited internal air</td>
-          <td>Mobile deep-sea base</td>
-        </tr>
-        <tr>
-          <td><strong>PRAWN Suit</strong></td>
-          <td>900m (upgradeable to 1700m)</td>
-          <td>Internal suit air</td>
-          <td>Extreme depth traversal</td>
-        </tr>
-      </tbody>
-    </table>
   </section>
 
   <section id="dive-planning">
@@ -696,16 +686,16 @@ footer {
 
     <ol class="step-list">
       <li><strong>Know your target.</strong> What are you diving for? Specific ore? A wreck? A creature? Define a clear objective so you aren't wandering aimlessly underwater burning oxygen.</li>
-      <li><strong>Note the depth.</strong> Check the depth of your target. Apply the depth penalty mentally — at 200m with a standard tank, your effective window is around 18 seconds per 10m of ascent. Plan accordingly.</li>
-      <li><strong>Pick your turn-back point.</strong> Decide your oxygen threshold for turning around before you dive. 50% for deep dives, 30% for shallow runs. Commit to it — do not rationalize "just a few more seconds."</li>
-      <li><strong>Use breadcrumbs.</strong> Deploy Beacons at the entrance to any wreck or cave system you explore. Getting disoriented inside a structure with 20% oxygen is a common cause of death.</li>
-      <li><strong>Know your exits.</strong> Before descending into a cave or wreck, mentally note at least two potential ascent routes. Cave systems in particular can be disorienting when you are rushing to surface.</li>
-      <li><strong>Park vehicles strategically.</strong> If using the Seamoth, park it near your dive target so you can quickly re-enter it when your oxygen gets low. Don't park it at the surface while diving 200m below.</li>
+      <li><strong>Note the depth.</strong> Check the depth of your target and mentally apply the depth penalty. At greater depths, your effective window is much shorter than at the surface.</li>
+      <li><strong>Pick your turn-back point.</strong> Decide your oxygen threshold for turning around before you dive. 50% for deep dives, 30% for shallow runs. Commit to it.</li>
+      <li><strong>Use breadcrumbs.</strong> Deploy Beacons at the entrance to any wreck or cave system you explore. Getting disoriented inside a structure with low oxygen is a common cause of death.</li>
+      <li><strong>Know your exits.</strong> Before descending into a cave or wreck, mentally note potential ascent routes. Cave systems in particular can be disorienting when you are rushing to surface.</li>
+      <li><strong>Place Portable O2 Generators strategically.</strong> For long cave dives, drop a Portable Oxygen Generator at a safe midpoint as a refill checkpoint before pushing deeper.</li>
     </ol>
 
     <div class="info-box">
       <div class="box-label">📌 The Ascent Rule</div>
-      In Subnautica 2, ascending at full swim speed takes roughly 1 second per 10 meters. From 200m, a full-speed ascent takes ~20 seconds. From 500m, ~50 seconds. Always factor in ascent time when calculating your safe oxygen threshold.
+      Always factor in ascent time when calculating your safe oxygen threshold. The deeper you go, the longer your ascent takes. At depth, even with a Rebreather, the time to surface is significant. Build that buffer into your 50% turn-back rule.
     </div>
   </section>
 
@@ -716,9 +706,9 @@ footer {
     <div class="warn-box">
       <div class="box-label">⚠️ Emergency Protocol</div>
       <strong>1. STOP MOVING LATERALLY.</strong> Every horizontal movement delays your ascent. Point straight up and sprint swim vertically.<br><br>
-      <strong>2. DROP HEAVY ITEMS.</strong> In Survival mode, dropping items from inventory does not help directly, but accessing the Cyclops or base immediately is the priority.<br><br>
+      <strong>2. USE THE AIR BLADDER.</strong> If you have an Air Bladder equipped, activate it now for rapid surface propulsion.<br><br>
       <strong>3. LOOK FOR AIR POCKETS.</strong> Any cave ceiling shimmer could buy you precious seconds.<br><br>
-      <strong>4. USE THE SEAMOTH.</strong> If your vehicle is within 50m, dive toward it. Entering the cockpit instantly gives you fresh air.<br><br>
+      <strong>4. LOOK FOR A PORTABLE O2 GENERATOR.</strong> If you placed one nearby, get to it immediately.<br><br>
       <strong>5. ACCEPT THE DEATH.</strong> In Survival mode, you respawn. In Hardcore mode, one-shot means one-shot. Know the mode you're playing.
     </div>
 
@@ -732,20 +722,24 @@ footer {
       </thead>
       <tbody>
         <tr>
-          <td>Ignoring the 30% alarm while collecting</td>
+          <td>Ignoring low oxygen alarm while collecting</td>
           <td>Set 50% as your hard turn-back line for depths below 100m</td>
         </tr>
         <tr>
           <td>Getting lost inside a wreck</td>
           <td>Always place a Beacon at the entrance before entering</td>
         </tr>
-          <tr>
-          <td>Parking the Seamoth too far from dive site</td>
-          <td>Park within 100m horizontal distance of your target</td>
+        <tr>
+          <td>No Rebreather at 100m+</td>
+          <td>Prioritize the Rebreather before any serious mid-depth exploration</td>
         </tr>
         <tr>
-          <td>No Rebreather at 200m+</td>
-          <td>Prioritize the Rebreather before mid-game depth exploration</td>
+          <td>No air bladder on deep free-dives</td>
+          <td>Always carry an Air Bladder as your emergency surface tool</td>
+        </tr>
+        <tr>
+          <td>No Portable O2 Generator in long cave runs</td>
+          <td>Deploy one at a safe midpoint before pushing into deep caves</td>
         </tr>
         <tr>
           <td>Rushing to reach a specific depth</td>
@@ -757,24 +751,24 @@ footer {
 
   <section id="coop-oxygen">
     <h3>Oxygen in Co-op</h3>
-    <p>Subnautica 2's co-op mode (up to 4 players) introduces team dynamics around oxygen management. Each player has their own independent oxygen supply — there is no shared pool. However, coordinated play changes how oxygen impacts your runs significantly.</p>
+    <p>Subnautica 2's co-op mode introduces team dynamics around oxygen management. Each player has their own independent oxygen supply — there is no shared pool. However, coordinated play changes how oxygen impacts your runs significantly.</p>
 
     <h3>Co-op Oxygen Strategies</h3>
-    <p><strong>Designated Driver Role:</strong> In a team of 4, having one player stay inside the Cyclops while others explore gives the team a mobile oxygen station. Explorers can return to the Cyclops to breathe without surfacing, dramatically extending dive depth and time for everyone.</p>
+    <p><strong>Portable O2 Generator Relay:</strong> For exploring extended cave systems as a team, set up a chain of Portable Oxygen Generators at key junction points. This lets the whole team penetrate extremely long cave systems safely without surfacing.</p>
     <p><strong>Buddy System:</strong> Pair up for deep dives. If one player gets critically low, the other can guide them to the nearest air source. Solo emergency ascents from deep water are riskier than guided ones.</p>
-    <p><strong>Base Relay Chain:</strong> For exploring extended cave systems, set up a chain of small single-room bases with Fabricators — they are cheap to build and serve as oxygen refill stations at key points in a cave. This technique lets a co-op team penetrate extremely long cave systems safely.</p>
-    <p><strong>Scanner Role:</strong> If one team member is scanning for blueprints in a specific area, they will naturally dive longer but less far. Assign them a designated Seamoth parked at depth so they can always refill without surfacing. Other players can focus on resource collection at greater range.</p>
+    <p><strong>Base Dive Hub:</strong> If one team member stays near the base while others explore, the base serves as an air refill station. Explorers return periodically to the base to breathe rather than surfacing all the way each time.</p>
+    <p><strong>Scanner Role:</strong> Assign one team member to scanning while others collect resources. The scanner will naturally dive longer in specific areas — make sure they have a Portable O2 Generator nearby as a refill point.</p>
 
     <div class="tip-box">
       <div class="box-label">💡 Co-op Communication</div>
-      Call out your oxygen levels during dives. A simple "50% — heading back" in voice chat gives your teammates context and builds a shared situational awareness. Most co-op deaths come from everyone assuming someone else has their oxygen under control.
+      Call out your oxygen levels during dives. A simple "50% — heading back" in voice chat gives your teammates context and builds shared situational awareness. Most co-op deaths come from everyone assuming someone else has their oxygen under control.
     </div>
   </section>
 
 </div><!-- end page-wrapper -->
 
 <footer>
-  <p>Subnautica 2 Oxygen Guide · Updated May 2026 · Based on Early Access version</p>
+  <p>Subnautica 2 Oxygen Guide · Updated May 2026 · Based on Early Access version · Data verified from wiki sources</p>
   <p style="margin-top:8px;"><a href="index.html">← Back to Complete Subnautica 2 Guide</a> · <a href="crafting.html">Crafting Recipes</a> · <a href="base-building.html">Base Building Guide</a></p>
   <p style="margin-top:8px;color:#4a6080;font-size:11px;">This is a fan-made guide. Subnautica 2 is developed by Unknown Worlds Entertainment &amp; Krafton.</p>
 </footer>

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "checkedAt": "2026-07-12",
+  "topic": "co-op",
+  "status": "official-backed",
+  "publicBuild": {
+    "id": "23446003",
+    "branch": "public",
+    "builtAt": "2026-05-28T06:42:56Z",
+    "updatedAt": "2026-06-01T20:06:33Z",
+    "source": "https://steamdb.info/app/1962700/depots/",
+    "sourceType": "third-party Steam metadata tracker"
+  },
+  "facts": [
+    {
+      "label": "Mode",
+      "value": "Optional online co-op",
+      "source": "https://subnautica.com/en",
+      "evidence": "The official game page says the game can be played alone or in online multiplayer co-op."
+    },
+    {
+      "label": "Party size",
+      "value": "Up to 4 players",
+      "source": "https://subnautica.com/en",
+      "evidence": "The official game page says play alone or with up to three friends."
+    },
+    {
+      "label": "Solo support",
+      "value": "Yes",
+      "source": "https://store.steampowered.com/app/1962700/Subnautica_2/",
+      "evidence": "The official Steam listing describes co-op as optional and lists Single-player."
+    },
+    {
+      "label": "Store features",
+      "value": "Online Co-op; Cross-Platform Multiplayer",
+      "source": "https://store.steampowered.com/app/1962700/Subnautica_2/",
+      "evidence": "These capabilities are listed in the Steam store feature panel."
+    }
+  ]
+}

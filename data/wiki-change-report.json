@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "detectedAt": "2026-07-12T16:48:30.883Z",
+  "changes": [
+    {
+      "id": "bioscanner",
+      "title": "Bioscanner",
+      "change": "updated",
+      "previousRevisionId": 17745,
+      "revisionId": 17972,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed",
+      "review": "Recipe template unchanged; revision updated elsewhere on the Wiki page."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "tracker": {
+    "lastReview": "2026-07-12",
+    "gameBuild": "23446003 (Steam public)",
+    "verifiedEntries": 0,
+    "inReview": 0,
+    "withdrawnPages": 0,
+    "wikiBackedEntries": 296,
+    "gameBuildEvidence": {
+      "status": "metadata-only",
+      "source": "https://steamdb.info/app/1962700/depots/",
+      "checkedAt": "2026-07-12"
+    }
+  },
+  "entries": [],
+  "reviewQueue": [
+    {
+      "category": "In-game sampling",
+      "requirement": "Promote high-traffic recipes and routes after capture against an exact game build."
+    },
+    {
+      "category": "Incremental updates",
+      "requirement": "Compare Wiki revision IDs and rebuild only records changed after patches."
+    }
+  ],
+  "sourceRegistry": [
+    {
+      "id": "official-wiki",
+      "name": "Official, community-maintained Subnautica 2 Wiki",
+      "type": "Structured baseline",
+      "url": "https://wiki.subnautica.com/sn2/",
+      "allowedUse": "Structured facts are imported with permanent revision links. Article prose and images are not copied. Wiki-backed is distinct from in-game verified.",
+      "lastChecked": "2026-07-12",
+      "license": {
+        "name": "CC BY-NC-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+      }
+    },
+    {
+      "id": "official-game-site",
+      "name": "Official Subnautica 2 game page",
+      "type": "Primary product source",
+      "url": "https://subnautica.com/en",
+      "allowedUse": "Published game features and multiplayer claims only.",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "id": "official-steam-listing",
+      "name": "Official Steam store listing",
+      "type": "Supporting evidence",
+      "url": "https://store.steampowered.com/app/1962700/Subnautica_2/",
+      "allowedUse": "Published release and store-page facts only; not gameplay recipes, locations, or mechanics.",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "id": "official-steam-news",
+      "name": "Official Steam news hub",
+      "type": "Supporting evidence",
+      "url": "https://store.steampowered.com/news/app/1962700",
+      "allowedUse": "Developer-published patch and announcement facts only; pair gameplay changes with in-game evidence.",
+      "lastChecked": "2026-07-12"
+    },
+    {
+      "id": "in-game-capture",
+      "name": "In-game screenshot or recording",
+      "type": "Primary evidence",
+      "url": null,
+      "allowedUse": "Required to promote a Wiki-backed gameplay fact to in-game verified. Must include the exact game build.",
+      "lastChecked": null
+    },
+    {
+      "id": "steamdb-build",
+      "name": "SteamDB public branch metadata",
+      "type": "Third-party version metadata",
+      "url": "https://steamdb.info/app/1962700/depots/",
+      "allowedUse": "Public Steam branch Build ID only. This does not count as an in-game verification capture.",
+      "lastChecked": "2026-07-12"
+    }
+  ]
+}

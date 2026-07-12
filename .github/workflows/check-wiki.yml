@@ -1,0 +1,30 @@
+name: Check official Wiki revisions
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Import current Wiki revisions
+        run: npm run import:wiki
+      - name: Validate generated records
+        run: npm run validate
+      - name: Detect source changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git diff --stat
+            git status --short
+            echo "Official Wiki revisions changed. Run npm run import:wiki and review the diff." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Source policy | Subnautica 2 Evidence Tracker</title>
+  <meta name="description" content="The source policy and source registry for the Subnautica 2 Evidence Tracker.">
+  <meta name="theme-color" content="#071d24">
+  <link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/en/sources.html">
+  <link rel="icon" href="/subnautica-2-guide/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/subnautica-2-guide/styles.css">
+<link rel="stylesheet" href="/subnautica-2-guide/locale.css"><link rel="alternate" hreflang="x-default" href="https://specialzhou.github.io/subnautica-2-guide/sources.html"><link rel="alternate" hreflang="en" href="https://specialzhou.github.io/subnautica-2-guide/en/sources.html"><link rel="alternate" hreflang="zh-CN" href="https://specialzhou.github.io/subnautica-2-guide/zh-cn/sources.html"><link rel="alternate" hreflang="ru" href="https://specialzhou.github.io/subnautica-2-guide/ru/sources.html"></head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="notice"><div class="shell notice__inner"><span class="notice__mark" aria-hidden="true"></span>Evidence policy active from 12 July 2026.</div></div>
+  <header class="site-header"><div class="shell nav-wrap"><a class="wordmark" href="index.html"><span class="wordmark__kicker">Field notebook / 1962700</span><span>Subnautica 2<br>Evidence Guide</span></a><nav aria-label="Primary navigation"><a href="crafting.html">Crafting</a><a href="resources.html">Resources</a><a href="creatures.html">Creatures</a><a href="vehicles.html">Vehicles</a><a href="biomes.html">Biomes</a><span class="language-switcher" aria-label="Language"><a href="/subnautica-2-guide/en/sources.html" aria-current="page">English</a><a href="/subnautica-2-guide/zh-cn/sources.html">简体中文</a><a href="/subnautica-2-guide/ru/sources.html">Русский</a></span></nav></div></header>
+  <main id="main-content" class="shell">
+    <section class="opening" aria-labelledby="page-title"><article class="opening__copy"><p class="eyebrow">Editorial policy</p><h1 id="page-title">Evidence is<br><em>part of the entry.</em></h1><p class="lede">A source link is not decorative. Wiki-backed entries retain the permanent revision they came from; stronger verification adds official patch context or an in-game capture.</p></article><aside class="scope"><div class="scope__top"><p class="eyebrow">Status model</p><h2>Source strength stays visible.</h2></div><p class="scope__foot">The official Wiki is a structured baseline, not a claim of independent gameplay verification.</p></aside></section>
+    <section class="ledger" aria-labelledby="registry-title"><div class="section-heading"><p class="eyebrow">Source registry</p><h2 id="registry-title">Registered sources</h2></div><div class="table-wrap" tabindex="0"><table><thead><tr><th>Source</th><th>Type</th><th>Allowed use</th><th>Last checked</th></tr></thead><tbody id="source-rows"><tr><td colspan="4" class="empty-row">Loading source registry…</td></tr></tbody></table></div><p class="ledger__raw">Raw file: <a href="/subnautica-2-guide/data/ledger.json">data/ledger.json</a></p></section>
+    <section class="method" aria-labelledby="rules-title"><div class="section-heading"><p class="eyebrow">Entry requirements</p><h2 id="rules-title">Every published record includes</h2></div><div class="method__grid"><article><p class="method__label">Wiki baseline</p><h3>A permanent revision</h3><p>The exact revision ID, timestamp, source URL, and Wiki-backed label.</p></article><article><p class="method__label">Version context</p><h3>Patch or build evidence</h3><p>Official announcements establish changes; an exact build accompanies in-game verification.</p></article><article><p class="method__label">Review boundary</p><h3>A visible status</h3><p>Wiki-backed, cross-checked, and in-game verified are never presented as equivalent.</p></article></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer__inner"><p>Fan-made, unaffiliated with Unknown Worlds Entertainment or Krafton.</p><p><a href="index.html">Tracker</a> <span aria-hidden="true">·</span> <a href="/subnautica-2-guide/data/ledger.json">Ledger data</a></p></div></footer>
+  <script>
+    (function(){const d=(v)=>v?new Intl.DateTimeFormat("en",{day:"2-digit",month:"short",year:"numeric",timeZone:"UTC"}).format(new Date(`${v}T00:00:00Z`)):"Not yet recorded";fetch("/subnautica-2-guide/data/ledger.json").then(r=>r.json()).then(l=>{const b=document.getElementById("source-rows");b.replaceChildren();l.sourceRegistry.forEach(s=>{const r=document.createElement("tr"),n=s.url?`<a href="${s.url}" rel="noopener noreferrer">${s.name}</a>`:s.name;r.innerHTML=`<td>${n}</td><td>${s.type}</td><td>${s.allowedUse}</td><td>${d(s.lastChecked)}</td>`;b.append(r)})}).catch(()=>{document.getElementById("source-rows").innerHTML='<tr class="empty-row"><td colspan="4">Source registry is temporarily unavailable. Open <a href="/subnautica-2-guide/data/ledger.json">the raw ledger</a>.</td></tr>'})}());
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "defaultLocale": "en",
+  "locales": [
+    {
+      "code": "en",
+      "label": "English",
+      "htmlLang": "en"
+    },
+    {
+      "code": "zh-cn",
+      "label": "简体中文",
+      "htmlLang": "zh-CN"
+    },
+    {
+      "code": "ru",
+      "label": "Русский",
+      "htmlLang": "ru"
+    }
+  ],
+  "pageCountPerLocale": 313
+}

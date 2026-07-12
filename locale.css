@@ -1,0 +1,4 @@
+.language-switcher{display:inline-flex;gap:.25rem;margin-left:.4rem;padding-left:.6rem;border-left:1px solid var(--line)}
+.language-switcher a{padding:.25rem .4rem;white-space:nowrap}
+.language-switcher a[aria-current="page"]{color:var(--ink);background:var(--surface)}
+@media(max-width:780px){.language-switcher{margin-left:0;padding-left:.35rem}}

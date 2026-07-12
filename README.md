@@ -2,6 +2,10 @@
 
 A static, source-linked Subnautica 2 guide. It currently generates 204 recipe records, 92 resource/creature/vehicle/biome records, official-backed co-op facts, and a dependency-based starter crafting planner. Verification strength is always visible.
 
+## Languages
+
+The build publishes every page under `/en/`, `/zh-cn/`, and `/ru/`, with same-page language switching, canonical URLs, `hreflang`, and localized sitemap entries. Structured facts, game item names, revision IDs, and build metadata remain shared; the translation layer changes interface and explanatory text only.
+
 ## Status model
 
 - `wiki-backed`: parsed from a permanent Wiki revision with source ID and timestamp.
@@ -27,7 +31,8 @@ The importer:
 5. writes `data/wiki-items.json`;
 6. generates topic indexes, individual records, the starter planner, ledger counters, and sitemap;
 7. imports official product facts for the co-op reference;
-8. keeps permanent source links on every published record.
+8. generates English, Simplified Chinese, and Russian page trees;
+9. keeps permanent source links on every published record.
 
 Validation also crawls every generated HTML file for required metadata and broken internal links.
 

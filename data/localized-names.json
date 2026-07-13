@@ -1,0 +1,2303 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-13T18:39:29.001Z",
+  "source": {
+    "name": "Subnautica 2 Wiki localized game-data index",
+    "url": "https://subnautica2-wiki.com/en/items",
+    "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index."
+  },
+  "counts": {
+    "recordNames": 269,
+    "total": 381,
+    "imported": 312,
+    "community": 69
+  },
+  "names": {
+    "Advanced Battery": {
+      "zh-cn": "高级电池",
+      "ru": "Высокотехнологичный аккумулятор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/advanced-battery"
+    },
+    "Advanced Wiring Kit": {
+      "zh-cn": "高级接线盒",
+      "ru": "Высокотехнологичный комплект проводов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/advanced-wiring-kit"
+    },
+    "Air Bladder": {
+      "zh-cn": "气囊",
+      "ru": "Воздушный пузырь",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/air-bladder"
+    },
+    "Alcohol": {
+      "zh-cn": "酒精",
+      "ru": "Спирт",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/alcohol"
+    },
+    "Algae Block": {
+      "zh-cn": "海藻块",
+      "ru": "Батончик из водорослей",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/nutritious-mussels-item-type-1"
+    },
+    "Basic Battery": {
+      "zh-cn": "基础电池",
+      "ru": "Простой аккумулятор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/basic-battery"
+    },
+    "Basic Fins": {
+      "zh-cn": "基础脚蹼",
+      "ru": "Обычные ласты",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/fins"
+    },
+    "Basic First Aid Kit": {
+      "zh-cn": "基础急救包",
+      "ru": "Простая аптечка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/first-aid-kit-basic"
+    },
+    "Battery Terminal": {
+      "zh-cn": "电池终端",
+      "ru": "Терминал для аккумуляторов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/basic-battery-terminal"
+    },
+    "Beacon": {
+      "zh-cn": "信标",
+      "ru": "Маяк",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/beacon"
+    },
+    "Biofuel Block": {
+      "zh-cn": "生物燃料块",
+      "ru": "Биотопливный блок",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/biofuel-block"
+    },
+    "Biosampling Kit": {
+      "zh-cn": "生物采样套件",
+      "ru": "Набор биопроб",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/biosampler"
+    },
+    "Bioscanner": {
+      "zh-cn": "生物扫描仪",
+      "ru": "Биосканер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/scanner-v2"
+    },
+    "Black Hoverthorn": {
+      "zh-cn": "黑悬浮刺鱼",
+      "ru": "Чёрный иглохвост",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/spiney-tail-variant01"
+    },
+    "Bluemoon": {
+      "zh-cn": "蓝月鱼",
+      "ru": "Рыба-синемесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/halfmoon-variant02"
+    },
+    "Box of Holding": {
+      "zh-cn": "收纳箱",
+      "ru": "Контейнер для излишков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/box-of-holding"
+    },
+    "Cherimoya Chutney": {
+      "zh-cn": "海荔枝酸辣酱",
+      "ru": "Чатни из черимойи",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cherimoya-chutney"
+    },
+    "Cherimoya Rotsac": {
+      "zh-cn": "海荔枝",
+      "ru": "Гнилушка-черимойя",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cherimoya-rotsac-fruit"
+    },
+    "Cooked Black Hoverthorn": {
+      "zh-cn": "烹饪过的黑悬浮刺鱼",
+      "ru": "Приготовленный чёрный иглохвост",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-spineytail-variant01"
+    },
+    "Cooked Bluemoon": {
+      "zh-cn": "烹饪过的蓝月鱼",
+      "ru": "Приготовленная рыба-синемесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-bluemoon"
+    },
+    "Cooked Electric Geordie": {
+      "zh-cn": "烹饪过的电流海鞘",
+      "ru": "Приготовленный электроджорди",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-electric-geordie"
+    },
+    "Cooked Geordie": {
+      "zh-cn": "烹饪过的四翅海鞘",
+      "ru": "Приготовленный джорди",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-geordie"
+    },
+    "Cooked Halfmoon": {
+      "zh-cn": "烹饪过的半月鱼",
+      "ru": "Приготовленная рыба-полумесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-halfmoon"
+    },
+    "Cooked Harvestmoon": {
+      "zh-cn": "烹饪过的满月鱼",
+      "ru": "Приготовленная рыба-желтомесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-harvestmoon"
+    },
+    "Cooked Hoverthorn": {
+      "zh-cn": "烹饪过的悬浮刺鱼",
+      "ru": "Приготовленный иглохвост",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-spineytail"
+    },
+    "Cooked Pneuma": {
+      "zh-cn": "烹饪过的泡泡鱼",
+      "ru": "Приготовленная пневма",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-pneumo"
+    },
+    "Cooked Quadrate": {
+      "zh-cn": "烹饪过的四牙海鞘",
+      "ru": "Приготовленный клыкач",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cooked-quadrate"
+    },
+    "Copper Ingot": {
+      "zh-cn": "铜锭",
+      "ru": "Медный слиток",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/copper-ingot"
+    },
+    "Copper Wire": {
+      "zh-cn": "铜线",
+      "ru": "Медный провод",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/copper-wire"
+    },
+    "Coral Mash": {
+      "zh-cn": "珊瑚泥",
+      "ru": "Коралловая паста",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/coral-cookie"
+    },
+    "Coral Shavings": {
+      "zh-cn": "珊瑚薄片",
+      "ru": "Коралловая стружка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/plate-coral"
+    },
+    "Current Ring": {
+      "zh-cn": "水流环",
+      "ru": "Кольцевой генератор течения",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/current-ring"
+    },
+    "Cyan Glowstick": {
+      "zh-cn": "青色荧光棒",
+      "ru": "Голубой люминесцентный стик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/cyan-glowstick"
+    },
+    "Dedicated Core": {
+      "zh-cn": "专用核心",
+      "ru": "Выделенное ядро",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/computer-chip-mk2"
+    },
+    "Deepwing Egg Clump": {
+      "zh-cn": "深翼鲸卵块",
+      "ru": "Кладка яиц глубококрыла",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/deepwing-brooder-egg"
+    },
+    "Disperser": {
+      "zh-cn": "扩散器",
+      "ru": "Диспергатор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/disperser"
+    },
+    "Distraction Flare": {
+      "zh-cn": "诱敌照明棒",
+      "ru": "Отвлекающая шашка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/flares"
+    },
+    "Electric Geordie": {
+      "zh-cn": "电流海鞘",
+      "ru": "Электроджорди",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/electric-geordie"
+    },
+    "Enameled Glass": {
+      "zh-cn": "搪瓷玻璃",
+      "ru": "Эмалированное стекло",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/enameled-glass"
+    },
+    "Enhanced First Aid Kit": {
+      "zh-cn": "强化急救包",
+      "ru": "Улучшенная аптечка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/first-aid-kit-enhanced"
+    },
+    "Entangled Power Cell": {
+      "zh-cn": "纠缠动力电池",
+      "ru": "Квантовая энергоячейка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/power-cell-v2"
+    },
+    "Expanded Deployable Locker": {
+      "zh-cn": "扩容可部署储物柜",
+      "ru": "Вместительный шкаф",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/heavy-floating-locker-carryable"
+    },
+    "Fabricator": {
+      "zh-cn": "装配台",
+      "ru": "Изготовитель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/fabricator"
+    },
+    "Feedback Resonator": {
+      "zh-cn": "反馈共振器",
+      "ru": "Резонатор отражённой волны",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/sonic-resonator-v2"
+    },
+    "Fiber Mesh": {
+      "zh-cn": "纤维布",
+      "ru": "Сетчатое волокно",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/fiber-mesh"
+    },
+    "Flash Slug": {
+      "zh-cn": "闪光蛞蝓",
+      "ru": "Слепящий слизень",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/flash-slug"
+    },
+    "Flashlight": {
+      "zh-cn": "手电筒",
+      "ru": "Фонарик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/flash-light"
+    },
+    "Floating Support": {
+      "zh-cn": "漂浮支撑",
+      "ru": "Плавучая опора",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/floating-support"
+    },
+    "Geordie": {
+      "zh-cn": "四翅海鞘",
+      "ru": "Джорди",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/geordie"
+    },
+    "Geothermal Recharger": {
+      "zh-cn": "地热充电器",
+      "ru": "Геотермальное зарядное устройство",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/geothermal-recharger"
+    },
+    "Glass": {
+      "zh-cn": "玻璃",
+      "ru": "Стекло",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/glass"
+    },
+    "Glowstick": {
+      "zh-cn": "荧光柱",
+      "ru": "Светильник на штативе",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/glowstick"
+    },
+    "Gold Ingot": {
+      "zh-cn": "金锭",
+      "ru": "Золотой слиток",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/gold-ingot"
+    },
+    "Grease": {
+      "zh-cn": "润滑油",
+      "ru": "Масло",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/grease"
+    },
+    "Habitat Builder": {
+      "zh-cn": "栖息所建造器",
+      "ru": "Строитель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/builder"
+    },
+    "Halfmoon": {
+      "zh-cn": "半月鱼",
+      "ru": "Рыба-полумесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/halfmoon"
+    },
+    "Halfmoon Jerky": {
+      "zh-cn": "半月鱼肉干",
+      "ru": "Вяленая рыба-полумесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/halfmoon-jerky"
+    },
+    "Harvestmoon": {
+      "zh-cn": "满月鱼",
+      "ru": "Рыба-желтомесяц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/halfmoon-variant01"
+    },
+    "High Capacity Air Tank": {
+      "zh-cn": "大容量氧气瓶",
+      "ru": "Кислородный баллон высокой ёмкости",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/oxygen-tank-medium-equippable"
+    },
+    "High Capacity Deployable Locker": {
+      "zh-cn": "大容量可部署储物柜",
+      "ru": "Очень вместительный шкаф",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/super-heavy-floating-locker-carryable"
+    },
+    "Hoverthorn": {
+      "zh-cn": "悬浮刺鱼",
+      "ru": "Иглохвост",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/spiney-tail"
+    },
+    "Hydroelectric Turbine": {
+      "zh-cn": "水电涡轮机",
+      "ru": "Гидроэлектрическая турбина",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/hydroelectric-turbine"
+    },
+    "Improved Fins": {
+      "zh-cn": "改良脚蹼",
+      "ru": "Улучшенные ласты",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/improved-fins"
+    },
+    "Isotonic Water": {
+      "zh-cn": "等渗水",
+      "ru": "Водный изотоник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/isotonic-drink"
+    },
+    "Lightstick": {
+      "zh-cn": "发光柱",
+      "ru": "Фонарь на штативе",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/lightstick"
+    },
+    "Lucifer Rotsac": {
+      "zh-cn": "海芒星",
+      "ru": "Гнилушка светоносная",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/lucifer-rotsac"
+    },
+    "Mangalloy Ingot": {
+      "zh-cn": "锰合金锭",
+      "ru": "Слиток марганцевой стали",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/axum-alloy-ingot"
+    },
+    "Metal Salvage": {
+      "zh-cn": "金属残骸",
+      "ru": "Металлолом",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/metal-salvage"
+    },
+    "Mild Acid": {
+      "zh-cn": "弱酸",
+      "ru": "Слабая кислота",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/mild-acid"
+    },
+    "Modification Station": {
+      "zh-cn": "模改中心",
+      "ru": "Модификационная станция",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/modification-station"
+    },
+    "NoA Terminal": {
+      "zh-cn": "NoA终端",
+      "ru": "Терминал НоА",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/computer-core"
+    },
+    "Nutrient Block": {
+      "zh-cn": "营养块",
+      "ru": "Питательный батончик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/nutrient-block"
+    },
+    "Oily Salad": {
+      "zh-cn": "油性沙拉",
+      "ru": "Маслянистый салат",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/oily-salad"
+    },
+    "Pavlova": {
+      "zh-cn": "蛋白甜饼",
+      "ru": "Десерт «Павлова»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/pavlova"
+    },
+    "Pillar": {
+      "zh-cn": "立柱",
+      "ru": "Опора",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/support"
+    },
+    "Pneuma": {
+      "zh-cn": "泡泡鱼",
+      "ru": "Пневма",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/pneumo"
+    },
+    "Political Consciousness": {
+      "zh-cn": "政治意识",
+      "ru": "«Политическое самосознание»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/quartz-chip-political-consciousness"
+    },
+    "Portable Locker": {
+      "zh-cn": "便携式储物柜",
+      "ru": "Переносной контейнер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/floating-locker-carryable"
+    },
+    "Portable Oxygen Generator": {
+      "zh-cn": "便携式氧气发生器",
+      "ru": "Портативный кислородный генератор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/oxygen-generator-carryable"
+    },
+    "Power Cell": {
+      "zh-cn": "动力电池",
+      "ru": "Энергоячейка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/power-cell"
+    },
+    "Power Cell Bank": {
+      "zh-cn": "电池组",
+      "ru": "Блок энергоячеек",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/power-cell-bank-carryable"
+    },
+    "Power Cell Terminal": {
+      "zh-cn": "动力电池终端",
+      "ru": "Терминал для энергоячеек",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/power-cell-terminal"
+    },
+    "Power Plant Part A": {
+      "zh-cn": "发电站建设方案A",
+      "ru": "Деталь электростанции А",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/power-plant-building-project-a"
+    },
+    "Power Transmitter": {
+      "zh-cn": "电力传输器",
+      "ru": "Энергопередатчик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/power-transmitter"
+    },
+    "Processor": {
+      "zh-cn": "处理器",
+      "ru": "Переработчик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/processor"
+    },
+    "Quadrate": {
+      "zh-cn": "四牙海鞘",
+      "ru": "Клыкач",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/quadrate"
+    },
+    "Rebreather": {
+      "zh-cn": "循环呼吸器",
+      "ru": "Ребризер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/rebreather-equippable"
+    },
+    "Repair Tool": {
+      "zh-cn": "修理工具",
+      "ru": "Ремонтный инструмент",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/repair-tool"
+    },
+    "Sandspear": {
+      "zh-cn": "潜沙矛",
+      "ru": "Копейник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/sandspear"
+    },
+    "Scanner": {
+      "zh-cn": "扫描仪",
+      "ru": "Сканнер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/scanner"
+    },
+    "Scuba Mask": {
+      "zh-cn": "潜水面罩",
+      "ru": "Маска ныряльщика",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/scuba-mask"
+    },
+    "Silver Ingot": {
+      "zh-cn": "银锭",
+      "ru": "Серебряный слиток",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/silver-ingot"
+    },
+    "Sonic Resonator": {
+      "zh-cn": "声波共振器",
+      "ru": "Звуковой резонатор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/sonic-resonator"
+    },
+    "Spotlight": {
+      "zh-cn": "聚光灯",
+      "ru": "Прожектор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/spotlight"
+    },
+    "Standard Air Tank": {
+      "zh-cn": "标准氧气瓶",
+      "ru": "Обычный кислородный баллон",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/oxygen-tank-small"
+    },
+    "Storage Cache": {
+      "zh-cn": "储物仓",
+      "ru": "Складской контейнер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/storage-cache"
+    },
+    "Strong Acid": {
+      "zh-cn": "强酸",
+      "ru": "Концентрированная кислота",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/strong-acid"
+    },
+    "Strontium": {
+      "zh-cn": "锶",
+      "ru": "Стронций",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/strontium"
+    },
+    "Sugar of Saturn": {
+      "zh-cn": "土星糖",
+      "ru": "Сатурновый сахар",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/sugar-analog"
+    },
+    "Survival Multitool": {
+      "zh-cn": "多功能生存工具",
+      "ru": "Мультитул",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/survival-multi-tool"
+    },
+    "System Chip": {
+      "zh-cn": "系统芯片",
+      "ru": "Системный чип",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/computer-chip"
+    },
+    "Thermal Plant": {
+      "zh-cn": "热能发电机",
+      "ru": "Теплоэлектростанция",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/thermal-plant"
+    },
+    "Threemoon Temaki": {
+      "zh-cn": "三月三鱼卷",
+      "ru": "Трехмесячный темаки",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/threemoon-temaki"
+    },
+    "Time of Day Display": {
+      "zh-cn": "时间段显示",
+      "ru": "Часы",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/display-time-of-day"
+    },
+    "Titanium Ingot": {
+      "zh-cn": "钛锭",
+      "ru": "Титановый слиток",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/titanium-ingot"
+    },
+    "Ultra High Capacity Air Tank": {
+      "zh-cn": "超大容量氧气瓶",
+      "ru": "Баллон сверхвысокой ёмкости",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/oxygen-tank-large-equippable"
+    },
+    "Unobtainium": {
+      "zh-cn": "常温超导体",
+      "ru": "Недоступниум",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/unobtanium"
+    },
+    "Wakemaker": {
+      "zh-cn": "水下推进器",
+      "ru": "Аквапланер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/wakemaker"
+    },
+    "Wall Rack": {
+      "zh-cn": "壁架",
+      "ru": "Настенный стеллаж",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/carryable-wall-rack"
+    },
+    "Water": {
+      "zh-cn": "水",
+      "ru": "Вода",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/water"
+    },
+    "Water Slug": {
+      "zh-cn": "水蛞蝓",
+      "ru": "Водный слизень",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/water-slug"
+    },
+    "Wire Bundle": {
+      "zh-cn": "线束",
+      "ru": "Пучок проводов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/axum-tech-wire-bundle"
+    },
+    "Wiring Kit": {
+      "zh-cn": "接线盒",
+      "ru": "Комплект проводов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/wiring-kit"
+    },
+    "Work Light": {
+      "zh-cn": "工作灯",
+      "ru": "Рабочий прожектор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/items/work-light-carryable"
+    },
+    "Corridor": {
+      "zh-cn": "通道",
+      "ru": "Коридор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/corridor-initial-piece"
+    },
+    "Interior Wall": {
+      "zh-cn": "室内墙体",
+      "ru": "Внутренняя стена",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/interior-wall"
+    },
+    "Moonpool": {
+      "zh-cn": "船井",
+      "ru": "Стыковочная шахта",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/moon-pool-initial-piece"
+    },
+    "Nook": {
+      "zh-cn": "观景台",
+      "ru": "Выступ",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/nook-initial-piece"
+    },
+    "Room": {
+      "zh-cn": "房间",
+      "ru": "Отсек",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/room-initial-piece"
+    },
+    "Standard Foundation": {
+      "zh-cn": "标准地基",
+      "ru": "Обычный фундамент",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/foundation-initial-piece"
+    },
+    "Superconducting Foundation": {
+      "zh-cn": "超导地基",
+      "ru": "Сверхпроводящий фундамент",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/foundation-power-initial-piece"
+    },
+    "Axum Jar": {
+      "zh-cn": "阿克苏姆罐子",
+      "ru": "Кувшин аксумов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-jar"
+    },
+    "Axum Wall Lamp": {
+      "zh-cn": "阿克苏姆壁灯",
+      "ru": "Аксумский настенный светильник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-wall-lamp"
+    },
+    "Bulb Floor Lamp": {
+      "zh-cn": "落地灯",
+      "ru": "Напольный светильник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/lamp-floor-bulb"
+    },
+    "CHBC Live Poster": {
+      "zh-cn": "CHBC 纪念海报",
+      "ru": "Плакат в память о CHBC",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Coral Jar": {
+      "zh-cn": "珊瑚罐子",
+      "ru": "Коралловый кувшин",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-jar-coral"
+    },
+    "Cradle Shootroot": {
+      "zh-cn": "摇篮芽根",
+      "ru": "Бурильщик-колыбелька",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/farmable-cradle-shoot-root"
+    },
+    "Dining Chair": {
+      "zh-cn": "餐椅",
+      "ru": "Обеденный стул",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/chair-dining"
+    },
+    "Dive Elevator": {
+      "zh-cn": "潜水电梯",
+      "ru": "Погружной подъемник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/deployable-elevator"
+    },
+    "Duplex Solar Panel": {
+      "zh-cn": "双联太阳能电池板",
+      "ru": "Двойная солнечная панель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/solar-panel-medium"
+    },
+    "Exterior Wall Light": {
+      "zh-cn": "室外壁灯",
+      "ru": "Внешнее настенное освещение",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/lamp-exterior-wall-bulb"
+    },
+    "Hanging Tailing Jar": {
+      "zh-cn": "悬挂尾族罐子",
+      "ru": "Висящий кувшин Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-jar-hanging"
+    },
+    "Just Keep Swimming Poster": {
+      "zh-cn": "泳往直前海报",
+      "ru": "Плакат «Просто греби»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-keep-swimming"
+    },
+    "Keep Calm Poster": {
+      "zh-cn": "保持冷静海报",
+      "ru": "Плакат «Без паники»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-keep-calm"
+    },
+    "Lab Chair": {
+      "zh-cn": "实验室椅子",
+      "ru": "Лабораторный стул",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/chair-lab"
+    },
+    "New Life Poster": {
+      "zh-cn": "新生活海报",
+      "ru": "Плакат «Новая жизнь»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-zezura-02"
+    },
+    "Painted Tree Poster": {
+      "zh-cn": "世界树绘画海报",
+      "ru": "Плакат «Красочное дерево»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-painted-tree"
+    },
+    "Pioneer Program Poster": {
+      "zh-cn": "拓荒人员计划海报",
+      "ru": "Плакат «Первопроходцы»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-pioneer-program"
+    },
+    "Power Storage": {
+      "zh-cn": "电力存储",
+      "ru": "Аккумулятор энергии",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/power-storage"
+    },
+    "Rectangular Ceiling Light": {
+      "zh-cn": "方形顶灯",
+      "ru": "Прямоугольная потолочная лампа",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/ceiling-light-rect-a"
+    },
+    "Roof Antenna": {
+      "zh-cn": "屋顶天线",
+      "ru": "Антенна на крышу",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-antenna-a"
+    },
+    "Roof Antenna Large": {
+      "zh-cn": "大型屋顶天线",
+      "ru": "Большая антенна на крышу",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-antenna-b"
+    },
+    "Roof Listening Dish": {
+      "zh-cn": "屋顶监听天线",
+      "ru": "Тарелка на крышу",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-antenna-c"
+    },
+    "Roof Panel Large": {
+      "zh-cn": "大型屋顶面板",
+      "ru": "Большая панель крыши",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-panel-a"
+    },
+    "Roof Pump": {
+      "zh-cn": "屋顶泵",
+      "ru": "Нагнетатель на крышу",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-fan-single"
+    },
+    "Roof Pump Double": {
+      "zh-cn": "双联屋顶泵",
+      "ru": "Двойной нагнетатель на крышу",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-fan-double"
+    },
+    "S Shelf": {
+      "zh-cn": "S型架子",
+      "ru": "S-образная полка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/shelf-s"
+    },
+    "Safety First Poster": {
+      "zh-cn": "安全第一海报",
+      "ru": "Плакат «Соблюдай ТБ»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-reprinting"
+    },
+    "Scanner Station": {
+      "zh-cn": "扫描站",
+      "ru": "Станция сканирования",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/scanner-station-long-range"
+    },
+    "Scout Ray Poster": {
+      "zh-cn": "侦察鳐海报",
+      "ru": "Плакат «Скат»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-scout-ray"
+    },
+    "Sign": {
+      "zh-cn": "告示牌",
+      "ru": "Указатель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/sign"
+    },
+    "Single Bed": {
+      "zh-cn": "单人床",
+      "ru": "Односпальная кровать",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/bed-single"
+    },
+    "Small Axum Jar": {
+      "zh-cn": "阿克苏姆小罐子",
+      "ru": "Кувшинчик аксумов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-jar-small"
+    },
+    "Small Ceiling Light": {
+      "zh-cn": "小型顶灯",
+      "ru": "Маленький потолочный светильник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/lamp-ceiling-bulb"
+    },
+    "Small Coral Jar": {
+      "zh-cn": "小型珊瑚罐子",
+      "ru": "Коралловый кувшинчик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-jar-coral-small"
+    },
+    "Tailing Barrel": {
+      "zh-cn": "尾族桶",
+      "ru": "Бочка Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-barrel"
+    },
+    "Tailing Chest": {
+      "zh-cn": "尾族箱子",
+      "ru": "Сундук Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-chest"
+    },
+    "Tailing Drum": {
+      "zh-cn": "尾族鼓",
+      "ru": "Барабан Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-drums"
+    },
+    "Tailing Jar": {
+      "zh-cn": "尾族罐子",
+      "ru": "Кувшин Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-jar"
+    },
+    "Tailing Rug": {
+      "zh-cn": "尾族地毯",
+      "ru": "Ковёр Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-rug"
+    },
+    "Tailing Table": {
+      "zh-cn": "尾族桌子",
+      "ru": "Стол Аксумских Обломков",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tailing-table"
+    },
+    "Tall Axum Jar": {
+      "zh-cn": "阿克苏姆高罐子",
+      "ru": "Высокий кувшин аксумов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-jar-tall"
+    },
+    "Vintage Wanted poster": {
+      "zh-cn": "复古通缉令海报",
+      "ru": "Винтажный плакат «В розыске»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-wanted"
+    },
+    "Wall Light Large": {
+      "zh-cn": "大型壁灯",
+      "ru": "Большая настенная лампа",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/light-wall-large"
+    },
+    "Wall Light Small": {
+      "zh-cn": "小型壁灯",
+      "ru": "Малая настенная лампа",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/light-wall-small"
+    },
+    "Wall Panel": {
+      "zh-cn": "墙体面板",
+      "ru": "Настенная панель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-wall-panel-a"
+    },
+    "Wall Unit Large": {
+      "zh-cn": "大型壁挂",
+      "ru": "Большой настенный прибор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-wall-unit-b"
+    },
+    "Wall Unit Small": {
+      "zh-cn": "小型壁挂",
+      "ru": "Малый настенный прибор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-wall-unit-a"
+    },
+    "Wall Vent": {
+      "zh-cn": "墙面通风口",
+      "ru": "Настенная вентиляция",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-wall-vent"
+    },
+    "Wall Vent Large": {
+      "zh-cn": "大型墙面通风口",
+      "ru": "Большая настенная вентиляция",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-wall-vent-b"
+    },
+    "Zezura Poster": {
+      "zh-cn": "泽祖拉海报",
+      "ru": "Плакат «Зезура»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-zezura"
+    },
+    "Axum Pot": {
+      "zh-cn": "阿克苏姆花盆",
+      "ru": "Аксумский горшок",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-planter"
+    },
+    "Axum Seat": {
+      "zh-cn": "阿克苏姆椅子",
+      "ru": "Аксумское сиденье",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-seat"
+    },
+    "Axum Street Lamp": {
+      "zh-cn": "阿克苏姆路灯",
+      "ru": "Аксумский уличный фонарь",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-street-lamp"
+    },
+    "Community Poster 02": {
+      "zh-cn": "社区海报02",
+      "ru": "Фанатский плакат 02",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-community02"
+    },
+    "Resonance Fountain": {
+      "zh-cn": "共振喷泉",
+      "ru": "Резонансный фонтан",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/resonance-fountain"
+    },
+    "World Tree Relic": {
+      "zh-cn": "世界树遗物",
+      "ru": "Артефакт мирового древа",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-tree-relic"
+    },
+    "Growbed": {
+      "zh-cn": "培育床",
+      "ru": "Грядка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/planter-initial-piece-data"
+    },
+    "Half Round Room": {
+      "zh-cn": "半圆形房间",
+      "ru": "Полукруглый отсек",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/half-round-room-initial-piece-data"
+    },
+    "Ladder": {
+      "zh-cn": "梯子",
+      "ru": "Лестница",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/ladder-initial-piece-data"
+    },
+    "Tadpole Dock": {
+      "zh-cn": "蝌蚪号停靠站",
+      "ru": "Стыковочная шахта «Головастика»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/tadpole-dock-blister-initial-piece-data"
+    },
+    "Axum Trashcan": {
+      "zh-cn": "阿克苏姆垃圾桶",
+      "ru": "Аксумская урна",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/axum-trashcan-data"
+    },
+    "Biobed": {
+      "zh-cn": "生物床",
+      "ru": "Биокапсула",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/bio-bed-construct-data"
+    },
+    "Biolab": {
+      "zh-cn": "生物实验室",
+      "ru": "Биолаборатория",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/bio-lab-construct-data"
+    },
+    "Bioreactor": {
+      "zh-cn": "生物反应堆",
+      "ru": "Биореактор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/bioreactor-construct-data"
+    },
+    "Biosampling Kit Dispenser": {
+      "zh-cn": "生物采样套件分配器",
+      "ru": "Диспенсер набора биопроб",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/biosampling-kit-dispenser-construct-data"
+    },
+    "Cyclops Poster": {
+      "zh-cn": "独眼巨人号海报",
+      "ru": "Плакат «Циклоп»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-preorder-04"
+    },
+    "Dining Table": {
+      "zh-cn": "餐桌",
+      "ru": "Обеденный стол",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/table-dining-construct-data"
+    },
+    "Floor Locker": {
+      "zh-cn": "地面储物柜",
+      "ru": "Напольный шкаф",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/floor-locker-construct-data"
+    },
+    "Habitat Beacon": {
+      "zh-cn": "栖息所信标",
+      "ru": "Маяк базы",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/base-signal-construct-data"
+    },
+    "Lost River Poster": {
+      "zh-cn": "失落之河海报",
+      "ru": "Плакат «Затерянная река»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-preorder-02"
+    },
+    "Medkit Fabricator": {
+      "zh-cn": "医疗包装配台",
+      "ru": "Изготовитель аптечек",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/med-kit-dispenser-construct-data"
+    },
+    "Mining Platform": {
+      "zh-cn": "采矿平台",
+      "ru": "Добывающая платформа",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/mining-platform-construct-data"
+    },
+    "Mining Platform Copper": {
+      "zh-cn": "铜质采矿平台",
+      "ru": "Добывающая платформа (медь)",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/mining-platform-copper-construct-data"
+    },
+    "Pioneer Hull Plate": {
+      "zh-cn": "拓荒人员船体钢板",
+      "ru": "Корпусная пластина «Первопроходец»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/hull-plate-preorder-01"
+    },
+    "Radio": {
+      "zh-cn": "无线电",
+      "ru": "Радио",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/radio-construct-data"
+    },
+    "Reaper Leviathan": {
+      "zh-cn": "死神利维坦",
+      "ru": "Левиафан-жнец",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/reaper-preorder-01"
+    },
+    "Roof Cylinder": {
+      "zh-cn": "屋顶圆柱体",
+      "ru": "Цилиндр на крышу",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/greeble-roof-cylinder-construction-data"
+    },
+    "Sea Dragon Poster": {
+      "zh-cn": "海龙海报",
+      "ru": "Плакат «Морской дракон»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-preorder-01"
+    },
+    "Sea Emperor Poster": {
+      "zh-cn": "海皇海报",
+      "ru": "Плакат «Морской император»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/poster-preorder-03"
+    },
+    "Seamoth Model": {
+      "zh-cn": "海蛾号模型",
+      "ru": "Моделька «Мотылька»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/seamoth-preorder-01"
+    },
+    "Sensor Pod": {
+      "zh-cn": "传感器舱",
+      "ru": "Сенсорный модуль",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/sensor-pod-construct-data"
+    },
+    "Small Crate": {
+      "zh-cn": "小型箱子",
+      "ru": "Малый контейнер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/crate-01-construct-data"
+    },
+    "Solar Panel": {
+      "zh-cn": "太阳能电池板",
+      "ru": "Солнечная панель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/solar-panel-construct-data"
+    },
+    "Stool": {
+      "zh-cn": "凳子",
+      "ru": "Табурет",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/stool-construct-data"
+    },
+    "Trashcan": {
+      "zh-cn": "垃圾桶",
+      "ru": "Урна",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/trashcan-data"
+    },
+    "Wall Locker": {
+      "zh-cn": "壁挂式储物柜",
+      "ru": "Настенный шкаф",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/wall-locker-construct-data"
+    },
+    "Fabricator Pillar": {
+      "zh-cn": "装配台立柱",
+      "ru": "Стойка с изготовителями",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/base-building/fabricator-pillar-construct-data"
+    },
+    "Cavitation Muffler": {
+      "zh-cn": "空化消声器",
+      "ru": "Гаситель кавитации",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-hydraulic-muffler"
+    },
+    "Echo Location": {
+      "zh-cn": "回声定位",
+      "ru": "Эхолокация",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-echo-location"
+    },
+    "Engine Efficiency": {
+      "zh-cn": "引擎效率",
+      "ru": "Эффективность двигателя",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-engine-efficiency"
+    },
+    "Heat Resistance Chip": {
+      "zh-cn": "耐热芯片",
+      "ru": "Чип термозащиты",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/heat-resist-torso-item"
+    },
+    "Photovoltaic Charger": {
+      "zh-cn": "光伏充电器",
+      "ru": "Солнечная батарея",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-photovoltaic-charger"
+    },
+    "Strike Armor": {
+      "zh-cn": "防冲击装甲",
+      "ru": "Противоударная защита",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-hull-reinforcement"
+    },
+    "Tadpole Depth Module Mk. 1": {
+      "zh-cn": "蝌蚪号深潜模块1型",
+      "ru": "Модуль глубины погружения «Головастика» – Мод. 1",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-crush-depth-upgrade01-item-type-01"
+    },
+    "Tadpole Depth Module Mk. 2": {
+      "zh-cn": "蝌蚪号深潜模块2型",
+      "ru": "Модуль глубины погружения «Головастика» – Мод. 2",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/modules/tadpole-crush-depth-upgrade02"
+    },
+    "Scout Ray Chassis": {
+      "zh-cn": "侦察鳐底盘",
+      "ru": "Шасси «Скат»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/vehicles/scout-ray"
+    },
+    "Tadpole": {
+      "zh-cn": "蝌蚪号",
+      "ru": "«Головастик»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/vehicles/tadpole"
+    },
+    "Tadpole Haul Chassis": {
+      "zh-cn": "蝌蚪号搬运底盘",
+      "ru": "Грузовое шасси «Головастика»",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/vehicles/haul"
+    },
+    "Trident": {
+      "zh-cn": "三叉戟",
+      "ru": "Трезубец",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/vehicles/trident"
+    },
+    "Bloom Parasite": {
+      "zh-cn": "水华寄生虫",
+      "ru": "Моровой паразит",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/bloom-parasite"
+    },
+    "Bullethead": {
+      "zh-cn": "子弹头",
+      "ru": "Кальмар-пуля",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/bullethead"
+    },
+    "Cerathecan": {
+      "zh-cn": "角壳贝",
+      "ru": "Футлярник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/cerathecan"
+    },
+    "Collector Leviathan": {
+      "zh-cn": "深渊巨触",
+      "ru": "Левиафан-коллекционер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/collector-leviathan"
+    },
+    "Coral Crab": {
+      "zh-cn": "珊瑚蟹",
+      "ru": "Коралловый краб",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/coral-crab"
+    },
+    "Crimson Shrimp": {
+      "zh-cn": "深红虾",
+      "ru": "Пурпурная креветка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/crimson-shrimp"
+    },
+    "Deepwing Brooder": {
+      "zh-cn": "深翼育母鲸",
+      "ru": "Глубококрыл-матка",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/deepwing-brooder"
+    },
+    "Epicurean": {
+      "zh-cn": "大胃鱼",
+      "ru": "Ротан ненасытный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/epicurean"
+    },
+    "Fish School Flutter Tail": {
+      "zh-cn": "扑翼尾鱼群",
+      "ru": "Косяк трепетохвостов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/fish-school-flutter-tail"
+    },
+    "Fish School Mirrorhalfmoon": {
+      "zh-cn": "镜半月鱼群",
+      "ru": "Косяк зеркальных полулуний",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/fish-school-mirrorhalfmoon"
+    },
+    "Foureye": {
+      "zh-cn": "四眼鱼",
+      "ru": "Четырёхглаз",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/four-eye"
+    },
+    "Giant Tube Salp": {
+      "zh-cn": "巨管樽海鞘",
+      "ru": "Гигантская трубчатая сальпа",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/giant-tube-salp"
+    },
+    "Hammerhead": {
+      "zh-cn": "锤头鱼",
+      "ru": "Рыба-таран",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/hammerhead"
+    },
+    "Houndgar": {
+      "zh-cn": "猎狗鱿鱼",
+      "ru": "Щука-гончая",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/houndgar"
+    },
+    "Hycean": {
+      "zh-cn": "氢海鱿鱼",
+      "ru": "Гикеан",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/hycean"
+    },
+    "Jelly Ring": {
+      "zh-cn": "水母圈",
+      "ru": "Медуза-кольцо",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/jelly-ring"
+    },
+    "Jetocaris": {
+      "zh-cn": "喷射虾",
+      "ru": "Рак-брызгун",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/jeto-caris"
+    },
+    "Locust": {
+      "zh-cn": "蝗虫",
+      "ru": "Саранча",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/locust"
+    },
+    "Marrowbreach": {
+      "zh-cn": "拆骨鲨",
+      "ru": "Костолом",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/marrowbreach"
+    },
+    "Needler Mango": {
+      "zh-cn": "飞针鲨",
+      "ru": "Акула-иглострел",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/needler-shark"
+    },
+    "Nibbler Mango": {
+      "zh-cn": "啃咬鲨",
+      "ru": "Акула-кусач",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/nibbler-mango"
+    },
+    "Periscopic Clowncrab": {
+      "zh-cn": "潜望小丑蟹",
+      "ru": "Стебельчатоглазый краб-клоун",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/anemone-crab"
+    },
+    "Sandspear Juvenile": {
+      "zh-cn": "潜沙矛幼体",
+      "ru": "Молодой копейник",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Scourge Hive": {
+      "zh-cn": "祸患蜂巢",
+      "ru": "Улей Скверны",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/scourge-hive"
+    },
+    "Shiver Leviathan": {
+      "zh-cn": "鲨群利维坦",
+      "ru": "Левиафан-пожиратель",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/void-leviathan"
+    },
+    "Shiver Male": {
+      "zh-cn": "雄性鲨群利维坦",
+      "ru": "Пожиратель (самец)",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/shiver-leviathan-juvenile"
+    },
+    "Snorkleback (Adult)": {
+      "zh-cn": "通气背（成体）",
+      "ru": "Снорклбэк (взрослая особь)",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/snorkleback-adult"
+    },
+    "Surge Jelly": {
+      "zh-cn": "放电水母",
+      "ru": "Медуза-шокер",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/surge-jelly"
+    },
+    "Teal Cycloplet": {
+      "zh-cn": "蓝绿独目鱼",
+      "ru": "Сине-зелёный циклоплет",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/teal-cycloplet"
+    },
+    "Twin Sitaray": {
+      "zh-cn": "孪生西塔鳐",
+      "ru": "Двойной ситар",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/twin-eel"
+    },
+    "Veps Defender": {
+      "zh-cn": "卫兵蜂虾",
+      "ru": "Вепс-защитник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/veps-defender"
+    },
+    "Veps Sensor": {
+      "zh-cn": "警戒蜂虾",
+      "ru": "Вепс-сторож",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/veps-sensor"
+    },
+    "Waxmoon": {
+      "zh-cn": "蜡月鱼",
+      "ru": "Рыба-серп",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/waxmoon"
+    },
+    "Amphora Sponge": {
+      "zh-cn": "水瓶海绵",
+      "ru": "Губка-амфора",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/amphora-sponge"
+    },
+    "Apocalypse Sponge": {
+      "zh-cn": "末世海绵",
+      "ru": "Губка-апокалипсис",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/apocalypse-sponge"
+    },
+    "Awnworm": {
+      "zh-cn": "穗芒管虫",
+      "ru": "Шомпол остистый",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/awnworm"
+    },
+    "Branching Coral": {
+      "zh-cn": "树枝珊瑚",
+      "ru": "Коралл древовидный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/branching-coral"
+    },
+    "Cabbage Shootroot": {
+      "zh-cn": "卷心菜芽根",
+      "ru": "Бурильщик капустный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/cabbage-shootroot"
+    },
+    "Cage Gorgon": {
+      "zh-cn": "笼海柳",
+      "ru": "Горгон-тюремщик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/cage-gorgon"
+    },
+    "Coral Dome": {
+      "zh-cn": "珊瑚球",
+      "ru": "Коралл купольный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/coral-dome"
+    },
+    "Curtain Gorgon": {
+      "zh-cn": "帘海柳",
+      "ru": "Горгон-авлея",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/curtain-gorgon"
+    },
+    "Dangling Salp": {
+      "zh-cn": "悬挂海樽",
+      "ru": "Сальпа-якорник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/dangling-salp"
+    },
+    "Donut of Worms": {
+      "zh-cn": "蠕虫甜甜圈",
+      "ru": "Пончик червеносный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/donut-of-worms"
+    },
+    "Donut, No Worms": {
+      "zh-cn": "无虫甜甜圈",
+      "ru": "Пончик голый",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/donut-no-worms"
+    },
+    "Eyeball Sponge": {
+      "zh-cn": "眼球海绵",
+      "ru": "Губка-глазное яблоко",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/eyeball-sponge"
+    },
+    "Flagon Spraion": {
+      "zh-cn": "扭结酒壶",
+      "ru": "Рейоногубка бокаловидная",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/flagon-spraion"
+    },
+    "Fridge Worm": {
+      "zh-cn": "冰箱虫",
+      "ru": "Червь-холодильник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/fridge-worm"
+    },
+    "Great Jaw": {
+      "zh-cn": "巨颚贝",
+      "ru": "Устрица-живоглот",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/great-jaw"
+    },
+    "Hecaton Tunic": {
+      "zh-cn": "百臂被囊",
+      "ru": "Оболочник-гекатонхейр",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/hecaton-tunic"
+    },
+    "Jack Sponge": {
+      "zh-cn": "杰克海绵",
+      "ru": "Губка Чарльза",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/jack-sponge"
+    },
+    "Jelly Lei": {
+      "zh-cn": "花环水母",
+      "ru": "Медуза-гирлянда",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/jelly-lei"
+    },
+    "Listening Gorgon": {
+      "zh-cn": "监听海柳",
+      "ru": "Горгон-сонар",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/listening-gorgon"
+    },
+    "Mimic Pylon": {
+      "zh-cn": "拟态海柱",
+      "ru": "Пилон мимикрирующий",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/mimic-pylon"
+    },
+    "Necrolei": {
+      "zh-cn": "死腐水母",
+      "ru": "Некролея",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/necrolei"
+    },
+    "Noon Gorgon": {
+      "zh-cn": "正午海柳",
+      "ru": "Горгон полуденный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/noon-gorgon"
+    },
+    "Oxygen Tunic": {
+      "zh-cn": "制氧被囊",
+      "ru": "Оболочник кислородогенный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/oxygen-tunic"
+    },
+    "Pebbled Sporal": {
+      "zh-cn": "石子珊瑚绵",
+      "ru": "Кораллогубка камневидная",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/pebbled-sporal"
+    },
+    "Radiator Coral": {
+      "zh-cn": "散热珊瑚",
+      "ru": "Коралл-радиатор",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/radiator-coral"
+    },
+    "Stagged Mephit (HiHat)": {
+      "zh-cn": "炎魔鹿角（铙钹）",
+      "ru": "Бусорогий бес",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/stagged-mephit-hihat"
+    },
+    "Titan Rockbore": {
+      "zh-cn": "泰坦钻岩虫",
+      "ru": "Титанический камнеточец",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/titan-rockbore"
+    },
+    "Toxic Sponge": {
+      "zh-cn": "剧毒海绵",
+      "ru": "Губка токсичная",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/toxic-sponge"
+    },
+    "Tripe-bowl Raion": {
+      "zh-cn": "百叶囊巢虫",
+      "ru": "Рейон-чаша",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/tripe-bowl-raion"
+    },
+    "Whip Gorgon": {
+      "zh-cn": "鞭海柳",
+      "ru": "Горгон-хлыстовик",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/whip-gorgon"
+    },
+    "Aster Scyllid": {
+      "zh-cn": "巨壳星藻",
+      "ru": "Сциллид-астра",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/aster-scyllid"
+    },
+    "Tallshroom": {
+      "zh-cn": "高大蘑菇",
+      "ru": "Складочник высокорослый",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/tallshroom"
+    },
+    "Aero Kelp": {
+      "zh-cn": "气生海藻",
+      "ru": "Аэро-ламинария",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/aero-kelp"
+    },
+    "Wort Wort": {
+      "zh-cn": "麦汁藻",
+      "ru": "Сивушник",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/wort-wort"
+    },
+    "False Fission Drum": {
+      "zh-cn": "伪裂变鼓",
+      "ru": "Бочонок ложнорадиоактивный",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/false-fission-drum"
+    },
+    "Bloom Canker": {
+      "zh-cn": "水华溃疡",
+      "ru": "Моровой вирофор-цветок",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/bloom-canker"
+    },
+    "Bloom Sap": {
+      "zh-cn": "水华分泌液",
+      "ru": "Моровой сок",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/bloom-sap"
+    },
+    "Freesia Flower": {
+      "zh-cn": "小苍兰",
+      "ru": "Фрезия",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/farmable-freesia"
+    },
+    "Gateway Spire": {
+      "zh-cn": "甬道立柱",
+      "ru": "Шпиль петельчатый",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/gateway-spire"
+    },
+    "Poison Tube Cluster": {
+      "zh-cn": "毒管集群",
+      "ru": "Скопление ядотрубок",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/lifeforms/poison-tube-cluster"
+    },
+    "Titanium": {
+      "zh-cn": "钛",
+      "ru": "Титан",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/world-pop-spawned-titanium"
+    },
+    "Sulfur": {
+      "zh-cn": "硫",
+      "ru": "Сера",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/world-pop-spawned-sulfur-loose"
+    },
+    "Quartz": {
+      "zh-cn": "石英",
+      "ru": "Кварц",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/world-pop-spawned-quartz"
+    },
+    "Titanium node": {
+      "zh-cn": "钛矿脉",
+      "ru": "Титановая жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Titanium deposit": {
+      "zh-cn": "钛矿床",
+      "ru": "Месторождение титана",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Copper": {
+      "zh-cn": "铜",
+      "ru": "Медь",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/world-pop-spawned-copper"
+    },
+    "Salt": {
+      "zh-cn": "盐",
+      "ru": "Соль",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/salt"
+    },
+    "Silver": {
+      "zh-cn": "银",
+      "ru": "Серебро",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/world-pop-spawned-silver"
+    },
+    "Quartz node": {
+      "zh-cn": "石英矿脉",
+      "ru": "Кварцевая жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Silver node": {
+      "zh-cn": "银矿脉",
+      "ru": "Серебряная жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Sulfur node": {
+      "zh-cn": "硫矿脉",
+      "ru": "Серная жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Copper deposit": {
+      "zh-cn": "铜矿床",
+      "ru": "Месторождение меди",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Silver deposit": {
+      "zh-cn": "银矿床",
+      "ru": "Месторождение серебра",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Celestine deposit": {
+      "zh-cn": "天青石矿床",
+      "ru": "Месторождение целестина",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Quartz deposit": {
+      "zh-cn": "石英矿床",
+      "ru": "Месторождение кварца",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Gold deposit": {
+      "zh-cn": "金矿床",
+      "ru": "Месторождение золота",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Crab Feces": {
+      "zh-cn": "螃蟹粪便",
+      "ru": "Помет краба",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/crab-feces"
+    },
+    "Copper node": {
+      "zh-cn": "铜矿脉",
+      "ru": "Медная жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Gold node": {
+      "zh-cn": "金矿脉",
+      "ru": "Золотая жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lithium deposit": {
+      "zh-cn": "锂矿床",
+      "ru": "Месторождение лития",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Salt deposit": {
+      "zh-cn": "盐矿床",
+      "ru": "Месторождение соли",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lead node": {
+      "zh-cn": "铅矿脉",
+      "ru": "Свинцовая жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lead deposit": {
+      "zh-cn": "铅矿床",
+      "ru": "Месторождение свинца",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Gold": {
+      "zh-cn": "金",
+      "ru": "Золото",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/gold"
+    },
+    "Necrolei Cyst": {
+      "zh-cn": "死腐水母包囊",
+      "ru": "Циста некролеи",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/necrolei-egg-cage-breakable"
+    },
+    "Atacamite deposit": {
+      "zh-cn": "氯铜矿矿床",
+      "ru": "Месторождение атакамита",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Mineralized Clinker": {
+      "zh-cn": "矿化熟料",
+      "ru": "Минерализованный шлак",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/resource-deposit-deep-root-resonatable-resource"
+    },
+    "Lead": {
+      "zh-cn": "铅",
+      "ru": "Свинец",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/resources/lead"
+    },
+    "Salt node": {
+      "zh-cn": "盐矿脉",
+      "ru": "Соляная жила",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Axum Ruins": {
+      "zh-cn": "阿克苏姆遗迹",
+      "ru": "Руины Аксума",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/axum-ruins"
+    },
+    "Collector Leviathan Arena": {
+      "zh-cn": "收集者利维坦竞技场",
+      "ru": "Арена левиафана-Собирателя",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/collector-leviathan-arena"
+    },
+    "Colonist Bunker": {
+      "zh-cn": "殖民者掩体",
+      "ru": "Бункер колонистов",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/colonist-bunker"
+    },
+    "Coral Gardens": {
+      "zh-cn": "珊瑚区",
+      "ru": "Коралловые сады",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/coral-gardens"
+    },
+    "Deep Start": {
+      "zh-cn": "深渊起始区",
+      "ru": "Глубинный старт",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/deep-start"
+    },
+    "Graveyard": {
+      "zh-cn": "墓地",
+      "ru": "Кладбище",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/graveyard"
+    },
+    "Overgrown Ruins": {
+      "zh-cn": "蔓生遗迹",
+      "ru": "Заросшие руины",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/overgrown-ruins"
+    },
+    "Plateaus": {
+      "zh-cn": "高原",
+      "ru": "Плато",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/plateaus"
+    },
+    "Shallows": {
+      "zh-cn": "浅滩",
+      "ru": "Мелководье",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/shallows"
+    },
+    "Sparse Plains": {
+      "zh-cn": "稀疏平原",
+      "ru": "Разреженные равнины",
+      "provenance": "game-language-data",
+      "sourceUrl": "https://subnautica2-wiki.com/en/biomes/sparse-plains"
+    },
+    "Acid Raion": {
+      "zh-cn": "酸液囊巢虫",
+      "ru": "Рейон кислотогенный",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Atacamite": {
+      "zh-cn": "氯铜矿",
+      "ru": "Атакамит",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Celestine": {
+      "zh-cn": "天青石",
+      "ru": "Целестин",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Conduit Crystal": {
+      "zh-cn": "导管晶体",
+      "ru": "Проводящий кристалл",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Creature Enamel": {
+      "zh-cn": "生物珐琅质",
+      "ru": "Эмаль существа",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Fiber": {
+      "zh-cn": "纤维",
+      "ru": "Волокно",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Fibrous Pulp": {
+      "zh-cn": "纤维浆",
+      "ru": "Волокнистая масса",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Germanium Ingot": {
+      "zh-cn": "锗锭",
+      "ru": "Слиток германия",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Hatch": {
+      "zh-cn": "舱门",
+      "ru": "Люк",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Hoverthorn Souvlaki": {
+      "zh-cn": "悬浮刺鱼烤串",
+      "ru": "Сувлаки из иглохвоста",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Interior Arch": {
+      "zh-cn": "室内拱门",
+      "ru": "Внутренняя арка",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Interior Door": {
+      "zh-cn": "室内门",
+      "ru": "Внутренняя дверь",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "LeviathanAwakens Poster": {
+      "zh-cn": "利维坦觉醒海报",
+      "ru": "Плакат «Левиафан пробуждается»",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lithium": {
+      "zh-cn": "锂",
+      "ru": "Литий",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Macaron Sponge": {
+      "zh-cn": "马卡龙海绵",
+      "ru": "Губка-макарон",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Metal Farm": {
+      "zh-cn": "金属农场",
+      "ru": "Металлическая ферма",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Necrolei Bud": {
+      "zh-cn": "尼克罗蕾花苞",
+      "ru": "Бутон некролеи",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Pent": {
+      "zh-cn": "五角舱",
+      "ru": "Пятиугольный модуль",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Plasteel Ingot": {
+      "zh-cn": "塑钢锭",
+      "ru": "Слиток пластали",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Rubber": {
+      "zh-cn": "橡胶",
+      "ru": "Резина",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Tadpole Scout Ray Chassis": {
+      "zh-cn": "蝌蚪号侦察鳐底盘",
+      "ru": "Шасси «Скат» для «Головастика»",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Troilite": {
+      "zh-cn": "磁黄铁矿",
+      "ru": "Троилит",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Urchin Pudding": {
+      "zh-cn": "海胆布丁",
+      "ru": "Пудинг из морского ежа",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Vehicle Fabricator": {
+      "zh-cn": "载具制造台",
+      "ru": "Изготовитель транспорта",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Window": {
+      "zh-cn": "窗户",
+      "ru": "Окно",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Acidic Raion Pouch": {
+      "zh-cn": "酸性囊巢虫囊袋",
+      "ru": "Кислотный мешок рейона",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Axum Bacterial Culture": {
+      "zh-cn": "阿克苏姆细菌培养物",
+      "ru": "Бактериальная культура аксумов",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Dolerite Spires": {
+      "zh-cn": "辉绿岩尖塔",
+      "ru": "Долеритовые шпили",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Elusive Leviathan": {
+      "zh-cn": "隐匿利维坦",
+      "ru": "Неуловимый левиафан",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Fluttertail": {
+      "zh-cn": "飘尾鱼",
+      "ru": "Парохвост",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Karakorum Metal Farms": {
+      "zh-cn": "喀喇昆仑金属农场",
+      "ru": "Металлические фермы Каракорума",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Karakorum Power Plant": {
+      "zh-cn": "喀喇昆仑发电站",
+      "ru": "Электростанция Каракорума",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lead Zone": {
+      "zh-cn": "铅区",
+      "ru": "Свинцовая зона",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Medical Gel Sac": {
+      "zh-cn": "医疗凝胶囊",
+      "ru": "Мешок медицинского геля",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Microshrimp": {
+      "zh-cn": "微型虾",
+      "ru": "Микрокреветка",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Mirror Halfmoon": {
+      "zh-cn": "镜月鱼",
+      "ru": "Зеркальный полумесяц",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Necrolei Hills": {
+      "zh-cn": "尼克罗蕾丘陵",
+      "ru": "Холмы Некролеи",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "North Raceway": {
+      "zh-cn": "北部赛道",
+      "ru": "Северная трасса",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Pelagic Ghost": {
+      "zh-cn": "远洋幽灵",
+      "ru": "Пелагический призрак",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Ringbearer Krill": {
+      "zh-cn": "承环磷虾",
+      "ru": "Кольценосный криль",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Root Canyon": {
+      "zh-cn": "根系峡谷",
+      "ru": "Корневой каньон",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "South Raceway": {
+      "zh-cn": "南部赛道",
+      "ru": "Южная трасса",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Tar Eel": {
+      "zh-cn": "焦油鳗",
+      "ru": "Смоляной угорь",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Vep Defender": {
+      "zh-cn": "Vep 防御者",
+      "ru": "Защитник Vep",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Vep Sensor": {
+      "zh-cn": "Vep 传感者",
+      "ru": "Сенсор Vep",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Vep Worker": {
+      "zh-cn": "Vep 工作者",
+      "ru": "Рабочий Vep",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Void": {
+      "zh-cn": "虚空",
+      "ru": "Пустота",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "World Tree": {
+      "zh-cn": "世界树",
+      "ru": "Мировое древо",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Pudding Urchin": {
+      "zh-cn": "布丁海胆",
+      "ru": "Пудинговый морской ёж",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    }
+  }
+}

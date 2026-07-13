@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "license": {
+    "name": "CC BY-NC-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+  },
+  "images": [
+    {
+      "id": "shallows",
+      "title": "Shallows",
+      "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Shallows_Biome.png/1200px-CG_Shallows_Biome.png?232ad",
+      "filePage": "https://wiki.subnautica.com/sn2/File:CG_Shallows_Biome.png",
+      "width": 1200,
+      "height": 675,
+      "page": "guide/biomes/shallows.html"
+    },
+    {
+      "id": "scanner",
+      "title": "Scanner",
+      "url": "https://wiki.subnautica.com/sn2/images/Scanner.png?1e547",
+      "filePage": "https://wiki.subnautica.com/sn2/File:Scanner.png",
+      "width": 256,
+      "height": 256,
+      "page": "guide/items/scanner.html"
+    },
+    {
+      "id": "habitat-builder",
+      "title": "Habitat Builder",
+      "url": "https://wiki.subnautica.com/sn2/images/Habitat_Builder.png?abc9e",
+      "filePage": "https://wiki.subnautica.com/sn2/File:Habitat_Builder.png",
+      "width": 256,
+      "height": 256,
+      "page": "guide/items/habitat-builder.html"
+    },
+    {
+      "id": "tadpole",
+      "title": "Tadpole",
+      "url": "https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d",
+      "filePage": "https://wiki.subnautica.com/sn2/File:Tadpole.png",
+      "width": 512,
+      "height": 512,
+      "page": "guide/vehicles/tadpole.html"
+    },
+    {
+      "id": "copper",
+      "title": "Copper",
+      "url": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9",
+      "filePage": "https://wiki.subnautica.com/sn2/File:Copper.png",
+      "width": 256,
+      "height": 256,
+      "page": "guide/resources/copper.html"
+    }
+  ]
+}

@@ -95,6 +95,24 @@ const locales = {
     "Names and biome depth are not coordinates": "地点名称和生态区深度不等于坐标",
     "Story background is not gameplay order": "剧情背景不等于游戏流程顺序",
     "Language": "语言",
+    "Searchable field guide": "可搜索的游戏攻略",
+    "What are you trying<br><em>to do next?</em>": "你接下来<br><em>想做什么？</em>",
+    "Find a recipe, material, creature, biome, or a focused guide. Facts stay linked to the exact Wiki revision they came from.": "搜配方、材料、生物、生态区或专题攻略。每条事实都保留对应的 Wiki 修订版本。",
+    "I just started": "我刚开局",
+    "I need materials": "我要找材料",
+    "I want the Tadpole": "我要造 Tadpole",
+    "Choose a task": "选一个目标",
+    "Start with the problem, not the database": "先解决问题，不是先翻数据库",
+    "Survive the opening": "度过开局",
+    "Find materials": "找材料",
+    "Build the Tadpole": "建造 Tadpole",
+    "Track blueprints": "跟踪蓝图",
+    "Plan a base": "规划基地",
+    "Explore places": "探索地点",
+    "Browse the guide": "浏览攻略",
+    "Four ways into the world": "从四类内容开始",
+    "How facts are checked": "事实如何核验",
+    "Useful first. Traceable underneath.": "先好用，再保证可追溯。",
   } },
   ru: { label: "Русский", htmlLang: "ru", dictionary: {
     "Subnautica 2 Evidence Guide": "Subnautica 2 — проверенный справочник",
@@ -184,15 +202,46 @@ const locales = {
     "Names and biome depth are not coordinates": "Названия и глубина биома — не координаты",
     "Story background is not gameplay order": "Сюжетный фон — не порядок прохождения",
     "Language": "Язык",
+    "Searchable field guide": "Поисковый справочник",
+    "What are you trying<br><em>to do next?</em>": "Что вы хотите<br><em>сделать дальше?</em>",
+    "I just started": "Я только начал",
+    "I need materials": "Мне нужны материалы",
+    "I want the Tadpole": "Я хочу Tadpole",
+    "Choose a task": "Выберите задачу",
+    "Start with the problem, not the database": "Начните с задачи, а не с базы данных",
+    "Survive the opening": "Выжить в начале",
+    "Find materials": "Найти материалы",
+    "Build the Tadpole": "Построить Tadpole",
+    "Track blueprints": "Отслеживать чертежи",
+    "Plan a base": "Спланировать базу",
+    "Explore places": "Исследовать места",
+    "Browse the guide": "Разделы справочника",
+    "Four ways into the world": "Четыре точки входа",
+    "How facts are checked": "Как проверяются факты",
+    "Useful first. Traceable underneath.": "Снача полезность. В основе — проверяемые источники.",
   } },
 };
 
 function translate(html, dictionary) {
-  return Object.entries(dictionary).sort(([a], [b]) => b.length - a.length).reduce((output, [source, target]) => output.replaceAll(source, target), html);
+  const attributes = [];
+  const protectedHtml = html.replace(/\b(?:href|src)="[^"]*"|\bcontent="https?:\/\/[^"]*"/g, (attribute) => {
+    const token = `__URL_ATTRIBUTE_${attributes.length}__`;
+    attributes.push(attribute);
+    return token;
+  });
+  const translated = Object.entries(dictionary).sort(([a], [b]) => b.length - a.length).reduce((output, [source, target]) => output.replaceAll(source, target), protectedHtml);
+  return attributes.reduce((output, attribute, index) => output.replace(`__URL_ATTRIBUTE_${index}__`, attribute), translated);
 }
 
 function stripLocaleMetadata(html) {
-  return html.replace(/<link rel="alternate" hreflang="[^"]+" href="[^"]+">/g, "").replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/locale\.css">/g, "").replace(/<span class="language-switcher"[^>]*>.*?<\/span>/g, "");
+  return html
+    .replace(/<link rel="alternate" hreflang="[^"]+" href="[^"]+">/g, "")
+    .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/locale\.css">/g, "")
+    .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?search\.css">/g, "")
+    .replace(/<script defer src="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?search\.js"><\/script>/g, "")
+    .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/g, "")
+    .replace(/<figure class="record-media">.*?<\/figure>/gs, "")
+    .replace(/<span class="language-switcher"[^>]*>.*?<\/span>/g, "");
 }
 
 function localPath(pagePath, locale) {

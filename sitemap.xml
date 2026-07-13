@@ -224,6 +224,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/acidic-raion-pouch.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/atacamite.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/axum-bacterial-culture.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/basic-first-aid-kit.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/black-hoverthorn.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/bluemoon.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/bullethead.html</loc><priority>0.8</priority></url>
@@ -248,9 +249,11 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/freesia-flower.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/geordie.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/germanium-ingot.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/glass.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/gold.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/gold-ingot.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/graveyard.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/grease.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/halfmoon.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/hammerhead.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/harvestmoon.html</loc><priority>0.8</priority></url>
@@ -267,7 +270,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/locust.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/mangalloy-ingot.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/marrowbreach.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/medical-gel-sac.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/microshrimp.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/mild-acid.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/mirror-halfmoon.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/necrolei-bud.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/necrolei-hills.html</loc><priority>0.8</priority></url>
@@ -280,7 +285,6 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/plasteel-ingot.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/plateaus.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/pneuma.html</loc><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/pudding-urchin.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/quartz.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/ringbearer-krill.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/root-canyon.html</loc><priority>0.8</priority></url>
@@ -294,6 +298,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/silver-ingot.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/south-raceway.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/sparse-plains.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/strong-acid.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/strontium.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/sulfur.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/surge-jelly.html</loc><priority>0.8</priority></url>
@@ -310,6 +315,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/vep-sensor.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/vep-worker.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/void.html</loc><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/water.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/water-slug.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/waxmoon.html</loc><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/world-tree.html</loc><priority>0.8</priority></url>
@@ -537,6 +543,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/acidic-raion-pouch.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/atacamite.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/axum-bacterial-culture.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/basic-first-aid-kit.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/black-hoverthorn.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/bluemoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/bullethead.html</loc><priority>0.7</priority></url>
@@ -561,9 +568,11 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/freesia-flower.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/geordie.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/germanium-ingot.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/glass.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/gold.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/gold-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/graveyard.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/grease.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/halfmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/hammerhead.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/harvestmoon.html</loc><priority>0.7</priority></url>
@@ -580,7 +589,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/locust.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/mangalloy-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/marrowbreach.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/medical-gel-sac.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/microshrimp.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/mild-acid.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/mirror-halfmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/necrolei-bud.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/necrolei-hills.html</loc><priority>0.7</priority></url>
@@ -593,7 +604,6 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/plasteel-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/plateaus.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/pneuma.html</loc><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/pudding-urchin.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/quartz.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/ringbearer-krill.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/root-canyon.html</loc><priority>0.7</priority></url>
@@ -607,6 +617,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/silver-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/south-raceway.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/sparse-plains.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/strong-acid.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/strontium.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/sulfur.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/surge-jelly.html</loc><priority>0.7</priority></url>
@@ -623,6 +634,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/vep-sensor.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/vep-worker.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/biomes/void.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/resources/water.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/water-slug.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/waxmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/en/guide/creatures/world-tree.html</loc><priority>0.7</priority></url>
@@ -850,6 +862,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/acidic-raion-pouch.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/atacamite.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/axum-bacterial-culture.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/basic-first-aid-kit.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/black-hoverthorn.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/bluemoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/bullethead.html</loc><priority>0.7</priority></url>
@@ -874,9 +887,11 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/freesia-flower.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/geordie.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/germanium-ingot.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/glass.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/gold.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/gold-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/graveyard.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/grease.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/halfmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/hammerhead.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/harvestmoon.html</loc><priority>0.7</priority></url>
@@ -893,7 +908,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/locust.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/mangalloy-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/marrowbreach.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/medical-gel-sac.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/microshrimp.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/mild-acid.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/mirror-halfmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/necrolei-bud.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/necrolei-hills.html</loc><priority>0.7</priority></url>
@@ -906,7 +923,6 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/plasteel-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/plateaus.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/pneuma.html</loc><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/pudding-urchin.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/quartz.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/ringbearer-krill.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/root-canyon.html</loc><priority>0.7</priority></url>
@@ -920,6 +936,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/silver-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/south-raceway.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/sparse-plains.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/strong-acid.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/strontium.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/sulfur.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/surge-jelly.html</loc><priority>0.7</priority></url>
@@ -936,6 +953,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/vep-sensor.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/vep-worker.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/void.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/water.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/water-slug.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/waxmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/world-tree.html</loc><priority>0.7</priority></url>
@@ -1163,6 +1181,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/acidic-raion-pouch.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/atacamite.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/axum-bacterial-culture.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/basic-first-aid-kit.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/black-hoverthorn.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/bluemoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/bullethead.html</loc><priority>0.7</priority></url>
@@ -1187,9 +1206,11 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/freesia-flower.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/geordie.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/germanium-ingot.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/glass.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/gold.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/gold-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/graveyard.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/grease.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/halfmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/hammerhead.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/harvestmoon.html</loc><priority>0.7</priority></url>
@@ -1206,7 +1227,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/locust.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/mangalloy-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/marrowbreach.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/medical-gel-sac.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/microshrimp.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/mild-acid.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/mirror-halfmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/necrolei-bud.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/necrolei-hills.html</loc><priority>0.7</priority></url>
@@ -1219,7 +1242,6 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/plasteel-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/plateaus.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/pneuma.html</loc><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/pudding-urchin.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/quartz.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/ringbearer-krill.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/root-canyon.html</loc><priority>0.7</priority></url>
@@ -1233,6 +1255,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/silver-ingot.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/south-raceway.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/sparse-plains.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/strong-acid.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/strontium.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/sulfur.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/surge-jelly.html</loc><priority>0.7</priority></url>
@@ -1249,6 +1272,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/vep-sensor.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/vep-worker.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/void.html</loc><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/water.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/water-slug.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/waxmoon.html</loc><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/world-tree.html</loc><priority>0.7</priority></url>

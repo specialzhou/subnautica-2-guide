@@ -27,6 +27,16 @@ for (const locale of locales) {
 
 const zh = await readFile(path.join(root, "zh-cn", "starter-planner.html"), "utf8");
 for (const phrase of ["开局制作", "配方依赖图", "规划器说明", "简体中文"]) if (!zh.includes(phrase)) failures.push(`Chinese translation smoke test missing: ${phrase}`);
+const zhHome = await readFile(path.join(root, "zh-cn", "index.html"), "utf8");
+for (const phrase of ["按 / 搜索", "查看默认配方和已记录的碎片需求", "Wiki 图片", "不是本站的实机验证截图"]) if (!zhHome.includes(phrase)) failures.push(`Chinese homepage translation missing: ${phrase}`);
+for (const phrase of ["Press / to search", "See default recipes and documented fragment requirements.", "Unknown Worlds"] ) if (phrase === "Unknown Worlds" ? !zhHome.includes(phrase) : zhHome.includes(phrase)) failures.push(`Chinese homepage leakage or protected name failure: ${phrase}`);
+if (!zhHome.includes('class="task-card task-card--wide" href="blueprints.html"')) failures.push("Blueprint task does not fill the desktop grid");
+const zhScanner = await readFile(path.join(root, "zh-cn", "guide", "items", "scanner.html"), "utf8");
+for (const phrase of ["扫描仪（Scanner）", "制造台（Fabricator）", "钛（Titanium）", "Wiki 图片", "非实机验证截图"]) if (!zhScanner.includes(phrase)) failures.push(`Chinese detail translation missing: ${phrase}`);
+if (zhScanner.includes("未知 Worlds")) failures.push("Company name was partially translated");
+if (zhScanner.includes("类型=\"") || !zhScanner.includes('type="image/svg+xml"')) failures.push("HTML type attribute was translated");
+const searchScript = await readFile(path.join(root, "search.js"), "utf8");
+for (const phrase of ['Guide: "攻略"', 'Item: "物品"', 'Scanner: "扫描仪"', 'entry.type === "Guide"']) if (!searchScript.includes(phrase)) failures.push(`Localized search behavior missing: ${phrase}`);
 const ru = await readFile(path.join(root, "ru", "starter-planner.html"), "utf8");
 for (const phrase of ["Начальный крафт", "Граф зависимостей рецептов", "Как читать план", "Русский"]) if (!ru.includes(phrase)) failures.push(`Russian translation smoke test missing: ${phrase}`);
 

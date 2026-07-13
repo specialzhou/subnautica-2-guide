@@ -43,7 +43,14 @@ const pagePaths = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/
   if (!value) return "index.html";
   return value.endsWith("/") ? `${value}index.html` : value;
 });
-const mediaFigure = (image) => `<figure class="record-media"><a href="${image.filePage}" rel="noopener noreferrer"><img src="${image.url}" width="${image.width}" height="${image.height}" loading="lazy" alt="${image.title} image from the Subnautica 2 Wiki"></a><figcaption>Wiki image · <a href="${image.filePage}" rel="noopener noreferrer">source file</a> · <a href="${media.license.url}" rel="license">${media.license.name}</a> · not an in-game verification capture</figcaption></figure>`;
+const mediaFigure = (image, locale) => {
+  const text = locale === "zh-cn"
+    ? { alt: `${image.title} 的 Subnautica 2 Wiki 图片`, image: "Wiki 图片", source: "原始文件", boundary: "非实机验证截图" }
+    : locale === "ru"
+      ? { alt: `${image.title}: изображение из Subnautica 2 Wiki`, image: "Изображение Wiki", source: "исходный файл", boundary: "не снимок игровой проверки" }
+      : { alt: `${image.title} image from the Subnautica 2 Wiki`, image: "Wiki image", source: "source file", boundary: "not an in-game verification capture" };
+  return `<figure class="record-media"><a href="${image.filePage}" rel="noopener noreferrer"><img src="${image.url}" width="${image.width}" height="${image.height}" loading="lazy" alt="${text.alt}"></a><figcaption>${text.image} · <a href="${image.filePage}" rel="noopener noreferrer">${text.source}</a> · <a href="${media.license.url}" rel="license">${media.license.name}</a> · ${text.boundary}</figcaption></figure>`;
+};
 
 for (const pagePath of [...new Set(pagePaths)]) {
   const filePath = path.join(root, pagePath);
@@ -57,7 +64,8 @@ for (const pagePath of [...new Set(pagePaths)]) {
   html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="Search this guide"><span aria-hidden="true">⌕</span><span>Search</span><kbd>/</kbd></button></nav>`);
   const unlocalizedPath = pagePath.replace(/^(en|zh-cn|ru)\//, "");
   const image = imageByPage.get(unlocalizedPath);
-  if (image && /<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${mediaFigure(image)}`);
+  const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
+  if (image && /<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${mediaFigure(image, locale)}`);
   html = html.replace("</body>", `<script defer src="${base}search.js"></script></body>`);
   await writeFile(filePath, html);
 }

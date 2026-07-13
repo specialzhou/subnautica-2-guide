@@ -1,16 +1,16 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-12T12:33:03.115Z",
+  "generatedAt": "2026-07-13T15:00:02.569Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
     "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
-  "publishedCount": 92,
-  "excludedCount": 0,
+  "publishedCount": 98,
+  "excludedCount": 1,
   "counts": {
-    "resources": 26,
-    "creatures": 49,
+    "resources": 33,
+    "creatures": 48,
     "vehicles": 3,
     "biomes": 14
   },
@@ -101,6 +101,36 @@
         "biomes": [
           "Karakorum Metal Farms"
         ]
+      }
+    },
+    {
+      "id": "basic-first-aid-kit",
+      "title": "Basic First Aid Kit",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Consumables",
+        "Crafted with Fabricator",
+        "Crafted with Processor",
+        "Processed Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Basic_First_Aid_Kit",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_First_Aid_Kit&oldid=14719",
+        "revisionId": 14719,
+        "revisionTimestamp": "2026-07-05T03:33:19Z",
+        "fetchedAt": "2026-07-13T15:00:03.510Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Crafting",
+        "group": "Consumables",
+        "biomes": []
       }
     },
     {
@@ -930,6 +960,36 @@
       }
     },
     {
+      "id": "glass",
+      "title": "Glass",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Basic Materials",
+        "Crafted with Fabricator",
+        "Crafted with Processor",
+        "Processed Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Glass",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Glass&oldid=9343",
+        "revisionId": 9343,
+        "revisionTimestamp": "2026-05-24T16:26:36Z",
+        "fetchedAt": "2026-07-13T15:00:03.508Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Crafting",
+        "group": "Basic Materials",
+        "biomes": []
+      }
+    },
+    {
       "id": "gold",
       "title": "Gold",
       "kind": "resources",
@@ -1017,6 +1077,36 @@
           "Hot Cave Basecamp",
           "Blackboxes"
         ]
+      }
+    },
+    {
+      "id": "grease",
+      "title": "Grease",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Basic Materials",
+        "Crafted with Fabricator",
+        "Crafted with Processor",
+        "Processed Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Grease",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Grease&oldid=9349",
+        "revisionId": 9349,
+        "revisionTimestamp": "2026-05-24T16:29:17Z",
+        "fetchedAt": "2026-07-13T15:00:03.510Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Crafting",
+        "group": "Basic Materials",
+        "biomes": []
       }
     },
     {
@@ -1548,10 +1638,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Marrowbreach",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=15171",
-        "revisionId": 15171,
-        "revisionTimestamp": "2026-07-08T16:18:55Z",
-        "fetchedAt": "2026-07-12T12:33:05.171Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=17976",
+        "revisionId": 17976,
+        "revisionTimestamp": "2026-07-12T18:10:34Z",
+        "fetchedAt": "2026-07-13T15:00:04.736Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1568,6 +1658,35 @@
           "Plateaus",
           "Graveyard"
         ]
+      }
+    },
+    {
+      "id": "medical-gel-sac",
+      "title": "Medical Gel Sac",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Bioreactor fuel",
+        "Consumables",
+        "Raw Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Medical_Gel_Sac",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Medical_Gel_Sac&oldid=17885",
+        "revisionId": 17885,
+        "revisionTimestamp": "2026-07-11T15:32:21Z",
+        "fetchedAt": "2026-07-13T15:00:03.510Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Acid Raion",
+        "group": "Food",
+        "biomes": []
       }
     },
     {
@@ -1602,6 +1721,36 @@
         "biomes": [
           "Overgrown Ruins"
         ]
+      }
+    },
+    {
+      "id": "mild-acid",
+      "title": "Mild Acid",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Basic Materials",
+        "Crafted with Fabricator",
+        "Crafted with Processor",
+        "Processed Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Mild_Acid",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mild_Acid&oldid=9341",
+        "revisionId": 9341,
+        "revisionTimestamp": "2026-05-24T16:26:02Z",
+        "fetchedAt": "2026-07-13T15:00:03.510Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Crafting",
+        "group": "Basic Materials",
+        "biomes": []
       }
     },
     {
@@ -1997,21 +2146,23 @@
       "id": "pudding-urchin",
       "title": "Pudding Urchin",
       "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
+      "status": "excluded",
+      "exclusionReasons": [
+        "Removed content"
+      ],
       "categories": [
         "Lifeforms",
         "Passive",
-        "Stubs",
+        "Removed content",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pudding_Urchin",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pudding_Urchin&oldid=15255",
-        "revisionId": 15255,
-        "revisionTimestamp": "2026-07-08T17:08:18Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pudding_Urchin&oldid=18015",
+        "revisionId": 18015,
+        "revisionTimestamp": "2026-07-13T04:17:28Z",
+        "fetchedAt": "2026-07-13T15:00:04.739Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2165,10 +2316,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sandspear",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=17497",
-        "revisionId": 17497,
-        "revisionTimestamp": "2026-07-10T16:56:10Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=18041",
+        "revisionId": 18041,
+        "revisionTimestamp": "2026-07-13T14:52:12Z",
+        "fetchedAt": "2026-07-13T15:00:04.737Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2265,10 +2416,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=15163",
-        "revisionId": 15163,
-        "revisionTimestamp": "2026-07-08T16:15:01Z",
-        "fetchedAt": "2026-07-12T12:33:05.171Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=18039",
+        "revisionId": 18039,
+        "revisionTimestamp": "2026-07-13T14:47:05Z",
+        "fetchedAt": "2026-07-13T15:00:04.736Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2436,6 +2587,36 @@
       }
     },
     {
+      "id": "strong-acid",
+      "title": "Strong Acid",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Advanced Materials",
+        "Crafted with Fabricator",
+        "Crafted with Processor",
+        "Processed Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Strong_Acid",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Strong_Acid&oldid=17415",
+        "revisionId": 17415,
+        "revisionTimestamp": "2026-07-10T15:34:46Z",
+        "fetchedAt": "2026-07-13T15:00:03.510Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Crafting",
+        "group": "Advanced Materials",
+        "biomes": []
+      }
+    },
+    {
       "id": "strontium",
       "title": "Strontium",
       "kind": "resources",
@@ -2573,10 +2754,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Haul_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=15063",
-        "revisionId": 15063,
-        "revisionTimestamp": "2026-07-07T22:29:43Z",
-        "fetchedAt": "2026-07-12T12:33:05.774Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=18001",
+        "revisionId": 18001,
+        "revisionTimestamp": "2026-07-13T01:42:49Z",
+        "fetchedAt": "2026-07-13T15:00:05.447Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2938,6 +3119,36 @@
       }
     },
     {
+      "id": "water",
+      "title": "Water",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Crafted with Fabricator",
+        "Crafted with Processor",
+        "Processed Materials",
+        "Water"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Water",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water&oldid=13666",
+        "revisionId": 13666,
+        "revisionTimestamp": "2026-06-14T11:19:49Z",
+        "fetchedAt": "2026-07-13T15:00:03.510Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "Crafting Processor",
+        "group": "Food",
+        "biomes": []
+      }
+    },
+    {
       "id": "water-slug",
       "title": "Water Slug",
       "kind": "creatures",
@@ -3026,10 +3237,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/World_Tree",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree&oldid=15275",
-        "revisionId": 15275,
-        "revisionTimestamp": "2026-07-08T17:21:52Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree&oldid=18033",
+        "revisionId": 18033,
+        "revisionTimestamp": "2026-07-13T14:24:54Z",
+        "fetchedAt": "2026-07-13T15:00:04.740Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3039,7 +3250,7 @@
         "attitude": "Passive",
         "type": "Anchored",
         "group": "Unknown",
-        "species": "Mundusilithae titanicae",
+        "species": "Mundusilithae titanicae \"Titanic goddess of midwifes and childbirth of the world\"",
         "nutrition": "",
         "biomes": [
           "Xanadu"

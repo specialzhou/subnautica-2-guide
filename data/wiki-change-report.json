@@ -1,16 +1,24 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-07-12T16:48:30.883Z",
+  "detectedAt": "2026-07-13T14:59:59.315Z",
   "changes": [
     {
-      "id": "bioscanner",
-      "title": "Bioscanner",
+      "id": "sign",
+      "title": "Sign",
       "change": "updated",
-      "previousRevisionId": 17745,
-      "revisionId": 17972,
+      "previousRevisionId": 17315,
+      "revisionId": 18013,
       "previousStatus": "wiki-backed",
-      "status": "wiki-backed",
-      "review": "Recipe template unchanged; revision updated elsewhere on the Wiki page."
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-haul-chassis",
+      "title": "Tadpole Haul Chassis",
+      "change": "updated",
+      "previousRevisionId": 15063,
+      "revisionId": 18001,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
     }
   ]
 }

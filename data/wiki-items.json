@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-12T16:48:25.793Z",
+  "generatedAt": "2026-07-13T14:59:59.315Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -634,7 +634,8 @@
       "categories": [
         "Consumables",
         "Crafted with Fabricator",
-        "Crafted with Processor"
+        "Crafted with Processor",
+        "Processed Materials"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -2246,7 +2247,8 @@
       "categories": [
         "Consumables",
         "Crafted with Fabricator",
-        "Stubs"
+        "Stubs",
+        "Tools"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -2394,6 +2396,7 @@
       "exclusionReasons": [],
       "categories": [
         "Advanced Materials",
+        "Basic Materials",
         "Crafted with Fabricator"
       ],
       "availableByDefault": false,
@@ -2836,6 +2839,7 @@
       "exclusionReasons": [],
       "categories": [
         "Advanced Materials",
+        "Basic Materials",
         "Crafted with Fabricator"
       ],
       "availableByDefault": false,
@@ -3079,7 +3083,8 @@
       "categories": [
         "Basic Materials",
         "Crafted with Fabricator",
-        "Crafted with Processor"
+        "Crafted with Processor",
+        "Processed Materials"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -3220,7 +3225,8 @@
       "categories": [
         "Basic Materials",
         "Crafted with Fabricator",
-        "Crafted with Processor"
+        "Crafted with Processor",
+        "Processed Materials"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -4512,7 +4518,8 @@
       "categories": [
         "Basic Materials",
         "Crafted with Fabricator",
-        "Crafted with Processor"
+        "Crafted with Processor",
+        "Processed Materials"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -6759,10 +6766,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sign",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sign&oldid=17315",
-        "revisionId": 17315,
-        "revisionTimestamp": "2026-07-10T12:03:38Z",
-        "fetchedAt": "2026-07-12T12:33:02.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sign&oldid=18013",
+        "revisionId": 18013,
+        "revisionTimestamp": "2026-07-13T03:51:53Z",
+        "fetchedAt": "2026-07-13T15:00:02.473Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7425,7 +7432,8 @@
       "categories": [
         "Advanced Materials",
         "Crafted with Fabricator",
-        "Crafted with Processor"
+        "Crafted with Processor",
+        "Processed Materials"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -7948,10 +7956,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Haul_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=15063",
-        "revisionId": 15063,
-        "revisionTimestamp": "2026-07-07T22:29:43Z",
-        "fetchedAt": "2026-07-12T12:33:02.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=18001",
+        "revisionId": 18001,
+        "revisionTimestamp": "2026-07-13T01:42:49Z",
+        "fetchedAt": "2026-07-13T15:00:02.476Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9282,6 +9290,7 @@
       "categories": [
         "Crafted with Fabricator",
         "Crafted with Processor",
+        "Processed Materials",
         "Water"
       ],
       "availableByDefault": true,

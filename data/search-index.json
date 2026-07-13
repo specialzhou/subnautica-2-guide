@@ -1,0 +1,2176 @@
+{
+  "generatedAt": "2026-07-13T15:00:02.569Z",
+  "count": 310,
+  "entries": [
+    {
+      "title": "Start here",
+      "type": "Guide",
+      "href": "starter-planner.html",
+      "terms": "Starter crafting planner Scanner oxygen tank fins repair tool",
+      "image": null
+    },
+    {
+      "title": "Find starter materials",
+      "type": "Guide",
+      "href": "starter-materials.html",
+      "terms": "Copper Quartz Silver Sulfur material locations",
+      "image": null
+    },
+    {
+      "title": "Blueprint checklist",
+      "type": "Guide",
+      "href": "blueprints.html",
+      "terms": "fragments unlock blueprints",
+      "image": null
+    },
+    {
+      "title": "Equipment upgrades",
+      "type": "Guide",
+      "href": "equipment-upgrades.html",
+      "terms": "oxygen equipment upgrade",
+      "image": null
+    },
+    {
+      "title": "Tadpole vehicle planner",
+      "type": "Guide",
+      "href": "vehicle-planner.html",
+      "terms": "vehicle depth module chassis",
+      "image": null
+    },
+    {
+      "title": "Key locations",
+      "type": "Guide",
+      "href": "locations.html",
+      "terms": "biomes points of interest locations",
+      "image": null
+    },
+    {
+      "title": "Base building",
+      "type": "Guide",
+      "href": "base-building.html",
+      "terms": "Habitat Builder base modules",
+      "image": null
+    },
+    {
+      "title": "Co-op reference",
+      "type": "Guide",
+      "href": "coop.html",
+      "terms": "multiplayer players co-op",
+      "image": null
+    },
+    {
+      "title": "Acid Raion",
+      "type": "Item",
+      "href": "guide/items/acid-raion.html",
+      "terms": "Acid Raion Habitat Builder Medical Gel Sac",
+      "image": null
+    },
+    {
+      "title": "Advanced Battery",
+      "type": "Item",
+      "href": "guide/items/advanced-battery.html",
+      "terms": "Advanced Battery Fabricator Conduit Crystal Strong Acid Silver Ingot Crafting",
+      "image": null
+    },
+    {
+      "title": "Advanced Wiring Kit",
+      "type": "Item",
+      "href": "guide/items/advanced-wiring-kit.html",
+      "terms": "Advanced Wiring Kit Fabricator Wiring Kit Gold Sulfur Crafting",
+      "image": null
+    },
+    {
+      "title": "Air Bladder",
+      "type": "Item",
+      "href": "guide/items/air-bladder.html",
+      "terms": "Air Bladder Fabricator Titanium Rubber Crafting",
+      "image": null
+    },
+    {
+      "title": "Alcohol",
+      "type": "Item",
+      "href": "guide/items/alcohol.html",
+      "terms": "Alcohol Fabricator Fibrous Pulp Water",
+      "image": null
+    },
+    {
+      "title": "Atacamite",
+      "type": "Item",
+      "href": "guide/items/atacamite.html",
+      "terms": "Atacamite Metal Farm Atacamite Atacamite Deposit * Karakorum Metal Farms * Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Axum Jar",
+      "type": "Item",
+      "href": "guide/items/axum-jar.html",
+      "terms": "Axum Jar Habitat Builder Glass Copper",
+      "image": null
+    },
+    {
+      "title": "Axum Seat",
+      "type": "Item",
+      "href": "guide/items/axum-seat.html",
+      "terms": "Axum Seat Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Axum Street Lamp",
+      "type": "Item",
+      "href": "guide/items/axum-street-lamp.html",
+      "terms": "Axum Street Lamp Habitat Builder Celestine Strontium Titanium",
+      "image": null
+    },
+    {
+      "title": "Axum Trashcan",
+      "type": "Item",
+      "href": "guide/items/axum-trashcan.html",
+      "terms": "Axum Trashcan Habitat Builder Strontium Germanium Ingot Titanium",
+      "image": null
+    },
+    {
+      "title": "Axum Wall Lamp",
+      "type": "Item",
+      "href": "guide/items/axum-wall-lamp.html",
+      "terms": "Axum Wall Lamp Habitat Builder Celestine Titanium",
+      "image": null
+    },
+    {
+      "title": "Basic Battery",
+      "type": "Item",
+      "href": "guide/items/basic-battery.html",
+      "terms": "Basic Battery Fabricator Copper Acidic Raion Pouch Crafting",
+      "image": null
+    },
+    {
+      "title": "Basic Fins",
+      "type": "Item",
+      "href": "guide/items/basic-fins.html",
+      "terms": "Basic Fins Fabricator Rubber Fiber Crafting",
+      "image": null
+    },
+    {
+      "title": "Basic First Aid Kit",
+      "type": "Item",
+      "href": "guide/items/basic-first-aid-kit.html",
+      "terms": "Basic First Aid Kit Fabricator Fiber Processor Medical Gel Sac Crafting",
+      "image": null
+    },
+    {
+      "title": "Battery Terminal",
+      "type": "Item",
+      "href": "guide/items/battery-terminal.html",
+      "terms": "Battery Terminal Habitat Builder Titanium Quartz Copper Wire",
+      "image": null
+    },
+    {
+      "title": "Beacon",
+      "type": "Item",
+      "href": "guide/items/beacon.html",
+      "terms": "Beacon Habitat Builder Copper Titanium",
+      "image": null
+    },
+    {
+      "title": "Biobed",
+      "type": "Item",
+      "href": "guide/items/biobed.html",
+      "terms": "Biobed Habitat Builder Titanium Glass Copper Wire",
+      "image": null
+    },
+    {
+      "title": "Biofuel Block",
+      "type": "Item",
+      "href": "guide/items/biofuel-block.html",
+      "terms": "Biofuel Block Processor Fibrous Pulp Processor Pent Processor Crab Feces",
+      "image": null
+    },
+    {
+      "title": "Biolab",
+      "type": "Item",
+      "href": "guide/items/biolab.html",
+      "terms": "Biolab Habitat Builder Titanium Copper Wire Mild Acid",
+      "image": null
+    },
+    {
+      "title": "Bioreactor",
+      "type": "Item",
+      "href": "guide/items/bioreactor.html",
+      "terms": "Bioreactor Habitat Builder Titanium Ingot Copper Ingot",
+      "image": null
+    },
+    {
+      "title": "Bioscanner",
+      "type": "Item",
+      "href": "guide/items/bioscanner.html",
+      "terms": "Bioscanner Modification Station Scanner Enameled Glass Conduit Crystal Crafting (Modification Station)",
+      "image": null
+    },
+    {
+      "title": "Cavitation Muffler",
+      "type": "Item",
+      "href": "guide/items/cavitation-muffler.html",
+      "terms": "Cavitation Muffler Modification Station Titanium Strontium Crafting",
+      "image": null
+    },
+    {
+      "title": "Celestine",
+      "type": "Item",
+      "href": "guide/items/celestine.html",
+      "terms": "Celestine Metal Farm Celestine Celestine Deposit * Sparse Plains * Needler Nest * Karakorum Power Plant * Root Canyon * Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "CHBC Live Poster",
+      "type": "Item",
+      "href": "guide/items/chbc-live-poster.html",
+      "terms": "CHBC Live Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Cherimoya Chutney",
+      "type": "Item",
+      "href": "guide/items/cherimoya-chutney.html",
+      "terms": "Cherimoya Chutney Fabricator Cherimoya Rotsac Sugar of Saturn Crafting",
+      "image": null
+    },
+    {
+      "title": "Cherimoya Rotsac",
+      "type": "Item",
+      "href": "guide/items/cherimoya-rotsac.html",
+      "terms": "Cherimoya Rotsac Habitat Builder Cherimoya Rotsac",
+      "image": null
+    },
+    {
+      "title": "Conduit Crystal",
+      "type": "Item",
+      "href": "guide/items/conduit-crystal.html",
+      "terms": "Conduit Crystal Metal Farm Conduit Crystal Conduit Crystal Deposit * Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Cooked Black Hoverthorn",
+      "type": "Item",
+      "href": "guide/items/cooked-black-hoverthorn.html",
+      "terms": "Cooked Black Hoverthorn Fabricator Black Hoverthorn Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Bluemoon",
+      "type": "Item",
+      "href": "guide/items/cooked-bluemoon.html",
+      "terms": "Cooked Bluemoon Fabricator Bluemoon Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Electric Geordie",
+      "type": "Item",
+      "href": "guide/items/cooked-electric-geordie.html",
+      "terms": "Cooked Electric Geordie Fabricator Electric Geordie Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Geordie",
+      "type": "Item",
+      "href": "guide/items/cooked-geordie.html",
+      "terms": "Cooked Geordie Fabricator Geordie Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Halfmoon",
+      "type": "Item",
+      "href": "guide/items/cooked-halfmoon.html",
+      "terms": "Cooked Halfmoon Fabricator Halfmoon Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Harvestmoon",
+      "type": "Item",
+      "href": "guide/items/cooked-harvestmoon.html",
+      "terms": "Cooked Harvestmoon Fabricator Harvestmoon Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Hoverthorn",
+      "type": "Item",
+      "href": "guide/items/cooked-hoverthorn.html",
+      "terms": "Cooked Hoverthorn Fabricator Hoverthorn Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Pneuma",
+      "type": "Item",
+      "href": "guide/items/cooked-pneuma.html",
+      "terms": "Cooked Pneuma Fabricator Pneuma Crafting",
+      "image": null
+    },
+    {
+      "title": "Cooked Quadrate",
+      "type": "Item",
+      "href": "guide/items/cooked-quadrate.html",
+      "terms": "Cooked Quadrate Fabricator Quadrate Crafting",
+      "image": null
+    },
+    {
+      "title": "Copper",
+      "type": "Item",
+      "href": "guide/items/copper.html",
+      "terms": "Copper Metal Farm Copper Copper Node, Copper Deposit * Shallows * Dolerite Spires * Plateaus * Graveyard * Necrolei Hills * Lead Zone * Sparse Plains * Overgrown Ruins * Needler Nest",
+      "image": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9"
+    },
+    {
+      "title": "Copper Ingot",
+      "type": "Item",
+      "href": "guide/items/copper-ingot.html",
+      "terms": "Copper Ingot Processor Copper Crafting",
+      "image": null
+    },
+    {
+      "title": "Copper Wire",
+      "type": "Item",
+      "href": "guide/items/copper-wire.html",
+      "terms": "Copper Wire Fabricator Copper Crafting",
+      "image": null
+    },
+    {
+      "title": "Coral Jar",
+      "type": "Item",
+      "href": "guide/items/coral-jar.html",
+      "terms": "Coral Jar Habitat Builder Coral Shavings",
+      "image": null
+    },
+    {
+      "title": "Coral Mash",
+      "type": "Item",
+      "href": "guide/items/coral-mash.html",
+      "terms": "Coral Mash Fabricator Coral Shavings Sugar of Saturn Crafting",
+      "image": null
+    },
+    {
+      "title": "Corridor",
+      "type": "Item",
+      "href": "guide/items/corridor.html",
+      "terms": "Corridor Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Cradle Shootroot",
+      "type": "Item",
+      "href": "guide/items/cradle-shootroot.html",
+      "terms": "Cradle Shootroot Habitat Builder Lucifer Rotsac",
+      "image": null
+    },
+    {
+      "title": "Creature Enamel",
+      "type": "Item",
+      "href": "guide/items/creature-enamel.html",
+      "terms": "Creature Enamel Metal Farm Creature Enamel Enamel Husks Metal Farms * Needler Nest",
+      "image": null
+    },
+    {
+      "title": "Cyclops Poster",
+      "type": "Item",
+      "href": "guide/items/cyclops-poster.html",
+      "terms": "Cyclops Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Dedicated Core",
+      "type": "Item",
+      "href": "guide/items/dedicated-core.html",
+      "terms": "Dedicated Core Fabricator Advanced Wiring Kit Quartz Strong Acid Crafting",
+      "image": null
+    },
+    {
+      "title": "Dining Chair",
+      "type": "Item",
+      "href": "guide/items/dining-chair.html",
+      "terms": "Dining Chair Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Dining Table",
+      "type": "Item",
+      "href": "guide/items/dining-table.html",
+      "terms": "Dining Table Habitat Builder Titanium Glass",
+      "image": null
+    },
+    {
+      "title": "Distraction Flare",
+      "type": "Item",
+      "href": "guide/items/distraction-flare.html",
+      "terms": "Distraction Flare Fabricator Titanium Quartz Crafting",
+      "image": null
+    },
+    {
+      "title": "Dive Elevator",
+      "type": "Item",
+      "href": "guide/items/dive-elevator.html",
+      "terms": "Dive Elevator Habitat Builder Titanium Copper Quartz",
+      "image": null
+    },
+    {
+      "title": "Duplex Solar Panel",
+      "type": "Item",
+      "href": "guide/items/duplex-solar-panel.html",
+      "terms": "Duplex Solar Panel Habitat Builder Titanium Germanium Ingot Copper",
+      "image": null
+    },
+    {
+      "title": "Enameled Glass",
+      "type": "Item",
+      "href": "guide/items/enameled-glass.html",
+      "terms": "Enameled Glass Fabricator Glass Creature Enamel Crafting",
+      "image": null
+    },
+    {
+      "title": "Engine Efficiency",
+      "type": "Item",
+      "href": "guide/items/engine-efficiency.html",
+      "terms": "Engine Efficiency Modification Station Titanium Ingot Glass System Chip Crafting",
+      "image": null
+    },
+    {
+      "title": "Enhanced First Aid Kit",
+      "type": "Item",
+      "href": "guide/items/enhanced-first-aid-kit.html",
+      "terms": "Enhanced First Aid Kit Fabricator Fiber Medical Gel Sac Crafting",
+      "image": null
+    },
+    {
+      "title": "Entangled Power Cell",
+      "type": "Item",
+      "href": "guide/items/entangled-power-cell.html",
+      "terms": "Entangled Power Cell Fabricator Conduit Crystal Strong Acid Gold Ingot Troilite Crafting",
+      "image": null
+    },
+    {
+      "title": "Expanded Deployable Locker",
+      "type": "Item",
+      "href": "guide/items/expanded-deployable-locker.html",
+      "terms": "Expanded Deployable Locker Habitat Builder Strontium Mangalloy Ingot Titanium Ingot",
+      "image": null
+    },
+    {
+      "title": "Exterior Wall Light",
+      "type": "Item",
+      "href": "guide/items/exterior-wall-light.html",
+      "terms": "Exterior Wall Light Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Fabricator",
+      "type": "Item",
+      "href": "guide/items/fabricator.html",
+      "terms": "Fabricator Habitat Builder Titanium Copper Quartz",
+      "image": null
+    },
+    {
+      "title": "Feedback Resonator",
+      "type": "Item",
+      "href": "guide/items/feedback-resonator.html",
+      "terms": "Feedback Resonator Modification Station Sonic Resonator Enameled Glass Conduit Crystal Strontium Crafting",
+      "image": null
+    },
+    {
+      "title": "Fiber",
+      "type": "Item",
+      "href": "guide/items/fiber.html",
+      "terms": "Fiber Fabricator Fibrous Pulp Crafting",
+      "image": null
+    },
+    {
+      "title": "Fiber Mesh",
+      "type": "Item",
+      "href": "guide/items/fiber-mesh.html",
+      "terms": "Fiber Mesh Fabricator Fiber Strong Acid Crafting",
+      "image": null
+    },
+    {
+      "title": "Flashlight",
+      "type": "Item",
+      "href": "guide/items/flashlight.html",
+      "terms": "Flashlight Fabricator Titanium Quartz Basic Battery Crafting",
+      "image": null
+    },
+    {
+      "title": "Floor Locker",
+      "type": "Item",
+      "href": "guide/items/floor-locker.html",
+      "terms": "Floor Locker Habitat Builder Titanium Quartz",
+      "image": null
+    },
+    {
+      "title": "Freesia Flower",
+      "type": "Item",
+      "href": "guide/items/freesia-flower.html",
+      "terms": "Freesia Flower Habitat Builder Fibrous Pulp",
+      "image": null
+    },
+    {
+      "title": "Germanium Ingot",
+      "type": "Item",
+      "href": "guide/items/germanium-ingot.html",
+      "terms": "Germanium Ingot Processor Silver Processor Lead Processor",
+      "image": null
+    },
+    {
+      "title": "Glass",
+      "type": "Item",
+      "href": "guide/items/glass.html",
+      "terms": "Glass Fabricator Quartz Processor Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Gold",
+      "type": "Item",
+      "href": "guide/items/gold.html",
+      "terms": "Gold Metal Farm Gold Gold Node, Gold Deposit * Graveyard * Graveyard Caves * Root Canyon * Thermal Vent Clusters",
+      "image": null
+    },
+    {
+      "title": "Gold Ingot",
+      "type": "Item",
+      "href": "guide/items/gold-ingot.html",
+      "terms": "Gold Ingot Processor Gold Crafting",
+      "image": null
+    },
+    {
+      "title": "Grease",
+      "type": "Item",
+      "href": "guide/items/grease.html",
+      "terms": "Grease Fabricator Lucifer Rotsac Processor Halfmoon Crafting",
+      "image": null
+    },
+    {
+      "title": "Growbed",
+      "type": "Item",
+      "href": "guide/items/growbed.html",
+      "terms": "Growbed Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Habitat Beacon",
+      "type": "Item",
+      "href": "guide/items/habitat-beacon.html",
+      "terms": "Habitat Beacon Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Habitat Builder",
+      "type": "Item",
+      "href": "guide/items/habitat-builder.html",
+      "terms": "Habitat Builder Fabricator Titanium Glass Basic Battery Copper Wire Fabricator Coral Gardens",
+      "image": "https://wiki.subnautica.com/sn2/images/Habitat_Builder.png?abc9e"
+    },
+    {
+      "title": "Half Round Room",
+      "type": "Item",
+      "href": "guide/items/half-round-room.html",
+      "terms": "Half Round Room Habitat Builder Titanium Glass",
+      "image": null
+    },
+    {
+      "title": "Halfmoon Jerky",
+      "type": "Item",
+      "href": "guide/items/halfmoon-jerky.html",
+      "terms": "Halfmoon Jerky Fabricator Halfmoon Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Hanging Tailing Jar",
+      "type": "Item",
+      "href": "guide/items/hanging-tailing-jar.html",
+      "terms": "Hanging Tailing Jar Habitat Builder Fiber Salt",
+      "image": null
+    },
+    {
+      "title": "Hatch",
+      "type": "Item",
+      "href": "guide/items/hatch.html",
+      "terms": "Hatch Habitat Builder Titanium Quartz",
+      "image": null
+    },
+    {
+      "title": "High Capacity Air Tank",
+      "type": "Item",
+      "href": "guide/items/high-capacity-air-tank.html",
+      "terms": "High Capacity Air Tank Fabricator Standard Air Tank Plasteel Ingot Crafting",
+      "image": null
+    },
+    {
+      "title": "High Capacity Deployable Locker",
+      "type": "Item",
+      "href": "guide/items/high-capacity-deployable-locker.html",
+      "terms": "High Capacity Deployable Locker Habitat Builder Titanium Ingot",
+      "image": null
+    },
+    {
+      "title": "Hoverthorn Souvlaki",
+      "type": "Item",
+      "href": "guide/items/hoverthorn-souvlaki.html",
+      "terms": "Hoverthorn Souvlaki Fabricator Hoverthorn Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Hydroelectric Turbine",
+      "type": "Item",
+      "href": "guide/items/hydroelectric-turbine.html",
+      "terms": "Hydroelectric Turbine Habitat Builder Titanium Copper Silver",
+      "image": null
+    },
+    {
+      "title": "Improved Fins",
+      "type": "Item",
+      "href": "guide/items/improved-fins.html",
+      "terms": "Improved Fins Fabricator Basic Fins Fiber Mesh Conduit Crystal Crafting",
+      "image": null
+    },
+    {
+      "title": "Interior Arch",
+      "type": "Item",
+      "href": "guide/items/interior-arch.html",
+      "terms": "Interior Arch Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Interior Door",
+      "type": "Item",
+      "href": "guide/items/interior-door.html",
+      "terms": "Interior Door Habitat Builder Titanium Glass Copper Wire",
+      "image": null
+    },
+    {
+      "title": "Interior Wall",
+      "type": "Item",
+      "href": "guide/items/interior-wall.html",
+      "terms": "Interior Wall Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Isotonic Water",
+      "type": "Item",
+      "href": "guide/items/isotonic-water.html",
+      "terms": "Isotonic Water Fabricator Flash Slug Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Just Keep Swimming Poster",
+      "type": "Item",
+      "href": "guide/items/just-keep-swimming-poster.html",
+      "terms": "Just Keep Swimming Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Keep Calm Poster",
+      "type": "Item",
+      "href": "guide/items/keep-calm-poster.html",
+      "terms": "Keep Calm Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Lab Chair",
+      "type": "Item",
+      "href": "guide/items/lab-chair.html",
+      "terms": "Lab Chair Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Ladder",
+      "type": "Item",
+      "href": "guide/items/ladder.html",
+      "terms": "Ladder Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Lead",
+      "type": "Item",
+      "href": "guide/items/lead.html",
+      "terms": "Lead Metal Farm Lead Lead Node, Lead Deposit * Lead Zone * Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "LeviathanAwakens Poster",
+      "type": "Item",
+      "href": "guide/items/leviathanawakens-poster.html",
+      "terms": "LeviathanAwakens Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Lithium",
+      "type": "Item",
+      "href": "guide/items/lithium.html",
+      "terms": "Lithium Metal Farm Lithium Lithium Deposit * Graveyard Caves * Great Jaw",
+      "image": null
+    },
+    {
+      "title": "Lost River Poster",
+      "type": "Item",
+      "href": "guide/items/lost-river-poster.html",
+      "terms": "Lost River Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Macaron Sponge",
+      "type": "Item",
+      "href": "guide/items/macaron-sponge.html",
+      "terms": "Macaron Sponge Habitat Builder Fibrous Pulp",
+      "image": null
+    },
+    {
+      "title": "Mangalloy Ingot",
+      "type": "Item",
+      "href": "guide/items/mangalloy-ingot.html",
+      "terms": "Mangalloy Ingot Processor Titanium Ingot Atacamite Troilite Crafting",
+      "image": null
+    },
+    {
+      "title": "Metal Farm",
+      "type": "Item",
+      "href": "guide/items/metal-farm.html",
+      "terms": "Metal Farm Habitat Builder Mangalloy Ingot Axum Bacterial Culture",
+      "image": null
+    },
+    {
+      "title": "Mild Acid",
+      "type": "Item",
+      "href": "guide/items/mild-acid.html",
+      "terms": "Mild Acid Fabricator Acidic Raion Pouch Copper Processor Acidic Raion Pouch Crafting",
+      "image": null
+    },
+    {
+      "title": "Mimic Pylon",
+      "type": "Item",
+      "href": "guide/items/mimic-pylon.html",
+      "terms": "Mimic Pylon Habitat Builder Fibrous Pulp Copper",
+      "image": null
+    },
+    {
+      "title": "Modification Station",
+      "type": "Item",
+      "href": "guide/items/modification-station.html",
+      "terms": "Modification Station Habitat Builder Titanium Celestine Copper",
+      "image": null
+    },
+    {
+      "title": "Moonpool",
+      "type": "Item",
+      "href": "guide/items/moonpool.html",
+      "terms": "Moonpool Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Necrolei Bud",
+      "type": "Item",
+      "href": "guide/items/necrolei-bud.html",
+      "terms": "Necrolei Bud Habitat Builder Necrolei Bud Necrolei Hills",
+      "image": null
+    },
+    {
+      "title": "New Life Poster",
+      "type": "Item",
+      "href": "guide/items/new-life-poster.html",
+      "terms": "New Life Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "NoA Terminal",
+      "type": "Item",
+      "href": "guide/items/noa-terminal.html",
+      "terms": "NoA Terminal Habitat Builder Titanium Copper Wire Glass",
+      "image": null
+    },
+    {
+      "title": "Nook",
+      "type": "Item",
+      "href": "guide/items/nook.html",
+      "terms": "Nook Habitat Builder Titanium Glass",
+      "image": null
+    },
+    {
+      "title": "Nutrient Block",
+      "type": "Item",
+      "href": "guide/items/nutrient-block.html",
+      "terms": "Nutrient Block Fabricator Biofuel Block Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Oily Salad",
+      "type": "Item",
+      "href": "guide/items/oily-salad.html",
+      "terms": "Oily Salad Fabricator Fibrous Pulp",
+      "image": null
+    },
+    {
+      "title": "Painted Tree Poster",
+      "type": "Item",
+      "href": "guide/items/painted-tree-poster.html",
+      "terms": "Painted Tree Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Pavlova",
+      "type": "Item",
+      "href": "guide/items/pavlova.html",
+      "terms": "Pavlova Fabricator Deepwing Egg Clump Sugar of Saturn Cherimoya Rotsac Crafting",
+      "image": null
+    },
+    {
+      "title": "Pent",
+      "type": "Item",
+      "href": "guide/items/pent.html",
+      "terms": "Pent Habitat Builder Pent",
+      "image": null
+    },
+    {
+      "title": "Photovoltaic Charger",
+      "type": "Item",
+      "href": "guide/items/photovoltaic-charger.html",
+      "terms": "Photovoltaic Charger Modification Station Copper Ingot Strong Acid Troilite Crafting",
+      "image": null
+    },
+    {
+      "title": "Pioneer Hull Plate",
+      "type": "Item",
+      "href": "guide/items/pioneer-hull-plate.html",
+      "terms": "Pioneer Hull Plate Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Pioneer Program Poster",
+      "type": "Item",
+      "href": "guide/items/pioneer-program-poster.html",
+      "terms": "Pioneer Program Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Plasteel Ingot",
+      "type": "Item",
+      "href": "guide/items/plasteel-ingot.html",
+      "terms": "Plasteel Ingot Processor Titanium Lithium Crafting",
+      "image": null
+    },
+    {
+      "title": "Portable Locker",
+      "type": "Item",
+      "href": "guide/items/portable-locker.html",
+      "terms": "Portable Locker Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Portable Oxygen Generator",
+      "type": "Item",
+      "href": "guide/items/portable-oxygen-generator.html",
+      "terms": "Portable Oxygen Generator Habitat Builder Titanium Lithium",
+      "image": null
+    },
+    {
+      "title": "Power Cell",
+      "type": "Item",
+      "href": "guide/items/power-cell.html",
+      "terms": "Power Cell Fabricator Basic Battery Strong Acid Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Power Cell Bank",
+      "type": "Item",
+      "href": "guide/items/power-cell-bank.html",
+      "terms": "Power Cell Bank Habitat Builder Titanium Copper Wire",
+      "image": null
+    },
+    {
+      "title": "Power Cell Terminal",
+      "type": "Item",
+      "href": "guide/items/power-cell-terminal.html",
+      "terms": "Power Cell Terminal Habitat Builder Titanium Copper Wiring Kit",
+      "image": null
+    },
+    {
+      "title": "Power Storage",
+      "type": "Item",
+      "href": "guide/items/power-storage.html",
+      "terms": "Power Storage Habitat Builder Germanium Ingot Titanium Salt",
+      "image": null
+    },
+    {
+      "title": "Power Transmitter",
+      "type": "Item",
+      "href": "guide/items/power-transmitter.html",
+      "terms": "Power Transmitter Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Processor",
+      "type": "Item",
+      "href": "guide/items/processor.html",
+      "terms": "Processor Habitat Builder Titanium Mild Acid Copper Wire",
+      "image": null
+    },
+    {
+      "title": "Quartz",
+      "type": "Item",
+      "href": "guide/items/quartz.html",
+      "terms": "Quartz Metal Farm Quartz Quartz Node, Quartz Deposit All except for Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Reaper Leviathan",
+      "type": "Item",
+      "href": "guide/items/reaper-leviathan.html",
+      "terms": "Reaper Leviathan Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Rebreather",
+      "type": "Item",
+      "href": "guide/items/rebreather.html",
+      "terms": "Rebreather Fabricator Fiber Mesh System Chip Crafting",
+      "image": null
+    },
+    {
+      "title": "Rectangular Ceiling Light",
+      "type": "Item",
+      "href": "guide/items/rectangular-ceiling-light.html",
+      "terms": "Rectangular Ceiling Light Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Repair Tool",
+      "type": "Item",
+      "href": "guide/items/repair-tool.html",
+      "terms": "Repair Tool Fabricator Titanium Ingot Wiring Kit Basic Battery Sulfur Crafting",
+      "image": null
+    },
+    {
+      "title": "Roof Antenna",
+      "type": "Item",
+      "href": "guide/items/roof-antenna.html",
+      "terms": "Roof Antenna Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Roof Antenna Large",
+      "type": "Item",
+      "href": "guide/items/roof-antenna-large.html",
+      "terms": "Roof Antenna Large Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Roof Cylinder",
+      "type": "Item",
+      "href": "guide/items/roof-cylinder.html",
+      "terms": "Roof Cylinder Habitat Builder titanium",
+      "image": null
+    },
+    {
+      "title": "Roof Listening Dish",
+      "type": "Item",
+      "href": "guide/items/roof-listening-dish.html",
+      "terms": "Roof Listening Dish Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Roof Panel Large",
+      "type": "Item",
+      "href": "guide/items/roof-panel-large.html",
+      "terms": "Roof Panel Large Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Roof Pump",
+      "type": "Item",
+      "href": "guide/items/roof-pump.html",
+      "terms": "Roof Pump Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Roof Pump Double",
+      "type": "Item",
+      "href": "guide/items/roof-pump-double.html",
+      "terms": "Roof Pump Double Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Room",
+      "type": "Item",
+      "href": "guide/items/room.html",
+      "terms": "Room Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Rubber",
+      "type": "Item",
+      "href": "guide/items/rubber.html",
+      "terms": "Rubber Fabricator Lucifer Rotsac Crafting",
+      "image": null
+    },
+    {
+      "title": "S Shelf",
+      "type": "Item",
+      "href": "guide/items/s-shelf.html",
+      "terms": "S Shelf Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Safety First Poster",
+      "type": "Item",
+      "href": "guide/items/safety-first-poster.html",
+      "terms": "Safety First Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Salt",
+      "type": "Item",
+      "href": "guide/items/salt.html",
+      "terms": "Salt Metal Farm Salt Salt Node, Salt Deposit * Graveyard * Sparse Plains * Overgrown Ruins * Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Scanner",
+      "type": "Item",
+      "href": "guide/items/scanner.html",
+      "terms": "Scanner Fabricator Titanium Quartz Basic Battery Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/Scanner.png?1e547"
+    },
+    {
+      "title": "Scanner Station",
+      "type": "Item",
+      "href": "guide/items/scanner-station.html",
+      "terms": "Scanner Station Habitat Builder System Chip Titanium Wiring Kit",
+      "image": null
+    },
+    {
+      "title": "Scout Ray Poster",
+      "type": "Item",
+      "href": "guide/items/scout-ray-poster.html",
+      "terms": "Scout Ray Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Sea Dragon Poster",
+      "type": "Item",
+      "href": "guide/items/sea-dragon-poster.html",
+      "terms": "Sea Dragon Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Sea Emperor Poster",
+      "type": "Item",
+      "href": "guide/items/sea-emperor-poster.html",
+      "terms": "Sea Emperor Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Seamoth Model",
+      "type": "Item",
+      "href": "guide/items/seamoth-model.html",
+      "terms": "Seamoth Model Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Sign",
+      "type": "Item",
+      "href": "guide/items/sign.html",
+      "terms": "Sign Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Silver",
+      "type": "Item",
+      "href": "guide/items/silver.html",
+      "terms": "Silver Metal Farm Silver Silver Node, Silver Deposit * Plateaus * Necrolei Hills * Graveyard * Dolerite Spires * Silver Mines",
+      "image": null
+    },
+    {
+      "title": "Silver Ingot",
+      "type": "Item",
+      "href": "guide/items/silver-ingot.html",
+      "terms": "Silver Ingot Processor Silver Crafting",
+      "image": null
+    },
+    {
+      "title": "Single Bed",
+      "type": "Item",
+      "href": "guide/items/single-bed.html",
+      "terms": "Single Bed Habitat Builder Titanium Fiber",
+      "image": null
+    },
+    {
+      "title": "Small Axum Jar",
+      "type": "Item",
+      "href": "guide/items/small-axum-jar.html",
+      "terms": "Small Axum Jar Habitat Builder Glass Copper",
+      "image": null
+    },
+    {
+      "title": "Small Ceiling Light",
+      "type": "Item",
+      "href": "guide/items/small-ceiling-light.html",
+      "terms": "Small Ceiling Light Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Small Coral Jar",
+      "type": "Item",
+      "href": "guide/items/small-coral-jar.html",
+      "terms": "Small Coral Jar Habitat Builder Coral Shavings",
+      "image": null
+    },
+    {
+      "title": "Small Crate",
+      "type": "Item",
+      "href": "guide/items/small-crate.html",
+      "terms": "Small Crate Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Solar Panel",
+      "type": "Item",
+      "href": "guide/items/solar-panel.html",
+      "terms": "Solar Panel Habitat Builder Titanium Quartz",
+      "image": null
+    },
+    {
+      "title": "Sonic Resonator",
+      "type": "Item",
+      "href": "guide/items/sonic-resonator.html",
+      "terms": "Sonic Resonator Fabricator Titanium Ingot Lead Wiring Kit Basic Battery Crafting",
+      "image": null
+    },
+    {
+      "title": "Spotlight",
+      "type": "Item",
+      "href": "guide/items/spotlight.html",
+      "terms": "Spotlight Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Standard Air Tank",
+      "type": "Item",
+      "href": "guide/items/standard-air-tank.html",
+      "terms": "Standard Air Tank Fabricator Titanium Rubber Silver Crafting",
+      "image": null
+    },
+    {
+      "title": "Stool",
+      "type": "Item",
+      "href": "guide/items/stool.html",
+      "terms": "Stool Habitat Builder Titanium Rubber",
+      "image": null
+    },
+    {
+      "title": "Storage Cache",
+      "type": "Item",
+      "href": "guide/items/storage-cache.html",
+      "terms": "Storage Cache Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Strike Armor",
+      "type": "Item",
+      "href": "guide/items/strike-armor.html",
+      "terms": "Strike Armor Modification Station Enameled Glass Strontium Crafting",
+      "image": null
+    },
+    {
+      "title": "Strong Acid",
+      "type": "Item",
+      "href": "guide/items/strong-acid.html",
+      "terms": "Strong Acid Fabricator Necrolei Bud Processor Sulfur Gold Crafting",
+      "image": null
+    },
+    {
+      "title": "Strontium",
+      "type": "Item",
+      "href": "guide/items/strontium.html",
+      "terms": "Strontium Processor Celestine Crafting",
+      "image": null
+    },
+    {
+      "title": "Sugar of Saturn",
+      "type": "Item",
+      "href": "guide/items/sugar-of-saturn.html",
+      "terms": "Sugar of Saturn Fabricator Lead Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Sulfur",
+      "type": "Item",
+      "href": "guide/items/sulfur.html",
+      "terms": "Sulfur Metal Farm Sulfur Sulfur Deposit Graveyard",
+      "image": null
+    },
+    {
+      "title": "Survival Multitool",
+      "type": "Item",
+      "href": "guide/items/survival-multitool.html",
+      "terms": "Survival Multitool Fabricator Titanium Crafting",
+      "image": null
+    },
+    {
+      "title": "System Chip",
+      "type": "Item",
+      "href": "guide/items/system-chip.html",
+      "terms": "System Chip Fabricator Wiring Kit Quartz Crafting",
+      "image": null
+    },
+    {
+      "title": "Tadpole",
+      "type": "Item",
+      "href": "guide/items/tadpole.html",
+      "terms": "Tadpole Vehicle Fabricator Titanium Ingot Glass System Chip Power Cell",
+      "image": "https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d"
+    },
+    {
+      "title": "Tadpole Depth Module Mk. 1",
+      "type": "Item",
+      "href": "guide/items/tadpole-depth-module-mk-1.html",
+      "terms": "Tadpole Depth Module Mk. 1 Modification Station Celestine Enameled Glass System Chip Crafting",
+      "image": null
+    },
+    {
+      "title": "Tadpole Depth Module Mk. 2",
+      "type": "Item",
+      "href": "guide/items/tadpole-depth-module-mk-2.html",
+      "terms": "Tadpole Depth Module Mk. 2 Modification Station Dedicated Core Troilite Mangalloy Ingot Crafting",
+      "image": null
+    },
+    {
+      "title": "Tadpole Dock",
+      "type": "Item",
+      "href": "guide/items/tadpole-dock.html",
+      "terms": "Tadpole Dock Habitat Builder Titanium Ingot Silver Ingot Copper Wire",
+      "image": null
+    },
+    {
+      "title": "Tadpole Haul Chassis",
+      "type": "Item",
+      "href": "guide/items/tadpole-haul-chassis.html",
+      "terms": "Tadpole Haul Chassis Vehicle Fabricator Titanium Ingot Strontium Enameled Glass Dedicated Core",
+      "image": null
+    },
+    {
+      "title": "Tadpole Scout Ray Chassis",
+      "type": "Item",
+      "href": "guide/items/tadpole-scout-ray-chassis.html",
+      "terms": "Tadpole Scout Ray Chassis Vehicle Fabricator Plasteel Ingot Advanced Wiring Kit Dedicated Core Strong Acid",
+      "image": null
+    },
+    {
+      "title": "Tailing Barrel",
+      "type": "Item",
+      "href": "guide/items/tailing-barrel.html",
+      "terms": "Tailing Barrel Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Tailing Chest",
+      "type": "Item",
+      "href": "guide/items/tailing-chest.html",
+      "terms": "Tailing Chest Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Tailing Drum",
+      "type": "Item",
+      "href": "guide/items/tailing-drum.html",
+      "terms": "Tailing Drum Habitat Builder Titanium Fiber Mesh",
+      "image": null
+    },
+    {
+      "title": "Tailing Jar",
+      "type": "Item",
+      "href": "guide/items/tailing-jar.html",
+      "terms": "Tailing Jar Habitat Builder Fiber Salt",
+      "image": null
+    },
+    {
+      "title": "Tailing Rug",
+      "type": "Item",
+      "href": "guide/items/tailing-rug.html",
+      "terms": "Tailing Rug Habitat Builder Fiber",
+      "image": null
+    },
+    {
+      "title": "Tailing Table",
+      "type": "Item",
+      "href": "guide/items/tailing-table.html",
+      "terms": "Tailing Table Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Tall Axum Jar",
+      "type": "Item",
+      "href": "guide/items/tall-axum-jar.html",
+      "terms": "Tall Axum Jar Habitat Builder Glass Copper",
+      "image": null
+    },
+    {
+      "title": "Thermal Plant",
+      "type": "Item",
+      "href": "guide/items/thermal-plant.html",
+      "terms": "Thermal Plant Habitat Builder Titanium Copper Gold",
+      "image": null
+    },
+    {
+      "title": "Threemoon Temaki",
+      "type": "Item",
+      "href": "guide/items/threemoon-temaki.html",
+      "terms": "Threemoon Temaki Fabricator Bluemoon Halfmoon Harvestmoon Fibrous Pulp Fabricator",
+      "image": null
+    },
+    {
+      "title": "Time of Day Display",
+      "type": "Item",
+      "href": "guide/items/time-of-day-display.html",
+      "terms": "Time of Day Display Habitat Builder Titanium Enameled Glass Copper",
+      "image": null
+    },
+    {
+      "title": "Titanium",
+      "type": "Item",
+      "href": "guide/items/titanium.html",
+      "terms": "Titanium Fabricator Metal Salvage Metal Farm Titanium Titanium Node All",
+      "image": null
+    },
+    {
+      "title": "Titanium Ingot",
+      "type": "Item",
+      "href": "guide/items/titanium-ingot.html",
+      "terms": "Titanium Ingot Processor Titanium Crafting",
+      "image": null
+    },
+    {
+      "title": "Trashcan",
+      "type": "Item",
+      "href": "guide/items/trashcan.html",
+      "terms": "Trashcan Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Troilite",
+      "type": "Item",
+      "href": "guide/items/troilite.html",
+      "terms": "Troilite Metal Farm Troilite Mineralized Clinker Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Ultra High Capacity Air Tank",
+      "type": "Item",
+      "href": "guide/items/ultra-high-capacity-air-tank.html",
+      "terms": "Ultra High Capacity Air Tank Fabricator High Capacity Air Tank Troilite Atacamite Crafting",
+      "image": null
+    },
+    {
+      "title": "Urchin Pudding",
+      "type": "Item",
+      "href": "guide/items/urchin-pudding.html",
+      "terms": "Urchin Pudding Fabricator Pudding Urchin Salt Crafting",
+      "image": null
+    },
+    {
+      "title": "Vehicle Fabricator",
+      "type": "Item",
+      "href": "guide/items/vehicle-fabricator.html",
+      "terms": "Vehicle Fabricator Habitat Builder Titanium Ingot Copper Ingot Glass",
+      "image": null
+    },
+    {
+      "title": "Wakemaker",
+      "type": "Item",
+      "href": "guide/items/wakemaker.html",
+      "terms": "Wakemaker Fabricator Silver Wiring Kit Grease Basic Battery Crafting",
+      "image": null
+    },
+    {
+      "title": "Wall Light Large",
+      "type": "Item",
+      "href": "guide/items/wall-light-large.html",
+      "terms": "Wall Light Large Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Wall Light Small",
+      "type": "Item",
+      "href": "guide/items/wall-light-small.html",
+      "terms": "Wall Light Small Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Wall Locker",
+      "type": "Item",
+      "href": "guide/items/wall-locker.html",
+      "terms": "Wall Locker Habitat_Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Wall Panel",
+      "type": "Item",
+      "href": "guide/items/wall-panel.html",
+      "terms": "Wall Panel Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Wall Rack",
+      "type": "Item",
+      "href": "guide/items/wall-rack.html",
+      "terms": "Wall Rack Habitat Builder Titanium Copper",
+      "image": null
+    },
+    {
+      "title": "Wall Unit Large",
+      "type": "Item",
+      "href": "guide/items/wall-unit-large.html",
+      "terms": "Wall Unit Large Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Wall Unit Small",
+      "type": "Item",
+      "href": "guide/items/wall-unit-small.html",
+      "terms": "Wall Unit Small Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Wall Vent",
+      "type": "Item",
+      "href": "guide/items/wall-vent.html",
+      "terms": "Wall Vent Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Wall Vent Large",
+      "type": "Item",
+      "href": "guide/items/wall-vent-large.html",
+      "terms": "Wall Vent Large Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Water",
+      "type": "Item",
+      "href": "guide/items/water.html",
+      "terms": "Water Fabricator Water Slug Processor Fibrous Pulp Crafting Processor",
+      "image": null
+    },
+    {
+      "title": "Window",
+      "type": "Item",
+      "href": "guide/items/window.html",
+      "terms": "Window Habitat Builder Glass Habitat Builder Glass",
+      "image": null
+    },
+    {
+      "title": "Wiring Kit",
+      "type": "Item",
+      "href": "guide/items/wiring-kit.html",
+      "terms": "Wiring Kit Fabricator Silver Copper Wire Crafting",
+      "image": null
+    },
+    {
+      "title": "Work Light",
+      "type": "Item",
+      "href": "guide/items/work-light.html",
+      "terms": "Work Light Habitat Builder Titanium Quartz",
+      "image": null
+    },
+    {
+      "title": "World Tree Relic",
+      "type": "Item",
+      "href": "guide/items/world-tree-relic.html",
+      "terms": "World Tree Relic Habitat Builder Glass Copper",
+      "image": null
+    },
+    {
+      "title": "Zezura Poster",
+      "type": "Item",
+      "href": "guide/items/zezura-poster.html",
+      "terms": "Zezura Poster Habitat Builder Titanium",
+      "image": null
+    },
+    {
+      "title": "Acidic Raion Pouch",
+      "type": "Resource",
+      "href": "guide/resources/acidic-raion-pouch.html",
+      "terms": "Acidic Raion Pouch Acid Raion Raw Materials",
+      "image": null
+    },
+    {
+      "title": "Atacamite",
+      "type": "Resource",
+      "href": "guide/resources/atacamite.html",
+      "terms": "Atacamite Atacamite Deposit Raw Materials Karakorum Metal Farms Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Axum Bacterial Culture",
+      "type": "Resource",
+      "href": "guide/resources/axum-bacterial-culture.html",
+      "terms": "Axum Bacterial Culture Harvesting Raw Materials Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Basic First Aid Kit",
+      "type": "Resource",
+      "href": "guide/resources/basic-first-aid-kit.html",
+      "terms": "Basic First Aid Kit Crafting Consumables",
+      "image": null
+    },
+    {
+      "title": "Black Hoverthorn",
+      "type": "Creature",
+      "href": "guide/creatures/black-hoverthorn.html",
+      "terms": "Black Hoverthorn Passive Mobile Foragers Monopter astrapakantha Food +15 / Health 0 / Water -5 Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Bluemoon",
+      "type": "Creature",
+      "href": "guide/creatures/bluemoon.html",
+      "terms": "Bluemoon Passive Mobile Foragers Unknown Food +10 / Health 0 / Water +5 Shallows Root Canyon Graveyard Caves",
+      "image": null
+    },
+    {
+      "title": "Bullethead",
+      "type": "Creature",
+      "href": "guide/creatures/bullethead.html",
+      "terms": "Bullethead Aggressive Mobile Predators Panopliateuthis velos ”armored squid dart” Graveyard Overgrown Ruins Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Celestine",
+      "type": "Resource",
+      "href": "guide/resources/celestine.html",
+      "terms": "Celestine Celestine Deposit Raw Materials Sparse Plains Needler Nest Karakorum Power Plant Root Canyon Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Cerathecan",
+      "type": "Creature",
+      "href": "guide/creatures/cerathecan.html",
+      "terms": "Cerathecan Passive Mobile Predators Exile cerathecan ”the horn-cupped exile” Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Collector Leviathan",
+      "type": "Creature",
+      "href": "guide/creatures/collector-leviathan.html",
+      "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farm Sparse Plains",
+      "image": null
+    },
+    {
+      "title": "Conduit Crystal",
+      "type": "Resource",
+      "href": "guide/resources/conduit-crystal.html",
+      "terms": "Conduit Crystal Conduit Crystal Deposit Raw Materials Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Copper",
+      "type": "Resource",
+      "href": "guide/resources/copper.html",
+      "terms": "Copper Copper Node, Copper Deposit Raw Materials Shallows Dolerite Spires Plateaus Graveyard Necrolei Hills Lead Zone Sparse Plains Overgrown Ruins Needler Nest",
+      "image": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9"
+    },
+    {
+      "title": "Copper Ingot",
+      "type": "Resource",
+      "href": "guide/resources/copper-ingot.html",
+      "terms": "Copper Ingot Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "Coral Crab",
+      "type": "Creature",
+      "href": "guide/creatures/coral-crab.html",
+      "terms": "Coral Crab Passive Mobile Foragers Ostrakonskelos anaktoraphore “Hard-Legged Palace-Bearer” Dolerite Spires",
+      "image": null
+    },
+    {
+      "title": "Crab Feces",
+      "type": "Resource",
+      "href": "guide/resources/crab-feces.html",
+      "terms": "Crab Feces Raw Materials",
+      "image": null
+    },
+    {
+      "title": "Creature Enamel",
+      "type": "Resource",
+      "href": "guide/resources/creature-enamel.html",
+      "terms": "Creature Enamel Enamel Husks Metal Farms Raw Materials Needler Nest",
+      "image": null
+    },
+    {
+      "title": "Crimson Shrimp",
+      "type": "Creature",
+      "href": "guide/creatures/crimson-shrimp.html",
+      "terms": "Crimson Shrimp Passive Mobile Unknown Unknown Overgrown Ruins Shallows Caves",
+      "image": null
+    },
+    {
+      "title": "Deepwing Brooder",
+      "type": "Creature",
+      "href": "guide/creatures/deepwing-brooder.html",
+      "terms": "Deepwing Brooder Passive Mobile Leviathans Titanotagmataptera amalthea \"segment-winged nurturing giant\" Migratory - Not found in any particular biome",
+      "image": null
+    },
+    {
+      "title": "Dolerite Spires",
+      "type": "Biome",
+      "href": "guide/biomes/dolerite-spires.html",
+      "terms": "Dolerite Spires 0-128m Colonist Bunker (Quaker's Meetinghouse) Cicada Wreck (Canteen) Colonist Bunker (Unauthorized NoA Modification)",
+      "image": null
+    },
+    {
+      "title": "Elusive Leviathan",
+      "type": "Creature",
+      "href": "guide/creatures/elusive-leviathan.html",
+      "terms": "Elusive Leviathan Mobile",
+      "image": null
+    },
+    {
+      "title": "Epicurean",
+      "type": "Creature",
+      "href": "guide/creatures/epicurean.html",
+      "terms": "Epicurean Aggressive Mobile Foragers Postpanoplia epicurean ”formerly-armored epicurean” Root Canyon Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Eyeball Sponge",
+      "type": "Creature",
+      "href": "guide/creatures/eyeball-sponge.html",
+      "terms": "Eyeball Sponge Passive Anchored Unknown Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Flash Slug",
+      "type": "Creature",
+      "href": "guide/creatures/flash-slug.html",
+      "terms": "Flash Slug Defensive Mobile Foragers Seaslug kleptopharos The stolen beacon slug Food +20 / Health -10 / Water 0 Overgrown Ruins Karakorum Power Plant Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Fluttertail",
+      "type": "Creature",
+      "href": "guide/creatures/fluttertail.html",
+      "terms": "Fluttertail Passive Mobile Unknown Unknown Overgrown Ruins Plateaus",
+      "image": null
+    },
+    {
+      "title": "Foureye",
+      "type": "Creature",
+      "href": "guide/creatures/foureye.html",
+      "terms": "Foureye Defensive Mobile Predators Morokotoform duplex Coral Gardens Necrolei Hills",
+      "image": null
+    },
+    {
+      "title": "Freesia Flower",
+      "type": "Creature",
+      "href": "guide/creatures/freesia-flower.html",
+      "terms": "Freesia Flower Passive Anchored Unknown Unknown Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Geordie",
+      "type": "Creature",
+      "href": "guide/creatures/geordie.html",
+      "terms": "Geordie Passive Mobile Foragers Salpapod geordie Food +20 / Health -5 / Water 0 Coral Gardens",
+      "image": null
+    },
+    {
+      "title": "Germanium Ingot",
+      "type": "Resource",
+      "href": "guide/resources/germanium-ingot.html",
+      "terms": "Germanium Ingot Processor Ingots",
+      "image": null
+    },
+    {
+      "title": "Glass",
+      "type": "Resource",
+      "href": "guide/resources/glass.html",
+      "terms": "Glass Crafting Basic Materials",
+      "image": null
+    },
+    {
+      "title": "Gold",
+      "type": "Resource",
+      "href": "guide/resources/gold.html",
+      "terms": "Gold Gold Node, Gold Deposit Raw Materials Graveyard Graveyard Caves Root Canyon Thermal Vent Clusters",
+      "image": null
+    },
+    {
+      "title": "Gold Ingot",
+      "type": "Resource",
+      "href": "guide/resources/gold-ingot.html",
+      "terms": "Gold Ingot Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "Graveyard",
+      "type": "Biome",
+      "href": "guide/biomes/graveyard.html",
+      "terms": "Graveyard 80-310m Hot Cave Basecamp Blackboxes",
+      "image": null
+    },
+    {
+      "title": "Grease",
+      "type": "Resource",
+      "href": "guide/resources/grease.html",
+      "terms": "Grease Crafting Basic Materials",
+      "image": null
+    },
+    {
+      "title": "Halfmoon",
+      "type": "Creature",
+      "href": "guide/creatures/halfmoon.html",
+      "terms": "Halfmoon Passive Mobile Foragers Moliform luna “Mola-shaped moon” Food +15 / Health 0 / Water -5 Coral Gardens Graveyard Necrolei Hills Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Hammerhead",
+      "type": "Creature",
+      "href": "guide/creatures/hammerhead.html",
+      "terms": "Hammerhead Defensive Mobile Foragers Panoplia hammerhead \"fully-armoured hammerhead\" Coral Gardens Lead Zone",
+      "image": null
+    },
+    {
+      "title": "Harvestmoon",
+      "type": "Creature",
+      "href": "guide/creatures/harvestmoon.html",
+      "terms": "Harvestmoon Passive Mobile Foragers Unknown Food +20 / Health 0 / Water -5 Shallows Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Houndgar",
+      "type": "Creature",
+      "href": "guide/creatures/houndgar.html",
+      "terms": "Houndgar Aggressive Mobile Predators Teuthis courser \"Hunting dog squid\" Graveyard",
+      "image": null
+    },
+    {
+      "title": "Hoverthorn",
+      "type": "Creature",
+      "href": "guide/creatures/hoverthorn.html",
+      "terms": "Hoverthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Food +15 / Health 0 / Water -5 Karakorum Metal Farms Karakorum Power Plant Overgrown Ruins Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Hycean",
+      "type": "Creature",
+      "href": "guide/creatures/hycean.html",
+      "terms": "Hycean Passive Mobile Predators Hycean hycean Coral Gardens Necrolei Hills",
+      "image": null
+    },
+    {
+      "title": "Jelly Ring",
+      "type": "Creature",
+      "href": "guide/creatures/jelly-ring.html",
+      "terms": "Jelly Ring Passive Mobile Foragers Thermodont sufganiyah “heat eating jelly donut” Graveyard Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Jetocaris",
+      "type": "Creature",
+      "href": "guide/creatures/jetocaris.html",
+      "terms": "Jetocaris Passive Mobile Foragers Tripod phrontiscaris ”three-legged caring-crab” Necrolei Hills Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Karakorum Metal Farms",
+      "type": "Biome",
+      "href": "guide/biomes/karakorum-metal-farms.html",
+      "terms": "Karakorum Metal Farms 470m",
+      "image": null
+    },
+    {
+      "title": "Karakorum Power Plant",
+      "type": "Biome",
+      "href": "guide/biomes/karakorum-power-plant.html",
+      "terms": "Karakorum Power Plant 20 - 470 meters",
+      "image": null
+    },
+    {
+      "title": "Lead",
+      "type": "Resource",
+      "href": "guide/resources/lead.html",
+      "terms": "Lead Lead Node, Lead Deposit Raw Materials Lead Zone Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Lead Zone",
+      "type": "Biome",
+      "href": "guide/biomes/lead-zone.html",
+      "terms": "Lead Zone 34–65 m EA data Atoll, Atoll Cave, Nook, Wreck",
+      "image": null
+    },
+    {
+      "title": "Lithium",
+      "type": "Resource",
+      "href": "guide/resources/lithium.html",
+      "terms": "Lithium Lithium Deposit Raw Materials Graveyard Caves Great Jaw",
+      "image": null
+    },
+    {
+      "title": "Locust",
+      "type": "Creature",
+      "href": "guide/creatures/locust.html",
+      "terms": "Locust Passive Mobile Unknown Unknown Graveyard Caves",
+      "image": null
+    },
+    {
+      "title": "Mangalloy Ingot",
+      "type": "Resource",
+      "href": "guide/resources/mangalloy-ingot.html",
+      "terms": "Mangalloy Ingot Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "Marrowbreach",
+      "type": "Creature",
+      "href": "guide/creatures/marrowbreach.html",
+      "terms": "Marrowbreach Aggressive Mobile Predators Mango marrowbreach \"Marrowbreach\" Shallows Plateaus Graveyard",
+      "image": null
+    },
+    {
+      "title": "Medical Gel Sac",
+      "type": "Resource",
+      "href": "guide/resources/medical-gel-sac.html",
+      "terms": "Medical Gel Sac Acid Raion Food",
+      "image": null
+    },
+    {
+      "title": "Microshrimp",
+      "type": "Creature",
+      "href": "guide/creatures/microshrimp.html",
+      "terms": "Microshrimp Passive Mobile Unknown Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Mild Acid",
+      "type": "Resource",
+      "href": "guide/resources/mild-acid.html",
+      "terms": "Mild Acid Crafting Basic Materials",
+      "image": null
+    },
+    {
+      "title": "Mirror Halfmoon",
+      "type": "Creature",
+      "href": "guide/creatures/mirror-halfmoon.html",
+      "terms": "Mirror Halfmoon Passive Mobile Unknown Unknown Shallows",
+      "image": null
+    },
+    {
+      "title": "Necrolei Bud",
+      "type": "Resource",
+      "href": "guide/resources/necrolei-bud.html",
+      "terms": "Necrolei Bud Raw Materials Necrolei Hills",
+      "image": null
+    },
+    {
+      "title": "Necrolei Hills",
+      "type": "Biome",
+      "href": "guide/biomes/necrolei-hills.html",
+      "terms": "Necrolei Hills 0m - 100m Hills Wreck 1 Hills-Plateaus Wreck 1",
+      "image": null
+    },
+    {
+      "title": "Needler Mango",
+      "type": "Creature",
+      "href": "guide/creatures/needler-mango.html",
+      "terms": "Needler Mango Aggressive Mobile Predators Mango kestros \"dart-throwing shark\" Overgrown Ruins Needler Nest",
+      "image": null
+    },
+    {
+      "title": "Nibbler Mango",
+      "type": "Creature",
+      "href": "guide/creatures/nibbler-mango.html",
+      "terms": "Nibbler Mango Aggressive Mobile Predators Mango tructa “Nibbler shark” Coral Gardens",
+      "image": null
+    },
+    {
+      "title": "North Raceway",
+      "type": "Biome",
+      "href": "guide/biomes/north-raceway.html",
+      "terms": "North Raceway 0-???m Wreck",
+      "image": null
+    },
+    {
+      "title": "Overgrown Ruins",
+      "type": "Biome",
+      "href": "guide/biomes/overgrown-ruins.html",
+      "terms": "Overgrown Ruins 210 meters",
+      "image": null
+    },
+    {
+      "title": "Pelagic Ghost",
+      "type": "Creature",
+      "href": "guide/creatures/pelagic-ghost.html",
+      "terms": "Pelagic Ghost Passive Mobile Unknown Unknown Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Periscopic Clowncrab",
+      "type": "Creature",
+      "href": "guide/creatures/periscopic-clowncrab.html",
+      "terms": "Periscopic Clowncrab Passive Mobile Foragers Ostrakonskelos periskopion “Hard-legged periscope” Necrolei Hills Shallows",
+      "image": null
+    },
+    {
+      "title": "Plasteel Ingot",
+      "type": "Resource",
+      "href": "guide/resources/plasteel-ingot.html",
+      "terms": "Plasteel Ingot Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "Plateaus",
+      "type": "Biome",
+      "href": "guide/biomes/plateaus.html",
+      "terms": "Plateaus Colonist Bunker (Salvage)",
+      "image": null
+    },
+    {
+      "title": "Pneuma",
+      "type": "Creature",
+      "href": "guide/creatures/pneuma.html",
+      "terms": "Pneuma Passive Mobile Foragers Pneuma pneuma Food +25 / Health 0 / Water -5 Overgrown Ruins",
+      "image": null
+    },
+    {
+      "title": "Quartz",
+      "type": "Resource",
+      "href": "guide/resources/quartz.html",
+      "terms": "Quartz Quartz Node, Quartz Deposit Raw Materials Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Ringbearer Krill",
+      "type": "Creature",
+      "href": "guide/creatures/ringbearer-krill.html",
+      "terms": "Ringbearer Krill Krill krikophore \"ringbearer krill\"",
+      "image": null
+    },
+    {
+      "title": "Root Canyon",
+      "type": "Biome",
+      "href": "guide/biomes/root-canyon.html",
+      "terms": "Root Canyon 364–750 m EA data Control Room, Resonator Wreck, Blighted Wreck, Blight Nodes, Heat Vents",
+      "image": null
+    },
+    {
+      "title": "Salt",
+      "type": "Resource",
+      "href": "guide/resources/salt.html",
+      "terms": "Salt Salt Node, Salt Deposit Raw Materials Graveyard Sparse Plains Overgrown Ruins Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Sandspear",
+      "type": "Creature",
+      "href": "guide/creatures/sandspear.html",
+      "terms": "Sandspear Aggressive Mobile Predators Unknown Overgrown Ruins Plateaus Shallows Necrolei Hills",
+      "image": null
+    },
+    {
+      "title": "Scourge Hive",
+      "type": "Creature",
+      "href": "guide/creatures/scourge-hive.html",
+      "terms": "Scourge Hive Mobile Unknown",
+      "image": null
+    },
+    {
+      "title": "Shallows",
+      "type": "Biome",
+      "href": "guide/biomes/shallows.html",
+      "terms": "Shallows 3–224m Lifepod Welcome Center Colonist Bunker (Anita's Garden)",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/CG_Shallows_Biome.png/1200px-CG_Shallows_Biome.png?232ad"
+    },
+    {
+      "title": "Shiver Leviathan",
+      "type": "Creature",
+      "href": "guide/creatures/shiver-leviathan.html",
+      "terms": "Shiver Leviathan Aggressive Mobile Leviathans Skythopterygion atropos “scythe-finned fate-ender” Void",
+      "image": null
+    },
+    {
+      "title": "Shiver Male",
+      "type": "Creature",
+      "href": "guide/creatures/shiver-male.html",
+      "terms": "Shiver Male Aggressive Mobile Leviathans Skythopterygion atropos “scythe-finned fate-ender” Void",
+      "image": null
+    },
+    {
+      "title": "Silver",
+      "type": "Resource",
+      "href": "guide/resources/silver.html",
+      "terms": "Silver Silver Node, Silver Deposit Raw Materials Plateaus Necrolei Hills Graveyard Dolerite Spires Silver Mines",
+      "image": null
+    },
+    {
+      "title": "Silver Ingot",
+      "type": "Resource",
+      "href": "guide/resources/silver-ingot.html",
+      "terms": "Silver Ingot Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "South Raceway",
+      "type": "Biome",
+      "href": "guide/biomes/south-raceway.html",
+      "terms": "South Raceway 0-85m",
+      "image": null
+    },
+    {
+      "title": "Sparse Plains",
+      "type": "Biome",
+      "href": "guide/biomes/sparse-plains.html",
+      "terms": "Sparse Plains",
+      "image": null
+    },
+    {
+      "title": "Strong Acid",
+      "type": "Resource",
+      "href": "guide/resources/strong-acid.html",
+      "terms": "Strong Acid Crafting Advanced Materials",
+      "image": null
+    },
+    {
+      "title": "Strontium",
+      "type": "Resource",
+      "href": "guide/resources/strontium.html",
+      "terms": "Strontium Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "Sulfur",
+      "type": "Resource",
+      "href": "guide/resources/sulfur.html",
+      "terms": "Sulfur Sulfur Deposit Raw Materials Graveyard",
+      "image": null
+    },
+    {
+      "title": "Surge Jelly",
+      "type": "Creature",
+      "href": "guide/creatures/surge-jelly.html",
+      "terms": "Surge Jelly Defensive Mobile Foragers Staurobrachia capacitor Dolerite Spires Karakorum Power Plant",
+      "image": null
+    },
+    {
+      "title": "Tadpole",
+      "type": "Vehicle",
+      "href": "guide/vehicles/tadpole.html",
+      "terms": "Tadpole 8m/s No Module: 250m Tadpole Depth Module Mk. 1: 450m Tadpole Depth Module Mk. 2: 800m 100 Vehicle Fabricator 3",
+      "image": "https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d"
+    },
+    {
+      "title": "Tadpole Haul Chassis",
+      "type": "Vehicle",
+      "href": "guide/vehicles/tadpole-haul-chassis.html",
+      "terms": "Tadpole Haul Chassis 8 m/s 3",
+      "image": null
+    },
+    {
+      "title": "Tadpole Scout Ray Chassis",
+      "type": "Vehicle",
+      "href": "guide/vehicles/tadpole-scout-ray-chassis.html",
+      "terms": "Tadpole Scout Ray Chassis 10 m/s 1",
+      "image": null
+    },
+    {
+      "title": "Tar Eel",
+      "type": "Creature",
+      "href": "guide/creatures/tar-eel.html",
+      "terms": "Tar Eel Mobile",
+      "image": null
+    },
+    {
+      "title": "Teal Cycloplet",
+      "type": "Creature",
+      "href": "guide/creatures/teal-cycloplet.html",
+      "terms": "Teal Cycloplet Passive Mobile Unknown Unknown Graveyard Caves Needler Nest Overgrown Ruins Necrolei Hills",
+      "image": null
+    },
+    {
+      "title": "Titanium",
+      "type": "Resource",
+      "href": "guide/resources/titanium.html",
+      "terms": "Titanium Titanium Node Raw Materials All",
+      "image": null
+    },
+    {
+      "title": "Titanium Ingot",
+      "type": "Resource",
+      "href": "guide/resources/titanium-ingot.html",
+      "terms": "Titanium Ingot Crafting Ingots",
+      "image": null
+    },
+    {
+      "title": "Troilite",
+      "type": "Resource",
+      "href": "guide/resources/troilite.html",
+      "terms": "Troilite Mineralized Clinker Raw Materials Karakorum Metal Farms",
+      "image": null
+    },
+    {
+      "title": "Twin Sitaray",
+      "type": "Creature",
+      "href": "guide/creatures/twin-sitaray.html",
+      "terms": "Twin Sitaray Aggressive Mobile Predators Sitaroid gemini \"sitar-like twins\" Karakorum Metal Farms Karakorum Power Plant Root Canyon",
+      "image": null
+    },
+    {
+      "title": "Vep Defender",
+      "type": "Creature",
+      "href": "guide/creatures/vep-defender.html",
+      "terms": "Vep Defender Mobile",
+      "image": null
+    },
+    {
+      "title": "Vep Sensor",
+      "type": "Creature",
+      "href": "guide/creatures/vep-sensor.html",
+      "terms": "Vep Sensor Mobile",
+      "image": null
+    },
+    {
+      "title": "Vep Worker",
+      "type": "Creature",
+      "href": "guide/creatures/vep-worker.html",
+      "terms": "Vep Worker Mobile",
+      "image": null
+    },
+    {
+      "title": "Void",
+      "type": "Biome",
+      "href": "guide/biomes/void.html",
+      "terms": "Void 0-5000+ meters",
+      "image": null
+    },
+    {
+      "title": "Water",
+      "type": "Resource",
+      "href": "guide/resources/water.html",
+      "terms": "Water Crafting Processor Food",
+      "image": null
+    },
+    {
+      "title": "Water Slug",
+      "type": "Creature",
+      "href": "guide/creatures/water-slug.html",
+      "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” Food -5 / Health 0 / Water +15 Coral Gardens",
+      "image": null
+    },
+    {
+      "title": "Waxmoon",
+      "type": "Creature",
+      "href": "guide/creatures/waxmoon.html",
+      "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna Shallows Graveyard Necrolei Hills Root Canyon",
+      "image": null
+    },
+    {
+      "title": "World Tree",
+      "type": "Creature",
+      "href": "guide/creatures/world-tree.html",
+      "terms": "World Tree Passive Anchored Unknown Mundusilithae titanicae \"Titanic goddess of midwifes and childbirth of the world\" Xanadu",
+      "image": null
+    }
+  ]
+}

@@ -16,9 +16,18 @@ const definitions = {
 
 async function wiki(values) {
   const query = new URLSearchParams({ format: "json", formatversion: "2", origin: "*", ...values });
-  const response = await fetch(`${apiEndpoint}?${query}`, { headers: { "User-Agent": "Subnautica2EvidenceGuide/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" } });
-  if (!response.ok) throw new Error(`Wiki request failed: ${response.status}`);
-  return response.json();
+  let lastError;
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    try {
+      const response = await fetch(`${apiEndpoint}?${query}`, { headers: { "User-Agent": "Subnautica2EvidenceGuide/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" } });
+      if (!response.ok) throw new Error(`Wiki request failed: ${response.status}`);
+      return response.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 500 * (2 ** attempt)));
+    }
+  }
+  throw lastError;
 }
 
 async function readJsonIfExists(file) {
@@ -102,6 +111,42 @@ function linkedValues(value) {
   return fallback ? [fallback] : [];
 }
 
+function imageFile(value) {
+  const raw = String(value ?? "").replace(/<!--[^]*?-->/g, "").trim();
+  const linked = raw.match(/\[\[(?:File|Image):([^|\]]+)/i)?.[1];
+  const candidate = (linked ?? raw.split("|")[0]).replace(/^(?:File|Image):/i, "").replaceAll("_", " ").trim();
+  return /\.(?:png|jpe?g|webp|gif)$/i.test(candidate) ? candidate : "";
+}
+
+async function fetchImageMedia(fileNames) {
+  const media = new Map();
+  const names = [...new Set(fileNames.filter(Boolean))];
+  for (let index = 0; index < names.length; index += 40) {
+    const batch = names.slice(index, index + 40);
+    const data = await wiki({
+      action: "query",
+      titles: batch.map((name) => `File:${name}`).join("|"),
+      prop: "imageinfo",
+      iiprop: "url|size|mime",
+      iiurlwidth: "720",
+      redirects: "1",
+    });
+    for (const page of data.query.pages) {
+      const info = page.imageinfo?.[0];
+      if (!info || !info.mime?.startsWith("image/")) continue;
+      const fileName = page.title.replace(/^File:/i, "");
+      media.set(fileName.toLowerCase(), {
+        fileName,
+        url: info.thumburl || info.url,
+        filePage: info.descriptionurl,
+        width: info.thumbwidth || info.width,
+        height: info.thumbheight || info.height,
+      });
+    }
+  }
+  return media;
+}
+
 function slugify(value) { return value.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
 function escapeHtml(value) { return String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character])); }
 function permanentUrl(title, revisionId) { return `${wikiBase}index.php?title=${encodeURIComponent(title.replaceAll(" ", "_"))}&oldid=${revisionId}`; }
@@ -118,6 +163,7 @@ function normalizePage(kind, page) {
   if (/{{\s*(Planned|Unobtainable|Unused|Removed|Future)/i.test(sourceText)) excludedSignals.push("wiki status template");
   const base = {
     id: slugify(page.title), title: page.title, kind,
+    imageFile: imageFile(fields.image || fields.image1 || fields.picture || fields.icon || fields.art),
     status: excludedSignals.length ? "excluded" : "wiki-backed",
     exclusionReasons: [...new Set(excludedSignals)], categories,
     source: { type: "official-community-wiki", pageUrl: `${wikiBase}${encodeURIComponent(page.title.replaceAll(" ", "_"))}`, permanentUrl: permanentUrl(page.title, revision.revid), revisionId: revision.revid, revisionTimestamp: revision.timestamp, fetchedAt: new Date().toISOString(), license },
@@ -147,7 +193,7 @@ function entityPage(entity, related = {}) {
 
 function indexPage(kind, entities, generatedAt) {
   const definition = definitions[kind];
-  const rows = entities.map((entity) => { const details = Object.values(entity.facts).flat().filter(Boolean).join(" "); return `<tr data-entry data-search="${escapeHtml(`${entity.title} ${details}`.toLowerCase())}"><td><a href="guide/${kind}/${entity.id}.html">${escapeHtml(entity.title)}</a></td><td>${escapeHtml(details || "No structured details")}</td><td><a href="${entity.source.permanentUrl}" rel="noopener noreferrer">rev ${entity.source.revisionId}</a></td></tr>`; }).join("");
+  const rows = entities.map((entity) => { const details = Object.values(entity.facts).flat().filter(Boolean).join(" "); return `<tr data-entry data-search="${escapeHtml(`${entity.title} ${details}`.toLowerCase())}"><td><span class="record-name">${entity.media ? `<a class="record-thumb" href="${escapeHtml(entity.media.filePage)}" rel="noopener noreferrer"><img src="${escapeHtml(entity.media.url)}" width="${entity.media.width}" height="${entity.media.height}" loading="lazy" alt="${escapeHtml(`${entity.title} Wiki image`)}"></a>` : `<span class="record-thumb record-thumb--empty" aria-label="No Wiki image">${definition.singular.slice(0, 1)}</span>`}<a href="guide/${kind}/${entity.id}.html">${escapeHtml(entity.title)}</a></span></td><td>${escapeHtml(details || "No structured details")}</td><td><a href="${entity.source.permanentUrl}" rel="noopener noreferrer">rev ${entity.source.revisionId}</a></td></tr>`; }).join("");
   const body = `<section class="entity-hero"><p class="eyebrow">Official Wiki import · ${generatedAt.slice(0, 10)}</p><h1>${definition.label}<br><em>records.</em></h1><p class="lede">${entities.length} source-linked ${definition.label.toLowerCase()} imported from permanent Subnautica 2 Wiki revisions.</p><label class="search-box"><span>Filter records</span><input id="entity-search" type="search" placeholder="Search ${definition.label.toLowerCase()}…" autocomplete="off"></label></section><section class="ledger"><div class="section-heading section-heading--row"><div><p class="eyebrow">Wiki-backed dataset</p><h2>All ${definition.label.toLowerCase()}</h2></div><p class="ledger__note"><span id="visible-count">${entities.length}</span> records shown</p></div><div class="table-wrap"><table class="crafting-table"><thead><tr><th>Name</th><th>Structured facts</th><th>Source</th></tr></thead><tbody>${rows}</tbody></table></div></section><script>const input=document.getElementById("entity-search"),rows=[...document.querySelectorAll("[data-entry]")],count=document.getElementById("visible-count");input.addEventListener("input",()=>{const q=input.value.trim().toLowerCase();let visible=0;rows.forEach(row=>{const show=!q||row.dataset.search.includes(q);row.hidden=!show;if(show)visible++});count.textContent=visible});</script>`;
   return layout({ title: `Subnautica 2 ${definition.label} | Evidence Guide`, description: `${entities.length} source-linked Subnautica 2 ${definition.label.toLowerCase()} from permanent official Wiki revisions.`, canonical: `https://specialzhou.github.io/subnautica-2-guide/${definition.output}`, body });
 }
@@ -188,8 +234,8 @@ function vehiclePlannerPage(items, vehicles) {
 
 function locationsPage(biomes) {
   const withPoints = biomes.filter((biome) => biome.facts.pointsOfInterest.length).sort((a, b) => a.title.localeCompare(b.title));
-  const rows = withPoints.flatMap((biome) => biome.facts.pointsOfInterest.map((point, index) => `<tr><td>${index === 0 ? `<a href="guide/biomes/${biome.id}.html">${escapeHtml(biome.title)}</a>` : ""}</td><td>${escapeHtml(point)}</td><td>${escapeHtml(biome.facts.depth || "Not recorded")}</td><td><a href="${escapeHtml(biome.source.permanentUrl)}" rel="noopener noreferrer">rev ${biome.source.revisionId}</a></td></tr>`)).join("");
-  const body = `<section class="entity-hero"><p class="eyebrow">Biome infobox POIs · Wiki-backed</p><h1>Key locations<br><em>index.</em></h1><p class="lede">${withPoints.reduce((count, biome) => count + biome.facts.pointsOfInterest.length, 0)} named points of interest grouped under ${withPoints.length} biome records.</p></section><section class="ledger"><div class="section-heading"><p class="eyebrow">Structured location fields</p><h2>Named points of interest</h2></div><div class="table-wrap"><table class="crafting-table"><thead><tr><th>Biome</th><th>Point of interest</th><th>Biome depth</th><th>Revision</th></tr></thead><tbody>${rows}</tbody></table></div></section><section class="evidence-note"><p class="eyebrow">Evidence boundary</p><h2>Names and biome depth are not coordinates</h2><p>The Wiki infobox connects each name to a biome record. This page does not infer exact coordinates, route order, entrance position, or travel safety.</p></section>`;
+  const rows = withPoints.flatMap((biome) => biome.facts.pointsOfInterest.map((point, index) => `<tr>${index === 0 ? `<td class="location-biome-cell" rowspan="${biome.facts.pointsOfInterest.length}">${biome.media ? `<a class="location-thumb" href="${escapeHtml(biome.media.filePage)}" rel="noopener noreferrer"><img src="${escapeHtml(biome.media.url)}" width="${biome.media.width}" height="${biome.media.height}" loading="lazy" alt="${escapeHtml(`${biome.title} Wiki image`)}"></a>` : `<span class="location-thumb location-thumb--empty">No Wiki image</span>`}<a href="guide/biomes/${biome.id}.html">${escapeHtml(biome.title)}</a></td>` : ""}<td>${escapeHtml(point)}</td><td>${escapeHtml(biome.facts.depth || "Not recorded")}</td><td><a href="${escapeHtml(biome.source.permanentUrl)}" rel="noopener noreferrer">rev ${biome.source.revisionId}</a></td></tr>`)).join("");
+  const body = `<section class="entity-hero"><p class="eyebrow">Biome infobox POIs · Wiki-backed</p><h1>Key locations<br><em>index.</em></h1><p class="lede">${withPoints.reduce((count, biome) => count + biome.facts.pointsOfInterest.length, 0)} named points of interest grouped under ${withPoints.length} biome records.</p><p class="fact-note location-naming-note">In-game proper names stay in English when no verified localized name is available.</p></section><section class="ledger"><div class="section-heading"><p class="eyebrow">Structured location fields</p><h2>Named points of interest</h2></div><div class="table-wrap"><table class="crafting-table"><thead><tr><th>Biome</th><th>Point of interest</th><th>Biome depth</th><th>Revision</th></tr></thead><tbody>${rows}</tbody></table></div></section><section class="evidence-note"><p class="eyebrow">Evidence boundary</p><h2>Names and biome depth are not coordinates</h2><p>The Wiki infobox connects each name to a biome record. This page does not infer exact coordinates, route order, entrance position, or travel safety.</p></section>`;
   return layout({ title: "Subnautica 2 key locations index | Evidence Guide", description: "Source-linked Subnautica 2 points of interest grouped by biome and documented depth.", canonical: "https://specialzhou.github.io/subnautica-2-guide/locations.html", body });
 }
 
@@ -222,6 +268,11 @@ async function main() {
     const pages = await fetchPages([...new Set(lists.flat())].sort());
     allEntities.push(...pages.map((page) => normalizePage(kind, page)).filter(Boolean));
   }
+  const mediaByFile = await fetchImageMedia(allEntities.map((entity) => entity.imageFile));
+  for (const entity of allEntities) {
+    entity.media = entity.imageFile ? mediaByFile.get(entity.imageFile.toLowerCase()) ?? null : null;
+    delete entity.imageFile;
+  }
   const deduped = [...new Map(allEntities.map((entity) => [`${entity.kind}:${entity.id}`, entity])).values()].map((entity) => {
     const previous = previousByKey.get(`${entity.kind}:${entity.id}`);
     if (previous?.source.revisionId === entity.source.revisionId) entity.source.fetchedAt = previous.source.fetchedAt;
@@ -246,7 +297,7 @@ async function main() {
     await writeFile(path.join(root, definitions[kind].output), indexPage(kind, entities, generatedAt));
   }
 
-  await writeFile(dataPath, `${JSON.stringify({ schemaVersion: "1.0.0", generatedAt, source: apiEndpoint, license, publishedCount: published.length, excludedCount: excluded.length, counts: Object.fromEntries(Object.keys(definitions).map((kind) => [kind, publishedByKind[kind].size])), entities: deduped }, null, 2)}\n`);
+  await writeFile(dataPath, `${JSON.stringify({ schemaVersion: "1.1.0", generatedAt, source: apiEndpoint, license, publishedCount: published.length, excludedCount: excluded.length, counts: Object.fromEntries(Object.keys(definitions).map((kind) => [kind, publishedByKind[kind].size])), imageCount: published.filter((entity) => entity.media).length, entities: deduped }, null, 2)}\n`);
   const itemsData = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));
   await writeFile(path.join(root, "starter-materials.html"), starterMaterialsPage(itemsData.items.filter((item) => item.status === "wiki-backed"), [...publishedByKind.resources.values()], [...publishedByKind.biomes.values()]));
   await writeFile(path.join(root, "vehicle-planner.html"), vehiclePlannerPage(itemsData.items.filter((item) => item.status === "wiki-backed"), [...publishedByKind.vehicles.values()]));

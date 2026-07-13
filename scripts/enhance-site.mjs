@@ -8,6 +8,12 @@ const items = JSON.parse(await readFile(path.join(root, "data/wiki-items.json"),
 const entities = JSON.parse(await readFile(path.join(root, "data/wiki-entities.json"), "utf8"));
 const media = JSON.parse(await readFile(path.join(root, "data/media.json"), "utf8"));
 const imageByPage = new Map(media.images.map((image) => [image.page, image]));
+for (const item of items.items) {
+  if (item.media) imageByPage.set(`guide/items/${item.id}.html`, { ...item.media, title: item.title });
+}
+for (const entity of entities.entities) {
+  if (entity.media) imageByPage.set(`guide/${entity.kind}/${entity.id}.html`, { ...entity.media, title: entity.title });
+}
 
 const guides = [
   ["Start here", "Guide", "starter-planner.html", "Starter crafting planner Scanner oxygen tank fins repair tool"],
@@ -32,9 +38,20 @@ const searchEntities = entities.entities.filter((entity) => entity.status === "w
   href: `guide/${entity.kind}/${entity.id}.html`,
   terms: [entity.title, ...Object.values(entity.facts).flat()].filter(Boolean).join(" "),
 }));
-const imageByTitle = new Map(media.images.map((image) => [image.title, image.url]));
+const imageByTitle = new Map([
+  ...media.images.map((image) => [image.title, image.url]),
+  ...items.items.filter((item) => item.media).map((item) => [item.title, item.media.url]),
+  ...entities.entities.filter((entity) => entity.media).map((entity) => [entity.title, entity.media.url]),
+]);
 const index = [...guides, ...searchItems, ...searchEntities].map((entry) => ({ ...entry, image: imageByTitle.get(entry.title) ?? null }));
 const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime())).toISOString();
+const coverage = {
+  total: items.publishedCount + entities.publishedCount,
+  crafting: items.publishedCount,
+  resources: entities.counts.resources,
+  creatures: entities.counts.creatures,
+  biomes: entities.counts.biomes,
+};
 await writeFile(path.join(root, "data/search-index.json"), `${JSON.stringify({ generatedAt, count: index.length, entries: index }, null, 2)}\n`);
 
 const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
@@ -51,6 +68,10 @@ const mediaFigure = (image, locale) => {
       : { alt: `${image.title} image from the Subnautica 2 Wiki`, image: "Wiki image", source: "source file", boundary: "not an in-game verification capture" };
   return `<figure class="record-media"><a href="${image.filePage}" rel="noopener noreferrer"><img src="${image.url}" width="${image.width}" height="${image.height}" loading="lazy" alt="${text.alt}"></a><figcaption>${text.image} · <a href="${image.filePage}" rel="noopener noreferrer">${text.source}</a> · <a href="${media.license.url}" rel="license">${media.license.name}</a> · ${text.boundary}</figcaption></figure>`;
 };
+const mediaUnavailable = (locale) => {
+  const text = locale === "zh-cn" ? "暂无可用的 Wiki 图片" : locale === "ru" ? "В Wiki нет доступного изображения" : "No Wiki image is available";
+  return `<div class="record-media record-media--empty" data-image-status="unavailable"><span>${text}</span></div>`;
+};
 
 for (const pagePath of [...new Set(pagePaths)]) {
   const filePath = path.join(root, pagePath);
@@ -59,13 +80,20 @@ for (const pagePath of [...new Set(pagePaths)]) {
     .replace(`<link rel="stylesheet" href="${base}search.css">`, "")
     .replace(`<script defer src="${base}search.js"></script>`, "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/, "")
-    .replace(/<figure class="record-media">.*?<\/figure>/s, "");
+    .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/s, "");
   html = html.replace("</head>", `<link rel="stylesheet" href="${base}search.css"></head>`);
   html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="Search this guide"><span aria-hidden="true">⌕</span><span>Search</span><kbd>/</kbd></button></nav>`);
   const unlocalizedPath = pagePath.replace(/^(en|zh-cn|ru)\//, "");
+  if (unlocalizedPath === "index.html") {
+    html = html.replace(/(<div class="notice"[^>]*><div class="shell notice__inner"><span[^>]*><\/span>)\d+/, `$1${coverage.total}`);
+    html = html.replace(/(<dd id="wiki-count">)\d+/, `$1${coverage.total}`);
+    for (const [href, count] of [["crafting.html", coverage.crafting], ["resources.html", coverage.resources], ["creatures.html", coverage.creatures], ["biomes.html", coverage.biomes]]) {
+      html = html.replace(new RegExp(`(<a href="${href}"><span>)\\d+`), `$1${count}`);
+    }
+  }
   const image = imageByPage.get(unlocalizedPath);
   const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
-  if (image && /<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${mediaFigure(image, locale)}`);
+  if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
   html = html.replace("</body>", `<script defer src="${base}search.js"></script></body>`);
   await writeFile(filePath, html);
 }

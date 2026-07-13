@@ -17,6 +17,7 @@ for (const item of data.items) {
   if (ids.has(item.id)) failures.push(`Duplicate id: ${item.id}`);
   ids.add(item.id);
   if (!item.source.revisionId || !item.source.permanentUrl) failures.push(`Missing provenance: ${item.title}`);
+  if (item.media && (!item.media.url?.startsWith("https://wiki.subnautica.com/") || !item.media.filePage?.startsWith("https://wiki.subnautica.com/") || !item.media.width || !item.media.height)) failures.push(`Invalid item media: ${item.title}`);
   if (!item.recipes.length) failures.push(`Missing recipe: ${item.title}`);
   if (!item.unlock || !Object.hasOwn(item.unlock, "fragments")) failures.push(`Missing unlock schema: ${item.title}`);
   for (const recipe of item.recipes) {
@@ -32,6 +33,7 @@ for (const item of data.items) {
 
 if (data.publishedCount !== data.items.filter((item) => item.status === "wiki-backed").length) failures.push("Published count mismatch");
 if (data.excludedCount !== data.items.filter((item) => item.status === "excluded").length) failures.push("Excluded count mismatch");
+if (data.imageCount !== data.items.filter((item) => item.status === "wiki-backed" && item.media).length) failures.push("Item image count mismatch");
 
 const expectedRecipes = [
   ["Basic Battery", "Fabricator", [["Copper", "2"], ["Acidic Raion Pouch", "1"]]],
@@ -58,6 +60,7 @@ for (const entity of entityData.entities) {
   if (entityIds.has(scopedId)) failures.push(`Duplicate entity id: ${scopedId}`);
   entityIds.add(scopedId);
   if (!entity.source.revisionId || !entity.source.permanentUrl) failures.push(`Missing entity provenance: ${entity.title}`);
+  if (entity.media && (!entity.media.url?.startsWith("https://wiki.subnautica.com/") || !entity.media.filePage?.startsWith("https://wiki.subnautica.com/") || !entity.media.width || !entity.media.height)) failures.push(`Invalid entity media: ${entity.title}`);
   if (entity.status === "wiki-backed") {
     await access(path.join(root, "guide", entity.kind, `${entity.id}.html`)).catch(() => failures.push(`Missing entity page: ${scopedId}`));
     if (!sitemap.includes(`/guide/${entity.kind}/${entity.id}.html`)) failures.push(`Sitemap missing entity: ${scopedId}`);
@@ -65,6 +68,7 @@ for (const entity of entityData.entities) {
 }
 if (entityData.publishedCount !== entityData.entities.filter((entity) => entity.status === "wiki-backed").length) failures.push("Entity published count mismatch");
 if (entityData.excludedCount !== entityData.entities.filter((entity) => entity.status === "excluded").length) failures.push("Entity excluded count mismatch");
+if (entityData.imageCount !== entityData.entities.filter((entity) => entity.status === "wiki-backed" && entity.media).length) failures.push("Entity image count mismatch");
 for (const [kind, count] of Object.entries(entityData.counts)) {
   if (count !== entityData.entities.filter((entity) => entity.kind === kind && entity.status === "wiki-backed").length) failures.push(`Entity kind count mismatch: ${kind}`);
 }
@@ -133,6 +137,7 @@ for (const expected of ["Lifepod", "Welcome Center", "Control Room", "Hot Cave B
   if (!locationsHtml.includes(expected)) failures.push(`Locations index missing: ${expected}`);
 }
 if (locationsHtml.includes("&amp;ndash;")) failures.push("Locations index contains undecoded depth entities");
+if (!locationsHtml.includes('class="location-thumb"') || !locationsHtml.includes('loading="lazy"')) failures.push("Locations index lacks Wiki thumbnails");
 if (!sitemap.includes("/locations.html")) failures.push("Sitemap missing locations index");
 const storyHtml = await readFile(path.join(root, "story.html"), "utf8");
 if (storyData.pages.length !== 12 || !storyData.pages.every((page) => page.revisionId && page.permanentUrl)) failures.push("Story dataset provenance mismatch");

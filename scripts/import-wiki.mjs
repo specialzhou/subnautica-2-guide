@@ -25,11 +25,20 @@ function params(values) {
 
 async function wiki(values) {
   const url = `${apiEndpoint}?${params(values)}`;
-  const response = await fetch(url, {
-    headers: { "User-Agent": "Subnautica2EvidenceTracker/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" },
-  });
-  if (!response.ok) throw new Error(`Wiki request failed: ${response.status} ${url}`);
-  return response.json();
+  let lastError;
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: { "User-Agent": "Subnautica2EvidenceTracker/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" },
+      });
+      if (!response.ok) throw new Error(`Wiki request failed: ${response.status} ${url}`);
+      return response.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 500 * (2 ** attempt)));
+    }
+  }
+  throw lastError;
 }
 
 async function readJsonIfExists(file) {
@@ -152,6 +161,41 @@ function plain(value, pageTitle = "") {
     .trim();
 }
 
+function imageFile(value) {
+  const raw = String(value ?? "").replace(/<!--[^]*?-->/g, "").trim();
+  const linked = raw.match(/\[\[(?:File|Image):([^|\]]+)/i)?.[1];
+  const candidate = (linked ?? raw.split("|")[0]).replace(/^(?:File|Image):/i, "").replaceAll("_", " ").trim();
+  return /\.(?:png|jpe?g|webp|gif)$/i.test(candidate) ? candidate : "";
+}
+
+async function fetchImageMedia(fileNames) {
+  const media = new Map();
+  const names = [...new Set(fileNames.filter(Boolean))];
+  for (let index = 0; index < names.length; index += 40) {
+    const data = await wiki({
+      action: "query",
+      titles: names.slice(index, index + 40).map((name) => `File:${name}`).join("|"),
+      prop: "imageinfo",
+      iiprop: "url|size|mime",
+      iiurlwidth: "720",
+      redirects: "1",
+    });
+    for (const page of data.query.pages) {
+      const info = page.imageinfo?.[0];
+      if (!info || !info.mime?.startsWith("image/")) continue;
+      const fileName = page.title.replace(/^File:/i, "");
+      media.set(fileName.toLowerCase(), {
+        fileName,
+        url: info.thumburl || info.url,
+        filePage: info.descriptionurl,
+        width: info.thumbwidth || info.width,
+        height: info.thumbheight || info.height,
+      });
+    }
+  }
+  return media;
+}
+
 function parseRecipe(template, pageTitle) {
   const fields = templateParameters(template);
   const ingredients = [];
@@ -207,6 +251,7 @@ function normalizePage(page) {
     status: classification.status,
     exclusionReasons: classification.reasons,
     categories: classification.categories,
+    imageFile: imageFile(infobox.image || infobox.image1 || infobox.picture || infobox.icon || infobox.art),
     availableByDefault: /recipe is available at the start of the game/i.test(source),
     unlock: {
       source: plain(infobox.source, page.title) || null,
@@ -365,7 +410,11 @@ async function main() {
   const titleLists = await Promise.all(craftingCategories.map(categoryMembers));
   const titles = [...new Set(titleLists.flat())].sort((a, b) => a.localeCompare(b));
   const pages = await fetchPages(titles);
-  const items = pages.map(normalizePage).filter(Boolean).map((item) => {
+  const normalized = pages.map(normalizePage).filter(Boolean);
+  const mediaByFile = await fetchImageMedia(normalized.map((item) => item.imageFile));
+  const items = normalized.map((item) => {
+    item.media = item.imageFile ? mediaByFile.get(item.imageFile.toLowerCase()) ?? null : null;
+    delete item.imageFile;
     const previous = previousById.get(item.id);
     if (previous?.source.revisionId === item.source.revisionId) item.source.fetchedAt = previous.source.fetchedAt;
     return item;
@@ -387,7 +436,7 @@ async function main() {
   const generatedDirectory = path.join(root, "guide", "items");
   const oldGeneratedFiles = await readdir(generatedDirectory);
   await Promise.all(oldGeneratedFiles.filter((file) => file.endsWith(".html")).map((file) => unlink(path.join(generatedDirectory, file))));
-  await writeFile(dataPath, `${JSON.stringify({ schemaVersion: "1.0.0", generatedAt, source: apiEndpoint, license, categories: craftingCategories, publishedCount: published.length, excludedCount: excluded.length, items }, null, 2)}\n`);
+  await writeFile(dataPath, `${JSON.stringify({ schemaVersion: "1.1.0", generatedAt, source: apiEndpoint, license, categories: craftingCategories, publishedCount: published.length, excludedCount: excluded.length, imageCount: published.filter((item) => item.media).length, items }, null, 2)}\n`);
   if (changedItems.length) await writeFile(path.join(root, "data", "wiki-change-report.json"), `${JSON.stringify({ schemaVersion: "1.0.0", detectedAt: checkedAt, changes: changedItems }, null, 2)}\n`);
   const publishedIds = new Set(published.map((item) => item.id));
   await Promise.all(published.map((item) => writeFile(path.join(root, "guide", "items", `${item.id}.html`), itemPage(item, publishedIds))));

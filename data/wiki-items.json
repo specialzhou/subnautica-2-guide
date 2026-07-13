@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-07-13T14:59:59.315Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
@@ -16,6 +16,7 @@
   ],
   "publishedCount": 204,
   "excludedCount": 0,
+  "imageCount": 86,
   "items": [
     {
       "id": "acid-raion",
@@ -60,7 +61,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "advanced-battery",
@@ -110,6 +112,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Advanced Battery.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Advanced_Battery.png?ea132",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Advanced_Battery.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -160,6 +169,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Advanced Wiring Kit.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Advanced_Wiring_Kit.png?ea132",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Advanced_Wiring_Kit.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -206,6 +222,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Air Bladder.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Air_Bladder.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Air_Bladder.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -252,6 +275,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Alcohol.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Alcohol.png?c184d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Alcohol.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -296,6 +326,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Atacamite.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Atacamite.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Atacamite.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -343,7 +380,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "axum-seat",
@@ -385,7 +423,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "axum-street-lamp",
@@ -435,7 +474,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "axum-trashcan",
@@ -485,7 +525,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "axum-wall-lamp",
@@ -532,7 +573,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "basic-battery",
@@ -578,6 +620,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Basic Battery.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Basic_Battery.png?cb0d2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Basic_Battery.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -624,6 +673,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Basic Fins.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Basic_Fins.png?d50a3",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Basic_Fins.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -680,6 +736,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Basic First Aid Kit.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Basic_First_Aid_Kit.png?a4d6b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Basic_First_Aid_Kit.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -731,7 +794,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "beacon",
@@ -778,7 +842,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "biobed",
@@ -829,7 +894,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "biofuel-block",
@@ -896,7 +962,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "biolab",
@@ -947,7 +1014,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "bioreactor",
@@ -994,7 +1062,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "bioscanner",
@@ -1044,6 +1113,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Bioscanner.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Bioscanner.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Bioscanner.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1090,6 +1166,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cavitation Muffler.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cavitation_Muffler.png?6eee9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cavitation_Muffler.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1134,6 +1217,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Celestine.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Celestine.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Celestine.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1177,7 +1267,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "cherimoya-chutney",
@@ -1225,6 +1316,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cherimoya Chutney.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cherimoya_Chutney.png?a4d6b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cherimoya_Chutney.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1271,7 +1369,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "conduit-crystal",
@@ -1315,6 +1414,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Conduit Crystal.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Conduit_Crystal.png?c9cfd",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Conduit_Crystal.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1358,6 +1464,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Black Hoverthorn.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Black_Hoverthorn.png?a4d6c",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Black_Hoverthorn.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1401,6 +1514,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Bluemoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Bluemoon.png?a4d6b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Bluemoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1444,6 +1564,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Electric Geordie.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Electric_Geordie.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Electric_Geordie.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1487,6 +1614,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Geordie.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Geordie.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Geordie.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1530,6 +1664,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Halfmoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Halfmoon.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Halfmoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1573,6 +1714,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Harvestmoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Harvestmoon.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Harvestmoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1616,6 +1764,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Hoverthorn.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Hoverthorn.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Hoverthorn.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1659,6 +1814,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Pneuma.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Pneuma.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Pneuma.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1703,6 +1865,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Cooked Quadrate.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cooked_Quadrate.png?81d30",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cooked_Quadrate.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1747,6 +1916,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Copper.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Copper.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1789,6 +1965,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Copper Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Copper_Ingot.png?08d62",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Copper_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1831,6 +2014,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Copper Wire.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Copper_Wire.png?cb0d2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Copper_Wire.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1874,7 +2064,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "coral-mash",
@@ -1921,6 +2112,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Coral Mash.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Coral_Mash.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Coral_Mash.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1964,7 +2162,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "cradle-shootroot",
@@ -2009,7 +2208,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "creature-enamel",
@@ -2053,6 +2253,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Creature Enamel.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Creature_Enamel.png?6c7be",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Creature_Enamel.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2095,7 +2302,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "dedicated-core",
@@ -2145,6 +2353,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Dedicated Core.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Dedicated_Core.png?58013",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Dedicated_Core.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2189,7 +2404,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "dining-table",
@@ -2237,7 +2453,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "distraction-flare",
@@ -2285,6 +2502,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Distraction Flare.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Distraction_Flare.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Distraction_Flare.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2336,7 +2560,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "duplex-solar-panel",
@@ -2387,7 +2612,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "enameled-glass",
@@ -2434,6 +2660,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Enameled Glass.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Enameled_Glass.png?cb0d2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Enameled_Glass.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2484,6 +2717,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Engine Efficiency.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Engine_Efficiency.png?44af2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Engine_Efficiency.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -2530,6 +2770,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Enhanced First Aid Kit.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Enhanced_First_Aid_Kit.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Enhanced_First_Aid_Kit.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2584,6 +2831,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Entangled Power Cell.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Entangled_Power_Cell.png?9742d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Entangled_Power_Cell.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2634,7 +2888,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "exterior-wall-light",
@@ -2682,7 +2937,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "fabricator",
@@ -2733,7 +2989,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "feedback-resonator",
@@ -2787,6 +3044,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Feedback Resonator.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Feedback_Resonator.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Feedback_Resonator.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2830,6 +3094,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Fiber.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Fiber.png?59ff3",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Fiber.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2877,6 +3148,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Fiber Mesh.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Fiber_Mesh.png?cb0d2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Fiber_Mesh.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2927,6 +3205,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Flashlight.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Flashlight.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Flashlight.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2974,7 +3259,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "freesia-flower",
@@ -3019,7 +3305,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "germanium-ingot",
@@ -3073,6 +3360,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Germanium Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Germanium_Ingot.png?0af84",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Germanium_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3129,6 +3423,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Glass.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Glass.png?59ff3",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Glass.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3173,6 +3474,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Gold.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Gold.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Gold.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3215,6 +3523,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Gold Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Gold_Ingot.png?08e9d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Gold_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3271,6 +3586,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Grease.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Grease.png?59ff3",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Grease.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3314,7 +3636,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "habitat-beacon",
@@ -3357,7 +3680,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "habitat-builder",
@@ -3413,6 +3737,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Habitat Builder.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Habitat_Builder.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Habitat_Builder.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3460,7 +3791,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "halfmoon-jerky",
@@ -3507,6 +3839,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Halfmoon Jerky.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Halfmoon_Jerky.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon_Jerky.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3554,7 +3893,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "hatch",
@@ -3601,7 +3941,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "high-capacity-air-tank",
@@ -3647,6 +3988,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "High Capacity Air Tank.png",
+        "url": "https://wiki.subnautica.com/sn2/images/High_Capacity_Air_Tank.png?dd26e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:High_Capacity_Air_Tank.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3689,7 +4037,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "hoverthorn-souvlaki",
@@ -3736,6 +4085,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Hoverthorn Souvlaki.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Hoverthorn_Souvlaki.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Hoverthorn_Souvlaki.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3787,7 +4143,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "improved-fins",
@@ -3837,6 +4194,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Improved Fins.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Improved_Fins.png?dd26e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Improved_Fins.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3881,7 +4245,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "interior-door",
@@ -3932,7 +4297,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "interior-wall",
@@ -3975,7 +4341,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "isotonic-water",
@@ -4021,6 +4388,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Isotonic Water.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Isotonic_Water.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Isotonic_Water.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4064,7 +4438,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "keep-calm-poster",
@@ -4107,7 +4482,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "lab-chair",
@@ -4150,7 +4526,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "ladder",
@@ -4193,7 +4570,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "lead",
@@ -4237,6 +4615,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Lead.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Lead.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Lead.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4280,7 +4665,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "lithium",
@@ -4324,6 +4710,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Lithium.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Lithium.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Lithium.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4367,7 +4760,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "macaron-sponge",
@@ -4411,7 +4805,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "mangalloy-ingot",
@@ -4461,6 +4856,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Mangalloy Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Mangalloy_Ingot.png?ca1c6",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Mangalloy_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4508,7 +4910,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "mild-acid",
@@ -4568,6 +4971,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Mild Acid.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Mild_Acid.png?84af4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Mild_Acid.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4619,7 +5029,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "modification-station",
@@ -4670,7 +5081,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "moonpool",
@@ -4713,7 +5125,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "necrolei-bud",
@@ -4760,6 +5173,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Necrolei Bud.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Bud.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Bud.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4802,7 +5222,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "noa-terminal",
@@ -4853,7 +5274,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "nook",
@@ -4899,7 +5321,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "nutrient-block",
@@ -4945,6 +5368,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Nutrient Block.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Nutrient_Block.png?e6984",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Nutrient_Block.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -4988,7 +5418,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "painted-tree-poster",
@@ -5031,7 +5462,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "pavlova",
@@ -5082,6 +5514,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Pavlova.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Pavlova.png?e6984",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Pavlova.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -5127,7 +5566,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "photovoltaic-charger",
@@ -5177,6 +5617,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Photovoltaic Charger.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Photovoltaic_Charger.png?44af2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Photovoltaic_Charger.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -5221,7 +5668,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "pioneer-program-poster",
@@ -5264,7 +5712,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "plasteel-ingot",
@@ -5310,6 +5759,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Plasteel Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Plasteel_Ingot.png?f63e8",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Plasteel_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -5353,7 +5809,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "portable-oxygen-generator",
@@ -5400,7 +5857,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "power-cell",
@@ -5450,6 +5908,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Power Cell.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Power_Cell.png?58013",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Power_Cell.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -5496,7 +5961,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "power-cell-terminal",
@@ -5547,7 +6013,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "power-storage",
@@ -5598,7 +6065,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "power-transmitter",
@@ -5645,7 +6113,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "processor",
@@ -5696,7 +6165,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "quartz",
@@ -5740,6 +6210,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Quartz.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Quartz.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Quartz.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -5783,7 +6260,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "rebreather",
@@ -5829,6 +6307,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Rebreather.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Rebreather.png?dd26e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Rebreather.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -5876,7 +6361,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "repair-tool",
@@ -5930,6 +6416,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Repair Tool.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Repair_Tool.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Repair_Tool.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -5973,7 +6466,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "roof-antenna-large",
@@ -6017,7 +6511,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "roof-cylinder",
@@ -6060,7 +6555,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "roof-listening-dish",
@@ -6104,7 +6600,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "roof-panel-large",
@@ -6148,7 +6645,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "roof-pump",
@@ -6191,7 +6689,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "roof-pump-double",
@@ -6234,7 +6733,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "room",
@@ -6277,7 +6777,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "rubber",
@@ -6319,6 +6820,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Rubber.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Rubber.png?84af4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Rubber.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -6363,7 +6871,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "safety-first-poster",
@@ -6406,7 +6915,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "salt",
@@ -6450,6 +6960,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Salt.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Salt.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Salt.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -6501,6 +7018,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Scanner.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Scanner.png?1e547",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Scanner.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -6553,7 +7077,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "scout-ray-poster",
@@ -6596,7 +7121,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "sea-dragon-poster",
@@ -6640,7 +7166,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "sea-emperor-poster",
@@ -6683,7 +7210,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "seamoth-model",
@@ -6726,7 +7254,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "sign",
@@ -6774,7 +7303,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "silver",
@@ -6818,6 +7348,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Silver.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Silver.png?ece6e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Silver.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -6860,6 +7397,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Silver Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Silver_Ingot.png?ad3b0",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Silver_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -6907,7 +7451,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "small-axum-jar",
@@ -6954,7 +7499,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "small-ceiling-light",
@@ -7001,7 +7547,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "small-coral-jar",
@@ -7044,7 +7591,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "small-crate",
@@ -7087,7 +7635,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "solar-panel",
@@ -7134,7 +7683,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "sonic-resonator",
@@ -7188,6 +7738,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Sonic Resonator.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Sonic_Resonator.png?1e547",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sonic_Resonator.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7234,7 +7791,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "standard-air-tank",
@@ -7284,6 +7842,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Standard Air Tank.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Standard_Air_Tank.png?dd26e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Standard_Air_Tank.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7332,7 +7897,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "storage-cache",
@@ -7376,7 +7942,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "strike-armor",
@@ -7422,6 +7989,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Strike Armor.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Strike_Armor.png?6eee9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Strike_Armor.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -7482,6 +8056,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Strong Acid.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Strong_Acid.png?84af4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Strong_Acid.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7524,6 +8105,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Strontium.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Strontium.png?72432",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Strontium.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7571,6 +8159,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Sugar of Saturn.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Sugar_of_Saturn.png?1e547",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sugar_of_Saturn.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7615,6 +8210,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Sulfur.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Sulfur.png?5fe74",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sulfur.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7657,6 +8259,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Survival Multitool.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Survival_Multitool.png?1e547",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Survival_Multitool.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7703,6 +8312,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "System Chip.png",
+        "url": "https://wiki.subnautica.com/sn2/images/System_Chip.png?58013",
+        "filePage": "https://wiki.subnautica.com/sn2/File:System_Chip.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -7758,7 +8374,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tadpole-depth-module-mk-1",
@@ -7808,6 +8425,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Tadpole Depth Module Mk. 1.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Tadpole_Depth_Module_Mk._1.png?44af2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Tadpole_Depth_Module_Mk._1.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -7859,6 +8483,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Tadpole Depth Module Mk. 2.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Tadpole_Depth_Module_Mk._2.png?44af2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Tadpole_Depth_Module_Mk._2.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -7910,7 +8541,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tadpole-haul-chassis",
@@ -7964,7 +8596,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tadpole-scout-ray-chassis",
@@ -8018,7 +8651,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tailing-barrel",
@@ -8061,7 +8695,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tailing-chest",
@@ -8104,7 +8739,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tailing-drum",
@@ -8150,7 +8786,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tailing-jar",
@@ -8197,7 +8834,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tailing-rug",
@@ -8240,7 +8878,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tailing-table",
@@ -8283,7 +8922,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "tall-axum-jar",
@@ -8330,7 +8970,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "thermal-plant",
@@ -8381,7 +9022,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "threemoon-temaki",
@@ -8436,6 +9078,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Threemoon Temaki.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Threemoon_Temaki.png?e6984",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Threemoon_Temaki.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8486,7 +9135,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "titanium",
@@ -8543,6 +9193,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Titanium.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Titanium.png?5fe74",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Titanium.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8585,6 +9242,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Titanium Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Titanium_Ingot.png?c5e0e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Titanium_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8628,7 +9292,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "troilite",
@@ -8672,6 +9337,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Troilite.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Troilite.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Troilite.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8723,6 +9395,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Ultra High Capacity Air Tank.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Ultra_High_Capacity_Air_Tank.png?dd26e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Ultra_High_Capacity_Air_Tank.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8771,6 +9450,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Urchin Pudding.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Urchin_Pudding.png?9b47f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Urchin_Pudding.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8822,7 +9508,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wakemaker",
@@ -8876,6 +9563,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Wakemaker.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Wakemaker.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Wakemaker.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -8924,7 +9618,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-light-small",
@@ -8972,7 +9667,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-locker",
@@ -9015,7 +9711,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-panel",
@@ -9058,7 +9755,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-rack",
@@ -9105,7 +9803,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-unit-large",
@@ -9148,7 +9847,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-unit-small",
@@ -9192,7 +9892,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-vent",
@@ -9236,7 +9937,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wall-vent-large",
@@ -9280,7 +9982,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "water",
@@ -9336,6 +10039,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Water.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Water.png?e6984",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Water.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -9391,7 +10101,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "wiring-kit",
@@ -9437,6 +10148,13 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
+      },
+      "media": {
+        "fileName": "Wiring Kit.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Wiring_Kit.png?58013",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Wiring_Kit.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -9484,7 +10202,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "world-tree-relic",
@@ -9532,7 +10251,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     },
     {
       "id": "zezura-poster",
@@ -9575,7 +10295,8 @@
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
-      }
+      },
+      "media": null
     }
   ]
 }

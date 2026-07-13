@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-13T15:00:02.569Z",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-07-13T16:20:03.075Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -14,6 +14,7 @@
     "vehicles": 3,
     "biomes": 14
   },
+  "imageCount": 96,
   "entities": [
     {
       "id": "acidic-raion-pouch",
@@ -41,6 +42,13 @@
         "source": "Acid Raion",
         "group": "Raw Materials",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Acidic Raion Pouch.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Acidic_Raion_Pouch.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Acidic_Raion_Pouch.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -72,6 +80,13 @@
           "Karakorum Metal Farms",
           "Karakorum Power Plant"
         ]
+      },
+      "media": {
+        "fileName": "Atacamite.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Atacamite.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Atacamite.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -101,6 +116,13 @@
         "biomes": [
           "Karakorum Metal Farms"
         ]
+      },
+      "media": {
+        "fileName": "Axum Bacterial Culture.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Axum_Bacterial_Culture.png?5fe74",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Axum_Bacterial_Culture.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -131,6 +153,13 @@
         "source": "Crafting",
         "group": "Consumables",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Basic First Aid Kit.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Basic_First_Aid_Kit.png?a4d6b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Basic_First_Aid_Kit.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -170,6 +199,13 @@
         "biomes": [
           "Karakorum Metal Farms"
         ]
+      },
+      "media": {
+        "fileName": "Black Hoverthorn.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Black_Hoverthorn.png?4627a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Black_Hoverthorn.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -211,6 +247,13 @@
           "Root Canyon",
           "Graveyard Caves"
         ]
+      },
+      "media": {
+        "fileName": "Bluemoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Bluemoon.png?a0ecc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Bluemoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -249,6 +292,13 @@
           "Overgrown Ruins",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Bullethead.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Bullethead.png?a0ecc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Bullethead.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -283,6 +333,13 @@
           "Root Canyon",
           "Karakorum Metal Farms"
         ]
+      },
+      "media": {
+        "fileName": "Celestine.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Celestine.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Celestine.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -317,6 +374,13 @@
         "biomes": [
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Cerathecan.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cerathecan.png?a0ecc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cerathecan.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -354,6 +418,13 @@
           "Karakorum Metal Farm",
           "Sparse Plains"
         ]
+      },
+      "media": {
+        "fileName": "Collector Leviathan.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Collector_Leviathan.png?a0ecc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Collector_Leviathan.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -384,6 +455,13 @@
         "biomes": [
           "Karakorum Power Plant"
         ]
+      },
+      "media": {
+        "fileName": "Conduit Crystal.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Conduit_Crystal.png?c9cfd",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Conduit_Crystal.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -422,6 +500,13 @@
           "Overgrown Ruins",
           "Needler Nest"
         ]
+      },
+      "media": {
+        "fileName": "Copper.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Copper.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -450,6 +535,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Copper Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Copper_Ingot.png?08d62",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Copper_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -484,6 +576,13 @@
         "biomes": [
           "Dolerite Spires"
         ]
+      },
+      "media": {
+        "fileName": "Coral Crab.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Coral_Crab.png?a0ecc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Coral_Crab.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -512,6 +611,13 @@
         "source": "",
         "group": "Raw Materials",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Crab Feces.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Crab_Feces.png?6fc10",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Crab_Feces.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -542,6 +648,13 @@
         "biomes": [
           "Needler Nest"
         ]
+      },
+      "media": {
+        "fileName": "Creature Enamel.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Creature_Enamel.png?6c7be",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Creature_Enamel.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -578,6 +691,13 @@
           "Overgrown Ruins",
           "Shallows Caves"
         ]
+      },
+      "media": {
+        "fileName": "Crimson Shrimp.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Crimson_Shrimp.png?2721d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Crimson_Shrimp.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -612,6 +732,13 @@
         "biomes": [
           "Migratory - Not found in any particular biome"
         ]
+      },
+      "media": {
+        "fileName": "Deepwing Brooder.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Deepwing_Brooder.png?43b6d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Deepwing_Brooder.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -643,6 +770,13 @@
           "Cicada Wreck (Canteen)",
           "Colonist Bunker (Unauthorized NoA Modification)"
         ]
+      },
+      "media": {
+        "fileName": "CG Dolerite Spires Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Dolerite_Spires_Biome.png/720px-CG_Dolerite_Spires_Biome.png?a790a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_Dolerite_Spires_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -674,6 +808,13 @@
         "species": "",
         "nutrition": "",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Elusive Leviathan Ingame.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Elusive_Leviathan_Ingame.png/720px-Elusive_Leviathan_Ingame.png?0ca52",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Elusive_Leviathan_Ingame.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -711,6 +852,13 @@
           "Root Canyon",
           "Karakorum Metal Farms"
         ]
+      },
+      "media": {
+        "fileName": "Epicurean.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Epicurean.png?d1513",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Epicurean.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -744,6 +892,13 @@
         "biomes": [
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Eyeball Sponge.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Eyeball_Sponge.png/720px-Eyeball_Sponge.png?29244",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Eyeball_Sponge.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -784,6 +939,13 @@
           "Karakorum Power Plant",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Flash Slug.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Flash_Slug.png?d1513",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Flash_Slug.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -820,6 +982,13 @@
           "Overgrown Ruins",
           "Plateaus"
         ]
+      },
+      "media": {
+        "fileName": "Fluttertail Morph A1.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Fluttertail_Morph_A1.png?2721d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Fluttertail_Morph_A1.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -856,6 +1025,13 @@
           "Coral Gardens",
           "Necrolei Hills"
         ]
+      },
+      "media": {
+        "fileName": "Foureye.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Foureye.png?d1513",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Foureye.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -892,6 +1068,13 @@
         "biomes": [
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Freesia Flower.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Freesia_Flower.png?a72c4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Freesia_Flower.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -929,6 +1112,13 @@
         "biomes": [
           "Coral Gardens"
         ]
+      },
+      "media": {
+        "fileName": "Geordie.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Geordie.png?574cc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Geordie.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -957,6 +1147,13 @@
         "source": "Processor",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Germanium Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Germanium_Ingot.png?0af84",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Germanium_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -987,6 +1184,13 @@
         "source": "Crafting",
         "group": "Basic Materials",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Glass.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Glass.png?59ff3",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Glass.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1020,6 +1224,13 @@
           "Root Canyon",
           "Thermal Vent Clusters"
         ]
+      },
+      "media": {
+        "fileName": "Gold.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Gold.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Gold.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1048,6 +1259,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Gold Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Gold_Ingot.png?08e9d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Gold_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1077,6 +1295,13 @@
           "Hot Cave Basecamp",
           "Blackboxes"
         ]
+      },
+      "media": {
+        "fileName": "CG Graveyard Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Graveyard_Biome.png/720px-CG_Graveyard_Biome.png?2984c",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_Graveyard_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -1107,6 +1332,13 @@
         "source": "Crafting",
         "group": "Basic Materials",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Grease.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Grease.png?59ff3",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Grease.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1150,6 +1382,13 @@
           "Necrolei Hills",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Halfmoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Halfmoon.png?a0766",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1186,6 +1425,13 @@
           "Coral Gardens",
           "Lead Zone"
         ]
+      },
+      "media": {
+        "fileName": "Hammerhead.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Hammerhead.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Hammerhead.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1225,6 +1471,13 @@
           "Shallows",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Harvestmoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Harvestmoon.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Harvestmoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1259,6 +1512,13 @@
         "biomes": [
           "Graveyard"
         ]
+      },
+      "media": {
+        "fileName": "Houndgar.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Houndgar.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Houndgar.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1303,6 +1563,13 @@
           "Overgrown Ruins",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Hoverthorn.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Hoverthorn.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Hoverthorn.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1320,10 +1587,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=15168",
-        "revisionId": 15168,
-        "revisionTimestamp": "2026-07-08T16:17:34Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=18072",
+        "revisionId": 18072,
+        "revisionTimestamp": "2026-07-13T16:18:41Z",
+        "fetchedAt": "2026-07-13T16:20:05.671Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1339,6 +1606,13 @@
           "Coral Gardens",
           "Necrolei Hills"
         ]
+      },
+      "media": {
+        "fileName": "Hycean.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Hycean.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Hycean.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1376,6 +1650,13 @@
           "Graveyard",
           "Karakorum Power Plant"
         ]
+      },
+      "media": {
+        "fileName": "Jelly Ring.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Jelly_Ring.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Jelly_Ring.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1412,6 +1693,13 @@
           "Necrolei Hills",
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Jetocaris.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Jetocaris.png?a042b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Jetocaris.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1438,6 +1726,13 @@
       "facts": {
         "depth": "470m",
         "pointsOfInterest": []
+      },
+      "media": {
+        "fileName": "Karakorum Metal Farms Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Karakorum_Metal_Farms_Biome.png/720px-Karakorum_Metal_Farms_Biome.png?083c5",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Karakorum_Metal_Farms_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -1466,6 +1761,13 @@
       "facts": {
         "depth": "20 - 470 meters",
         "pointsOfInterest": []
+      },
+      "media": {
+        "fileName": "Karakorum Power Plant.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Karakorum_Power_Plant.png/720px-Karakorum_Power_Plant.png?32305",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Karakorum_Power_Plant.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1497,6 +1799,13 @@
           "Lead Zone",
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Lead.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Lead.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Lead.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1526,6 +1835,13 @@
         "pointsOfInterest": [
           "Atoll, Atoll Cave, Nook, Wreck"
         ]
+      },
+      "media": {
+        "fileName": "CG Lead Zone Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Lead_Zone_Biome.png/720px-CG_Lead_Zone_Biome.png?232ad",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_Lead_Zone_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -1557,6 +1873,13 @@
           "Graveyard Caves",
           "Great Jaw"
         ]
+      },
+      "media": {
+        "fileName": "Lithium.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Lithium.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Lithium.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1592,6 +1915,13 @@
         "biomes": [
           "Graveyard Caves"
         ]
+      },
+      "media": {
+        "fileName": "Locust.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Locust.png?5539b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Locust.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1620,6 +1950,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Mangalloy Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Mangalloy_Ingot.png?ca1c6",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Mangalloy_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1658,6 +1995,13 @@
           "Plateaus",
           "Graveyard"
         ]
+      },
+      "media": {
+        "fileName": "Marrowbreach.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Marrowbreach.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Marrowbreach.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1687,6 +2031,13 @@
         "source": "Acid Raion",
         "group": "Food",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Medical Gel Sac.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Medical_Gel_Sac.png?ece6e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Medical_Gel_Sac.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1721,6 +2072,13 @@
         "biomes": [
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Microshrimp.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Microshrimp.png?ae4cc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Microshrimp.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1751,6 +2109,13 @@
         "source": "Crafting",
         "group": "Basic Materials",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Mild Acid.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Mild_Acid.png?84af4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Mild_Acid.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1785,6 +2150,13 @@
         "biomes": [
           "Shallows"
         ]
+      },
+      "media": {
+        "fileName": "Mirror Halfmoon Morph A.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Mirror_Halfmoon_Morph_A.png?2721d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Mirror_Halfmoon_Morph_A.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1818,6 +2190,13 @@
         "biomes": [
           "Necrolei Hills"
         ]
+      },
+      "media": {
+        "fileName": "Necrolei Bud.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Bud.png?abc9e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Bud.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1832,10 +2211,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Hills",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Hills&oldid=17509",
-        "revisionId": 17509,
-        "revisionTimestamp": "2026-07-10T17:05:48Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Hills&oldid=18055",
+        "revisionId": 18055,
+        "revisionTimestamp": "2026-07-13T15:21:31Z",
+        "fetchedAt": "2026-07-13T16:18:13.389Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1847,6 +2226,13 @@
           "Hills Wreck 1",
           "Hills-Plateaus Wreck 1"
         ]
+      },
+      "media": {
+        "fileName": "CG Jelly Hills Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Jelly_Hills_Biome.png/720px-CG_Jelly_Hills_Biome.png?083c5",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_Jelly_Hills_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -1883,6 +2269,13 @@
           "Overgrown Ruins",
           "Needler Nest"
         ]
+      },
+      "media": {
+        "fileName": "Needler Mango.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Needler_Mango.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Needler_Mango.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1917,6 +2310,13 @@
         "biomes": [
           "Coral Gardens"
         ]
+      },
+      "media": {
+        "fileName": "Nibbler Mango.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Nibbler_Mango.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Nibbler_Mango.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -1946,6 +2346,13 @@
         "pointsOfInterest": [
           "Wreck"
         ]
+      },
+      "media": {
+        "fileName": "CG North Raceway Biome.jpg",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_North_Raceway_Biome.jpg/720px-CG_North_Raceway_Biome.jpg?d2ba7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_North_Raceway_Biome.jpg",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -1973,6 +2380,13 @@
       "facts": {
         "depth": "210 meters",
         "pointsOfInterest": []
+      },
+      "media": {
+        "fileName": "KR Overgrown Ruins Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/KR_Overgrown_Ruins_Biome.png/720px-KR_Overgrown_Ruins_Biome.png?232ad",
+        "filePage": "https://wiki.subnautica.com/sn2/File:KR_Overgrown_Ruins_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2009,6 +2423,13 @@
         "biomes": [
           "Karakorum Power Plant"
         ]
+      },
+      "media": {
+        "fileName": "Pelagic Ghost Morph A.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Pelagic_Ghost_Morph_A.png?5539b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Pelagic_Ghost_Morph_A.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2046,6 +2467,13 @@
           "Necrolei Hills",
           "Shallows"
         ]
+      },
+      "media": {
+        "fileName": "Periscopic Clowncrab.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Periscopic_Clowncrab.png?83c2b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Periscopic_Clowncrab.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2074,6 +2502,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Plasteel Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Plasteel_Ingot.png?f63e8",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Plasteel_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2103,6 +2538,13 @@
         "pointsOfInterest": [
           "Colonist Bunker (Salvage)"
         ]
+      },
+      "media": {
+        "fileName": "CG Plateaus Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Plateaus_Biome.png/720px-CG_Plateaus_Biome.png?232ad",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_Plateaus_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2140,6 +2582,13 @@
         "biomes": [
           "Overgrown Ruins"
         ]
+      },
+      "media": {
+        "fileName": "Pneuma.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Pneuma.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Pneuma.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2175,6 +2624,13 @@
         "species": "",
         "nutrition": "+5 Water",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Pudding Urchin.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Pudding_Urchin.png?6ccb0",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Pudding_Urchin.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -2205,6 +2661,13 @@
         "biomes": [
           "Karakorum Metal Farms"
         ]
+      },
+      "media": {
+        "fileName": "Quartz.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Quartz.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Quartz.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2235,7 +2698,8 @@
         "species": "Krill krikophore \"ringbearer krill\"",
         "nutrition": "",
         "biomes": []
-      }
+      },
+      "media": null
     },
     {
       "id": "root-canyon",
@@ -2265,6 +2729,13 @@
         "pointsOfInterest": [
           "Control Room, Resonator Wreck, Blighted Wreck, Blight Nodes, Heat Vents"
         ]
+      },
+      "media": {
+        "fileName": "KR Root Canyon Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/KR_Root_Canyon_Biome.png/720px-KR_Root_Canyon_Biome.png?1da39",
+        "filePage": "https://wiki.subnautica.com/sn2/File:KR_Root_Canyon_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2298,6 +2769,13 @@
           "Overgrown Ruins",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Salt.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Salt.png?98ca9",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Salt.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2337,6 +2815,13 @@
           "Shallows",
           "Necrolei Hills"
         ]
+      },
+      "media": {
+        "fileName": "Sandspear.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Sandspear.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sandspear.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2368,6 +2853,13 @@
         "species": "",
         "nutrition": "",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Scourge Hive Ingame.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Scourge_Hive_Ingame.png/720px-Scourge_Hive_Ingame.png?91378",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Scourge_Hive_Ingame.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2399,6 +2891,13 @@
           "Welcome Center",
           "Colonist Bunker (Anita's Garden)"
         ]
+      },
+      "media": {
+        "fileName": "CG Shallows Biome.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_Shallows_Biome.png/720px-CG_Shallows_Biome.png?232ad",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_Shallows_Biome.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2416,10 +2915,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=18039",
-        "revisionId": 18039,
-        "revisionTimestamp": "2026-07-13T14:47:05Z",
-        "fetchedAt": "2026-07-13T15:00:04.736Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=18061",
+        "revisionId": 18061,
+        "revisionTimestamp": "2026-07-13T15:35:05Z",
+        "fetchedAt": "2026-07-13T16:18:11.864Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2434,6 +2933,13 @@
         "biomes": [
           "Void"
         ]
+      },
+      "media": {
+        "fileName": "Shiver Leviathan.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Shiver_Leviathan.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Shiver_Leviathan.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2469,6 +2975,13 @@
         "biomes": [
           "Void"
         ]
+      },
+      "media": {
+        "fileName": "Shiver Leviathan.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Shiver_Leviathan.png?9288f",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Shiver_Leviathan.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2503,6 +3016,13 @@
           "Dolerite Spires",
           "Silver Mines"
         ]
+      },
+      "media": {
+        "fileName": "Silver.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Silver.png?ece6e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Silver.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2531,6 +3051,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Silver Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Silver_Ingot.png?ad3b0",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Silver_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2558,6 +3085,13 @@
       "facts": {
         "depth": "0-85m",
         "pointsOfInterest": []
+      },
+      "media": {
+        "fileName": "CG South Raceway Biome.jpg",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/CG_South_Raceway_Biome.jpg/720px-CG_South_Raceway_Biome.jpg?a0e26",
+        "filePage": "https://wiki.subnautica.com/sn2/File:CG_South_Raceway_Biome.jpg",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2584,6 +3118,13 @@
       "facts": {
         "depth": "",
         "pointsOfInterest": []
+      },
+      "media": {
+        "fileName": "Sparse Plains.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Sparse_Plains.png/720px-Sparse_Plains.png?6518c",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sparse_Plains.png",
+        "width": 720,
+        "height": 337
       }
     },
     {
@@ -2614,6 +3155,13 @@
         "source": "Crafting",
         "group": "Advanced Materials",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Strong Acid.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Strong_Acid.png?84af4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Strong_Acid.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2642,6 +3190,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Strontium.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Strontium.png?72432",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Strontium.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2672,6 +3227,13 @@
         "biomes": [
           "Graveyard"
         ]
+      },
+      "media": {
+        "fileName": "Sulfur.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Sulfur.png?5fe74",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sulfur.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2708,6 +3270,13 @@
           "Dolerite Spires",
           "Karakorum Power Plant"
         ]
+      },
+      "media": {
+        "fileName": "Surge Jelly.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Surge_Jelly.png?4627a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Surge_Jelly.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -2739,6 +3308,13 @@
         "health": "100",
         "source": "Vehicle Fabricator",
         "fragments": "3"
+      },
+      "media": {
+        "fileName": "Tadpole.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Tadpole.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -2769,6 +3345,13 @@
         "health": "",
         "source": "",
         "fragments": "3"
+      },
+      "media": {
+        "fileName": "Tadpole Haul Chassis.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Tadpole_Haul_Chassis.png?67e8d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Tadpole_Haul_Chassis.png",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -2799,7 +3382,8 @@
         "health": "",
         "source": "",
         "fragments": "1"
-      }
+      },
+      "media": null
     },
     {
       "id": "tar-eel",
@@ -2831,6 +3415,13 @@
         "species": "",
         "nutrition": "",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Tar Eel Ingame.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Eel_Ingame.png/720px-Tar_Eel_Ingame.png?cdd1c",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Tar_Eel_Ingame.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -2870,6 +3461,13 @@
           "Overgrown Ruins",
           "Necrolei Hills"
         ]
+      },
+      "media": {
+        "fileName": "Teal Cycloplet.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Teal_Cycloplet.png?5539b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Teal_Cycloplet.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2901,6 +3499,13 @@
         "biomes": [
           "All"
         ]
+      },
+      "media": {
+        "fileName": "Titanium.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Titanium.png?5fe74",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Titanium.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2929,6 +3534,13 @@
         "source": "Crafting",
         "group": "Ingots",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Titanium Ingot.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Titanium_Ingot.png?c5e0e",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Titanium_Ingot.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2959,6 +3571,13 @@
         "biomes": [
           "Karakorum Metal Farms"
         ]
+      },
+      "media": {
+        "fileName": "Troilite.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Troilite.png?fbc02",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Troilite.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2997,6 +3616,13 @@
           "Karakorum Power Plant",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Twin Sitaray.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Twin_Sitaray.png?4627a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Twin_Sitaray.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3028,6 +3654,13 @@
         "species": "",
         "nutrition": "",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Vep Defender.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Defender.png/720px-Vep_Defender.png?20ec8",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Vep_Defender.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -3059,6 +3692,13 @@
         "species": "",
         "nutrition": "",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Vep Sensor.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Sensor.png/720px-Vep_Sensor.png?15391",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Vep_Sensor.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -3090,6 +3730,13 @@
         "species": "",
         "nutrition": "",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Vep Worker.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Worker.png/720px-Vep_Worker.png?71e8d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Vep_Worker.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -3116,6 +3763,13 @@
       "facts": {
         "depth": "0-5000+ meters",
         "pointsOfInterest": []
+      },
+      "media": {
+        "fileName": "Looking into Void.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Looking_into_Void.png/720px-Looking_into_Void.png?e7c86",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Looking_into_Void.png",
+        "width": 720,
+        "height": 405
       }
     },
     {
@@ -3146,6 +3800,13 @@
         "source": "Crafting Processor",
         "group": "Food",
         "biomes": []
+      },
+      "media": {
+        "fileName": "Water.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Water.png?e6984",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Water.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3182,6 +3843,13 @@
         "biomes": [
           "Coral Gardens"
         ]
+      },
+      "media": {
+        "fileName": "Water Slug.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Water_Slug.png?4627a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Water_Slug.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3222,6 +3890,13 @@
           "Necrolei Hills",
           "Root Canyon"
         ]
+      },
+      "media": {
+        "fileName": "Waxmoon.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Waxmoon.png?4627a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Waxmoon.png",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3237,10 +3912,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/World_Tree",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree&oldid=18033",
-        "revisionId": 18033,
-        "revisionTimestamp": "2026-07-13T14:24:54Z",
-        "fetchedAt": "2026-07-13T15:00:04.740Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree&oldid=18060",
+        "revisionId": 18060,
+        "revisionTimestamp": "2026-07-13T15:31:56Z",
+        "fetchedAt": "2026-07-13T16:18:11.867Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3255,6 +3930,13 @@
         "biomes": [
           "Xanadu"
         ]
+      },
+      "media": {
+        "fileName": "WorldTree Painting.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/WorldTree_Painting.png/720px-WorldTree_Painting.png?b3a17",
+        "filePage": "https://wiki.subnautica.com/sn2/File:WorldTree_Painting.png",
+        "width": 720,
+        "height": 720
       }
     }
   ]

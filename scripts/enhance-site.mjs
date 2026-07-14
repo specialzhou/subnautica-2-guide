@@ -7,6 +7,7 @@ const base = "/subnautica-2-guide/";
 const items = JSON.parse(await readFile(path.join(root, "data/wiki-items.json"), "utf8"));
 const entities = JSON.parse(await readFile(path.join(root, "data/wiki-entities.json"), "utf8"));
 const media = JSON.parse(await readFile(path.join(root, "data/media.json"), "utf8"));
+const localizedNames = JSON.parse(await readFile(path.join(root, "data/localized-names.json"), "utf8")).names;
 const imageByPage = new Map(media.images.map((image) => [image.page, image]));
 for (const item of items.items) {
   if (item.media) imageByPage.set(`guide/items/${item.id}.html`, { ...item.media, title: item.title });
@@ -25,6 +26,16 @@ const guides = [
   ["Base building", "Guide", "base-building.html", "Habitat Builder base modules"],
   ["Co-op reference", "Guide", "coop.html", "multiplayer players co-op"],
 ].map(([title, type, href, terms]) => ({ title, type, href, terms }));
+const guideTitles = {
+  "Start here": { "zh-cn": "开局攻略", ru: "Начало игры" },
+  "Find starter materials": { "zh-cn": "寻找开局材料", ru: "Поиск начальных материалов" },
+  "Blueprint checklist": { "zh-cn": "蓝图清单", ru: "Список чертежей" },
+  "Equipment upgrades": { "zh-cn": "装备升级", ru: "Улучшения снаряжения" },
+  "Tadpole vehicle planner": { "zh-cn": "蝌蚪号载具规划", ru: "План транспорта «Головастик»" },
+  "Key locations": { "zh-cn": "关键地点", ru: "Ключевые места" },
+  "Base building": { "zh-cn": "基地建造", ru: "Строительство базы" },
+  "Co-op reference": { "zh-cn": "联机参考", ru: "Кооператив" },
+};
 
 const searchItems = items.items.filter((item) => item.status === "wiki-backed").map((item) => ({
   title: item.title,
@@ -43,7 +54,26 @@ const imageByTitle = new Map([
   ...items.items.filter((item) => item.media).map((item) => [item.title, item.media.url]),
   ...entities.entities.filter((entity) => entity.media).map((entity) => [entity.title, entity.media.url]),
 ]);
-const index = [...guides, ...searchItems, ...searchEntities].map((entry) => ({ ...entry, image: imageByTitle.get(entry.title) ?? null }));
+const nameEntries = Object.entries(localizedNames).sort(([a], [b]) => b.length - a.length);
+const index = [...guides, ...searchItems, ...searchEntities].map((entry) => {
+  const localizedTitles = guideTitles[entry.title] ?? {
+    "zh-cn": localizedNames[entry.title]?.["zh-cn"],
+    ru: localizedNames[entry.title]?.ru,
+  };
+  const searchable = `${entry.title} ${entry.terms}`;
+  const localizedTerms = { "zh-cn": [], ru: [] };
+  for (const [english, translations] of nameEntries) {
+    if (!searchable.toLocaleLowerCase().includes(english.toLocaleLowerCase())) continue;
+    localizedTerms["zh-cn"].push(translations["zh-cn"]);
+    localizedTerms.ru.push(translations.ru);
+  }
+  return {
+    ...entry,
+    image: imageByTitle.get(entry.title) ?? null,
+    localizedTitles,
+    localizedTerms: { "zh-cn": localizedTerms["zh-cn"].join(" "), ru: localizedTerms.ru.join(" ") },
+  };
+});
 const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime())).toISOString();
 const coverage = {
   total: items.publishedCount + entities.publishedCount,
@@ -77,12 +107,14 @@ for (const pagePath of [...new Set(pagePaths)]) {
   const filePath = path.join(root, pagePath);
   let html = await readFile(filePath, "utf8");
   html = html
-    .replace(`<link rel="stylesheet" href="${base}search.css">`, "")
-    .replace(`<script defer src="${base}search.js"></script>`, "")
+    .replace(new RegExp(`<link rel="stylesheet" href="${base}search\\.css(?:\\?v=\\d+)?">`, "g"), "")
+    .replace(new RegExp(`<script defer src="${base}search\\.js(?:\\?v=\\d+)?"></script>`, "g"), "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/s, "");
-  html = html.replace("</head>", `<link rel="stylesheet" href="${base}search.css"></head>`);
-  html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="Search this guide"><span aria-hidden="true">⌕</span><span>Search</span><kbd>/</kbd></button></nav>`);
+  const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
+  const searchCopy = locale === "zh-cn" ? "搜索" : locale === "ru" ? "Поиск" : "Search";
+  html = html.replace("</head>", `<link rel="stylesheet" href="${base}search.css?v=3"></head>`);
+  html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="${searchCopy}"><span aria-hidden="true">⌕</span><span>${searchCopy}</span><kbd>/</kbd></button></nav>`);
   const unlocalizedPath = pagePath.replace(/^(en|zh-cn|ru)\//, "");
   if (unlocalizedPath === "index.html") {
     html = html.replace(/(<div class="notice"[^>]*><div class="shell notice__inner"><span[^>]*><\/span>)\d+/, `$1${coverage.total}`);
@@ -92,9 +124,8 @@ for (const pagePath of [...new Set(pagePaths)]) {
     }
   }
   const image = imageByPage.get(unlocalizedPath);
-  const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
-  html = html.replace("</body>", `<script defer src="${base}search.js"></script></body>`);
+  html = html.replace("</body>", `<script defer src="${base}search.js?v=3"></script></body>`);
   await writeFile(filePath, html);
 }
 

@@ -33,11 +33,12 @@ for (const phrase of ["Press / to search", "See default recipes and documented f
 if (!zhHome.includes('class="task-card task-card--wide" href="blueprints.html"')) failures.push("Blueprint task does not fill the desktop grid");
 if ((zhHome.match(/class="task-card[^>]*"[^>]*>[\s\S]*?<img /g) || []).length !== 6) failures.push("Chinese homepage does not show six illustrated tasks");
 const zhScanner = await readFile(path.join(root, "zh-cn", "guide", "items", "scanner.html"), "utf8");
-for (const phrase of ["扫描仪（Scanner）", "制造台（Fabricator）", "钛（Titanium）", "Wiki 图片", "非实机验证截图"]) if (!zhScanner.includes(phrase)) failures.push(`Chinese detail translation missing: ${phrase}`);
+for (const phrase of ["扫描仪（Scanner）", "装配台（Fabricator）", "钛（Titanium）", "Wiki 图片", "非实机验证截图"]) if (!zhScanner.includes(phrase)) failures.push(`Chinese detail translation missing: ${phrase}`);
 if (zhScanner.includes("未知 Worlds")) failures.push("Company name was partially translated");
 if (zhScanner.includes("类型=\"") || !zhScanner.includes('type="image/svg+xml"')) failures.push("HTML type attribute was translated");
 const searchScript = await readFile(path.join(root, "search.js"), "utf8");
-for (const phrase of ['Guide: "攻略"', 'Item: "物品"', 'Scanner: "扫描仪"', 'Scanner: "Сканер"', 'locale === "ru"', 'entry.type === "Guide"']) if (!searchScript.includes(phrase)) failures.push(`Localized search behavior missing: ${phrase}`);
+for (const phrase of ['Guide: "攻略"', 'Item: "物品"', 'entry.localizedTitles?.[locale]', 'entry.localizedTerms?.[locale]', 'ru: { placeholder', 'entry.type === "Guide"']) if (!searchScript.includes(phrase)) failures.push(`Localized search behavior missing: ${phrase}`);
+if (searchScript.includes('<small lang="en">${entry.title}</small>')) failures.push("Localized search still renders a separate English subtitle");
 const ru = await readFile(path.join(root, "ru", "starter-planner.html"), "utf8");
 for (const phrase of ["Начальный крафт", "Граф зависимостей рецептов", "Как читать план", "Русский"]) if (!ru.includes(phrase)) failures.push(`Russian translation smoke test missing: ${phrase}`);
 const ruHome = await readFile(path.join(root, "ru", "index.html"), "utf8");
@@ -56,6 +57,35 @@ const searchIndex = JSON.parse(await readFile(path.join(root, "data", "search-in
 if (searchIndex.entries.filter((entry) => entry.image).length < 180) failures.push("Search image coverage fell below 180 records");
 const itemData = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));
 const entityData = JSON.parse(await readFile(path.join(root, "data", "wiki-entities.json"), "utf8"));
+const localizedNames = JSON.parse(await readFile(path.join(root, "data", "localized-names.json"), "utf8").catch(() => "{\"names\":{}}"));
+const recordNames = [...new Set([
+  ...itemData.items.filter((item) => item.status === "wiki-backed").map((item) => item.title),
+  ...entityData.entities.filter((entity) => entity.status === "wiki-backed").map((entity) => entity.title),
+])];
+for (const name of recordNames) {
+  for (const locale of ["zh-cn", "ru"]) {
+    if (!localizedNames.names?.[name]?.[locale] || localizedNames.names[name][locale] === name) failures.push(`Missing localized record name: ${locale}/${name}`);
+  }
+}
+for (const entry of searchIndex.entries) {
+  for (const locale of ["zh-cn", "ru"]) {
+    if (!entry.localizedTitles?.[locale]) failures.push(`Search entry lacks localized title: ${locale}/${entry.title}`);
+  }
+}
+const zhCrafting = await readFile(path.join(root, "zh-cn", "crafting.html"), "utf8");
+const ruCrafting = await readFile(path.join(root, "ru", "crafting.html"), "utf8");
+if (!zhCrafting.includes("酒精（Alcohol）")) failures.push("Chinese crafting list does not localize Alcohol");
+if (!ruCrafting.includes("Спирт (Alcohol)")) failures.push("Russian crafting list does not localize Alcohol");
+for (const [locale, html] of [["zh-cn", zhCrafting], ["ru", ruCrafting]]) {
+  for (const phrase of [">Basic ", ">Modification 站", ">Modification Станция", "alternate recipe", ">Vehicle 制造", ">Транспорт Fabricator"]) {
+    if (html.includes(phrase)) failures.push(`Mixed-language crafting label: ${locale}/${phrase}`);
+  }
+}
+const guideCss = await readFile(path.join(root, "guide.css"), "utf8");
+const genericTaskImage = guideCss.lastIndexOf(".task-card img{");
+const sceneTaskImage = guideCss.lastIndexOf(".task-card.task-card--scene img{");
+if (sceneTaskImage < genericTaskImage || !guideCss.slice(sceneTaskImage, sceneTaskImage + 140).includes("width:100%;height:100%;object-fit:cover")) failures.push("Homepage scene image can be overridden by generic task image sizing");
+if (!guideCss.includes(".task-card.task-card--tall{grid-row:span 1!important}")) failures.push("Desktop Tadpole card still creates an empty grid row");
 for (const locale of ["en", "zh-cn", "ru"]) {
   const home = await readFile(path.join(root, locale, "index.html"), "utf8");
   for (const count of [itemData.publishedCount + entityData.publishedCount, itemData.publishedCount, entityData.counts.resources, entityData.counts.creatures, entityData.counts.biomes]) if (!home.includes(`>${count}<`)) failures.push(`Stale homepage coverage count: ${locale}/${count}`);
@@ -69,6 +99,25 @@ for (const locale of ["en", "zh-cn", "ru"]) {
 for (const page of rootPages) {
   const html = await readFile(path.join(root, "zh-cn", page), "utf8");
   for (const phrase of ["来源-linked", "分类ed", "re来源", "un来源"]) if (html.includes(phrase)) failures.push(`Broken Chinese mixed translation in ${page}: ${phrase}`);
+}
+const functionalLeakPhrases = [
+  "Exact dependency chains and raw-material totals",
+  "A fragment checklist generated from item infoboxes",
+  "Where the structured Wiki fields say",
+  "Three upgrade paths derived only when",
+  "Vehicle-related structures and core",
+  "What this page does not claim",
+  "Confirmed multiplayer facts from the official",
+  "A revision-linked index of the current",
+  "Evidence policy active from",
+  "Wiki-backed facts include a permanent revision link",
+];
+for (const locale of ["zh-cn", "ru"]) {
+  for (const page of rootPages.filter((entry) => !entry.startsWith("guide/"))) {
+    const html = await readFile(path.join(root, locale, page), "utf8");
+    for (const phrase of functionalLeakPhrases) if (html.includes(phrase)) failures.push(`Untranslated functional copy: ${locale}/${page}/${phrase}`);
+    if (html.includes('class="global-search-trigger" type="button" aria-label="Search this guide"')) failures.push(`Server-rendered search control is English: ${locale}/${page}`);
+  }
 }
 
 const expectedSitemapUrls = rootPages.length * (locales.length + 1);

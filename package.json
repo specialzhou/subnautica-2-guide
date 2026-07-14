@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "import:wiki": "node scripts/import-wiki.mjs && node scripts/import-entities.mjs && node scripts/import-story.mjs && node scripts/import-official.mjs && node scripts/generate-locales.mjs && node scripts/enhance-site.mjs",
+    "import:wiki": "node scripts/import-wiki.mjs && node scripts/import-entities.mjs && node scripts/import-story.mjs && node scripts/import-official.mjs && node scripts/import-localized-names.mjs && node scripts/generate-locales.mjs && node scripts/enhance-site.mjs",
     "enhance": "node scripts/enhance-site.mjs",
     "validate": "node scripts/validate-data.mjs && node scripts/check-site.mjs && node scripts/check-locales.mjs"
   }

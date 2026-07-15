@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-13T16:20:03.075Z",
-  "count": 310,
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "count": 320,
   "entries": [
     {
       "title": "Start here",
@@ -4650,6 +4650,276 @@
       "localizedTerms": {
         "zh-cn": "世界树",
         "ru": "Мировое древо"
+      }
+    },
+    {
+      "title": "Can I make Water without killing Water Slugs?",
+      "type": "Question",
+      "href": "questions.html#water-without-killing-slugs",
+      "terms": "water slug non fatal non-lethal fibrous pulp macaron sponge alternative recipe Yes. Process Fibrous Pulp as the non-lethal alternative; players use farmed Macaron Sponge as a renewable source. The Water record lists both recipe paths. EA 1.0–1.1 crafting",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "不杀水蛞蝓也能制作水吗？",
+        "ru": "Можно ли получить воду, не убивая водяных слизней?"
+      },
+      "localizedTerms": {
+        "zh-cn": "水蛞蝓 不杀 非致死 水 纤维浆 替代配方 Macaron Sponge 可以。用处理器加工纤维浆是非致死替代方案；玩家会种植 Macaron Sponge 来持续获取原料。水的资料页列出了两条配方路径。",
+        "ru": "водяной слизень не убивать вода волокнистая масса альтернативный рецепт Да. Перерабатывайте волокнистую массу как нелетальную альтернативу; игроки выращивают Macaron Sponge как возобновляемый источник. В записи о воде указаны оба рецепта."
+      },
+      "answer": "Yes. Process Fibrous Pulp as the non-lethal alternative; players use farmed Macaron Sponge as a renewable source. The Water record lists both recipe paths.",
+      "localizedAnswers": {
+        "zh-cn": "可以。用处理器加工纤维浆是非致死替代方案；玩家会种植 Macaron Sponge 来持续获取原料。水的资料页列出了两条配方路径。",
+        "ru": "Да. Перерабатывайте волокнистую массу как нелетальную альтернативу; игроки выращивают Macaron Sponge как возобновляемый источник. В записи о воде указаны оба рецепта."
+      },
+      "resolution": "solved",
+      "featuredRank": 1,
+      "attention": {
+        "upvotes": 608,
+        "comments": 124,
+        "approximate": true
+      }
+    },
+    {
+      "title": "What is the personal storage box actually useful for?",
+      "type": "Question",
+      "href": "questions.html#personal-storage-use",
+      "terms": "personal storage box fabricator cannot access seed minerals multiplayer locker Fabricators do not pull materials from it. Players keep one seed copy of each farmable mineral there so crafting cannot consume the last piece; it also separates personal items in multiplayer. EA 1.1 base-building",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "个人储物箱到底有什么用？",
+        "ru": "Для чего на самом деле нужен личный ящик?"
+      },
+      "localizedTerms": {
+        "zh-cn": "个人储物箱 制作设备 不能访问 矿物种子 联机 储物柜 制作设备不会从它里面取材料。玩家通常保存每种可养殖矿物的一份种子，避免制作时耗尽最后一个；联机时也可隔离个人物品。",
+        "ru": "личный ящик фабрикатор не берёт материалы семена минералов кооператив Фабрикаторы не берут из него материалы. Игроки хранят там по одному образцу выращиваемых минералов, чтобы крафт не потратил последний; в кооперативе он также отделяет личные вещи."
+      },
+      "answer": "Fabricators do not pull materials from it. Players keep one seed copy of each farmable mineral there so crafting cannot consume the last piece; it also separates personal items in multiplayer.",
+      "localizedAnswers": {
+        "zh-cn": "制作设备不会从它里面取材料。玩家通常保存每种可养殖矿物的一份种子，避免制作时耗尽最后一个；联机时也可隔离个人物品。",
+        "ru": "Фабрикаторы не берут из него материалы. Игроки хранят там по одному образцу выращиваемых минералов, чтобы крафт не потратил последний; в кооперативе он также отделяет личные вещи."
+      },
+      "resolution": "solved",
+      "featuredRank": 2,
+      "attention": {
+        "upvotes": 216,
+        "comments": 90,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Where is the large habitat shown in the trailer?",
+      "type": "Question",
+      "href": "questions.html#trailer-location-not-in-game",
+      "terms": "trailer habitat observatory tower location does not exist unreleased concept art Players have not found it in the current game. The leading explanation is that it is an older Observatory concept or an unreleased area, so there is no reliable route to it yet. EA 1.1 locations",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "预告片里的大型基地在哪里？",
+        "ru": "Где находится большая база из трейлера?"
+      },
+      "localizedTerms": {
+        "zh-cn": "预告片 基地 Observatory 观测站 地点 不存在 未开放 概念图 玩家在当前版本中尚未找到它。主流判断是旧版 Observatory 概念或尚未开放的区域，因此目前没有可靠路线。",
+        "ru": "трейлер база обсерватория местоположение нет в игре концепт Игроки не нашли её в текущей версии. Наиболее вероятно, что это ранняя концепция Observatory или ещё не выпущенная область; надёжного маршрута пока нет."
+      },
+      "answer": "Players have not found it in the current game. The leading explanation is that it is an older Observatory concept or an unreleased area, so there is no reliable route to it yet.",
+      "localizedAnswers": {
+        "zh-cn": "玩家在当前版本中尚未找到它。主流判断是旧版 Observatory 概念或尚未开放的区域，因此目前没有可靠路线。",
+        "ru": "Игроки не нашли её в текущей версии. Наиболее вероятно, что это ранняя концепция Observatory или ещё не выпущенная область; надёжного маршрута пока нет."
+      },
+      "resolution": "partial",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 114,
+        "comments": 19,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Why won't the last Angel Comb cankers open?",
+      "type": "Question",
+      "href": "questions.html#angel-comb-main-cankers-stuck",
+      "terms": "angel comb canker won't open softlock progression bug bloom juvenile EA 1.1 First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe. EA 1.1 story-bug",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Angel Comb 最后两个 canker 为什么不打开？",
+        "ru": "Почему последние наросты Angel Comb не открываются?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Angel Comb canker 不打开 剧情卡住 软锁 bug 幼体 EA 1.1 先确认所有幼体 comb 都已清除，并在触发闭合范围外攻击。如果感染已全部消失，但升级到 EA 1.1 后主 canker 仍关闭，多名玩家报告这是剧情软锁，应按 bug 处理，不是漏了配方。",
+        "ru": "Angel Comb не открывается мягкая блокировка сюжет баг EA 1.1 Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
+      },
+      "answer": "First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe.",
+      "localizedAnswers": {
+        "zh-cn": "先确认所有幼体 comb 都已清除，并在触发闭合范围外攻击。如果感染已全部消失，但升级到 EA 1.1 后主 canker 仍关闭，多名玩家报告这是剧情软锁，应按 bug 处理，不是漏了配方。",
+        "ru": "Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
+      },
+      "resolution": "partial",
+      "featuredRank": 3,
+      "attention": {
+        "upvotes": 5,
+        "comments": 24,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Where did the Strong Acid recipe move in EA 1.1?",
+      "type": "Question",
+      "href": "questions.html#strong-acid-after-update",
+      "terms": "strong acid recipe moved processor fabricator EA 1.1 cyst Check the Fabricator, not only the Processor. The current record shows the available recipe paths and their stations. EA 1.1 crafting",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "EA 1.1 的强酸配方移到哪里了？",
+        "ru": "Куда перенесли рецепт Strong Acid в EA 1.1?"
+      },
+      "localizedTerms": {
+        "zh-cn": "强酸 配方 移动 处理器 装配台 EA 1.1 cyst 去装配台查看，不要只找处理器。当前资料页列出了可用配方路径及对应制作站。",
+        "ru": "Strong Acid рецепт перенесли Processor Fabricator EA 1.1 Проверьте Fabricator, а не только Processor. В текущей записи указаны доступные рецепты и их станции."
+      },
+      "answer": "Check the Fabricator, not only the Processor. The current record shows the available recipe paths and their stations.",
+      "localizedAnswers": {
+        "zh-cn": "去装配台查看，不要只找处理器。当前资料页列出了可用配方路径及对应制作站。",
+        "ru": "Проверьте Fabricator, а не только Processor. В текущей записи указаны доступные рецепты и их станции."
+      },
+      "resolution": "solved",
+      "featuredRank": 4,
+      "attention": {
+        "upvotes": 13,
+        "comments": 15,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Why isn't Biofilm respawning for a re-bioscan?",
+      "type": "Question",
+      "href": "questions.html#rebioscan-biofilm-not-respawning",
+      "terms": "biofilm respawn re bioscan bloom sap cicada wreck bug 80 scans There is no reliable fix yet. Some saves respawn Bloom Sap but not Biofilm, while others differ. Check distant Cicada wrecks for missed scans and keep at least one Bloom Sap, but treat the respawn behavior as unresolved. EA 1.1 bioscan-bug",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "重新 bioscan 时为什么 Biofilm 不刷新？",
+        "ru": "Почему Biofilm не возрождается для повторного bioscan?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Biofilm 刷新 重扫 bioscan Bloom Sap Cicada 残骸 bug 目前没有可靠修复方案。有些存档只刷新 Bloom Sap、不刷新 Biofilm，另一些存档表现不同。可以检查较远的 Cicada 残骸是否漏扫，并保留至少一个 Bloom Sap，但刷新机制仍未解决。",
+        "ru": "Biofilm возрождение повторное сканирование Bloom Sap Cicada баг Надёжного исправления пока нет. В некоторых сохранениях возрождается Bloom Sap, но не Biofilm; в других поведение отличается. Проверьте дальние обломки Cicada и сохраните хотя бы один Bloom Sap, но считайте проблему нерешённой."
+      },
+      "answer": "There is no reliable fix yet. Some saves respawn Bloom Sap but not Biofilm, while others differ. Check distant Cicada wrecks for missed scans and keep at least one Bloom Sap, but treat the respawn behavior as unresolved.",
+      "localizedAnswers": {
+        "zh-cn": "目前没有可靠修复方案。有些存档只刷新 Bloom Sap、不刷新 Biofilm，另一些存档表现不同。可以检查较远的 Cicada 残骸是否漏扫，并保留至少一个 Bloom Sap，但刷新机制仍未解决。",
+        "ru": "Надёжного исправления пока нет. В некоторых сохранениях возрождается Bloom Sap, но не Biofilm; в других поведение отличается. Проверьте дальние обломки Cicada и сохраните хотя бы один Bloom Sap, но считайте проблему нерешённой."
+      },
+      "resolution": "open",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 9,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Where are the Wall Rack blueprint fragments?",
+      "type": "Question",
+      "href": "questions.html#wall-rack-blueprint-location",
+      "terms": "wall rack blueprint fragments welcome center camp one BFJ old habitat scanner orange dots Players report four fragments and three required scans. Check the Welcome Center route toward Camp One, platforms east of the BFJ plateaus, and the old habitat/BFJ base; use the Scanner's orange fragment markers for missed pieces. EA 1.1 blueprints",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Wall Rack 蓝图碎片在哪里？",
+        "ru": "Где находятся фрагменты чертежа Wall Rack?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Wall Rack 蓝图 碎片 Welcome Center Camp One BFJ 旧基地 扫描仪 橙点 玩家报告地图上有 4 个碎片，需扫描 3 个。检查 Welcome Center 通往 Camp One 的路线、BFJ 高原以东的平台，以及旧基地/BFJ 基地；可用扫描仪的橙色碎片标记补漏。",
+        "ru": "Wall Rack чертёж фрагменты Welcome Center Camp One BFJ Scanner Игроки сообщают о четырёх фрагментах, из которых нужно просканировать три. Проверьте путь от Welcome Center к Camp One, платформы к востоку от BFJ plateaus и старую базу/BFJ; пропуски видны как оранжевые отметки Scanner."
+      },
+      "answer": "Players report four fragments and three required scans. Check the Welcome Center route toward Camp One, platforms east of the BFJ plateaus, and the old habitat/BFJ base; use the Scanner's orange fragment markers for missed pieces.",
+      "localizedAnswers": {
+        "zh-cn": "玩家报告地图上有 4 个碎片，需扫描 3 个。检查 Welcome Center 通往 Camp One 的路线、BFJ 高原以东的平台，以及旧基地/BFJ 基地；可用扫描仪的橙色碎片标记补漏。",
+        "ru": "Игроки сообщают о четырёх фрагментах, из которых нужно просканировать три. Проверьте путь от Welcome Center к Camp One, платформы к востоку от BFJ plateaus и старую базу/BFJ; пропуски видны как оранжевые отметки Scanner."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 3,
+        "comments": 6,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Why won't the Scout Ray chassis fabricate?",
+      "type": "Question",
+      "href": "questions.html#scout-ray-chassis-wont-fabricate",
+      "terms": "scout ray chassis won't craft fabricate moonpool too small wings clearance EA 1.1 Make the Moonpool much wider. After EA 1.1 the chassis can fabricate with its wings extended, so a pool that worked before may no longer provide enough clearance. EA 1.1 vehicles",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Scout Ray 底盘为什么无法制造？",
+        "ru": "Почему не создаётся шасси Scout Ray?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Scout Ray 蝌蚪号 载具 底盘 无法制造 Moonpool 太小 机翼 空间 EA 1.1 把 Moonpool 扩大很多。EA 1.1 后底盘可能会展开机翼制造，之前够用的池子现在可能没有足够空间。",
+        "ru": "Scout Ray Головастик транспорт шасси не создаётся Moonpool мало места крылья EA 1.1 Сделайте Moonpool значительно шире. После EA 1.1 шасси может создаваться с раскрытыми крыльями, поэтому прежнего пространства может не хватать."
+      },
+      "answer": "Make the Moonpool much wider. After EA 1.1 the chassis can fabricate with its wings extended, so a pool that worked before may no longer provide enough clearance.",
+      "localizedAnswers": {
+        "zh-cn": "把 Moonpool 扩大很多。EA 1.1 后底盘可能会展开机翼制造，之前够用的池子现在可能没有足够空间。",
+        "ru": "Сделайте Moonpool значительно шире. После EA 1.1 шасси может создаваться с раскрытыми крыльями, поэтому прежнего пространства может не хватать."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 5,
+        "comments": 7,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Where is the lever after powering the Axum station?",
+      "type": "Question",
+      "href": "questions.html#axum-lever-location",
+      "terms": "axum power station lever door entrance rosetta stone tower first room Do not keep searching at the base of the power station. Go toward the Rosetta Stone tower; the lever is inside the tower, in the center of the first room. EA 1.1 story-location",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "启动 Axum 电站后，拉杆在哪里？",
+        "ru": "Где рычаг после включения станции Axum?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Axum 电站 拉杆 门 入口 Rosetta Stone 塔 第一个房间 不要继续在电站底部寻找。前往 Rosetta Stone 塔，拉杆就在塔内第一个房间的中央。",
+        "ru": "Axum электростанция рычаг вход Rosetta Stone башня первая комната Не ищите у основания электростанции. Идите к башне Rosetta Stone; рычаг находится внутри, в центре первой комнаты."
+      },
+      "answer": "Do not keep searching at the base of the power station. Go toward the Rosetta Stone tower; the lever is inside the tower, in the center of the first room.",
+      "localizedAnswers": {
+        "zh-cn": "不要继续在电站底部寻找。前往 Rosetta Stone 塔，拉杆就在塔内第一个房间的中央。",
+        "ru": "Не ищите у основания электростанции. Идите к башне Rosetta Stone; рычаг находится внутри, в центре первой комнаты."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 2,
+        "comments": 3,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Why won't the Hanging Tailing Jar place?",
+      "type": "Question",
+      "href": "questions.html#hanging-tailing-jar-wont-place",
+      "terms": "hanging tailing jar cannot place build snapping hitbox doorway empty room Disable snapping first, then move it clear of nearby doorway or object hitboxes. The room can look empty while an invisible placement boundary still overlaps the jar. EA 1.1 base-building",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Hanging Tailing Jar 为什么放不下？",
+        "ru": "Почему не размещается Hanging Tailing Jar?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Hanging Tailing Jar 不能放置 建造 吸附 碰撞 门口 空房间 先关闭吸附，再避开附近门口或物体的碰撞范围。房间看起来很空，也可能有不可见的放置边界与罐子重叠。",
+        "ru": "Hanging Tailing Jar не размещается привязка хитбокс дверь Сначала отключите привязку, затем отодвиньте предмет от хитбоксов дверей и соседних объектов. Комната может казаться пустой, хотя невидимая граница мешает размещению."
+      },
+      "answer": "Disable snapping first, then move it clear of nearby doorway or object hitboxes. The room can look empty while an invisible placement boundary still overlaps the jar.",
+      "localizedAnswers": {
+        "zh-cn": "先关闭吸附，再避开附近门口或物体的碰撞范围。房间看起来很空，也可能有不可见的放置边界与罐子重叠。",
+        "ru": "Сначала отключите привязку, затем отодвиньте предмет от хитбоксов дверей и соседних объектов. Комната может казаться пустой, хотя невидимая граница мешает размещению."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 3,
+        "comments": 2,
+        "approximate": true
       }
     }
   ]

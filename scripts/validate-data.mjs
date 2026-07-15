@@ -8,6 +8,7 @@ const entityData = JSON.parse(await readFile(path.join(root, "data", "wiki-entit
 const ledger = JSON.parse(await readFile(path.join(root, "data", "ledger.json"), "utf8"));
 const changeReport = JSON.parse(await readFile(path.join(root, "data", "wiki-change-report.json"), "utf8"));
 const storyData = JSON.parse(await readFile(path.join(root, "data", "wiki-story.json"), "utf8"));
+const playerQuestions = JSON.parse(await readFile(path.join(root, "data", "player-questions.json"), "utf8"));
 const failures = [];
 if (!changeReport.changes.length || changeReport.changes.some((change) => change.change !== "removed" && !change.revisionId)) failures.push("Wiki change report is invalid");
 const ids = new Set();
@@ -50,6 +51,31 @@ for (const [title, station, ingredients] of expectedRecipes) {
 }
 
 const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
+const questionIds = new Set();
+const featuredRanks = new Set();
+for (const question of playerQuestions.questions) {
+  if (questionIds.has(question.id)) failures.push(`Duplicate player question id: ${question.id}`);
+  questionIds.add(question.id);
+  if (!/^[a-z0-9-]+$/.test(question.id)) failures.push(`Invalid player question id: ${question.id}`);
+  if (!question.source?.url?.startsWith("https://www.reddit.com/") || !Number.isInteger(question.source.upvotes) || !Number.isInteger(question.source.comments)) failures.push(`Invalid player question source: ${question.id}`);
+  if (!question.source.observedAt || !question.buildContext || !["solved", "partial", "open"].includes(question.resolution)) failures.push(`Incomplete player question status: ${question.id}`);
+  for (const locale of ["en", "zh-cn", "ru"]) {
+    if (!question.question?.[locale] || !question.answer?.[locale] || !question.evidenceNote?.[locale] || !question.searchTerms?.[locale]) failures.push(`Missing ${locale} player question copy: ${question.id}`);
+  }
+  if (question.featuredRank !== null) {
+    if (!Number.isInteger(question.featuredRank) || featuredRanks.has(question.featuredRank)) failures.push(`Invalid featured rank: ${question.id}`);
+    featuredRanks.add(question.featuredRank);
+  }
+}
+if (playerQuestions.questions.length < 8) failures.push("Player question library is too small");
+if (featuredRanks.size < 4) failures.push("Homepage needs at least four featured player questions");
+if (!sitemap.includes("/questions.html")) failures.push("Sitemap missing player question library");
+for (const locale of ["", "en", "zh-cn", "ru"]) {
+  const relative = locale ? path.join(locale, "questions.html") : "questions.html";
+  const html = await readFile(path.join(root, relative), "utf8").catch(() => "");
+  if (!html) failures.push(`Missing player question page: ${relative}`);
+  for (const question of playerQuestions.questions) if (html && !html.includes(`id="${question.id}"`)) failures.push(`Player question page missing ${question.id}: ${relative}`);
+}
 for (const item of data.items.filter((entry) => entry.status === "wiki-backed")) {
   if (!sitemap.includes(`/guide/items/${item.id}.html`)) failures.push(`Sitemap missing page: ${item.id}`);
 }
@@ -84,7 +110,7 @@ const shallows = entityByKey.get("biomes:Shallows");
 if (!shallows?.facts.depth.includes("224m")) failures.push("Golden entity mismatch: Shallows");
 
 if (ledger.tracker.wikiBackedEntries !== data.publishedCount + entityData.publishedCount) failures.push("Ledger wiki-backed count mismatch");
-const publishedFiles = ["index.html", "starter-planner.html", "starter-materials.html", "equipment-upgrades.html", "blueprints.html", "vehicle-planner.html", "locations.html", "story.html", "crafting.html", "oxygen.html", "base-building.html", "coop.html", "resources.html", "creatures.html", "vehicles.html", "biomes.html", "sources.html"];
+const publishedFiles = ["index.html", "questions.html", "starter-planner.html", "starter-materials.html", "equipment-upgrades.html", "blueprints.html", "vehicle-planner.html", "locations.html", "story.html", "crafting.html", "oxygen.html", "base-building.html", "coop.html", "resources.html", "creatures.html", "vehicles.html", "biomes.html", "sources.html"];
 for (const file of publishedFiles) {
   const html = await readFile(path.join(root, file), "utf8");
   if (html.includes("3026940")) failures.push(`Wrong Steam App ID in ${file}`);

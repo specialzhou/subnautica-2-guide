@@ -864,6 +864,7 @@ function stripLocaleMetadata(html) {
     .replace(/<link rel="alternate" hreflang="[^"]+" href="[^"]+">/g, "")
     .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/locale\.css">/g, "")
     .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?search\.css(?:\?v=\d+)?">/g, "")
+    .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?questions\.css(?:\?v=\d+)?">/g, "")
     .replace(/<script defer src="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?search\.js(?:\?v=\d+)?"><\/script>/g, "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/g, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/gs, "")

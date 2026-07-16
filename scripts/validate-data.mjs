@@ -9,6 +9,8 @@ const ledger = JSON.parse(await readFile(path.join(root, "data", "ledger.json"),
 const changeReport = JSON.parse(await readFile(path.join(root, "data", "wiki-change-report.json"), "utf8"));
 const storyData = JSON.parse(await readFile(path.join(root, "data", "wiki-story.json"), "utf8"));
 const playerQuestions = JSON.parse(await readFile(path.join(root, "data", "player-questions.json"), "utf8"));
+const playerQuestionCandidates = JSON.parse(await readFile(path.join(root, "data", "player-question-candidates.json"), "utf8"));
+const playerQuestionCandidateReport = await readFile(path.join(root, "data", "player-question-candidates.md"), "utf8");
 const failures = [];
 if (!changeReport.changes.length || changeReport.changes.some((change) => change.change !== "removed" && !change.revisionId)) failures.push("Wiki change report is invalid");
 const ids = new Set();
@@ -70,6 +72,18 @@ for (const question of playerQuestions.questions) {
 if (playerQuestions.questions.length < 8) failures.push("Player question library is too small");
 if (featuredRanks.size < 4) failures.push("Homepage needs at least four featured player questions");
 if (!sitemap.includes("/questions.html")) failures.push("Sitemap missing player question library");
+if (playerQuestionCandidates.collectionPolicy?.storesPostBody !== false) failures.push("Player question candidate collector must not store Reddit post bodies");
+const publishedRedditIds = new Set(playerQuestions.questions.map((question) => question.source.url.match(/\/comments\/([^/]+)/)?.[1]).filter(Boolean));
+const candidateIds = new Set();
+for (const candidate of playerQuestionCandidates.candidates ?? []) {
+  if (!candidate.redditId || candidateIds.has(candidate.redditId)) failures.push(`Invalid or duplicate player question candidate: ${candidate.redditId}`);
+  candidateIds.add(candidate.redditId);
+  if (publishedRedditIds.has(candidate.redditId)) failures.push(`Published Reddit question remains in candidate queue: ${candidate.redditId}`);
+  if (!candidate.url?.startsWith("https://www.reddit.com/r/Subnautica_2/comments/") || !candidate.title || !Number.isInteger(candidate.painScore)) failures.push(`Incomplete player question candidate: ${candidate.redditId}`);
+  if (!candidate.review?.state || candidate.attention?.upvotes !== null) failures.push(`Candidate review or RSS attention boundary missing: ${candidate.redditId}`);
+  if (Object.hasOwn(candidate, "body") || Object.hasOwn(candidate, "bodyText") || Object.hasOwn(candidate, "content")) failures.push(`Reddit post body was stored for candidate: ${candidate.redditId}`);
+  if (!playerQuestionCandidateReport.includes(`](${candidate.url})`)) failures.push(`Candidate review report is missing: ${candidate.redditId}`);
+}
 for (const locale of ["", "en", "zh-cn", "ru"]) {
   const relative = locale ? path.join(locale, "questions.html") : "questions.html";
   const html = await readFile(path.join(root, relative), "utf8").catch(() => "");

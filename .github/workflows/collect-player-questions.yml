@@ -1,0 +1,58 @@
+name: Collect player question candidates
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: player-question-candidates
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Prepare review branch
+        run: |
+          git fetch origin automation/player-question-candidates || true
+          if git show-ref --verify --quiet refs/remotes/origin/automation/player-question-candidates; then
+            git checkout -B automation/player-question-candidates origin/automation/player-question-candidates
+            git rebase origin/main
+          else
+            git checkout -b automation/player-question-candidates
+          fi
+      - name: Collect new Reddit question candidates
+        env:
+          REDDIT_USER_AGENT: subnautica-2-guide/0.1 (https://github.com/specialzhou/subnautica-2-guide)
+        run: node scripts/collect-player-question-candidates.mjs --max-details=4 --detail-delay-ms=65000
+      - name: Validate candidate queue and generated site
+        run: npm run validate
+      - name: Commit review queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/player-question-candidates.json data/player-question-candidates.md; then
+            echo "No candidate changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/player-question-candidates.json data/player-question-candidates.md
+          git commit -m "chore: refresh player question candidates"
+          git push --force-with-lease --set-upstream origin automation/player-question-candidates
+          if [[ "$(gh pr list --head automation/player-question-candidates --state open --json number --jq 'length')" == "0" ]]; then
+            gh pr create --draft --base main --head automation/player-question-candidates \
+              --title "Review new player question candidates" \
+              --body "Automated Reddit RSS candidate queue. Review attention, verify an answer and build context, then promote only confirmed questions into data/player-questions.json."
+          fi

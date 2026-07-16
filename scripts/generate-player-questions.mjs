@@ -101,7 +101,8 @@ const categoryLabels = {
   "bioscan-bug": { en: "Bioscan bug", "zh-cn": "生物扫描故障", ru: "Баг биосканирования" },
   blueprints: { en: "Blueprints", "zh-cn": "蓝图", ru: "Чертежи" },
   vehicles: { en: "Vehicles", "zh-cn": "载具", ru: "Транспорт" },
-  "story-location": { en: "Story location", "zh-cn": "剧情地点", ru: "Сюжетная локация" }
+  "story-location": { en: "Story location", "zh-cn": "剧情地点", ru: "Сюжетная локация" },
+  creatures: { en: "Creatures", "zh-cn": "生物", ru: "Существа" }
 };
 
 const relatedPageLabels = {
@@ -115,7 +116,8 @@ const relatedPageLabels = {
   "blueprints.html": { en: "Blueprints", "zh-cn": "蓝图", ru: "Чертежи" },
   "guide/items/tadpole-scout-ray-chassis.html": { en: "Tadpole Scout Ray Chassis", "zh-cn": "蝌蚪号 Scout Ray 底盘", ru: "Шасси Scout Ray" },
   "vehicle-planner.html": { en: "Tadpole planner", "zh-cn": "蝌蚪号规划", ru: "План Головастика" },
-  "guide/items/hanging-tailing-jar.html": { en: "Hanging Tailing Jar", "zh-cn": "悬挂式 Tailing 培养罐", ru: "Подвесная банка Tailing" }
+  "guide/items/hanging-tailing-jar.html": { en: "Hanging Tailing Jar", "zh-cn": "悬挂式 Tailing 培养罐", ru: "Подвесная банка Tailing" },
+  "guide/creatures/sandspear.html": { en: "Sandspear", "zh-cn": "潜沙矛（Sandspear）", ru: "Копейник (Sandspear)" }
 };
 
 function languageSwitcher(active) {

@@ -392,6 +392,84 @@
         "comments": 2,
         "approximate": true
       }
+    },
+    {
+      "id": "where-to-find-sandspear",
+      "featuredRank": 5,
+      "category": "creatures",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "wiki-and-community",
+      "question": {
+        "en": "Where can I find a Sandspear for the bioscan?",
+        "zh-cn": "生物扫描缺的潜沙矛（Sandspear）在哪里？",
+        "ru": "Где найти Копейника (Sandspear) для биосканирования?"
+      },
+      "answer": {
+        "en": "Look for a tongue and spikes protruding from sandy cave floors. The original poster confirmed one below the Observatory; another player reported one in the cave beneath the coral dome by a wreck about 100 m northeast of the lifepod. The Wiki record also lists Overgrown Ruins, Plateaus, Shallows and Necrolei Hills.",
+        "zh-cn": "留意沙质洞穴地面露出的舌状物和尖刺。原帖作者确认在 Observatory 下方找到一只；另一名玩家报告，救生舱东北约 100 米处的残骸旁有珊瑚穹顶，其下洞穴里也有。Wiki 资料还记录了 Overgrown Ruins、Plateaus、Shallows 和 Necrolei Hills。",
+        "ru": "Ищите язык и шипы, торчащие из песчаного дна пещер. Автор поста подтвердил находку под Observatory; другой игрок сообщил о пещере под коралловым куполом у обломков, примерно в 100 м к северо-востоку от спасательной капсулы. В Wiki также указаны Overgrown Ruins, Plateaus, Shallows и Necrolei Hills."
+      },
+      "evidenceNote": {
+        "en": "The biome range is Wiki-backed. The route and visual cues are community-confirmed; this site still lacks an in-game screenshot and exact coordinates.",
+        "zh-cn": "生态区范围来自 Wiki。路线和外观提示由玩家确认；本站仍缺实机截图和精确坐标。",
+        "ru": "Диапазон биомов подтверждён Wiki. Маршрут и визуальные признаки подтверждены игроками; у сайта пока нет игрового скриншота и точных координат."
+      },
+      "searchTerms": {
+        "en": "Sandspear bioscan creature where find Observatory coral dome cave lifepod",
+        "zh-cn": "潜沙矛 Sandspear 生物扫描 在哪里 Observatory 珊瑚穹顶 洞穴 救生舱",
+        "ru": "Копейник Sandspear биосканирование где найти Observatory коралловый купол пещера"
+      },
+      "relatedPages": ["guide/creatures/sandspear.html", "locations.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Cannot find Sandspear",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1utlo3w/cannot_find_sandspear/",
+        "observedAt": "2026-07-16",
+        "upvotes": 3,
+        "comments": 8,
+        "approximate": false
+      }
+    },
+    {
+      "id": "where-to-find-axum-resonator",
+      "featuredRank": null,
+      "category": "story-location",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "community-reported",
+      "question": {
+        "en": "Where is the Axum Resonator in EA 1.1?",
+        "zh-cn": "EA 1.1 的 Axum Resonator 在哪里？",
+        "ru": "Где найти Axum Resonator в EA 1.1?"
+      },
+      "answer": {
+        "en": "Search the Green Mines around 400 m depth. A player describes it as looking like a piece of melted scrap and reports several in that area.",
+        "zh-cn": "到约 400 米深的 Green Mines 搜索。有玩家称它看起来像一块熔化的废料，并报告该区域有数个。",
+        "ru": "Ищите в Green Mines примерно на глубине 400 м. По словам игрока, предмет похож на кусок расплавленного металлолома, и в этом районе их несколько."
+      },
+      "evidenceNote": {
+        "en": "One player answer received 6 points, but the original poster did not confirm it. No permanent Wiki record or in-game capture has been matched, so this remains partial.",
+        "zh-cn": "一条玩家回答获得 6 分，但原帖作者未确认。尚未对应到永久 Wiki 记录或实机截图，因此仍标记为部分解决。",
+        "ru": "Один ответ игрока получил 6 баллов, но автор поста его не подтвердил. Постоянная запись Wiki или игровой скриншот не найдены, поэтому ответ остаётся частичным."
+      },
+      "searchTerms": {
+        "en": "Axum Resonator where find Green Mines 400m Angel Comb cure melted scrap",
+        "zh-cn": "Axum Resonator 在哪里 Green Mines 400 米 Angel Comb 共振器 熔化废料",
+        "ru": "Axum Resonator где найти Green Mines 400 м Angel Comb расплавленный металлолом"
+      },
+      "relatedPages": ["locations.html", "story.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Where is the Axum Resonator??",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut2jvh/where_is_the_axum_resonator/",
+        "observedAt": "2026-07-16",
+        "upvotes": 5,
+        "comments": 3,
+        "approximate": false
+      }
     }
   ]
 }

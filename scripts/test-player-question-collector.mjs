@@ -29,6 +29,14 @@ const grouped = mergeCandidateFeed({ feedEntries: [entries[0], duplicate], exist
 assert.equal(grouped.candidates.length, 1);
 assert.equal(grouped.candidates[0].relatedSources.length, 1);
 assert.equal(mergeCandidateFeed({ feedEntries: entries, existing: { candidates: merged.candidates, seenRedditIds: merged.seenRedditIds }, publishedUrls: new Set(), now: "2026-07-16T13:00:00Z", threshold: 5 }).added, 0);
+const afterPromotion = mergeCandidateFeed({
+  feedEntries: entries,
+  existing: { candidates: merged.candidates, seenRedditIds: merged.seenRedditIds },
+  publishedUrls: new Set([normalizeRedditUrl(entries[0].url)]),
+  now: "2026-07-16T14:00:00Z",
+  threshold: 5,
+});
+assert.equal(afterPromotion.candidates.length, 0);
 assert.equal(countCommentEntries("<entry><id>t3_post</id></entry><entry><id>t1_a</id></entry><entry><id>t1_b</id></entry>"), 2);
 assert.equal(findPublishedDuplicate("Second Angel Comb progression bug", [{ id: "angel", question: { en: "Why won't the Angel Comb cankers open?" }, searchTerms: { en: "angel comb canker progression bug" } }]).id, "angel");
 process.stdout.write("Player question collector tests passed.\n");

@@ -113,8 +113,9 @@ export function countCommentEntries(xml) {
 }
 
 export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, threshold = 5, maxCandidates = 80 }) {
-  const existingById = new Map((existing.candidates ?? []).map((candidate) => [candidate.redditId, candidate]));
-  const existingByQuestionKey = new Map((existing.candidates ?? []).map((candidate) => [candidate.questionKey ?? normalizeQuestionKey(candidate.title), candidate]));
+  const carriedCandidates = (existing.candidates ?? []).filter((candidate) => !publishedUrls.has(normalizeRedditUrl(candidate.url)));
+  const existingById = new Map(carriedCandidates.map((candidate) => [candidate.redditId, candidate]));
+  const existingByQuestionKey = new Map(carriedCandidates.map((candidate) => [candidate.questionKey ?? normalizeQuestionKey(candidate.title), candidate]));
   const seenIds = new Set(existing.seenRedditIds ?? []);
   let added = 0;
 

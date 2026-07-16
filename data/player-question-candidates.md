@@ -1,6 +1,6 @@
 # Player question candidate review
 
-Collected: 2026-07-16T13:38:36.504Z
+Collected: 2026-07-16T14:13:21.547Z
 
 RSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.
 
@@ -9,9 +9,7 @@ RSS discovery only. Comment counts are approximate; upvotes are unavailable unti
 | 2 | 16 | 1 | needs-review | [Second Angel Comb Progression Bug \[HELP\]\[SPOILERS\]](https://www.reddit.com/r/Subnautica_2/comments/1uu1fdr/second_angel_comb_progression_bug_helpspoilers/) | angel-comb-main-cankers-stuck (0.8) |
 | ? | 15 | 1 | needs-review | [Legion go s controls won't work.](https://www.reddit.com/r/Subnautica_2/comments/1usu5kt/legion_go_s_controls_wont_work/) | — |
 | ? | 11 | 2 | needs-review | [Как исправить баг с нераспустившимися цветками? How to fix the bug with unopened flowers?](https://www.reddit.com/r/Subnautica_2/comments/1utgl1s/%D0%BA%D0%B0%D0%BA_%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C_%D0%B1%D0%B0%D0%B3_%D1%81_%D0%BD%D0%B5%D1%80%D0%B0%D1%81%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%B2%D1%88%D0%B8%D0%BC%D0%B8%D1%81%D1%8F_%D1%86%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8/) | — |
-| ? | 10 | 1 | needs-review | [Does anyone know how to craft new underwear?](https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/) | — |
-| ? | 10 | 1 | needs-review | [Cannot find Sandspear](https://www.reddit.com/r/Subnautica_2/comments/1utlo3w/cannot_find_sandspear/) | — |
-| ? | 10 | 1 | needs-review | [Where is the Axum Resonator??](https://www.reddit.com/r/Subnautica_2/comments/1ut2jvh/where_is_the_axum_resonator/) | — |
+| ? | 10 | 1 | dismissed | [Does anyone know how to craft new underwear?](https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/) | — |
 | ? | 9 | 1 | needs-review | [I think im first who found new map bug in subnautica 2](https://www.reddit.com/r/Subnautica_2/comments/1uuiw0l/i_think_im_first_who_found_new_map_bug_in/) | — |
 | ? | 9 | 1 | needs-review | [2 lost tadpoles + wings and upgrades in 2 hours of playing](https://www.reddit.com/r/Subnautica_2/comments/1uu1yb3/2_lost_tadpoles_wings_and_upgrades_in_2_hours_of/) | — |
 | ? | 9 | 1 | needs-review | [No more music and sound issue in Update 1.1?](https://www.reddit.com/r/Subnautica_2/comments/1ut6nqu/no_more_music_and_sound_issue_in_update_11/) | — |

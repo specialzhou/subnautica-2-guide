@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-07-16T00:00:00.000Z",
-  "count": 320,
+  "count": 322,
   "entries": [
     {
       "title": "Start here",
@@ -4920,6 +4920,60 @@
         "upvotes": 3,
         "comments": 2,
         "approximate": true
+      }
+    },
+    {
+      "title": "Where can I find a Sandspear for the bioscan?",
+      "type": "Question",
+      "href": "questions.html#where-to-find-sandspear",
+      "terms": "Sandspear bioscan creature where find Observatory coral dome cave lifepod Look for a tongue and spikes protruding from sandy cave floors. The original poster confirmed one below the Observatory; another player reported one in the cave beneath the coral dome by a wreck about 100 m northeast of the lifepod. The Wiki record also lists Overgrown Ruins, Plateaus, Shallows and Necrolei Hills. EA 1.1 creatures",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "生物扫描缺的潜沙矛（Sandspear）在哪里？",
+        "ru": "Где найти Копейника (Sandspear) для биосканирования?"
+      },
+      "localizedTerms": {
+        "zh-cn": "潜沙矛 Sandspear 生物扫描 在哪里 Observatory 珊瑚穹顶 洞穴 救生舱 留意沙质洞穴地面露出的舌状物和尖刺。原帖作者确认在 Observatory 下方找到一只；另一名玩家报告，救生舱东北约 100 米处的残骸旁有珊瑚穹顶，其下洞穴里也有。Wiki 资料还记录了 Overgrown Ruins、Plateaus、Shallows 和 Necrolei Hills。",
+        "ru": "Копейник Sandspear биосканирование где найти Observatory коралловый купол пещера Ищите язык и шипы, торчащие из песчаного дна пещер. Автор поста подтвердил находку под Observatory; другой игрок сообщил о пещере под коралловым куполом у обломков, примерно в 100 м к северо-востоку от спасательной капсулы. В Wiki также указаны Overgrown Ruins, Plateaus, Shallows и Necrolei Hills."
+      },
+      "answer": "Look for a tongue and spikes protruding from sandy cave floors. The original poster confirmed one below the Observatory; another player reported one in the cave beneath the coral dome by a wreck about 100 m northeast of the lifepod. The Wiki record also lists Overgrown Ruins, Plateaus, Shallows and Necrolei Hills.",
+      "localizedAnswers": {
+        "zh-cn": "留意沙质洞穴地面露出的舌状物和尖刺。原帖作者确认在 Observatory 下方找到一只；另一名玩家报告，救生舱东北约 100 米处的残骸旁有珊瑚穹顶，其下洞穴里也有。Wiki 资料还记录了 Overgrown Ruins、Plateaus、Shallows 和 Necrolei Hills。",
+        "ru": "Ищите язык и шипы, торчащие из песчаного дна пещер. Автор поста подтвердил находку под Observatory; другой игрок сообщил о пещере под коралловым куполом у обломков, примерно в 100 м к северо-востоку от спасательной капсулы. В Wiki также указаны Overgrown Ruins, Plateaus, Shallows и Necrolei Hills."
+      },
+      "resolution": "solved",
+      "featuredRank": 5,
+      "attention": {
+        "upvotes": 3,
+        "comments": 8,
+        "approximate": false
+      }
+    },
+    {
+      "title": "Where is the Axum Resonator in EA 1.1?",
+      "type": "Question",
+      "href": "questions.html#where-to-find-axum-resonator",
+      "terms": "Axum Resonator where find Green Mines 400m Angel Comb cure melted scrap Search the Green Mines around 400 m depth. A player describes it as looking like a piece of melted scrap and reports several in that area. EA 1.1 story-location",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "EA 1.1 的 Axum Resonator 在哪里？",
+        "ru": "Где найти Axum Resonator в EA 1.1?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Axum Resonator 在哪里 Green Mines 400 米 Angel Comb 共振器 熔化废料 到约 400 米深的 Green Mines 搜索。有玩家称它看起来像一块熔化的废料，并报告该区域有数个。",
+        "ru": "Axum Resonator где найти Green Mines 400 м Angel Comb расплавленный металлолом Ищите в Green Mines примерно на глубине 400 м. По словам игрока, предмет похож на кусок расплавленного металлолома, и в этом районе их несколько."
+      },
+      "answer": "Search the Green Mines around 400 m depth. A player describes it as looking like a piece of melted scrap and reports several in that area.",
+      "localizedAnswers": {
+        "zh-cn": "到约 400 米深的 Green Mines 搜索。有玩家称它看起来像一块熔化的废料，并报告该区域有数个。",
+        "ru": "Ищите в Green Mines примерно на глубине 400 м. По словам игрока, предмет похож на кусок расплавленного металлолома, и в этом районе их несколько."
+      },
+      "resolution": "partial",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 5,
+        "comments": 3,
+        "approximate": false
       }
     }
   ]

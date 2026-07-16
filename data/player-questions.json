@@ -44,7 +44,7 @@
     },
     {
       "id": "personal-storage-use",
-      "featuredRank": 2,
+      "featuredRank": 3,
       "category": "base-building",
       "buildContext": "EA 1.1",
       "resolution": "solved",
@@ -122,7 +122,7 @@
     },
     {
       "id": "angel-comb-main-cankers-stuck",
-      "featuredRank": 3,
+      "featuredRank": null,
       "category": "story-bug",
       "buildContext": "EA 1.1",
       "resolution": "partial",
@@ -161,7 +161,7 @@
     },
     {
       "id": "strong-acid-after-update",
-      "featuredRank": 4,
+      "featuredRank": null,
       "category": "crafting",
       "buildContext": "EA 1.1",
       "resolution": "solved",
@@ -395,7 +395,7 @@
     },
     {
       "id": "where-to-find-sandspear",
-      "featuredRank": 5,
+      "featuredRank": null,
       "category": "creatures",
       "buildContext": "EA 1.1",
       "resolution": "solved",
@@ -469,6 +469,129 @@
         "upvotes": 5,
         "comments": 3,
         "approximate": false
+      }
+    },
+    {
+      "id": "cross-collector-canyon-safely",
+      "featuredRank": 2,
+      "category": "traversal",
+      "buildContext": "EA 1.0–1.1",
+      "resolution": "partial",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "How can I cross the Collector canyon without losing my Tadpole?",
+        "zh-cn": "怎样穿过 Collector 峡谷，尽量不损失蝌蚪号？",
+        "ru": "Как пересечь каньон Коллекционера и не потерять Головастик?"
+      },
+      "answer": {
+        "en": "Take the far south/right edge, hug the red Early Access boundary without crossing it, and keep the Tadpole moving at full speed. Players report two workable lines: skim the surface, or stay low under the outer crest and use terrain as cover. Do not stop in open water; if spotted, break line of sight behind the ridge before repairing. This reduces risk but does not guarantee a clean crossing after the more aggressive EA 1.1 Collector behavior.",
+        "zh-cn": "走最南侧/最右侧路线，贴着红色抢先体验边界前进，但不要越界，并让蝌蚪号保持全速。玩家反复报告两条可行路线：贴近水面冲刺，或沿外侧山脊下方低位前进，用地形遮挡。不要在开阔水域停下；被发现后先绕到山脊后断开视线，再维修。EA 1.1 的 Collector 更具攻击性，因此这只能降低风险，不能保证无伤通过。",
+        "ru": "Идите по самому южному/правому краю, держитесь вдоль красной границы раннего доступа, но не пересекайте её, и не сбрасывайте скорость Головастика. Игроки используют два маршрута: быстро идти у поверхности либо низко под внешним гребнем, прикрываясь рельефом. Не останавливайтесь в открытой воде; если вас заметили, сначала скройтесь за гребнем и только потом ремонтируйтесь. Это снижает риск, но не гарантирует безопасный проход после усиления Коллекционера в EA 1.1."
+      },
+      "evidenceNote": {
+        "en": "The original poster completed the crossing but was grabbed and arrived with 9% vehicle health. The boundary and terrain routes are repeated community advice; Collector AI is patch-sensitive, so this remains partial.",
+        "zh-cn": "原帖作者最终成功通过，但中途被抓住，到达时载具只剩 9% 耐久。贴边与利用地形是多名玩家重复给出的建议；Collector AI 会随补丁变化，因此仍标记为部分解决。",
+        "ru": "Автор поста пересёк каньон, но был схвачен и добрался с 9% прочности транспорта. Маршруты вдоль границы и под прикрытием рельефа неоднократно советовали игроки; ИИ Коллекционера зависит от патча, поэтому ответ частичный."
+      },
+      "searchTerms": {
+        "en": "cross collector canyon safely tadpole red boundary south edge surface route ridge cover leviathan",
+        "zh-cn": "穿过 Collector 峡谷 安全 蝌蚪号 红色边界 南侧 水面 山脊 掩体 利维坦",
+        "ru": "пересечь каньон Коллекционера безопасно Головастик красная граница южный край поверхность гребень"
+      },
+      "relatedPages": ["guide/creatures/collector-leviathan.html", "locations.html"],
+      "additionalSources": [
+        {
+          "title": "New collector leviathan AI is crazy",
+          "url": "https://www.reddit.com/r/Subnautica_2/comments/1urc4pf/new_collector_leviathan_ai_is_crazy/"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Im too terrified to cross the canyon to the other side. Any suggestions?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uevo0p/im_too_terrified_to_cross_the_canyon_to_the_other/",
+        "observedAt": "2026-07-16",
+        "upvotes": 713,
+        "comments": 372,
+        "approximate": true
+      }
+    },
+    {
+      "id": "scan-collector-leviathan-safely",
+      "featuredRank": 4,
+      "category": "creatures",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "How do I bioscan the Collector Leviathan safely?",
+        "zh-cn": "怎样较安全地完成 Collector Leviathan 生物扫描？",
+        "ru": "Как безопаснее провести биосканирование Левиафана-коллекционера?"
+      },
+      "answer": {
+        "en": "Equip the Camouflage passive biomod, approach in a Tadpole, and exit as the Collector attacks the vehicle. Swim behind it, finish the scan, then stop moving so Camouflage can hide you until it loses interest. Distraction Flares are another repeatedly reported option; leave the Tadpole at the trench edge if you do not want to risk vehicle damage.",
+        "zh-cn": "装备静止时隐身的 Camouflage 被动生物模块，驾驶蝌蚪号接近，并在 Collector 攻击载具时离舱。游到它后方完成扫描，然后停止移动，让 Camouflage 隐藏你，等它失去兴趣。多名玩家也确认可用干扰照明弹吸引注意；如果不想冒载具受损的风险，可把蝌蚪号停在沟槽边缘。",
+        "ru": "Установите пассивный биомод Camouflage, подойдите на Головастике и покиньте его, когда Коллекционер атакует транспорт. Заплывите сзади, завершите сканирование и замрите, чтобы Camouflage скрыл вас до потери интереса. Игроки также многократно подтверждают отвлекающие шашки; если не хотите рисковать транспортом, оставьте Головастик у края впадины."
+      },
+      "evidenceNote": {
+        "en": "The linked discussion contains repeated successful reports for Camouflage, Tadpole distraction and flares. Exact aggro range and timing were not measured and may change with AI updates.",
+        "zh-cn": "链接讨论中有多名玩家确认 Camouflage、用蝌蚪号吸引攻击和干扰照明弹均可成功。本站尚未测量精确仇恨范围与时机，而且 AI 更新可能改变行为。",
+        "ru": "В обсуждении многократно подтверждены Camouflage, отвлечение Головастиком и шашками. Точная дальность агрессии и тайминги не измерены и могут меняться с обновлениями ИИ."
+      },
+      "searchTerms": {
+        "en": "bioscan scan collector leviathan safely camouflage invisibility biomod distraction flare tadpole bait",
+        "zh-cn": "生物扫描 Collector Leviathan 安全 Camouflage 隐身 生物模块 干扰照明弹 蝌蚪号 诱饵",
+        "ru": "биосканирование Левиафан-коллекционер безопасно Camouflage невидимость биомод шашка Головастик"
+      },
+      "relatedPages": ["guide/creatures/collector-leviathan.html", "guide/items/distraction-flare.html", "equipment-upgrades.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "How I got the Collector Leviathan scan after pussyfooting around it for like 20 minutes.",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1um3zyk/how_i_got_the_collector_leviathan_scan_after/",
+        "observedAt": "2026-07-16",
+        "upvotes": 205,
+        "comments": 54,
+        "approximate": true
+      }
+    },
+    {
+      "id": "expand-inventory-with-hacked-biobeds",
+      "featuredRank": 5,
+      "category": "equipment",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "How do I permanently expand my inventory and hotbar?",
+        "zh-cn": "怎样永久扩充背包和快捷栏？",
+        "ru": "Как навсегда расширить инвентарь и панель быстрого доступа?"
+      },
+      "answer": {
+        "en": "Find the hacked, open biobeds inside colonist bunkers and interact with the green DNA terminal. These beds apply permanent inventory upgrades, and later upgrades also add hotbar slots; they do not change your respawn point. If you missed them, use the Anomaly Scanner's Biohacking Chamber target to locate the relevant bunkers.",
+        "zh-cn": "寻找殖民者地堡内被破解、处于打开状态的生物床，并与绿色 DNA 终端互动。这些生物床会永久扩充背包，后续升级还会增加快捷栏槽位；它们不会改变重生点。如果之前漏掉了，可用异常扫描仪的 Biohacking Chamber 目标定位相关地堡。",
+        "ru": "Найдите взломанные открытые биокровати в бункерах колонистов и взаимодействуйте с зелёным терминалом ДНК. Они навсегда расширяют инвентарь, а поздние улучшения добавляют ячейки быстрого доступа; точка возрождения не меняется. Пропущенные бункеры можно искать через цель Biohacking Chamber в Anomaly Scanner."
+      },
+      "evidenceNote": {
+        "en": "The mechanic and scanner target are repeatedly confirmed in the linked discussion. This site has not yet mapped every biobed location or independently captured each upgrade in-game.",
+        "zh-cn": "链接讨论中有多名玩家重复确认该机制和扫描目标。本站尚未绘制所有生物床位置，也未逐个用实机截图验证升级效果。",
+        "ru": "Механика и цель сканера многократно подтверждены в обсуждении. Сайт ещё не нанёс на карту все биокровати и не зафиксировал каждое улучшение в игре."
+      },
+      "searchTerms": {
+        "en": "expand inventory backpack hotbar slots hacked biobed biohacking chamber anomaly scanner colonist bunker DNA upgrade",
+        "zh-cn": "扩充 背包 快捷栏 槽位 破解 生物床 Biohacking Chamber 异常扫描仪 殖民者 地堡 DNA 升级",
+        "ru": "расширить инвентарь панель быстрого доступа взломанная биокровать Biohacking Chamber Anomaly Scanner бункер ДНК"
+      },
+      "relatedPages": ["equipment-upgrades.html", "locations.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "The most baffling gameplay design decision...",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1umd2f9/the_most_baffling_gameplay_design_decision/",
+        "observedAt": "2026-07-16",
+        "upvotes": 168,
+        "comments": 70,
+        "approximate": true
       }
     },
     {

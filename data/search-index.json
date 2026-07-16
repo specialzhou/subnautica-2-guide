@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-07-16T00:00:00.000Z",
-  "count": 323,
+  "count": 326,
   "entries": [
     {
       "title": "Start here",
@@ -4699,7 +4699,7 @@
         "ru": "Фабрикаторы не берут из него материалы. Игроки хранят там по одному образцу выращиваемых минералов, чтобы крафт не потратил последний; в кооперативе он также отделяет личные вещи."
       },
       "resolution": "solved",
-      "featuredRank": 2,
+      "featuredRank": 3,
       "attention": {
         "upvotes": 216,
         "comments": 90,
@@ -4753,7 +4753,7 @@
         "ru": "Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
       },
       "resolution": "partial",
-      "featuredRank": 3,
+      "featuredRank": null,
       "attention": {
         "upvotes": 5,
         "comments": 24,
@@ -4780,7 +4780,7 @@
         "ru": "Проверьте Fabricator, а не только Processor. В текущей записи указаны доступные рецепты и их станции."
       },
       "resolution": "solved",
-      "featuredRank": 4,
+      "featuredRank": null,
       "attention": {
         "upvotes": 13,
         "comments": 15,
@@ -4942,7 +4942,7 @@
         "ru": "Ищите язык и шипы, торчащие из песчаного дна пещер. Автор поста подтвердил находку под Observatory; другой игрок сообщил о пещере под коралловым куполом у обломков, примерно в 100 м к северо-востоку от спасательной капсулы. В Wiki также указаны Overgrown Ruins, Plateaus, Shallows и Necrolei Hills."
       },
       "resolution": "solved",
-      "featuredRank": 5,
+      "featuredRank": null,
       "attention": {
         "upvotes": 3,
         "comments": 8,
@@ -4974,6 +4974,87 @@
         "upvotes": 5,
         "comments": 3,
         "approximate": false
+      }
+    },
+    {
+      "title": "How can I cross the Collector canyon without losing my Tadpole?",
+      "type": "Question",
+      "href": "questions.html#cross-collector-canyon-safely",
+      "terms": "cross collector canyon safely tadpole red boundary south edge surface route ridge cover leviathan Take the far south/right edge, hug the red Early Access boundary without crossing it, and keep the Tadpole moving at full speed. Players report two workable lines: skim the surface, or stay low under the outer crest and use terrain as cover. Do not stop in open water; if spotted, break line of sight behind the ridge before repairing. This reduces risk but does not guarantee a clean crossing after the more aggressive EA 1.1 Collector behavior. EA 1.0–1.1 traversal",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "怎样穿过 Collector 峡谷，尽量不损失蝌蚪号？",
+        "ru": "Как пересечь каньон Коллекционера и не потерять Головастик?"
+      },
+      "localizedTerms": {
+        "zh-cn": "穿过 Collector 峡谷 安全 蝌蚪号 红色边界 南侧 水面 山脊 掩体 利维坦 走最南侧/最右侧路线，贴着红色抢先体验边界前进，但不要越界，并让蝌蚪号保持全速。玩家反复报告两条可行路线：贴近水面冲刺，或沿外侧山脊下方低位前进，用地形遮挡。不要在开阔水域停下；被发现后先绕到山脊后断开视线，再维修。EA 1.1 的 Collector 更具攻击性，因此这只能降低风险，不能保证无伤通过。",
+        "ru": "пересечь каньон Коллекционера безопасно Головастик красная граница южный край поверхность гребень Идите по самому южному/правому краю, держитесь вдоль красной границы раннего доступа, но не пересекайте её, и не сбрасывайте скорость Головастика. Игроки используют два маршрута: быстро идти у поверхности либо низко под внешним гребнем, прикрываясь рельефом. Не останавливайтесь в открытой воде; если вас заметили, сначала скройтесь за гребнем и только потом ремонтируйтесь. Это снижает риск, но не гарантирует безопасный проход после усиления Коллекционера в EA 1.1."
+      },
+      "answer": "Take the far south/right edge, hug the red Early Access boundary without crossing it, and keep the Tadpole moving at full speed. Players report two workable lines: skim the surface, or stay low under the outer crest and use terrain as cover. Do not stop in open water; if spotted, break line of sight behind the ridge before repairing. This reduces risk but does not guarantee a clean crossing after the more aggressive EA 1.1 Collector behavior.",
+      "localizedAnswers": {
+        "zh-cn": "走最南侧/最右侧路线，贴着红色抢先体验边界前进，但不要越界，并让蝌蚪号保持全速。玩家反复报告两条可行路线：贴近水面冲刺，或沿外侧山脊下方低位前进，用地形遮挡。不要在开阔水域停下；被发现后先绕到山脊后断开视线，再维修。EA 1.1 的 Collector 更具攻击性，因此这只能降低风险，不能保证无伤通过。",
+        "ru": "Идите по самому южному/правому краю, держитесь вдоль красной границы раннего доступа, но не пересекайте её, и не сбрасывайте скорость Головастика. Игроки используют два маршрута: быстро идти у поверхности либо низко под внешним гребнем, прикрываясь рельефом. Не останавливайтесь в открытой воде; если вас заметили, сначала скройтесь за гребнем и только потом ремонтируйтесь. Это снижает риск, но не гарантирует безопасный проход после усиления Коллекционера в EA 1.1."
+      },
+      "resolution": "partial",
+      "featuredRank": 2,
+      "attention": {
+        "upvotes": 713,
+        "comments": 372,
+        "approximate": true
+      }
+    },
+    {
+      "title": "How do I bioscan the Collector Leviathan safely?",
+      "type": "Question",
+      "href": "questions.html#scan-collector-leviathan-safely",
+      "terms": "bioscan scan collector leviathan safely camouflage invisibility biomod distraction flare tadpole bait Equip the Camouflage passive biomod, approach in a Tadpole, and exit as the Collector attacks the vehicle. Swim behind it, finish the scan, then stop moving so Camouflage can hide you until it loses interest. Distraction Flares are another repeatedly reported option; leave the Tadpole at the trench edge if you do not want to risk vehicle damage. EA 1.1 creatures",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "怎样较安全地完成 Collector Leviathan 生物扫描？",
+        "ru": "Как безопаснее провести биосканирование Левиафана-коллекционера?"
+      },
+      "localizedTerms": {
+        "zh-cn": "生物扫描 Collector Leviathan 安全 Camouflage 隐身 生物模块 干扰照明弹 蝌蚪号 诱饵 装备静止时隐身的 Camouflage 被动生物模块，驾驶蝌蚪号接近，并在 Collector 攻击载具时离舱。游到它后方完成扫描，然后停止移动，让 Camouflage 隐藏你，等它失去兴趣。多名玩家也确认可用干扰照明弹吸引注意；如果不想冒载具受损的风险，可把蝌蚪号停在沟槽边缘。",
+        "ru": "биосканирование Левиафан-коллекционер безопасно Camouflage невидимость биомод шашка Головастик Установите пассивный биомод Camouflage, подойдите на Головастике и покиньте его, когда Коллекционер атакует транспорт. Заплывите сзади, завершите сканирование и замрите, чтобы Camouflage скрыл вас до потери интереса. Игроки также многократно подтверждают отвлекающие шашки; если не хотите рисковать транспортом, оставьте Головастик у края впадины."
+      },
+      "answer": "Equip the Camouflage passive biomod, approach in a Tadpole, and exit as the Collector attacks the vehicle. Swim behind it, finish the scan, then stop moving so Camouflage can hide you until it loses interest. Distraction Flares are another repeatedly reported option; leave the Tadpole at the trench edge if you do not want to risk vehicle damage.",
+      "localizedAnswers": {
+        "zh-cn": "装备静止时隐身的 Camouflage 被动生物模块，驾驶蝌蚪号接近，并在 Collector 攻击载具时离舱。游到它后方完成扫描，然后停止移动，让 Camouflage 隐藏你，等它失去兴趣。多名玩家也确认可用干扰照明弹吸引注意；如果不想冒载具受损的风险，可把蝌蚪号停在沟槽边缘。",
+        "ru": "Установите пассивный биомод Camouflage, подойдите на Головастике и покиньте его, когда Коллекционер атакует транспорт. Заплывите сзади, завершите сканирование и замрите, чтобы Camouflage скрыл вас до потери интереса. Игроки также многократно подтверждают отвлекающие шашки; если не хотите рисковать транспортом, оставьте Головастик у края впадины."
+      },
+      "resolution": "solved",
+      "featuredRank": 4,
+      "attention": {
+        "upvotes": 205,
+        "comments": 54,
+        "approximate": true
+      }
+    },
+    {
+      "title": "How do I permanently expand my inventory and hotbar?",
+      "type": "Question",
+      "href": "questions.html#expand-inventory-with-hacked-biobeds",
+      "terms": "expand inventory backpack hotbar slots hacked biobed biohacking chamber anomaly scanner colonist bunker DNA upgrade Find the hacked, open biobeds inside colonist bunkers and interact with the green DNA terminal. These beds apply permanent inventory upgrades, and later upgrades also add hotbar slots; they do not change your respawn point. If you missed them, use the Anomaly Scanner's Biohacking Chamber target to locate the relevant bunkers. EA 1.1 equipment",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "怎样永久扩充背包和快捷栏？",
+        "ru": "Как навсегда расширить инвентарь и панель быстрого доступа?"
+      },
+      "localizedTerms": {
+        "zh-cn": "扩充 背包 快捷栏 槽位 破解 生物床 Biohacking Chamber 异常扫描仪 殖民者 地堡 DNA 升级 寻找殖民者地堡内被破解、处于打开状态的生物床，并与绿色 DNA 终端互动。这些生物床会永久扩充背包，后续升级还会增加快捷栏槽位；它们不会改变重生点。如果之前漏掉了，可用异常扫描仪的 Biohacking Chamber 目标定位相关地堡。",
+        "ru": "расширить инвентарь панель быстрого доступа взломанная биокровать Biohacking Chamber Anomaly Scanner бункер ДНК Найдите взломанные открытые биокровати в бункерах колонистов и взаимодействуйте с зелёным терминалом ДНК. Они навсегда расширяют инвентарь, а поздние улучшения добавляют ячейки быстрого доступа; точка возрождения не меняется. Пропущенные бункеры можно искать через цель Biohacking Chamber в Anomaly Scanner."
+      },
+      "answer": "Find the hacked, open biobeds inside colonist bunkers and interact with the green DNA terminal. These beds apply permanent inventory upgrades, and later upgrades also add hotbar slots; they do not change your respawn point. If you missed them, use the Anomaly Scanner's Biohacking Chamber target to locate the relevant bunkers.",
+      "localizedAnswers": {
+        "zh-cn": "寻找殖民者地堡内被破解、处于打开状态的生物床，并与绿色 DNA 终端互动。这些生物床会永久扩充背包，后续升级还会增加快捷栏槽位；它们不会改变重生点。如果之前漏掉了，可用异常扫描仪的 Biohacking Chamber 目标定位相关地堡。",
+        "ru": "Найдите взломанные открытые биокровати в бункерах колонистов и взаимодействуйте с зелёным терминалом ДНК. Они навсегда расширяют инвентарь, а поздние улучшения добавляют ячейки быстрого доступа; точка возрождения не меняется. Пропущенные бункеры можно искать через цель Biohacking Chamber в Anomaly Scanner."
+      },
+      "resolution": "solved",
+      "featuredRank": 5,
+      "attention": {
+        "upvotes": 168,
+        "comments": 70,
+        "approximate": true
       }
     },
     {

@@ -27,6 +27,7 @@ const locales = {
       comments: "comments",
       observed: "observed",
       source: "Open Reddit discussion",
+      additionalSources: "Additional discussions",
       related: "Related guide records",
       footer: "Fan-made, unaffiliated with Unknown Worlds Entertainment or Krafton.",
       method: "Sources & methodology"
@@ -51,6 +52,7 @@ const locales = {
       comments: "条评论",
       observed: "采集于",
       source: "查看 Reddit 原讨论",
+      additionalSources: "补充讨论",
       related: "相关攻略资料",
       footer: "玩家制作，与 Unknown Worlds Entertainment 或 Krafton 无关联。",
       method: "来源与方法"
@@ -75,6 +77,7 @@ const locales = {
       comments: "комментариев",
       observed: "собрано",
       source: "Открыть обсуждение Reddit",
+      additionalSources: "Дополнительные обсуждения",
       related: "Связанные записи гайда",
       footer: "Фанатский проект, не связан с Unknown Worlds Entertainment или Krafton.",
       method: "Источники и методика"
@@ -103,6 +106,8 @@ const categoryLabels = {
   vehicles: { en: "Vehicles", "zh-cn": "载具", ru: "Транспорт" },
   "story-location": { en: "Story location", "zh-cn": "剧情地点", ru: "Сюжетная локация" },
   creatures: { en: "Creatures", "zh-cn": "生物", ru: "Существа" },
+  traversal: { en: "Traversal", "zh-cn": "路线与穿越", ru: "Маршруты" },
+  equipment: { en: "Equipment upgrades", "zh-cn": "装备升级", ru: "Улучшения снаряжения" },
   crashes: { en: "Crash troubleshooting", "zh-cn": "崩溃排查", ru: "Диагностика вылетов" }
 };
 
@@ -118,7 +123,9 @@ const relatedPageLabels = {
   "guide/items/tadpole-scout-ray-chassis.html": { en: "Tadpole Scout Ray Chassis", "zh-cn": "蝌蚪号 Scout Ray 底盘", ru: "Шасси Scout Ray" },
   "vehicle-planner.html": { en: "Tadpole planner", "zh-cn": "蝌蚪号规划", ru: "План Головастика" },
   "guide/items/hanging-tailing-jar.html": { en: "Hanging Tailing Jar", "zh-cn": "悬挂式 Tailing 培养罐", ru: "Подвесная банка Tailing" },
-  "guide/creatures/sandspear.html": { en: "Sandspear", "zh-cn": "潜沙矛（Sandspear）", ru: "Копейник (Sandspear)" }
+  "guide/creatures/sandspear.html": { en: "Sandspear", "zh-cn": "潜沙矛（Sandspear）", ru: "Копейник (Sandspear)" },
+  "guide/creatures/collector-leviathan.html": { en: "Collector Leviathan", "zh-cn": "Collector Leviathan", ru: "Левиафан-коллекционер" },
+  "guide/items/distraction-flare.html": { en: "Distraction Flare", "zh-cn": "干扰照明弹", ru: "Отвлекающая шашка" }
 };
 
 function languageSwitcher(active) {
@@ -141,13 +148,14 @@ function questionArticle(question, locale, index) {
   const status = copy.status[question.resolution];
   const category = categoryLabels[question.category]?.[code] ?? question.category;
   const related = relatedLinks(question, locale);
+  const additionalSources = (question.additionalSources ?? []).map((source) => `<a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.title)}</a>`).join("");
   return `<article class="question-record question-record--${question.resolution}" id="${escapeHtml(question.id)}">
     <div class="question-record__rail"><span>${String(index + 1).padStart(2, "0")}</span><span class="question-status question-status--${question.resolution}">${status}</span></div>
     <div class="question-record__body">
       <div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h2>${escapeHtml(question.question[code])}</h2></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
       <div class="question-record__answer"><p class="eyebrow">${copy.answer}</p><p>${escapeHtml(question.answer[code])}</p></div>
       <div class="question-record__evidence"><div><strong>${copy.evidence}</strong><p>${escapeHtml(question.evidenceNote[code])}</p></div><div><strong>${copy.attention}</strong><p>${question.source.upvotes} ${copy.votes} · ${question.source.comments} ${copy.comments} · ${copy.observed} ${question.source.observedAt}</p></div></div>
-      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a>${related ? `<span>${copy.related}: ${related}</span>` : ""}</div>
+      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a>${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div>
     </div>
   </article>`;
 }

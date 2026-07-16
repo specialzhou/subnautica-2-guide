@@ -1,0 +1,637 @@
+{
+  "schemaVersion": "1.0.0",
+  "collectedAt": "2026-07-16T00:00:00.000Z",
+  "sourcePolicy": "Attention counts are point-in-time Reddit observations. Community answers are labelled separately from Wiki-backed or in-game verified facts.",
+  "questions": [
+    {
+      "id": "water-without-killing-slugs",
+      "featuredRank": 1,
+      "category": "crafting",
+      "buildContext": "EA 1.0–1.1",
+      "resolution": "solved",
+      "verification": "wiki-and-community",
+      "question": {
+        "en": "Can I make Water without killing Water Slugs?",
+        "zh-cn": "不杀水蛞蝓也能制作水吗？",
+        "ru": "Можно ли получить воду, не убивая водяных слизней?"
+      },
+      "answer": {
+        "en": "Yes. Process Fibrous Pulp as the non-lethal alternative; players use farmed Macaron Sponge as a renewable source. The Water record lists both recipe paths.",
+        "zh-cn": "可以。用处理器加工纤维浆是非致死替代方案；玩家会种植 Macaron Sponge 来持续获取原料。水的资料页列出了两条配方路径。",
+        "ru": "Да. Перерабатывайте волокнистую массу как нелетальную альтернативу; игроки выращивают Macaron Sponge как возобновляемый источник. В записи о воде указаны оба рецепта."
+      },
+      "evidenceNote": {
+        "en": "Recipe path is Wiki-backed; the farming workflow is community-reported and not independently captured in-game.",
+        "zh-cn": "配方路径来自 Wiki；种植流程来自玩家报告，本站尚未用实机截图独立验证。",
+        "ru": "Рецепт подтверждён Wiki; способ выращивания сообщён игроками и ещё не проверен нами в игре."
+      },
+      "searchTerms": {
+        "en": "water slug non fatal non-lethal fibrous pulp macaron sponge alternative recipe",
+        "zh-cn": "水蛞蝓 不杀 非致死 水 纤维浆 替代配方 Macaron Sponge",
+        "ru": "водяной слизень не убивать вода волокнистая масса альтернативный рецепт"
+      },
+      "relatedPages": ["guide/items/water.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Non-Fatal Way to obtain water from Water Slugs?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1u5apg1/nonfatal_way_to_obtain_water_from_water_slugs/",
+        "observedAt": "2026-07-16",
+        "upvotes": 608,
+        "comments": 124,
+        "approximate": true
+      }
+    },
+    {
+      "id": "personal-storage-use",
+      "featuredRank": 3,
+      "category": "base-building",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "What is the personal storage box actually useful for?",
+        "zh-cn": "个人储物箱到底有什么用？",
+        "ru": "Для чего на самом деле нужен личный ящик?"
+      },
+      "answer": {
+        "en": "Fabricators do not pull materials from it. Players keep one seed copy of each farmable mineral there so crafting cannot consume the last piece; it also separates personal items in multiplayer.",
+        "zh-cn": "制作设备不会从它里面取材料。玩家通常保存每种可养殖矿物的一份种子，避免制作时耗尽最后一个；联机时也可隔离个人物品。",
+        "ru": "Фабрикаторы не берут из него материалы. Игроки хранят там по одному образцу выращиваемых минералов, чтобы крафт не потратил последний; в кооперативе он также отделяет личные вещи."
+      },
+      "evidenceNote": {
+        "en": "Repeatedly confirmed by players in the linked discussion; not yet matched to an official build note.",
+        "zh-cn": "链接讨论中有多名玩家重复确认；尚未对应到官方 build 说明。",
+        "ru": "Это многократно подтверждено игроками в обсуждении; официальная запись сборки пока не найдена."
+      },
+      "searchTerms": {
+        "en": "personal storage box fabricator cannot access seed minerals multiplayer locker",
+        "zh-cn": "个人储物箱 制作设备 不能访问 矿物种子 联机 储物柜",
+        "ru": "личный ящик фабрикатор не берёт материалы семена минералов кооператив"
+      },
+      "relatedPages": ["base-building.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "What is this box actually used for?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uv87gq/what_is_this_box_actually_used_for/",
+        "observedAt": "2026-07-16",
+        "upvotes": 216,
+        "comments": 90,
+        "approximate": true
+      }
+    },
+    {
+      "id": "trailer-location-not-in-game",
+      "featuredRank": null,
+      "category": "locations",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "community-consensus",
+      "question": {
+        "en": "Where is the large habitat shown in the trailer?",
+        "zh-cn": "预告片里的大型基地在哪里？",
+        "ru": "Где находится большая база из трейлера?"
+      },
+      "answer": {
+        "en": "Players have not found it in the current game. The leading explanation is that it is an older Observatory concept or an unreleased area, so there is no reliable route to it yet.",
+        "zh-cn": "玩家在当前版本中尚未找到它。主流判断是旧版 Observatory 概念或尚未开放的区域，因此目前没有可靠路线。",
+        "ru": "Игроки не нашли её в текущей версии. Наиболее вероятно, что это ранняя концепция Observatory или ещё не выпущенная область; надёжного маршрута пока нет."
+      },
+      "evidenceNote": {
+        "en": "Community consensus only. No official statement or in-game build capture has been linked.",
+        "zh-cn": "仅为玩家共识，尚无官方说明或对应 build 的实机证据。",
+        "ru": "Только мнение сообщества; официального заявления и подтверждения в конкретной сборке нет."
+      },
+      "searchTerms": {
+        "en": "trailer habitat observatory tower location does not exist unreleased concept art",
+        "zh-cn": "预告片 基地 Observatory 观测站 地点 不存在 未开放 概念图",
+        "ru": "трейлер база обсерватория местоположение нет в игре концепт"
+      },
+      "relatedPages": ["locations.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Where is this?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1utvc6q/where_is_this/",
+        "observedAt": "2026-07-16",
+        "upvotes": 114,
+        "comments": 19,
+        "approximate": true
+      }
+    },
+    {
+      "id": "angel-comb-main-cankers-stuck",
+      "featuredRank": null,
+      "category": "story-bug",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "community-reported",
+      "question": {
+        "en": "Why won't the last Angel Comb cankers open?",
+        "zh-cn": "Angel Comb 最后两个 canker 为什么不打开？",
+        "ru": "Почему последние наросты Angel Comb не открываются?"
+      },
+      "answer": {
+        "en": "First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe.",
+        "zh-cn": "先确认所有幼体 comb 都已清除，并在触发闭合范围外攻击。如果感染已全部消失，但升级到 EA 1.1 后主 canker 仍关闭，多名玩家报告这是剧情软锁，应按 bug 处理，不是漏了配方。",
+        "ru": "Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
+      },
+      "evidenceNote": {
+        "en": "Diagnosis combines repeated player reports. Exact affected build and a safe official recovery path are still unverified.",
+        "zh-cn": "诊断来自多条玩家报告；受影响的精确 build 和安全的官方恢复方案仍未验证。",
+        "ru": "Диагноз основан на повторяющихся сообщениях игроков; точная сборка и официальный безопасный способ восстановления не проверены."
+      },
+      "searchTerms": {
+        "en": "angel comb canker won't open softlock progression bug bloom juvenile EA 1.1",
+        "zh-cn": "Angel Comb canker 不打开 剧情卡住 软锁 bug 幼体 EA 1.1",
+        "ru": "Angel Comb не открывается мягкая блокировка сюжет баг EA 1.1"
+      },
+      "relatedPages": ["story.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Need help with Alien Ruins Angel Comb",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uswhjb/need_help_with_alien_ruins_angel_comb/",
+        "observedAt": "2026-07-16",
+        "upvotes": 5,
+        "comments": 24,
+        "approximate": true
+      }
+    },
+    {
+      "id": "strong-acid-after-update",
+      "featuredRank": null,
+      "category": "crafting",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "wiki-and-community",
+      "question": {
+        "en": "Where did the Strong Acid recipe move in EA 1.1?",
+        "zh-cn": "EA 1.1 的强酸配方移到哪里了？",
+        "ru": "Куда перенесли рецепт Strong Acid в EA 1.1?"
+      },
+      "answer": {
+        "en": "Check the Fabricator, not only the Processor. The current record shows the available recipe paths and their stations.",
+        "zh-cn": "去装配台查看，不要只找处理器。当前资料页列出了可用配方路径及对应制作站。",
+        "ru": "Проверьте Fabricator, а не только Processor. В текущей записи указаны доступные рецепты и их станции."
+      },
+      "evidenceNote": {
+        "en": "The station change is confirmed in the discussion and the linked recipe record is tied to a permanent Wiki revision.",
+        "zh-cn": "讨论确认了制作站变化；链接的配方资料保留了 Wiki 永久修订版本。",
+        "ru": "Изменение станции подтверждено обсуждением; запись рецепта привязана к постоянной версии Wiki."
+      },
+      "searchTerms": {
+        "en": "strong acid recipe moved processor fabricator EA 1.1 cyst",
+        "zh-cn": "强酸 配方 移动 处理器 装配台 EA 1.1 cyst",
+        "ru": "Strong Acid рецепт перенесли Processor Fabricator EA 1.1"
+      },
+      "relatedPages": ["guide/items/strong-acid.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Two questions since the new update.",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1ura835/two_questions_since_the_new_update/",
+        "observedAt": "2026-07-16",
+        "upvotes": 13,
+        "comments": 15,
+        "approximate": true
+      }
+    },
+    {
+      "id": "rebioscan-biofilm-not-respawning",
+      "featuredRank": null,
+      "category": "bioscan-bug",
+      "buildContext": "EA 1.1",
+      "resolution": "open",
+      "verification": "conflicting-community-reports",
+      "question": {
+        "en": "Why isn't Biofilm respawning for a re-bioscan?",
+        "zh-cn": "重新 bioscan 时为什么 Biofilm 不刷新？",
+        "ru": "Почему Biofilm не возрождается для повторного bioscan?"
+      },
+      "answer": {
+        "en": "There is no reliable fix yet. Some saves respawn Bloom Sap but not Biofilm, while others differ. Check distant Cicada wrecks for missed scans and keep at least one Bloom Sap, but treat the respawn behavior as unresolved.",
+        "zh-cn": "目前没有可靠修复方案。有些存档只刷新 Bloom Sap、不刷新 Biofilm，另一些存档表现不同。可以检查较远的 Cicada 残骸是否漏扫，并保留至少一个 Bloom Sap，但刷新机制仍未解决。",
+        "ru": "Надёжного исправления пока нет. В некоторых сохранениях возрождается Bloom Sap, но не Biofilm; в других поведение отличается. Проверьте дальние обломки Cicada и сохраните хотя бы один Bloom Sap, но считайте проблему нерешённой."
+      },
+      "evidenceNote": {
+        "en": "Conflicting save-specific reports. This remains an open issue and is intentionally not featured as a solved answer.",
+        "zh-cn": "不同存档的报告互相冲突；这是开放问题，因此不会作为“已解决”内容推荐。",
+        "ru": "Сообщения зависят от сохранения и противоречат друг другу; вопрос остаётся открытым и не отмечается как решённый."
+      },
+      "searchTerms": {
+        "en": "biofilm respawn re bioscan bloom sap cicada wreck bug 80 scans",
+        "zh-cn": "Biofilm 刷新 重扫 bioscan Bloom Sap Cicada 残骸 bug",
+        "ru": "Biofilm возрождение повторное сканирование Bloom Sap Cicada баг"
+      },
+      "relatedPages": ["equipment-upgrades.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Need help with re-bioscan",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uug54f/need_help_with_rebioscan/",
+        "observedAt": "2026-07-16",
+        "upvotes": 0,
+        "comments": 9,
+        "approximate": true
+      }
+    },
+    {
+      "id": "wall-rack-blueprint-location",
+      "featuredRank": null,
+      "category": "blueprints",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "Where are the Wall Rack blueprint fragments?",
+        "zh-cn": "Wall Rack 蓝图碎片在哪里？",
+        "ru": "Где находятся фрагменты чертежа Wall Rack?"
+      },
+      "answer": {
+        "en": "Players report four fragments and three required scans. Check the Welcome Center route toward Camp One, platforms east of the BFJ plateaus, and the old habitat/BFJ base; use the Scanner's orange fragment markers for missed pieces.",
+        "zh-cn": "玩家报告地图上有 4 个碎片，需扫描 3 个。检查 Welcome Center 通往 Camp One 的路线、BFJ 高原以东的平台，以及旧基地/BFJ 基地；可用扫描仪的橙色碎片标记补漏。",
+        "ru": "Игроки сообщают о четырёх фрагментах, из которых нужно просканировать три. Проверьте путь от Welcome Center к Camp One, платформы к востоку от BFJ plateaus и старую базу/BFJ; пропуски видны как оранжевые отметки Scanner."
+      },
+      "evidenceNote": {
+        "en": "Location list is community-reported. The linked item page proves the recipe record but not these coordinates.",
+        "zh-cn": "位置列表来自玩家报告；关联物品页只能证明配方资料，不能证明这些坐标。",
+        "ru": "Список мест сообщён игроками; связанная страница предмета подтверждает рецепт, но не координаты."
+      },
+      "searchTerms": {
+        "en": "wall rack blueprint fragments welcome center camp one BFJ old habitat scanner orange dots",
+        "zh-cn": "Wall Rack 蓝图 碎片 Welcome Center Camp One BFJ 旧基地 扫描仪 橙点",
+        "ru": "Wall Rack чертёж фрагменты Welcome Center Camp One BFJ Scanner"
+      },
+      "relatedPages": ["guide/items/wall-rack.html", "blueprints.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Wheres The Wall Rack Blueprint",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1usmwfz/wheres_the_wall_rack_blueprint/",
+        "observedAt": "2026-07-16",
+        "upvotes": 3,
+        "comments": 6,
+        "approximate": true
+      }
+    },
+    {
+      "id": "scout-ray-chassis-wont-fabricate",
+      "featuredRank": null,
+      "category": "vehicles",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "Why won't the Scout Ray chassis fabricate?",
+        "zh-cn": "Scout Ray 底盘为什么无法制造？",
+        "ru": "Почему не создаётся шасси Scout Ray?"
+      },
+      "answer": {
+        "en": "Make the Moonpool much wider. After EA 1.1 the chassis can fabricate with its wings extended, so a pool that worked before may no longer provide enough clearance.",
+        "zh-cn": "把 Moonpool 扩大很多。EA 1.1 后底盘可能会展开机翼制造，之前够用的池子现在可能没有足够空间。",
+        "ru": "Сделайте Moonpool значительно шире. После EA 1.1 шасси может создаваться с раскрытыми крыльями, поэтому прежнего пространства может не хватать."
+      },
+      "evidenceNote": {
+        "en": "The original poster confirmed the larger Moonpool solved the issue; no exact minimum dimensions are verified.",
+        "zh-cn": "原帖作者确认扩大 Moonpool 后解决；本站尚未验证最小尺寸。",
+        "ru": "Автор подтвердил, что увеличение Moonpool решило проблему; точные минимальные размеры не проверены."
+      },
+      "searchTerms": {
+        "en": "scout ray chassis won't craft fabricate moonpool too small wings clearance EA 1.1",
+        "zh-cn": "Scout Ray 蝌蚪号 载具 底盘 无法制造 Moonpool 太小 机翼 空间 EA 1.1",
+        "ru": "Scout Ray Головастик транспорт шасси не создаётся Moonpool мало места крылья EA 1.1"
+      },
+      "relatedPages": ["guide/items/tadpole-scout-ray-chassis.html", "vehicle-planner.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Update 1.1 scout ray chassis problem",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut2h6u/update_11_scout_ray_chassis_problem/",
+        "observedAt": "2026-07-16",
+        "upvotes": 5,
+        "comments": 7,
+        "approximate": true
+      }
+    },
+    {
+      "id": "axum-lever-location",
+      "featuredRank": null,
+      "category": "story-location",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "Where is the lever after powering the Axum station?",
+        "zh-cn": "启动 Axum 电站后，拉杆在哪里？",
+        "ru": "Где рычаг после включения станции Axum?"
+      },
+      "answer": {
+        "en": "Do not keep searching at the base of the power station. Go toward the Rosetta Stone tower; the lever is inside the tower, in the center of the first room.",
+        "zh-cn": "不要继续在电站底部寻找。前往 Rosetta Stone 塔，拉杆就在塔内第一个房间的中央。",
+        "ru": "Не ищите у основания электростанции. Идите к башне Rosetta Stone; рычаг находится внутри, в центре первой комнаты."
+      },
+      "evidenceNote": {
+        "en": "The original poster confirmed this route. Screenshots and coordinates are still missing.",
+        "zh-cn": "原帖作者确认了这条路线，但仍缺少截图和坐标。",
+        "ru": "Автор поста подтвердил маршрут; скриншоты и координаты пока отсутствуют."
+      },
+      "searchTerms": {
+        "en": "axum power station lever door entrance rosetta stone tower first room",
+        "zh-cn": "Axum 电站 拉杆 门 入口 Rosetta Stone 塔 第一个房间",
+        "ru": "Axum электростанция рычаг вход Rosetta Stone башня первая комната"
+      },
+      "relatedPages": ["locations.html", "story.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Lever to get inside Axum",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuq1uv/lever_to_get_inside_axum/",
+        "observedAt": "2026-07-16",
+        "upvotes": 2,
+        "comments": 3,
+        "approximate": true
+      }
+    },
+    {
+      "id": "hanging-tailing-jar-wont-place",
+      "featuredRank": null,
+      "category": "base-building",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "Why won't the Hanging Tailing Jar place?",
+        "zh-cn": "Hanging Tailing Jar 为什么放不下？",
+        "ru": "Почему не размещается Hanging Tailing Jar?"
+      },
+      "answer": {
+        "en": "Disable snapping first, then move it clear of nearby doorway or object hitboxes. The room can look empty while an invisible placement boundary still overlaps the jar.",
+        "zh-cn": "先关闭吸附，再避开附近门口或物体的碰撞范围。房间看起来很空，也可能有不可见的放置边界与罐子重叠。",
+        "ru": "Сначала отключите привязку, затем отодвиньте предмет от хитбоксов дверей и соседних объектов. Комната может казаться пустой, хотя невидимая граница мешает размещению."
+      },
+      "evidenceNote": {
+        "en": "Community workaround only; exact placement bounds have not been measured.",
+        "zh-cn": "仅为玩家解决办法；本站尚未测量精确放置边界。",
+        "ru": "Только пользовательский обходной путь; точные границы размещения не измерены."
+      },
+      "searchTerms": {
+        "en": "hanging tailing jar cannot place build snapping hitbox doorway empty room",
+        "zh-cn": "Hanging Tailing Jar 不能放置 建造 吸附 碰撞 门口 空房间",
+        "ru": "Hanging Tailing Jar не размещается привязка хитбокс дверь"
+      },
+      "relatedPages": ["guide/items/hanging-tailing-jar.html", "base-building.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Hanging Tailing Jar",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1ur31cx/hanging_tailing_jar/",
+        "observedAt": "2026-07-16",
+        "upvotes": 3,
+        "comments": 2,
+        "approximate": true
+      }
+    },
+    {
+      "id": "where-to-find-sandspear",
+      "featuredRank": null,
+      "category": "creatures",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "wiki-and-community",
+      "question": {
+        "en": "Where can I find a Sandspear for the bioscan?",
+        "zh-cn": "生物扫描缺的潜沙矛（Sandspear）在哪里？",
+        "ru": "Где найти Копейника (Sandspear) для биосканирования?"
+      },
+      "answer": {
+        "en": "Look for a tongue and spikes protruding from sandy cave floors. The original poster confirmed one below the Observatory; another player reported one in the cave beneath the coral dome by a wreck about 100 m northeast of the lifepod. The Wiki record also lists Overgrown Ruins, Plateaus, Shallows and Necrolei Hills.",
+        "zh-cn": "留意沙质洞穴地面露出的舌状物和尖刺。原帖作者确认在 Observatory 下方找到一只；另一名玩家报告，救生舱东北约 100 米处的残骸旁有珊瑚穹顶，其下洞穴里也有。Wiki 资料还记录了 Overgrown Ruins、Plateaus、Shallows 和 Necrolei Hills。",
+        "ru": "Ищите язык и шипы, торчащие из песчаного дна пещер. Автор поста подтвердил находку под Observatory; другой игрок сообщил о пещере под коралловым куполом у обломков, примерно в 100 м к северо-востоку от спасательной капсулы. В Wiki также указаны Overgrown Ruins, Plateaus, Shallows и Necrolei Hills."
+      },
+      "evidenceNote": {
+        "en": "The biome range is Wiki-backed. The route and visual cues are community-confirmed; this site still lacks an in-game screenshot and exact coordinates.",
+        "zh-cn": "生态区范围来自 Wiki。路线和外观提示由玩家确认；本站仍缺实机截图和精确坐标。",
+        "ru": "Диапазон биомов подтверждён Wiki. Маршрут и визуальные признаки подтверждены игроками; у сайта пока нет игрового скриншота и точных координат."
+      },
+      "searchTerms": {
+        "en": "Sandspear bioscan creature where find Observatory coral dome cave lifepod",
+        "zh-cn": "潜沙矛 Sandspear 生物扫描 在哪里 Observatory 珊瑚穹顶 洞穴 救生舱",
+        "ru": "Копейник Sandspear биосканирование где найти Observatory коралловый купол пещера"
+      },
+      "relatedPages": ["guide/creatures/sandspear.html", "locations.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Cannot find Sandspear",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1utlo3w/cannot_find_sandspear/",
+        "observedAt": "2026-07-16",
+        "upvotes": 3,
+        "comments": 8,
+        "approximate": false
+      }
+    },
+    {
+      "id": "where-to-find-axum-resonator",
+      "featuredRank": null,
+      "category": "story-location",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "community-reported",
+      "question": {
+        "en": "Where is the Axum Resonator in EA 1.1?",
+        "zh-cn": "EA 1.1 的 Axum Resonator 在哪里？",
+        "ru": "Где найти Axum Resonator в EA 1.1?"
+      },
+      "answer": {
+        "en": "Search the Green Mines around 400 m depth. A player describes it as looking like a piece of melted scrap and reports several in that area.",
+        "zh-cn": "到约 400 米深的 Green Mines 搜索。有玩家称它看起来像一块熔化的废料，并报告该区域有数个。",
+        "ru": "Ищите в Green Mines примерно на глубине 400 м. По словам игрока, предмет похож на кусок расплавленного металлолома, и в этом районе их несколько."
+      },
+      "evidenceNote": {
+        "en": "One player answer received 6 points, but the original poster did not confirm it. No permanent Wiki record or in-game capture has been matched, so this remains partial.",
+        "zh-cn": "一条玩家回答获得 6 分，但原帖作者未确认。尚未对应到永久 Wiki 记录或实机截图，因此仍标记为部分解决。",
+        "ru": "Один ответ игрока получил 6 баллов, но автор поста его не подтвердил. Постоянная запись Wiki или игровой скриншот не найдены, поэтому ответ остаётся частичным."
+      },
+      "searchTerms": {
+        "en": "Axum Resonator where find Green Mines 400m Angel Comb cure melted scrap",
+        "zh-cn": "Axum Resonator 在哪里 Green Mines 400 米 Angel Comb 共振器 熔化废料",
+        "ru": "Axum Resonator где найти Green Mines 400 м Angel Comb расплавленный металлолом"
+      },
+      "relatedPages": ["locations.html", "story.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Where is the Axum Resonator??",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut2jvh/where_is_the_axum_resonator/",
+        "observedAt": "2026-07-16",
+        "upvotes": 5,
+        "comments": 3,
+        "approximate": false
+      }
+    },
+    {
+      "id": "cross-collector-canyon-safely",
+      "featuredRank": 2,
+      "category": "traversal",
+      "buildContext": "EA 1.0–1.1",
+      "resolution": "partial",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "How can I cross the Collector canyon without losing my Tadpole?",
+        "zh-cn": "怎样穿过 Collector 峡谷，尽量不损失蝌蚪号？",
+        "ru": "Как пересечь каньон Коллекционера и не потерять Головастик?"
+      },
+      "answer": {
+        "en": "Take the far south/right edge, hug the red Early Access boundary without crossing it, and keep the Tadpole moving at full speed. Players report two workable lines: skim the surface, or stay low under the outer crest and use terrain as cover. Do not stop in open water; if spotted, break line of sight behind the ridge before repairing. This reduces risk but does not guarantee a clean crossing after the more aggressive EA 1.1 Collector behavior.",
+        "zh-cn": "走最南侧/最右侧路线，贴着红色抢先体验边界前进，但不要越界，并让蝌蚪号保持全速。玩家反复报告两条可行路线：贴近水面冲刺，或沿外侧山脊下方低位前进，用地形遮挡。不要在开阔水域停下；被发现后先绕到山脊后断开视线，再维修。EA 1.1 的 Collector 更具攻击性，因此这只能降低风险，不能保证无伤通过。",
+        "ru": "Идите по самому южному/правому краю, держитесь вдоль красной границы раннего доступа, но не пересекайте её, и не сбрасывайте скорость Головастика. Игроки используют два маршрута: быстро идти у поверхности либо низко под внешним гребнем, прикрываясь рельефом. Не останавливайтесь в открытой воде; если вас заметили, сначала скройтесь за гребнем и только потом ремонтируйтесь. Это снижает риск, но не гарантирует безопасный проход после усиления Коллекционера в EA 1.1."
+      },
+      "evidenceNote": {
+        "en": "The original poster completed the crossing but was grabbed and arrived with 9% vehicle health. The boundary and terrain routes are repeated community advice; Collector AI is patch-sensitive, so this remains partial.",
+        "zh-cn": "原帖作者最终成功通过，但中途被抓住，到达时载具只剩 9% 耐久。贴边与利用地形是多名玩家重复给出的建议；Collector AI 会随补丁变化，因此仍标记为部分解决。",
+        "ru": "Автор поста пересёк каньон, но был схвачен и добрался с 9% прочности транспорта. Маршруты вдоль границы и под прикрытием рельефа неоднократно советовали игроки; ИИ Коллекционера зависит от патча, поэтому ответ частичный."
+      },
+      "searchTerms": {
+        "en": "cross collector canyon safely tadpole red boundary south edge surface route ridge cover leviathan",
+        "zh-cn": "穿过 Collector 峡谷 安全 蝌蚪号 红色边界 南侧 水面 山脊 掩体 利维坦",
+        "ru": "пересечь каньон Коллекционера безопасно Головастик красная граница южный край поверхность гребень"
+      },
+      "relatedPages": ["guide/creatures/collector-leviathan.html", "locations.html"],
+      "additionalSources": [
+        {
+          "title": "New collector leviathan AI is crazy",
+          "url": "https://www.reddit.com/r/Subnautica_2/comments/1urc4pf/new_collector_leviathan_ai_is_crazy/"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Im too terrified to cross the canyon to the other side. Any suggestions?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uevo0p/im_too_terrified_to_cross_the_canyon_to_the_other/",
+        "observedAt": "2026-07-16",
+        "upvotes": 713,
+        "comments": 372,
+        "approximate": true
+      }
+    },
+    {
+      "id": "scan-collector-leviathan-safely",
+      "featuredRank": 4,
+      "category": "creatures",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "How do I bioscan the Collector Leviathan safely?",
+        "zh-cn": "怎样较安全地完成 Collector Leviathan 生物扫描？",
+        "ru": "Как безопаснее провести биосканирование Левиафана-коллекционера?"
+      },
+      "answer": {
+        "en": "Equip the Camouflage passive biomod, approach in a Tadpole, and exit as the Collector attacks the vehicle. Swim behind it, finish the scan, then stop moving so Camouflage can hide you until it loses interest. Distraction Flares are another repeatedly reported option; leave the Tadpole at the trench edge if you do not want to risk vehicle damage.",
+        "zh-cn": "装备静止时隐身的 Camouflage 被动生物模块，驾驶蝌蚪号接近，并在 Collector 攻击载具时离舱。游到它后方完成扫描，然后停止移动，让 Camouflage 隐藏你，等它失去兴趣。多名玩家也确认可用干扰照明弹吸引注意；如果不想冒载具受损的风险，可把蝌蚪号停在沟槽边缘。",
+        "ru": "Установите пассивный биомод Camouflage, подойдите на Головастике и покиньте его, когда Коллекционер атакует транспорт. Заплывите сзади, завершите сканирование и замрите, чтобы Camouflage скрыл вас до потери интереса. Игроки также многократно подтверждают отвлекающие шашки; если не хотите рисковать транспортом, оставьте Головастик у края впадины."
+      },
+      "evidenceNote": {
+        "en": "The linked discussion contains repeated successful reports for Camouflage, Tadpole distraction and flares. Exact aggro range and timing were not measured and may change with AI updates.",
+        "zh-cn": "链接讨论中有多名玩家确认 Camouflage、用蝌蚪号吸引攻击和干扰照明弹均可成功。本站尚未测量精确仇恨范围与时机，而且 AI 更新可能改变行为。",
+        "ru": "В обсуждении многократно подтверждены Camouflage, отвлечение Головастиком и шашками. Точная дальность агрессии и тайминги не измерены и могут меняться с обновлениями ИИ."
+      },
+      "searchTerms": {
+        "en": "bioscan scan collector leviathan safely camouflage invisibility biomod distraction flare tadpole bait",
+        "zh-cn": "生物扫描 Collector Leviathan 安全 Camouflage 隐身 生物模块 干扰照明弹 蝌蚪号 诱饵",
+        "ru": "биосканирование Левиафан-коллекционер безопасно Camouflage невидимость биомод шашка Головастик"
+      },
+      "relatedPages": ["guide/creatures/collector-leviathan.html", "guide/items/distraction-flare.html", "equipment-upgrades.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "How I got the Collector Leviathan scan after pussyfooting around it for like 20 minutes.",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1um3zyk/how_i_got_the_collector_leviathan_scan_after/",
+        "observedAt": "2026-07-16",
+        "upvotes": 205,
+        "comments": 54,
+        "approximate": true
+      }
+    },
+    {
+      "id": "expand-inventory-with-hacked-biobeds",
+      "featuredRank": 5,
+      "category": "equipment",
+      "buildContext": "EA 1.1",
+      "resolution": "solved",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "How do I permanently expand my inventory and hotbar?",
+        "zh-cn": "怎样永久扩充背包和快捷栏？",
+        "ru": "Как навсегда расширить инвентарь и панель быстрого доступа?"
+      },
+      "answer": {
+        "en": "Find the hacked, open biobeds inside colonist bunkers and interact with the green DNA terminal. These beds apply permanent inventory upgrades, and later upgrades also add hotbar slots; they do not change your respawn point. If you missed them, use the Anomaly Scanner's Biohacking Chamber target to locate the relevant bunkers.",
+        "zh-cn": "寻找殖民者地堡内被破解、处于打开状态的生物床，并与绿色 DNA 终端互动。这些生物床会永久扩充背包，后续升级还会增加快捷栏槽位；它们不会改变重生点。如果之前漏掉了，可用异常扫描仪的 Biohacking Chamber 目标定位相关地堡。",
+        "ru": "Найдите взломанные открытые биокровати в бункерах колонистов и взаимодействуйте с зелёным терминалом ДНК. Они навсегда расширяют инвентарь, а поздние улучшения добавляют ячейки быстрого доступа; точка возрождения не меняется. Пропущенные бункеры можно искать через цель Biohacking Chamber в Anomaly Scanner."
+      },
+      "evidenceNote": {
+        "en": "The mechanic and scanner target are repeatedly confirmed in the linked discussion. This site has not yet mapped every biobed location or independently captured each upgrade in-game.",
+        "zh-cn": "链接讨论中有多名玩家重复确认该机制和扫描目标。本站尚未绘制所有生物床位置，也未逐个用实机截图验证升级效果。",
+        "ru": "Механика и цель сканера многократно подтверждены в обсуждении. Сайт ещё не нанёс на карту все биокровати и не зафиксировал каждое улучшение в игре."
+      },
+      "searchTerms": {
+        "en": "expand inventory backpack hotbar slots hacked biobed biohacking chamber anomaly scanner colonist bunker DNA upgrade",
+        "zh-cn": "扩充 背包 快捷栏 槽位 破解 生物床 Biohacking Chamber 异常扫描仪 殖民者 地堡 DNA 升级",
+        "ru": "расширить инвентарь панель быстрого доступа взломанная биокровать Biohacking Chamber Anomaly Scanner бункер ДНК"
+      },
+      "relatedPages": ["equipment-upgrades.html", "locations.html"],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "The most baffling gameplay design decision...",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1umd2f9/the_most_baffling_gameplay_design_decision/",
+        "observedAt": "2026-07-16",
+        "upvotes": 168,
+        "comments": 70,
+        "approximate": true
+      }
+    },
+    {
+      "id": "livekernelevent-141-hp-omen-crash",
+      "featuredRank": null,
+      "category": "crashes",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+        "zh-cn": "HP Omen 笔记本玩 Subnautica 2 为什么反复出现 LiveKernelEvent 141 崩溃？",
+        "ru": "Почему Subnautica 2 постоянно вылетает с LiveKernelEvent 141 на ноутбуке HP Omen?"
+      },
+      "answer": {
+        "en": "In the linked HP Omen case, unplugging the laptop made the game stable by putting the system into a lower-power state. Use battery mode or a known-stable outlet only as a diagnostic. If the result changes with the power source, check the adapter, battery, power delivery and BIOS, and contact HP hardware support instead of continuing to change graphics settings. This is not a universal fix for unrelated crashes.",
+        "zh-cn": "在链接帖的 HP Omen 案例中，拔掉电源后系统进入较低功耗状态，游戏恢复稳定。仅把电池模式或稳定电源插座作为诊断手段；如果结果随供电方式改变，应检查适配器、电池、供电和 BIOS，并联系 HP 硬件支持，不要继续把它当成画质设置问题。这不是其他崩溃的通用修复。",
+        "ru": "В описанном случае с HP Omen игра стала стабильной после отключения ноутбука от сети: система перешла в менее мощный режим. Используйте работу от батареи или заведомо стабильную розетку только для диагностики. Если результат зависит от питания, проверьте адаптер, батарею, цепи питания и BIOS и обратитесь в поддержку HP, а не продолжайте менять графику. Это не универсальное решение для всех вылетов."
+      },
+      "evidenceNote": {
+        "en": "The original poster confirmed that battery mode stopped the crashes. The underlying power or hardware fault was not professionally diagnosed, so the answer remains partial and hardware-specific.",
+        "zh-cn": "原帖作者确认电池模式停止了崩溃，但供电或硬件根因未经专业诊断，因此仍标记为特定硬件案例的部分解决。",
+        "ru": "Автор поста подтвердил, что работа от батареи прекратила вылеты. Причина в питании или оборудовании не была профессионально диагностирована, поэтому ответ частичный и относится к конкретному оборудованию."
+      },
+      "searchTerms": {
+        "en": "Subnautica 2 crash every two minutes LiveKernelEvent 141 HP Omen laptop unplug charger battery power supply adapter BIOS",
+        "zh-cn": "Subnautica 2 每两分钟崩溃 LiveKernelEvent 141 HP Omen 笔记本 拔电源 电池 适配器 BIOS",
+        "ru": "Subnautica 2 вылет LiveKernelEvent 141 HP Omen ноутбук отключить зарядку батарея адаптер BIOS"
+      },
+      "relatedPages": [],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Game crashes constantly",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuvy3t/game_crashes_constantly/",
+        "observedAt": "2026-07-16",
+        "upvotes": 4,
+        "comments": 7,
+        "approximate": false
+      }
+    }
+  ]
+}

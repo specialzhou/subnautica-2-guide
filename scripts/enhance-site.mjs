@@ -7,6 +7,7 @@ const base = "/subnautica-2-guide/";
 const items = JSON.parse(await readFile(path.join(root, "data/wiki-items.json"), "utf8"));
 const entities = JSON.parse(await readFile(path.join(root, "data/wiki-entities.json"), "utf8"));
 const media = JSON.parse(await readFile(path.join(root, "data/media.json"), "utf8"));
+const playerQuestions = JSON.parse(await readFile(path.join(root, "data/player-questions.json"), "utf8"));
 const localizedNames = JSON.parse(await readFile(path.join(root, "data/localized-names.json"), "utf8")).names;
 const imageByPage = new Map(media.images.map((image) => [image.page, image]));
 for (const item of items.items) {
@@ -55,7 +56,7 @@ const imageByTitle = new Map([
   ...entities.entities.filter((entity) => entity.media).map((entity) => [entity.title, entity.media.url]),
 ]);
 const nameEntries = Object.entries(localizedNames).sort(([a], [b]) => b.length - a.length);
-const index = [...guides, ...searchItems, ...searchEntities].map((entry) => {
+const recordIndex = [...guides, ...searchItems, ...searchEntities].map((entry) => {
   const localizedTitles = guideTitles[entry.title] ?? {
     "zh-cn": localizedNames[entry.title]?.["zh-cn"],
     ru: localizedNames[entry.title]?.ru,
@@ -74,7 +75,25 @@ const index = [...guides, ...searchItems, ...searchEntities].map((entry) => {
     localizedTerms: { "zh-cn": localizedTerms["zh-cn"].join(" "), ru: localizedTerms.ru.join(" ") },
   };
 });
-const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime())).toISOString();
+const questionIndex = playerQuestions.questions.map((question) => ({
+  title: question.question.en,
+  type: "Question",
+  href: `questions.html#${question.id}`,
+  terms: `${question.searchTerms.en} ${question.answer.en} ${question.buildContext} ${question.category}`,
+  image: null,
+  localizedTitles: { "zh-cn": question.question["zh-cn"], ru: question.question.ru },
+  localizedTerms: {
+    "zh-cn": `${question.searchTerms["zh-cn"]} ${question.answer["zh-cn"]}`,
+    ru: `${question.searchTerms.ru} ${question.answer.ru}`,
+  },
+  answer: question.answer.en,
+  localizedAnswers: { "zh-cn": question.answer["zh-cn"], ru: question.answer.ru },
+  resolution: question.resolution,
+  featuredRank: question.featuredRank,
+  attention: { upvotes: question.source.upvotes, comments: question.source.comments, approximate: question.source.approximate },
+}));
+const index = [...recordIndex, ...questionIndex];
+const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime(), new Date(playerQuestions.collectedAt).getTime())).toISOString();
 const coverage = {
   total: items.publishedCount + entities.publishedCount,
   crafting: items.publishedCount,
@@ -83,6 +102,22 @@ const coverage = {
   biomes: entities.counts.biomes,
 };
 await writeFile(path.join(root, "data/search-index.json"), `${JSON.stringify({ generatedAt, count: index.length, entries: index }, null, 2)}\n`);
+
+const questionCopy = {
+  en: { kicker: "Live player problems", title: "Answers players need right now", all: "Browse all player questions", solved: "Solved", partial: "Partial", open: "Open", comments: "comments", placeholder: "Where is the blueprint? Why won't it craft? Ask a player problem…" },
+  "zh-cn": { kicker: "实时玩家痛点", title: "玩家现在最需要的答案", all: "查看全部玩家问题", solved: "已解决", partial: "部分解决", open: "仍待解决", comments: "条评论", placeholder: "蓝图在哪里？为什么无法制造？直接搜索玩家问题…" },
+  ru: { kicker: "Проблемы игроков", title: "Ответы, которые нужны игрокам сейчас", all: "Все вопросы игроков", solved: "Решено", partial: "Частично", open: "Открыто", comments: "комментариев", placeholder: "Где чертёж? Почему не создаётся? Найдите проблему…" },
+};
+const escapeHtml = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+const featuredQuestions = playerQuestions.questions.filter((question) => Number.isInteger(question.featuredRank)).sort((a, b) => a.featuredRank - b.featuredRank);
+const questionStatus = (question, locale) => questionCopy[locale][question.resolution];
+const questionMetrics = (question, locale) => `↑ ${question.source.upvotes} · ${question.source.comments} ${questionCopy[locale].comments}`;
+const homepageQuestionSection = (locale) => {
+  const copy = questionCopy[locale];
+  const [lead, ...rest] = featuredQuestions;
+  return `<section class="player-pain-section" aria-labelledby="player-pain-title"><div class="player-pain__heading"><div><p class="eyebrow">${copy.kicker} · ${playerQuestions.questions.length}</p><h2 id="player-pain-title">${copy.title}</h2></div><a href="questions.html">${copy.all} →</a></div><div class="player-pain__grid"><a class="pain-feature" href="questions.html#${lead.id}"><span class="pain-status pain-status--${lead.resolution}">${questionStatus(lead, locale)}</span><div><h3>${escapeHtml(lead.question[locale])}</h3><p class="pain-feature__answer">${escapeHtml(lead.answer[locale])}</p></div><span class="pain-meta"><span>Reddit</span><span>${questionMetrics(lead, locale)}</span><span>${lead.buildContext}</span></span></a><div class="pain-stack">${rest.map((question) => `<a class="pain-row" href="questions.html#${question.id}"><div><span class="pain-status pain-status--${question.resolution}">${questionStatus(question, locale)}</span><h3>${escapeHtml(question.question[locale])}</h3></div><p>${escapeHtml(question.answer[locale])}</p><span class="pain-row__arrow" aria-hidden="true">→</span><span class="pain-meta"><span>${questionMetrics(question, locale)}</span><span>${question.buildContext}</span></span></a>`).join("")}</div></div></section>`;
+};
+const homepageQuickLinks = (locale) => `<div class="quick-links">${featuredQuestions.slice(0, 3).map((question) => `<a href="questions.html#${question.id}">${escapeHtml(question.question[locale])} <span>→</span></a>`).join("")}</div>`;
 
 const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
 const pagePaths = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/([^<]*)<\/loc>/g)].map((match) => {
@@ -108,15 +143,20 @@ for (const pagePath of [...new Set(pagePaths)]) {
   let html = await readFile(filePath, "utf8");
   html = html
     .replace(new RegExp(`<link rel="stylesheet" href="${base}search\\.css(?:\\?v=\\d+)?">`, "g"), "")
+    .replace(new RegExp(`<link rel="stylesheet" href="${base}questions\\.css(?:\\?v=\\d+)?">`, "g"), "")
     .replace(new RegExp(`<script defer src="${base}search\\.js(?:\\?v=\\d+)?"></script>`, "g"), "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/, "")
+    .replace(/<section class="player-pain-section"[\s\S]*?<\/section>/, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/s, "");
   const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
   const searchCopy = locale === "zh-cn" ? "搜索" : locale === "ru" ? "Поиск" : "Search";
-  html = html.replace("</head>", `<link rel="stylesheet" href="${base}search.css?v=3"></head>`);
+  html = html.replace("</head>", `<link rel="stylesheet" href="${base}questions.css?v=1"><link rel="stylesheet" href="${base}search.css?v=4"></head>`);
   html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="${searchCopy}"><span aria-hidden="true">⌕</span><span>${searchCopy}</span><kbd>/</kbd></button></nav>`);
   const unlocalizedPath = pagePath.replace(/^(en|zh-cn|ru)\//, "");
   if (unlocalizedPath === "index.html") {
+    html = html.replace(/<div class="quick-links">[\s\S]*?<\/div>/, homepageQuickLinks(locale));
+    html = html.replace(/(<input data-global-search type="search" placeholder=")[^"]+(" autocomplete="off">)/, `$1${questionCopy[locale].placeholder}$2`);
+    html = html.replace(/(<section class="guide-hero"[\s\S]*?<\/section>)/, `$1${homepageQuestionSection(locale)}`);
     html = html.replace(/(<div class="notice"[^>]*><div class="shell notice__inner"><span[^>]*><\/span>)\d+/, `$1${coverage.total}`);
     html = html.replace(/(<dd id="wiki-count">)\d+/, `$1${coverage.total}`);
     for (const [href, count] of [["crafting.html", coverage.crafting], ["resources.html", coverage.resources], ["creatures.html", coverage.creatures], ["biomes.html", coverage.biomes]]) {
@@ -125,7 +165,7 @@ for (const pagePath of [...new Set(pagePaths)]) {
   }
   const image = imageByPage.get(unlocalizedPath);
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
-  html = html.replace("</body>", `<script defer src="${base}search.js?v=3"></script></body>`);
+  html = html.replace("</body>", `<script defer src="${base}search.js?v=4"></script></body>`);
   await writeFile(filePath, html);
 }
 

@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
 const localeData = JSON.parse(await readFile(path.join(root, "data", "locales.json"), "utf8"));
+const playerQuestions = JSON.parse(await readFile(path.join(root, "data", "player-questions.json"), "utf8"));
 const failures = [];
 const locales = localeData.locales;
 const rootPages = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/([^<]*)<\/loc>/g)].map((match) => match[1] || "index.html").filter((page) => !/^(en|zh-cn|ru)\//.test(page));
@@ -37,7 +38,7 @@ for (const phrase of ["扫描仪（Scanner）", "装配台（Fabricator）", "�
 if (zhScanner.includes("未知 Worlds")) failures.push("Company name was partially translated");
 if (zhScanner.includes("类型=\"") || !zhScanner.includes('type="image/svg+xml"')) failures.push("HTML type attribute was translated");
 const searchScript = await readFile(path.join(root, "search.js"), "utf8");
-for (const phrase of ['Guide: "攻略"', 'Item: "物品"', 'entry.localizedTitles?.[locale]', 'entry.localizedTerms?.[locale]', 'ru: { placeholder', 'entry.type === "Guide"']) if (!searchScript.includes(phrase)) failures.push(`Localized search behavior missing: ${phrase}`);
+for (const phrase of ['Guide: "攻略"', 'Question: "玩家问题"', 'Item: "物品"', 'entry.localizedTitles?.[locale]', 'entry.localizedTerms?.[locale]', 'entry.localizedAnswers?.[locale]', 'entry.type === "Guide"', 'entry.type === "Question"']) if (!searchScript.includes(phrase)) failures.push(`Localized search behavior missing: ${phrase}`);
 if (searchScript.includes('<small lang="en">${entry.title}</small>')) failures.push("Localized search still renders a separate English subtitle");
 const ru = await readFile(path.join(root, "ru", "starter-planner.html"), "utf8");
 for (const phrase of ["Начальный крафт", "Граф зависимостей рецептов", "Как читать план", "Русский"]) if (!ru.includes(phrase)) failures.push(`Russian translation smoke test missing: ${phrase}`);
@@ -47,6 +48,11 @@ for (const phrase of ["Find a recipe, material", "Search the complete guide", "C
 const ruScanner = await readFile(path.join(root, "ru", "guide", "items", "scanner.html"), "utf8");
 for (const phrase of ["Запись рецепта", "Что означает этот статус", "Изображение Wiki"]) if (!ruScanner.includes(phrase)) failures.push(`Russian detail translation missing: ${phrase}`);
 for (const phrase of ["Crafting record", "This record reproduces", "What this status means"]) if (ruScanner.includes(phrase)) failures.push(`Russian detail template leakage: ${phrase}`);
+const zhQuestions = await readFile(path.join(root, "zh-cn", "questions.html"), "utf8");
+const ruQuestions = await readFile(path.join(root, "ru", "questions.html"), "utf8");
+for (const phrase of ["玩家真正卡住的地方", "当前答案", "证据边界", "关注度快照", "不杀水蛞蝓也能制作水吗？"]) if (!zhQuestions.includes(phrase)) failures.push(`Chinese player question page missing: ${phrase}`);
+for (const phrase of ["Где игроки действительно застревают", "Текущий ответ", "Граница доказательств", "Снимок внимания"]) if (!ruQuestions.includes(phrase)) failures.push(`Russian player question page missing: ${phrase}`);
+for (const [locale, html] of [["zh-cn", zhQuestions], ["ru", ruQuestions]]) for (const question of playerQuestions.questions) if (!html.includes(`id="${question.id}"`)) failures.push(`${locale} player question missing: ${question.id}`);
 const zhLocations = await readFile(path.join(root, "zh-cn", "locations.html"), "utf8");
 const ruLocations = await readFile(path.join(root, "ru", "locations.html"), "utf8");
 for (const [locale, html, note] of [["zh-cn", zhLocations, "避免臆造翻译"], ["ru", ruLocations, "нет проверенного перевода"]]) {
@@ -55,6 +61,9 @@ for (const [locale, html, note] of [["zh-cn", zhLocations, "避免臆造翻译"]
 }
 const searchIndex = JSON.parse(await readFile(path.join(root, "data", "search-index.json"), "utf8"));
 if (searchIndex.entries.filter((entry) => entry.image).length < 180) failures.push("Search image coverage fell below 180 records");
+const questionSearchEntries = searchIndex.entries.filter((entry) => entry.type === "Question");
+if (questionSearchEntries.length !== playerQuestions.questions.length) failures.push("Player questions are missing from search index");
+if (!questionSearchEntries.every((entry) => entry.answer && entry.localizedAnswers?.["zh-cn"] && entry.localizedAnswers?.ru && entry.attention)) failures.push("Question search results lack answers or attention data");
 const itemData = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));
 const entityData = JSON.parse(await readFile(path.join(root, "data", "wiki-entities.json"), "utf8"));
 const localizedNames = JSON.parse(await readFile(path.join(root, "data", "localized-names.json"), "utf8").catch(() => "{\"names\":{}}"));

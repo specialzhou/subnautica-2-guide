@@ -16,8 +16,8 @@
   },
   "detailCursor": 0,
   "counts": {
-    "total": 23,
-    "needsReview": 22,
+    "total": 22,
+    "needsReview": 21,
     "addedThisRun": 0
   },
   "seenRedditIds": [
@@ -542,33 +542,6 @@
       "signals": [
         "not-working",
         "how"
-      ],
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1uuvy3t",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Game crashes constantly",
-      "questionKey": "game crashes constantly",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuvy3t/game_crashes_constantly/",
-      "publishedAt": "2026-07-13T00:10:23+00:00",
-      "lastSeenAt": "2026-07-16T14:13:21.547Z",
-      "painScore": 6,
-      "signals": [
-        "help",
-        "bug"
       ],
       "possibleDuplicateOf": null
     },

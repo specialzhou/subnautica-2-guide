@@ -23,7 +23,6 @@ RSS discovery only. Comment counts are approximate; upvotes are unavailable unti
 | ? | 7 | 1 | needs-review | [Game crashing at load? Got CurseForge?](https://www.reddit.com/r/Subnautica_2/comments/1utx73j/game_crashing_at_load_got_curseforge/) | — |
 | ? | 7 | 1 | needs-review | [Bug since the update?](https://www.reddit.com/r/Subnautica_2/comments/1utdw5d/bug_since_the_update/) | — |
 | ? | 7 | 1 | needs-review | [Can't play on legion go](https://www.reddit.com/r/Subnautica_2/comments/1usuldi/cant_play_on_legion_go/) | — |
-| ? | 6 | 1 | needs-review | [Game crashes constantly](https://www.reddit.com/r/Subnautica_2/comments/1uuvy3t/game_crashes_constantly/) | — |
 | ? | 6 | 1 | needs-review | [Well, that's a problem.](https://www.reddit.com/r/Subnautica_2/comments/1utbr1l/well_thats_a_problem/) | — |
 | ? | 5 | 1 | needs-review | [Bloom canker not spawning](https://www.reddit.com/r/Subnautica_2/comments/1uubmg7/bloom_canker_not_spawning/) | angel-comb-main-cankers-stuck (0.67) |
 | ? | 5 | 1 | needs-review | [What were the requirements for/when could NoA reprint and/or reset people?](https://www.reddit.com/r/Subnautica_2/comments/1utgnvn/what_were_the_requirements_forwhen_could_noa/) | — |

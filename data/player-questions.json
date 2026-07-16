@@ -470,6 +470,45 @@
         "comments": 3,
         "approximate": false
       }
+    },
+    {
+      "id": "livekernelevent-141-hp-omen-crash",
+      "featuredRank": null,
+      "category": "crashes",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "community-confirmed",
+      "question": {
+        "en": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+        "zh-cn": "HP Omen 笔记本玩 Subnautica 2 为什么反复出现 LiveKernelEvent 141 崩溃？",
+        "ru": "Почему Subnautica 2 постоянно вылетает с LiveKernelEvent 141 на ноутбуке HP Omen?"
+      },
+      "answer": {
+        "en": "In the linked HP Omen case, unplugging the laptop made the game stable by putting the system into a lower-power state. Use battery mode or a known-stable outlet only as a diagnostic. If the result changes with the power source, check the adapter, battery, power delivery and BIOS, and contact HP hardware support instead of continuing to change graphics settings. This is not a universal fix for unrelated crashes.",
+        "zh-cn": "在链接帖的 HP Omen 案例中，拔掉电源后系统进入较低功耗状态，游戏恢复稳定。仅把电池模式或稳定电源插座作为诊断手段；如果结果随供电方式改变，应检查适配器、电池、供电和 BIOS，并联系 HP 硬件支持，不要继续把它当成画质设置问题。这不是其他崩溃的通用修复。",
+        "ru": "В описанном случае с HP Omen игра стала стабильной после отключения ноутбука от сети: система перешла в менее мощный режим. Используйте работу от батареи или заведомо стабильную розетку только для диагностики. Если результат зависит от питания, проверьте адаптер, батарею, цепи питания и BIOS и обратитесь в поддержку HP, а не продолжайте менять графику. Это не универсальное решение для всех вылетов."
+      },
+      "evidenceNote": {
+        "en": "The original poster confirmed that battery mode stopped the crashes. The underlying power or hardware fault was not professionally diagnosed, so the answer remains partial and hardware-specific.",
+        "zh-cn": "原帖作者确认电池模式停止了崩溃，但供电或硬件根因未经专业诊断，因此仍标记为特定硬件案例的部分解决。",
+        "ru": "Автор поста подтвердил, что работа от батареи прекратила вылеты. Причина в питании или оборудовании не была профессионально диагностирована, поэтому ответ частичный и относится к конкретному оборудованию."
+      },
+      "searchTerms": {
+        "en": "Subnautica 2 crash every two minutes LiveKernelEvent 141 HP Omen laptop unplug charger battery power supply adapter BIOS",
+        "zh-cn": "Subnautica 2 每两分钟崩溃 LiveKernelEvent 141 HP Omen 笔记本 拔电源 电池 适配器 BIOS",
+        "ru": "Subnautica 2 вылет LiveKernelEvent 141 HP Omen ноутбук отключить зарядку батарея адаптер BIOS"
+      },
+      "relatedPages": [],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Game crashes constantly",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuvy3t/game_crashes_constantly/",
+        "observedAt": "2026-07-16",
+        "upvotes": 4,
+        "comments": 7,
+        "approximate": false
+      }
     }
   ]
 }

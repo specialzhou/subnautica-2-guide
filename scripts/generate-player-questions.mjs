@@ -102,7 +102,8 @@ const categoryLabels = {
   blueprints: { en: "Blueprints", "zh-cn": "蓝图", ru: "Чертежи" },
   vehicles: { en: "Vehicles", "zh-cn": "载具", ru: "Транспорт" },
   "story-location": { en: "Story location", "zh-cn": "剧情地点", ru: "Сюжетная локация" },
-  creatures: { en: "Creatures", "zh-cn": "生物", ru: "Существа" }
+  creatures: { en: "Creatures", "zh-cn": "生物", ru: "Существа" },
+  crashes: { en: "Crash troubleshooting", "zh-cn": "崩溃排查", ru: "Диагностика вылетов" }
 };
 
 const relatedPageLabels = {
@@ -139,13 +140,14 @@ function questionArticle(question, locale, index) {
   const copy = locales[code].copy;
   const status = copy.status[question.resolution];
   const category = categoryLabels[question.category]?.[code] ?? question.category;
+  const related = relatedLinks(question, locale);
   return `<article class="question-record question-record--${question.resolution}" id="${escapeHtml(question.id)}">
     <div class="question-record__rail"><span>${String(index + 1).padStart(2, "0")}</span><span class="question-status question-status--${question.resolution}">${status}</span></div>
     <div class="question-record__body">
       <div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h2>${escapeHtml(question.question[code])}</h2></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
       <div class="question-record__answer"><p class="eyebrow">${copy.answer}</p><p>${escapeHtml(question.answer[code])}</p></div>
       <div class="question-record__evidence"><div><strong>${copy.evidence}</strong><p>${escapeHtml(question.evidenceNote[code])}</p></div><div><strong>${copy.attention}</strong><p>${question.source.upvotes} ${copy.votes} · ${question.source.comments} ${copy.comments} · ${copy.observed} ${question.source.observedAt}</p></div></div>
-      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a><span>${copy.related}: ${relatedLinks(question, locale)}</span></div>
+      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a>${related ? `<span>${copy.related}: ${related}</span>` : ""}</div>
     </div>
   </article>`;
 }

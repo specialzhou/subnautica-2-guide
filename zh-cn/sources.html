@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/subnautica-2-guide/styles.css">
-<link rel="stylesheet" href="/subnautica-2-guide/locale.css"><link rel="alternate" hreflang="x-default" href="https://specialzhou.github.io/subnautica-2-guide/sources.html"><link rel="alternate" hreflang="en" href="https://specialzhou.github.io/subnautica-2-guide/en/sources.html"><link rel="alternate" hreflang="zh-CN" href="https://specialzhou.github.io/subnautica-2-guide/zh-cn/sources.html"><link rel="alternate" hreflang="ru" href="https://specialzhou.github.io/subnautica-2-guide/ru/sources.html"><link rel="stylesheet" href="/subnautica-2-guide/questions.css?v=1"><link rel="stylesheet" href="/subnautica-2-guide/search.css?v=4"></head>
+<link rel="stylesheet" href="/subnautica-2-guide/locale.css"><link rel="alternate" hreflang="x-default" href="https://specialzhou.github.io/subnautica-2-guide/sources.html"><link rel="alternate" hreflang="en" href="https://specialzhou.github.io/subnautica-2-guide/en/sources.html"><link rel="alternate" hreflang="zh-CN" href="https://specialzhou.github.io/subnautica-2-guide/zh-cn/sources.html"><link rel="alternate" hreflang="ru" href="https://specialzhou.github.io/subnautica-2-guide/ru/sources.html"><link rel="stylesheet" href="/subnautica-2-guide/questions.css?v=2"><link rel="stylesheet" href="/subnautica-2-guide/search.css?v=4"></head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
   <div class="notice"><div class="shell notice__inner"><span class="notice__mark" aria-hidden="true"></span>证据政策自 2026 年 7 月 12 日起生效。</div></div>
@@ -26,5 +26,5 @@
   <script>
     (function(){const d=(v)=>v?new Intl.DateTimeFormat("en",{day:"2-digit",month:"short",year:"numeric",timeZone:"UTC"}).format(new Date(`${v}T00:00:00Z`)):"尚未记录";fetch("/subnautica-2-guide/data/ledger.json").then(r=>r.json()).then(l=>{const b=document.getElementById("来源-rows");b.replaceChildren();l.sourceRegistry.forEach(s=>{const r=document.createElement("tr"),n=s.url?`<a href="${s.url}" rel="noopener noreferrer">${s.name}</a>`:s.name;r.innerHTML=`<td>${n}</td><td>${s.type}</td><td>${s.allowedUse}</td><td>${d(s.lastChecked)}</td>`;b.append(r)})}).catch(()=>{document.getElementById("来源-rows").innerHTML='<tr class="empty-row"><td colspan="4">来源 registry is temporarily unavailable. Open <a href="/subnautica-2-guide/data/ledger.json">the raw ledger</a>.</td></tr>'})}());
   </script>
-<script defer src="/subnautica-2-guide/search.js?v=4"></script></body>
+<script defer src="/subnautica-2-guide/analytics.js?v=1"></script><script defer src="/subnautica-2-guide/search.js?v=5"></script></body>
 </html>

@@ -6,6 +6,11 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const siteBase = "https://specialzhou.github.io/subnautica-2-guide/";
 const pathBase = "/subnautica-2-guide/";
 const localizedNames = JSON.parse(await readFile(path.join(root, "data", "localized-names.json"), "utf8")).names;
+const contentDates = await Promise.all(["wiki-items.json", "wiki-entities.json", "player-questions.json"].map(async (file) => {
+  const value = JSON.parse(await readFile(path.join(root, "data", file), "utf8"));
+  return new Date(value.generatedAt ?? value.collectedAt).getTime();
+}));
+const siteLastModified = new Date(Math.max(...contentDates)).toISOString().slice(0, 10);
 const locales = {
   en: { label: "English", htmlLang: "en", dictionary: {} },
   "zh-cn": { label: "简体中文", htmlLang: "zh-CN", dictionary: {
@@ -866,6 +871,8 @@ function stripLocaleMetadata(html) {
     .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?search\.css(?:\?v=\d+)?">/g, "")
     .replace(/<link rel="stylesheet" href="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?questions\.css(?:\?v=\d+)?">/g, "")
     .replace(/<script defer src="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?search\.js(?:\?v=\d+)?"><\/script>/g, "")
+    .replace(/<script defer src="\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?analytics\.js(?:\?v=\d+)?"><\/script>/g, "")
+    .replace(/<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-7R7JWG7M2S"><\/script><script>window\.dataLayer=[\s\S]*?gtag\('config','G-7R7JWG7M2S'\);<\/script>/g, "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/g, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/gs, "")
     .replace(/<span class="language-switcher"[^>]*>.*?<\/span>/g, "");
@@ -920,8 +927,8 @@ for (const pagePath of pagePaths) {
   await writeFile(sourcePath, html);
 }
 
-const rootUrls = pagePaths.map((pagePath) => `  <url><loc>${siteBase}${pagePath === "index.html" ? "" : pagePath}</loc><priority>${pagePath === "index.html" ? "1.0" : "0.8"}</priority></url>`);
-const localeUrls = Object.keys(locales).flatMap((locale) => pagePaths.map((pagePath) => `  <url><loc>${siteBase}${locale}/${pagePath === "index.html" ? "" : pagePath}</loc><priority>${pagePath === "index.html" ? "0.9" : "0.7"}</priority></url>`));
+const rootUrls = pagePaths.map((pagePath) => `  <url><loc>${siteBase}${pagePath === "index.html" ? "" : pagePath}</loc><lastmod>${siteLastModified}</lastmod><priority>${pagePath === "index.html" ? "1.0" : "0.8"}</priority></url>`);
+const localeUrls = Object.keys(locales).flatMap((locale) => pagePaths.map((pagePath) => `  <url><loc>${siteBase}${locale}/${pagePath === "index.html" ? "" : pagePath}</loc><lastmod>${siteLastModified}</lastmod><priority>${pagePath === "index.html" ? "0.9" : "0.7"}</priority></url>`));
 await writeFile(path.join(root, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...rootUrls, ...localeUrls].join("\n")}\n</urlset>\n`);
 await writeFile(path.join(root, "data", "locales.json"), `${JSON.stringify({ schemaVersion: "1.0.0", defaultLocale: "en", locales: Object.entries(locales).map(([code, value]) => ({ code, label: value.label, htmlLang: value.htmlLang })), pageCountPerLocale: pagePaths.length }, null, 2)}\n`);
 process.stdout.write(`Generated ${pagePaths.length} pages for ${Object.keys(locales).length} locales.\n`);

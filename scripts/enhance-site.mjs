@@ -78,7 +78,7 @@ const recordIndex = [...guides, ...searchItems, ...searchEntities].map((entry) =
 const questionIndex = playerQuestions.questions.map((question) => ({
   title: question.question.en,
   type: "Question",
-  href: `questions.html#${question.id}`,
+  href: `questions/${question.id}.html`,
   terms: `${question.searchTerms.en} ${question.answer.en} ${question.buildContext} ${question.category}`,
   image: null,
   localizedTitles: { "zh-cn": question.question["zh-cn"], ru: question.question.ru },
@@ -115,9 +115,9 @@ const questionMetrics = (question, locale) => `↑ ${question.source.upvotes} ·
 const homepageQuestionSection = (locale) => {
   const copy = questionCopy[locale];
   const [lead, ...rest] = featuredQuestions;
-  return `<section class="player-pain-section" aria-labelledby="player-pain-title"><div class="player-pain__heading"><div><p class="eyebrow">${copy.kicker} · ${playerQuestions.questions.length}</p><h2 id="player-pain-title">${copy.title}</h2></div><a href="questions.html">${copy.all} →</a></div><div class="player-pain__grid"><a class="pain-feature" href="questions.html#${lead.id}"><span class="pain-status pain-status--${lead.resolution}">${questionStatus(lead, locale)}</span><div><h3>${escapeHtml(lead.question[locale])}</h3><p class="pain-feature__answer">${escapeHtml(lead.answer[locale])}</p></div><span class="pain-meta"><span>Reddit</span><span>${questionMetrics(lead, locale)}</span><span>${lead.buildContext}</span></span></a><div class="pain-stack">${rest.map((question) => `<a class="pain-row" href="questions.html#${question.id}"><div><span class="pain-status pain-status--${question.resolution}">${questionStatus(question, locale)}</span><h3>${escapeHtml(question.question[locale])}</h3></div><p>${escapeHtml(question.answer[locale])}</p><span class="pain-row__arrow" aria-hidden="true">→</span><span class="pain-meta"><span>${questionMetrics(question, locale)}</span><span>${question.buildContext}</span></span></a>`).join("")}</div></div></section>`;
+  return `<section class="player-pain-section" aria-labelledby="player-pain-title"><div class="player-pain__heading"><div><p class="eyebrow">${copy.kicker} · ${playerQuestions.questions.length}</p><h2 id="player-pain-title">${copy.title}</h2></div><a href="questions.html">${copy.all} →</a></div><div class="player-pain__grid"><a class="pain-feature" href="questions/${lead.id}.html" data-track="question-card" data-question-id="${lead.id}"><span class="pain-status pain-status--${lead.resolution}">${questionStatus(lead, locale)}</span><div><h3>${escapeHtml(lead.question[locale])}</h3><p class="pain-feature__answer">${escapeHtml(lead.answer[locale])}</p></div><span class="pain-meta"><span>Reddit</span><span>${questionMetrics(lead, locale)}</span><span>${lead.buildContext}</span></span></a><div class="pain-stack">${rest.map((question) => `<a class="pain-row" href="questions/${question.id}.html" data-track="question-card" data-question-id="${question.id}"><div><span class="pain-status pain-status--${question.resolution}">${questionStatus(question, locale)}</span><h3>${escapeHtml(question.question[locale])}</h3></div><p>${escapeHtml(question.answer[locale])}</p><span class="pain-row__arrow" aria-hidden="true">→</span><span class="pain-meta"><span>${questionMetrics(question, locale)}</span><span>${question.buildContext}</span></span></a>`).join("")}</div></div></section>`;
 };
-const homepageQuickLinks = (locale) => `<div class="quick-links">${featuredQuestions.slice(0, 3).map((question) => `<a href="questions.html#${question.id}">${escapeHtml(question.question[locale])} <span>→</span></a>`).join("")}</div>`;
+const homepageQuickLinks = (locale) => `<div class="quick-links">${featuredQuestions.slice(0, 3).map((question) => `<a href="questions/${question.id}.html" data-track="question-card" data-question-id="${question.id}">${escapeHtml(question.question[locale])} <span>→</span></a>`).join("")}</div>`;
 
 const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
 const pagePaths = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/([^<]*)<\/loc>/g)].map((match) => {
@@ -145,12 +145,14 @@ for (const pagePath of [...new Set(pagePaths)]) {
     .replace(new RegExp(`<link rel="stylesheet" href="${base}search\\.css(?:\\?v=\\d+)?">`, "g"), "")
     .replace(new RegExp(`<link rel="stylesheet" href="${base}questions\\.css(?:\\?v=\\d+)?">`, "g"), "")
     .replace(new RegExp(`<script defer src="${base}search\\.js(?:\\?v=\\d+)?"></script>`, "g"), "")
+    .replace(new RegExp(`<script defer src="${base}analytics\\.js(?:\\?v=\\d+)?"></script>`, "g"), "")
+    .replace(/<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-7R7JWG7M2S"><\/script><script>window\.dataLayer=[\s\S]*?gtag\('config','G-7R7JWG7M2S'\);<\/script>/g, "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/, "")
     .replace(/<section class="player-pain-section"[\s\S]*?<\/section>/, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/s, "");
   const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
   const searchCopy = locale === "zh-cn" ? "搜索" : locale === "ru" ? "Поиск" : "Search";
-  html = html.replace("</head>", `<link rel="stylesheet" href="${base}questions.css?v=1"><link rel="stylesheet" href="${base}search.css?v=4"></head>`);
+  html = html.replace("</head>", `<link rel="stylesheet" href="${base}questions.css?v=2"><link rel="stylesheet" href="${base}search.css?v=4"></head>`);
   html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="${searchCopy}"><span aria-hidden="true">⌕</span><span>${searchCopy}</span><kbd>/</kbd></button></nav>`);
   const unlocalizedPath = pagePath.replace(/^(en|zh-cn|ru)\//, "");
   if (unlocalizedPath === "index.html") {
@@ -165,7 +167,7 @@ for (const pagePath of [...new Set(pagePaths)]) {
   }
   const image = imageByPage.get(unlocalizedPath);
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
-  html = html.replace("</body>", `<script defer src="${base}search.js?v=4"></script></body>`);
+  html = html.replace("</body>", `<script defer src="${base}analytics.js?v=1"></script><script defer src="${base}search.js?v=5"></script></body>`);
   await writeFile(filePath, html);
 }
 

@@ -23,6 +23,12 @@ for (const file of htmlFiles) {
   if (!/<title>[^<]+<\/title>/.test(html)) failures.push(`${relative}: missing title`);
   if (!/<link rel="canonical" href="https:\/\/specialzhou\.github\.io\/subnautica-2-guide\//.test(html)) failures.push(`${relative}: missing canonical`);
   if (!/<main\b/.test(html)) failures.push(`${relative}: missing main landmark`);
+  if (!html.includes('src="/subnautica-2-guide/analytics.js?v=1"')) failures.push(`${relative}: missing shared analytics`);
+  if (html.includes("googletagmanager.com/gtag/js?id=G-7R7JWG7M2S")) failures.push(`${relative}: duplicate inline analytics loader`);
+  if (/questions\/[^/]+\.html$/.test(relative)) {
+    if (!html.includes('type="application/ld+json"') || !html.includes('"@type":"BreadcrumbList"')) failures.push(`${relative}: missing article structured data`);
+    if (!/<meta name="description" content="[^"]+">/.test(html)) failures.push(`${relative}: missing detail description`);
+  }
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const href = match[1];
     if (href.includes("${")) continue;

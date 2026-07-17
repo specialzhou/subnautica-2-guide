@@ -60,7 +60,8 @@ for (const [locale, html, note] of [["zh-cn", zhLocations, "避免臆造翻译"]
   if (!html.includes(note)) failures.push(`${locale} locations index lacks proper-name policy`);
 }
 const searchIndex = JSON.parse(await readFile(path.join(root, "data", "search-index.json"), "utf8"));
-if (searchIndex.entries.filter((entry) => entry.image).length < 180) failures.push("Search image coverage fell below 180 records");
+const searchImageCount = searchIndex.entries.filter((entry) => entry.image).length;
+if (searchImageCount < Math.floor(searchIndex.entries.length * 0.5)) failures.push("Search image coverage fell below 50%");
 const questionSearchEntries = searchIndex.entries.filter((entry) => entry.type === "Question");
 if (questionSearchEntries.length !== playerQuestions.questions.length) failures.push("Player questions are missing from search index");
 if (!questionSearchEntries.every((entry) => entry.answer && entry.localizedAnswers?.["zh-cn"] && entry.localizedAnswers?.ru && entry.attention)) failures.push("Question search results lack answers or attention data");

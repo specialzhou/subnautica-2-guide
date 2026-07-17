@@ -6,25 +6,61 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: official-wiki-revisions
+  cancel-in-progress: false
 
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Prepare review branch
+        run: |
+          git fetch origin automation/wiki-revisions || true
+          if git show-ref --verify --quiet refs/remotes/origin/automation/wiki-revisions; then
+            git checkout -B automation/wiki-revisions origin/automation/wiki-revisions
+            git rebase origin/main
+          else
+            git checkout -b automation/wiki-revisions
+          fi
       - name: Import current Wiki revisions
         run: npm run import:wiki
       - name: Validate generated records
         run: npm run validate
+      - name: Reject suspicious import drops
+        run: npm run validate:wiki-import
       - name: Detect source changes
+        id: changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git diff --stat
             git status --short
-            echo "Official Wiki revisions changed. Run npm run import:wiki and review the diff." >> "$GITHUB_STEP_SUMMARY"
-            exit 1
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+      - name: Commit Wiki review queue
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "chore: refresh official Wiki revisions"
+          git push --force-with-lease --set-upstream origin automation/wiki-revisions
+          if [[ "$(gh pr list --head automation/wiki-revisions --state open --json number --jq 'length')" == "0" ]]; then
+            gh pr create --draft --base main --head automation/wiki-revisions \
+              --title "Review official Wiki revision changes" \
+              --body "Automated official Wiki import. Review record additions and removals, changed structured fields, and generated pages before merging."
+          fi
+          echo "Official Wiki revisions changed and the review branch was updated." >> "$GITHUB_STEP_SUMMARY"

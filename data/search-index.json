@@ -4655,7 +4655,7 @@
     {
       "title": "Can I make Water without killing Water Slugs?",
       "type": "Question",
-      "href": "questions.html#water-without-killing-slugs",
+      "href": "questions/water-without-killing-slugs.html",
       "terms": "water slug non fatal non-lethal fibrous pulp macaron sponge alternative recipe Yes. Process Fibrous Pulp as the non-lethal alternative; players use farmed Macaron Sponge as a renewable source. The Water record lists both recipe paths. EA 1.0–1.1 crafting",
       "image": null,
       "localizedTitles": {
@@ -4682,7 +4682,7 @@
     {
       "title": "What is the personal storage box actually useful for?",
       "type": "Question",
-      "href": "questions.html#personal-storage-use",
+      "href": "questions/personal-storage-use.html",
       "terms": "personal storage box fabricator cannot access seed minerals multiplayer locker Fabricators do not pull materials from it. Players keep one seed copy of each farmable mineral there so crafting cannot consume the last piece; it also separates personal items in multiplayer. EA 1.1 base-building",
       "image": null,
       "localizedTitles": {
@@ -4709,7 +4709,7 @@
     {
       "title": "Where is the large habitat shown in the trailer?",
       "type": "Question",
-      "href": "questions.html#trailer-location-not-in-game",
+      "href": "questions/trailer-location-not-in-game.html",
       "terms": "trailer habitat observatory tower location does not exist unreleased concept art Players have not found it in the current game. The leading explanation is that it is an older Observatory concept or an unreleased area, so there is no reliable route to it yet. EA 1.1 locations",
       "image": null,
       "localizedTitles": {
@@ -4736,7 +4736,7 @@
     {
       "title": "Why won't the last Angel Comb cankers open?",
       "type": "Question",
-      "href": "questions.html#angel-comb-main-cankers-stuck",
+      "href": "questions/angel-comb-main-cankers-stuck.html",
       "terms": "angel comb canker won't open softlock progression bug bloom juvenile EA 1.1 First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe. EA 1.1 story-bug",
       "image": null,
       "localizedTitles": {
@@ -4763,7 +4763,7 @@
     {
       "title": "Where did the Strong Acid recipe move in EA 1.1?",
       "type": "Question",
-      "href": "questions.html#strong-acid-after-update",
+      "href": "questions/strong-acid-after-update.html",
       "terms": "strong acid recipe moved processor fabricator EA 1.1 cyst Check the Fabricator, not only the Processor. The current record shows the available recipe paths and their stations. EA 1.1 crafting",
       "image": null,
       "localizedTitles": {
@@ -4790,7 +4790,7 @@
     {
       "title": "Why isn't Biofilm respawning for a re-bioscan?",
       "type": "Question",
-      "href": "questions.html#rebioscan-biofilm-not-respawning",
+      "href": "questions/rebioscan-biofilm-not-respawning.html",
       "terms": "biofilm respawn re bioscan bloom sap cicada wreck bug 80 scans There is no reliable fix yet. Some saves respawn Bloom Sap but not Biofilm, while others differ. Check distant Cicada wrecks for missed scans and keep at least one Bloom Sap, but treat the respawn behavior as unresolved. EA 1.1 bioscan-bug",
       "image": null,
       "localizedTitles": {
@@ -4817,7 +4817,7 @@
     {
       "title": "Where are the Wall Rack blueprint fragments?",
       "type": "Question",
-      "href": "questions.html#wall-rack-blueprint-location",
+      "href": "questions/wall-rack-blueprint-location.html",
       "terms": "wall rack blueprint fragments welcome center camp one BFJ old habitat scanner orange dots Players report four fragments and three required scans. Check the Welcome Center route toward Camp One, platforms east of the BFJ plateaus, and the old habitat/BFJ base; use the Scanner's orange fragment markers for missed pieces. EA 1.1 blueprints",
       "image": null,
       "localizedTitles": {
@@ -4844,7 +4844,7 @@
     {
       "title": "Why won't the Scout Ray chassis fabricate?",
       "type": "Question",
-      "href": "questions.html#scout-ray-chassis-wont-fabricate",
+      "href": "questions/scout-ray-chassis-wont-fabricate.html",
       "terms": "scout ray chassis won't craft fabricate moonpool too small wings clearance EA 1.1 Make the Moonpool much wider. After EA 1.1 the chassis can fabricate with its wings extended, so a pool that worked before may no longer provide enough clearance. EA 1.1 vehicles",
       "image": null,
       "localizedTitles": {
@@ -4871,7 +4871,7 @@
     {
       "title": "Where is the lever after powering the Axum station?",
       "type": "Question",
-      "href": "questions.html#axum-lever-location",
+      "href": "questions/axum-lever-location.html",
       "terms": "axum power station lever door entrance rosetta stone tower first room Do not keep searching at the base of the power station. Go toward the Rosetta Stone tower; the lever is inside the tower, in the center of the first room. EA 1.1 story-location",
       "image": null,
       "localizedTitles": {
@@ -4898,7 +4898,7 @@
     {
       "title": "Why won't the Hanging Tailing Jar place?",
       "type": "Question",
-      "href": "questions.html#hanging-tailing-jar-wont-place",
+      "href": "questions/hanging-tailing-jar-wont-place.html",
       "terms": "hanging tailing jar cannot place build snapping hitbox doorway empty room Disable snapping first, then move it clear of nearby doorway or object hitboxes. The room can look empty while an invisible placement boundary still overlaps the jar. EA 1.1 base-building",
       "image": null,
       "localizedTitles": {
@@ -4925,7 +4925,7 @@
     {
       "title": "Where can I find a Sandspear for the bioscan?",
       "type": "Question",
-      "href": "questions.html#where-to-find-sandspear",
+      "href": "questions/where-to-find-sandspear.html",
       "terms": "Sandspear bioscan creature where find Observatory coral dome cave lifepod Look for a tongue and spikes protruding from sandy cave floors. The original poster confirmed one below the Observatory; another player reported one in the cave beneath the coral dome by a wreck about 100 m northeast of the lifepod. The Wiki record also lists Overgrown Ruins, Plateaus, Shallows and Necrolei Hills. EA 1.1 creatures",
       "image": null,
       "localizedTitles": {
@@ -4952,7 +4952,7 @@
     {
       "title": "Where is the Axum Resonator in EA 1.1?",
       "type": "Question",
-      "href": "questions.html#where-to-find-axum-resonator",
+      "href": "questions/where-to-find-axum-resonator.html",
       "terms": "Axum Resonator where find Green Mines 400m Angel Comb cure melted scrap Search the Green Mines around 400 m depth. A player describes it as looking like a piece of melted scrap and reports several in that area. EA 1.1 story-location",
       "image": null,
       "localizedTitles": {
@@ -4979,7 +4979,7 @@
     {
       "title": "How can I cross the Collector canyon without losing my Tadpole?",
       "type": "Question",
-      "href": "questions.html#cross-collector-canyon-safely",
+      "href": "questions/cross-collector-canyon-safely.html",
       "terms": "cross collector canyon safely tadpole red boundary south edge surface route ridge cover leviathan Take the far south/right edge, hug the red Early Access boundary without crossing it, and keep the Tadpole moving at full speed. Players report two workable lines: skim the surface, or stay low under the outer crest and use terrain as cover. Do not stop in open water; if spotted, break line of sight behind the ridge before repairing. This reduces risk but does not guarantee a clean crossing after the more aggressive EA 1.1 Collector behavior. EA 1.0–1.1 traversal",
       "image": null,
       "localizedTitles": {
@@ -5006,7 +5006,7 @@
     {
       "title": "How do I bioscan the Collector Leviathan safely?",
       "type": "Question",
-      "href": "questions.html#scan-collector-leviathan-safely",
+      "href": "questions/scan-collector-leviathan-safely.html",
       "terms": "bioscan scan collector leviathan safely camouflage invisibility biomod distraction flare tadpole bait Equip the Camouflage passive biomod, approach in a Tadpole, and exit as the Collector attacks the vehicle. Swim behind it, finish the scan, then stop moving so Camouflage can hide you until it loses interest. Distraction Flares are another repeatedly reported option; leave the Tadpole at the trench edge if you do not want to risk vehicle damage. EA 1.1 creatures",
       "image": null,
       "localizedTitles": {
@@ -5033,7 +5033,7 @@
     {
       "title": "How do I permanently expand my inventory and hotbar?",
       "type": "Question",
-      "href": "questions.html#expand-inventory-with-hacked-biobeds",
+      "href": "questions/expand-inventory-with-hacked-biobeds.html",
       "terms": "expand inventory backpack hotbar slots hacked biobed biohacking chamber anomaly scanner colonist bunker DNA upgrade Find the hacked, open biobeds inside colonist bunkers and interact with the green DNA terminal. These beds apply permanent inventory upgrades, and later upgrades also add hotbar slots; they do not change your respawn point. If you missed them, use the Anomaly Scanner's Biohacking Chamber target to locate the relevant bunkers. EA 1.1 equipment",
       "image": null,
       "localizedTitles": {
@@ -5060,7 +5060,7 @@
     {
       "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
       "type": "Question",
-      "href": "questions.html#livekernelevent-141-hp-omen-crash",
+      "href": "questions/livekernelevent-141-hp-omen-crash.html",
       "terms": "Subnautica 2 crash every two minutes LiveKernelEvent 141 HP Omen laptop unplug charger battery power supply adapter BIOS In the linked HP Omen case, unplugging the laptop made the game stable by putting the system into a lower-power state. Use battery mode or a known-stable outlet only as a diagnostic. If the result changes with the power source, check the adapter, battery, power delivery and BIOS, and contact HP hardware support instead of continuing to change graphics settings. This is not a universal fix for unrelated crashes. EA 1.1 crashes",
       "image": null,
       "localizedTitles": {

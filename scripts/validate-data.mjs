@@ -72,6 +72,13 @@ for (const question of playerQuestions.questions) {
 if (playerQuestions.questions.length < 8) failures.push("Player question library is too small");
 if (featuredRanks.size < 4) failures.push("Homepage needs at least four featured player questions");
 if (!sitemap.includes("/questions.html")) failures.push("Sitemap missing player question library");
+for (const question of playerQuestions.questions) {
+  for (const locale of ["", "en/", "zh-cn/", "ru/"]) {
+    const route = `/${locale}questions/${question.id}.html`;
+    if (!sitemap.includes(route)) failures.push(`Sitemap missing player question detail: ${route}`);
+    await access(path.join(root, locale, "questions", `${question.id}.html`)).catch(() => failures.push(`Missing player question detail: ${route}`));
+  }
+}
 if (playerQuestionCandidates.collectionPolicy?.storesPostBody !== false) failures.push("Player question candidate collector must not store Reddit post bodies");
 const publishedRedditIds = new Set(playerQuestions.questions.map((question) => question.source.url.match(/\/comments\/([^/]+)/)?.[1]).filter(Boolean));
 const candidateIds = new Set();

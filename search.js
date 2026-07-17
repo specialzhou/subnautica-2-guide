@@ -11,6 +11,7 @@
   const localizedTitle = (entry) => entry.localizedTitles?.[locale] ?? "";
   const localizedAnswer = (entry) => entry.localizedAnswers?.[locale] ?? entry.answer ?? "";
   const typeName = (type) => copy.types[type] || type;
+  const escapeAttribute = (value) => String(value).replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;");
   document.querySelectorAll(".global-search-trigger span:nth-child(2)").forEach((node) => { node.textContent = copy.search; });
   document.querySelectorAll(".global-search-trigger").forEach((node) => { node.setAttribute("aria-label", copy.search); });
   const dialog = document.createElement("dialog");
@@ -21,6 +22,7 @@
   let entries = [];
   let opener = null;
   const route = (href) => `${base}${locale ? `${locale}/` : ""}${href}`;
+  let searchEventTimer = 0;
   const render = () => {
     const q = input.value.trim().toLocaleLowerCase(), tokens = q.split(/\s+/).filter(Boolean);
     const pool = q ? entries : entries.filter((entry) => entry.type === "Guide" || (entry.type === "Question" && entry.featuredRank));
@@ -38,19 +40,21 @@
       return score(titleA) - score(titleB) || typeScore(a) - typeScore(b) || (a.featuredRank ?? 99) - (b.featuredRank ?? 99) || titleA.localeCompare(titleB);
     }).slice(0, 24);
     liveStatus.textContent = `${found.length} ${copy.results}`;
+    clearTimeout(searchEventTimer);
+    if (q.length >= 2) searchEventTimer = setTimeout(() => window.guideAnalytics?.track("view_search_results", { search_term: q, result_count: found.length }), 700);
     if (!found.length) { results.innerHTML = `<li class="search-empty">${copy.empty}</li>`; return; }
     results.innerHTML = found.map((entry) => {
       const translated = localizedTitle(entry), title = translated || entry.title;
       const answer = entry.type === "Question" ? `<span class="search-result__answer">${localizedAnswer(entry)}</span>` : "";
       const questionMeta = entry.type === "Question" ? `<small class="search-result__status search-result__status--${entry.resolution}">${copy.status[entry.resolution]}</small><small>↑ ${entry.attention.upvotes} · ${entry.attention.comments} ${copy.comments}</small>` : "";
-      return `<li class="search-result search-result--${entry.type.toLocaleLowerCase()}"><a href="${route(entry.href)}">${entry.image ? `<img src="${entry.image}" width="52" height="52" loading="lazy" alt="">` : `<span class="search-result__blank" aria-hidden="true">${typeName(entry.type).slice(0, 1)}</span>`}<span><strong>${title}</strong>${answer}<span class="search-result__meta"><small>${typeName(entry.type)}</small>${questionMeta}</span></span><span class="search-result__arrow" aria-hidden="true">→</span></a></li>`;
+      return `<li class="search-result search-result--${entry.type.toLocaleLowerCase()}"><a href="${route(entry.href)}" data-search-title="${escapeAttribute(title)}" data-search-type="${entry.type}">${entry.image ? `<img src="${entry.image}" width="52" height="52" loading="lazy" alt="">` : `<span class="search-result__blank" aria-hidden="true">${typeName(entry.type).slice(0, 1)}</span>`}<span><strong>${title}</strong>${answer}<span class="search-result__meta"><small>${typeName(entry.type)}</small>${questionMeta}</span></span><span class="search-result__arrow" aria-hidden="true">→</span></a></li>`;
     }).join("");
   };
   const open = async (seed = "") => {
     opener = document.activeElement;
     try {
       if (!entries.length) entries = (await fetch(`${base}data/search-index.json?v=4`).then((response) => { if (!response.ok) throw new Error(String(response.status)); return response.json(); })).entries;
-      input.value = seed; render(); dialog.showModal(); input.focus();
+      input.value = seed; render(); dialog.showModal(); input.focus(); window.guideAnalytics?.track("search_open", { search_term: seed || undefined });
     } catch {
       dialog.showModal(); results.innerHTML = `<li class="search-empty">${copy.loadingError}</li>`;
     }
@@ -58,6 +62,7 @@
   document.querySelectorAll(".global-search-trigger").forEach((button) => button.addEventListener("click", () => open()));
   document.querySelectorAll("[data-global-search]").forEach((field) => { field.addEventListener("focus", () => { field.blur(); open(field.value); }); field.addEventListener("click", () => open(field.value)); });
   input.addEventListener("input", render);
+  results.addEventListener("click", (event) => { const link = event.target.closest("a[data-search-title]"); if (link) window.guideAnalytics?.track("select_content", { content_type: link.dataset.searchType, item_id: link.dataset.searchTitle, search_term: input.value.trim() }); });
   dialog.querySelector(".search-dialog__close").addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener("close", () => { if (opener instanceof HTMLElement) opener.focus(); });

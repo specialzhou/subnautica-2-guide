@@ -30,7 +30,11 @@ const locales = {
       additionalSources: "Additional discussions",
       related: "Related guide records",
       footer: "Fan-made, unaffiliated with Unknown Worlds Entertainment or Krafton.",
-      method: "Sources & methodology"
+      method: "Sources & methodology",
+      back: "Back to all player questions",
+      detailKicker: "Player answer",
+      breadcrumbHome: "Home",
+      breadcrumbLibrary: "Player questions"
     }
   },
   "zh-cn": {
@@ -55,7 +59,11 @@ const locales = {
       additionalSources: "补充讨论",
       related: "相关攻略资料",
       footer: "玩家制作，与 Unknown Worlds Entertainment 或 Krafton 无关联。",
-      method: "来源与方法"
+      method: "来源与方法",
+      back: "返回全部玩家问题",
+      detailKicker: "玩家问题解答",
+      breadcrumbHome: "首页",
+      breadcrumbLibrary: "玩家问题"
     }
   },
   ru: {
@@ -80,7 +88,11 @@ const locales = {
       additionalSources: "Дополнительные обсуждения",
       related: "Связанные записи гайда",
       footer: "Фанатский проект, не связан с Unknown Worlds Entertainment или Krafton.",
-      method: "Источники и методика"
+      method: "Источники и методика",
+      back: "Вернуться ко всем вопросам",
+      detailKicker: "Ответ игроку",
+      breadcrumbHome: "Главная",
+      breadcrumbLibrary: "Вопросы игроков"
     }
   }
 };
@@ -94,6 +106,8 @@ const escapeHtml = (value) => String(value)
 const localePrefix = (locale) => locale === "root" ? pathBase : `${pathBase}${locale}/`;
 const localeCode = (locale) => locale === "root" ? "en" : locale;
 const questionUrl = (locale) => locale === "root" ? `${siteBase}questions.html` : `${siteBase}${locale}/questions.html`;
+const questionDetailUrl = (locale, id) => locale === "root" ? `${siteBase}questions/${id}.html` : `${siteBase}${locale}/questions/${id}.html`;
+const questionDetailPath = (locale, id) => `${localePrefix(locale)}questions/${id}.html`;
 const homeUrl = (locale) => locale === "root" ? pathBase : `${pathBase}${locale}/`;
 
 const categoryLabels = {
@@ -128,9 +142,9 @@ const relatedPageLabels = {
   "guide/items/distraction-flare.html": { en: "Distraction Flare", "zh-cn": "干扰照明弹", ru: "Отвлекающая шашка" }
 };
 
-function languageSwitcher(active) {
+function languageSwitcher(active, questionId = null) {
   const current = active === "root" ? "en" : active;
-  return `<span class="language-switcher" aria-label="Language">${Object.entries(locales).map(([code, config]) => `<a href="${pathBase}${code}/questions.html"${code === current ? ' aria-current="page"' : ""}>${config.label}</a>`).join("")}</span>`;
+  return `<span class="language-switcher" aria-label="Language">${Object.entries(locales).map(([code, config]) => `<a href="${pathBase}${code}/questions${questionId ? `/${questionId}` : ""}.html"${code === current ? ' aria-current="page"' : ""}>${config.label}</a>`).join("")}</span>`;
 }
 
 function relatedLinks(question, locale) {
@@ -152,12 +166,80 @@ function questionArticle(question, locale, index) {
   return `<article class="question-record question-record--${question.resolution}" id="${escapeHtml(question.id)}">
     <div class="question-record__rail"><span>${String(index + 1).padStart(2, "0")}</span><span class="question-status question-status--${question.resolution}">${status}</span></div>
     <div class="question-record__body">
-      <div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h2>${escapeHtml(question.question[code])}</h2></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
+      <div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h2><a href="${questionDetailPath(locale, question.id)}" data-track="question-card" data-question-id="${escapeHtml(question.id)}">${escapeHtml(question.question[code])}</a></h2></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
       <div class="question-record__answer"><p class="eyebrow">${copy.answer}</p><p>${escapeHtml(question.answer[code])}</p></div>
       <div class="question-record__evidence"><div><strong>${copy.evidence}</strong><p>${escapeHtml(question.evidenceNote[code])}</p></div><div><strong>${copy.attention}</strong><p>${question.source.upvotes} ${copy.votes} · ${question.source.comments} ${copy.comments} · ${copy.observed} ${question.source.observedAt}</p></div></div>
       <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a>${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div>
     </div>
   </article>`;
+}
+
+function jsonLd(value) {
+  return JSON.stringify(value).replaceAll("<", "\\u003c");
+}
+
+function renderDetailPage(question, locale) {
+  const code = localeCode(locale);
+  const config = locales[code];
+  const copy = config.copy;
+  const title = question.question[code];
+  const description = question.answer[code];
+  const canonical = questionDetailUrl(locale, question.id);
+  const category = categoryLabels[question.category]?.[code] ?? question.category;
+  const prefix = localePrefix(locale);
+  const status = copy.status[question.resolution];
+  const alternates = [`<link rel="alternate" hreflang="x-default" href="${questionDetailUrl("root", question.id)}">`, ...Object.entries(locales).map(([entryCode, entry]) => `<link rel="alternate" hreflang="${entry.htmlLang}" href="${questionDetailUrl(entryCode, question.id)}">`)].join("");
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: title,
+        description,
+        dateModified: question.source.observedAt,
+        inLanguage: config.htmlLang,
+        mainEntityOfPage: canonical,
+        author: { "@type": "Organization", name: "Subnautica 2 Guide" },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: copy.breadcrumbHome, item: homeUrl(locale).startsWith("http") ? homeUrl(locale) : `${siteBase}${locale === "root" ? "" : `${locale}/`}` },
+          { "@type": "ListItem", position: 2, name: copy.breadcrumbLibrary, item: questionUrl(locale) },
+          { "@type": "ListItem", position: 3, name: title, item: canonical },
+        ],
+      },
+    ],
+  };
+  const additionalSources = (question.additionalSources ?? []).map((source) => `<a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.title)}</a>`).join("");
+  const related = relatedLinks(question, locale);
+  const navHrefs = ["starter-planner.html", "crafting.html", "resources.html", "creatures.html", "vehicles.html", "biomes.html"];
+  return `<!doctype html>
+<html lang="${config.htmlLang}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>${escapeHtml(title)} — Subnautica 2 Guide</title><meta name="description" content="${escapeHtml(description)}"><meta name="theme-color" content="#071d24">
+  <link rel="canonical" href="${canonical}">${alternates}<meta property="og:type" content="article"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${canonical}"><link rel="icon" href="${pathBase}favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="${pathBase}styles.css"><link rel="stylesheet" href="${pathBase}guide.css"><link rel="stylesheet" href="${pathBase}locale.css"><link rel="stylesheet" href="${pathBase}questions.css?v=2"><link rel="stylesheet" href="${pathBase}search.css?v=4">
+  <script type="application/ld+json">${jsonLd(schema)}</script>
+</head>
+<body class="questions-page question-detail-page">
+  <a class="skip-link" href="#main-content">${code === "zh-cn" ? "跳到正文" : code === "ru" ? "К содержанию" : "Skip to content"}</a>
+  <header class="site-header"><div class="shell nav-wrap"><a class="wordmark" href="${homeUrl(locale)}" aria-label="Subnautica 2 Guide home"><span class="wordmark__kicker">${copy.kicker} / 1962700</span><span>Subnautica 2<br>${code === "zh-cn" ? "证据攻略" : code === "ru" ? "Доказательный гайд" : "Guide"}</span></a><nav aria-label="Primary navigation">${navHrefs.map((href, index) => `<a href="${prefix}${href}">${copy.nav[index]}</a>`).join("")}${languageSwitcher(locale, question.id)}<button class="global-search-trigger" type="button" aria-label="${copy.search}"><span aria-hidden="true">⌕</span><span>${copy.search}</span><kbd>/</kbd></button></nav></div></header>
+  <main id="main-content" class="shell question-detail">
+    <a class="question-detail__back" href="${localePrefix(locale)}questions.html">← ${copy.back}</a>
+    <article class="question-record question-record--${question.resolution}" id="${escapeHtml(question.id)}">
+      <div class="question-record__rail"><span>${copy.detailKicker}</span><span class="question-status question-status--${question.resolution}">${status}</span></div>
+      <div class="question-record__body"><div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h1>${escapeHtml(title)}</h1></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
+      <div class="question-record__answer"><p class="eyebrow">${copy.answer}</p><p>${escapeHtml(description)}</p></div>
+      <div class="question-record__evidence"><div><strong>${copy.evidence}</strong><p>${escapeHtml(question.evidenceNote[code])}</p></div><div><strong>${copy.attention}</strong><p>${question.source.upvotes} ${copy.votes} · ${question.source.comments} ${copy.comments} · ${copy.observed} ${question.source.observedAt}</p></div></div>
+      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer" data-track="reddit-source">${copy.source} →</a>${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div></div>
+    </article>
+  </main>
+  <footer class="footer"><div class="shell footer__inner"><p>${copy.footer}</p><p><a href="${prefix}sources.html">${copy.method}</a></p></div></footer>
+  <script src="${pathBase}app.js"></script><script defer src="${pathBase}search.js?v=5"></script>
+</body></html>\n`;
 }
 
 function renderPage(locale) {
@@ -193,13 +275,25 @@ for (const locale of ["root", ...Object.keys(locales)]) {
   const output = locale === "root" ? path.join(root, "questions.html") : path.join(root, locale, "questions.html");
   await mkdir(path.dirname(output), { recursive: true });
   await writeFile(output, renderPage(locale));
+  for (const question of data.questions) {
+    const detailOutput = locale === "root" ? path.join(root, "questions", `${question.id}.html`) : path.join(root, locale, "questions", `${question.id}.html`);
+    await mkdir(path.dirname(detailOutput), { recursive: true });
+    await writeFile(detailOutput, renderDetailPage(question, locale));
+  }
 }
 
 const sitemapPath = path.join(root, "sitemap.xml");
 let sitemap = await readFile(sitemapPath, "utf8");
-if (!sitemap.includes(`${siteBase}questions.html`)) {
-  sitemap = sitemap.replace("</urlset>", `  <url><loc>${siteBase}questions.html</loc><priority>0.9</priority></url>\n</urlset>`);
-  await writeFile(sitemapPath, sitemap);
-}
+sitemap = sitemap.replace(/\s*<url><loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?questions(?:\.html|\/[^<]+\.html)<\/loc>[\s\S]*?<\/url>/g, "");
+const latestQuestionDate = [...data.questions].sort((a, b) => b.source.observedAt.localeCompare(a.source.observedAt))[0].source.observedAt;
+const questionSitemapEntries = ["root", ...Object.keys(locales)].flatMap((locale) => {
+  const localePath = locale === "root" ? "" : `${locale}/`;
+  return [
+    `  <url><loc>${siteBase}${localePath}questions.html</loc><lastmod>${latestQuestionDate}</lastmod><priority>${locale === "root" ? "0.9" : "0.8"}</priority></url>`,
+    ...data.questions.map((question) => `  <url><loc>${siteBase}${localePath}questions/${question.id}.html</loc><lastmod>${question.source.observedAt}</lastmod><priority>${locale === "root" ? "0.9" : "0.8"}</priority></url>`),
+  ];
+});
+sitemap = sitemap.replace("</urlset>", `${questionSitemapEntries.join("\n")}\n</urlset>`);
+await writeFile(sitemapPath, sitemap);
 
-process.stdout.write(`Generated player question library with ${data.questions.length} records across ${Object.keys(locales).length} locales.\n`);
+process.stdout.write(`Generated player question library and ${data.questions.length} detail pages across ${Object.keys(locales).length + 1} URL variants.\n`);

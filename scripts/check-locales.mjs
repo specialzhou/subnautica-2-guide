@@ -65,6 +65,13 @@ if (searchImageCount < Math.floor(searchIndex.entries.length * 0.5)) failures.pu
 const questionSearchEntries = searchIndex.entries.filter((entry) => entry.type === "Question");
 if (questionSearchEntries.length !== playerQuestions.questions.length) failures.push("Player questions are missing from search index");
 if (!questionSearchEntries.every((entry) => entry.answer && entry.localizedAnswers?.["zh-cn"] && entry.localizedAnswers?.ru && entry.attention)) failures.push("Question search results lack answers or attention data");
+if (!questionSearchEntries.every((entry) => /^questions\/[a-z0-9-]+\.html$/.test(entry.href))) failures.push("Question search results do not use independent landing pages");
+for (const question of playerQuestions.questions) {
+  for (const [locale, phrase] of [["zh-cn", question.question["zh-cn"]], ["ru", question.question.ru]]) {
+    const detail = await readFile(path.join(root, locale, "questions", `${question.id}.html`), "utf8");
+    if (!detail.includes(phrase) || !detail.includes('"@type":"Article"')) failures.push(`Localized question detail is incomplete: ${locale}/${question.id}`);
+  }
+}
 const itemData = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));
 const entityData = JSON.parse(await readFile(path.join(root, "data", "wiki-entities.json"), "utf8"));
 const localizedNames = JSON.parse(await readFile(path.join(root, "data", "localized-names.json"), "utf8").catch(() => "{\"names\":{}}"));
@@ -132,6 +139,7 @@ for (const locale of ["zh-cn", "ru"]) {
 
 const expectedSitemapUrls = rootPages.length * (locales.length + 1);
 if ((sitemap.match(/<url>/g) || []).length !== expectedSitemapUrls) failures.push("Localized sitemap URL count mismatch");
+if ((sitemap.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g) || []).length !== expectedSitemapUrls) failures.push("Localized sitemap lastmod coverage mismatch");
 
 if (failures.length) {
   process.stderr.write(`${failures.join("\n")}\n`);

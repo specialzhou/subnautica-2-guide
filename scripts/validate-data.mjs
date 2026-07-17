@@ -180,7 +180,11 @@ if (locationsHtml.includes("&amp;ndash;")) failures.push("Locations index contai
 if (!locationsHtml.includes('class="location-thumb"') || !locationsHtml.includes('loading="lazy"')) failures.push("Locations index lacks Wiki thumbnails");
 if (!sitemap.includes("/locations.html")) failures.push("Sitemap missing locations index");
 const storyHtml = await readFile(path.join(root, "story.html"), "utf8");
-if (storyData.pages.length !== 12 || !storyData.pages.every((page) => page.revisionId && page.permanentUrl)) failures.push("Story dataset provenance mismatch");
+const storyRoot = storyData.pages.find((page) => page.title === "Story");
+if (!storyData.pages.length || !storyData.pages.every((page) => page.revisionId && page.permanentUrl) || !storyRoot) failures.push("Story dataset provenance mismatch");
+for (const expected of ["Arrival", "Tensions Rise", "The Chase", "Sleep Bay 3"]) {
+  if (!storyRoot?.sections.includes(expected)) failures.push(`Story dataset missing section: ${expected}`);
+}
 for (const expected of ["Arrival", "Tensions Rise", "The Chase", "Sleep Bay 3", "Story background is not gameplay order"]) {
   if (!storyHtml.includes(expected)) failures.push(`Story index missing: ${expected}`);
 }

@@ -35,15 +35,38 @@ async function readJsonIfExists(file) {
   catch (error) { if (error.code === "ENOENT") return null; throw error; }
 }
 
-async function categoryMembers(category) {
-  const titles = [];
-  let continuation;
-  do {
-    const data = await wiki({ action: "query", list: "categorymembers", cmtitle: `Category:${category}`, cmnamespace: "0", cmlimit: "500", ...(continuation ? { cmcontinue: continuation } : {}) });
-    titles.push(...data.query.categorymembers.map((member) => member.title));
-    continuation = data.continue?.cmcontinue;
-  } while (continuation);
-  return titles;
+async function categoryMembers(category, includeSubcategories = false) {
+  const titles = new Set();
+  const visited = new Set();
+  const queue = [{ category, depth: 0 }];
+  const maxDepth = 3;
+
+  while (queue.length) {
+    const current = queue.shift();
+    if (visited.has(current.category)) continue;
+    visited.add(current.category);
+
+    let continuation;
+    do {
+      const data = await wiki({
+        action: "query",
+        list: "categorymembers",
+        cmtitle: `Category:${current.category}`,
+        cmnamespace: "0|14",
+        cmlimit: "500",
+        ...(continuation ? { cmcontinue: continuation } : {}),
+      });
+      for (const member of data.query.categorymembers) {
+        if (member.ns === 0) titles.add(member.title);
+        else if (includeSubcategories && member.ns === 14 && current.depth < maxDepth) {
+          queue.push({ category: member.title.replace(/^Category:/, ""), depth: current.depth + 1 });
+        }
+      }
+      continuation = data.continue?.cmcontinue;
+    } while (continuation);
+  }
+
+  return [...titles];
 }
 
 async function fetchPages(titles) {
@@ -264,7 +287,7 @@ async function main() {
   const previousByKey = new Map((previousData?.entities ?? []).map((entity) => [`${entity.kind}:${entity.id}`, entity]));
   const allEntities = [];
   for (const [kind, definition] of Object.entries(definitions)) {
-    const lists = await Promise.all(definition.categories.map(categoryMembers));
+    const lists = await Promise.all(definition.categories.map((category) => categoryMembers(category, kind === "biomes")));
     const pages = await fetchPages([...new Set(lists.flat())].sort());
     allEntities.push(...pages.map((page) => normalizePage(kind, page)).filter(Boolean));
   }

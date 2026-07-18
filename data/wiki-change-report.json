@@ -1,22 +1,328 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-07-13T14:59:59.315Z",
+  "detectedAt": "2026-07-18T05:38:25.625Z",
   "changes": [
     {
-      "id": "sign",
-      "title": "Sign",
+      "id": "acid-raion",
+      "title": "Acid Raion",
       "change": "updated",
-      "previousRevisionId": 17315,
-      "revisionId": 18013,
+      "previousRevisionId": 15222,
+      "revisionId": 18431,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tadpole-haul-chassis",
-      "title": "Tadpole Haul Chassis",
+      "id": "air-bladder",
+      "title": "Air Bladder",
       "change": "updated",
-      "previousRevisionId": 15063,
-      "revisionId": 18001,
+      "previousRevisionId": 15383,
+      "revisionId": 18199,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "battery-terminal",
+      "title": "Battery Terminal",
+      "change": "updated",
+      "previousRevisionId": 17283,
+      "revisionId": 18202,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "bioscanner",
+      "title": "Bioscanner",
+      "change": "updated",
+      "previousRevisionId": 17972,
+      "revisionId": 18196,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cherimoya-chutney",
+      "title": "Cherimoya Chutney",
+      "change": "updated",
+      "previousRevisionId": 17846,
+      "revisionId": 18231,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cherimoya-rotsac",
+      "title": "Cherimoya Rotsac",
+      "change": "updated",
+      "previousRevisionId": 17922,
+      "revisionId": 18105,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "community-poster-02",
+      "title": "Community Poster 02",
+      "change": "added",
+      "previousRevisionId": null,
+      "revisionId": 18564,
+      "previousStatus": null,
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cradle-shootroot",
+      "title": "Cradle Shootroot",
+      "change": "updated",
+      "previousRevisionId": 15243,
+      "revisionId": 18110,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cyclops-poster",
+      "title": "Cyclops Poster",
+      "change": "updated",
+      "previousRevisionId": 6264,
+      "revisionId": 18549,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "distraction-flare",
+      "title": "Distraction Flare",
+      "change": "updated",
+      "previousRevisionId": 17863,
+      "revisionId": 18214,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "dive-elevator",
+      "title": "Dive Elevator",
+      "change": "updated",
+      "previousRevisionId": 17303,
+      "revisionId": 18575,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "duplex-solar-panel",
+      "title": "Duplex Solar Panel",
+      "change": "updated",
+      "previousRevisionId": 17383,
+      "revisionId": 18208,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "expanded-deployable-locker",
+      "title": "Expanded Deployable Locker",
+      "change": "updated",
+      "previousRevisionId": 16985,
+      "revisionId": 18210,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "freesia-flower",
+      "title": "Freesia Flower",
+      "change": "updated",
+      "previousRevisionId": 17491,
+      "revisionId": 18523,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "growbed",
+      "title": "Growbed",
+      "change": "updated",
+      "previousRevisionId": 17932,
+      "revisionId": 18401,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "hatch",
+      "title": "Hatch",
+      "change": "updated",
+      "previousRevisionId": 17356,
+      "revisionId": 18428,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "just-keep-swimming-poster",
+      "title": "Just Keep Swimming Poster",
+      "change": "updated",
+      "previousRevisionId": 17331,
+      "revisionId": 18204,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "macaron-sponge",
+      "title": "Macaron Sponge",
+      "change": "updated",
+      "previousRevisionId": 15239,
+      "revisionId": 18140,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "mimic-pylon",
+      "title": "Mimic Pylon",
+      "change": "updated",
+      "previousRevisionId": 15221,
+      "revisionId": 18491,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "portable-locker",
+      "title": "Portable Locker",
+      "change": "updated",
+      "previousRevisionId": 17298,
+      "revisionId": 18576,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "portable-oxygen-generator",
+      "title": "Portable Oxygen Generator",
+      "change": "updated",
+      "previousRevisionId": 17652,
+      "revisionId": 18399,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "roof-antenna-large",
+      "title": "Roof Antenna Large",
+      "change": "updated",
+      "previousRevisionId": 17349,
+      "revisionId": 18226,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "roof-listening-dish",
+      "title": "Roof Listening Dish",
+      "change": "updated",
+      "previousRevisionId": 17350,
+      "revisionId": 18232,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "roof-panel-large",
+      "title": "Roof Panel Large",
+      "change": "updated",
+      "previousRevisionId": 17347,
+      "revisionId": 18227,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "sea-dragon-poster",
+      "title": "Sea Dragon Poster",
+      "change": "updated",
+      "previousRevisionId": 15362,
+      "revisionId": 18237,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "seamoth-model",
+      "title": "Seamoth Model",
+      "change": "updated",
+      "previousRevisionId": 16999,
+      "revisionId": 18172,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "sign",
+      "title": "Sign",
+      "change": "updated",
+      "previousRevisionId": 18013,
+      "revisionId": 18215,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "solar-panel",
+      "title": "Solar Panel",
+      "change": "updated",
+      "previousRevisionId": 17375,
+      "revisionId": 18206,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "storage-cache",
+      "title": "Storage Cache",
+      "change": "updated",
+      "previousRevisionId": 17275,
+      "revisionId": 18238,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-dock",
+      "title": "Tadpole Dock",
+      "change": "updated",
+      "previousRevisionId": 17364,
+      "revisionId": 18271,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "urchin-pudding",
+      "title": "Urchin Pudding",
+      "change": "updated",
+      "previousRevisionId": 14894,
+      "revisionId": 18235,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "vintage-wanted-poster",
+      "title": "Vintage Wanted poster",
+      "change": "added",
+      "previousRevisionId": null,
+      "revisionId": 18560,
+      "previousStatus": null,
+      "status": "wiki-backed"
+    },
+    {
+      "id": "wall-unit-small",
+      "title": "Wall Unit Small",
+      "change": "updated",
+      "previousRevisionId": 17339,
+      "revisionId": 18228,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "wall-vent",
+      "title": "Wall Vent",
+      "change": "updated",
+      "previousRevisionId": 17342,
+      "revisionId": 18230,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "wall-vent-large",
+      "title": "Wall Vent Large",
+      "change": "updated",
+      "previousRevisionId": 17343,
+      "revisionId": 18229,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "world-tree-relic",
+      "title": "World Tree Relic",
+      "change": "updated",
+      "previousRevisionId": 17695,
+      "revisionId": 18236,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

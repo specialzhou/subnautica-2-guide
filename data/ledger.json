@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "tracker": {
-    "lastReview": "2026-07-13",
+    "lastReview": "2026-07-18",
     "gameBuild": "23446003 (Steam public)",
     "verifiedEntries": 0,
-    "inReview": 1,
+    "inReview": 0,
     "withdrawnPages": 0,
-    "wikiBackedEntries": 302,
+    "wikiBackedEntries": 288,
     "gameBuildEvidence": {
       "status": "metadata-only",
       "source": "https://steamdb.info/app/1962700/depots/",
@@ -31,7 +31,7 @@
       "type": "Structured baseline",
       "url": "https://wiki.subnautica.com/sn2/",
       "allowedUse": "Structured facts are imported with permanent revision links. Article prose and images are not copied. Wiki-backed is distinct from in-game verified.",
-      "lastChecked": "2026-07-13",
+      "lastChecked": "2026-07-18",
       "license": {
         "name": "CC BY-NC-SA 3.0",
         "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

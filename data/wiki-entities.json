@@ -1,20 +1,20 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-07-13T16:20:03.075Z",
+  "generatedAt": "2026-07-18T05:38:28.229Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
     "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
-  "publishedCount": 98,
-  "excludedCount": 1,
+  "publishedCount": 82,
+  "excludedCount": 0,
   "counts": {
-    "resources": 33,
-    "creatures": 48,
+    "resources": 34,
+    "creatures": 32,
     "vehicles": 3,
-    "biomes": 14
+    "biomes": 13
   },
-  "imageCount": 96,
+  "imageCount": 80,
   "entities": [
     {
       "id": "acidic-raion-pouch",
@@ -171,7 +171,6 @@
       "categories": [
         "Bioreactor fuel",
         "Foragers",
-        "Karakorum Metal Farms",
         "Lifeforms with Variants",
         "Needs In-Game Screenshots",
         "Passive",
@@ -181,10 +180,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Black_Hoverthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Black_Hoverthorn&oldid=17843",
-        "revisionId": 17843,
-        "revisionTimestamp": "2026-07-11T15:16:40Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Black_Hoverthorn&oldid=18458",
+        "revisionId": 18458,
+        "revisionTimestamp": "2026-07-15T15:07:29Z",
+        "fetchedAt": "2026-07-18T05:38:29.356Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -219,18 +218,16 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
-        "Root Canyon",
         "Section stubs",
-        "Shallows",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bluemoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=17914",
-        "revisionId": 17914,
-        "revisionTimestamp": "2026-07-11T15:45:55Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=18100",
+        "revisionId": 18100,
+        "revisionTimestamp": "2026-07-13T19:56:06Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -264,18 +261,15 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Graveyard",
-        "Overgrown Ruins",
-        "Predators",
-        "Root Canyon"
+        "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullethead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=17511",
-        "revisionId": 17511,
-        "revisionTimestamp": "2026-07-10T17:11:18Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=18102",
+        "revisionId": 18102,
+        "revisionTimestamp": "2026-07-13T19:56:10Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -349,17 +343,17 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Overgrown Ruins",
         "Passive",
-        "Predators"
+        "Predators",
+        "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cerathecan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=17483",
-        "revisionId": 17483,
-        "revisionTimestamp": "2026-07-10T16:50:21Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=18466",
+        "revisionId": 18466,
+        "revisionTimestamp": "2026-07-15T15:22:07Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -391,18 +385,16 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Karakorum Metal Farms",
         "Leviathans",
-        "Needs In-Game Screenshots",
-        "Sparse Plains"
+        "Needs In-Game Screenshots"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=17242",
-        "revisionId": 17242,
-        "revisionTimestamp": "2026-07-10T06:30:56Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=18106",
+        "revisionId": 18106,
+        "revisionTimestamp": "2026-07-13T19:56:26Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -551,17 +543,16 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Dolerite Spires",
         "Foragers",
         "Passive"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Coral_Crab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Crab&oldid=16412",
-        "revisionId": 16412,
-        "revisionTimestamp": "2026-07-09T00:59:37Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Crab&oldid=18409",
+        "revisionId": 18409,
+        "revisionTimestamp": "2026-07-15T09:23:05Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -658,49 +649,6 @@
       }
     },
     {
-      "id": "crimson-shrimp",
-      "title": "Crimson Shrimp",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Lifeforms",
-        "Overgrown Ruins",
-        "Passive",
-        "Shallows Caves"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Crimson_Shrimp",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Crimson_Shrimp&oldid=17477",
-        "revisionId": 17477,
-        "revisionTimestamp": "2026-07-10T16:46:13Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Overgrown Ruins",
-          "Shallows Caves"
-        ]
-      },
-      "media": {
-        "fileName": "Crimson Shrimp.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Crimson_Shrimp.png?2721d",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Crimson_Shrimp.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "deepwing-brooder",
       "title": "Deepwing Brooder",
       "kind": "creatures",
@@ -748,16 +696,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Coral Gardens"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dolerite_Spires",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dolerite_Spires&oldid=8710",
-        "revisionId": 8710,
-        "revisionTimestamp": "2026-05-23T04:12:47Z",
-        "fetchedAt": "2026-07-12T12:33:06.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dolerite_Spires&oldid=18396",
+        "revisionId": 18396,
+        "revisionTimestamp": "2026-07-14T23:09:11Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -780,44 +727,6 @@
       }
     },
     {
-      "id": "elusive-leviathan",
-      "title": "Elusive Leviathan",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Datamined content",
-        "Lifeforms"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Elusive_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Elusive_Leviathan&oldid=15295",
-        "revisionId": 15295,
-        "revisionTimestamp": "2026-07-08T17:26:21Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "",
-        "type": "Mobile",
-        "group": "",
-        "species": "",
-        "nutrition": "",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Elusive Leviathan Ingame.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Elusive_Leviathan_Ingame.png/720px-Elusive_Leviathan_Ingame.png?0ca52",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Elusive_Leviathan_Ingame.png",
-        "width": 720,
-        "height": 405
-      }
-    },
-    {
       "id": "epicurean",
       "title": "Epicurean",
       "kind": "creatures",
@@ -826,17 +735,15 @@
       "categories": [
         "Aggressive",
         "Foragers",
-        "Karakorum Metal Farms",
-        "Needs In-Game Screenshots",
-        "Root Canyon"
+        "Needs In-Game Screenshots"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Epicurean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Epicurean&oldid=15406",
-        "revisionId": 15406,
-        "revisionTimestamp": "2026-07-08T19:30:43Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Epicurean&oldid=18119",
+        "revisionId": 18119,
+        "revisionTimestamp": "2026-07-13T19:57:13Z",
+        "fetchedAt": "2026-07-18T05:38:29.356Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -862,46 +769,6 @@
       }
     },
     {
-      "id": "eyeball-sponge",
-      "title": "Eyeball Sponge",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Lifeforms",
-        "Passive"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Eyeball_Sponge",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Eyeball_Sponge&oldid=17464",
-        "revisionId": 17464,
-        "revisionTimestamp": "2026-07-10T16:39:23Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Anchored",
-        "group": "Unknown",
-        "species": "",
-        "nutrition": "",
-        "biomes": [
-          "Overgrown Ruins"
-        ]
-      },
-      "media": {
-        "fileName": "Eyeball Sponge.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Eyeball_Sponge.png/720px-Eyeball_Sponge.png?29244",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Eyeball_Sponge.png",
-        "width": 720,
-        "height": 720
-      }
-    },
-    {
       "id": "flash-slug",
       "title": "Flash Slug",
       "kind": "creatures",
@@ -911,18 +778,16 @@
         "Bioreactor fuel",
         "Defensive",
         "Foragers",
-        "Karakorum Power Plant",
-        "Overgrown Ruins",
-        "Root Canyon",
+        "Section stubs",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flash_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=17916",
-        "revisionId": 17916,
-        "revisionTimestamp": "2026-07-11T15:46:15Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=18463",
+        "revisionId": 18463,
+        "revisionTimestamp": "2026-07-15T15:20:02Z",
+        "fetchedAt": "2026-07-18T05:38:29.357Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -949,67 +814,22 @@
       }
     },
     {
-      "id": "fluttertail",
-      "title": "Fluttertail",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Lifeforms",
-        "Overgrown Ruins",
-        "Passive",
-        "Plateaus"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Fluttertail",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Fluttertail&oldid=17481",
-        "revisionId": 17481,
-        "revisionTimestamp": "2026-07-10T16:48:44Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Overgrown Ruins",
-          "Plateaus"
-        ]
-      },
-      "media": {
-        "fileName": "Fluttertail Morph A1.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Fluttertail_Morph_A1.png?2721d",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Fluttertail_Morph_A1.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "foureye",
       "title": "Foureye",
       "kind": "creatures",
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Coral Gardens",
         "Defensive",
-        "Necrolei Hills",
         "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Foureye",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=15153",
-        "revisionId": 15153,
-        "revisionTimestamp": "2026-07-08T16:09:52Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=18283",
+        "revisionId": 18283,
+        "revisionTimestamp": "2026-07-14T14:54:06Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1035,49 +855,6 @@
       }
     },
     {
-      "id": "freesia-flower",
-      "title": "Freesia Flower",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Crafted with Habitat Builder",
-        "Harvestable",
-        "Lifeforms",
-        "Overgrown Ruins",
-        "Plantables"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Freesia_Flower",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Freesia_Flower&oldid=17491",
-        "revisionId": 17491,
-        "revisionTimestamp": "2026-07-10T16:54:21Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Anchored",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Overgrown Ruins"
-        ]
-      },
-      "media": {
-        "fileName": "Freesia Flower.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Freesia_Flower.png?a72c4",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Freesia_Flower.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "geordie",
       "title": "Geordie",
       "kind": "creatures",
@@ -1085,7 +862,6 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
-        "Coral Gardens",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -1094,10 +870,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Geordie",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=17917",
-        "revisionId": 17917,
-        "revisionTimestamp": "2026-07-11T15:46:24Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=18284",
+        "revisionId": 18284,
+        "revisionTimestamp": "2026-07-14T14:54:43Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1275,15 +1051,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Graveyard",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graveyard&oldid=13886",
-        "revisionId": 13886,
-        "revisionTimestamp": "2026-06-16T00:18:04Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graveyard&oldid=18410",
+        "revisionId": 18410,
+        "revisionTimestamp": "2026-07-15T09:23:33Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1349,22 +1125,18 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
-        "Coral Gardens",
         "Foragers",
-        "Graveyard",
         "Lifeforms with Variants",
-        "Necrolei Hills",
         "Passive",
-        "Root Canyon",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Halfmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=17918",
-        "revisionId": 17918,
-        "revisionTimestamp": "2026-07-11T15:46:34Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=18285",
+        "revisionId": 18285,
+        "revisionTimestamp": "2026-07-14T14:54:58Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1398,18 +1170,16 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Coral Gardens",
         "Defensive",
-        "Foragers",
-        "Lead Zone"
+        "Foragers"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hammerhead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=15155",
-        "revisionId": 15155,
-        "revisionTimestamp": "2026-07-08T16:10:44Z",
-        "fetchedAt": "2026-07-12T12:33:05.170Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=18367",
+        "revisionId": 18367,
+        "revisionTimestamp": "2026-07-14T17:30:30Z",
+        "fetchedAt": "2026-07-18T05:38:29.353Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1442,20 +1212,18 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
-        "Coral Gardens",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
-        "Root Canyon",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Harvestmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=17919",
-        "revisionId": 17919,
-        "revisionTimestamp": "2026-07-11T15:46:52Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=18287",
+        "revisionId": 18287,
+        "revisionTimestamp": "2026-07-14T14:55:31Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1488,16 +1256,15 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Graveyard",
         "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Houndgar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Houndgar&oldid=15157",
-        "revisionId": 15157,
-        "revisionTimestamp": "2026-07-08T16:11:35Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Houndgar&oldid=18387",
+        "revisionId": 18387,
+        "revisionTimestamp": "2026-07-14T21:44:56Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1530,22 +1297,19 @@
       "categories": [
         "Bioreactor fuel",
         "Foragers",
-        "Karakorum Metal Farms",
-        "Karakorum Power Plant",
         "Lifeforms with Variants",
         "Needs In-Game Screenshots",
-        "Overgrown Ruins",
         "Passive",
-        "Root Canyon",
+        "Section stubs",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hoverthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=17920",
-        "revisionId": 17920,
-        "revisionTimestamp": "2026-07-11T15:47:00Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=18488",
+        "revisionId": 18488,
+        "revisionTimestamp": "2026-07-15T15:34:04Z",
+        "fetchedAt": "2026-07-18T05:38:29.356Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1579,18 +1343,17 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Coral Gardens",
-        "Necrolei Hills",
         "Passive",
-        "Predators"
+        "Predators",
+        "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=18072",
-        "revisionId": 18072,
-        "revisionTimestamp": "2026-07-13T16:18:41Z",
-        "fetchedAt": "2026-07-13T16:20:05.671Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=18467",
+        "revisionId": 18467,
+        "revisionTimestamp": "2026-07-15T15:22:28Z",
+        "fetchedAt": "2026-07-18T05:38:29.357Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1623,18 +1386,16 @@
       "exclusionReasons": [],
       "categories": [
         "Foragers",
-        "Graveyard",
-        "Karakorum Power Plant",
         "Passive",
         "Stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Jelly_Ring",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jelly_Ring&oldid=15169",
-        "revisionId": 15169,
-        "revisionTimestamp": "2026-07-08T16:18:03Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jelly_Ring&oldid=18225",
+        "revisionId": 18225,
+        "revisionTimestamp": "2026-07-14T06:22:18Z",
+        "fetchedAt": "2026-07-18T05:38:29.357Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1667,17 +1428,15 @@
       "exclusionReasons": [],
       "categories": [
         "Foragers",
-        "Necrolei Hills",
-        "Overgrown Ruins",
         "Passive"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Jetocaris",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jetocaris&oldid=17494",
-        "revisionId": 17494,
-        "revisionTimestamp": "2026-07-10T16:55:35Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jetocaris&oldid=18137",
+        "revisionId": 18137,
+        "revisionTimestamp": "2026-07-13T19:58:20Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1709,15 +1468,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes"
+        "Karakorum Ruins biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Karakorum_Metal_Farms",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Karakorum_Metal_Farms&oldid=17819",
-        "revisionId": 17819,
-        "revisionTimestamp": "2026-07-11T15:03:48Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Karakorum_Metal_Farms&oldid=18304",
+        "revisionId": 18304,
+        "revisionTimestamp": "2026-07-14T15:03:57Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1733,41 +1492,6 @@
         "filePage": "https://wiki.subnautica.com/sn2/File:Karakorum_Metal_Farms_Biome.png",
         "width": 720,
         "height": 405
-      }
-    },
-    {
-      "id": "karakorum-power-plant",
-      "title": "Karakorum Power Plant",
-      "kind": "biomes",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Axum Structures",
-        "Biomes",
-        "Karakorum"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Karakorum_Power_Plant",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Karakorum_Power_Plant&oldid=17822",
-        "revisionId": 17822,
-        "revisionTimestamp": "2026-07-11T15:04:23Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "depth": "20 - 470 meters",
-        "pointsOfInterest": []
-      },
-      "media": {
-        "fileName": "Karakorum Power Plant.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Karakorum_Power_Plant.png/720px-Karakorum_Power_Plant.png?32305",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Karakorum_Power_Plant.png",
-        "width": 720,
-        "height": 720
       }
     },
     {
@@ -1815,16 +1539,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Coral Gardens"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lead_Zone",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead_Zone&oldid=10358",
-        "revisionId": 10358,
-        "revisionTimestamp": "2026-05-27T01:18:20Z",
-        "fetchedAt": "2026-07-12T12:33:06.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead_Zone&oldid=18393",
+        "revisionId": 18393,
+        "revisionTimestamp": "2026-07-14T22:46:25Z",
+        "fetchedAt": "2026-07-18T05:38:30.480Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1883,48 +1606,6 @@
       }
     },
     {
-      "id": "locust",
-      "title": "Locust",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Graveyard Caves",
-        "Lifeforms",
-        "Passive",
-        "Stubs"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Locust",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Locust&oldid=14355",
-        "revisionId": 14355,
-        "revisionTimestamp": "2026-07-02T01:02:17Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Graveyard Caves"
-        ]
-      },
-      "media": {
-        "fileName": "Locust.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Locust.png?5539b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Locust.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "mangalloy-ingot",
       "title": "Mangalloy Ingot",
       "kind": "resources",
@@ -1967,18 +1648,15 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Graveyard",
-        "Plateaus",
-        "Predators",
-        "Shallows"
+        "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Marrowbreach",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=17976",
-        "revisionId": 17976,
-        "revisionTimestamp": "2026-07-12T18:10:34Z",
-        "fetchedAt": "2026-07-13T15:00:04.736Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=18412",
+        "revisionId": 18412,
+        "revisionTimestamp": "2026-07-15T09:24:03Z",
+        "fetchedAt": "2026-07-18T05:38:29.353Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2041,47 +1719,6 @@
       }
     },
     {
-      "id": "microshrimp",
-      "title": "Microshrimp",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Lifeforms",
-        "Overgrown Ruins",
-        "Passive"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Microshrimp",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Microshrimp&oldid=17479",
-        "revisionId": 17479,
-        "revisionTimestamp": "2026-07-10T16:47:24Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "",
-        "nutrition": "",
-        "biomes": [
-          "Overgrown Ruins"
-        ]
-      },
-      "media": {
-        "fileName": "Microshrimp.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Microshrimp.png?ae4cc",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Microshrimp.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "mild-acid",
       "title": "Mild Acid",
       "kind": "resources",
@@ -2114,47 +1751,6 @@
         "fileName": "Mild Acid.png",
         "url": "https://wiki.subnautica.com/sn2/images/Mild_Acid.png?84af4",
         "filePage": "https://wiki.subnautica.com/sn2/File:Mild_Acid.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
-      "id": "mirror-halfmoon",
-      "title": "Mirror Halfmoon",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Lifeforms",
-        "Lifeforms with Variants",
-        "Passive"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Mirror_Halfmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mirror_Halfmoon&oldid=9896",
-        "revisionId": 9896,
-        "revisionTimestamp": "2026-05-25T19:12:14Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Shallows"
-        ]
-      },
-      "media": {
-        "fileName": "Mirror Halfmoon Morph A.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Mirror_Halfmoon_Morph_A.png?2721d",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Mirror_Halfmoon_Morph_A.png",
         "width": 256,
         "height": 256
       }
@@ -2200,21 +1796,57 @@
       }
     },
     {
+      "id": "necrolei-cyst",
+      "title": "Necrolei Cyst",
+      "kind": "resources",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Raw Materials"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Cyst",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Cyst&oldid=18400",
+        "revisionId": 18400,
+        "revisionTimestamp": "2026-07-15T01:31:05Z",
+        "fetchedAt": "2026-07-18T05:38:28.868Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "source": "",
+        "group": "Raw Materials",
+        "biomes": [
+          "Necrolei Hills"
+        ]
+      },
+      "media": {
+        "fileName": "Necrolei Cyst.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Cyst.png?32305",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Cyst.png",
+        "width": 256,
+        "height": 256
+      }
+    },
+    {
       "id": "necrolei-hills",
       "title": "Necrolei Hills",
       "kind": "biomes",
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Hills",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Hills&oldid=18055",
-        "revisionId": 18055,
-        "revisionTimestamp": "2026-07-13T15:21:31Z",
-        "fetchedAt": "2026-07-13T16:18:13.389Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Hills&oldid=18296",
+        "revisionId": 18296,
+        "revisionTimestamp": "2026-07-14T14:59:21Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2243,17 +1875,15 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Needler Nest",
-        "Overgrown Ruins",
         "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Needler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=17495",
-        "revisionId": 17495,
-        "revisionTimestamp": "2026-07-10T16:55:42Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=18349",
+        "revisionId": 18349,
+        "revisionTimestamp": "2026-07-14T15:29:16Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2286,16 +1916,15 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Coral Gardens",
         "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Nibbler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=15172",
-        "revisionId": 15172,
-        "revisionTimestamp": "2026-07-08T16:19:12Z",
-        "fetchedAt": "2026-07-12T12:33:05.171Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=18292",
+        "revisionId": 18292,
+        "revisionTimestamp": "2026-07-14T14:58:03Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2326,16 +1955,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Coral Gardens"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/North_Raceway",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=North_Raceway&oldid=17564",
-        "revisionId": 17564,
-        "revisionTimestamp": "2026-07-10T20:19:36Z",
-        "fetchedAt": "2026-07-12T12:33:06.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=North_Raceway&oldid=18297",
+        "revisionId": 18297,
+        "revisionTimestamp": "2026-07-14T14:59:43Z",
+        "fetchedAt": "2026-07-18T05:38:30.480Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2362,16 +1990,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Karakorum"
+        "Karakorum Ruins biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Overgrown_Ruins",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Overgrown_Ruins&oldid=17463",
-        "revisionId": 17463,
-        "revisionTimestamp": "2026-07-10T16:34:08Z",
-        "fetchedAt": "2026-07-12T12:33:06.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Overgrown_Ruins&oldid=18307",
+        "revisionId": 18307,
+        "revisionTimestamp": "2026-07-14T15:05:38Z",
+        "fetchedAt": "2026-07-18T05:38:30.480Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2390,49 +2017,6 @@
       }
     },
     {
-      "id": "pelagic-ghost",
-      "title": "Pelagic Ghost",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Karakorum Power Plant",
-        "Lifeforms",
-        "Lifeforms with Variants",
-        "Needs In-Game Screenshots",
-        "Passive"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Pelagic_Ghost",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pelagic_Ghost&oldid=10916",
-        "revisionId": 10916,
-        "revisionTimestamp": "2026-05-30T18:18:30Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Karakorum Power Plant"
-        ]
-      },
-      "media": {
-        "fileName": "Pelagic Ghost Morph A.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Pelagic_Ghost_Morph_A.png?5539b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Pelagic_Ghost_Morph_A.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "periscopic-clowncrab",
       "title": "Periscopic Clowncrab",
       "kind": "creatures",
@@ -2441,17 +2025,16 @@
       "categories": [
         "Foragers",
         "Lifeforms with Variants",
-        "Necrolei Hills",
         "Passive",
-        "Shallows"
+        "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Periscopic_Clowncrab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=15409",
-        "revisionId": 15409,
-        "revisionTimestamp": "2026-07-08T19:34:59Z",
-        "fetchedAt": "2026-07-12T12:33:05.172Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=18465",
+        "revisionId": 18465,
+        "revisionTimestamp": "2026-07-15T15:21:14Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2518,16 +2101,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Coral Gardens"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Plateaus",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plateaus&oldid=11684",
-        "revisionId": 11684,
-        "revisionTimestamp": "2026-06-04T18:55:56Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plateaus&oldid=18392",
+        "revisionId": 18392,
+        "revisionTimestamp": "2026-07-14T22:46:02Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2556,7 +2138,6 @@
       "categories": [
         "Bioreactor fuel",
         "Foragers",
-        "Overgrown Ruins",
         "Passive",
         "Section stubs",
         "Uncooked Food"
@@ -2564,10 +2145,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pneuma",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=17921",
-        "revisionId": 17921,
-        "revisionTimestamp": "2026-07-11T15:47:09Z",
-        "fetchedAt": "2026-07-12T12:33:05.173Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=18538",
+        "revisionId": 18538,
+        "revisionTimestamp": "2026-07-15T19:19:39Z",
+        "fetchedAt": "2026-07-18T05:38:29.355Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2589,48 +2170,6 @@
         "filePage": "https://wiki.subnautica.com/sn2/File:Pneuma.png",
         "width": 256,
         "height": 256
-      }
-    },
-    {
-      "id": "pudding-urchin",
-      "title": "Pudding Urchin",
-      "kind": "creatures",
-      "status": "excluded",
-      "exclusionReasons": [
-        "Removed content"
-      ],
-      "categories": [
-        "Lifeforms",
-        "Passive",
-        "Removed content",
-        "Uncooked Food"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Pudding_Urchin",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pudding_Urchin&oldid=18015",
-        "revisionId": 18015,
-        "revisionTimestamp": "2026-07-13T04:17:28Z",
-        "fetchedAt": "2026-07-13T15:00:04.739Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Unknown",
-        "group": "",
-        "species": "",
-        "nutrition": "+5 Water",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Pudding Urchin.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Pudding_Urchin.png?6ccb0",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Pudding_Urchin.png",
-        "width": 512,
-        "height": 512
       }
     },
     {
@@ -2708,17 +2247,16 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Karakorum",
+        "Karakorum Ruins biomes",
         "Stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Root_Canyon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Root_Canyon&oldid=17756",
-        "revisionId": 17756,
-        "revisionTimestamp": "2026-07-11T10:20:52Z",
-        "fetchedAt": "2026-07-12T12:33:06.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Root_Canyon&oldid=18308",
+        "revisionId": 18308,
+        "revisionTimestamp": "2026-07-14T15:06:00Z",
+        "fetchedAt": "2026-07-18T05:38:30.480Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2786,18 +2324,15 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Overgrown Ruins",
-        "Plateaus",
-        "Predators",
-        "Shallows"
+        "Predators"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sandspear",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=18041",
-        "revisionId": 18041,
-        "revisionTimestamp": "2026-07-13T14:52:12Z",
-        "fetchedAt": "2026-07-13T15:00:04.737Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=18153",
+        "revisionId": 18153,
+        "revisionTimestamp": "2026-07-13T19:59:37Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2825,60 +2360,21 @@
       }
     },
     {
-      "id": "scourge-hive",
-      "title": "Scourge Hive",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Datamined content",
-        "Lifeforms"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Scourge_Hive",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scourge_Hive&oldid=17029",
-        "revisionId": 17029,
-        "revisionTimestamp": "2026-07-09T19:37:01Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "",
-        "nutrition": "",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Scourge Hive Ingame.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Scourge_Hive_Ingame.png/720px-Scourge_Hive_Ingame.png?91378",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Scourge_Hive_Ingame.png",
-        "width": 720,
-        "height": 405
-      }
-    },
-    {
       "id": "shallows",
       "title": "Shallows",
       "kind": "biomes",
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Coral Gardens"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shallows",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shallows&oldid=15551",
-        "revisionId": 15551,
-        "revisionTimestamp": "2026-07-08T22:13:41Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shallows&oldid=18299",
+        "revisionId": 18299,
+        "revisionTimestamp": "2026-07-14T15:00:32Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2909,16 +2405,15 @@
       "categories": [
         "Aggressive",
         "Leviathans",
-        "Needs In-Game Screenshots",
-        "Void"
+        "Needs In-Game Screenshots"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=18061",
-        "revisionId": 18061,
-        "revisionTimestamp": "2026-07-13T15:35:05Z",
-        "fetchedAt": "2026-07-13T16:18:11.864Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=18154",
+        "revisionId": 18154,
+        "revisionTimestamp": "2026-07-13T19:59:44Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2951,16 +2446,15 @@
       "categories": [
         "Aggressive",
         "Leviathans",
-        "Needs In-Game Screenshots",
-        "Void"
+        "Needs In-Game Screenshots"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Male",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Male&oldid=15162",
-        "revisionId": 15162,
-        "revisionTimestamp": "2026-07-08T16:14:50Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Male&oldid=18155",
+        "revisionId": 18155,
+        "revisionTimestamp": "2026-07-13T19:59:48Z",
+        "fetchedAt": "2026-07-18T05:38:29.357Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3067,16 +2561,15 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Coral Gardens"
+        "Corals Gardens biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/South_Raceway",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=South_Raceway&oldid=17565",
-        "revisionId": 17565,
-        "revisionTimestamp": "2026-07-10T20:20:04Z",
-        "fetchedAt": "2026-07-12T12:33:06.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=South_Raceway&oldid=18300",
+        "revisionId": 18300,
+        "revisionTimestamp": "2026-07-14T15:00:44Z",
+        "fetchedAt": "2026-07-18T05:38:30.480Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3101,7 +2594,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes"
+        "Sparse Plains biomes"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -3244,17 +2737,15 @@
       "exclusionReasons": [],
       "categories": [
         "Defensive",
-        "Dolerite Spires",
-        "Foragers",
-        "Karakorum Power Plant"
+        "Foragers"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Surge_Jelly",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=15170",
-        "revisionId": 15170,
-        "revisionTimestamp": "2026-07-08T16:18:24Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=18157",
+        "revisionId": 18157,
+        "revisionTimestamp": "2026-07-13T20:00:01Z",
+        "fetchedAt": "2026-07-18T05:38:29.356Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3386,91 +2877,6 @@
       "media": null
     },
     {
-      "id": "tar-eel",
-      "title": "Tar Eel",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Datamined content",
-        "Lifeforms",
-        "Section stubs"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Tar_Eel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Eel&oldid=17226",
-        "revisionId": 17226,
-        "revisionTimestamp": "2026-07-10T01:11:56Z",
-        "fetchedAt": "2026-07-12T12:33:05.175Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "",
-        "type": "Mobile",
-        "group": "",
-        "species": "",
-        "nutrition": "",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Tar Eel Ingame.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Eel_Ingame.png/720px-Tar_Eel_Ingame.png?cdd1c",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Tar_Eel_Ingame.png",
-        "width": 720,
-        "height": 405
-      }
-    },
-    {
-      "id": "teal-cycloplet",
-      "title": "Teal Cycloplet",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Graveyard Caves",
-        "Lifeforms",
-        "Needler Nest",
-        "Overgrown Ruins",
-        "Passive"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Teal_Cycloplet",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Teal_Cycloplet&oldid=17478",
-        "revisionId": 17478,
-        "revisionTimestamp": "2026-07-10T16:46:51Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Mobile",
-        "group": "Unknown",
-        "species": "Unknown",
-        "nutrition": "",
-        "biomes": [
-          "Graveyard Caves",
-          "Needler Nest",
-          "Overgrown Ruins",
-          "Necrolei Hills"
-        ]
-      },
-      "media": {
-        "fileName": "Teal Cycloplet.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Teal_Cycloplet.png?5539b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Teal_Cycloplet.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "titanium",
       "title": "Titanium",
       "kind": "resources",
@@ -3588,18 +2994,16 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
-        "Karakorum Metal Farms",
-        "Karakorum Power Plant",
         "Predators",
-        "Root Canyon"
+        "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Twin_Sitaray",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=15164",
-        "revisionId": 15164,
-        "revisionTimestamp": "2026-07-08T16:15:36Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=18469",
+        "revisionId": 18469,
+        "revisionTimestamp": "2026-07-15T15:23:00Z",
+        "fetchedAt": "2026-07-18T05:38:29.356Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3626,120 +3030,6 @@
       }
     },
     {
-      "id": "vep-defender",
-      "title": "Vep Defender",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Datamined content",
-        "Lifeforms"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Vep_Defender",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vep_Defender&oldid=17693",
-        "revisionId": 17693,
-        "revisionTimestamp": "2026-07-10T23:48:08Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "",
-        "type": "Mobile",
-        "group": "",
-        "species": "",
-        "nutrition": "",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Vep Defender.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Defender.png/720px-Vep_Defender.png?20ec8",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Vep_Defender.png",
-        "width": 720,
-        "height": 720
-      }
-    },
-    {
-      "id": "vep-sensor",
-      "title": "Vep Sensor",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Datamined content",
-        "Lifeforms"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Vep_Sensor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vep_Sensor&oldid=17655",
-        "revisionId": 17655,
-        "revisionTimestamp": "2026-07-10T21:56:35Z",
-        "fetchedAt": "2026-07-12T12:33:05.175Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "",
-        "type": "Mobile",
-        "group": "",
-        "species": "",
-        "nutrition": "",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Vep Sensor.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Sensor.png/720px-Vep_Sensor.png?15391",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Vep_Sensor.png",
-        "width": 720,
-        "height": 720
-      }
-    },
-    {
-      "id": "vep-worker",
-      "title": "Vep Worker",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Datamined content",
-        "Lifeforms"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Vep_Worker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vep_Worker&oldid=17667",
-        "revisionId": 17667,
-        "revisionTimestamp": "2026-07-10T22:43:06Z",
-        "fetchedAt": "2026-07-12T12:33:05.175Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "",
-        "type": "Mobile",
-        "group": "",
-        "species": "",
-        "nutrition": "",
-        "biomes": []
-      },
-      "media": {
-        "fileName": "Vep Worker.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Worker.png/720px-Vep_Worker.png?71e8d",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Vep_Worker.png",
-        "width": 720,
-        "height": 720
-      }
-    },
-    {
       "id": "void",
       "title": "Void",
       "kind": "biomes",
@@ -3751,10 +3041,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Void",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=14236",
-        "revisionId": 14236,
-        "revisionTimestamp": "2026-07-01T10:58:27Z",
-        "fetchedAt": "2026-07-12T12:33:06.448Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=18163",
+        "revisionId": 18163,
+        "revisionTimestamp": "2026-07-13T20:00:21Z",
+        "fetchedAt": "2026-07-18T05:38:30.479Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3819,16 +3109,15 @@
         "Bioreactor fuel",
         "Foragers",
         "Passive",
-        "Shallows",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Water_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water_Slug&oldid=17913",
-        "revisionId": 17913,
-        "revisionTimestamp": "2026-07-11T15:45:39Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water_Slug&oldid=18427",
+        "revisionId": 18427,
+        "revisionTimestamp": "2026-07-15T09:48:59Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3859,20 +3148,16 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Coral Gardens",
         "Foragers",
-        "Graveyard",
-        "Necrolei Hills",
-        "Passive",
-        "Root Canyon"
+        "Passive"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Waxmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Waxmoon&oldid=15165",
-        "revisionId": 15165,
-        "revisionTimestamp": "2026-07-08T16:15:58Z",
-        "fetchedAt": "2026-07-12T12:33:05.174Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Waxmoon&oldid=18293",
+        "revisionId": 18293,
+        "revisionTimestamp": "2026-07-14T14:58:18Z",
+        "fetchedAt": "2026-07-18T05:38:29.354Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3897,46 +3182,6 @@
         "filePage": "https://wiki.subnautica.com/sn2/File:Waxmoon.png",
         "width": 256,
         "height": 256
-      }
-    },
-    {
-      "id": "world-tree",
-      "title": "World Tree",
-      "kind": "creatures",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Lifeforms",
-        "Xanadu"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/World_Tree",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree&oldid=18060",
-        "revisionId": 18060,
-        "revisionTimestamp": "2026-07-13T15:31:56Z",
-        "fetchedAt": "2026-07-13T16:18:11.867Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "attitude": "Passive",
-        "type": "Anchored",
-        "group": "Unknown",
-        "species": "Mundusilithae titanicae \"Titanic goddess of midwifes and childbirth of the world\"",
-        "nutrition": "",
-        "biomes": [
-          "Xanadu"
-        ]
-      },
-      "media": {
-        "fileName": "WorldTree Painting.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/WorldTree_Painting.png/720px-WorldTree_Painting.png?b3a17",
-        "filePage": "https://wiki.subnautica.com/sn2/File:WorldTree_Painting.png",
-        "width": 720,
-        "height": 720
       }
     }
   ]

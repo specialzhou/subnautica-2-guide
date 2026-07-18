@@ -16,8 +16,8 @@
   },
   "detailCursor": 0,
   "counts": {
-    "total": 22,
-    "needsReview": 21,
+    "total": 21,
+    "needsReview": 20,
     "addedThisRun": 0
   },
   "seenRedditIds": [
@@ -72,34 +72,6 @@
       "painScore": 7,
       "signals": [
         "how"
-      ],
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1uv44tv",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 11,
-        "observedAt": "2026-07-17T07:29:41.666Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Lost my saved files in Subnautica 2",
-      "questionKey": "lost my saved files in subnautica 2",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uv44tv/lost_my_saved_files_in_subnautica_2/",
-      "publishedAt": "2026-07-13T07:01:25+00:00",
-      "lastSeenAt": "2026-07-17T07:44:14.908Z",
-      "painScore": 7,
-      "signals": [
-        "help",
-        "bug",
-        "performance"
       ],
       "possibleDuplicateOf": null
     },

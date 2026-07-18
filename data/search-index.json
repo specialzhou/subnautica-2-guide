@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T00:00:00.000Z",
-  "count": 326,
+  "generatedAt": "2026-07-18T00:00:00.000Z",
+  "count": 327,
   "entries": [
     {
       "title": "Start here",
@@ -5081,6 +5081,33 @@
       "attention": {
         "upvotes": 4,
         "comments": 7,
+        "approximate": false
+      }
+    },
+    {
+      "title": "My save disappeared after the EA 1.1 update. What should I do?",
+      "type": "Question",
+      "href": "questions/save-missing-after-ea-1-1-update.html",
+      "terms": "Subnautica 2 save missing disappeared EA 1.1 update restore backup cloud save Restart the game client first and confirm that EA 1.1 has fully downloaded. In the source report, the save returned after a small update popup appeared. If it is still missing, do not overwrite the slot: back up any files that remain and contact support. A suggested .bak rename did not work for the reporter, so it is not a confirmed recovery method. EA 1.1 save-data",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "EA 1.1 更新后存档消失了，该怎么办？",
+        "ru": "После обновления EA 1.1 пропало сохранение. Что делать?"
+      },
+      "localizedTerms": {
+        "zh-cn": "Subnautica 2 存档 消失 丢失 EA 1.1 更新 恢复 备份 云存档 先重启游戏客户端，确认 EA 1.1 已完整下载。原帖中，玩家看到一个小型更新弹窗后，原存档重新出现。如果仍然找不到存档，不要覆盖原存档位；先备份现存文件并联系官方支持。评论提出的 .bak 改名方法对发帖人无效，因此本站不把它当作已确认的恢复方法。",
+        "ru": "Subnautica 2 пропало сохранение EA 1.1 обновление восстановить резервная копия облако Сначала перезапустите игровой клиент и убедитесь, что EA 1.1 полностью загрузилось. В исходном сообщении сохранение вернулось после появления небольшого окна обновления. Если оно по-прежнему отсутствует, не перезаписывайте слот: сохраните копию оставшихся файлов и обратитесь в поддержку. Переименование .bak не помогло автору, поэтому это не подтверждённый способ восстановления."
+      },
+      "answer": "Restart the game client first and confirm that EA 1.1 has fully downloaded. In the source report, the save returned after a small update popup appeared. If it is still missing, do not overwrite the slot: back up any files that remain and contact support. A suggested .bak rename did not work for the reporter, so it is not a confirmed recovery method.",
+      "localizedAnswers": {
+        "zh-cn": "先重启游戏客户端，确认 EA 1.1 已完整下载。原帖中，玩家看到一个小型更新弹窗后，原存档重新出现。如果仍然找不到存档，不要覆盖原存档位；先备份现存文件并联系官方支持。评论提出的 .bak 改名方法对发帖人无效，因此本站不把它当作已确认的恢复方法。",
+        "ru": "Сначала перезапустите игровой клиент и убедитесь, что EA 1.1 полностью загрузилось. В исходном сообщении сохранение вернулось после появления небольшого окна обновления. Если оно по-прежнему отсутствует, не перезаписывайте слот: сохраните копию оставшихся файлов и обратитесь в поддержку. Переименование .bak не помогло автору, поэтому это не подтверждённый способ восстановления."
+      },
+      "resolution": "partial",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 4,
+        "comments": 11,
         "approximate": false
       }
     }

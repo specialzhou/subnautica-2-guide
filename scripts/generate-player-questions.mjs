@@ -28,6 +28,7 @@ const locales = {
       observed: "observed",
       source: "Open Reddit discussion",
       additionalSources: "Additional discussions",
+      verifiedSources: "Verified sources",
       related: "Related guide records",
       footer: "Fan-made, unaffiliated with Unknown Worlds Entertainment or Krafton.",
       method: "Sources & methodology",
@@ -57,6 +58,7 @@ const locales = {
       observed: "采集于",
       source: "查看 Reddit 原讨论",
       additionalSources: "补充讨论",
+      verifiedSources: "核验来源",
       related: "相关攻略资料",
       footer: "玩家制作，与 Unknown Worlds Entertainment 或 Krafton 无关联。",
       method: "来源与方法",
@@ -86,6 +88,7 @@ const locales = {
       observed: "собрано",
       source: "Открыть обсуждение Reddit",
       additionalSources: "Дополнительные обсуждения",
+      verifiedSources: "Проверенные источники",
       related: "Связанные записи гайда",
       footer: "Фанатский проект, не связан с Unknown Worlds Entertainment или Krafton.",
       method: "Источники и методика",
@@ -122,7 +125,8 @@ const categoryLabels = {
   creatures: { en: "Creatures", "zh-cn": "生物", ru: "Существа" },
   traversal: { en: "Traversal", "zh-cn": "路线与穿越", ru: "Маршруты" },
   equipment: { en: "Equipment upgrades", "zh-cn": "装备升级", ru: "Улучшения снаряжения" },
-  crashes: { en: "Crash troubleshooting", "zh-cn": "崩溃排查", ru: "Диагностика вылетов" }
+  crashes: { en: "Crash troubleshooting", "zh-cn": "崩溃排查", ru: "Диагностика вылетов" },
+  "save-data": { en: "Save data", "zh-cn": "存档数据", ru: "Сохранения" }
 };
 
 const relatedPageLabels = {
@@ -163,13 +167,14 @@ function questionArticle(question, locale, index) {
   const category = categoryLabels[question.category]?.[code] ?? question.category;
   const related = relatedLinks(question, locale);
   const additionalSources = (question.additionalSources ?? []).map((source) => `<a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.title)}</a>`).join("");
+  const evidenceSources = (question.evidenceSources ?? []).map((source) => `<a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a>`).join("");
   return `<article class="question-record question-record--${question.resolution}" id="${escapeHtml(question.id)}">
     <div class="question-record__rail"><span>${String(index + 1).padStart(2, "0")}</span><span class="question-status question-status--${question.resolution}">${status}</span></div>
     <div class="question-record__body">
       <div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h2><a href="${questionDetailPath(locale, question.id)}" data-track="question-card" data-question-id="${escapeHtml(question.id)}">${escapeHtml(question.question[code])}</a></h2></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
       <div class="question-record__answer"><p class="eyebrow">${copy.answer}</p><p>${escapeHtml(question.answer[code])}</p></div>
       <div class="question-record__evidence"><div><strong>${copy.evidence}</strong><p>${escapeHtml(question.evidenceNote[code])}</p></div><div><strong>${copy.attention}</strong><p>${question.source.upvotes} ${copy.votes} · ${question.source.comments} ${copy.comments} · ${copy.observed} ${question.source.observedAt}</p></div></div>
-      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a>${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div>
+      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer">${copy.source} →</a>${evidenceSources ? `<span>${copy.verifiedSources}: ${evidenceSources}</span>` : ""}${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div>
     </div>
   </article>`;
 }
@@ -212,6 +217,7 @@ function renderDetailPage(question, locale) {
     ],
   };
   const additionalSources = (question.additionalSources ?? []).map((source) => `<a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.title)}</a>`).join("");
+  const evidenceSources = (question.evidenceSources ?? []).map((source) => `<a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.label)}</a>`).join("");
   const related = relatedLinks(question, locale);
   const navHrefs = ["starter-planner.html", "crafting.html", "resources.html", "creatures.html", "vehicles.html", "biomes.html"];
   return `<!doctype html>
@@ -234,7 +240,7 @@ function renderDetailPage(question, locale) {
       <div class="question-record__body"><div class="question-record__heading"><div><p class="question-record__tags">${escapeHtml(category)} · ${escapeHtml(question.buildContext)}</p><h1>${escapeHtml(title)}</h1></div><dl class="question-attention" aria-label="${copy.attention}"><div><dt>↑</dt><dd>${question.source.upvotes}</dd></div><div><dt>↳</dt><dd>${question.source.comments}</dd></div></dl></div>
       <div class="question-record__answer"><p class="eyebrow">${copy.answer}</p><p>${escapeHtml(description)}</p></div>
       <div class="question-record__evidence"><div><strong>${copy.evidence}</strong><p>${escapeHtml(question.evidenceNote[code])}</p></div><div><strong>${copy.attention}</strong><p>${question.source.upvotes} ${copy.votes} · ${question.source.comments} ${copy.comments} · ${copy.observed} ${question.source.observedAt}</p></div></div>
-      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer" data-track="reddit-source">${copy.source} →</a>${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div></div>
+      <div class="question-record__links"><a href="${escapeHtml(question.source.url)}" rel="noopener noreferrer" data-track="reddit-source">${copy.source} →</a>${evidenceSources ? `<span>${copy.verifiedSources}: ${evidenceSources}</span>` : ""}${additionalSources ? `<span>${copy.additionalSources}: ${additionalSources}</span>` : ""}${related ? `<span>${copy.related}: ${related}</span>` : ""}</div></div>
     </article>
   </main>
   <footer class="footer"><div class="shell footer__inner"><p>${copy.footer}</p><p><a href="${prefix}sources.html">${copy.method}</a></p></div></footer>

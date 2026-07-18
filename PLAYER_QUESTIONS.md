@@ -19,11 +19,13 @@ Before promoting a candidate:
 3. Verify the answer against a permanent Wiki revision, official build note, reproducible in-game evidence, or clearly labelled community consensus.
 4. Add English, Simplified Chinese, and Russian question, answer, evidence boundary, and search terms.
 5. Add related guide pages and a build context.
-6. Move the reviewed record into `data/player-questions.json`, set the candidate state to `promoted`, then run `npm run questions && npm run validate`.
+6. Run the gated promotion command. It rejects missing locales, attention counts, evidence URLs, invalid related pages, duplicate IDs, and unresolved duplicate warnings.
 
 ## Local commands
 
 - `npm run collect:questions` — fetch the current feed and check four discussion counts with polite delays.
 - `npm run test:collector` — run deterministic parser, scoring, deduplication, and count tests without network access.
+- `npm run review:question -- --reddit-id=<id>` — create a review template without publishing anything.
+- `npm run promote:question -- --review=data/player-question-reviews/<id>.json` — validate, archive the review, update both datasets, regenerate all locales, and run the complete test suite.
 - `npm run questions` — regenerate localized question pages, homepage recommendations, and search data.
 - `npm run validate` — verify the candidate boundary, published questions, localization, links, and search index.

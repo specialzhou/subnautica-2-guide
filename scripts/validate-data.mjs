@@ -1,4 +1,4 @@
-import { access, readFile } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -61,6 +61,9 @@ for (const question of playerQuestions.questions) {
   if (!/^[a-z0-9-]+$/.test(question.id)) failures.push(`Invalid player question id: ${question.id}`);
   if (!question.source?.url?.startsWith("https://www.reddit.com/") || !Number.isInteger(question.source.upvotes) || !Number.isInteger(question.source.comments)) failures.push(`Invalid player question source: ${question.id}`);
   if (!question.source.observedAt || !question.buildContext || !["solved", "partial", "open"].includes(question.resolution)) failures.push(`Incomplete player question status: ${question.id}`);
+  for (const source of question.evidenceSources ?? []) {
+    if (!["official", "wiki-revision", "in-game", "community"].includes(source.type) || !source.label || !source.url?.startsWith("https://")) failures.push(`Invalid player question evidence source: ${question.id}`);
+  }
   for (const locale of ["en", "zh-cn", "ru"]) {
     if (!question.question?.[locale] || !question.answer?.[locale] || !question.evidenceNote?.[locale] || !question.searchTerms?.[locale]) failures.push(`Missing ${locale} player question copy: ${question.id}`);
   }
@@ -90,6 +93,19 @@ for (const candidate of playerQuestionCandidates.candidates ?? []) {
   if (!candidate.review?.state || candidate.attention?.upvotes !== null) failures.push(`Candidate review or RSS attention boundary missing: ${candidate.redditId}`);
   if (Object.hasOwn(candidate, "body") || Object.hasOwn(candidate, "bodyText") || Object.hasOwn(candidate, "content")) failures.push(`Reddit post body was stored for candidate: ${candidate.redditId}`);
   if (!playerQuestionCandidateReport.includes(`](${candidate.url})`)) failures.push(`Candidate review report is missing: ${candidate.redditId}`);
+}
+const promotedReviewDirectory = path.join(root, "data", "player-question-reviews", "promoted");
+const promotedReviewFiles = await readdir(promotedReviewDirectory).catch((error) => {
+  if (error.code === "ENOENT") return [];
+  throw error;
+});
+for (const filename of promotedReviewFiles.filter((entry) => entry.endsWith(".json"))) {
+  const review = JSON.parse(await readFile(path.join(promotedReviewDirectory, filename), "utf8"));
+  const published = playerQuestions.questions.find((question) => question.id === review.promotion?.publishedId);
+  if (!published) failures.push(`Promoted review has no published question: ${filename}`);
+  if (!review.redditId || candidateIds.has(review.redditId)) failures.push(`Promoted review remains in candidate queue: ${filename}`);
+  if (published && !published.source.url.includes(`/comments/${review.redditId}/`)) failures.push(`Promoted review source mismatch: ${filename}`);
+  if (!(review.question?.evidenceSources?.length > 0)) failures.push(`Promoted review has no evidence sources: ${filename}`);
 }
 for (const locale of ["", "en", "zh-cn", "ru"]) {
   const relative = locale ? path.join(locale, "questions.html") : "questions.html";

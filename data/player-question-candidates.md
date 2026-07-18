@@ -4,10 +4,11 @@ Collected: 2026-07-17T07:44:14.908Z
 
 RSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.
 
+Create a gated review with `npm run review:question -- --reddit-id=<id>`. After completing every field, run `npm run promote:question -- --review=data/player-question-reviews/<id>.json`.
+
 | Comments | Pain score | Sources | Review state | Candidate | Possible published duplicate |
 | ---: | ---: | ---: | --- | --- | --- |
 | 13 | 7 | 1 | needs-review | [Ugh why?](https://www.reddit.com/r/Subnautica_2/comments/1uu6y2k/ugh_why/) | — |
-| 11 | 7 | 1 | needs-review | [Lost my saved files in Subnautica 2](https://www.reddit.com/r/Subnautica_2/comments/1uv44tv/lost_my_saved_files_in_subnautica_2/) | — |
 | 7 | 7 | 1 | needs-review | [Angel comb bugged](https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/) | angel-comb-main-cankers-stuck (0.67) |
 | 4 | 9 | 1 | needs-review | [I think im first who found new map bug in subnautica 2](https://www.reddit.com/r/Subnautica_2/comments/1uuiw0l/i_think_im_first_who_found_new_map_bug_in/) | — |
 | 4 | 8 | 1 | needs-review | [Why did the game give me Schrödingers Angel comb dawg TwT](https://www.reddit.com/r/Subnautica_2/comments/1uthqxh/why_did_the_game_give_me_schr%C3%B6dingers_angel_comb/) | — |

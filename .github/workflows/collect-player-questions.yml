@@ -54,5 +54,5 @@ jobs:
           if [[ "$(gh pr list --head automation/player-question-candidates --state open --json number --jq 'length')" == "0" ]]; then
             gh pr create --draft --base main --head automation/player-question-candidates \
               --title "Review new player question candidates" \
-              --body "Automated Reddit RSS candidate queue. Review attention, verify an answer and build context, then promote only confirmed questions into data/player-questions.json."
+              --body "Automated Reddit RSS candidate queue. Review attention, verify an answer and build context, then run npm run review:question -- --reddit-id=<id>. Only completed review templates can pass the gated promotion command."
           fi

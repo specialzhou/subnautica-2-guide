@@ -201,5 +201,5 @@ export function renderCandidateReport(document) {
     const sources = 1 + (candidate.relatedSources?.length ?? 0);
     return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} |`;
   });
-  return `# Player question candidate review\n\nCollected: ${document.collectedAt}\n\nRSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.\n\n| Comments | Pain score | Sources | Review state | Candidate | Possible published duplicate |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
+  return `# Player question candidate review\n\nCollected: ${document.collectedAt}\n\nRSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.\n\nCreate a gated review with \`npm run review:question -- --reddit-id=<id>\`. After completing every field, run \`npm run promote:question -- --review=data/player-question-reviews/<id>.json\`.\n\n| Comments | Pain score | Sources | Review state | Candidate | Possible published duplicate |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-07-16T00:00:00.000Z",
+  "collectedAt": "2026-07-18T00:00:00.000Z",
   "sourcePolicy": "Attention counts are point-in-time Reddit observations. Community answers are labelled separately from Wiki-backed or in-game verified facts.",
   "questions": [
     {
@@ -30,7 +30,9 @@
         "zh-cn": "水蛞蝓 不杀 非致死 水 纤维浆 替代配方 Macaron Sponge",
         "ru": "водяной слизень не убивать вода волокнистая масса альтернативный рецепт"
       },
-      "relatedPages": ["guide/items/water.html"],
+      "relatedPages": [
+        "guide/items/water.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -69,7 +71,9 @@
         "zh-cn": "个人储物箱 制作设备 不能访问 矿物种子 联机 储物柜",
         "ru": "личный ящик фабрикатор не берёт материалы семена минералов кооператив"
       },
-      "relatedPages": ["base-building.html"],
+      "relatedPages": [
+        "base-building.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -108,7 +112,9 @@
         "zh-cn": "预告片 基地 Observatory 观测站 地点 不存在 未开放 概念图",
         "ru": "трейлер база обсерватория местоположение нет в игре концепт"
       },
-      "relatedPages": ["locations.html"],
+      "relatedPages": [
+        "locations.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -147,7 +153,9 @@
         "zh-cn": "Angel Comb canker 不打开 剧情卡住 软锁 bug 幼体 EA 1.1",
         "ru": "Angel Comb не открывается мягкая блокировка сюжет баг EA 1.1"
       },
-      "relatedPages": ["story.html"],
+      "relatedPages": [
+        "story.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -186,7 +194,9 @@
         "zh-cn": "强酸 配方 移动 处理器 装配台 EA 1.1 cyst",
         "ru": "Strong Acid рецепт перенесли Processor Fabricator EA 1.1"
       },
-      "relatedPages": ["guide/items/strong-acid.html"],
+      "relatedPages": [
+        "guide/items/strong-acid.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -225,7 +235,9 @@
         "zh-cn": "Biofilm 刷新 重扫 bioscan Bloom Sap Cicada 残骸 bug",
         "ru": "Biofilm возрождение повторное сканирование Bloom Sap Cicada баг"
       },
-      "relatedPages": ["equipment-upgrades.html"],
+      "relatedPages": [
+        "equipment-upgrades.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -264,7 +276,10 @@
         "zh-cn": "Wall Rack 蓝图 碎片 Welcome Center Camp One BFJ 旧基地 扫描仪 橙点",
         "ru": "Wall Rack чертёж фрагменты Welcome Center Camp One BFJ Scanner"
       },
-      "relatedPages": ["guide/items/wall-rack.html", "blueprints.html"],
+      "relatedPages": [
+        "guide/items/wall-rack.html",
+        "blueprints.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -303,7 +318,10 @@
         "zh-cn": "Scout Ray 蝌蚪号 载具 底盘 无法制造 Moonpool 太小 机翼 空间 EA 1.1",
         "ru": "Scout Ray Головастик транспорт шасси не создаётся Moonpool мало места крылья EA 1.1"
       },
-      "relatedPages": ["guide/items/tadpole-scout-ray-chassis.html", "vehicle-planner.html"],
+      "relatedPages": [
+        "guide/items/tadpole-scout-ray-chassis.html",
+        "vehicle-planner.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -342,7 +360,10 @@
         "zh-cn": "Axum 电站 拉杆 门 入口 Rosetta Stone 塔 第一个房间",
         "ru": "Axum электростанция рычаг вход Rosetta Stone башня первая комната"
       },
-      "relatedPages": ["locations.html", "story.html"],
+      "relatedPages": [
+        "locations.html",
+        "story.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -381,7 +402,10 @@
         "zh-cn": "Hanging Tailing Jar 不能放置 建造 吸附 碰撞 门口 空房间",
         "ru": "Hanging Tailing Jar не размещается привязка хитбокс дверь"
       },
-      "relatedPages": ["guide/items/hanging-tailing-jar.html", "base-building.html"],
+      "relatedPages": [
+        "guide/items/hanging-tailing-jar.html",
+        "base-building.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -420,7 +444,10 @@
         "zh-cn": "潜沙矛 Sandspear 生物扫描 在哪里 Observatory 珊瑚穹顶 洞穴 救生舱",
         "ru": "Копейник Sandspear биосканирование где найти Observatory коралловый купол пещера"
       },
-      "relatedPages": ["guide/creatures/sandspear.html", "locations.html"],
+      "relatedPages": [
+        "guide/creatures/sandspear.html",
+        "locations.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -459,7 +486,10 @@
         "zh-cn": "Axum Resonator 在哪里 Green Mines 400 米 Angel Comb 共振器 熔化废料",
         "ru": "Axum Resonator где найти Green Mines 400 м Angel Comb расплавленный металлолом"
       },
-      "relatedPages": ["locations.html", "story.html"],
+      "relatedPages": [
+        "locations.html",
+        "story.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -498,7 +528,10 @@
         "zh-cn": "穿过 Collector 峡谷 安全 蝌蚪号 红色边界 南侧 水面 山脊 掩体 利维坦",
         "ru": "пересечь каньон Коллекционера безопасно Головастик красная граница южный край поверхность гребень"
       },
-      "relatedPages": ["guide/creatures/collector-leviathan.html", "locations.html"],
+      "relatedPages": [
+        "guide/creatures/collector-leviathan.html",
+        "locations.html"
+      ],
       "additionalSources": [
         {
           "title": "New collector leviathan AI is crazy",
@@ -543,7 +576,11 @@
         "zh-cn": "生物扫描 Collector Leviathan 安全 Camouflage 隐身 生物模块 干扰照明弹 蝌蚪号 诱饵",
         "ru": "биосканирование Левиафан-коллекционер безопасно Camouflage невидимость биомод шашка Головастик"
       },
-      "relatedPages": ["guide/creatures/collector-leviathan.html", "guide/items/distraction-flare.html", "equipment-upgrades.html"],
+      "relatedPages": [
+        "guide/creatures/collector-leviathan.html",
+        "guide/items/distraction-flare.html",
+        "equipment-upgrades.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -582,7 +619,10 @@
         "zh-cn": "扩充 背包 快捷栏 槽位 破解 生物床 Biohacking Chamber 异常扫描仪 殖民者 地堡 DNA 升级",
         "ru": "расширить инвентарь панель быстрого доступа взломанная биокровать Biohacking Chamber Anomaly Scanner бункер ДНК"
       },
-      "relatedPages": ["equipment-upgrades.html", "locations.html"],
+      "relatedPages": [
+        "equipment-upgrades.html",
+        "locations.html"
+      ],
       "source": {
         "platform": "Reddit",
         "subreddit": "r/Subnautica_2",
@@ -630,6 +670,54 @@
         "observedAt": "2026-07-16",
         "upvotes": 4,
         "comments": 7,
+        "approximate": false
+      }
+    },
+    {
+      "id": "save-missing-after-ea-1-1-update",
+      "featuredRank": null,
+      "category": "save-data",
+      "buildContext": "EA 1.1",
+      "resolution": "partial",
+      "verification": "official-and-community",
+      "question": {
+        "en": "My save disappeared after the EA 1.1 update. What should I do?",
+        "zh-cn": "EA 1.1 更新后存档消失了，该怎么办？",
+        "ru": "После обновления EA 1.1 пропало сохранение. Что делать?"
+      },
+      "answer": {
+        "en": "Restart the game client first and confirm that EA 1.1 has fully downloaded. In the source report, the save returned after a small update popup appeared. If it is still missing, do not overwrite the slot: back up any files that remain and contact support. A suggested .bak rename did not work for the reporter, so it is not a confirmed recovery method.",
+        "zh-cn": "先重启游戏客户端，确认 EA 1.1 已完整下载。原帖中，玩家看到一个小型更新弹窗后，原存档重新出现。如果仍然找不到存档，不要覆盖原存档位；先备份现存文件并联系官方支持。评论提出的 .bak 改名方法对发帖人无效，因此本站不把它当作已确认的恢复方法。",
+        "ru": "Сначала перезапустите игровой клиент и убедитесь, что EA 1.1 полностью загрузилось. В исходном сообщении сохранение вернулось после появления небольшого окна обновления. Если оно по-прежнему отсутствует, не перезаписывайте слот: сохраните копию оставшихся файлов и обратитесь в поддержку. Переименование .bak не помогло автору, поэтому это не подтверждённый способ восстановления."
+      },
+      "evidenceNote": {
+        "en": "Official EA 1.1 notes say to restart the client when the automatic update does not appear, and list fixes for loading saves from earlier versions. They do not guarantee recovery of a missing save. The successful return after a small update is one player report; the .bak advice was unsuccessful in the same thread.",
+        "zh-cn": "官方 EA 1.1 更新说明要求在自动更新未出现时重启客户端，并列出了旧版本存档加载修复，但没有承诺一定能恢复消失的存档。小更新后存档恢复只是一名玩家的报告；同一讨论中的 .bak 建议并未成功。",
+        "ru": "В официальных заметках EA 1.1 советуют перезапустить клиент, если автоматическое обновление не появилось, и указаны исправления загрузки старых сохранений. Гарантии восстановления пропавшего сохранения нет. Возврат после небольшого обновления — единичный отчёт игрока; совет с .bak в той же теме не помог."
+      },
+      "searchTerms": {
+        "en": "Subnautica 2 save missing disappeared EA 1.1 update restore backup cloud save",
+        "zh-cn": "Subnautica 2 存档 消失 丢失 EA 1.1 更新 恢复 备份 云存档",
+        "ru": "Subnautica 2 пропало сохранение EA 1.1 обновление восстановить резервная копия облако"
+      },
+      "relatedPages": [
+        "sources.html"
+      ],
+      "evidenceSources": [
+        {
+          "type": "official",
+          "label": "Subnautica 2 Adaptive Measures Update (EA 1.1)",
+          "url": "https://unknownworlds.com/en/news/subnautica-2-adaptive-measures-update"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Lost my saved files in Subnautica 2",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1uv44tv/lost_my_saved_files_in_subnautica_2/",
+        "observedAt": "2026-07-18",
+        "upvotes": 4,
+        "comments": 11,
         "approximate": false
       }
     }

@@ -130,23 +130,23 @@
       "id": "angel-comb-main-cankers-stuck",
       "featuredRank": null,
       "category": "story-bug",
-      "buildContext": "EA 1.1",
-      "resolution": "partial",
-      "verification": "community-reported",
+      "buildContext": "EA 1.1 / Hotfix 4",
+      "resolution": "solved",
+      "verification": "official-and-community",
       "question": {
         "en": "Why won't the last Angel Comb cankers open?",
         "zh-cn": "Angel Comb 最后两个 canker 为什么不打开？",
         "ru": "Почему последние наросты Angel Comb не открываются?"
       },
       "answer": {
-        "en": "First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe.",
-        "zh-cn": "先确认所有幼体 comb 都已清除，并在触发闭合范围外攻击。如果感染已全部消失，但升级到 EA 1.1 后主 canker 仍关闭，多名玩家报告这是剧情软锁，应按 bug 处理，不是漏了配方。",
-        "ru": "Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
+        "en": "Install EA 1.1 Hotfix 4, restart the game client, and temporarily disable any mods before loading the save. The official patch specifically fixes Angel Combs not opening and blocking progression. If it remains stuck after confirming the hotfix is installed, report the save through in-game feedback or Unknown Worlds support.",
+        "zh-cn": "安装 EA 1.1 Hotfix 4，重启游戏客户端，并在载入存档前暂时禁用所有模组。官方补丁明确修复了 Angel Comb 无法开启并阻断剧情的问题。如果确认已安装热修复后仍然卡住，请通过游戏内反馈或 Unknown Worlds 支持提交存档问题。",
+        "ru": "Установите EA 1.1 Hotfix 4, перезапустите игровой клиент и временно отключите моды перед загрузкой сохранения. В официальном патче прямо исправлена ошибка, из-за которой Angel Comb не открывался и блокировал прохождение. Если после установки хотфикса проблема остаётся, отправьте отчёт через внутриигровую обратную связь или поддержку Unknown Worlds."
       },
       "evidenceNote": {
-        "en": "Diagnosis combines repeated player reports. Exact affected build and a safe official recovery path are still unverified.",
-        "zh-cn": "诊断来自多条玩家报告；受影响的精确 build 和安全的官方恢复方案仍未验证。",
-        "ru": "Диагноз основан на повторяющихся сообщениях игроков; точная сборка и официальный безопасный способ восстановления не проверены."
+        "en": "Unknown Worlds Hotfix 4, published July 14, 2026, explicitly lists this progression blocker as fixed and advises disabling mods after updating. The original and follow-up Reddit reports confirm the pre-hotfix symptom, but they do not establish a separate manual recovery method.",
+        "zh-cn": "Unknown Worlds 于 2026 年 7 月 14 日发布的 Hotfix 4 明确将这一剧情阻断问题列为已修复，并建议更新后禁用模组。原始及后续 Reddit 报告确认了热修复前的症状，但没有证明存在另一种手动恢复方法。",
+        "ru": "В Hotfix 4 от Unknown Worlds, опубликованном 14 июля 2026 года, эта блокировка прохождения прямо указана как исправленная; после обновления рекомендуется отключить моды. Исходные и последующие сообщения Reddit подтверждают симптом до хотфикса, но не доказывают отдельный ручной способ восстановления."
       },
       "searchTerms": {
         "en": "angel comb canker won't open softlock progression bug bloom juvenile EA 1.1",
@@ -155,6 +155,13 @@
       },
       "relatedPages": [
         "story.html"
+      ],
+      "evidenceSources": [
+        {
+          "type": "official",
+          "label": "Subnautica 2 Early Access Hotfix 4",
+          "url": "https://unknownworlds.com/en/news/subnautica-2-ea1-hotfix-4"
+        }
       ],
       "source": {
         "platform": "Reddit",

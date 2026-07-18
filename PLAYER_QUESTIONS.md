@@ -27,5 +27,7 @@ Before promoting a candidate:
 - `npm run test:collector` — run deterministic parser, scoring, deduplication, and count tests without network access.
 - `npm run review:question -- --reddit-id=<id>` — create a review template without publishing anything.
 - `npm run promote:question -- --review=data/player-question-reviews/<id>.json` — validate, archive the review, update both datasets, regenerate all locales, and run the complete test suite.
+- `npm run traffic:opportunities` — match reviewed public answers to different Reddit candidate threads, deduplicate by guide page, and generate UTM reply drafts without posting them.
+- `.github/workflows/traffic-opportunities.yml` runs daily at 07:17 UTC and updates one fixed `traffic-opportunity` issue for final human review.
 - `npm run questions` — regenerate localized question pages, homepage recommendations, and search data.
 - `npm run validate` — verify the candidate boundary, published questions, localization, links, and search index.

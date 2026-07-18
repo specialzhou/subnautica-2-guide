@@ -4737,22 +4737,22 @@
       "title": "Why won't the last Angel Comb cankers open?",
       "type": "Question",
       "href": "questions/angel-comb-main-cankers-stuck.html",
-      "terms": "angel comb canker won't open softlock progression bug bloom juvenile EA 1.1 First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe. EA 1.1 story-bug",
+      "terms": "angel comb canker won't open softlock progression bug bloom juvenile EA 1.1 Install EA 1.1 Hotfix 4, restart the game client, and temporarily disable any mods before loading the save. The official patch specifically fixes Angel Combs not opening and blocking progression. If it remains stuck after confirming the hotfix is installed, report the save through in-game feedback or Unknown Worlds support. EA 1.1 / Hotfix 4 story-bug",
       "image": null,
       "localizedTitles": {
         "zh-cn": "Angel Comb 最后两个 canker 为什么不打开？",
         "ru": "Почему последние наросты Angel Comb не открываются?"
       },
       "localizedTerms": {
-        "zh-cn": "Angel Comb canker 不打开 剧情卡住 软锁 bug 幼体 EA 1.1 先确认所有幼体 comb 都已清除，并在触发闭合范围外攻击。如果感染已全部消失，但升级到 EA 1.1 后主 canker 仍关闭，多名玩家报告这是剧情软锁，应按 bug 处理，不是漏了配方。",
-        "ru": "Angel Comb не открывается мягкая блокировка сюжет баг EA 1.1 Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
+        "zh-cn": "Angel Comb canker 不打开 剧情卡住 软锁 bug 幼体 EA 1.1 安装 EA 1.1 Hotfix 4，重启游戏客户端，并在载入存档前暂时禁用所有模组。官方补丁明确修复了 Angel Comb 无法开启并阻断剧情的问题。如果确认已安装热修复后仍然卡住，请通过游戏内反馈或 Unknown Worlds 支持提交存档问题。",
+        "ru": "Angel Comb не открывается мягкая блокировка сюжет баг EA 1.1 Установите EA 1.1 Hotfix 4, перезапустите игровой клиент и временно отключите моды перед загрузкой сохранения. В официальном патче прямо исправлена ошибка, из-за которой Angel Comb не открывался и блокировал прохождение. Если после установки хотфикса проблема остаётся, отправьте отчёт через внутриигровую обратную связь или поддержку Unknown Worlds."
       },
-      "answer": "First confirm every juvenile comb is cleared and attack from outside the closing range. If all infections are gone but the main cankers stay closed after updating to EA 1.1, multiple players report a progression softlock; treat it as a bug, not a missing recipe.",
+      "answer": "Install EA 1.1 Hotfix 4, restart the game client, and temporarily disable any mods before loading the save. The official patch specifically fixes Angel Combs not opening and blocking progression. If it remains stuck after confirming the hotfix is installed, report the save through in-game feedback or Unknown Worlds support.",
       "localizedAnswers": {
-        "zh-cn": "先确认所有幼体 comb 都已清除，并在触发闭合范围外攻击。如果感染已全部消失，但升级到 EA 1.1 后主 canker 仍关闭，多名玩家报告这是剧情软锁，应按 bug 处理，不是漏了配方。",
-        "ru": "Сначала убедитесь, что очищены все молодые comb, и атакуйте за пределами зоны закрытия. Если заражение исчезло, но после EA 1.1 главные наросты остаются закрыты, игроки сообщают о мягкой блокировке сюжета — это баг, а не пропущенный рецепт."
+        "zh-cn": "安装 EA 1.1 Hotfix 4，重启游戏客户端，并在载入存档前暂时禁用所有模组。官方补丁明确修复了 Angel Comb 无法开启并阻断剧情的问题。如果确认已安装热修复后仍然卡住，请通过游戏内反馈或 Unknown Worlds 支持提交存档问题。",
+        "ru": "Установите EA 1.1 Hotfix 4, перезапустите игровой клиент и временно отключите моды перед загрузкой сохранения. В официальном патче прямо исправлена ошибка, из-за которой Angel Comb не открывался и блокировал прохождение. Если после установки хотфикса проблема остаётся, отправьте отчёт через внутриигровую обратную связь или поддержку Unknown Worlds."
       },
-      "resolution": "partial",
+      "resolution": "solved",
       "featuredRank": null,
       "attention": {
         "upvotes": 5,

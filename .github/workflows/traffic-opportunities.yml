@@ -1,0 +1,46 @@
+name: Prepare traffic opportunities
+
+on:
+  schedule:
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: traffic-opportunities
+  cancel-in-progress: true
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Load latest candidate review branch
+        run: |
+          git fetch origin automation/player-question-candidates || true
+          if git show-ref --verify --quiet refs/remotes/origin/automation/player-question-candidates; then
+            git checkout origin/automation/player-question-candidates -- data/player-question-candidates.json
+          fi
+      - name: Generate safe reply drafts
+        run: npm run traffic:opportunities -- --output="$RUNNER_TEMP/traffic-opportunities.md"
+      - name: Run opportunity tests
+        run: npm run test:traffic
+      - name: Update fixed review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create traffic-opportunity --color "0e8a16" --description "Reviewed Reddit traffic opportunities" --force
+          issue_number="$(gh issue list --state open --label traffic-opportunity --json number --jq '.[0].number // empty')"
+          if [[ -n "$issue_number" ]]; then
+            gh issue edit "$issue_number" --title "Daily Reddit traffic opportunities" --body-file "$RUNNER_TEMP/traffic-opportunities.md"
+          else
+            gh issue create --title "Daily Reddit traffic opportunities" --label traffic-opportunity --body-file "$RUNNER_TEMP/traffic-opportunities.md"
+          fi

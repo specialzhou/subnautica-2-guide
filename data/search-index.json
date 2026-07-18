@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-18T00:00:00.000Z",
-  "count": 327,
+  "generatedAt": "2026-07-18T05:38:28.229Z",
+  "count": 313,
   "entries": [
     {
       "title": "Start here",
@@ -510,6 +510,21 @@
       "localizedTerms": {
         "zh-cn": "海荔枝 栖息所建造器",
         "ru": "Гнилушка-черимойя Строитель"
+      }
+    },
+    {
+      "title": "Community Poster 02",
+      "type": "Item",
+      "href": "guide/items/community-poster-02.html",
+      "terms": "Community Poster 02 Habitat Builder Titanium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "社区海报02",
+        "ru": "Фанатский плакат 02"
+      },
+      "localizedTerms": {
+        "zh-cn": "社区海报02 栖息所建造器 钛",
+        "ru": "Фанатский плакат 02 Строитель Титан"
       }
     },
     {
@@ -1072,7 +1087,7 @@
       "type": "Item",
       "href": "guide/items/freesia-flower.html",
       "terms": "Freesia Flower Habitat Builder Fibrous Pulp",
-      "image": "https://wiki.subnautica.com/sn2/images/Freesia_Flower.png?a72c4",
+      "image": null,
       "localizedTitles": {
         "zh-cn": "小苍兰",
         "ru": "Фрезия"
@@ -2943,6 +2958,21 @@
       }
     },
     {
+      "title": "Vintage Wanted poster",
+      "type": "Item",
+      "href": "guide/items/vintage-wanted-poster.html",
+      "terms": "Vintage Wanted poster Habitat Builder Titanium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "复古通缉令海报",
+        "ru": "Винтажный плакат «В розыске»"
+      },
+      "localizedTerms": {
+        "zh-cn": "复古通缉令海报 栖息所建造器 钛",
+        "ru": "Винтажный плакат «В розыске» Строитель Титан"
+      }
+    },
+    {
       "title": "Wakemaker",
       "type": "Item",
       "href": "guide/items/wakemaker.html",
@@ -3423,21 +3453,6 @@
       }
     },
     {
-      "title": "Crimson Shrimp",
-      "type": "Creature",
-      "href": "guide/creatures/crimson-shrimp.html",
-      "terms": "Crimson Shrimp Passive Mobile Unknown Unknown Overgrown Ruins Shallows Caves",
-      "image": "https://wiki.subnautica.com/sn2/images/Crimson_Shrimp.png?2721d",
-      "localizedTitles": {
-        "zh-cn": "深红虾",
-        "ru": "Пурпурная креветка"
-      },
-      "localizedTerms": {
-        "zh-cn": "蔓生遗迹 深红虾 浅滩",
-        "ru": "Заросшие руины Пурпурная креветка Мелководье"
-      }
-    },
-    {
       "title": "Deepwing Brooder",
       "type": "Creature",
       "href": "guide/creatures/deepwing-brooder.html",
@@ -3468,21 +3483,6 @@
       }
     },
     {
-      "title": "Elusive Leviathan",
-      "type": "Creature",
-      "href": "guide/creatures/elusive-leviathan.html",
-      "terms": "Elusive Leviathan Mobile",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Elusive_Leviathan_Ingame.png/720px-Elusive_Leviathan_Ingame.png?0ca52",
-      "localizedTitles": {
-        "zh-cn": "隐匿利维坦",
-        "ru": "Неуловимый левиафан"
-      },
-      "localizedTerms": {
-        "zh-cn": "隐匿利维坦",
-        "ru": "Неуловимый левиафан"
-      }
-    },
-    {
       "title": "Epicurean",
       "type": "Creature",
       "href": "guide/creatures/epicurean.html",
@@ -3495,21 +3495,6 @@
       "localizedTerms": {
         "zh-cn": "喀喇昆仑金属农场 根系峡谷 金属农场 大胃鱼",
         "ru": "Металлические фермы Каракорума Корневой каньон Металлическая ферма Ротан ненасытный"
-      }
-    },
-    {
-      "title": "Eyeball Sponge",
-      "type": "Creature",
-      "href": "guide/creatures/eyeball-sponge.html",
-      "terms": "Eyeball Sponge Passive Anchored Unknown Overgrown Ruins",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Eyeball_Sponge.png/720px-Eyeball_Sponge.png?29244",
-      "localizedTitles": {
-        "zh-cn": "眼球海绵",
-        "ru": "Губка-глазное яблоко"
-      },
-      "localizedTerms": {
-        "zh-cn": "蔓生遗迹 眼球海绵",
-        "ru": "Заросшие руины Губка-глазное яблоко"
       }
     },
     {
@@ -3528,21 +3513,6 @@
       }
     },
     {
-      "title": "Fluttertail",
-      "type": "Creature",
-      "href": "guide/creatures/fluttertail.html",
-      "terms": "Fluttertail Passive Mobile Unknown Unknown Overgrown Ruins Plateaus",
-      "image": "https://wiki.subnautica.com/sn2/images/Fluttertail_Morph_A1.png?2721d",
-      "localizedTitles": {
-        "zh-cn": "飘尾鱼",
-        "ru": "Парохвост"
-      },
-      "localizedTerms": {
-        "zh-cn": "蔓生遗迹 飘尾鱼 高原",
-        "ru": "Заросшие руины Парохвост Плато"
-      }
-    },
-    {
       "title": "Foureye",
       "type": "Creature",
       "href": "guide/creatures/foureye.html",
@@ -3555,21 +3525,6 @@
       "localizedTerms": {
         "zh-cn": "尼克罗蕾丘陵 珊瑚区 死腐水母 四眼鱼",
         "ru": "Холмы Некролеи Коралловые сады Некролея Четырёхглаз"
-      }
-    },
-    {
-      "title": "Freesia Flower",
-      "type": "Creature",
-      "href": "guide/creatures/freesia-flower.html",
-      "terms": "Freesia Flower Passive Anchored Unknown Unknown Overgrown Ruins",
-      "image": "https://wiki.subnautica.com/sn2/images/Freesia_Flower.png?a72c4",
-      "localizedTitles": {
-        "zh-cn": "小苍兰",
-        "ru": "Фрезия"
-      },
-      "localizedTerms": {
-        "zh-cn": "蔓生遗迹 小苍兰",
-        "ru": "Заросшие руины Фрезия"
       }
     },
     {
@@ -3813,21 +3768,6 @@
       }
     },
     {
-      "title": "Karakorum Power Plant",
-      "type": "Biome",
-      "href": "guide/biomes/karakorum-power-plant.html",
-      "terms": "Karakorum Power Plant 20 - 470 meters",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Karakorum_Power_Plant.png/720px-Karakorum_Power_Plant.png?32305",
-      "localizedTitles": {
-        "zh-cn": "喀喇昆仑发电站",
-        "ru": "Электростанция Каракорума"
-      },
-      "localizedTerms": {
-        "zh-cn": "喀喇昆仑发电站",
-        "ru": "Электростанция Каракорума"
-      }
-    },
-    {
       "title": "Lead",
       "type": "Resource",
       "href": "guide/resources/lead.html",
@@ -3870,21 +3810,6 @@
       "localizedTerms": {
         "zh-cn": "锂矿床 巨颚贝 墓地 锂",
         "ru": "Месторождение лития Устрица-живоглот Кладбище Литий"
-      }
-    },
-    {
-      "title": "Locust",
-      "type": "Creature",
-      "href": "guide/creatures/locust.html",
-      "terms": "Locust Passive Mobile Unknown Unknown Graveyard Caves",
-      "image": "https://wiki.subnautica.com/sn2/images/Locust.png?5539b",
-      "localizedTitles": {
-        "zh-cn": "蝗虫",
-        "ru": "Саранча"
-      },
-      "localizedTerms": {
-        "zh-cn": "墓地 蝗虫",
-        "ru": "Кладбище Саранча"
       }
     },
     {
@@ -3933,21 +3858,6 @@
       }
     },
     {
-      "title": "Microshrimp",
-      "type": "Creature",
-      "href": "guide/creatures/microshrimp.html",
-      "terms": "Microshrimp Passive Mobile Unknown Overgrown Ruins",
-      "image": "https://wiki.subnautica.com/sn2/images/Microshrimp.png?ae4cc",
-      "localizedTitles": {
-        "zh-cn": "微型虾",
-        "ru": "Микрокреветка"
-      },
-      "localizedTerms": {
-        "zh-cn": "蔓生遗迹 微型虾",
-        "ru": "Заросшие руины Микрокреветка"
-      }
-    },
-    {
       "title": "Mild Acid",
       "type": "Resource",
       "href": "guide/resources/mild-acid.html",
@@ -3963,21 +3873,6 @@
       }
     },
     {
-      "title": "Mirror Halfmoon",
-      "type": "Creature",
-      "href": "guide/creatures/mirror-halfmoon.html",
-      "terms": "Mirror Halfmoon Passive Mobile Unknown Unknown Shallows",
-      "image": "https://wiki.subnautica.com/sn2/images/Mirror_Halfmoon_Morph_A.png?2721d",
-      "localizedTitles": {
-        "zh-cn": "镜月鱼",
-        "ru": "Зеркальный полумесяц"
-      },
-      "localizedTerms": {
-        "zh-cn": "镜月鱼 半月鱼 浅滩",
-        "ru": "Зеркальный полумесяц Рыба-полумесяц Мелководье"
-      }
-    },
-    {
       "title": "Necrolei Bud",
       "type": "Resource",
       "href": "guide/resources/necrolei-bud.html",
@@ -3990,6 +3885,21 @@
       "localizedTerms": {
         "zh-cn": "尼克罗蕾丘陵 尼克罗蕾花苞 死腐水母",
         "ru": "Холмы Некролеи Бутон некролеи Некролея"
+      }
+    },
+    {
+      "title": "Necrolei Cyst",
+      "type": "Resource",
+      "href": "guide/resources/necrolei-cyst.html",
+      "terms": "Necrolei Cyst Raw Materials Necrolei Hills",
+      "image": "https://wiki.subnautica.com/sn2/images/Necrolei_Cyst.png?32305",
+      "localizedTitles": {
+        "zh-cn": "死腐水母包囊",
+        "ru": "Циста некролеи"
+      },
+      "localizedTerms": {
+        "zh-cn": "尼克罗蕾丘陵 死腐水母包囊 死腐水母",
+        "ru": "Холмы Некролеи Циста некролеи Некролея"
       }
     },
     {
@@ -4065,21 +3975,6 @@
       "localizedTerms": {
         "zh-cn": "蔓生遗迹",
         "ru": "Заросшие руины"
-      }
-    },
-    {
-      "title": "Pelagic Ghost",
-      "type": "Creature",
-      "href": "guide/creatures/pelagic-ghost.html",
-      "terms": "Pelagic Ghost Passive Mobile Unknown Unknown Karakorum Power Plant",
-      "image": "https://wiki.subnautica.com/sn2/images/Pelagic_Ghost_Morph_A.png?5539b",
-      "localizedTitles": {
-        "zh-cn": "远洋幽灵",
-        "ru": "Пелагический призрак"
-      },
-      "localizedTerms": {
-        "zh-cn": "喀喇昆仑发电站 远洋幽灵",
-        "ru": "Электростанция Каракорума Пелагический призрак"
       }
     },
     {
@@ -4215,21 +4110,6 @@
       "localizedTerms": {
         "zh-cn": "蔓生遗迹 尼克罗蕾丘陵 潜沙矛 死腐水母 高原 浅滩",
         "ru": "Заросшие руины Холмы Некролеи Копейник Некролея Плато Мелководье"
-      }
-    },
-    {
-      "title": "Scourge Hive",
-      "type": "Creature",
-      "href": "guide/creatures/scourge-hive.html",
-      "terms": "Scourge Hive Mobile Unknown",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Scourge_Hive_Ingame.png/720px-Scourge_Hive_Ingame.png?91378",
-      "localizedTitles": {
-        "zh-cn": "祸患蜂巢",
-        "ru": "Улей Скверны"
-      },
-      "localizedTerms": {
-        "zh-cn": "祸患蜂巢",
-        "ru": "Улей Скверны"
       }
     },
     {
@@ -4443,36 +4323,6 @@
       }
     },
     {
-      "title": "Tar Eel",
-      "type": "Creature",
-      "href": "guide/creatures/tar-eel.html",
-      "terms": "Tar Eel Mobile",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Eel_Ingame.png/720px-Tar_Eel_Ingame.png?cdd1c",
-      "localizedTitles": {
-        "zh-cn": "焦油鳗",
-        "ru": "Смоляной угорь"
-      },
-      "localizedTerms": {
-        "zh-cn": "焦油鳗",
-        "ru": "Смоляной угорь"
-      }
-    },
-    {
-      "title": "Teal Cycloplet",
-      "type": "Creature",
-      "href": "guide/creatures/teal-cycloplet.html",
-      "terms": "Teal Cycloplet Passive Mobile Unknown Unknown Graveyard Caves Needler Nest Overgrown Ruins Necrolei Hills",
-      "image": "https://wiki.subnautica.com/sn2/images/Teal_Cycloplet.png?5539b",
-      "localizedTitles": {
-        "zh-cn": "蓝绿独目鱼",
-        "ru": "Сине-зелёный циклоплет"
-      },
-      "localizedTerms": {
-        "zh-cn": "蔓生遗迹 蓝绿独目鱼 尼克罗蕾丘陵 墓地 死腐水母",
-        "ru": "Заросшие руины Сине-зелёный циклоплет Холмы Некролеи Кладбище Некролея"
-      }
-    },
-    {
       "title": "Titanium",
       "type": "Resource",
       "href": "guide/resources/titanium.html",
@@ -4533,51 +4383,6 @@
       }
     },
     {
-      "title": "Vep Defender",
-      "type": "Creature",
-      "href": "guide/creatures/vep-defender.html",
-      "terms": "Vep Defender Mobile",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Defender.png/720px-Vep_Defender.png?20ec8",
-      "localizedTitles": {
-        "zh-cn": "Vep 防御者",
-        "ru": "Защитник Vep"
-      },
-      "localizedTerms": {
-        "zh-cn": "Vep 防御者",
-        "ru": "Защитник Vep"
-      }
-    },
-    {
-      "title": "Vep Sensor",
-      "type": "Creature",
-      "href": "guide/creatures/vep-sensor.html",
-      "terms": "Vep Sensor Mobile",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Sensor.png/720px-Vep_Sensor.png?15391",
-      "localizedTitles": {
-        "zh-cn": "Vep 传感者",
-        "ru": "Сенсор Vep"
-      },
-      "localizedTerms": {
-        "zh-cn": "Vep 传感者",
-        "ru": "Сенсор Vep"
-      }
-    },
-    {
-      "title": "Vep Worker",
-      "type": "Creature",
-      "href": "guide/creatures/vep-worker.html",
-      "terms": "Vep Worker Mobile",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Vep_Worker.png/720px-Vep_Worker.png?71e8d",
-      "localizedTitles": {
-        "zh-cn": "Vep 工作者",
-        "ru": "Рабочий Vep"
-      },
-      "localizedTerms": {
-        "zh-cn": "Vep 工作者",
-        "ru": "Рабочий Vep"
-      }
-    },
-    {
       "title": "Void",
       "type": "Biome",
       "href": "guide/biomes/void.html",
@@ -4635,21 +4440,6 @@
       "localizedTerms": {
         "zh-cn": "尼克罗蕾丘陵 根系峡谷 墓地 死腐水母 浅滩 蜡月鱼",
         "ru": "Холмы Некролеи Корневой каньон Кладбище Некролея Мелководье Рыба-серп"
-      }
-    },
-    {
-      "title": "World Tree",
-      "type": "Creature",
-      "href": "guide/creatures/world-tree.html",
-      "terms": "World Tree Passive Anchored Unknown Mundusilithae titanicae \"Titanic goddess of midwifes and childbirth of the world\" Xanadu",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/WorldTree_Painting.png/720px-WorldTree_Painting.png?b3a17",
-      "localizedTitles": {
-        "zh-cn": "世界树",
-        "ru": "Мировое древо"
-      },
-      "localizedTerms": {
-        "zh-cn": "世界树",
-        "ru": "Мировое древо"
       }
     },
     {

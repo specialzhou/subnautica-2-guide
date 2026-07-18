@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-13T18:39:29.001Z",
+  "generatedAt": "2026-07-18T05:38:32.861Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
     "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index."
   },
   "counts": {
-    "recordNames": 269,
+    "recordNames": 256,
     "total": 381,
     "imported": 312,
     "community": 69

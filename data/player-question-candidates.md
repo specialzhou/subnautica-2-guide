@@ -1,6 +1,6 @@
 # Player question candidate review
 
-Collected: 2026-07-18T07:09:18.575Z
+Collected: 2026-07-19T07:36:00.722Z
 
 RSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.
 
@@ -11,6 +11,9 @@ Create a gated review with `npm run review:question -- --reddit-id=<id>`. After 
 | 13 | 7 | 1 | needs-review | [Ugh why?](https://www.reddit.com/r/Subnautica_2/comments/1uu6y2k/ugh_why/) | — |
 | 8 | 6 | 1 | needs-review | [Well, that's a problem.](https://www.reddit.com/r/Subnautica_2/comments/1utbr1l/well_thats_a_problem/) | — |
 | 7 | 7 | 1 | needs-review | [Angel comb bugged](https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/) | angel-comb-main-cankers-stuck (0.67) |
+| 7 | 5 | 1 | needs-review | [Bloom canker not spawning](https://www.reddit.com/r/Subnautica_2/comments/1uubmg7/bloom_canker_not_spawning/) | angel-comb-main-cankers-stuck (0.67) |
+| 5 | 5 | 1 | needs-review | [What were the requirements for/when could NoA reprint and/or reset people?](https://www.reddit.com/r/Subnautica_2/comments/1utgnvn/what_were_the_requirements_forwhen_could_noa/) | — |
+| 5 | 5 | 1 | needs-review | [Graphic settings and performance](https://www.reddit.com/r/Subnautica_2/comments/1ut24gk/graphic_settings_and_performance/) | — |
 | 4 | 9 | 1 | needs-review | [I think im first who found new map bug in subnautica 2](https://www.reddit.com/r/Subnautica_2/comments/1uuiw0l/i_think_im_first_who_found_new_map_bug_in/) | — |
 | 4 | 8 | 1 | needs-review | [Why did the game give me Schrödingers Angel comb dawg TwT](https://www.reddit.com/r/Subnautica_2/comments/1uthqxh/why_did_the_game_give_me_schr%C3%B6dingers_angel_comb/) | — |
 | 4 | 7 | 1 | needs-review | [Bug since the update?](https://www.reddit.com/r/Subnautica_2/comments/1utdw5d/bug_since_the_update/) | — |
@@ -25,7 +28,4 @@ Create a gated review with `npm run review:question -- --reddit-id=<id>`. After 
 | 0 | 7 | 1 | needs-review | [Game crashing at load? Got CurseForge?](https://www.reddit.com/r/Subnautica_2/comments/1utx73j/game_crashing_at_load_got_curseforge/) | — |
 | ? | 15 | 1 | needs-review | [Legion go s controls won't work.](https://www.reddit.com/r/Subnautica_2/comments/1usu5kt/legion_go_s_controls_wont_work/) | — |
 | ? | 10 | 1 | dismissed | [Does anyone know how to craft new underwear?](https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/) | — |
-| ? | 5 | 1 | needs-review | [Bloom canker not spawning](https://www.reddit.com/r/Subnautica_2/comments/1uubmg7/bloom_canker_not_spawning/) | angel-comb-main-cankers-stuck (0.67) |
-| ? | 5 | 1 | needs-review | [What were the requirements for/when could NoA reprint and/or reset people?](https://www.reddit.com/r/Subnautica_2/comments/1utgnvn/what_were_the_requirements_forwhen_could_noa/) | — |
-| ? | 5 | 1 | needs-review | [Graphic settings and performance](https://www.reddit.com/r/Subnautica_2/comments/1ut24gk/graphic_settings_and_performance/) | — |
 | ? | 5 | 1 | needs-review | [where am i](https://www.reddit.com/r/Subnautica_2/comments/1usxxac/where_am_i/) | — |

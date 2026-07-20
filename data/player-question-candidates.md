@@ -1,6 +1,6 @@
 # Player question candidate review
 
-Collected: 2026-07-19T07:36:00.722Z
+Collected: 2026-07-20T08:18:27.103Z
 
 RSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.
 
@@ -8,6 +8,7 @@ Create a gated review with `npm run review:question -- --reddit-id=<id>`. After 
 
 | Comments | Pain score | Sources | Review state | Candidate | Possible published duplicate |
 | ---: | ---: | ---: | --- | --- | --- |
+| 26 | 5 | 1 | needs-review | [where am i](https://www.reddit.com/r/Subnautica_2/comments/1usxxac/where_am_i/) | — |
 | 13 | 7 | 1 | needs-review | [Ugh why?](https://www.reddit.com/r/Subnautica_2/comments/1uu6y2k/ugh_why/) | — |
 | 8 | 6 | 1 | needs-review | [Well, that's a problem.](https://www.reddit.com/r/Subnautica_2/comments/1utbr1l/well_thats_a_problem/) | — |
 | 7 | 7 | 1 | needs-review | [Angel comb bugged](https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/) | angel-comb-main-cankers-stuck (0.67) |
@@ -28,4 +29,3 @@ Create a gated review with `npm run review:question -- --reddit-id=<id>`. After 
 | 0 | 7 | 1 | needs-review | [Game crashing at load? Got CurseForge?](https://www.reddit.com/r/Subnautica_2/comments/1utx73j/game_crashing_at_load_got_curseforge/) | — |
 | ? | 15 | 1 | needs-review | [Legion go s controls won't work.](https://www.reddit.com/r/Subnautica_2/comments/1usu5kt/legion_go_s_controls_wont_work/) | — |
 | ? | 10 | 1 | dismissed | [Does anyone know how to craft new underwear?](https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/) | — |
-| ? | 5 | 1 | needs-review | [where am i](https://www.reddit.com/r/Subnautica_2/comments/1usxxac/where_am_i/) | — |

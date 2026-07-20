@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-07-19T07:36:00.722Z",
+  "collectedAt": "2026-07-20T08:18:27.103Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -50,6 +50,33 @@
   ],
   "candidates": [
     {
+      "redditId": "1usxxac",
+      "firstSeenAt": "2026-07-16T13:36:29.680Z",
+      "review": {
+        "state": "needs-review",
+        "answerStatus": "unknown",
+        "notes": ""
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 26,
+        "observedAt": "2026-07-20T08:18:27.103Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "where am i",
+      "questionKey": "where am i",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1usxxac/where_am_i/",
+      "publishedAt": "2026-07-10T19:40:17+00:00",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
+      "painScore": 5,
+      "signals": [
+        "where",
+        "crafting"
+      ],
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1uu6y2k",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
@@ -68,7 +95,7 @@
       "questionKey": "ugh why",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu6y2k/ugh_why/",
       "publishedAt": "2026-07-12T05:54:28+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "how"
@@ -94,7 +121,7 @@
       "questionKey": "well that s a problem",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1utbr1l/well_thats_a_problem/",
       "publishedAt": "2026-07-11T05:56:00+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 6,
       "signals": [
         "not-working",
@@ -121,7 +148,7 @@
       "questionKey": "angel comb bugged",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/",
       "publishedAt": "2026-07-12T22:00:56+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "not-working",
@@ -156,7 +183,7 @@
       "questionKey": "bloom canker not spawning",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uubmg7/bloom_canker_not_spawning/",
       "publishedAt": "2026-07-12T10:20:35+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 5,
       "signals": [
         "bug",
@@ -190,7 +217,7 @@
       "questionKey": "what were the requirements for when could noa reprint and or reset people",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1utgnvn/what_were_the_requirements_forwhen_could_noa/",
       "publishedAt": "2026-07-11T10:39:22+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 5,
       "signals": [
         "how"
@@ -216,7 +243,7 @@
       "questionKey": "graphic settings and performance",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut24gk/graphic_settings_and_performance/",
       "publishedAt": "2026-07-10T22:21:10+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 5,
       "signals": [
         "bug",
@@ -235,7 +262,7 @@
       "attention": {
         "upvotes": null,
         "comments": 4,
-        "observedAt": "2026-07-16T15:44:21.255Z",
+        "observedAt": "2026-07-20T08:18:27.103Z",
         "approximate": true,
         "method": "reddit-post-rss-comment-entry-count"
       },
@@ -243,7 +270,7 @@
       "questionKey": "i think im first who found new map bug in subnautica 2",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuiw0l/i_think_im_first_who_found_new_map_bug_in/",
       "publishedAt": "2026-07-12T15:42:01+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 9,
       "signals": [
         "stuck",
@@ -271,7 +298,7 @@
       "questionKey": "why did the game give me schrödingers angel comb dawg twt",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uthqxh/why_did_the_game_give_me_schr%C3%B6dingers_angel_comb/",
       "publishedAt": "2026-07-11T11:37:07+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 8,
       "signals": [
         "how",
@@ -299,7 +326,7 @@
       "questionKey": "bug since the update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1utdw5d/bug_since_the_update/",
       "publishedAt": "2026-07-11T07:57:28+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "bug"
@@ -325,7 +352,7 @@
       "questionKey": "alien base infested flower bug",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uupyuw/alien_base_infested_flower_bug/",
       "publishedAt": "2026-07-12T20:04:35+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "not-working",
@@ -353,7 +380,7 @@
       "questionKey": "subnautica 2 glitch",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu6l2e/subnautica_2_glitch/",
       "publishedAt": "2026-07-12T05:35:06+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "not-working",
@@ -373,7 +400,7 @@
       "attention": {
         "upvotes": null,
         "comments": 2,
-        "observedAt": "2026-07-16T13:36:29.680Z",
+        "observedAt": "2026-07-20T08:18:27.103Z",
         "approximate": true,
         "method": "reddit-post-rss-comment-entry-count"
       },
@@ -381,7 +408,7 @@
       "questionKey": "second angel comb progression bug",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu1fdr/second_angel_comb_progression_bug_helpspoilers/",
       "publishedAt": "2026-07-12T01:17:13+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 16,
       "signals": [
         "help",
@@ -420,7 +447,7 @@
       "questionKey": "как исправить баг с нераспустившимися цветками how to fix the bug with unopened flowers",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1utgl1s/%D0%BA%D0%B0%D0%BA_%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C_%D0%B1%D0%B0%D0%B3_%D1%81_%D0%BD%D0%B5%D1%80%D0%B0%D1%81%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%B2%D1%88%D0%B8%D0%BC%D0%B8%D1%81%D1%8F_%D1%86%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8/",
       "publishedAt": "2026-07-11T10:34:50+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 11,
       "signals": [
         "bug",
@@ -455,7 +482,7 @@
       "questionKey": "no more music and sound issue in update 1 1",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut6nqu/no_more_music_and_sound_issue_in_update_11/",
       "publishedAt": "2026-07-11T01:38:41+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 9,
       "signals": [
         "bug",
@@ -482,7 +509,7 @@
       "questionKey": "juvenile angle comb both opened and closed",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1utpteq/juvenile_angle_comb_both_opened_and_closed/",
       "publishedAt": "2026-07-11T17:15:31+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 8,
       "signals": [
         "not-working",
@@ -510,7 +537,7 @@
       "questionKey": "can t play on legion go",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1usuldi/cant_play_on_legion_go/",
       "publishedAt": "2026-07-10T17:40:45+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "not-working",
@@ -537,7 +564,7 @@
       "questionKey": "2 lost tadpoles wings and upgrades in 2 hours of playing",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu1yb3/2_lost_tadpoles_wings_and_upgrades_in_2_hours_of/",
       "publishedAt": "2026-07-12T01:42:10+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 9,
       "signals": [
         "bug",
@@ -565,7 +592,7 @@
       "questionKey": "game crashing at load got curseforge",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1utx73j/game_crashing_at_load_got_curseforge/",
       "publishedAt": "2026-07-11T22:09:28+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 7,
       "signals": [
         "bug",
@@ -587,14 +614,14 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-07-19T07:36:00.722Z",
+        "lastErrorAt": "2026-07-20T08:18:27.103Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1usu5kt/legion_go_s_controls_wont_work/.rss?limit=500"
       },
       "title": "Legion go s controls won't work.",
       "questionKey": "legion go s controls won t work",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1usu5kt/legion_go_s_controls_wont_work/",
       "publishedAt": "2026-07-10T17:24:57+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 15,
       "signals": [
         "stuck",
@@ -625,37 +652,10 @@
       "questionKey": "does anyone know how to craft new underwear",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/",
       "publishedAt": "2026-07-12T20:45:19+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
+      "lastSeenAt": "2026-07-20T08:18:27.103Z",
       "painScore": 10,
       "signals": [
         "how",
-        "crafting"
-      ],
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1usxxac",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "where am i",
-      "questionKey": "where am i",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1usxxac/where_am_i/",
-      "publishedAt": "2026-07-10T19:40:17+00:00",
-      "lastSeenAt": "2026-07-19T07:36:00.722Z",
-      "painScore": 5,
-      "signals": [
-        "where",
         "crafting"
       ],
       "possibleDuplicateOf": null

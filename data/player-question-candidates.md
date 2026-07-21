@@ -1,6 +1,6 @@
 # Player question candidate review
 
-Collected: 2026-07-20T08:18:27.103Z
+Collected: 2026-07-21T07:42:36.095Z
 
 RSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.
 

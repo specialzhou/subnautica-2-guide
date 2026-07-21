@@ -1,13 +1,22 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-07-20T06:28:52.491Z",
+  "detectedAt": "2026-07-21T06:08:25.159Z",
   "changes": [
     {
-      "id": "conduit-crystal",
-      "title": "Conduit Crystal",
+      "id": "tadpole-dock",
+      "title": "Tadpole Dock",
       "change": "updated",
-      "previousRevisionId": 14588,
-      "revisionId": 18633,
+      "previousRevisionId": 18271,
+      "revisionId": 18757,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "titanium",
+      "title": "Titanium",
+      "change": "updated",
+      "previousRevisionId": 17911,
+      "revisionId": 18779,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,4 +1,5 @@
-const guideBaseUrl = "https://specialzhou.github.io/subnautica-2-guide/en/questions";
+const guideBaseUrl = "https://specialzhou.github.io/subnautica-2-guide/questions";
+const stateLimit = 1000;
 
 const normalizeRedditId = (url = "") => String(url).match(/\/comments\/([^/]+)/)?.[1] ?? "";
 const round = (value) => Number(value.toFixed(2));
@@ -9,8 +10,11 @@ export function opportunityScore(candidate) {
   return round(candidate.painScore + Math.min(comments, 20) + duplicateScore * 10);
 }
 
-export function buildTrafficOpportunities({ candidates, questions, generatedAt, limit = 3 }) {
+const opportunityKey = (redditId, guideId) => `${redditId}:${guideId}`;
+
+export function buildTrafficOpportunities({ candidates, questions, generatedAt, limit = 3, state = {} }) {
   const questionById = new Map(questions.map((question) => [question.id, question]));
+  const seenOpportunityKeys = new Set(state.seenOpportunityKeys ?? []);
   const ranked = [];
 
   for (const candidate of candidates) {
@@ -20,7 +24,9 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
     const question = questionById.get(match.id);
     if (!question || question.resolution !== "solved") continue;
     if (normalizeRedditId(question.source?.url) === candidate.redditId) continue;
-    ranked.push({ candidate, question, matchScore: match.score, score: opportunityScore(candidate) });
+    const key = opportunityKey(candidate.redditId, question.id);
+    if (seenOpportunityKeys.has(key)) continue;
+    ranked.push({ candidate, question, key, matchScore: match.score, score: opportunityScore(candidate) });
   }
 
   ranked.sort((a, b) => b.score - a.score || String(b.candidate.publishedAt).localeCompare(String(a.candidate.publishedAt)));
@@ -35,6 +41,7 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
     trackingUrl.searchParams.set("utm_campaign", "daily_traffic_opportunities");
     trackingUrl.searchParams.set("utm_content", entry.candidate.redditId);
     selected.push({
+      opportunityKey: entry.key,
       redditId: entry.candidate.redditId,
       title: entry.candidate.title,
       redditUrl: entry.candidate.url,
@@ -52,6 +59,16 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
   }
 
   return { generatedAt, count: selected.length, opportunities: selected };
+}
+
+export function buildTrafficOpportunityState({ state = {}, report }) {
+  const seenOpportunityKeys = new Set(state.seenOpportunityKeys ?? []);
+  for (const entry of report.opportunities) seenOpportunityKeys.add(entry.opportunityKey);
+  return {
+    schemaVersion: "1.0.0",
+    updatedAt: report.count > 0 ? report.generatedAt : (state.updatedAt ?? report.generatedAt),
+    seenOpportunityKeys: [...seenOpportunityKeys].slice(-stateLimit),
+  };
 }
 
 const escapeMarkdown = (value) => String(value ?? "—")

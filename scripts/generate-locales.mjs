@@ -1,4 +1,4 @@
-import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,6 +11,45 @@ const contentDates = await Promise.all(["wiki-items.json", "wiki-entities.json",
   return new Date(value.generatedAt ?? value.collectedAt).getTime();
 }));
 const siteLastModified = new Date(Math.max(...contentDates)).toISOString().slice(0, 10);
+
+// --- Build slug → lastmod maps from data files ---
+const wikiItemsData = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));
+const wikiEntitiesData = JSON.parse(await readFile(path.join(root, "data", "wiki-entities.json"), "utf8"));
+const playerQuestionsData = JSON.parse(await readFile(path.join(root, "data", "player-questions.json"), "utf8"));
+
+const itemLastmod = new Map();
+for (const item of wikiItemsData.items) {
+  const slug = item.id;
+  const date = item.source?.revisionTimestamp?.slice(0, 10);
+  if (slug && date) itemLastmod.set(slug, date);
+}
+
+const entityLastmod = new Map();
+for (const entity of wikiEntitiesData.entities) {
+  const slug = entity.id;
+  const date = entity.source?.revisionTimestamp?.slice(0, 10);
+  if (slug && date) entityLastmod.set(slug, date);
+}
+
+const questionLastmod = new Map();
+for (const q of playerQuestionsData.questions) {
+  const slug = q.id;
+  const date = q.source?.observedAt?.slice(0, 10);
+  if (slug && date) questionLastmod.set(slug, date);
+}
+
+function resolveLastmod(pagePath) {
+  // guide/items/{slug}.html
+  const itemMatch = pagePath.match(/^guide\/items\/([^/]+)\.html$/);
+  if (itemMatch) return itemLastmod.get(itemMatch[1]);
+  // guide/{biomes,creatures,resources,vehicles}/{slug}.html
+  const entityMatch = pagePath.match(/^guide\/(?:biomes|creatures|resources|vehicles)\/([^/]+)\.html$/);
+  if (entityMatch) return entityLastmod.get(entityMatch[1]);
+  // questions/{slug}.html
+  const questionMatch = pagePath.match(/^questions\/([^/]+)\.html$/);
+  if (questionMatch) return questionLastmod.get(questionMatch[1]);
+  return null;
+}
 const locales = {
   en: { label: "English", htmlLang: "en", dictionary: {} },
   "zh-cn": { label: "简体中文", htmlLang: "zh-CN", dictionary: {
@@ -879,6 +918,7 @@ function stripLocaleMetadata(html) {
 }
 
 function localPath(pagePath, locale) {
+  if (locale === "en") return `${pathBase}${pagePath === "index.html" ? "" : pagePath}`;
   return `${pathBase}${locale}/${pagePath === "index.html" ? "" : pagePath}`;
 }
 
@@ -899,16 +939,58 @@ function decorate(sourceHtml, pagePath, locale) {
     .replaceAll('href="data/', `href="${pathBase}data/`)
     .replaceAll('fetch("data/', `fetch("${pathBase}data/`);
   html = html.replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${siteBase}${locale}/${pagePath === "index.html" ? "" : pagePath}">`);
-  const alternates = [`<link rel="alternate" hreflang="x-default" href="${siteBase}${pagePath === "index.html" ? "" : pagePath}">`, ...Object.keys(locales).map((code) => `<link rel="alternate" hreflang="${locales[code].htmlLang}" href="${siteBase}${code}/${pagePath === "index.html" ? "" : pagePath}">`)].join("");
+  const enUrl = siteBase + (pagePath === "index.html" ? "" : pagePath);
+  const alternates = [`<link rel="alternate" hreflang="x-default" href="${enUrl}">`, `<link rel="alternate" hreflang="en" href="${enUrl}">`, ...Object.keys(locales).filter((code) => code !== "en").map((code) => `<link rel="alternate" hreflang="${locales[code].htmlLang}" href="${siteBase}${code}/${pagePath === "index.html" ? "" : pagePath}">`)].join("");
   html = html.replace("</head>", `<link rel="stylesheet" href="${pathBase}locale.css">${alternates}</head>`);
   const switcher = `<span class="language-switcher" aria-label="${config.dictionary.Language ?? "Language"}">${Object.entries(locales).map(([code, value]) => `<a href="${localPath(pagePath, code)}"${code === locale ? ' aria-current="page"' : ""}>${value.label}</a>`).join("")}</span>`;
   html = html.replace("</nav>", `${switcher}</nav>`);
   return html;
 }
 
-const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
-const pagePaths = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/([^<]*)<\/loc>/g)].map((match) => match[1] || "index.html").filter((value) => !/^(en|zh-cn|ru)\//.test(value));
+// --- Build pagePaths from filesystem (robust across sitemap format changes) ---
+const skipDirs = new Set(["en", "zh-cn", "ru", "data", "scripts", "assets", "node_modules", ".github"]);
+async function scanHtmlFiles(dir, prefix = "") {
+  const entries = await readdir(dir, { withFileTypes: true });
+  const result = [];
+  for (const entry of entries) {
+    if (entry.name.startsWith(".")) continue;
+    const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) {
+      if (skipDirs.has(entry.name)) continue;
+      result.push(...await scanHtmlFiles(path.join(dir, entry.name), rel));
+    } else if (entry.name.endsWith(".html")) {
+      result.push(rel);
+    }
+  }
+  return result;
+}
+const pagePaths = (await scanHtmlFiles(root)).sort();
+
+// --- Read existing sitemaps for real lastmod values ---
+const existingLastmodMap = new Map();
+async function readLastmodsFromFile(fileName) {
+  try {
+    const content = await readFile(path.join(root, fileName), "utf8");
+    for (const m of content.matchAll(/<url><loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)) {
+      existingLastmodMap.set(m[1], m[2]);
+    }
+  } catch {}
+}
+const sitemapXml = await readFile(path.join(root, "sitemap.xml"), "utf8");
+if (sitemapXml.includes("<sitemapindex")) {
+  for (const m of sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    const url = m[1];
+    if (url.startsWith(siteBase) && url.endsWith(".xml") && url !== `${siteBase}sitemap.xml`) {
+      await readLastmodsFromFile(url.slice(siteBase.length));
+    }
+  }
+} else {
+  await readLastmodsFromFile("sitemap.xml");
+}
+// Remove stale /en/ directory (no longer generated)
+await rm(path.join(root, "en"), { recursive: true, force: true });
 for (const locale of Object.keys(locales)) {
+  if (locale === "en") continue;
   await rm(path.join(root, locale), { recursive: true, force: true });
   for (const pagePath of pagePaths) {
     const sourcePath = path.join(root, pagePath);
@@ -922,13 +1004,64 @@ for (const locale of Object.keys(locales)) {
 for (const pagePath of pagePaths) {
   const sourcePath = path.join(root, pagePath);
   let html = stripLocaleMetadata(await readFile(sourcePath, "utf8"));
-  const alternates = [`<link rel="alternate" hreflang="x-default" href="${siteBase}${pagePath === "index.html" ? "" : pagePath}">`, ...Object.keys(locales).map((code) => `<link rel="alternate" hreflang="${locales[code].htmlLang}" href="${siteBase}${code}/${pagePath === "index.html" ? "" : pagePath}">`)].join("");
+  const enUrl = siteBase + (pagePath === "index.html" ? "" : pagePath);
+  const alternates = [`<link rel="alternate" hreflang="x-default" href="${enUrl}">`, `<link rel="alternate" hreflang="en" href="${enUrl}">`, ...Object.keys(locales).filter((code) => code !== "en").map((code) => `<link rel="alternate" hreflang="${locales[code].htmlLang}" href="${siteBase}${code}/${pagePath === "index.html" ? "" : pagePath}">`)].join("");
   html = html.replace("</head>", `<link rel="stylesheet" href="${pathBase}locale.css">${alternates}</head>`).replace("</nav>", `<span class="language-switcher" aria-label="Language">${Object.entries(locales).map(([code, value]) => `<a href="${localPath(pagePath, code)}"${code === "en" ? ' aria-current="page"' : ""}>${value.label}</a>`).join("")}</span></nav>`);
   await writeFile(sourcePath, html);
 }
 
-const rootUrls = pagePaths.map((pagePath) => `  <url><loc>${siteBase}${pagePath === "index.html" ? "" : pagePath}</loc><lastmod>${siteLastModified}</lastmod><priority>${pagePath === "index.html" ? "1.0" : "0.8"}</priority></url>`);
-const localeUrls = Object.keys(locales).flatMap((locale) => pagePaths.map((pagePath) => `  <url><loc>${siteBase}${locale}/${pagePath === "index.html" ? "" : pagePath}</loc><lastmod>${siteLastModified}</lastmod><priority>${pagePath === "index.html" ? "0.9" : "0.7"}</priority></url>`));
-await writeFile(path.join(root, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...rootUrls, ...localeUrls].join("\n")}\n</urlset>\n`);
+// --- Sitemap splitting: core / questions / database ---
+const nonEnLocales = Object.keys(locales).filter((l) => l !== "en");
+
+function classifyPath(pagePath) {
+  if (pagePath.startsWith("questions.html") || pagePath.startsWith("questions/")) return "questions";
+  if (pagePath.startsWith("guide/items/") || pagePath.startsWith("guide/biomes/") || pagePath.startsWith("guide/creatures/") || pagePath.startsWith("guide/resources/") || pagePath.startsWith("guide/vehicles/")) return "database";
+  return "core";
+}
+
+function buildUrlEntry(loc, lastmod, priority) {
+  return `  <url><loc>${loc}</loc><lastmod>${lastmod}</lastmod><priority>${priority}</priority></url>`;
+}
+
+const buckets = { core: [], questions: [], database: [] };
+
+// Root (English) URLs — use per-page lastmod from data files, fall back to existing sitemap, then siteLastModified
+for (const pagePath of pagePaths) {
+  const urlPath = pagePath === "index.html" ? "" : pagePath;
+  const loc = `${siteBase}${urlPath}`;
+  const lastmod = resolveLastmod(pagePath) || existingLastmodMap.get(loc) || siteLastModified;
+  const priority = pagePath === "index.html" ? "1.0" : "0.8";
+  buckets[classifyPath(pagePath)].push(buildUrlEntry(loc, lastmod, priority));
+}
+
+// Locale URLs (zh-cn, ru only — no /en/) — inherit root lastmod
+for (const locale of nonEnLocales) {
+  for (const pagePath of pagePaths) {
+    const urlPath = `${locale}/${pagePath === "index.html" ? "" : pagePath}`;
+    const loc = `${siteBase}${urlPath}`;
+    const rootLoc = `${siteBase}${pagePath === "index.html" ? "" : pagePath}`;
+    const lastmod = resolveLastmod(pagePath) || existingLastmodMap.get(rootLoc) || existingLastmodMap.get(loc) || siteLastModified;
+    const priority = pagePath === "index.html" ? "0.9" : "0.7";
+    buckets[classifyPath(pagePath)].push(buildUrlEntry(loc, lastmod, priority));
+  }
+}
+
+function sitemapBody(urls) {
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;
+}
+
+await writeFile(path.join(root, "sitemap-core.xml"), sitemapBody(buckets.core));
+await writeFile(path.join(root, "sitemap-questions.xml"), sitemapBody(buckets.questions));
+await writeFile(path.join(root, "sitemap-database.xml"), sitemapBody(buckets.database));
+
+// Sitemap index (robots.txt references sitemap.xml)
+const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>${siteBase}sitemap-core.xml</loc><lastmod>${siteLastModified}</lastmod></sitemap>
+  <sitemap><loc>${siteBase}sitemap-questions.xml</loc><lastmod>${siteLastModified}</lastmod></sitemap>
+  <sitemap><loc>${siteBase}sitemap-database.xml</loc><lastmod>${siteLastModified}</lastmod></sitemap>
+</sitemapindex>
+`;
+await writeFile(path.join(root, "sitemap.xml"), sitemapIndex);
 await writeFile(path.join(root, "data", "locales.json"), `${JSON.stringify({ schemaVersion: "1.0.0", defaultLocale: "en", locales: Object.entries(locales).map(([code, value]) => ({ code, label: value.label, htmlLang: value.htmlLang })), pageCountPerLocale: pagePaths.length }, null, 2)}\n`);
 process.stdout.write(`Generated ${pagePaths.length} pages for ${Object.keys(locales).length} locales.\n`);

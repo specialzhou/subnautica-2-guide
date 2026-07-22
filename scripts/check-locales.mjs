@@ -1,27 +1,29 @@
 import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readSitemapContents } from "./sitemap-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
+const sitemap = await readSitemapContents(root);
 const localeData = JSON.parse(await readFile(path.join(root, "data", "locales.json"), "utf8"));
 const playerQuestions = JSON.parse(await readFile(path.join(root, "data", "player-questions.json"), "utf8"));
 const failures = [];
 const locales = localeData.locales;
+const localeVariants = locales.map((locale) => ({ ...locale, pathPrefix: locale.code === "en" ? "" : `${locale.code}/` }));
 const rootPages = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/([^<]*)<\/loc>/g)].map((match) => match[1] || "index.html").filter((page) => !/^(en|zh-cn|ru)\//.test(page));
 
 if (locales.map((locale) => locale.code).join(",") !== "en,zh-cn,ru") failures.push("Unexpected locale registry");
 if (rootPages.length !== localeData.pageCountPerLocale) failures.push("Locale page count metadata mismatch");
 
-for (const locale of locales) {
+for (const locale of localeVariants) {
   for (const page of rootPages) {
-    const file = path.join(root, locale.code, page);
-    await access(file).catch(() => failures.push(`Missing localized page: ${locale.code}/${page}`));
+    const file = path.join(root, locale.pathPrefix, page);
+    await access(file).catch(() => failures.push(`Missing localized page: ${locale.pathPrefix}${page}`));
     const html = await readFile(file, "utf8");
     if (!html.includes(`<html lang="${locale.htmlLang}">`)) failures.push(`Wrong html lang: ${locale.code}/${page}`);
-    if (!html.includes(`rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/${locale.code}/${page === "index.html" ? "" : page}"`)) failures.push(`Wrong canonical: ${locale.code}/${page}`);
+    if (!html.includes(`rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/${locale.pathPrefix}${page === "index.html" ? "" : page}"`)) failures.push(`Wrong canonical: ${locale.code}/${page}`);
     for (const alternate of ["x-default", "en", "zh-CN", "ru"]) if (!html.includes(`hreflang="${alternate}"`)) failures.push(`Missing hreflang ${alternate}: ${locale.code}/${page}`);
-    if (!html.includes(`href="/subnautica-2-guide/${locale.code}/${page === "index.html" ? "" : page}" aria-current="page"`)) failures.push(`Wrong active language: ${locale.code}/${page}`);
+    if (!html.includes(`href="/subnautica-2-guide/${locale.pathPrefix}${page === "index.html" ? "" : page}" aria-current="page"`)) failures.push(`Wrong active language: ${locale.code}/${page}`);
     if (/\/subnautica-2-guide\/(?:en|zh-cn|ru)\/(?:en|zh-cn|ru)\//.test(html)) failures.push(`Nested locale path: ${locale.code}/${page}`);
   }
 }
@@ -103,14 +105,14 @@ const genericTaskImage = guideCss.lastIndexOf(".task-card img{");
 const sceneTaskImage = guideCss.lastIndexOf(".task-card.task-card--scene img{");
 if (sceneTaskImage < genericTaskImage || !guideCss.slice(sceneTaskImage, sceneTaskImage + 140).includes("width:100%;height:100%;object-fit:cover")) failures.push("Homepage scene image can be overridden by generic task image sizing");
 if (!guideCss.includes(".task-card.task-card--tall{grid-row:span 1!important}")) failures.push("Desktop Tadpole card still creates an empty grid row");
-for (const locale of ["en", "zh-cn", "ru"]) {
-  const home = await readFile(path.join(root, locale, "index.html"), "utf8");
-  for (const count of [itemData.publishedCount + entityData.publishedCount, itemData.publishedCount, entityData.counts.resources, entityData.counts.creatures, entityData.counts.biomes]) if (!home.includes(`>${count}<`)) failures.push(`Stale homepage coverage count: ${locale}/${count}`);
+for (const locale of localeVariants) {
+  const home = await readFile(path.join(root, locale.pathPrefix, "index.html"), "utf8");
+  for (const count of [itemData.publishedCount + entityData.publishedCount, itemData.publishedCount, entityData.counts.resources, entityData.counts.creatures, entityData.counts.biomes]) if (!home.includes(`>${count}<`)) failures.push(`Stale homepage coverage count: ${locale.code}/${count}`);
 }
-for (const locale of ["en", "zh-cn", "ru"]) {
+for (const locale of localeVariants) {
   for (const page of rootPages.filter((entry) => entry.startsWith("guide/"))) {
-    const html = await readFile(path.join(root, locale, page), "utf8");
-    if (!html.includes('class="record-media')) failures.push(`Missing media or explicit fallback: ${locale}/${page}`);
+    const html = await readFile(path.join(root, locale.pathPrefix, page), "utf8");
+    if (!html.includes('class="record-media')) failures.push(`Missing media or explicit fallback: ${locale.code}/${page}`);
   }
 }
 for (const page of rootPages) {
@@ -137,7 +139,7 @@ for (const locale of ["zh-cn", "ru"]) {
   }
 }
 
-const expectedSitemapUrls = rootPages.length * (locales.length + 1);
+const expectedSitemapUrls = rootPages.length * locales.length;
 if ((sitemap.match(/<url>/g) || []).length !== expectedSitemapUrls) failures.push("Localized sitemap URL count mismatch");
 if ((sitemap.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g) || []).length !== expectedSitemapUrls) failures.push("Localized sitemap lastmod coverage mismatch");
 

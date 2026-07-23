@@ -72,6 +72,6 @@ jobs:
           站长不需要判断游戏事实；只有证据完整的内容才能进入攻略或流量机会。
           EOF
             gh pr create --draft --base main --head automation/player-question-candidates \
-              --title "待审核：新的玩家问题候选" \
+              --title "系统审核：新的玩家问题候选" \
               --body-file "$RUNNER_TEMP/player-question-pr.md"
           fi

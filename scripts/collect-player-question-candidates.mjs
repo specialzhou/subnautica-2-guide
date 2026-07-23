@@ -23,21 +23,48 @@ const feedUrl = String(args.get("feed") || process.env.REDDIT_FEED_URL || "https
 const threshold = Number(args.get("threshold") || 5);
 const maxDetails = Number(args.get("max-details") || 0);
 const detailDelayMs = Number(args.get("detail-delay-ms") || 65000);
+const fetchAttempts = Math.max(1, Number(args.get("fetch-attempts") || 1));
+const fetchRetryDelayMs = Math.max(0, Number(args.get("fetch-retry-delay-ms") || 5000));
+const allowStaleFeed = args.has("allow-stale-feed");
 const now = process.env.COLLECTED_AT || new Date().toISOString();
 const userAgent = process.env.REDDIT_USER_AGENT || "subnautica-2-guide/0.1 (https://github.com/specialzhou/subnautica-2-guide)";
 
-const fetchText = async (url) => {
-  const response = await fetch(url, { headers: { Accept: "application/atom+xml", "User-Agent": userAgent } });
-  if (!response.ok) throw new Error(`Reddit RSS request failed (${response.status}) for ${url}`);
-  const contentType = response.headers.get("content-type") ?? "";
-  if (!/xml|atom/i.test(contentType)) throw new Error(`Unexpected Reddit RSS content type: ${contentType}`);
-  return response.text();
+const fetchText = async (url, { attempts = 1, retryDelayMs = 0 } = {}) => {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, { headers: { Accept: "application/atom+xml", "User-Agent": userAgent } });
+      if (!response.ok) throw new Error(`Reddit RSS request failed (${response.status}) for ${url}`);
+      const contentType = response.headers.get("content-type") ?? "";
+      if (!/xml|atom/i.test(contentType)) throw new Error(`Unexpected Reddit RSS content type: ${contentType}`);
+      return response.text();
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts && retryDelayMs > 0) {
+        await new Promise((resolve) => setTimeout(resolve, retryDelayMs * attempt));
+      }
+    }
+  }
+  throw lastError;
 };
 
 const previous = args.has("reset") ? {} : JSON.parse(await readFile(outputPath, "utf8").catch(() => "{}"));
 const published = JSON.parse(await readFile(path.join(root, "data/player-questions.json"), "utf8"));
 const publishedUrls = new Set(published.questions.map((question) => normalizeRedditUrl(question.source.url)));
-const feedXml = inputPath ? await readFile(inputPath, "utf8") : await fetchText(feedUrl);
+let feedXml;
+try {
+  feedXml = inputPath
+    ? await readFile(inputPath, "utf8")
+    : await fetchText(feedUrl, { attempts: fetchAttempts, retryDelayMs: fetchRetryDelayMs });
+} catch (error) {
+  if (!allowStaleFeed) throw error;
+  const message = `Reddit 当前拒绝 RSS 请求；已保留现有候选队列，本次没有采集新帖子。${error.message}`;
+  process.stderr.write(`::warning title=Reddit 采集已降级::${message}\n`);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await writeFile(process.env.GITHUB_STEP_SUMMARY, `## Reddit 采集已降级\n\n${message}\n`, { flag: "a" });
+  }
+  process.exit(0);
+}
 const feedEntries = parseAtomFeed(feedXml);
 if (!feedEntries.length) throw new Error("Reddit RSS contained no readable entries");
 

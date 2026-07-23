@@ -40,7 +40,7 @@ jobs:
       - name: 收集新的 Reddit 问题候选
         env:
           REDDIT_USER_AGENT: subnautica-2-guide/0.1 (https://github.com/specialzhou/subnautica-2-guide)
-        run: node scripts/collect-player-question-candidates.mjs --max-details=4 --detail-delay-ms=65000
+        run: node scripts/collect-player-question-candidates.mjs --max-details=4 --detail-delay-ms=65000 --fetch-attempts=3 --fetch-retry-delay-ms=5000 --allow-stale-feed
       - name: 验证候选队列和生成页面
         run: npm run validate
       - name: 提交候选审核队列

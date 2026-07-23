@@ -6,6 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const pathBase = "/subnautica-2-guide/";
 const siteBase = "https://specialzhou.github.io/subnautica-2-guide/";
 const data = JSON.parse(await readFile(path.join(root, "data", "player-questions.json"), "utf8"));
+const publishedLocales = ["root", "zh-cn", "ru"];
 
 const locales = {
   en: {
@@ -148,7 +149,11 @@ const relatedPageLabels = {
 
 function languageSwitcher(active, questionId = null) {
   const current = active === "root" ? "en" : active;
-  return `<span class="language-switcher" aria-label="Language">${Object.entries(locales).map(([code, config]) => `<a href="${pathBase}${code}/questions${questionId ? `/${questionId}` : ""}.html"${code === current ? ' aria-current="page"' : ""}>${config.label}</a>`).join("")}</span>`;
+  return `<span class="language-switcher" aria-label="Language">${Object.entries(locales).map(([code, config]) => {
+    const route = code === "en" ? "root" : code;
+    const href = questionId ? questionDetailPath(route, questionId) : `${localePrefix(route)}questions.html`;
+    return `<a href="${href}"${code === current ? ' aria-current="page"' : ""}>${config.label}</a>`;
+  }).join("")}</span>`;
 }
 
 function relatedLinks(question, locale) {
@@ -193,7 +198,7 @@ function renderDetailPage(question, locale) {
   const category = categoryLabels[question.category]?.[code] ?? question.category;
   const prefix = localePrefix(locale);
   const status = copy.status[question.resolution];
-  const alternates = [`<link rel="alternate" hreflang="x-default" href="${questionDetailUrl("root", question.id)}">`, ...Object.entries(locales).map(([entryCode, entry]) => `<link rel="alternate" hreflang="${entry.htmlLang}" href="${questionDetailUrl(entryCode, question.id)}">`)].join("");
+  const alternates = [`<link rel="alternate" hreflang="x-default" href="${questionDetailUrl("root", question.id)}">`, ...Object.entries(locales).map(([entryCode, entry]) => `<link rel="alternate" hreflang="${entry.htmlLang}" href="${questionDetailUrl(entryCode === "en" ? "root" : entryCode, question.id)}">`)].join("");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -254,7 +259,7 @@ function renderPage(locale) {
   const copy = config.copy;
   const prefix = localePrefix(locale);
   const sorted = [...data.questions].sort((a, b) => (b.source.upvotes + b.source.comments) - (a.source.upvotes + a.source.comments));
-  const alternates = [`<link rel="alternate" hreflang="x-default" href="${siteBase}questions.html">`, ...Object.entries(locales).map(([entryCode, entry]) => `<link rel="alternate" hreflang="${entry.htmlLang}" href="${siteBase}${entryCode}/questions.html">`)].join("");
+  const alternates = [`<link rel="alternate" hreflang="x-default" href="${siteBase}questions.html">`, ...Object.entries(locales).map(([entryCode, entry]) => `<link rel="alternate" hreflang="${entry.htmlLang}" href="${questionUrl(entryCode === "en" ? "root" : entryCode)}">`)].join("");
   const navHrefs = ["starter-planner.html", "crafting.html", "resources.html", "creatures.html", "vehicles.html", "biomes.html"];
   return `<!doctype html>
 <html lang="${config.htmlLang}">
@@ -277,7 +282,7 @@ function renderPage(locale) {
 </body></html>\n`;
 }
 
-for (const locale of ["root", ...Object.keys(locales)]) {
+for (const locale of publishedLocales) {
   const output = locale === "root" ? path.join(root, "questions.html") : path.join(root, locale, "questions.html");
   await mkdir(path.dirname(output), { recursive: true });
   await writeFile(output, renderPage(locale));
@@ -288,11 +293,12 @@ for (const locale of ["root", ...Object.keys(locales)]) {
   }
 }
 
-const sitemapPath = path.join(root, "sitemap.xml");
+const sitemapIndex = await readFile(path.join(root, "sitemap.xml"), "utf8");
+const sitemapPath = path.join(root, sitemapIndex.includes("<sitemapindex") ? "sitemap-questions.xml" : "sitemap.xml");
 let sitemap = await readFile(sitemapPath, "utf8");
 sitemap = sitemap.replace(/\s*<url><loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/(?:en\/|zh-cn\/|ru\/)?questions(?:\.html|\/[^<]+\.html)<\/loc>[\s\S]*?<\/url>/g, "");
 const latestQuestionDate = [...data.questions].sort((a, b) => b.source.observedAt.localeCompare(a.source.observedAt))[0].source.observedAt;
-const questionSitemapEntries = ["root", ...Object.keys(locales)].flatMap((locale) => {
+const questionSitemapEntries = publishedLocales.flatMap((locale) => {
   const localePath = locale === "root" ? "" : `${locale}/`;
   return [
     `  <url><loc>${siteBase}${localePath}questions.html</loc><lastmod>${latestQuestionDate}</lastmod><priority>${locale === "root" ? "0.9" : "0.8"}</priority></url>`,
@@ -302,4 +308,4 @@ const questionSitemapEntries = ["root", ...Object.keys(locales)].flatMap((locale
 sitemap = sitemap.replace("</urlset>", `${questionSitemapEntries.join("\n")}\n</urlset>`);
 await writeFile(sitemapPath, sitemap);
 
-process.stdout.write(`Generated player question library and ${data.questions.length} detail pages across ${Object.keys(locales).length + 1} URL variants.\n`);
+process.stdout.write(`Generated player question library and ${data.questions.length} detail pages across ${publishedLocales.length} URL variants.\n`);

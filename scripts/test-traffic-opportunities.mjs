@@ -1,5 +1,9 @@
 import assert from "node:assert/strict";
-import { buildTrafficOpportunities, renderTrafficOpportunityIssue } from "./lib/traffic-opportunities.mjs";
+import {
+  buildTrafficOpportunities,
+  buildTrafficOpportunityState,
+  renderTrafficOpportunityIssue,
+} from "./lib/traffic-opportunities.mjs";
 
 const question = {
   id: "angel-comb-main-cankers-stuck",
@@ -28,8 +32,27 @@ const report = buildTrafficOpportunities({
 assert.equal(report.count, 1, "one opportunity per guide page should be selected");
 assert.equal(report.opportunities[0].redditId, "high");
 assert.match(report.opportunities[0].guideUrl, /utm_content=high/);
+assert.equal(
+  new URL(report.opportunities[0].guideUrl).pathname,
+  "/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html",
+  "English guide links should use the root canonical URL",
+);
 assert.match(report.opportunities[0].replyDraft, /I maintain a small evidence-linked guide/);
 assert.match(renderTrafficOpportunityIssue(report), /It never posts, votes, or messages automatically/);
+
+const firstRun = buildTrafficOpportunities({
+  candidates: [candidate("repeat", 0.9, 20)],
+  questions: [question],
+  generatedAt: "2026-07-18T00:00:00Z",
+});
+const state = buildTrafficOpportunityState({ state: {}, report: firstRun });
+const secondRun = buildTrafficOpportunities({
+  candidates: [candidate("repeat", 0.9, 20)],
+  questions: [question],
+  generatedAt: "2026-07-19T00:00:00Z",
+  state,
+});
+assert.equal(secondRun.count, 0, "an opportunity surfaced by an earlier run must not be generated again");
 
 const sourceCandidate = candidate("source", 0.9, 20);
 assert.equal(buildTrafficOpportunities({ candidates: [sourceCandidate], questions: [question], generatedAt: "now" }).count, 0, "source thread must not be promoted back to itself");

@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readSitemapContents } from "./sitemap-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const base = "/subnautica-2-guide/";
@@ -119,7 +120,7 @@ const homepageQuestionSection = (locale) => {
 };
 const homepageQuickLinks = (locale) => `<div class="quick-links">${featuredQuestions.slice(0, 3).map((question) => `<a href="questions/${question.id}.html" data-track="question-card" data-question-id="${question.id}">${escapeHtml(question.question[locale])} <span>→</span></a>`).join("")}</div>`;
 
-const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
+const sitemap = await readSitemapContents(root);
 const pagePaths = [...sitemap.matchAll(/<loc>https:\/\/specialzhou\.github\.io\/subnautica-2-guide\/([^<]*)<\/loc>/g)].map((match) => {
   const value = match[1];
   if (!value) return "index.html";

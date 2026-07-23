@@ -1,6 +1,7 @@
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readSitemapContents } from "./sitemap-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const data = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));
@@ -52,7 +53,7 @@ for (const [title, station, ingredients] of expectedRecipes) {
   if (JSON.stringify(actual) !== JSON.stringify(ingredients)) failures.push(`Golden recipe mismatch: ${title}`);
 }
 
-const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
+const sitemap = await readSitemapContents(root);
 const questionIds = new Set();
 const featuredRanks = new Set();
 for (const question of playerQuestions.questions) {
@@ -76,7 +77,7 @@ if (playerQuestions.questions.length < 8) failures.push("Player question library
 if (featuredRanks.size < 4) failures.push("Homepage needs at least four featured player questions");
 if (!sitemap.includes("/questions.html")) failures.push("Sitemap missing player question library");
 for (const question of playerQuestions.questions) {
-  for (const locale of ["", "en/", "zh-cn/", "ru/"]) {
+  for (const locale of ["", "zh-cn/", "ru/"]) {
     const route = `/${locale}questions/${question.id}.html`;
     if (!sitemap.includes(route)) failures.push(`Sitemap missing player question detail: ${route}`);
     await access(path.join(root, locale, "questions", `${question.id}.html`)).catch(() => failures.push(`Missing player question detail: ${route}`));
@@ -107,7 +108,7 @@ for (const filename of promotedReviewFiles.filter((entry) => entry.endsWith(".js
   if (published && !published.source.url.includes(`/comments/${review.redditId}/`)) failures.push(`Promoted review source mismatch: ${filename}`);
   if (!(review.question?.evidenceSources?.length > 0)) failures.push(`Promoted review has no evidence sources: ${filename}`);
 }
-for (const locale of ["", "en", "zh-cn", "ru"]) {
+for (const locale of ["", "zh-cn", "ru"]) {
   const relative = locale ? path.join(locale, "questions.html") : "questions.html";
   const html = await readFile(path.join(root, relative), "utf8").catch(() => "");
   if (!html) failures.push(`Missing player question page: ${relative}`);

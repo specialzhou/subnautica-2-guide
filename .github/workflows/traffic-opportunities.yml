@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 concurrency:
@@ -29,8 +29,20 @@ jobs:
           if git show-ref --verify --quiet refs/remotes/origin/automation/player-question-candidates; then
             git checkout origin/automation/player-question-candidates -- data/player-question-candidates.json
           fi
+      - name: Load traffic opportunity state
+        run: |
+          state_branch="automation/traffic-opportunity-state"
+          state_file="$RUNNER_TEMP/traffic-opportunity-state.json"
+          git fetch origin "$state_branch:refs/remotes/origin/$state_branch" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$state_branch"; then
+            git show "refs/remotes/origin/$state_branch:data/traffic-opportunity-state.json" > "$state_file"
+          elif [[ -f data/traffic-opportunity-state.json ]]; then
+            cp data/traffic-opportunity-state.json "$state_file"
+          else
+            printf '%s\n' '{"schemaVersion":"1.0.0","seenOpportunityKeys":[]}' > "$state_file"
+          fi
       - name: Generate safe reply drafts
-        run: npm run traffic:opportunities -- --output="$RUNNER_TEMP/traffic-opportunities.md"
+        run: npm run traffic:opportunities -- --output="$RUNNER_TEMP/traffic-opportunities.md" --state="$RUNNER_TEMP/traffic-opportunity-state.json" --state-output="$RUNNER_TEMP/next-traffic-opportunity-state.json"
       - name: Run opportunity tests
         run: npm run test:traffic
       - name: Update fixed review issue
@@ -43,4 +55,21 @@ jobs:
             gh issue edit "$issue_number" --title "Daily Reddit traffic opportunities" --body-file "$RUNNER_TEMP/traffic-opportunities.md"
           else
             gh issue create --title "Daily Reddit traffic opportunities" --label traffic-opportunity --body-file "$RUNNER_TEMP/traffic-opportunities.md"
+          fi
+      - name: Persist traffic opportunity state
+        run: |
+          state_branch="automation/traffic-opportunity-state"
+          state_ref="origin/main"
+          if git show-ref --verify --quiet "refs/remotes/origin/$state_branch"; then
+            state_ref="refs/remotes/origin/$state_branch"
+          fi
+          state_worktree="$RUNNER_TEMP/traffic-opportunity-state-worktree"
+          git worktree add -B "$state_branch" "$state_worktree" "$state_ref"
+          install -D "$RUNNER_TEMP/next-traffic-opportunity-state.json" "$state_worktree/data/traffic-opportunity-state.json"
+          git -C "$state_worktree" config user.name "github-actions[bot]"
+          git -C "$state_worktree" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$state_worktree" add data/traffic-opportunity-state.json
+          if ! git -C "$state_worktree" diff --cached --quiet; then
+            git -C "$state_worktree" commit -m "chore: update traffic opportunity state"
+            git -C "$state_worktree" push origin "HEAD:$state_branch"
           fi

@@ -54,7 +54,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh label create traffic-opportunity --color "0e8a16" --description "待人工审核的 Reddit 流量机会" --force
+          gh label create traffic-opportunity --color "0e8a16" --description "已完成证据审核的 Reddit 流量机会" --force
           report_date="$(TZ=Asia/Shanghai date +%F)"
           gh issue create --title "待审核：Reddit 流量机会（$report_date）" --label traffic-opportunity --body-file "$RUNNER_TEMP/traffic-opportunities.md"
       - name: 保存已处理机会状态

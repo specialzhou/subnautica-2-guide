@@ -26,6 +26,7 @@ assert.equal(normalizeQuestionKey("[HELP] Can't build?!"), "can t build");
 const merged = mergeCandidateFeed({ feedEntries: entries, existing: {}, publishedUrls: new Set(), now: "2026-07-16T12:00:00Z", threshold: 5 });
 assert.equal(merged.added, 1);
 assert.equal(merged.candidates.length, 1);
+assert.equal(merged.candidates[0].review.state, "system-review");
 const duplicate = { ...entries[0], redditId: "help456", url: "https://www.reddit.com/r/Subnautica_2/comments/help456/cant_build_the_chassis/" };
 const grouped = mergeCandidateFeed({ feedEntries: [entries[0], duplicate], existing: {}, publishedUrls: new Set(), now: "2026-07-16T12:00:00Z", threshold: 5 });
 assert.equal(grouped.candidates.length, 1);
@@ -44,4 +45,5 @@ assert.equal(findPublishedDuplicate("Second Angel Comb progression bug", [{ id: 
 const candidateReport = renderCandidateReport(candidateDocument({ previous: {}, merged, now: "2026-07-16T12:00:00Z", feedUrl: "https://example.com/feed" }));
 assert.match(candidateReport, /玩家问题候选审核/);
 assert.match(candidateReport, /不会自动发布到攻略站/);
+assert.match(candidateReport, /站长不需要判断游戏事实/);
 process.stdout.write("Player question collector tests passed.\n");

@@ -20,7 +20,7 @@ const candidate = (redditId, score, comments) => ({
   publishedAt: "2026-07-18T00:00:00Z",
   painScore: 8,
   attention: { comments },
-  review: { state: "needs-review" },
+  review: { state: "ready-to-reply" },
   possibleDuplicateOf: { id: question.id, score },
 });
 
@@ -31,6 +31,11 @@ const report = buildTrafficOpportunities({
 });
 assert.equal(report.count, 1, "one opportunity per guide page should be selected");
 assert.equal(report.opportunities[0].redditId, "high");
+assert.equal(buildTrafficOpportunities({
+  candidates: [{ ...candidate("unreviewed", 0.9, 20), review: { state: "system-review" } }],
+  questions: [question],
+  generatedAt: "now",
+}).count, 0, "system-review candidates must not generate reply drafts");
 assert.match(report.opportunities[0].guideUrl, /utm_content=high/);
 assert.equal(
   new URL(report.opportunities[0].guideUrl).pathname,
@@ -40,8 +45,8 @@ assert.equal(
 assert.match(report.opportunities[0].replyDraft, /I maintain a small evidence-linked guide/);
 const renderedIssue = renderTrafficOpportunityIssue(report);
 assert.match(renderedIssue, /系统不会自动|不会自动操作 Reddit/);
-assert.match(renderedIssue, /人工审核清单/);
-assert.match(renderedIssue, /英文回复草稿（不能未经审核直接发布）/);
+assert.match(renderedIssue, /已完成的系统审核/);
+assert.match(renderedIssue, /可直接使用的英文回复/);
 
 const firstRun = buildTrafficOpportunities({
   candidates: [candidate("repeat", 0.9, 20)],

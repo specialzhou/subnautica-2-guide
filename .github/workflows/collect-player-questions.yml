@@ -61,17 +61,15 @@ jobs:
           git push --force-with-lease --set-upstream origin automation/player-question-candidates
           if [[ "$(gh pr list --head automation/player-question-candidates --state open --json number --jq 'length')" == "0" ]]; then
             cat > "$RUNNER_TEMP/player-question-pr.md" <<'EOF'
-          这是 Reddit RSS 自动收集的玩家问题候选，只用于人工审核，不会自动发布到攻略站。
+          这是 Reddit RSS 自动收集的玩家问题候选，只进入系统证据审核，不会自动发布到攻略站。
 
-          审核步骤：
+          系统处理步骤：
 
-          - [ ] 打开 Reddit 原帖，确认问题、评论数和当前状态
-          - [ ] 判断是否已经存在对应攻略，避免重复内容
-          - [ ] 核对游戏 build、官方资料和社区证据边界
-          - [ ] 需要收录时运行 `npm run review:question -- --reddit-id=<id>`
-          - [ ] 完成中英俄内容与证据字段后，再运行受控发布命令
+          - `system-review`：等待系统核对 Reddit 上下文、官方资料和证据边界
+          - `ready-to-reply`：证据审核完成，可以生成回复草稿
+          - `dismissed`：重复、已解决、信息不足或不适合攻略化
 
-          只有完整的审核模板才能通过发布门禁。不要直接合并未经核实的候选答案。
+          站长不需要判断游戏事实；只有证据完整的内容才能进入攻略或流量机会。
           EOF
             gh pr create --draft --base main --head automation/player-question-candidates \
               --title "待审核：新的玩家问题候选" \

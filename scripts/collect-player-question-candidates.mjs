@@ -75,7 +75,7 @@ for (const candidate of document.candidates) {
 }
 
 const detailCandidates = document.candidates
-  .filter((candidate) => candidate.review?.state === "needs-review")
+  .filter((candidate) => candidate.review?.state === "system-review")
   .sort((a, b) => String(a.attention?.observedAt ?? "").localeCompare(String(b.attention?.observedAt ?? "")))
   .slice(0, Math.max(0, maxDetails));
 
@@ -99,7 +99,9 @@ for (let index = 0; index < detailCandidates.length; index += 1) {
 
 document.candidates.sort((a, b) => (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt)));
 document.counts.total = document.candidates.length;
-document.counts.needsReview = document.candidates.filter((candidate) => candidate.review?.state === "needs-review").length;
+document.counts.systemReview = document.candidates.filter((candidate) => candidate.review?.state === "system-review").length;
+document.counts.readyToReply = document.candidates.filter((candidate) => candidate.review?.state === "ready-to-reply").length;
+document.counts.dismissed = document.candidates.filter((candidate) => candidate.review?.state === "dismissed").length;
 await writeFile(outputPath, `${JSON.stringify(document, null, 2)}\n`);
 await writeFile(reportPath, renderCandidateReport(document));
 process.stdout.write(`Collected ${feedEntries.length} Reddit posts; added ${merged.added} pain candidates; ${detailCandidates.length} discussion counts checked.\n`);

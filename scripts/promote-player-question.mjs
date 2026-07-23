@@ -38,7 +38,9 @@ published.questions.push(promoted);
 published.collectedAt = new Date(Math.max(new Date(published.collectedAt).getTime(), new Date(`${review.review.reviewedAt}T00:00:00.000Z`).getTime())).toISOString();
 candidates.candidates = candidates.candidates.filter((entry) => entry.redditId !== review.redditId);
 candidates.counts.total = candidates.candidates.length;
-candidates.counts.needsReview = candidates.candidates.filter((entry) => entry.review?.state === "needs-review").length;
+candidates.counts.systemReview = candidates.candidates.filter((entry) => entry.review?.state === "system-review").length;
+candidates.counts.readyToReply = candidates.candidates.filter((entry) => entry.review?.state === "ready-to-reply").length;
+candidates.counts.dismissed = candidates.candidates.filter((entry) => entry.review?.state === "dismissed").length;
 await Promise.all([
   writeFile(publishedPath, `${JSON.stringify(published, null, 2)}\n`),
   writeFile(candidatesPath, `${JSON.stringify(candidates, null, 2)}\n`),

@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { appendFile, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -35,7 +35,10 @@ const report = buildTrafficOpportunities({
   state,
 });
 await writeFile(output, renderTrafficOpportunityIssue(report));
+if (process.env.GITHUB_OUTPUT) {
+  await appendFile(process.env.GITHUB_OUTPUT, `count=${report.count}\n`);
+}
 if (stateOutput) {
   await writeFile(stateOutput, `${JSON.stringify(buildTrafficOpportunityState({ state, report }), null, 2)}\n`);
 }
-process.stdout.write(`Generated ${report.count} traffic opportunities at ${output}.\n`);
+process.stdout.write(`已生成 ${report.count} 个 Reddit 流量机会：${output}\n`);

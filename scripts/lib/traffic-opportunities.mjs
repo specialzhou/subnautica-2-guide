@@ -71,6 +71,13 @@ export function buildTrafficOpportunityState({ state = {}, report }) {
   };
 }
 
+const verificationLabels = {
+  official: "官方资料",
+  community: "社区反馈",
+  "official-and-community": "官方资料 + 社区反馈",
+  "in-game": "游戏内验证",
+};
+
 const escapeMarkdown = (value) => String(value ?? "—")
   .replaceAll("\\", "\\\\")
   .replaceAll("[", "\\[")
@@ -81,7 +88,7 @@ const escapeMarkdown = (value) => String(value ?? "—")
 
 export function renderTrafficOpportunityIssue(report) {
   const rows = report.opportunities.map((entry, index) => `| ${index + 1} | ${entry.opportunityScore} | ${entry.comments ?? "?"} | [${escapeMarkdown(entry.title)}](${entry.redditUrl}) | [${entry.guideId}](${entry.guideUrl}) | ${entry.matchScore} |`);
-  const drafts = report.opportunities.map((entry, index) => `### ${index + 1}. ${escapeMarkdown(entry.title)}\n\nTarget: ${entry.redditUrl}\n\nBuild: ${entry.buildContext} · Verification: ${entry.verification}\n\n\`\`\`text\n${entry.replyDraft}\n\`\`\``);
-  const empty = "No safe matches today. Candidates remain in the review queue; nothing should be posted automatically.";
-  return `# Daily traffic opportunities\n\nGenerated: ${report.generatedAt}\n\nThis report prepares value-first Reddit replies. It never posts, votes, or messages automatically. Verify the live thread and current game build before publishing.\n\n| Rank | Score | Comments | Reddit question | Matching guide | Match |\n| ---: | ---: | ---: | --- | --- | ---: |\n${rows.length ? rows.join("\n") : `| — | — | — | ${empty} | — | — |`}\n\n## Reply drafts\n\n${drafts.length ? drafts.join("\n\n") : empty}\n`;
+  const drafts = report.opportunities.map((entry, index) => `### ${index + 1}. ${escapeMarkdown(entry.title)}\n\n- Reddit 原帖：${entry.redditUrl}\n- 游戏版本：${entry.buildContext}\n- 证据等级：${verificationLabels[entry.verification] ?? entry.verification}\n\n#### 人工审核清单\n\n- [ ] 打开原帖，确认问题仍未解决且回复仍有价值\n- [ ] 核对玩家平台、当前 build 和最新官方补丁\n- [ ] 核对攻略页来源，确认没有把“可能有效”写成“必然解决”\n- [ ] 根据原帖语境修改下面的英文草稿，删除不确定或重复内容\n- [ ] 手工发布，或者决定不回复；处理完成后关闭本 Issue\n\n#### 英文回复草稿（不能未经审核直接发布）\n\n\`\`\`text\n${entry.replyDraft}\n\`\`\``);
+  const empty = "今天没有新的合格机会。候选问题仍保留在审核队列中，系统不会自动发帖、评论、投票或私信。";
+  return `# Reddit 流量机会人工审核\n\n生成时间：${report.generatedAt}\n\n本报告只生成候选回复，不会自动操作 Reddit。发布前必须打开原帖，并重新核对当前游戏版本和证据。\n\n| 排名 | 机会分 | 评论数 | Reddit 问题 | 匹配攻略 | 匹配度 |\n| ---: | ---: | ---: | --- | --- | ---: |\n${rows.length ? rows.join("\n") : `| — | — | — | ${empty} | — | — |`}\n\n## 待审核回复\n\n${drafts.length ? drafts.join("\n\n") : empty}\n`;
 }

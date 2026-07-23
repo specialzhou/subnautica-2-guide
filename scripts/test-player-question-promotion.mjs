@@ -6,7 +6,7 @@ const candidate = {
   title: "Where is the test item?",
   url: "https://www.reddit.com/r/Subnautica_2/comments/test123/test/",
   attention: { comments: 4 },
-  review: { state: "needs-review" },
+  review: { state: "system-review" },
 };
 const review = createReviewTemplate(candidate, "2026-07-18");
 assert.equal(review.redditId, candidate.redditId);

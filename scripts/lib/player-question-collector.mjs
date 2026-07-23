@@ -139,7 +139,7 @@ export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, 
     const candidate = prior ?? {
       redditId: entry.redditId,
       firstSeenAt: now,
-      review: { state: "needs-review", answerStatus: "unknown", notes: "" },
+      review: { state: "system-review", answerStatus: "needs-evidence", notes: "等待系统核对 Reddit 上下文、官方资料和证据边界。" },
       attention: { upvotes: null, comments: null, observedAt: null, approximate: true, method: "not-checked" },
     };
     if (!prior) added += 1;
@@ -155,7 +155,7 @@ export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, 
     seenIds.add(entry.redditId);
   }
 
-  const statePriority = { "needs-review": 0, "in-review": 1, dismissed: 2, promoted: 3 };
+  const statePriority = { "ready-to-reply": 0, "system-review": 1, dismissed: 2, promoted: 3 };
   const candidates = [...existingById.values()].sort((a, b) => {
     const state = (statePriority[a.review?.state] ?? 9) - (statePriority[b.review?.state] ?? 9);
     return state || (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt));
@@ -175,16 +175,18 @@ export function candidateDocument({ previous = {}, merged, now, feedUrl }) {
       method: "public-atom-rss",
     },
     collectionPolicy: {
-      purpose: "Find player questions for human review; never publish answers automatically.",
+      purpose: "Find player questions for evidence-based system review; never publish answers automatically.",
       storesPostBody: false,
       upvotes: "Unavailable through RSS; remains null until manually observed.",
       comments: "Estimated by counting comment entries in the public post RSS feed.",
-      promotionGate: "A reviewer must verify the answer, evidence boundary, build context, and all three locales before moving a candidate to player-questions.json.",
+      promotionGate: "The system must verify the Reddit context, answer, evidence boundary, build context, and all three locales before moving a candidate to player-questions.json.",
     },
     detailCursor: previous.detailCursor ?? 0,
     counts: {
       total: merged.candidates.length,
-      needsReview: merged.candidates.filter((candidate) => candidate.review?.state === "needs-review").length,
+      systemReview: merged.candidates.filter((candidate) => candidate.review?.state === "system-review").length,
+      readyToReply: merged.candidates.filter((candidate) => candidate.review?.state === "ready-to-reply").length,
+      dismissed: merged.candidates.filter((candidate) => candidate.review?.state === "dismissed").length,
       addedThisRun: merged.added,
     },
     seenRedditIds: merged.seenRedditIds,
@@ -201,5 +203,5 @@ export function renderCandidateReport(document) {
     const sources = 1 + (candidate.relatedSources?.length ?? 0);
     return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} |`;
   });
-  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须人工打开 Reddit 后确认。本文件中的内容不会自动发布到攻略站。\n\n使用 \`npm run review:question -- --reddit-id=<id>\` 创建受控审核模板。完成所有字段后，再运行 \`npm run promote:question -- --review=data/player-question-reviews/<id>.json\`。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
+  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。\n\n状态说明：\`system-review\` 由系统继续核对证据；\`ready-to-reply\` 已完成证据审核，可生成回复草稿；\`dismissed\` 是重复、已解决或不适合攻略化的内容。站长不需要判断游戏事实。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
 }

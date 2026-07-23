@@ -8,16 +8,18 @@
     "method": "public-atom-rss"
   },
   "collectionPolicy": {
-    "purpose": "Find player questions for human review; never publish answers automatically.",
+    "purpose": "Find player questions for evidence-based system review; never publish answers automatically.",
     "storesPostBody": false,
     "upvotes": "Unavailable through RSS; remains null until manually observed.",
     "comments": "Estimated by counting comment entries in the public post RSS feed.",
-    "promotionGate": "A reviewer must verify the answer, evidence boundary, build context, and all three locales before moving a candidate to player-questions.json."
+    "promotionGate": "The system must verify the Reddit context, answer, evidence boundary, build context, and all three locales before moving a candidate to player-questions.json."
   },
   "detailCursor": 0,
   "counts": {
     "total": 21,
-    "needsReview": 20,
+    "systemReview": 8,
+    "readyToReply": 1,
+    "dismissed": 12,
     "addedThisRun": 0
   },
   "seenRedditIds": [
@@ -53,9 +55,10 @@
       "redditId": "1usxxac",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "resolved-existing-content",
+        "notes": "正文询问世界树下巨洞名称，评论已一致回答为 Void；站内已有 Void 生态区页面，不再新增攻略。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -80,9 +83,10 @@
       "redditId": "1uu6y2k",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "insufficient-context",
+        "notes": "正文为空且依赖截图，只能确认低帧率和硬件利用率问题；没有可复用、可验证的解决方案。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -106,9 +110,10 @@
       "redditId": "1utbr1l",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "duplicate-official-hotfix",
+        "notes": "与 Angel Comb 进度阻断重复；Unknown Worlds 的 EA 1.1 Hotfix 4 已明确修复。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -133,9 +138,10 @@
       "redditId": "1uuswe2",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "ready-to-reply",
+        "answerStatus": "official-hotfix-verified",
+        "notes": "原帖发布后官方 Hotfix 4 才上线，评论区仍认为只能装 Mod；已在 Issue #28 提供核验后的回复。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -168,9 +174,10 @@
       "redditId": "1uubmg7",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "resolved-in-thread",
+        "notes": "评论已解释远距离击破开放 canker 的流程，原作者的描述不足以证明生成 Bug；不应把推测升级成攻略。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -202,9 +209,10 @@
       "redditId": "1utgnvn",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-official-story-evidence",
+        "notes": "高质量剧情问题，但评论主要是玩家推测；需从官方日志或 Wiki 永久修订核对后才能回答。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -228,9 +236,10 @@
       "redditId": "1ut24gk",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-build-specific-benchmark",
+        "notes": "性能问题有复用价值，但结论依赖 build、驱动、DLSS 和 Frame Generation；需当前版本基准或官方已知问题。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -255,9 +264,10 @@
       "redditId": "1uuiw0l",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "bug-report-no-recovery",
+        "notes": "地形穿模报告，评论确认是长期问题但没有安全、可验证的恢复方法；不适合写成解决攻略。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -283,9 +293,10 @@
       "redditId": "1uthqxh",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "duplicate-official-hotfix",
+        "notes": "Angel Comb 动画与进度阻断重复，已由 EA 1.1 Hotfix 4 覆盖。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -311,9 +322,10 @@
       "redditId": "1utdw5d",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-official-patch-evidence",
+        "notes": "多名玩家确认 EA 1.1 后太阳能板停止发电，现有 workaround 是重建或改用其他电源；需核对最新补丁和已知问题。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -337,9 +349,10 @@
       "redditId": "1uupyuw",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-game-route-verification",
+        "notes": "评论给出沿紫色根系和 Cicada 残骸下洞穴寻找 canker 的路线，但数量说法不一致；需可靠路线证据后再发布。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -365,9 +378,10 @@
       "redditId": "1uu6l2e",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-official-mechanic-evidence",
+        "notes": "评论称感染生物重新生成是为了允许重新扫描，但没有官方来源；需核对机制说明。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -393,9 +407,10 @@
       "redditId": "1uu1fdr",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "reply-posted",
+        "notes": "已由站长按 Hotfix 4 的证据边界回复，不再重复生成流量机会。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -432,9 +447,10 @@
       "redditId": "1utgl1s",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "duplicate-official-hotfix",
+        "notes": "俄语帖子描述同一 Angel Comb 进度阻断，已由 EA 1.1 Hotfix 4 覆盖。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -467,9 +483,10 @@
       "redditId": "1ut6nqu",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-platform-reproduction",
+        "notes": "PC 多人存档出现音乐和音效缺失，Xbox 评论仅称重启偶尔有效；需平台与版本复现或官方补丁证据。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -494,9 +511,10 @@
       "redditId": "1utpteq",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "duplicate-official-hotfix",
+        "notes": "与 EA 1.1 引入的 Angel Comb 动画/进度问题重复，官方 Hotfix 4 已覆盖。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -522,9 +540,10 @@
       "redditId": "1usuldi",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-device-verification",
+        "notes": "Legion Go 控制器无法移动的问题有重复报告，但没有已验证的按键模式、Steam Input 或官方兼容性结论。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -549,9 +568,10 @@
       "redditId": "1uu1yb3",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "bug-report-no-recovery",
+        "notes": "Tadpole 被 Collector 打入地图外是有效 Bug 报告，但目前没有安全恢复方案，不应写成攻略。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -577,9 +597,10 @@
       "redditId": "1utx73j",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "system-review",
+        "answerStatus": "needs-security-verification",
+        "notes": "删除 dwmapi.dll 的建议可能影响 Mod 和安全，需用 CurseForge 官方说明及文件来源独立核验后才能发布。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,
@@ -604,9 +625,10 @@
       "redditId": "1usu5kt",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "needs-review",
-        "answerStatus": "unknown",
-        "notes": ""
+        "state": "dismissed",
+        "answerStatus": "duplicate-device-issue",
+        "notes": "与 1usuldi 的 Legion Go 控制问题重复，保留一条进入系统核验。",
+        "reviewedAt": "2026-07-24"
       },
       "attention": {
         "upvotes": null,

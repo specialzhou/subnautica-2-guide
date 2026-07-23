@@ -25,12 +25,17 @@ jobs:
           node-version: 22
       - name: 准备审核分支
         run: |
-          git fetch origin automation/player-question-candidates || true
-          if git show-ref --verify --quiet refs/remotes/origin/automation/player-question-candidates; then
-            git checkout -B automation/player-question-candidates origin/automation/player-question-candidates
-            git rebase origin/main
-          else
-            git checkout -b automation/player-question-candidates
+          review_branch="automation/player-question-candidates"
+          previous_candidates="$RUNNER_TEMP/player-question-candidates.json"
+          git fetch origin main
+          git fetch origin "$review_branch" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$review_branch" && \
+             git cat-file -e "refs/remotes/origin/$review_branch:data/player-question-candidates.json"; then
+            git show "refs/remotes/origin/$review_branch:data/player-question-candidates.json" > "$previous_candidates"
+          fi
+          git checkout -B "$review_branch" origin/main
+          if [[ -s "$previous_candidates" ]]; then
+            cp "$previous_candidates" data/player-question-candidates.json
           fi
       - name: 收集新的 Reddit 问题候选
         env:
@@ -43,7 +48,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet -- data/player-question-candidates.json data/player-question-candidates.md; then
-            echo "No candidate changes."
+            echo "候选队列没有变化。"
             exit 0
           fi
           git config user.name "github-actions[bot]"

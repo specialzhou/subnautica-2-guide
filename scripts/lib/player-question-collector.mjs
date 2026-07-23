@@ -201,5 +201,5 @@ export function renderCandidateReport(document) {
     const sources = 1 + (candidate.relatedSources?.length ?? 0);
     return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} |`;
   });
-  return `# Player question candidate review\n\nCollected: ${document.collectedAt}\n\nRSS discovery only. Comment counts are approximate; upvotes are unavailable until manual observation. Nothing in this file is published to the guide automatically.\n\nCreate a gated review with \`npm run review:question -- --reddit-id=<id>\`. After completing every field, run \`npm run promote:question -- --review=data/player-question-reviews/<id>.json\`.\n\n| Comments | Pain score | Sources | Review state | Candidate | Possible published duplicate |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
+  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须人工打开 Reddit 后确认。本文件中的内容不会自动发布到攻略站。\n\n使用 \`npm run review:question -- --reddit-id=<id>\` 创建受控审核模板。完成所有字段后，再运行 \`npm run promote:question -- --review=data/player-question-reviews/<id>.json\`。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
 }

@@ -1,4 +1,4 @@
-name: Collect player question candidates
+name: 收集玩家问题候选
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Prepare review branch
+      - name: 准备审核分支
         run: |
           git fetch origin automation/player-question-candidates || true
           if git show-ref --verify --quiet refs/remotes/origin/automation/player-question-candidates; then
@@ -32,13 +32,13 @@ jobs:
           else
             git checkout -b automation/player-question-candidates
           fi
-      - name: Collect new Reddit question candidates
+      - name: 收集新的 Reddit 问题候选
         env:
           REDDIT_USER_AGENT: subnautica-2-guide/0.1 (https://github.com/specialzhou/subnautica-2-guide)
         run: node scripts/collect-player-question-candidates.mjs --max-details=4 --detail-delay-ms=65000
-      - name: Validate candidate queue and generated site
+      - name: 验证候选队列和生成页面
         run: npm run validate
-      - name: Commit review queue
+      - name: 提交候选审核队列
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -52,7 +52,20 @@ jobs:
           git commit -m "chore: refresh player question candidates"
           git push --force-with-lease --set-upstream origin automation/player-question-candidates
           if [[ "$(gh pr list --head automation/player-question-candidates --state open --json number --jq 'length')" == "0" ]]; then
+            cat > "$RUNNER_TEMP/player-question-pr.md" <<'EOF'
+          这是 Reddit RSS 自动收集的玩家问题候选，只用于人工审核，不会自动发布到攻略站。
+
+          审核步骤：
+
+          - [ ] 打开 Reddit 原帖，确认问题、评论数和当前状态
+          - [ ] 判断是否已经存在对应攻略，避免重复内容
+          - [ ] 核对游戏 build、官方资料和社区证据边界
+          - [ ] 需要收录时运行 `npm run review:question -- --reddit-id=<id>`
+          - [ ] 完成中英俄内容与证据字段后，再运行受控发布命令
+
+          只有完整的审核模板才能通过发布门禁。不要直接合并未经核实的候选答案。
+          EOF
             gh pr create --draft --base main --head automation/player-question-candidates \
-              --title "Review new player question candidates" \
-              --body "Automated Reddit RSS candidate queue. Review attention, verify an answer and build context, then run npm run review:question -- --reddit-id=<id>. Only completed review templates can pass the gated promotion command."
+              --title "待审核：新的玩家问题候选" \
+              --body-file "$RUNNER_TEMP/player-question-pr.md"
           fi

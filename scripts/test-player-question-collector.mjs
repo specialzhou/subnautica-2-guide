@@ -1,11 +1,13 @@
 import assert from "node:assert/strict";
 import {
   countCommentEntries,
+  candidateDocument,
   findPublishedDuplicate,
   mergeCandidateFeed,
   normalizeQuestionKey,
   normalizeRedditUrl,
   parseAtomFeed,
+  renderCandidateReport,
   scorePainEntry,
 } from "./lib/player-question-collector.mjs";
 
@@ -39,4 +41,7 @@ const afterPromotion = mergeCandidateFeed({
 assert.equal(afterPromotion.candidates.length, 0);
 assert.equal(countCommentEntries("<entry><id>t3_post</id></entry><entry><id>t1_a</id></entry><entry><id>t1_b</id></entry>"), 2);
 assert.equal(findPublishedDuplicate("Second Angel Comb progression bug", [{ id: "angel", question: { en: "Why won't the Angel Comb cankers open?" }, searchTerms: { en: "angel comb canker progression bug" } }]).id, "angel");
+const candidateReport = renderCandidateReport(candidateDocument({ previous: {}, merged, now: "2026-07-16T12:00:00Z", feedUrl: "https://example.com/feed" }));
+assert.match(candidateReport, /玩家问题候选审核/);
+assert.match(candidateReport, /不会自动发布到攻略站/);
 process.stdout.write("Player question collector tests passed.\n");

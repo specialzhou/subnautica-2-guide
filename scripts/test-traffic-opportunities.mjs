@@ -38,7 +38,10 @@ assert.equal(
   "English guide links should use the root canonical URL",
 );
 assert.match(report.opportunities[0].replyDraft, /I maintain a small evidence-linked guide/);
-assert.match(renderTrafficOpportunityIssue(report), /It never posts, votes, or messages automatically/);
+const renderedIssue = renderTrafficOpportunityIssue(report);
+assert.match(renderedIssue, /系统不会自动|不会自动操作 Reddit/);
+assert.match(renderedIssue, /人工审核清单/);
+assert.match(renderedIssue, /英文回复草稿（不能未经审核直接发布）/);
 
 const firstRun = buildTrafficOpportunities({
   candidates: [candidate("repeat", 0.9, 20)],

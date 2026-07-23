@@ -15,12 +15,15 @@ concurrency:
 
 jobs:
   prepare:
+    name: 整理流量机会
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 检出仓库
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - name: 设置 Node.js
+        uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: 读取最新候选问题
@@ -68,6 +71,6 @@ jobs:
           git -C "$state_worktree" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git -C "$state_worktree" add data/traffic-opportunity-state.json
           if ! git -C "$state_worktree" diff --cached --quiet; then
-            git -C "$state_worktree" commit -m "chore: update traffic opportunity state"
+            git -C "$state_worktree" commit -m "chore: 更新流量机会状态"
             git -C "$state_worktree" push origin "HEAD:$state_branch"
           fi

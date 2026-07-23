@@ -1,4 +1,4 @@
-name: Validate generated guide
+name: 验证生成的攻略站
 
 on:
   pull_request:
@@ -11,10 +11,14 @@ permissions:
 
 jobs:
   validate:
+    name: 验证数据、页面和多语言
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: 检出仓库
+        uses: actions/checkout@v7
+      - name: 设置 Node.js
+        uses: actions/setup-node@v7
         with:
           node-version: 22
-      - run: npm run validate
+      - name: 运行完整校验
+        run: npm run validate

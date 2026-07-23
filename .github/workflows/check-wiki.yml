@@ -15,23 +15,23 @@ concurrency:
 
 jobs:
   check:
+    name: 检查 Wiki 修订
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 检出仓库
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - name: 设置 Node.js
+        uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: 准备审核分支
         run: |
-          git fetch origin automation/wiki-revisions || true
-          if git show-ref --verify --quiet refs/remotes/origin/automation/wiki-revisions; then
-            git checkout -B automation/wiki-revisions origin/automation/wiki-revisions
-            git rebase origin/main
-          else
-            git checkout -b automation/wiki-revisions
-          fi
+          review_branch="automation/wiki-revisions"
+          git fetch origin main
+          git fetch origin "$review_branch" || true
+          git checkout -B "$review_branch" origin/main
       - name: 导入最新 Wiki 修订
         run: npm run import:wiki
       - name: 验证生成记录
@@ -56,7 +56,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add --all
-          git commit -m "chore: refresh official Wiki revisions"
+          git commit -m "chore: 更新官方 Wiki 修订"
           git push --force-with-lease --set-upstream origin automation/wiki-revisions
           if [[ "$(gh pr list --head automation/wiki-revisions --state open --json number --jq 'length')" == "0" ]]; then
             cat > "$RUNNER_TEMP/wiki-review-pr.md" <<'EOF'

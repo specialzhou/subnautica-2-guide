@@ -17,9 +17,9 @@
   "detailCursor": 0,
   "counts": {
     "total": 21,
-    "systemReview": 8,
+    "systemReview": 0,
     "readyToReply": 1,
-    "dismissed": 12,
+    "dismissed": 20,
     "addedThisRun": 0
   },
   "seenRedditIds": [
@@ -209,9 +209,9 @@
       "redditId": "1utgnvn",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-official-story-evidence",
-        "notes": "高质量剧情问题，但评论主要是玩家推测；需从官方日志或 Wiki 永久修订核对后才能回答。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认提问范围、是否仍未解决或剧情信息所对应的版本；官方补丁、支持资料及可核验的 Wiki 修订均未给出 NoA 重印或重置人员的叙事条件。没有安全答案。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -236,9 +236,9 @@
       "redditId": "1ut24gk",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-build-specific-benchmark",
-        "notes": "性能问题有复用价值，但结论依赖 build、驱动、DLSS 和 Frame Generation；需当前版本基准或官方已知问题。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认硬件、驱动、DLSS/Frame Generation 或原帖是否仍未解决；EA 1.1 只列出特定笔记本 60 FPS 上限等修复，不能外推为通用画面设置建议。没有安全答案。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -322,9 +322,9 @@
       "redditId": "1utdw5d",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-official-patch-evidence",
-        "notes": "多名玩家确认 EA 1.1 后太阳能板停止发电，现有 workaround 是重建或改用其他电源；需核对最新补丁和已知问题。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认原帖是否仍未解决；EA 1.1 仅修复存档读档后基地电力显示不准确，未确认太阳能板停止发电或“重建/改用其他电源”的社区说法。没有安全答案。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -349,9 +349,9 @@
       "redditId": "1uupyuw",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-game-route-verification",
-        "notes": "评论给出沿紫色根系和 Cicada 残骸下洞穴寻找 canker 的路线，但数量说法不一致；需可靠路线证据后再发布。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认进度状态或原帖是否仍未解决；Hotfix 4 只明确修复 Angel Comb 不开放，并未验证评论中的 canker 路线或数量。社区路线说法不一致，不能写成确定事实。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -380,9 +380,9 @@
       "redditId": "1uu6l2e",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-official-mechanic-evidence",
-        "notes": "评论称感染生物重新生成是为了允许重新扫描，但没有官方来源；需核对机制说明。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认具体生物、触发条件或原帖是否仍未解决；EA 1.1 有个别生物卡住修复，但未说明感染生物重生是为了允许重新扫描。不能把评论推测写成机制结论。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -485,9 +485,9 @@
       "redditId": "1ut6nqu",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-platform-reproduction",
-        "notes": "PC 多人存档出现音乐和音效缺失，Xbox 评论仅称重启偶尔有效；需平台与版本复现或官方补丁证据。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认平台、联机角色、版本或原帖是否仍未解决；EA 1.1 的音频调整没有声明可修复持续缺失的音乐和音效。重启等社区经验不可作为安全答案。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -542,9 +542,9 @@
       "redditId": "1usuldi",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-device-verification",
-        "notes": "Legion Go 控制器无法移动的问题有重复报告，但没有已验证的按键模式、Steam Input 或官方兼容性结论。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认具体 Legion Go 型号、控制器模式、Steam Input 状态或原帖是否仍未解决；官方公告没有给出该设备的兼容性或按键修复结论。没有安全答案。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {
@@ -599,9 +599,9 @@
       "redditId": "1utx73j",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-security-verification",
-        "notes": "删除 dwmapi.dll 的建议可能影响 Mod 和安全，需用 CurseForge 官方说明及文件来源独立核验后才能发布。",
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "本轮 Reddit 登录态只读未返回正文和评论，无法确认崩溃症状、文件来源或原帖是否仍未解决；Hotfix 4 仅建议先暂时禁用、移除或卸载 Mods，并未证实删除 dwmapi.dll 安全或有效。不得传播该高风险社区建议。",
         "reviewedAt": "2026-07-24"
       },
       "attention": {

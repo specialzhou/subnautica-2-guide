@@ -94,6 +94,103 @@ const questionIndex = playerQuestions.questions.map((question) => ({
   attention: { upvotes: question.source.upvotes, comments: question.source.comments, approximate: question.source.approximate },
 }));
 const index = [...recordIndex, ...questionIndex];
+
+// --- P0-1: related internal links for entity pages (SEO internal linking) ---
+// Build a resolver from pages that actually exist (wiki-backed only) so we never
+// emit a dead link. Ingredient names may refer to items OR creature/resource
+// entities, and may differ in casing, so we keep an exact and a lowercased map.
+const pageByTitle = new Map();
+const pageByTitleLower = new Map();
+const registerPage = (title, href) => {
+  if (!title) return;
+  pageByTitle.set(title, href);
+  const lower = title.toLowerCase();
+  if (!pageByTitleLower.has(lower)) pageByTitleLower.set(lower, href);
+};
+for (const item of items.items) {
+  if (item.status === "wiki-backed") registerPage(item.title, `guide/items/${item.id}.html`);
+}
+for (const entity of entities.entities) {
+  if (entity.status === "wiki-backed") registerPage(entity.title, `guide/${entity.kind}/${entity.id}.html`);
+}
+const resolveHref = (title) => {
+  if (!title) return null;
+  return pageByTitle.get(title) ?? pageByTitleLower.get(title.toLowerCase()) ?? null;
+};
+const downstreamByKey = new Map();
+for (const src of items.items) {
+  if (src.status !== "wiki-backed") continue;
+  for (const recipe of src.recipes) {
+    for (const ingredient of recipe.ingredients) {
+      const key = ingredient.item.toLowerCase();
+      if (!downstreamByKey.has(key)) downstreamByKey.set(key, []);
+      downstreamByKey.get(key).push(src);
+    }
+  }
+}
+const creaturesByBiome = new Map();
+for (const entity of entities.entities) {
+  if (entity.kind === "creatures" && entity.status === "wiki-backed" && Array.isArray(entity.facts?.biomes)) {
+    for (const biome of entity.facts.biomes) {
+      if (!creaturesByBiome.has(biome)) creaturesByBiome.set(biome, []);
+      creaturesByBiome.get(biome).push(entity);
+    }
+  }
+}
+const relatedCopy = {
+  en: { heading: "Related references", browse: { items: "Browse all crafting", creatures: "Browse all creatures", vehicles: "Browse all vehicles", biomes: "Browse all biomes" }, fallback: { items: ["starter-planner.html", "Start here"], creatures: ["locations.html", "Key locations"], vehicles: ["vehicle-planner.html", "Vehicle planner"], biomes: ["locations.html", "Key locations"] } },
+  "zh-cn": { heading: "相关参考", browse: { items: "查看全部合成", creatures: "查看全部生物", vehicles: "查看全部载具", biomes: "查看全部群系" }, fallback: { items: ["starter-planner.html", "开始游戏"], creatures: ["locations.html", "关键地点"], vehicles: ["vehicle-planner.html", "载具规划"], biomes: ["locations.html", "关键地点"] } },
+  ru: { heading: "Связанные справочники", browse: { items: "Все рецепты", creatures: "Все существа", vehicles: "Все транспорты", biomes: "Все биомы" }, fallback: { items: ["starter-planner.html", "Начать"], creatures: ["locations.html", "Ключевые места"], vehicles: ["vehicle-planner.html", "План транспорта"], biomes: ["locations.html", "Ключевые места"] } },
+};
+const localizedName = (title, locale) => localizedNames[title]?.[locale] ?? title;
+const buildRelatedRecords = (kind, id, locale) => {
+  const copy = relatedCopy[locale] ?? relatedCopy.en;
+  const links = [];
+  const seen = new Set();
+  const push = (href, text) => {
+    if (!href || seen.has(href)) return;
+    seen.add(href);
+    links.push({ href, text });
+  };
+  if (kind === "items") {
+    const item = items.items.find((entry) => entry.id === id);
+    if (item) {
+      for (const recipe of item.recipes) {
+        for (const ingredient of recipe.ingredients) {
+          const href = resolveHref(ingredient.item);
+          if (href && href !== `guide/items/${id}.html`) push(href, localizedName(ingredient.item, locale));
+        }
+      }
+      for (const src of downstreamByKey.get(item.title.toLowerCase()) ?? []) {
+        if (src.id !== id) push(`guide/items/${src.id}.html`, localizedName(src.title, locale));
+      }
+    }
+  } else if (kind === "creatures") {
+    const entity = entities.entities.find((entry) => entry.id === id);
+    for (const biome of entity?.facts?.biomes ?? []) {
+      const href = resolveHref(biome);
+      if (href) push(href, localizedName(biome, locale));
+    }
+  } else if (kind === "biomes") {
+    const entity = entities.entities.find((entry) => entry.id === id);
+    for (const creature of creaturesByBiome.get(entity?.title ?? "") ?? []) {
+      if (creature.id !== id) push(`guide/creatures/${creature.id}.html`, localizedName(creature.title, locale));
+    }
+  } else if (kind === "vehicles") {
+    for (const vehicle of entities.entities.filter((entry) => entry.kind === "vehicles" && entry.id !== id)) {
+      push(`guide/vehicles/${vehicle.id}.html`, localizedName(vehicle.title, locale));
+    }
+  }
+  if (kind === "items") push("crafting.html", copy.browse.items);
+  else push(`${kind}.html`, copy.browse[kind]);
+  if (links.length <= 1) {
+    const [fbHref, fbText] = copy.fallback[kind];
+    push(fbHref, fbText);
+  }
+  const listItems = links.map((link) => `<li><a href="${base}${link.href}">${escapeHtml(link.text)}</a></li>`).join("");
+  return `<section class="related-records" aria-labelledby="related-records-title"><h2 id="related-records-title">${escapeHtml(copy.heading)}</h2><ul class="related-records__list">${listItems}</ul></section>`;
+};
+
 const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime(), new Date(playerQuestions.collectedAt).getTime())).toISOString();
 const coverage = {
   total: items.publishedCount + entities.publishedCount,
@@ -168,6 +265,11 @@ for (const pagePath of [...new Set(pagePaths)]) {
   }
   const image = imageByPage.get(unlocalizedPath);
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
+  const entityMatch = pagePath.match(/^(?:(?:en|zh-cn|ru)\/)?guide\/(items|creatures|vehicles|biomes)\/([^/]+)\.html$/);
+  if (entityMatch) {
+    html = html.replace(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/, "");
+    html = html.replace("</main>", `${buildRelatedRecords(entityMatch[1], entityMatch[2], locale)}</main>`);
+  }
   html = html.replace("</body>", `<script defer src="${base}analytics.js?v=1"></script><script defer src="${base}search.js?v=5"></script></body>`);
   await writeFile(filePath, html);
 }

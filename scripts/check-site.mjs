@@ -29,6 +29,16 @@ for (const file of htmlFiles) {
     if (!html.includes('type="application/ld+json"') || !html.includes('"@type":"BreadcrumbList"')) failures.push(`${relative}: missing article structured data`);
     if (!/<meta name="description" content="[^"]+">/.test(html)) failures.push(`${relative}: missing detail description`);
   }
+  const entityMatch = relative.match(/^(?:en[\\/]|zh-cn[\\/]|ru[\\/])?guide\/(?:items|creatures|vehicles|biomes)\/[^/]+\.html$/);
+  if (entityMatch) {
+    const section = html.match(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/);
+    if (!section) {
+      failures.push(`${relative}: missing related-records internal links section`);
+    } else {
+      const internalLinks = [...section[0].matchAll(/<a\s+[^>]*href="([^"]+\.html)(?:#[^"]*)?"/g)].filter((match) => !/^https?:/.test(match[1])).length;
+      if (internalLinks < 2) failures.push(`${relative}: related-records section has too few internal links (${internalLinks})`);
+    }
+  }
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const href = match[1];
     if (href.includes("${")) continue;

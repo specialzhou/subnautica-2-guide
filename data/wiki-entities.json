@@ -1,20 +1,20 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-07-23T16:22:13.530Z",
+  "generatedAt": "2026-07-24T06:06:43.548Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
     "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
-  "publishedCount": 82,
+  "publishedCount": 81,
   "excludedCount": 0,
   "counts": {
-    "resources": 34,
+    "resources": 33,
     "creatures": 32,
     "vehicles": 3,
     "biomes": 13
   },
-  "imageCount": 80,
+  "imageCount": 79,
   "entities": [
     {
       "id": "acidic-raion-pouch",
@@ -619,15 +619,16 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
+        "Needs In-Game Screenshots",
         "Raw Materials"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Creature_Enamel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=17861",
-        "revisionId": 17861,
-        "revisionTimestamp": "2026-07-11T15:22:30Z",
-        "fetchedAt": "2026-07-12T12:33:04.072Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=19226",
+        "revisionId": 19226,
+        "revisionTimestamp": "2026-07-23T20:31:26Z",
+        "fetchedAt": "2026-07-24T06:06:43.926Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1471,10 +1472,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Karakorum_Metal_Farms",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Karakorum_Metal_Farms&oldid=18304",
-        "revisionId": 18304,
-        "revisionTimestamp": "2026-07-14T15:03:57Z",
-        "fetchedAt": "2026-07-18T05:38:30.479Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Karakorum_Metal_Farms&oldid=19220",
+        "revisionId": 19220,
+        "revisionTimestamp": "2026-07-23T20:18:27Z",
+        "fetchedAt": "2026-07-24T06:06:45.276Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1769,10 +1770,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Bud",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=17887",
-        "revisionId": 17887,
-        "revisionTimestamp": "2026-07-11T15:33:48Z",
-        "fetchedAt": "2026-07-12T12:33:04.071Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=19366",
+        "revisionId": 19366,
+        "revisionTimestamp": "2026-07-24T02:10:20Z",
+        "fetchedAt": "2026-07-24T06:06:43.924Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1794,42 +1795,6 @@
       }
     },
     {
-      "id": "necrolei-cyst",
-      "title": "Necrolei Cyst",
-      "kind": "resources",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Raw Materials"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Cyst",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Cyst&oldid=18400",
-        "revisionId": 18400,
-        "revisionTimestamp": "2026-07-15T01:31:05Z",
-        "fetchedAt": "2026-07-18T05:38:28.868Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "source": "",
-        "group": "Raw Materials",
-        "biomes": [
-          "Necrolei Hills"
-        ]
-      },
-      "media": {
-        "fileName": "Necrolei Cyst.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Cyst.png?32305",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Cyst.png",
-        "width": 256,
-        "height": 256
-      }
-    },
-    {
       "id": "necrolei-hills",
       "title": "Necrolei Hills",
       "kind": "biomes",
@@ -1841,10 +1806,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Hills",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Hills&oldid=18296",
-        "revisionId": 18296,
-        "revisionTimestamp": "2026-07-14T14:59:21Z",
-        "fetchedAt": "2026-07-18T05:38:30.479Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Hills&oldid=19368",
+        "revisionId": 19368,
+        "revisionTimestamp": "2026-07-24T02:11:39Z",
+        "fetchedAt": "2026-07-24T06:06:45.276Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2960,10 +2925,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=17820",
-        "revisionId": 17820,
-        "revisionTimestamp": "2026-07-11T15:03:51Z",
-        "fetchedAt": "2026-07-12T12:33:04.072Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=19219",
+        "revisionId": 19219,
+        "revisionTimestamp": "2026-07-23T20:17:39Z",
+        "fetchedAt": "2026-07-24T06:06:43.926Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

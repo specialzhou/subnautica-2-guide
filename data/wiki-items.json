@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-07-23T16:22:10.191Z",
+  "generatedAt": "2026-07-24T06:06:41.516Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -52,10 +52,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Acid_Raion",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acid_Raion&oldid=18900",
-        "revisionId": 18900,
-        "revisionTimestamp": "2026-07-21T10:10:19Z",
-        "fetchedAt": "2026-07-23T16:22:12.814Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acid_Raion&oldid=19402",
+        "revisionId": 19402,
+        "revisionTimestamp": "2026-07-24T04:19:46Z",
+        "fetchedAt": "2026-07-24T06:06:42.965Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -371,10 +371,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Jar&oldid=18988",
-        "revisionId": 18988,
-        "revisionTimestamp": "2026-07-21T18:56:48Z",
-        "fetchedAt": "2026-07-23T16:22:12.819Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Jar&oldid=19332",
+        "revisionId": 19332,
+        "revisionTimestamp": "2026-07-24T01:52:08Z",
+        "fetchedAt": "2026-07-24T06:06:42.969Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -431,7 +431,8 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Crafted with Habitat Builder"
+        "Crafted with Habitat Builder",
+        "Unimplemented seabase parts"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -464,10 +465,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Street_Lamp",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Street_Lamp&oldid=17401",
-        "revisionId": 17401,
-        "revisionTimestamp": "2026-07-10T14:42:41Z",
-        "fetchedAt": "2026-07-12T12:33:02.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Street_Lamp&oldid=19375",
+        "revisionId": 19375,
+        "revisionTimestamp": "2026-07-24T03:10:12Z",
+        "fetchedAt": "2026-07-24T06:06:42.970Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -481,7 +482,8 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Crafted with Habitat Builder"
+        "Crafted with Habitat Builder",
+        "Unimplemented seabase parts"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -514,10 +516,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Trashcan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Trashcan&oldid=17400",
-        "revisionId": 17400,
-        "revisionTimestamp": "2026-07-10T14:42:02Z",
-        "fetchedAt": "2026-07-12T12:33:02.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Trashcan&oldid=19374",
+        "revisionId": 19374,
+        "revisionTimestamp": "2026-07-24T03:10:02Z",
+        "fetchedAt": "2026-07-24T06:06:42.970Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -561,10 +563,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Wall_Lamp",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Wall_Lamp&oldid=18989",
-        "revisionId": 18989,
-        "revisionTimestamp": "2026-07-21T18:57:43Z",
-        "fetchedAt": "2026-07-23T16:22:12.819Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Wall_Lamp&oldid=19286",
+        "revisionId": 19286,
+        "revisionTimestamp": "2026-07-24T01:40:24Z",
+        "fetchedAt": "2026-07-24T06:06:42.969Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -782,10 +784,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Battery_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Battery_Terminal&oldid=18990",
-        "revisionId": 18990,
-        "revisionTimestamp": "2026-07-21T18:58:04Z",
-        "fetchedAt": "2026-07-23T16:22:12.817Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Battery_Terminal&oldid=19291",
+        "revisionId": 19291,
+        "revisionTimestamp": "2026-07-24T01:41:38Z",
+        "fetchedAt": "2026-07-24T06:06:42.966Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -830,10 +832,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Beacon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Beacon&oldid=19021",
-        "revisionId": 19021,
-        "revisionTimestamp": "2026-07-21T19:17:10Z",
-        "fetchedAt": "2026-07-23T16:22:12.819Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Beacon&oldid=19307",
+        "revisionId": 19307,
+        "revisionTimestamp": "2026-07-24T01:45:59Z",
+        "fetchedAt": "2026-07-24T06:06:42.969Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -882,10 +884,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Biobed",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biobed&oldid=18992",
-        "revisionId": 18992,
-        "revisionTimestamp": "2026-07-21T18:58:59Z",
-        "fetchedAt": "2026-07-23T16:22:12.816Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biobed&oldid=19295",
+        "revisionId": 19295,
+        "revisionTimestamp": "2026-07-24T01:42:45Z",
+        "fetchedAt": "2026-07-24T06:06:42.966Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1002,10 +1004,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Biolab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biolab&oldid=18993",
-        "revisionId": 18993,
-        "revisionTimestamp": "2026-07-21T18:59:18Z",
-        "fetchedAt": "2026-07-23T16:22:12.818Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biolab&oldid=19277",
+        "revisionId": 19277,
+        "revisionTimestamp": "2026-07-24T01:38:18Z",
+        "fetchedAt": "2026-07-24T06:06:42.968Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1050,10 +1052,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bioreactor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioreactor&oldid=18994",
-        "revisionId": 18994,
-        "revisionTimestamp": "2026-07-21T18:59:41Z",
-        "fetchedAt": "2026-07-23T16:22:12.818Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioreactor&oldid=19292",
+        "revisionId": 19292,
+        "revisionTimestamp": "2026-07-24T01:41:49Z",
+        "fetchedAt": "2026-07-24T06:06:42.966Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1255,10 +1257,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/CHBC_Live_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=CHBC_Live_Poster&oldid=18997",
-        "revisionId": 18997,
-        "revisionTimestamp": "2026-07-21T19:00:44Z",
-        "fetchedAt": "2026-07-23T16:22:12.819Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=CHBC_Live_Poster&oldid=19336",
+        "revisionId": 19336,
+        "revisionTimestamp": "2026-07-24T01:53:13Z",
+        "fetchedAt": "2026-07-24T06:06:42.969Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1356,10 +1358,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cherimoya_Rotsac",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cherimoya_Rotsac&oldid=18920",
-        "revisionId": 18920,
-        "revisionTimestamp": "2026-07-21T10:26:08Z",
-        "fetchedAt": "2026-07-23T16:22:12.814Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cherimoya_Rotsac&oldid=19398",
+        "revisionId": 19398,
+        "revisionTimestamp": "2026-07-24T04:19:09Z",
+        "fetchedAt": "2026-07-24T06:06:42.965Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2094,10 +2096,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Coral_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Jar&oldid=19003",
-        "revisionId": 19003,
-        "revisionTimestamp": "2026-07-21T19:03:22Z",
-        "fetchedAt": "2026-07-23T16:22:12.826Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Jar&oldid=19324",
+        "revisionId": 19324,
+        "revisionTimestamp": "2026-07-24T01:49:41Z",
+        "fetchedAt": "2026-07-24T06:06:42.975Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2192,10 +2194,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Corridor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Corridor&oldid=19002",
-        "revisionId": 19002,
-        "revisionTimestamp": "2026-07-21T19:03:07Z",
-        "fetchedAt": "2026-07-23T16:22:12.823Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Corridor&oldid=19264",
+        "revisionId": 19264,
+        "revisionTimestamp": "2026-07-24T01:28:04Z",
+        "fetchedAt": "2026-07-24T06:06:42.972Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2237,10 +2239,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cradle_Shootroot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cradle_Shootroot&oldid=18916",
-        "revisionId": 18916,
-        "revisionTimestamp": "2026-07-21T10:23:25Z",
-        "fetchedAt": "2026-07-23T16:22:12.824Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cradle_Shootroot&oldid=19403",
+        "revisionId": 19403,
+        "revisionTimestamp": "2026-07-24T04:19:56Z",
+        "fetchedAt": "2026-07-24T06:06:42.972Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2255,6 +2257,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
+        "Needs In-Game Screenshots",
         "Raw Materials"
       ],
       "availableByDefault": false,
@@ -2282,10 +2285,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Creature_Enamel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=17861",
-        "revisionId": 17861,
-        "revisionTimestamp": "2026-07-11T15:22:30Z",
-        "fetchedAt": "2026-07-12T12:33:02.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=19226",
+        "revisionId": 19226,
+        "revisionTimestamp": "2026-07-23T20:31:26Z",
+        "fetchedAt": "2026-07-24T06:06:42.973Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2432,10 +2435,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dining_Chair",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Chair&oldid=19005",
-        "revisionId": 19005,
-        "revisionTimestamp": "2026-07-21T19:04:24Z",
-        "fetchedAt": "2026-07-23T16:22:12.826Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Chair&oldid=19312",
+        "revisionId": 19312,
+        "revisionTimestamp": "2026-07-24T01:47:12Z",
+        "fetchedAt": "2026-07-24T06:06:42.974Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2480,10 +2483,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dining_Table",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Table&oldid=19006",
-        "revisionId": 19006,
-        "revisionTimestamp": "2026-07-21T19:04:41Z",
-        "fetchedAt": "2026-07-23T16:22:12.826Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Table&oldid=19313",
+        "revisionId": 19313,
+        "revisionTimestamp": "2026-07-24T01:47:22Z",
+        "fetchedAt": "2026-07-24T06:06:42.975Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2587,10 +2590,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dive_Elevator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=19008",
-        "revisionId": 19008,
-        "revisionTimestamp": "2026-07-21T19:05:34Z",
-        "fetchedAt": "2026-07-23T16:22:12.824Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=19308",
+        "revisionId": 19308,
+        "revisionTimestamp": "2026-07-24T01:46:09Z",
+        "fetchedAt": "2026-07-24T06:06:42.972Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2963,10 +2966,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Exterior_Wall_Light",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Exterior_Wall_Light&oldid=19010",
-        "revisionId": 19010,
-        "revisionTimestamp": "2026-07-21T19:06:15Z",
-        "fetchedAt": "2026-07-23T16:22:12.824Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Exterior_Wall_Light&oldid=19304",
+        "revisionId": 19304,
+        "revisionTimestamp": "2026-07-24T01:44:54Z",
+        "fetchedAt": "2026-07-24T06:06:42.972Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3015,10 +3018,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Fabricator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Fabricator&oldid=19011",
-        "revisionId": 19011,
-        "revisionTimestamp": "2026-07-21T19:07:20Z",
-        "fetchedAt": "2026-07-23T16:22:12.823Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Fabricator&oldid=19278",
+        "revisionId": 19278,
+        "revisionTimestamp": "2026-07-24T01:38:33Z",
+        "fetchedAt": "2026-07-24T06:06:42.972Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3285,10 +3288,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Floor_Locker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Floor_Locker&oldid=19012",
-        "revisionId": 19012,
-        "revisionTimestamp": "2026-07-21T19:07:40Z",
-        "fetchedAt": "2026-07-23T16:22:12.825Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Floor_Locker&oldid=19281",
+        "revisionId": 19281,
+        "revisionTimestamp": "2026-07-24T01:39:13Z",
+        "fetchedAt": "2026-07-24T06:06:42.973Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3331,10 +3334,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Freesia_Flower",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Freesia_Flower&oldid=18934",
-        "revisionId": 18934,
-        "revisionTimestamp": "2026-07-21T10:33:08Z",
-        "fetchedAt": "2026-07-23T16:22:12.827Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Freesia_Flower&oldid=19401",
+        "revisionId": 19401,
+        "revisionTimestamp": "2026-07-24T04:19:37Z",
+        "fetchedAt": "2026-07-24T06:06:42.975Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3662,10 +3665,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Growbed",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Growbed&oldid=19014",
-        "revisionId": 19014,
-        "revisionTimestamp": "2026-07-21T19:10:29Z",
-        "fetchedAt": "2026-07-23T16:22:12.827Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Growbed&oldid=19359",
+        "revisionId": 19359,
+        "revisionTimestamp": "2026-07-24T01:58:52Z",
+        "fetchedAt": "2026-07-24T06:06:42.975Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3706,10 +3709,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Habitat_Beacon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Beacon&oldid=19015",
-        "revisionId": 19015,
-        "revisionTimestamp": "2026-07-21T19:12:13Z",
-        "fetchedAt": "2026-07-23T16:22:12.827Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Beacon&oldid=19306",
+        "revisionId": 19306,
+        "revisionTimestamp": "2026-07-24T01:45:24Z",
+        "fetchedAt": "2026-07-24T06:06:42.975Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3817,10 +3820,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Half_Round_Room",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Half_Round_Room&oldid=19016",
-        "revisionId": 19016,
-        "revisionTimestamp": "2026-07-21T19:12:38Z",
-        "fetchedAt": "2026-07-23T16:22:12.824Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Half_Round_Room&oldid=19265",
+        "revisionId": 19265,
+        "revisionTimestamp": "2026-07-24T01:29:19Z",
+        "fetchedAt": "2026-07-24T06:06:42.972Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3919,10 +3922,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hanging_Tailing_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hanging_Tailing_Jar&oldid=19017",
-        "revisionId": 19017,
-        "revisionTimestamp": "2026-07-21T19:13:04Z",
-        "fetchedAt": "2026-07-23T16:22:12.826Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hanging_Tailing_Jar&oldid=19325",
+        "revisionId": 19325,
+        "revisionTimestamp": "2026-07-24T01:50:05Z",
+        "fetchedAt": "2026-07-24T06:06:42.975Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3967,10 +3970,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hatch",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hatch&oldid=19018",
-        "revisionId": 19018,
-        "revisionTimestamp": "2026-07-21T19:13:31Z",
-        "fetchedAt": "2026-07-23T16:22:12.823Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hatch&oldid=19266",
+        "revisionId": 19266,
+        "revisionTimestamp": "2026-07-24T01:30:34Z",
+        "fetchedAt": "2026-07-24T06:06:42.971Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4169,10 +4172,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hydroelectric_Turbine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hydroelectric_Turbine&oldid=19027",
-        "revisionId": 19027,
-        "revisionTimestamp": "2026-07-21T19:26:30Z",
-        "fetchedAt": "2026-07-23T16:22:12.830Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hydroelectric_Turbine&oldid=19299",
+        "revisionId": 19299,
+        "revisionTimestamp": "2026-07-24T01:43:53Z",
+        "fetchedAt": "2026-07-24T06:06:42.978Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4270,10 +4273,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Interior_Arch",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Interior_Arch&oldid=19030",
-        "revisionId": 19030,
-        "revisionTimestamp": "2026-07-21T19:29:10Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Interior_Arch&oldid=19271",
+        "revisionId": 19271,
+        "revisionTimestamp": "2026-07-24T01:35:22Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4322,10 +4325,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Interior_Door",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Interior_Door&oldid=19031",
-        "revisionId": 19031,
-        "revisionTimestamp": "2026-07-21T19:29:33Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Interior_Door&oldid=19272",
+        "revisionId": 19272,
+        "revisionTimestamp": "2026-07-24T01:35:57Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4366,10 +4369,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Interior_Wall",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Interior_Wall&oldid=19032",
-        "revisionId": 19032,
-        "revisionTimestamp": "2026-07-21T19:29:56Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Interior_Wall&oldid=19273",
+        "revisionId": 19273,
+        "revisionTimestamp": "2026-07-24T01:36:25Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4463,10 +4466,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Just_Keep_Swimming_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Just_Keep_Swimming_Poster&oldid=19034",
-        "revisionId": 19034,
-        "revisionTimestamp": "2026-07-21T19:31:35Z",
-        "fetchedAt": "2026-07-23T16:22:12.830Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Just_Keep_Swimming_Poster&oldid=19337",
+        "revisionId": 19337,
+        "revisionTimestamp": "2026-07-24T01:53:25Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4507,10 +4510,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Keep_Calm_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Keep_Calm_Poster&oldid=19035",
-        "revisionId": 19035,
-        "revisionTimestamp": "2026-07-21T19:31:57Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Keep_Calm_Poster&oldid=19338",
+        "revisionId": 19338,
+        "revisionTimestamp": "2026-07-24T01:53:35Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4551,10 +4554,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lab_Chair",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lab_Chair&oldid=19036",
-        "revisionId": 19036,
-        "revisionTimestamp": "2026-07-21T19:32:24Z",
-        "fetchedAt": "2026-07-23T16:22:12.830Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lab_Chair&oldid=19314",
+        "revisionId": 19314,
+        "revisionTimestamp": "2026-07-24T01:47:33Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4595,10 +4598,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Ladder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ladder&oldid=19038",
-        "revisionId": 19038,
-        "revisionTimestamp": "2026-07-21T19:34:02Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ladder&oldid=19274",
+        "revisionId": 19274,
+        "revisionTimestamp": "2026-07-24T01:37:09Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4690,10 +4693,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/LeviathanAwakens_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=LeviathanAwakens_Poster&oldid=19039",
-        "revisionId": 19039,
-        "revisionTimestamp": "2026-07-21T19:34:41Z",
-        "fetchedAt": "2026-07-23T16:22:12.831Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=LeviathanAwakens_Poster&oldid=19339",
+        "revisionId": 19339,
+        "revisionTimestamp": "2026-07-24T01:53:47Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4785,10 +4788,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lost_River_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lost_River_Poster&oldid=19040",
-        "revisionId": 19040,
-        "revisionTimestamp": "2026-07-21T19:35:14Z",
-        "fetchedAt": "2026-07-23T16:22:12.831Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lost_River_Poster&oldid=19340",
+        "revisionId": 19340,
+        "revisionTimestamp": "2026-07-24T01:53:58Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4829,10 +4832,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Macaron_Sponge",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Macaron_Sponge&oldid=18961",
-        "revisionId": 18961,
-        "revisionTimestamp": "2026-07-21T12:11:00Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Macaron_Sponge&oldid=19389",
+        "revisionId": 19389,
+        "revisionTimestamp": "2026-07-24T04:05:25Z",
+        "fetchedAt": "2026-07-24T06:06:42.977Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4934,10 +4937,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Metal_Farm",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Metal_Farm&oldid=19041",
-        "revisionId": 19041,
-        "revisionTimestamp": "2026-07-21T19:35:37Z",
-        "fetchedAt": "2026-07-23T16:22:12.829Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Metal_Farm&oldid=19360",
+        "revisionId": 19360,
+        "revisionTimestamp": "2026-07-24T01:59:02Z",
+        "fetchedAt": "2026-07-24T06:06:42.977Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5052,10 +5055,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Mimic_Pylon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=18983",
-        "revisionId": 18983,
-        "revisionTimestamp": "2026-07-21T18:50:46Z",
-        "fetchedAt": "2026-07-23T16:22:12.827Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=19400",
+        "revisionId": 19400,
+        "revisionTimestamp": "2026-07-24T04:19:27Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5104,10 +5107,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Modification_Station",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=19042",
-        "revisionId": 19042,
-        "revisionTimestamp": "2026-07-21T19:36:24Z",
-        "fetchedAt": "2026-07-23T16:22:12.829Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=19279",
+        "revisionId": 19279,
+        "revisionTimestamp": "2026-07-24T01:38:43Z",
+        "fetchedAt": "2026-07-24T06:06:42.978Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5148,10 +5151,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Moonpool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Moonpool&oldid=19046",
-        "revisionId": 19046,
-        "revisionTimestamp": "2026-07-21T19:39:27Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Moonpool&oldid=19267",
+        "revisionId": 19267,
+        "revisionTimestamp": "2026-07-24T01:31:01Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5196,10 +5199,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Bud",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=17887",
-        "revisionId": 17887,
-        "revisionTimestamp": "2026-07-11T15:33:48Z",
-        "fetchedAt": "2026-07-12T12:33:02.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=19366",
+        "revisionId": 19366,
+        "revisionTimestamp": "2026-07-24T02:10:20Z",
+        "fetchedAt": "2026-07-24T06:06:42.977Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5245,10 +5248,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/New_Life_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=New_Life_Poster&oldid=13566",
-        "revisionId": 13566,
-        "revisionTimestamp": "2026-06-12T22:05:42Z",
-        "fetchedAt": "2026-07-12T12:33:02.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=New_Life_Poster&oldid=19343",
+        "revisionId": 19343,
+        "revisionTimestamp": "2026-07-24T01:55:07Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5297,10 +5300,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/NoA_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=NoA_Terminal&oldid=19045",
-        "revisionId": 19045,
-        "revisionTimestamp": "2026-07-21T19:39:11Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=NoA_Terminal&oldid=19296",
+        "revisionId": 19296,
+        "revisionTimestamp": "2026-07-24T01:42:56Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5344,10 +5347,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Nook",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nook&oldid=10070",
-        "revisionId": 10070,
-        "revisionTimestamp": "2026-05-26T00:39:38Z",
-        "fetchedAt": "2026-07-12T12:33:02.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nook&oldid=19268",
+        "revisionId": 19268,
+        "revisionTimestamp": "2026-07-24T01:33:25Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5485,10 +5488,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Painted_Tree_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Painted_Tree_Poster&oldid=19047",
-        "revisionId": 19047,
-        "revisionTimestamp": "2026-07-21T19:39:59Z",
-        "fetchedAt": "2026-07-23T16:22:12.830Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Painted_Tree_Poster&oldid=19341",
+        "revisionId": 19341,
+        "revisionTimestamp": "2026-07-24T01:54:09Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5589,10 +5592,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pent",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pent&oldid=18867",
-        "revisionId": 18867,
-        "revisionTimestamp": "2026-07-21T09:44:26Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pent&oldid=19399",
+        "revisionId": 19399,
+        "revisionTimestamp": "2026-07-24T04:19:18Z",
+        "fetchedAt": "2026-07-24T06:06:42.977Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5691,10 +5694,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pioneer_Hull_Plate",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pioneer_Hull_Plate&oldid=14547",
-        "revisionId": 14547,
-        "revisionTimestamp": "2026-07-03T19:02:37Z",
-        "fetchedAt": "2026-07-12T12:33:02.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pioneer_Hull_Plate&oldid=19315",
+        "revisionId": 19315,
+        "revisionTimestamp": "2026-07-24T01:47:45Z",
+        "fetchedAt": "2026-07-24T06:06:42.978Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5735,10 +5738,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pioneer_Program_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pioneer_Program_Poster&oldid=19049",
-        "revisionId": 19049,
-        "revisionTimestamp": "2026-07-21T19:41:29Z",
-        "fetchedAt": "2026-07-23T16:22:12.831Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pioneer_Program_Poster&oldid=19342",
+        "revisionId": 19342,
+        "revisionTimestamp": "2026-07-24T01:54:27Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5832,10 +5835,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Portable_Locker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Portable_Locker&oldid=19050",
-        "revisionId": 19050,
-        "revisionTimestamp": "2026-07-21T19:41:56Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Portable_Locker&oldid=19309",
+        "revisionId": 19309,
+        "revisionTimestamp": "2026-07-24T01:46:20Z",
+        "fetchedAt": "2026-07-24T06:06:42.976Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5880,10 +5883,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Portable_Oxygen_Generator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Portable_Oxygen_Generator&oldid=19051",
-        "revisionId": 19051,
-        "revisionTimestamp": "2026-07-21T19:42:17Z",
-        "fetchedAt": "2026-07-23T16:22:12.831Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Portable_Oxygen_Generator&oldid=19310",
+        "revisionId": 19310,
+        "revisionTimestamp": "2026-07-24T01:46:32Z",
+        "fetchedAt": "2026-07-24T06:06:42.979Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6036,10 +6039,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Cell_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Cell_Terminal&oldid=19052",
-        "revisionId": 19052,
-        "revisionTimestamp": "2026-07-21T19:43:06Z",
-        "fetchedAt": "2026-07-23T16:22:12.828Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Cell_Terminal&oldid=19293",
+        "revisionId": 19293,
+        "revisionTimestamp": "2026-07-24T01:42:01Z",
+        "fetchedAt": "2026-07-24T06:06:42.977Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6088,10 +6091,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Storage",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Storage&oldid=19053",
-        "revisionId": 19053,
-        "revisionTimestamp": "2026-07-21T19:44:10Z",
-        "fetchedAt": "2026-07-23T16:22:12.830Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Storage&oldid=19294",
+        "revisionId": 19294,
+        "revisionTimestamp": "2026-07-24T01:42:12Z",
+        "fetchedAt": "2026-07-24T06:06:42.978Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6136,10 +6139,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Transmitter",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Transmitter&oldid=19054",
-        "revisionId": 19054,
-        "revisionTimestamp": "2026-07-21T19:51:50Z",
-        "fetchedAt": "2026-07-23T16:22:12.834Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Transmitter&oldid=19300",
+        "revisionId": 19300,
+        "revisionTimestamp": "2026-07-24T01:44:05Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6188,10 +6191,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Processor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Processor&oldid=19056",
-        "revisionId": 19056,
-        "revisionTimestamp": "2026-07-21T19:55:26Z",
-        "fetchedAt": "2026-07-23T16:22:12.834Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Processor&oldid=19280",
+        "revisionId": 19280,
+        "revisionTimestamp": "2026-07-24T01:38:52Z",
+        "fetchedAt": "2026-07-24T06:06:42.981Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6283,10 +6286,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Reaper_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Reaper_Leviathan&oldid=19057",
-        "revisionId": 19057,
-        "revisionTimestamp": "2026-07-21T19:56:40Z",
-        "fetchedAt": "2026-07-23T16:22:12.834Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Reaper_Leviathan&oldid=19316",
+        "revisionId": 19316,
+        "revisionTimestamp": "2026-07-24T01:48:07Z",
+        "fetchedAt": "2026-07-24T06:06:42.981Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6384,10 +6387,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Rectangular_Ceiling_Light",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Rectangular_Ceiling_Light&oldid=19058",
-        "revisionId": 19058,
-        "revisionTimestamp": "2026-07-21T19:56:59Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Rectangular_Ceiling_Light&oldid=19287",
+        "revisionId": 19287,
+        "revisionTimestamp": "2026-07-24T01:40:36Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6489,10 +6492,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Antenna",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Antenna&oldid=19059",
-        "revisionId": 19059,
-        "revisionTimestamp": "2026-07-21T19:57:23Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Antenna&oldid=19352",
+        "revisionId": 19352,
+        "revisionTimestamp": "2026-07-24T01:57:08Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6533,10 +6536,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Antenna_Large",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Antenna_Large&oldid=19060",
-        "revisionId": 19060,
-        "revisionTimestamp": "2026-07-21T19:57:54Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Antenna_Large&oldid=19353",
+        "revisionId": 19353,
+        "revisionTimestamp": "2026-07-24T01:57:26Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6577,10 +6580,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Cylinder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Cylinder&oldid=19061",
-        "revisionId": 19061,
-        "revisionTimestamp": "2026-07-21T19:58:47Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Cylinder&oldid=19354",
+        "revisionId": 19354,
+        "revisionTimestamp": "2026-07-24T01:57:40Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6621,10 +6624,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Listening_Dish",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Listening_Dish&oldid=19062",
-        "revisionId": 19062,
-        "revisionTimestamp": "2026-07-21T19:59:07Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Listening_Dish&oldid=19355",
+        "revisionId": 19355,
+        "revisionTimestamp": "2026-07-24T01:57:49Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6665,10 +6668,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Panel_Large",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Panel_Large&oldid=19063",
-        "revisionId": 19063,
-        "revisionTimestamp": "2026-07-21T19:59:26Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Panel_Large&oldid=19356",
+        "revisionId": 19356,
+        "revisionTimestamp": "2026-07-24T01:57:57Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6709,10 +6712,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Pump",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Pump&oldid=19064",
-        "revisionId": 19064,
-        "revisionTimestamp": "2026-07-21T19:59:47Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Pump&oldid=19357",
+        "revisionId": 19357,
+        "revisionTimestamp": "2026-07-24T01:58:11Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6753,10 +6756,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Roof_Pump_Double",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Pump_Double&oldid=19065",
-        "revisionId": 19065,
-        "revisionTimestamp": "2026-07-21T20:00:09Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Roof_Pump_Double&oldid=19358",
+        "revisionId": 19358,
+        "revisionTimestamp": "2026-07-24T01:58:20Z",
+        "fetchedAt": "2026-07-24T06:06:42.980Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6797,10 +6800,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Room",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Room&oldid=19066",
-        "revisionId": 19066,
-        "revisionTimestamp": "2026-07-21T20:00:30Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Room&oldid=19269",
+        "revisionId": 19269,
+        "revisionTimestamp": "2026-07-24T01:34:08Z",
+        "fetchedAt": "2026-07-24T06:06:42.980Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6890,10 +6893,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/S_Shelf",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=S_Shelf&oldid=19067",
-        "revisionId": 19067,
-        "revisionTimestamp": "2026-07-21T20:00:55Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=S_Shelf&oldid=19317",
+        "revisionId": 19317,
+        "revisionTimestamp": "2026-07-24T01:48:16Z",
+        "fetchedAt": "2026-07-24T06:06:42.980Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6934,10 +6937,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Safety_First_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Safety_First_Poster&oldid=19068",
-        "revisionId": 19068,
-        "revisionTimestamp": "2026-07-21T20:01:14Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Safety_First_Poster&oldid=19344",
+        "revisionId": 19344,
+        "revisionTimestamp": "2026-07-24T01:55:16Z",
+        "fetchedAt": "2026-07-24T06:06:42.981Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7096,10 +7099,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Scanner_Station",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner_Station&oldid=19069",
-        "revisionId": 19069,
-        "revisionTimestamp": "2026-07-21T20:01:32Z",
-        "fetchedAt": "2026-07-23T16:22:12.834Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner_Station&oldid=19297",
+        "revisionId": 19297,
+        "revisionTimestamp": "2026-07-24T01:43:08Z",
+        "fetchedAt": "2026-07-24T06:06:42.981Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7140,10 +7143,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Scout_Ray_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scout_Ray_Poster&oldid=19070",
-        "revisionId": 19070,
-        "revisionTimestamp": "2026-07-21T20:02:16Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scout_Ray_Poster&oldid=19345",
+        "revisionId": 19345,
+        "revisionTimestamp": "2026-07-24T01:55:28Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7273,10 +7276,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Seamoth_Model",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=19071",
-        "revisionId": 19071,
-        "revisionTimestamp": "2026-07-21T20:03:42Z",
-        "fetchedAt": "2026-07-23T16:22:12.834Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=19318",
+        "revisionId": 19318,
+        "revisionTimestamp": "2026-07-24T01:48:30Z",
+        "fetchedAt": "2026-07-24T06:06:42.981Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7321,10 +7324,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sign",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sign&oldid=19073",
-        "revisionId": 19073,
-        "revisionTimestamp": "2026-07-21T20:04:50Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sign&oldid=19319",
+        "revisionId": 19319,
+        "revisionTimestamp": "2026-07-24T01:48:38Z",
+        "fetchedAt": "2026-07-24T06:06:42.980Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7469,10 +7472,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Single_Bed",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Single_Bed&oldid=19074",
-        "revisionId": 19074,
-        "revisionTimestamp": "2026-07-21T20:05:06Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Single_Bed&oldid=19320",
+        "revisionId": 19320,
+        "revisionTimestamp": "2026-07-24T01:48:49Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7517,10 +7520,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Small_Axum_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Axum_Jar&oldid=19075",
-        "revisionId": 19075,
-        "revisionTimestamp": "2026-07-21T20:05:22Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Axum_Jar&oldid=19333",
+        "revisionId": 19333,
+        "revisionTimestamp": "2026-07-24T01:52:31Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7565,10 +7568,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Small_Ceiling_Light",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Ceiling_Light&oldid=19076",
-        "revisionId": 19076,
-        "revisionTimestamp": "2026-07-21T20:05:48Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Ceiling_Light&oldid=19288",
+        "revisionId": 19288,
+        "revisionTimestamp": "2026-07-24T01:40:55Z",
+        "fetchedAt": "2026-07-24T06:06:42.980Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7609,10 +7612,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Small_Coral_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Coral_Jar&oldid=19077",
-        "revisionId": 19077,
-        "revisionTimestamp": "2026-07-21T20:06:13Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Coral_Jar&oldid=19326",
+        "revisionId": 19326,
+        "revisionTimestamp": "2026-07-24T01:50:18Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7653,10 +7656,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Small_Crate",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Crate&oldid=19078",
-        "revisionId": 19078,
-        "revisionTimestamp": "2026-07-21T20:06:37Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Small_Crate&oldid=19321",
+        "revisionId": 19321,
+        "revisionTimestamp": "2026-07-24T01:48:59Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7701,10 +7704,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Solar_Panel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Solar_Panel&oldid=19079",
-        "revisionId": 19079,
-        "revisionTimestamp": "2026-07-21T20:06:54Z",
-        "fetchedAt": "2026-07-23T16:22:12.833Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Solar_Panel&oldid=19301",
+        "revisionId": 19301,
+        "revisionTimestamp": "2026-07-24T01:44:14Z",
+        "fetchedAt": "2026-07-24T06:06:42.980Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7809,10 +7812,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Spotlight",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Spotlight&oldid=10813",
-        "revisionId": 10813,
-        "revisionTimestamp": "2026-05-30T06:27:46Z",
-        "fetchedAt": "2026-07-12T12:33:02.994Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Spotlight&oldid=19305",
+        "revisionId": 19305,
+        "revisionTimestamp": "2026-07-24T01:45:04Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7914,10 +7917,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Stool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Stool&oldid=19080",
-        "revisionId": 19080,
-        "revisionTimestamp": "2026-07-21T20:07:17Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Stool&oldid=19322",
+        "revisionId": 19322,
+        "revisionTimestamp": "2026-07-24T01:49:09Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7958,10 +7961,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Storage_Cache",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Storage_Cache&oldid=19142",
-        "revisionId": 19142,
-        "revisionTimestamp": "2026-07-22T21:40:33Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Storage_Cache&oldid=19282",
+        "revisionId": 19282,
+        "revisionTimestamp": "2026-07-24T01:39:21Z",
+        "fetchedAt": "2026-07-24T06:06:42.982Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8557,10 +8560,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Dock",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Dock&oldid=19085",
-        "revisionId": 19085,
-        "revisionTimestamp": "2026-07-21T20:09:11Z",
-        "fetchedAt": "2026-07-23T16:22:12.836Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Dock&oldid=19275",
+        "revisionId": 19275,
+        "revisionTimestamp": "2026-07-24T01:37:37Z",
+        "fetchedAt": "2026-07-24T06:06:42.983Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8711,10 +8714,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tailing_Barrel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Barrel&oldid=19084",
-        "revisionId": 19084,
-        "revisionTimestamp": "2026-07-21T20:08:59Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Barrel&oldid=19327",
+        "revisionId": 19327,
+        "revisionTimestamp": "2026-07-24T01:50:31Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8755,10 +8758,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tailing_Chest",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Chest&oldid=19086",
-        "revisionId": 19086,
-        "revisionTimestamp": "2026-07-21T20:09:28Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Chest&oldid=19283",
+        "revisionId": 19283,
+        "revisionTimestamp": "2026-07-24T01:39:33Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8802,10 +8805,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tailing_Drum",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Drum&oldid=17318",
-        "revisionId": 17318,
-        "revisionTimestamp": "2026-07-10T12:04:46Z",
-        "fetchedAt": "2026-07-12T12:33:02.996Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Drum&oldid=19328",
+        "revisionId": 19328,
+        "revisionTimestamp": "2026-07-24T01:51:01Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8850,10 +8853,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tailing_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Jar&oldid=19087",
-        "revisionId": 19087,
-        "revisionTimestamp": "2026-07-21T20:09:50Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Jar&oldid=19329",
+        "revisionId": 19329,
+        "revisionTimestamp": "2026-07-24T01:51:13Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8894,10 +8897,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tailing_Rug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Rug&oldid=19088",
-        "revisionId": 19088,
-        "revisionTimestamp": "2026-07-21T20:10:07Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Rug&oldid=19330",
+        "revisionId": 19330,
+        "revisionTimestamp": "2026-07-24T01:51:26Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8938,10 +8941,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tailing_Table",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Table&oldid=19089",
-        "revisionId": 19089,
-        "revisionTimestamp": "2026-07-21T20:10:24Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tailing_Table&oldid=19331",
+        "revisionId": 19331,
+        "revisionTimestamp": "2026-07-24T01:51:42Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8986,10 +8989,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tall_Axum_Jar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tall_Axum_Jar&oldid=19090",
-        "revisionId": 19090,
-        "revisionTimestamp": "2026-07-21T20:10:41Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tall_Axum_Jar&oldid=19334",
+        "revisionId": 19334,
+        "revisionTimestamp": "2026-07-24T01:52:40Z",
+        "fetchedAt": "2026-07-24T06:06:42.984Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9038,10 +9041,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Thermal_Plant",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Thermal_Plant&oldid=19144",
-        "revisionId": 19144,
-        "revisionTimestamp": "2026-07-22T21:42:35Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Thermal_Plant&oldid=19303",
+        "revisionId": 19303,
+        "revisionTimestamp": "2026-07-24T01:44:34Z",
+        "fetchedAt": "2026-07-24T06:06:42.984Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9151,10 +9154,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Time_of_Day_Display",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Time_of_Day_Display&oldid=17291",
-        "revisionId": 17291,
-        "revisionTimestamp": "2026-07-10T11:43:34Z",
-        "fetchedAt": "2026-07-12T12:33:02.996Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Time_of_Day_Display&oldid=19298",
+        "revisionId": 19298,
+        "revisionTimestamp": "2026-07-24T01:43:21Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9308,10 +9311,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Trashcan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Trashcan&oldid=19093",
-        "revisionId": 19093,
-        "revisionTimestamp": "2026-07-21T20:12:51Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Trashcan&oldid=19323",
+        "revisionId": 19323,
+        "revisionTimestamp": "2026-07-24T01:49:21Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9353,10 +9356,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=17820",
-        "revisionId": 17820,
-        "revisionTimestamp": "2026-07-11T15:03:51Z",
-        "fetchedAt": "2026-07-12T12:33:02.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=19219",
+        "revisionId": 19219,
+        "revisionTimestamp": "2026-07-23T20:17:39Z",
+        "fetchedAt": "2026-07-24T06:06:42.984Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9523,10 +9526,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Vehicle_Fabricator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vehicle_Fabricator&oldid=19094",
-        "revisionId": 19094,
-        "revisionTimestamp": "2026-07-21T20:13:07Z",
-        "fetchedAt": "2026-07-23T16:22:12.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vehicle_Fabricator&oldid=19276",
+        "revisionId": 19276,
+        "revisionTimestamp": "2026-07-24T01:37:47Z",
+        "fetchedAt": "2026-07-24T06:06:42.983Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9676,10 +9679,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Light_Large",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Light_Large&oldid=19095",
-        "revisionId": 19095,
-        "revisionTimestamp": "2026-07-21T20:13:20Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Light_Large&oldid=19289",
+        "revisionId": 19289,
+        "revisionTimestamp": "2026-07-24T01:41:05Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9724,10 +9727,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Light_Small",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Light_Small&oldid=19096",
-        "revisionId": 19096,
-        "revisionTimestamp": "2026-07-21T20:13:38Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Light_Small&oldid=19290",
+        "revisionId": 19290,
+        "revisionTimestamp": "2026-07-24T01:41:18Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9768,10 +9771,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Locker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Locker&oldid=19097",
-        "revisionId": 19097,
-        "revisionTimestamp": "2026-07-21T20:13:56Z",
-        "fetchedAt": "2026-07-23T16:22:12.836Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Locker&oldid=19284",
+        "revisionId": 19284,
+        "revisionTimestamp": "2026-07-24T01:39:42Z",
+        "fetchedAt": "2026-07-24T06:06:42.983Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9812,10 +9815,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Panel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Panel&oldid=19098",
-        "revisionId": 19098,
-        "revisionTimestamp": "2026-07-21T20:14:10Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Panel&oldid=19347",
+        "revisionId": 19347,
+        "revisionTimestamp": "2026-07-24T01:55:59Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9860,10 +9863,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Rack",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Rack&oldid=19099",
-        "revisionId": 19099,
-        "revisionTimestamp": "2026-07-21T20:14:31Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Rack&oldid=19285",
+        "revisionId": 19285,
+        "revisionTimestamp": "2026-07-24T01:40:00Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9904,10 +9907,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Unit_Large",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Unit_Large&oldid=19100",
-        "revisionId": 19100,
-        "revisionTimestamp": "2026-07-21T20:14:47Z",
-        "fetchedAt": "2026-07-23T16:22:12.838Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Unit_Large&oldid=19348",
+        "revisionId": 19348,
+        "revisionTimestamp": "2026-07-24T01:56:08Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9948,10 +9951,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Unit_Small",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Unit_Small&oldid=19101",
-        "revisionId": 19101,
-        "revisionTimestamp": "2026-07-21T20:15:04Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Unit_Small&oldid=19349",
+        "revisionId": 19349,
+        "revisionTimestamp": "2026-07-24T01:56:18Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9992,10 +9995,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Vent",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Vent&oldid=19102",
-        "revisionId": 19102,
-        "revisionTimestamp": "2026-07-21T20:15:19Z",
-        "fetchedAt": "2026-07-23T16:22:12.837Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Vent&oldid=19350",
+        "revisionId": 19350,
+        "revisionTimestamp": "2026-07-24T01:56:29Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10036,10 +10039,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wall_Vent_Large",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Vent_Large&oldid=19103",
-        "revisionId": 19103,
-        "revisionTimestamp": "2026-07-21T20:15:41Z",
-        "fetchedAt": "2026-07-23T16:22:12.839Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wall_Vent_Large&oldid=19351",
+        "revisionId": 19351,
+        "revisionTimestamp": "2026-07-24T01:56:43Z",
+        "fetchedAt": "2026-07-24T06:06:42.986Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10155,10 +10158,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Window",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Window&oldid=19104",
-        "revisionId": 19104,
-        "revisionTimestamp": "2026-07-21T20:16:00Z",
-        "fetchedAt": "2026-07-23T16:22:12.838Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Window&oldid=19270",
+        "revisionId": 19270,
+        "revisionTimestamp": "2026-07-24T01:34:31Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10256,10 +10259,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Work_Light",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Work_Light&oldid=19105",
-        "revisionId": 19105,
-        "revisionTimestamp": "2026-07-21T20:16:18Z",
-        "fetchedAt": "2026-07-23T16:22:12.839Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Work_Light&oldid=19311",
+        "revisionId": 19311,
+        "revisionTimestamp": "2026-07-24T01:46:41Z",
+        "fetchedAt": "2026-07-24T06:06:42.986Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10304,10 +10307,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/World_Tree_Relic",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree_Relic&oldid=19106",
-        "revisionId": 19106,
-        "revisionTimestamp": "2026-07-21T20:16:37Z",
-        "fetchedAt": "2026-07-23T16:22:12.839Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree_Relic&oldid=19335",
+        "revisionId": 19335,
+        "revisionTimestamp": "2026-07-24T01:52:51Z",
+        "fetchedAt": "2026-07-24T06:06:42.986Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10348,10 +10351,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Zezura_Poster",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Zezura_Poster&oldid=14748",
-        "revisionId": 14748,
-        "revisionTimestamp": "2026-07-05T11:24:45Z",
-        "fetchedAt": "2026-07-12T12:33:02.997Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Zezura_Poster&oldid=19346",
+        "revisionId": 19346,
+        "revisionTimestamp": "2026-07-24T01:55:40Z",
+        "fetchedAt": "2026-07-24T06:06:42.985Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

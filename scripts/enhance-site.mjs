@@ -191,6 +191,75 @@ const buildRelatedRecords = (kind, id, locale) => {
   return `<section class="related-records" aria-labelledby="related-records-title"><h2 id="related-records-title">${escapeHtml(copy.heading)}</h2><ul class="related-records__list">${listItems}</ul></section>`;
 };
 
+// --- P0-2: entity JSON-LD (SEO structured data) ---
+// All entity pages use Article (carries dateModified freshness signal + rich
+// result eligibility). The in-game entity itself is nested as mainEntity
+// (Product for craftable items, Thing otherwise) with sameAs -> wiki for
+// entity disambiguation / E-E-A-T. dateModified uses the real wiki revision
+// timestamp when available (stronger freshness than the build date).
+const SITE_URL = "https://specialzhou.github.io/subnautica-2-guide/";
+const publisherNode = { "@type": "Organization", "name": "Subnautica 2 Evidence Guide", "url": SITE_URL };
+const descTemplates = {
+  en: {
+    items: (t) => `How to get ${t} in Subnautica 2: crafting stations, ingredients, and where to find it.`,
+    creatures: (t) => `${t} in Subnautica 2: where it lives, how it behaves, and how to deal with it.`,
+    vehicles: (t) => `${t} in Subnautica 2: modules, depth rating, and how to unlock it.`,
+    biomes: (t) => `${t} in Subnautica 2: location, resources, and the creatures that live there.`,
+  },
+  "zh-cn": {
+    items: (t) => `Subnautica 2 中如何获取${t}：制造站、材料与获取位置。`,
+    creatures: (t) => `Subnautica 2 中的${t}：出没地点、行为特征与应对方法。`,
+    vehicles: (t) => `Subnautica 2 中的${t}：模块、下潜深度与解锁方式。`,
+    biomes: (t) => `Subnautica 2 中的${t}：位置、资源与栖息生物。`,
+  },
+  ru: {
+    items: (t) => `Как получить ${t} в Subnautica 2: верстаки, ингредиенты и где найти.`,
+    creatures: (t) => `${t} в Subnautica 2: где обитает, как ведёт себя и как с ним справиться.`,
+    vehicles: (t) => `${t} в Subnautica 2: модули, глубина и как открыть.`,
+    biomes: (t) => `${t} в Subnautica 2: расположение, ресурсы и обитающие там существа.`,
+  },
+};
+const buildEntityJsonLd = (kind, id, locale, pagePath) => {
+  const l = locale === "zh-cn" || locale === "ru" ? locale : "en";
+  const dataObj = kind === "items"
+    ? items.items.find((x) => x.id === id)
+    : entities.entities.find((x) => x.kind === kind && x.id === id);
+  if (!dataObj) return null;
+  const title = dataObj.title;
+  const name = localizedName(title, locale);
+  const wikiUrl = dataObj.source?.pageUrl ?? null;
+  const dateModified = dataObj.source?.revisionTimestamp ?? generatedAt;
+  const image = imageByPage.get(`guide/${kind}/${id}.html`)?.url ?? null;
+  const description = (descTemplates[l]?.[kind] ?? descTemplates.en[kind])(name);
+  const mainEntity = {
+    "@type": kind === "items" ? "Product" : "Thing",
+    "name": name,
+    ...(image ? { "image": image } : {}),
+    ...(wikiUrl ? { "sameAs": wikiUrl } : {}),
+    "description": description,
+  };
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": name,
+    "description": description,
+    ...(image ? { "image": image } : {}),
+    "datePublished": dateModified,
+    "dateModified": dateModified,
+    "author": publisherNode,
+    "publisher": publisherNode,
+    ...(wikiUrl ? { "sameAs": wikiUrl } : {}),
+    "mainEntity": mainEntity,
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Subnautica 2 Guide", "item": SITE_URL },
+        { "@type": "ListItem", "position": 2, "name": name, "item": `${SITE_URL}${pagePath}` },
+      ],
+    },
+  };
+};
+
 const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime(), new Date(playerQuestions.collectedAt).getTime())).toISOString();
 const coverage = {
   total: items.publishedCount + entities.publishedCount,
@@ -267,8 +336,15 @@ for (const pagePath of [...new Set(pagePaths)]) {
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
   const entityMatch = pagePath.match(/^(?:(?:en|zh-cn|ru)\/)?guide\/(items|creatures|vehicles|biomes)\/([^/]+)\.html$/);
   if (entityMatch) {
+    const [, kind, id] = entityMatch;
     html = html.replace(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/, "");
-    html = html.replace("</main>", `${buildRelatedRecords(entityMatch[1], entityMatch[2], locale)}</main>`);
+    html = html.replace("</main>", `${buildRelatedRecords(kind, id, locale)}</main>`);
+    const jsonLd = buildEntityJsonLd(kind, id, locale, pagePath);
+    if (jsonLd) {
+      const jsonString = JSON.stringify(jsonLd).replace(/</g, "\\u003c");
+      html = html.replace(/<!-- entity-jsonld -->[\s\S]*?<!-- \/entity-jsonld -->/, "");
+      html = html.replace("</body>", `<!-- entity-jsonld --><script type="application/ld+json">${jsonString}</script><!-- /entity-jsonld -->\n</body>`);
+    }
   }
   html = html.replace("</body>", `<script defer src="${base}analytics.js?v=1"></script><script defer src="${base}search.js?v=5"></script></body>`);
   await writeFile(filePath, html);

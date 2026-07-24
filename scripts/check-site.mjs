@@ -38,6 +38,8 @@ for (const file of htmlFiles) {
       const internalLinks = [...section[0].matchAll(/<a\s+[^>]*href="([^"]+\.html)(?:#[^"]*)?"/g)].filter((match) => !/^https?:/.test(match[1])).length;
       if (internalLinks < 2) failures.push(`${relative}: related-records section has too few internal links (${internalLinks})`);
     }
+    const hasEntityLd = /<script type="application\/ld\+json">/.test(html) && html.includes('"@type":"Article"') && html.includes('"dateModified"');
+    if (!hasEntityLd) failures.push(`${relative}: missing entity JSON-LD (Article with dateModified)`);
   }
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const href = match[1];

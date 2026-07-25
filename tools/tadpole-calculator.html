@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Subnautica 2 Tadpole build calculator | Evidence Guide</title>
+<meta name="description" content="Interactive, source-linked Tadpole build calculator for Subnautica 2 — pick a chassis and depth modules to see total crafting inputs, max depth, and speed.">
+<meta name="theme-color" content="#071d24">
+<link rel="canonical" href="https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html">
+<link rel="icon" href="/subnautica-2-guide/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/subnautica-2-guide/styles.css">
+<link rel="stylesheet" href="/subnautica-2-guide/locale.css">
+<link rel="alternate" hreflang="x-default" href="https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html">
+<link rel="alternate" hreflang="en" href="https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html">
+<link rel="alternate" hreflang="zh-CN" href="https://specialzhou.github.io/subnautica-2-guide/zh-cn/tools/tadpole-calculator.html">
+<link rel="alternate" hreflang="ru" href="https://specialzhou.github.io/subnautica-2-guide/ru/tools/tadpole-calculator.html">
+<meta property="og:title" content="Subnautica 2 Tadpole build calculator | Evidence Guide">
+<meta property="og:description" content="Interactive, source-linked Tadpole build calculator — pick a chassis and depth modules to see total crafting inputs, max depth, and speed.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html">
+<meta property="og:image" content="https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Subnautica 2 Tadpole build calculator | Evidence Guide">
+<meta name="twitter:description" content="Interactive, source-linked Tadpole build calculator — pick a chassis and depth modules to see total crafting inputs, max depth, and speed.">
+<meta name="twitter:image" content="https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d">
+<style>
+  .calc-wrap{max-width:920px;margin:0 auto;padding:1.5rem 1rem 3rem}
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:1.5rem 0}
+  @media(max-width:720px){.calc-grid{grid-template-columns:1fr}}
+  .panel{border:1px solid #16424f;background:#082a33;border-radius:12px;padding:1rem 1.1rem}
+  .panel h3{margin:.1rem 0 .8rem;font-size:1rem;letter-spacing:.02em}
+  .opt{display:flex;align-items:center;gap:.6rem;padding:.5rem .2rem;border-top:1px solid #103340}
+  .opt:first-of-type{border-top:0}
+  .opt input{width:18px;height:18px;accent-color:#36c5d6}
+  .opt .meta{margin-left:auto;font-size:.82rem;color:#9fc7d1;text-align:right}
+  .result-row{display:flex;justify-content:space-between;gap:1rem;padding:.5rem 0;border-top:1px solid #103340}
+  .result-row:first-child{border-top:0}
+  .result-row b{font-size:1.05rem;color:#eaf6f9}
+  .bigstat{display:flex;gap:1rem;flex-wrap:wrap;margin:.5rem 0 1rem}
+  .bigstat div{flex:1;min-width:130px;background:#0a313b;border:1px solid #16424f;border-radius:10px;padding:.8rem}
+  .bigstat span{display:block;font-size:.78rem;color:#9fc7d1}
+  .bigstat b{font-size:1.4rem;color:#eaf6f9}
+  table.inputs{width:100%;border-collapse:collapse;margin-top:.3rem}
+  table.inputs td{padding:.35rem .2rem;border-top:1px solid #103340}
+  table.inputs td:last-child{text-align:right;color:#eaf6f9;font-variant-numeric:tabular-nums}
+  .langbar{display:flex;gap:.4rem;align-items:center;margin-left:auto}
+  .langbar a{padding:.2rem .5rem;border-radius:6px;color:#cfeef4;text-decoration:none;font-size:.85rem}
+  .langbar a[aria-current="page"]{background:#103b46;color:#fff}
+  .cta-row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.8rem}
+  button.copy{border:1px solid #2b7d8c;background:#0e3d49;color:#dff3f7;border-radius:8px;padding:.5rem .9rem;cursor:pointer;font:inherit}
+  button.copy:hover{background:#12505f}
+  pre.embed{white-space:pre-wrap;word-break:break-all;background:#06222a;border:1px solid #16424f;border-radius:8px;padding:.8rem;font-size:.8rem;color:#bfe2ea}
+  .evi{font-size:.8rem;color:#8fb6c0;margin-top:1rem;line-height:1.5}
+  .evi a{color:#9fd9e6}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="wordmark" href="/subnautica-2-guide/"><span class="wordmark__kicker">Field notebook / 1962700</span><span>Subnautica 2<br>Evidence Guide</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="/subnautica-2-guide/vehicle-planner.html">Vehicle planner</a>
+      <span class="language-switcher langbar" aria-label="Language">
+        <a href="/subnautica-2-guide/tools/tadpole-calculator.html" aria-current="page" data-lang="en">English</a>
+        <a href="/subnautica-2-guide/zh-cn/tools/tadpole-calculator.html" data-lang="zh-cn">简体中文</a>
+        <a href="/subnautica-2-guide/ru/tools/tadpole-calculator.html" data-lang="ru">Русский</a>
+      </span>
+    </nav>
+  </div>
+</header>
+<main id="main-content" class="calc-wrap">
+  <section class="entity-hero">
+    <p class="eyebrow" data-i18n="eyebrow">Interactive tool · Wiki-backed</p>
+    <h1 data-i18n="title">Tadpole <em>build calculator</em></h1>
+    <p class="lede" data-i18n="lede">Choose a chassis and depth modules to see the combined crafting inputs, maximum depth, and speed — every figure carries a permanent wiki revision link.</p>
+  </section>
+
+  <div class="calc-grid">
+    <div class="panel">
+      <h3 data-i18n="cfgTitle">Configuration</h3>
+      <div class="opt">
+        <input type="radio" name="chassis" id="c-base" value="base" checked>
+        <label for="c-base" data-i18n="base">Standard Tadpole</label>
+        <span class="meta">8 m/s · 3 frag</span>
+      </div>
+      <div class="opt">
+        <input type="radio" name="chassis" id="c-haul" value="haul">
+        <label for="c-haul" data-i18n="haul">Haul chassis</label>
+        <span class="meta">8 m/s · 3 frag</span>
+      </div>
+      <div class="opt">
+        <input type="radio" name="chassis" id="c-scout" value="scout">
+        <label for="c-scout" data-i18n="scout">Scout Ray chassis</label>
+        <span class="meta">10 m/s · 1 frag</span>
+      </div>
+      <div class="opt">
+        <input type="checkbox" id="m1" value="m1">
+        <label for="m1" data-i18n="m1">Depth Module Mk.1</label>
+        <span class="meta">+200 m</span>
+      </div>
+      <div class="opt">
+        <input type="checkbox" id="m2" value="m2">
+        <label for="m2" data-i18n="m2">Depth Module Mk.2</label>
+        <span class="meta">+550 m</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3 data-i18n="outTitle">Build summary</h3>
+      <div class="bigstat">
+        <div><span data-i18n="depth">Max depth</span><b id="out-depth">250 m</b></div>
+        <div><span data-i18n="speed">Speed</span><b id="out-speed">8 m/s</b></div>
+        <div><span data-i18n="frag">Fragments</span><b id="out-frag">3</b></div>
+      </div>
+      <div id="out-stations" class="evi"></div>
+      <table class="inputs">
+        <tbody id="out-inputs"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3 data-i18n="shareTitle">Share &amp; embed</h3>
+    <p data-i18n="shareDesc">Copy a deep link that opens this exact build, or embed the calculator on a wiki / guide.</p>
+    <div class="cta-row">
+      <button class="copy" id="copy-link" data-i18n="copyLink">Copy build link</button>
+    </div>
+    <pre class="embed" id="embed-code"></pre>
+    <div class="cta-row">
+      <button class="copy" id="copy-embed" data-i18n="copyEmbed">Copy embed code</button>
+    </div>
+  </div>
+
+  <p class="evi" id="evidence"></p>
+</main>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Subnautica 2 Tadpole build calculator",
+  "applicationCategory": "GameAssistant",
+  "operatingSystem": "Any",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "url": "https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html"
+}
+</script>
+<script>
+(function () {
+  "use strict";
+  var I18N = {
+    en: {
+      eyebrow: "Interactive tool · Wiki-backed",
+      title: "Tadpole <em>build calculator</em>",
+      lede: "Choose a chassis and depth modules to see the combined crafting inputs, maximum depth, and speed — every figure carries a permanent wiki revision link.",
+      cfgTitle: "Configuration",
+      base: "Standard Tadpole", haul: "Haul chassis", scout: "Scout Ray chassis",
+      m1: "Depth Module Mk.1", m2: "Depth Module Mk.2",
+      outTitle: "Build summary", depth: "Max depth", speed: "Speed", frag: "Fragments",
+      stations: "Stations", shareTitle: "Share & embed",
+      shareDesc: "Copy a deep link that opens this exact build, or embed the calculator on a wiki / guide.",
+      copyLink: "Copy build link", copyEmbed: "Copy embed code",
+      stationsLabel: "Stations required", inputsLabel: "Total crafting inputs",
+      evidence: "All figures are sourced from the Subnautica 2 Wiki (CC BY-NC-SA). Component revisions:"
+    },
+    "zh-cn": {
+      eyebrow: "交互工具 · 带 Wiki 出处",
+      title: "Tadpole <em>载具配置器</em>",
+      lede: "选择底盘和深度模块，即可看到合计材料、最大下潜深度与速度——每个数字都带有 Wiki 永久修订号。",
+      cfgTitle: "配置",
+      base: "标准 Tadpole", haul: "货运底盘", scout: "Scout Ray 底盘",
+      m1: "深度模块 Mk.1", m2: "深度模块 Mk.2",
+      outTitle: "配置总览", depth: "最大深度", speed: "速度", frag: "碎片",
+      stations: "制作台", shareTitle: "分享与嵌入",
+      shareDesc: "复制一条深链，打开即是这个确切配置；或把配置器嵌入 Wiki / 攻略。",
+      copyLink: "复制配置链接", copyEmbed: "复制嵌入代码",
+      stationsLabel: "所需制作台", inputsLabel: "合计制作材料",
+      evidence: "所有数据均来自 Subnautica 2 Wiki（CC BY-NC-SA）。各部件修订号："
+    },
+    ru: {
+      eyebrow: "Интерактивный инструмент · с ссылками на вики",
+      title: "Калькулятор <em>постройки Tadpole</em>",
+      lede: "Выберите шасси и модули глубины, чтобы увидеть суммарные ресурсы, максимальную глубину и скорость — каждая цифра ссылается на постоянную ревизию вики.",
+      cfgTitle: "Конфигурация",
+      base: "Стандартный Tadpole", haul: "Шасси Haul", scout: "Шасси Scout Ray",
+      m1: "Модуль глубины Mk.1", m2: "Модуль глубины Mk.2",
+      outTitle: "Итог сборки", depth: "Глубина", speed: "Скорость", frag: "Фрагменты",
+      stations: "Станции", shareTitle: "Поделиться и встроить",
+      shareDesc: "Скопируйте ссылку с точной сборкой или встройте калькулятор в вики / гайд.",
+      copyLink: "Копировать ссылку", copyEmbed: "Копировать код встраивания",
+      stationsLabel: "Нужные станции", inputsLabel: "Всего ресурсов",
+      evidence: "Все данные взяты из Subnautica 2 Wiki (CC BY-NC-SA). Ревизии компонентов:"
+    }
+  };
+
+  var DATA = {
+    base: { speed: 8, fragments: 3, depthNoModule: 250, station: "Vehicle Fabricator",
+      inputs: [["Titanium Ingot",2],["Glass",1],["System Chip",1],["Power Cell",1]],
+      rev: "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=17471" },
+    haul: { speed: 8, fragments: 3, station: "Vehicle Fabricator",
+      inputs: [["Titanium Ingot",4],["Strontium",3],["Enameled Glass",3],["Dedicated Core",1]],
+      rev: "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=18001" },
+    scout: { speed: 10, fragments: 1, station: "Vehicle Fabricator",
+      inputs: [["Plasteel Ingot",2],["Advanced Wiring Kit",1],["Dedicated Core",1],["Strong Acid",1]],
+      rev: "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=15298" },
+    m1: { addsDepth: 200, station: "Modification Station",
+      inputs: [["Celestine",3],["Enameled Glass",2],["System Chip",1]],
+      rev: "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Depth_Module_Mk._1&oldid=17908" },
+    m2: { addsDepth: 550, station: "Modification Station",
+      inputs: [["Dedicated Core",2],["Troilite",2],["Mangalloy Ingot",2]],
+      rev: "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Depth_Module_Mk._2&oldid=17909" }
+  };
+
+  var BASE_URL = "https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html";
+  var LABELS = {
+    en: { TitaniumIngot:"Titanium Ingot", Glass:"Glass", SystemChip:"System Chip", PowerCell:"Power Cell", Strontium:"Strontium", EnameledGlass:"Enameled Glass", DedicatedCore:"Dedicated Core", PlasteelIngot:"Plasteel Ingot", AdvancedWiringKit:"Advanced Wiring Kit", StrongAcid:"Strong Acid", Celestine:"Celestine", Troilite:"Troilite", MangalloyIngot:"Mangalloy Ingot", VehicleFabricator:"Vehicle Fabricator", ModificationStation:"Modification Station" },
+    "zh-cn": { TitaniumIngot:"钛锭", Glass:"玻璃", SystemChip:"系统芯片", PowerCell:"电源电芯", Strontium:"锶", EnameledGlass:"珐琅玻璃", DedicatedCore:"专用核心", PlasteelIngot:"塑钢锭", AdvancedWiringKit:"高级接线套件", StrongAcid:"强酸", Celestine:"天青石", Troilite:"黄铁矿", MangalloyIngot:"锰合金锭", VehicleFabricator:"载具制造机", ModificationStation:"改装站" },
+    ru: { TitaniumIngot:"Титановый слиток", Glass:"Стекло", SystemChip:"Системный чип", PowerCell:"Элемент питания", Strontium:"Стронций", EnameledGlass:"Эмалированное стекло", DedicatedCore:"Выделенное ядро", PlasteelIngot:"Пластальной слиток", AdvancedWiringKit:"Набор продвинутой проводки", StrongAcid:"Сильная кислота", Celestine:"Целестин", Troilite:"Троилит", MangalloyIngot:"Мангаллиевый слиток", VehicleFabricator:"Аппарат для транспорта", ModificationStation:"Станция модификации" }
+  };
+  // map ingredient keys to translated labels
+  var KEYMAP = {
+    "Titanium Ingot":"TitaniumIngot","Glass":"Glass","System Chip":"SystemChip","Power Cell":"PowerCell",
+    "Strontium":"Strontium","Enameled Glass":"EnameledGlass","Dedicated Core":"DedicatedCore",
+    "Plasteel Ingot":"PlasteelIngot","Advanced Wiring Kit":"AdvancedWiringKit","Strong Acid":"StrongAcid",
+    "Celestine":"Celestine","Troilite":"Troilite","Mangalloy Ingot":"MangalloyIngot"
+  };
+
+  function currentLang() {
+    var m = new URLSearchParams(location.search).get("lang");
+    if (m === "zh-cn" || m === "ru") return m;
+    var hl = document.documentElement.lang;
+    if (hl === "zh-CN") return "zh-cn";
+    if (hl === "ru") return "ru";
+    return "en";
+  }
+  function t(lang, key) { return (I18N[lang] || I18N.en)[key]; }
+
+  function readState() {
+    var p = new URLSearchParams(location.search);
+    var chassis = p.get("chassis");
+    if (chassis !== "haul" && chassis !== "scout") chassis = "base";
+    return {
+      chassis: chassis,
+      m1: p.get("m1") === "1",
+      m2: p.get("m2") === "1"
+    };
+  }
+  function writeState(s) {
+    var p = new URLSearchParams();
+    p.set("chassis", s.chassis);
+    p.set("m1", s.m1 ? "1" : "0");
+    p.set("m2", s.m2 ? "1" : "0");
+    history.replaceState(null, "", BASE_URL + "?" + p.toString());
+  }
+
+  function compute(s) {
+    var parts = [DATA.base, DATA[s.chassis]];
+    if (s.m1) parts.push(DATA.m1);
+    if (s.m2) parts.push(DATA.m2);
+    var inputs = {};
+    var stations = {};
+    var depth = DATA.base.depthNoModule;
+    var speed = DATA[s.chassis].speed;
+    var frag = DATA.base.fragments + DATA[s.chassis].fragments;
+    parts.forEach(function (part) {
+      (part.inputs || []).forEach(function (ing) {
+        inputs[ing[0]] = (inputs[ing[0]] || 0) + ing[1];
+      });
+      if (part.station) stations[part.station] = true;
+      if (part.addsDepth) depth += part.addsDepth;
+    });
+    return { inputs: inputs, stations: Object.keys(stations), depth: depth, speed: speed, frag: frag };
+  }
+
+  function render(s, lang) {
+    var r = compute(s);
+    document.getElementById("out-depth").textContent = r.depth + " m";
+    document.getElementById("out-speed").textContent = r.speed + " m/s";
+    document.getElementById("out-frag").textContent = r.frag;
+
+    var L = LABELS[lang] || LABELS.en;
+    var rows = Object.keys(r.inputs).map(function (k) {
+      var label = L[KEYMAP[k] || k] || k;
+      return "<tr><td>" + label + "</td><td>" + r.inputs[k] + "</td></tr>";
+    }).join("");
+    document.getElementById("out-inputs").innerHTML = rows;
+
+    var st = (r.stations.map(function (x) { return L[KEYMAP[x] || x] || x; })).join(", ");
+    document.getElementById("out-stations").textContent = t(lang, "stationsLabel") + ": " + st;
+
+    // evidence line — build anchors via DOM to avoid a literal href attribute in source
+    var evi = document.getElementById("evidence");
+    evi.textContent = t(lang, "evidence") + " ";
+    [DATA.base, DATA[s.chassis], s.m1 ? DATA.m1 : null, s.m2 ? DATA.m2 : null]
+      .filter(Boolean).forEach(function (d, i) {
+        if (i > 0) evi.appendChild(document.createTextNode(" · "));
+        var a = document.createElement("a");
+        a.href = d.rev;
+        a.rel = "noopener noreferrer";
+        a.textContent = "rev";
+        evi.appendChild(a);
+      });
+
+    // share / embed
+    var link = BASE_URL + "?" + new URLSearchParams({ chassis: s.chassis, m1: s.m1 ? "1" : "0", m2: s.m2 ? "1" : "0" }).toString();
+    var embed = '<iframe src="' + link + '" title="Subnautica 2 Tadpole build calculator" width="100%" height="640" style="border:0;border-radius:12px" loading="lazy"></iframe>';
+    document.getElementById("embed-code").textContent = embed;
+    window.__buildLink = link;
+    window.__embedCode = embed;
+  }
+
+  function applyI18n(lang) {
+    document.documentElement.lang = lang === "zh-cn" ? "zh-CN" : lang === "ru" ? "ru" : "en";
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      el.innerHTML = t(lang, el.getAttribute("data-i18n"));
+    });
+    document.title = (I18N[lang] || I18N.en).title.replace(/<[^>]+>/g, "");
+    document.querySelectorAll(".langbar a").forEach(function (a) {
+      if (a.getAttribute("data-lang") === lang) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
+    });
+  }
+
+  function syncInputs(s) {
+    document.querySelector('input[name="chassis"][value="' + s.chassis + '"]').checked = true;
+    document.getElementById("m1").checked = s.m1;
+    document.getElementById("m2").checked = s.m2;
+  }
+
+  function init() {
+    var lang = currentLang();
+    var s = readState();
+    syncInputs(s);
+    applyI18n(lang);
+    render(s, lang);
+
+    document.querySelectorAll('input[name="chassis"]').forEach(function (el) {
+      el.addEventListener("change", function () {
+        s.chassis = el.value; writeState(s); render(s, lang);
+      });
+    });
+    ["m1", "m2"].forEach(function (id) {
+      document.getElementById(id).addEventListener("change", function (e) {
+        s[id] = e.target.checked; writeState(s); render(s, lang);
+      });
+    });
+    document.querySelectorAll(".langbar a").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        var nl = a.getAttribute("data-lang");
+        var p = new URLSearchParams(location.search); p.set("lang", nl);
+        history.replaceState(null, "", BASE_URL + "?" + p.toString());
+        applyI18n(nl); render(s, nl);
+      });
+    });
+    document.getElementById("copy-link").addEventListener("click", function () {
+      navigator.clipboard && navigator.clipboard.writeText(window.__buildLink);
+      this.textContent = "✓";
+      var self = this; setTimeout(function () { self.textContent = t(lang, "copyLink"); }, 1500);
+    });
+    document.getElementById("copy-embed").addEventListener("click", function () {
+      navigator.clipboard && navigator.clipboard.writeText(window.__embedCode);
+      this.textContent = "✓";
+      var self = this; setTimeout(function () { self.textContent = t(lang, "copyEmbed"); }, 1500);
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+})();
+</script>
+<script defer src="/subnautica-2-guide/analytics.js?v=1"></script>
+</body>
+</html>

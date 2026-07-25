@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-25",
+  "strategy": "Digital PR / linkable-asset outreach for the Subnautica 2 Evidence Guide. The site is a fan-made, unaffiliated, source-attributed (wiki revision links) reference. Highest-leverage backlink targets are communities that already value verified data: the wiki, Reddit subs, and Discord. Gaming media is lower priority (harder, needs a newsworthy angle). All outreach is manual relationship work — this file is the tracking source of truth; the companion data/backlink-tracker.json records status.",
+  "assets": {
+    "tadpole-calculator": {
+      "url": "https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html",
+      "type": "interactive-embeddable",
+      "pitch": "Source-linked Tadpole build calculator — pick a chassis and depth modules, see total crafting inputs, max depth, and speed. Embeddable via iframe."
+    },
+    "vehicle-planner": {
+      "url": "https://specialzhou.github.io/subnautica-2-guide/vehicle-planner.html",
+      "type": "static-reference",
+      "pitch": "Wiki-revision-attributed Tadpole recipes, fragment counts, chassis, and depth-module ratings in one view."
+    },
+    "starter-planner": {
+      "url": "https://specialzhou.github.io/subnautica-2-guide/starter-planner.html",
+      "type": "static-reference",
+      "pitch": "Start-here crafting planner with dependency graph and documented fragment requirements."
+    }
+  },
+  "targets": [
+    {
+      "id": "wiki-subnautica",
+      "name": "Subnautica 2 Wiki (wiki.subnautica.com)",
+      "type": "wiki",
+      "url": "https://wiki.subnautica.com/sn2/",
+      "priority": "high",
+      "contact": "Wiki editor community / 'Community portal' or discussion page. We already attribute them (CC BY-NC-SA); propose a reciprocal 'fan tools' mention on a relevant page or external-links section.",
+      "assetToPitch": "vehicle-planner",
+      "notes": "Lowest-friction high-trust target. They are the primary data source; a courteous note offering the attributed reference as a complement (not replacement) can earn a link from a tools/resources section."
+    },
+    {
+      "id": "reddit-subnautica",
+      "name": "r/Subnautica",
+      "type": "reddit",
+      "url": "https://www.reddit.com/r/Subnautica/",
+      "priority": "high",
+      "contact": "Modmail for sidebar/community-resources link; otherwise share the calculator in 'help' threads (already an active acquisition channel — 51% of Reddit ref traffic).",
+      "assetToPitch": "tadpole-calculator",
+      "notes": "Already driving traffic. A persistent sidebar/community-resources link is the prize; short-term, dropping the calculator in answer threads compounds the existing loop."
+    },
+    {
+      "id": "reddit-subnautica_2",
+      "name": "r/Subnautica_2",
+      "type": "reddit",
+      "url": "https://www.reddit.com/r/Subnautica_2/",
+      "priority": "high",
+      "contact": "Modmail for sidebar/community-resources link; share calculator in relevant threads.",
+      "assetToPitch": "tadpole-calculator",
+      "notes": "The game's dedicated sub. Highest intent audience. Same playbook as r/Subnautica."
+    },
+    {
+      "id": "discord-subnautica",
+      "name": "Subnautica Official Discord",
+      "type": "discord",
+      "url": "https://discord.gg/subnautica",
+      "priority": "high",
+      "contact": "Ask in #guides or #sn2-discussion (or a moderator) whether a fan-tools resource can be pinned/linked. Share the calculator directly in help channels.",
+      "assetToPitch": "tadpole-calculator",
+      "notes": "Discord embeds Open Graph cards — the calculator's og:image makes shares pop. Strong for real-time help answers."
+    },
+    {
+      "id": "youtube-creators",
+      "name": "Subnautica 2 YouTube creators",
+      "type": "youtube",
+      "url": "https://www.youtube.com/results?search_query=subnautica+2+guide",
+      "priority": "medium",
+      "contact": "Comment or community-post the calculator as a free resource; some creators link tools in video descriptions.",
+      "assetToPitch": "tadpole-calculator",
+      "notes": "Manual, slower. Target creators doing 'beginner build' / 'crafting guide' videos. A 'free interactive build calculator' is a genuinely useful description link."
+    },
+    {
+      "id": "steam-guides",
+      "name": "Steam Subnautica 2 community guides",
+      "type": "steam",
+      "url": "https://steamcommunity.com/",
+      "priority": "medium",
+      "contact": "Link the calculator/reference from a Steam community guide you author or contribute to.",
+      "assetToPitch": "vehicle-planner",
+      "notes": "Author a short Steam guide that links back to the source-attributed reference. Owns the linking page."
+    },
+    {
+      "id": "gaming-blogs",
+      "name": "Gaming blogs / 'best Subnautica 2 tools' listicles",
+      "type": "media",
+      "url": "https://www.pcgamer.com/",
+      "priority": "low",
+      "contact": "Pitch the interactive calculator as a unique fan-made tool worth a mention in a roundup. Needs a newsworthy/niche angle; lowest conversion.",
+      "assetToPitch": "tadpole-calculator",
+      "notes": "Highest effort, lowest yield for a new DR~0 site. Revisit after the calculator earns a few community links and has social proof."
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import {
   candidateDocument,
   computePriorityScore,
   computeTrafficValue,
+  extractSubredditFromFeedUrl,
   findPublishedDuplicate,
   matchSiteIndex,
   mergeCandidateFeed,
@@ -77,4 +78,16 @@ const candidateReport = renderCandidateReport(candidateDocument({ previous: {}, 
 assert.match(candidateReport, /玩家问题候选审核/);
 assert.match(candidateReport, /不会自动发布到攻略站/);
 assert.match(candidateReport, /站长不需要判断游戏事实/);
+
+// P2: multi-subreddit listening
+assert.equal(extractSubredditFromFeedUrl("https://www.reddit.com/r/Subnautica/new/.rss?limit=100"), "r/Subnautica");
+assert.equal(extractSubredditFromFeedUrl("https://www.reddit.com/r/Subnautica_2/comments/x/y/"), "r/Subnautica_2");
+assert.equal(extractSubredditFromFeedUrl("https://example.com/feed"), "");
+const subbedEntry = { ...entries[0], sourceSubreddit: "r/Subnautica_2" };
+const subbedMerge = mergeCandidateFeed({ feedEntries: [subbedEntry], existing: {}, publishedUrls: new Set(), now: "2026-07-16T12:00:00Z", threshold: 5 });
+assert.equal(subbedMerge.candidates[0].sourceSubreddit, "r/Subnautica_2");
+const doc = candidateDocument({ previous: {}, merged, now: "2026-07-16T12:00:00Z", feedUrl: "a, b", subreddits: ["r/Subnautica_2", "r/Subnautica"] });
+assert.deepEqual(doc.source.subreddits, ["r/Subnautica_2", "r/Subnautica"]);
+assert.equal(doc.source.subreddit, "r/Subnautica_2");
+
 process.stdout.write("Player question collector tests passed.\n");

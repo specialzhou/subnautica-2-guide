@@ -186,6 +186,7 @@ export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, 
     candidate.url = normalizeRedditUrl(entry.url);
     candidate.publishedAt = entry.publishedAt;
     candidate.lastSeenAt = now;
+    candidate.sourceSubreddit = entry.sourceSubreddit ?? candidate.sourceSubreddit ?? "";
     candidate.painScore = pain.score;
     candidate.signals = pain.signals;
     existingById.set(entry.redditId, candidate);
@@ -211,13 +212,14 @@ export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, 
   return { candidates, seenRedditIds: [...seenIds].slice(-500), added };
 }
 
-export function candidateDocument({ previous = {}, merged, now, feedUrl }) {
+export function candidateDocument({ previous = {}, merged, now, feedUrl, subreddits = [] }) {
   return {
     schemaVersion: "1.0.0",
     collectedAt: now,
     source: {
       platform: "Reddit",
-      subreddit: "r/Subnautica_2",
+      subreddit: subreddits[0] ?? "r/Subnautica_2",
+      subreddits,
       feedUrl,
       method: "public-atom-rss",
     },
@@ -243,6 +245,11 @@ export function candidateDocument({ previous = {}, merged, now, feedUrl }) {
 
 const markdownCell = (value) => String(value ?? "").replaceAll("\\", "\\\\").replaceAll("|", "\\|").replaceAll("[", "\\[").replaceAll("]", "\\]").replace(/\s+/g, " ").trim();
 
+export function extractSubredditFromFeedUrl(feedUrl = "") {
+  const match = String(feedUrl).match(/\/r\/([A-Za-z0-9_]+)/);
+  return match ? `r/${match[1]}` : "";
+}
+
 export function renderCandidateReport(document) {
   const pageLink = (page) => page ? `[${markdownCell(page.title)}](${guideBaseUrl}${page.href})` : "—";
   const suggested = (candidate) => (candidate.suggestedPages?.length ? candidate.suggestedPages.map(pageLink).join("; ") : "—");
@@ -250,7 +257,7 @@ export function renderCandidateReport(document) {
     const comments = candidate.attention?.comments ?? "?";
     const duplicate = candidate.possibleDuplicateOf ? `${candidate.possibleDuplicateOf.id} (${candidate.possibleDuplicateOf.score})` : "—";
     const sources = 1 + (candidate.relatedSources?.length ?? 0);
-    return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} | ${candidate.answerability ?? 0} | ${candidate.trafficValue ?? 0} | ${candidate.priorityScore ?? 0} | ${suggested(candidate)} |`;
+    return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} | ${candidate.answerability ?? 0} | ${candidate.trafficValue ?? 0} | ${candidate.priorityScore ?? 0} | ${suggested(candidate)} | ${candidate.sourceSubreddit ?? "—"} |`;
   });
-  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。\n\n状态说明：\`system-review\` 由系统继续核对证据；\`ready-to-reply\` 已完成证据审核，可生成回复草稿；\`dismissed\` 是重复、已解决或不适合攻略化的内容。站长不需要判断游戏事实。\n\n优先级 = 痛点分 × (1+可答性) × (1+0.5×流量价值)，由系统按站点搜索索引自动算；建议页面为自动匹配的深链，人工审核时可直接采纳。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 | 可答性 | 流量价值 | 优先级 | 建议页面 |\n| ---: | ---: | ---: | --- | --- | --- | ---: | ---: | ---: | --- |\n${rows.join("\n")}\n`;
+  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。\n\n状态说明：\`system-review\` 由系统继续核对证据；\`ready-to-reply\` 已完成证据审核，可生成回复草稿；\`dismissed\` 是重复、已解决或不适合攻略化的内容。站长不需要判断游戏事实。\n\n优先级 = 痛点分 × (1+可答性) × (1+0.5×流量价值)，由系统按站点搜索索引自动算；建议页面为自动匹配的深链，人工审核时可直接采纳。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 | 可答性 | 流量价值 | 优先级 | 建议页面 | 来源 |\n| ---: | ---: | ---: | --- | --- | --- | ---: | ---: | ---: | --- | --- |\n${rows.join("\n")}\n`;
 }

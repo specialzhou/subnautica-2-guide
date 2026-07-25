@@ -17,9 +17,9 @@
   "detailCursor": 0,
   "counts": {
     "total": 21,
-    "systemReview": 8,
-    "readyToReply": 1,
-    "dismissed": 12,
+    "systemReview": 0,
+    "readyToReply": 2,
+    "dismissed": 19,
     "addedThisRun": 0
   },
   "seenRedditIds": [
@@ -209,10 +209,10 @@
       "redditId": "1utgnvn",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-official-story-evidence",
-        "notes": "高质量剧情问题，但评论主要是玩家推测；需从官方日志或 Wiki 永久修订核对后才能回答。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "insufficient-official-story-evidence",
+        "notes": "已读取原帖和评论；评论明确是玩家推测且称剧情尚未完整。未找到可核验的官方日志或永久修订来源，不能把 NoA 重印规则写成事实。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -236,10 +236,10 @@
       "redditId": "1ut24gk",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-build-specific-benchmark",
-        "notes": "性能问题有复用价值，但结论依赖 build、驱动、DLSS 和 Frame Generation；需当前版本基准或官方已知问题。",
-        "reviewedAt": "2026-07-24"
+        "state": "ready-to-reply",
+        "answerStatus": "official-support-general-guidance",
+        "notes": "原帖未解决。Unknown Worlds 官方支持确认调低游戏图形设置通常可提高 FPS；但未确认 RTX 4060、DLSS Quality 或 2x Frame Generation 的具体异常。回复只能给出该通用建议并建议经游戏内反馈提交复现信息。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -322,10 +322,10 @@
       "redditId": "1utdw5d",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-official-patch-evidence",
-        "notes": "多名玩家确认 EA 1.1 后太阳能板停止发电，现有 workaround 是重建或改用其他电源；需核对最新补丁和已知问题。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "no-current-official-evidence",
+        "notes": "已读取原帖和评论；重建面板或改用其他电源均是社区 workaround。当前官方 Hotfix 4 未列太阳能板供电问题，不能把社区经验写成已验证修复。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -349,10 +349,10 @@
       "redditId": "1uupyuw",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-game-route-verification",
-        "notes": "评论给出沿紫色根系和 Cicada 残骸下洞穴寻找 canker 的路线，但数量说法不一致；需可靠路线证据后再发布。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "duplicate-official-hotfix",
+        "notes": "已读取原帖和评论。Unknown Worlds Hotfix 4 明确修复 Angel Comb 对部分玩家不打开、阻断进度的问题；不采纳评论中数量和路线互相矛盾的说法，复用既有 Hotfix 4 答案即可。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -380,10 +380,10 @@
       "redditId": "1uu6l2e",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-official-mechanic-evidence",
-        "notes": "评论称感染生物重新生成是为了允许重新扫描，但没有官方来源；需核对机制说明。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "duplicate-official-hotfix",
+        "notes": "已读取原帖和评论。评论对感染生物重生的解释没有官方来源；其仍无法打开 Angel Comb 的主问题已被 Unknown Worlds Hotfix 4 明确修复，重复既有答案而不扩写推测机制。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -485,10 +485,10 @@
       "redditId": "1ut6nqu",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-platform-reproduction",
-        "notes": "PC 多人存档出现音乐和音效缺失，Xbox 评论仅称重启偶尔有效；需平台与版本复现或官方补丁证据。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "已读取原帖和评论；唯一回复是 Xbox 上偶尔有效的重启经验，而原帖为 PC 多人存档。未找到当前官方补丁或支持说明，不能将该经验发布为解决方案。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -542,10 +542,10 @@
       "redditId": "1usuldi",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-device-verification",
-        "notes": "Legion Go 控制器无法移动的问题有重复报告，但没有已验证的按键模式、Steam Input 或官方兼容性结论。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "no-device-specific-official-evidence",
+        "notes": "已读取原帖和评论；只有“可能需要配置控制器”的泛化猜测，作者仍无法操作。未找到 Legion Go 的官方兼容性或控制器配置说明，不能发布具体按键或 Steam Input 方案。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,
@@ -599,10 +599,10 @@
       "redditId": "1utx73j",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-security-verification",
-        "notes": "删除 dwmapi.dll 的建议可能影响 Mod 和安全，需用 CurseForge 官方说明及文件来源独立核验后才能发布。",
-        "reviewedAt": "2026-07-24"
+        "state": "dismissed",
+        "answerStatus": "unsafe-unverified-attribution",
+        "notes": "已读取原帖。官方支持仅在“更新后启动即崩溃且曾安装模组”时建议先移除所有模组；删除 dwmapi.dll 只针对使用 UE4SS 的玩家。原帖将文件归因于 CurseForge 且给出泛化删除建议，不能安全复用。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,

@@ -10,6 +10,9 @@ const candidate = {
 };
 const review = createReviewTemplate(candidate, "2026-07-18");
 assert.equal(review.redditId, candidate.redditId);
+// P1 B.1: review template prefills relatedPages from P0 suggestedPages
+const candidateWithPages = { ...candidate, suggestedPages: [{ href: "base-building.html", title: "Base building", score: 0.8 }] };
+assert.deepEqual(createReviewTemplate(candidateWithPages).question.relatedPages, ["base-building.html"]);
 assert.ok(validateReview({ review, candidate, publishedQuestions: [] }).length > 5);
 Object.assign(review.review, { reviewedBy: "reviewer" });
 Object.assign(review.question, {

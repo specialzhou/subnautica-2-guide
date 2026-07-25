@@ -108,11 +108,49 @@ export function scorePainEntry(entry) {
   return { score: Math.max(0, score), signals: matched };
 }
 
+const guideBaseUrl = "https://specialzhou.github.io/subnautica-2-guide/";
+
+const highIntentPattern = /\b(craft|recipe|blueprint|fragment|fabricat|build|base|where|find|location|loot|resource|material|co-?op|multiplayer|scan|unlock|stuck|not working|how|what|why)\b/i;
+
+export function computeTrafficValue(title = "") {
+  return highIntentPattern.test(title) ? 1 : 0;
+}
+
+export function computePriorityScore(painScore = 0, answerability = 0, trafficValue = 0) {
+  const safe = Number.isFinite(painScore) ? painScore : 0;
+  const ans = Math.min(1, Math.max(0, Number(answerability) || 0));
+  const tv = Number(trafficValue) ? 1 : 0;
+  return Math.round(safe * (1 + ans) * (1 + 0.5 * tv));
+}
+
+const matchTokens = (value) => normalizeQuestionKey(value).split(" ").filter((token) => token.length > 2 && !duplicateStopWords.has(token));
+
+export function matchSiteIndex(title = "", searchIndex = { entries: [] }) {
+  const tokens = matchTokens(title);
+  if (!tokens.length) return { suggestedPages: [], answerability: 0 };
+  const tokenSet = new Set(tokens);
+  const scored = [];
+  for (const entry of searchIndex.entries ?? []) {
+    const hay = `${entry.title ?? ""} ${entry.terms ?? ""} ${entry.localizedTitles?.en ?? ""} ${entry.localizedTerms?.en ?? ""} ${entry.localizedTerms?.["zh-cn"] ?? ""}`.toLowerCase();
+    const hayTokens = new Set(hay.split(/[^a-z0-9]+/i).filter(Boolean));
+    let hits = 0;
+    for (const token of tokenSet) if (hayTokens.has(token)) hits += 1;
+    const score = hits / tokens.length;
+    if (score > 0) scored.push({ href: entry.href, title: entry.title, score: Number(score.toFixed(2)) });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  const top = scored.slice(0, 3);
+  return {
+    suggestedPages: top,
+    answerability: top.length ? Number(Math.min(1, top[0].score).toFixed(2)) : 0,
+  };
+}
+
 export function countCommentEntries(xml) {
   return [...String(xml).matchAll(/<id>t1_[^<]+<\/id>/gi)].length;
 }
 
-export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, threshold = 5, maxCandidates = 80 }) {
+export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, threshold = 5, maxCandidates = 80, searchIndex = null }) {
   const carriedCandidates = (existing.candidates ?? []).filter((candidate) => !publishedUrls.has(normalizeRedditUrl(candidate.url)));
   const existingById = new Map(carriedCandidates.map((candidate) => [candidate.redditId, candidate]));
   const existingByQuestionKey = new Map(carriedCandidates.map((candidate) => [candidate.questionKey ?? normalizeQuestionKey(candidate.title), candidate]));
@@ -155,10 +193,19 @@ export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, 
     seenIds.add(entry.redditId);
   }
 
+  for (const candidate of existingById.values()) {
+    const trafficValue = computeTrafficValue(candidate.title);
+    const match = searchIndex ? matchSiteIndex(candidate.title, searchIndex) : { answerability: 0, suggestedPages: [] };
+    candidate.trafficValue = trafficValue;
+    candidate.answerability = match.answerability;
+    candidate.suggestedPages = match.suggestedPages;
+    candidate.priorityScore = computePriorityScore(candidate.painScore, match.answerability, trafficValue);
+  }
+
   const statePriority = { "ready-to-reply": 0, "system-review": 1, dismissed: 2, promoted: 3 };
   const candidates = [...existingById.values()].sort((a, b) => {
     const state = (statePriority[a.review?.state] ?? 9) - (statePriority[b.review?.state] ?? 9);
-    return state || (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt));
+    return state || (b.priorityScore ?? 0) - (a.priorityScore ?? 0) || (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt));
   }).slice(0, maxCandidates);
 
   return { candidates, seenRedditIds: [...seenIds].slice(-500), added };
@@ -197,11 +244,13 @@ export function candidateDocument({ previous = {}, merged, now, feedUrl }) {
 const markdownCell = (value) => String(value ?? "").replaceAll("\\", "\\\\").replaceAll("|", "\\|").replaceAll("[", "\\[").replaceAll("]", "\\]").replace(/\s+/g, " ").trim();
 
 export function renderCandidateReport(document) {
+  const pageLink = (page) => page ? `[${markdownCell(page.title)}](${guideBaseUrl}${page.href})` : "—";
+  const suggested = (candidate) => (candidate.suggestedPages?.length ? candidate.suggestedPages.map(pageLink).join("; ") : "—");
   const rows = document.candidates.map((candidate) => {
     const comments = candidate.attention?.comments ?? "?";
     const duplicate = candidate.possibleDuplicateOf ? `${candidate.possibleDuplicateOf.id} (${candidate.possibleDuplicateOf.score})` : "—";
     const sources = 1 + (candidate.relatedSources?.length ?? 0);
-    return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} |`;
+    return `| ${comments} | ${candidate.painScore} | ${sources} | ${markdownCell(candidate.review?.state)} | [${markdownCell(candidate.title)}](${candidate.url}) | ${markdownCell(duplicate)} | ${candidate.answerability ?? 0} | ${candidate.trafficValue ?? 0} | ${candidate.priorityScore ?? 0} | ${suggested(candidate)} |`;
   });
-  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。\n\n状态说明：\`system-review\` 由系统继续核对证据；\`ready-to-reply\` 已完成证据审核，可生成回复草稿；\`dismissed\` 是重复、已解决或不适合攻略化的内容。站长不需要判断游戏事实。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 |\n| ---: | ---: | ---: | --- | --- | --- |\n${rows.join("\n")}\n`;
+  return `# 玩家问题候选审核\n\n采集时间：${document.collectedAt}\n\n这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。\n\n状态说明：\`system-review\` 由系统继续核对证据；\`ready-to-reply\` 已完成证据审核，可生成回复草稿；\`dismissed\` 是重复、已解决或不适合攻略化的内容。站长不需要判断游戏事实。\n\n优先级 = 痛点分 × (1+可答性) × (1+0.5×流量价值)，由系统按站点搜索索引自动算；建议页面为自动匹配的深链，人工审核时可直接采纳。\n\n| 评论数 | 痛点分 | 来源数 | 审核状态 | 候选问题 | 可能重复的已发布攻略 | 可答性 | 流量价值 | 优先级 | 建议页面 |\n| ---: | ---: | ---: | --- | --- | --- | ---: | ---: | ---: | --- |\n${rows.join("\n")}\n`;
 }

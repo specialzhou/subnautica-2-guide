@@ -51,6 +51,7 @@ const fetchText = async (url, { attempts = 1, retryDelayMs = 0 } = {}) => {
 const previous = args.has("reset") ? {} : JSON.parse(await readFile(outputPath, "utf8").catch(() => "{}"));
 const published = JSON.parse(await readFile(path.join(root, "data/player-questions.json"), "utf8"));
 const publishedUrls = new Set(published.questions.map((question) => normalizeRedditUrl(question.source.url)));
+const searchIndex = JSON.parse(await readFile(path.join(root, "data/search-index.json"), "utf8").catch(() => "{}"));
 let feedXml;
 try {
   feedXml = inputPath
@@ -68,7 +69,7 @@ try {
 const feedEntries = parseAtomFeed(feedXml);
 if (!feedEntries.length) throw new Error("Reddit RSS contained no readable entries");
 
-const merged = mergeCandidateFeed({ feedEntries, existing: previous, publishedUrls, now, threshold });
+const merged = mergeCandidateFeed({ feedEntries, existing: previous, publishedUrls, now, threshold, searchIndex });
 const document = candidateDocument({ previous, merged, now, feedUrl });
 for (const candidate of document.candidates) {
   candidate.possibleDuplicateOf = findPublishedDuplicate(candidate.title, published.questions);
@@ -97,7 +98,7 @@ for (let index = 0; index < detailCandidates.length; index += 1) {
   }
 }
 
-document.candidates.sort((a, b) => (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt)));
+document.candidates.sort((a, b) => (b.priorityScore ?? 0) - (a.priorityScore ?? 0) || (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt)));
 document.counts.total = document.candidates.length;
 document.counts.systemReview = document.candidates.filter((candidate) => candidate.review?.state === "system-review").length;
 document.counts.readyToReply = document.candidates.filter((candidate) => candidate.review?.state === "ready-to-reply").length;

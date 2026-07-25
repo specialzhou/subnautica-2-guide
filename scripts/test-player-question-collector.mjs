@@ -2,7 +2,10 @@ import assert from "node:assert/strict";
 import {
   countCommentEntries,
   candidateDocument,
+  computePriorityScore,
+  computeTrafficValue,
   findPublishedDuplicate,
+  matchSiteIndex,
   mergeCandidateFeed,
   normalizeQuestionKey,
   normalizeRedditUrl,
@@ -42,6 +45,34 @@ const afterPromotion = mergeCandidateFeed({
 assert.equal(afterPromotion.candidates.length, 0);
 assert.equal(countCommentEntries("<entry><id>t3_post</id></entry><entry><id>t1_a</id></entry><entry><id>t1_b</id></entry>"), 2);
 assert.equal(findPublishedDuplicate("Second Angel Comb progression bug", [{ id: "angel", question: { en: "Why won't the Angel Comb cankers open?" }, searchTerms: { en: "angel comb canker progression bug" } }]).id, "angel");
+
+// P0: compound priority scoring + site-index matching
+assert.equal(computeTrafficValue("How do I craft the habitat builder?"), 1);
+assert.equal(computeTrafficValue("Nice fan art share"), 0);
+assert.equal(computePriorityScore(10, 0, 0), 10);
+assert.equal(computePriorityScore(10, 0.5, 1), 23); // round(10 * 1.5 * 1.5) = round(22.5) = 23
+const sampleIndex = {
+  entries: [
+    { title: "Kraken", href: "creatures/kraken.html", terms: "leviathan deep", localizedTitles: { en: "Kraken", "zh-cn": "海妖", ru: "Кракен" }, localizedTerms: { en: "leviathan", "zh-cn": "深海", ru: "левиафан" } },
+    { title: "Chassis", href: "guides/chassis.html", terms: "build recipe", localizedTitles: { en: "Chassis", "zh-cn": "底盘", ru: "" }, localizedTerms: { en: "build", "zh-cn": "配方", ru: "" } },
+  ],
+};
+const krakenMatch = matchSiteIndex("Where to find the kraken?", sampleIndex);
+assert.ok(krakenMatch.suggestedPages.some((page) => page.href === "creatures/kraken.html"));
+assert.ok(krakenMatch.answerability > 0);
+const emptyMatch = matchSiteIndex("qwerty", { entries: sampleIndex.entries });
+assert.equal(emptyMatch.suggestedPages.length, 0);
+assert.equal(emptyMatch.answerability, 0);
+
+const mergedWithIndex = mergeCandidateFeed({ feedEntries: entries, existing: {}, publishedUrls: new Set(), now: "2026-07-16T12:00:00Z", threshold: 5, searchIndex: sampleIndex });
+assert.equal(mergedWithIndex.candidates[0].trafficValue, 1); // "Can't build the chassis" -> build + what
+assert.ok(mergedWithIndex.candidates[0].priorityScore > 0);
+assert.ok(Array.isArray(mergedWithIndex.candidates[0].suggestedPages));
+assert.ok(mergedWithIndex.candidates[0].answerability > 0);
+// Without searchIndex the fields still populate with safe defaults (no crash)
+const mergedNoIndex = mergeCandidateFeed({ feedEntries: entries, existing: {}, publishedUrls: new Set(), now: "2026-07-16T12:00:00Z", threshold: 5 });
+assert.equal(mergedNoIndex.candidates[0].answerability, 0);
+assert.equal(mergedNoIndex.candidates[0].trafficValue, 1);
 const candidateReport = renderCandidateReport(candidateDocument({ previous: {}, merged, now: "2026-07-16T12:00:00Z", feedUrl: "https://example.com/feed" }));
 assert.match(candidateReport, /玩家问题候选审核/);
 assert.match(candidateReport, /不会自动发布到攻略站/);

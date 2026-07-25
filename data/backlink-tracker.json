@@ -11,7 +11,7 @@
     { "id": "reddit-subnautica_2", "status": "identified", "lastTouch": "2026-07-25", "nextAction": "BLOCKED via modmail: same account restriction as r/Subnautica. Ego-lite filled form perfectly but Reddit rejected send (server error x3 + manual 'cannot send this type of message'). Pivot to main account or organic comments; see reddit-subnautica.", "linkedBack": false },
     { "id": "discord-subnautica", "status": "identified", "lastTouch": "2026-07-25", "nextAction": "DRAFTED, not sent. Post calculator in #guides or ask a mod for a fan-tools pin (draft ready: docs/outreach-batch-1.md).", "linkedBack": false },
     { "id": "youtube-creators", "status": "identified", "lastTouch": "", "nextAction": "Identify 3-5 'beginner build' creators; comment/community-post the calculator.", "linkedBack": false },
-    { "id": "steam-guides", "status": "identified", "lastTouch": "", "nextAction": "Author a short Steam guide that links back to the source-attributed reference.", "linkedBack": false },
+    { "id": "steam-guides", "status": "identified", "lastTouch": "2026-07-25", "nextAction": "DRAFTED, not posted. Guide copy ready: docs/steam-guide-tadpole.md (Tadpole chassis + depth module recipes, sourced from SN2 wiki CC BY-NC-SA, links calculator + tools hub). User to post manually on Steam (own account). Self-controlled high-DA backlink; link passes through steam linkfilter (follow/nofollow unconfirmed — treat as authority + referral, not guaranteed PageRank).", "linkedBack": false },
     { "id": "gaming-blogs", "status": "identified", "lastTouch": "", "nextAction": "Revisit after community links land and there is social proof.", "linkedBack": false }
   ]
 }

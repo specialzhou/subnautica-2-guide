@@ -40,6 +40,14 @@ for (const file of htmlFiles) {
     }
     const hasEntityLd = /<script type="application\/ld\+json">/.test(html) && html.includes('"@type":"Article"') && html.includes('"dateModified"');
     if (!hasEntityLd) failures.push(`${relative}: missing entity JSON-LD (Article with dateModified)`);
+    const faqSection = html.match(/<section class="entity-faq"[^>]*>[\s\S]*?<\/section>/);
+    if (!faqSection) {
+      failures.push(`${relative}: missing entity-faq FAQ section`);
+    } else {
+      const faqCount = (faqSection[0].match(/<div class="faq__item">/g) || []).length;
+      if (faqCount < 2) failures.push(`${relative}: entity-faq has too few Q&A (${faqCount})`);
+    }
+    if (!html.includes('"@type":"FAQPage"')) failures.push(`${relative}: missing FAQPage structured data`);
   }
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const href = match[1];

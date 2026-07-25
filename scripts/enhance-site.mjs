@@ -279,6 +279,103 @@ const buildEntityJsonLd = (kind, id, locale, pagePath) => {
   };
 };
 
+// --- P1-2: entity FAQ sections (FAQPage schema + long-tail capture) ---
+// Genuine, source-linked Q&A derived from wiki facts (where to find/get,
+// behaviour, depth, uses). Targets the dominant game-guide search intent
+// ("where to find X", "how to get X") and is eligible for FAQ rich results.
+// Every entity yields >=2 Q&A (overview fallback) so pages never ship thin FAQ.
+const faqHeading = { en: "Frequently asked questions", "zh-cn": "常见问题", ru: "Часто задаваемые вопросы" };
+const FAQ = {
+  en: {
+    craft: (n, s, i) => ({ q: `How do I craft ${n}?`, a: `Use the ${s} with ${i}.` }),
+    usedIn: (n, t) => ({ q: `What is ${n} used for?`, a: `It's an ingredient in: ${t}.` }),
+    whereRes: (n, src, b) => ({ q: `Where do I get ${n}?`, a: [src ? `Dropped by ${src}.` : null, b ? `Found in ${b}.` : null].filter(Boolean).join(" ") }),
+    whereCreature: (n, b) => ({ q: `Where can I find ${n}?`, a: `In ${b}.` }),
+    danger: (n, a) => ({ q: `Is ${n} dangerous?`, a: `It's ${a}.` }),
+    depthBiome: (n, d) => ({ q: `What depth is ${n}?`, a: `Between ${d}.` }),
+    findBiome: (n, p) => ({ q: `What can I find in ${n}?`, a: `Key points of interest: ${p}.` }),
+    getVehicle: (n, s, f) => ({ q: `How do I get the ${n}?`, a: `Built at the ${s} from ${f} fragments.` }),
+    depthVehicle: (n, d) => ({ q: `How deep can ${n} go?`, a: `Up to ${d}.` }),
+    overview: (n, d) => ({ q: `What is ${n} in Subnautica 2?`, a: d }),
+  },
+  "zh-cn": {
+    craft: (n, s, i) => ({ q: `如何制造${n}？`, a: `在${s}中使用：${i}。` }),
+    usedIn: (n, t) => ({ q: `${n}有什么用？`, a: `它是以下物品的制造材料：${t}。` }),
+    whereRes: (n, src, b) => ({ q: `在哪里获取${n}？`, a: [src ? `${src}掉落。` : null, b ? `可在${b}找到。` : null].filter(Boolean).join("") }),
+    whereCreature: (n, b) => ({ q: `在哪里可以找到${n}？`, a: `出没于${b}。` }),
+    danger: (n, a) => ({ q: `${n}危险吗？`, a: `它的性情为${a}。` }),
+    depthBiome: (n, d) => ({ q: `${n}的深度是多少？`, a: `深度约为${d}。` }),
+    findBiome: (n, p) => ({ q: `${n}里有什么？`, a: `主要地点：${p}。` }),
+    getVehicle: (n, s, f) => ({ q: `如何获得${n}？`, a: `在${s}用${f}个碎片制造。` }),
+    depthVehicle: (n, d) => ({ q: `${n}能下潜多深？`, a: `最大下潜深度${d}。` }),
+    overview: (n, d) => ({ q: `Subnautica 2 中的${n}是什么？`, a: d }),
+  },
+  ru: {
+    craft: (n, s, i) => ({ q: `Как создать ${n}?`, a: `Используйте ${s} с: ${i}.` }),
+    usedIn: (n, t) => ({ q: `Для чего нужен ${n}?`, a: `Используется как ингредиент в: ${t}.` }),
+    whereRes: (n, src, b) => ({ q: `Где получить ${n}?`, a: [src ? `Падает с ${src}.` : null, b ? `Находится в ${b}.` : null].filter(Boolean).join(" ") }),
+    whereCreature: (n, b) => ({ q: `Где найти ${n}?`, a: `В биоме: ${b}.` }),
+    danger: (n, a) => ({ q: `${n} опасен?`, a: `Он ${a}.` }),
+    depthBiome: (n, d) => ({ q: `На какой глубине ${n}?`, a: `Глубина: ${d}.` }),
+    findBiome: (n, p) => ({ q: `Что можно найти в ${n}?`, a: `Ключевые точки: ${p}.` }),
+    getVehicle: (n, s, f) => ({ q: `Как получить ${n}?`, a: `Собирается на ${s} из ${f} фрагментов.` }),
+    depthVehicle: (n, d) => ({ q: `На какую глубину может ${n}?`, a: `До ${d}.` }),
+    overview: (n, d) => ({ q: `Что такое ${n} в Subnautica 2?`, a: d }),
+  },
+};
+const buildEntityFaq = (kind, id, locale) => {
+  const l = locale === "zh-cn" || locale === "ru" ? locale : "en";
+  const t = FAQ[l];
+  const dataObj = kind === "items"
+    ? items.items.find((x) => x.id === id)
+    : entities.entities.find((x) => x.kind === kind && x.id === id);
+  if (!dataObj) return null;
+  const name = localizedName(dataObj.title, locale);
+  const desc = (descTemplates[l]?.[kind] ?? descTemplates.en[kind])(name);
+  const pairs = [];
+  if (kind === "items") {
+    const item = dataObj;
+    if (item.recipes?.length) {
+      const r = item.recipes[0];
+      const ings = r.ingredients.map((i) => i.item).join(", ");
+      pairs.push(t.craft(name, r.station, ings));
+    }
+    const used = (downstreamByKey.get((dataObj.title || "").toLowerCase()) ?? []).map((s) => localizedName(s.title, locale));
+    if (used.length) pairs.push(t.usedIn(name, used.join(", ")));
+  } else if (kind === "resources") {
+    const f = dataObj.facts ?? {};
+    if (f.source || (f.biomes && f.biomes.length)) pairs.push(t.whereRes(name, f.source, f.biomes?.join(", ")));
+    const used = (downstreamByKey.get((dataObj.title || "").toLowerCase()) ?? []).map((s) => localizedName(s.title, locale));
+    if (used.length) pairs.push(t.usedIn(name, used.join(", ")));
+  } else if (kind === "creatures") {
+    const f = dataObj.facts ?? {};
+    if (f.biomes?.length) pairs.push(t.whereCreature(name, f.biomes.join(", ")));
+    if (f.attitude) pairs.push(t.danger(name, f.attitude));
+  } else if (kind === "biomes") {
+    const f = dataObj.facts ?? {};
+    if (f.depth) pairs.push(t.depthBiome(name, f.depth));
+    if (f.pointsOfInterest?.length) pairs.push(t.findBiome(name, f.pointsOfInterest.join(", ")));
+  } else if (kind === "vehicles") {
+    const f = dataObj.facts ?? {};
+    if (f.source && f.fragments) pairs.push(t.getVehicle(name, f.source, f.fragments));
+    if (f.depth) pairs.push(t.depthVehicle(name, f.depth));
+  }
+  while (pairs.length < 2) pairs.push(t.overview(name, desc));
+  const chosen = pairs.slice(0, 4);
+  const itemsHtml = chosen.map((p) => `<div class="faq__item"><h3 class="faq__q">${escapeHtml(p.q)}</h3><p class="faq__a">${escapeHtml(p.a)}</p></div>`).join("");
+  const html = `<section class="entity-faq" aria-labelledby="entity-faq-title"><h2 id="entity-faq-title">${escapeHtml(faqHeading[l])}</h2>${itemsHtml}</section>`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": chosen.map((p) => ({
+      "@type": "Question",
+      "name": p.q,
+      "acceptedAnswer": { "@type": "Answer", "text": p.a },
+    })),
+  };
+  return { html, jsonLd };
+};
+
 const generatedAt = new Date(Math.max(new Date(items.generatedAt).getTime(), new Date(entities.generatedAt).getTime(), new Date(playerQuestions.collectedAt).getTime())).toISOString();
 const coverage = {
   total: items.publishedCount + entities.publishedCount,
@@ -357,12 +454,21 @@ for (const pagePath of [...new Set(pagePaths)]) {
   if (entityMatch) {
     const [, kind, id] = entityMatch;
     html = html.replace(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/, "");
-    html = html.replace("</main>", `${buildRelatedRecords(kind, id, locale)}</main>`);
+    html = html.replace(/<section class="entity-faq"[^>]*>[\s\S]*?<\/section>/, "");
+    const faq = buildEntityFaq(kind, id, locale);
+    let injection = buildRelatedRecords(kind, id, locale);
+    if (faq) injection += faq.html;
+    html = html.replace("</main>", `${injection}</main>`);
     const jsonLd = buildEntityJsonLd(kind, id, locale, pagePath);
     if (jsonLd) {
       const jsonString = JSON.stringify(jsonLd).replace(/</g, "\\u003c");
       html = html.replace(/<!-- entity-jsonld -->[\s\S]*?<!-- \/entity-jsonld -->/, "");
       html = html.replace("</body>", `<!-- entity-jsonld --><script type="application/ld+json">${jsonString}</script><!-- /entity-jsonld -->\n</body>`);
+    }
+    if (faq) {
+      const faqString = JSON.stringify(faq.jsonLd).replace(/</g, "\\u003c");
+      html = html.replace(/<!-- faq-jsonld -->[\s\S]*?<!-- \/faq-jsonld -->/, "");
+      html = html.replace("</body>", `<!-- faq-jsonld --><script type="application/ld+json">${faqString}</script><!-- /faq-jsonld -->\n</body>`);
     }
   }
   html = html.replace("</body>", `<script defer src="${base}analytics.js?v=1"></script><script defer src="${base}search.js?v=5"></script></body>`);

@@ -1,6 +1,6 @@
 # 玩家问题候选审核
 
-采集时间：2026-07-24T07:42:08.425Z
+采集时间：2026-07-25T07:28:45.434Z
 
 这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。
 
@@ -29,3 +29,4 @@
 | 0 | 7 | 1 | dismissed | [Game crashing at load? Got CurseForge?](https://www.reddit.com/r/Subnautica_2/comments/1utx73j/game_crashing_at_load_got_curseforge/) | — |
 | ? | 15 | 1 | dismissed | [Legion go s controls won't work.](https://www.reddit.com/r/Subnautica_2/comments/1usu5kt/legion_go_s_controls_wont_work/) | — |
 | ? | 10 | 1 | dismissed | [Does anyone know how to craft new underwear?](https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/) | — |
+| ? | 5 | 1 | system-review | [Dive elevators bug](https://www.reddit.com/r/Subnautica_2/comments/1v5gwdc/dive_elevators_bug/) | — |

@@ -17,9 +17,9 @@
   "detailCursor": 0,
   "counts": {
     "total": 22,
-    "systemReview": 1,
+    "systemReview": 0,
     "readyToReply": 2,
-    "dismissed": 19,
+    "dismissed": 20,
     "addedThisRun": 1
   },
   "seenRedditIds": [
@@ -689,9 +689,10 @@
       "redditId": "1v5gwdc",
       "firstSeenAt": "2026-07-25T07:28:45.434Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "登录态只读核对原帖：正文仅一句 bug 描述——潜水电梯放在某些位置不受碰撞阻挡、可穿透地图；13 条评论全是玩笑与许愿（“这不是 bug 是特性”“别修复”“当 Satisfactory hypertube 发射器用”“希望能在基地内建电梯”），无任何解决方案或复现/规避步骤。这是穿模 bug 的现象吐槽，不是求助型问题，攻略站无可复用答案。核对 Unknown Worlds 官方补丁说明、官方支持、Steam 官方公告及带永久修订链接的 Subnautica 2 Wiki，均未确认该穿模问题、其修复状态或任何官方认可的安全 workaround。不能把社区玩笑当确定事实。没有安全答案，关闭。",
+        "reviewedAt": "2026-07-25"
       },
       "attention": {
         "upvotes": null,

@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import {
   candidateDocument,
   countCommentEntries,
+  extractSubredditFromFeedUrl,
   findPublishedDuplicate,
   mergeCandidateFeed,
   normalizeRedditUrl,
@@ -26,6 +27,8 @@ const detailDelayMs = Number(args.get("detail-delay-ms") || 65000);
 const fetchAttempts = Math.max(1, Number(args.get("fetch-attempts") || 1));
 const fetchRetryDelayMs = Math.max(0, Number(args.get("fetch-retry-delay-ms") || 5000));
 const allowStaleFeed = args.has("allow-stale-feed");
+const feedsArg = args.get("feeds");
+const feedUrls = feedsArg ? String(feedsArg).split(",").map((value) => value.trim()).filter(Boolean) : [feedUrl];
 const now = process.env.COLLECTED_AT || new Date().toISOString();
 const userAgent = process.env.REDDIT_USER_AGENT || "subnautica-2-guide/0.1 (https://github.com/specialzhou/subnautica-2-guide)";
 
@@ -52,25 +55,43 @@ const previous = args.has("reset") ? {} : JSON.parse(await readFile(outputPath, 
 const published = JSON.parse(await readFile(path.join(root, "data/player-questions.json"), "utf8"));
 const publishedUrls = new Set(published.questions.map((question) => normalizeRedditUrl(question.source.url)));
 const searchIndex = JSON.parse(await readFile(path.join(root, "data/search-index.json"), "utf8").catch(() => "{}"));
-let feedXml;
-try {
-  feedXml = inputPath
-    ? await readFile(inputPath, "utf8")
-    : await fetchText(feedUrl, { attempts: fetchAttempts, retryDelayMs: fetchRetryDelayMs });
-} catch (error) {
-  if (!allowStaleFeed) throw error;
-  const message = `Reddit 当前拒绝 RSS 请求；已保留现有候选队列，本次没有采集新帖子。${error.message}`;
+const allEntries = [];
+const subreddits = [];
+const fetchErrors = [];
+for (const currentFeedUrl of feedUrls) {
+  let feedXml;
+  try {
+    feedXml = inputPath && feedUrls.length === 1
+      ? await readFile(inputPath, "utf8")
+      : await fetchText(currentFeedUrl, { attempts: fetchAttempts, retryDelayMs: fetchRetryDelayMs });
+  } catch (error) {
+    fetchErrors.push(`${currentFeedUrl}: ${error.message}`);
+    continue;
+  }
+  const entries = parseAtomFeed(feedXml);
+  const subreddit = extractSubredditFromFeedUrl(currentFeedUrl);
+  for (const entry of entries) entry.sourceSubreddit = subreddit;
+  if (subreddit && !subreddits.includes(subreddit)) subreddits.push(subreddit);
+  allEntries.push(...entries);
+}
+if (!allEntries.length) {
+  if (!allowStaleFeed || !fetchErrors.length) {
+    throw new Error(fetchErrors.length ? fetchErrors.join("; ") : "Reddit RSS contained no readable entries");
+  }
+  const message = `Reddit 当前拒绝所有 RSS 请求；已保留现有候选队列，本次没有采集新帖子。${fetchErrors.join("; ")}`;
   process.stderr.write(`::warning title=Reddit 采集已降级::${message}\n`);
   if (process.env.GITHUB_STEP_SUMMARY) {
     await writeFile(process.env.GITHUB_STEP_SUMMARY, `## Reddit 采集已降级\n\n${message}\n`, { flag: "a" });
   }
   process.exit(0);
 }
-const feedEntries = parseAtomFeed(feedXml);
-if (!feedEntries.length) throw new Error("Reddit RSS contained no readable entries");
+if (fetchErrors.length) {
+  process.stderr.write(`::warning title=部分 sub 采集失败::${fetchErrors.join("; ")}\n`);
+}
+const feedEntries = allEntries;
 
 const merged = mergeCandidateFeed({ feedEntries, existing: previous, publishedUrls, now, threshold, searchIndex });
-const document = candidateDocument({ previous, merged, now, feedUrl });
+const document = candidateDocument({ previous, merged, now, feedUrl: feedUrls.join(", "), subreddits });
 for (const candidate of document.candidates) {
   candidate.possibleDuplicateOf = findPublishedDuplicate(candidate.title, published.questions);
 }
@@ -105,4 +126,4 @@ document.counts.readyToReply = document.candidates.filter((candidate) => candida
 document.counts.dismissed = document.candidates.filter((candidate) => candidate.review?.state === "dismissed").length;
 await writeFile(outputPath, `${JSON.stringify(document, null, 2)}\n`);
 await writeFile(reportPath, renderCandidateReport(document));
-process.stdout.write(`Collected ${feedEntries.length} Reddit posts; added ${merged.added} pain candidates; ${detailCandidates.length} discussion counts checked.\n`);
+process.stdout.write(`Collected ${feedEntries.length} Reddit posts across ${subreddits.length} subreddit(s) (${subreddits.join(", ")}); added ${merged.added} pain candidates; ${detailCandidates.length} discussion counts checked.\n`);

@@ -203,13 +203,25 @@ function renderDetailPage(question, locale) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
-        headline: title,
-        description,
+        "@type": "QAPage",
+        "@id": canonical,
         dateModified: question.source.observedAt,
         inLanguage: config.htmlLang,
-        mainEntityOfPage: canonical,
         author: { "@type": "Organization", name: "Subnautica 2 Guide" },
+        publisher: { "@type": "Organization", name: "Subnautica 2 Guide" },
+        mainEntity: {
+          "@type": "Question",
+          name: title,
+          text: title,
+          answerCount: 1,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: description,
+            dateCreated: question.source.observedAt,
+            upvoteCount: question.source.upvotes,
+            author: { "@type": "Organization", name: "Subnautica 2 Guide" },
+          },
+        },
       },
       {
         "@type": "BreadcrumbList",

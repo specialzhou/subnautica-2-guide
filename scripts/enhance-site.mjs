@@ -138,9 +138,9 @@ for (const entity of entities.entities) {
   }
 }
 const relatedCopy = {
-  en: { heading: "Related references", browse: { items: "Browse all crafting", creatures: "Browse all creatures", vehicles: "Browse all vehicles", biomes: "Browse all biomes" }, fallback: { items: ["starter-planner.html", "Start here"], creatures: ["locations.html", "Key locations"], vehicles: ["vehicle-planner.html", "Vehicle planner"], biomes: ["locations.html", "Key locations"] } },
-  "zh-cn": { heading: "相关参考", browse: { items: "查看全部合成", creatures: "查看全部生物", vehicles: "查看全部载具", biomes: "查看全部群系" }, fallback: { items: ["starter-planner.html", "开始游戏"], creatures: ["locations.html", "关键地点"], vehicles: ["vehicle-planner.html", "载具规划"], biomes: ["locations.html", "关键地点"] } },
-  ru: { heading: "Связанные справочники", browse: { items: "Все рецепты", creatures: "Все существа", vehicles: "Все транспорты", biomes: "Все биомы" }, fallback: { items: ["starter-planner.html", "Начать"], creatures: ["locations.html", "Ключевые места"], vehicles: ["vehicle-planner.html", "План транспорта"], biomes: ["locations.html", "Ключевые места"] } },
+  en: { heading: "Related references", browse: { items: "Browse all crafting", creatures: "Browse all creatures", vehicles: "Browse all vehicles", biomes: "Browse all biomes", resources: "Browse all resources" }, fallback: { items: ["starter-planner.html", "Start here"], creatures: ["locations.html", "Key locations"], vehicles: ["vehicle-planner.html", "Vehicle planner"], biomes: ["locations.html", "Key locations"], resources: ["starter-materials.html", "Starter materials"] } },
+  "zh-cn": { heading: "相关参考", browse: { items: "查看全部合成", creatures: "查看全部生物", vehicles: "查看全部载具", biomes: "查看全部群系", resources: "查看全部资源" }, fallback: { items: ["starter-planner.html", "开始游戏"], creatures: ["locations.html", "关键地点"], vehicles: ["vehicle-planner.html", "载具规划"], biomes: ["locations.html", "关键地点"], resources: ["starter-materials.html", "开局材料"] } },
+  ru: { heading: "Связанные справочники", browse: { items: "Все рецепты", creatures: "Все существа", vehicles: "Все транспорты", biomes: "Все биомы", resources: "Все ресурсы" }, fallback: { items: ["starter-planner.html", "Начать"], creatures: ["locations.html", "Ключевые места"], vehicles: ["vehicle-planner.html", "План транспорта"], biomes: ["locations.html", "Ключевые места"], resources: ["starter-materials.html", "Начальные материалы"] } },
 };
 const localizedName = (title, locale) => localizedNames[title]?.[locale] ?? title;
 const buildRelatedRecords = (kind, id, locale) => {
@@ -180,6 +180,21 @@ const buildRelatedRecords = (kind, id, locale) => {
     for (const vehicle of entities.entities.filter((entry) => entry.kind === "vehicles" && entry.id !== id)) {
       push(`guide/vehicles/${vehicle.id}.html`, localizedName(vehicle.title, locale));
     }
+  } else if (kind === "resources") {
+    const entity = entities.entities.find((entry) => entry.id === id);
+    const title = entity?.title;
+    const sourceTitle = entity?.facts?.source;
+    if (sourceTitle) {
+      const href = resolveHref(sourceTitle);
+      if (href) push(href, localizedName(sourceTitle, locale));
+    }
+    for (const biome of entity?.facts?.biomes ?? []) {
+      const href = resolveHref(biome);
+      if (href) push(href, localizedName(biome, locale));
+    }
+    for (const src of downstreamByKey.get((title ?? "").toLowerCase()) ?? []) {
+      if (src.id !== id) push(`guide/items/${src.id}.html`, localizedName(src.title, locale));
+    }
   }
   if (kind === "items") push("crafting.html", copy.browse.items);
   else push(`${kind}.html`, copy.browse[kind]);
@@ -187,7 +202,8 @@ const buildRelatedRecords = (kind, id, locale) => {
     const [fbHref, fbText] = copy.fallback[kind];
     push(fbHref, fbText);
   }
-  const listItems = links.map((link) => `<li><a href="${base}${link.href}">${escapeHtml(link.text)}</a></li>`).join("");
+  const MAX_LINKS = 8;
+  const listItems = links.slice(0, MAX_LINKS).map((link) => `<li><a href="${base}${link.href}">${escapeHtml(link.text)}</a></li>`).join("");
   return `<section class="related-records" aria-labelledby="related-records-title"><h2 id="related-records-title">${escapeHtml(copy.heading)}</h2><ul class="related-records__list">${listItems}</ul></section>`;
 };
 
@@ -205,18 +221,21 @@ const descTemplates = {
     creatures: (t) => `${t} in Subnautica 2: where it lives, how it behaves, and how to deal with it.`,
     vehicles: (t) => `${t} in Subnautica 2: modules, depth rating, and how to unlock it.`,
     biomes: (t) => `${t} in Subnautica 2: location, resources, and the creatures that live there.`,
+    resources: (t) => `How to get ${t} in Subnautica 2: where it drops, what it's used for, and how to farm it.`,
   },
   "zh-cn": {
     items: (t) => `Subnautica 2 中如何获取${t}：制造站、材料与获取位置。`,
     creatures: (t) => `Subnautica 2 中的${t}：出没地点、行为特征与应对方法。`,
     vehicles: (t) => `Subnautica 2 中的${t}：模块、下潜深度与解锁方式。`,
     biomes: (t) => `Subnautica 2 中的${t}：位置、资源与栖息生物。`,
+    resources: (t) => `Subnautica 2 中如何获取${t}：掉落来源、用途与采集方式。`,
   },
   ru: {
     items: (t) => `Как получить ${t} в Subnautica 2: верстаки, ингредиенты и где найти.`,
     creatures: (t) => `${t} в Subnautica 2: где обитает, как ведёт себя и как с ним справиться.`,
     vehicles: (t) => `${t} в Subnautica 2: модули, глубина и как открыть.`,
     biomes: (t) => `${t} в Subnautica 2: расположение, ресурсы и обитающие там существа.`,
+    resources: (t) => `Как получить ${t} в Subnautica 2: где падает, для чего нужен и как добывать.`,
   },
 };
 const buildEntityJsonLd = (kind, id, locale, pagePath) => {
@@ -334,7 +353,7 @@ for (const pagePath of [...new Set(pagePaths)]) {
   }
   const image = imageByPage.get(unlocalizedPath);
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
-  const entityMatch = pagePath.match(/^(?:(?:en|zh-cn|ru)\/)?guide\/(items|creatures|vehicles|biomes)\/([^/]+)\.html$/);
+  const entityMatch = pagePath.match(/^(?:(?:en|zh-cn|ru)\/)?guide\/(items|creatures|vehicles|biomes|resources)\/([^/]+)\.html$/);
   if (entityMatch) {
     const [, kind, id] = entityMatch;
     html = html.replace(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/, "");

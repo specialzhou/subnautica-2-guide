@@ -26,10 +26,10 @@ for (const file of htmlFiles) {
   if (!html.includes('src="/subnautica-2-guide/analytics.js?v=1"')) failures.push(`${relative}: missing shared analytics`);
   if (html.includes("googletagmanager.com/gtag/js?id=G-7R7JWG7M2S")) failures.push(`${relative}: duplicate inline analytics loader`);
   if (/questions\/[^/]+\.html$/.test(relative)) {
-    if (!html.includes('type="application/ld+json"') || !html.includes('"@type":"BreadcrumbList"')) failures.push(`${relative}: missing article structured data`);
+    if (!html.includes('type="application/ld+json"') || !html.includes('"@type":"BreadcrumbList"') || !html.includes('"@type":"QAPage"')) failures.push(`${relative}: missing QAPage structured data`);
     if (!/<meta name="description" content="[^"]+">/.test(html)) failures.push(`${relative}: missing detail description`);
   }
-  const entityMatch = relative.match(/^(?:en[\\/]|zh-cn[\\/]|ru[\\/])?guide\/(?:items|creatures|vehicles|biomes)\/[^/]+\.html$/);
+  const entityMatch = relative.match(/^(?:en[\\/]|zh-cn[\\/]|ru[\\/])?guide\/(?:items|creatures|vehicles|biomes|resources)\/[^/]+\.html$/);
   if (entityMatch) {
     const section = html.match(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/);
     if (!section) {

@@ -71,7 +71,7 @@ if (!questionSearchEntries.every((entry) => /^questions\/[a-z0-9-]+\.html$/.test
 for (const question of playerQuestions.questions) {
   for (const [locale, phrase] of [["zh-cn", question.question["zh-cn"]], ["ru", question.question.ru]]) {
     const detail = await readFile(path.join(root, locale, "questions", `${question.id}.html`), "utf8");
-    if (!detail.includes(phrase) || !detail.includes('"@type":"Article"')) failures.push(`Localized question detail is incomplete: ${locale}/${question.id}`);
+    if (!detail.includes(phrase) || !detail.includes('"@type":"QAPage"')) failures.push(`Localized question detail is incomplete: ${locale}/${question.id}`);
   }
 }
 const itemData = JSON.parse(await readFile(path.join(root, "data", "wiki-items.json"), "utf8"));

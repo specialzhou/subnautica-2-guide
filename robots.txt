@@ -1,4 +1,31 @@
 User-agent: *
 Allow: /
 
+# Generative Engine Optimization: explicitly allow AI search crawlers
+# (default is Allow, but explicit grants improve discoverability in
+# ChatGPT, Claude, Perplexity, Google AI Overviews, and similar engines)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
 Sitemap: https://specialzhou.github.io/subnautica-2-guide/sitemap.xml

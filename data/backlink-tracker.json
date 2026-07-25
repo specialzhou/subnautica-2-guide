@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-25",
+  "legend": {
+    "status": ["identified", "contacted", "replied", "linked", "declined", "monitoring"],
+    "linkedBack": "true once a dofollow (or any) link from this target to our site is confirmed"
+  },
+  "targets": [
+    { "id": "wiki-subnautica", "status": "identified", "lastTouch": "", "nextAction": "Draft courteous editor note proposing a reciprocal tools mention; lead with attribution already given.", "linkedBack": false },
+    { "id": "reddit-subnautica", "status": "identified", "lastTouch": "", "nextAction": "Modmail for sidebar/community-resources link; meanwhile drop calculator in help threads.", "linkedBack": false },
+    { "id": "reddit-subnautica_2", "status": "identified", "lastTouch": "", "nextAction": "Modmail for sidebar/community-resources link; share calculator in relevant threads.", "linkedBack": false },
+    { "id": "discord-subnautica", "status": "identified", "lastTouch": "", "nextAction": "Ask mods about a fan-tools pin; share calculator in #guides / help channels.", "linkedBack": false },
+    { "id": "youtube-creators", "status": "identified", "lastTouch": "", "nextAction": "Identify 3-5 'beginner build' creators; comment/community-post the calculator.", "linkedBack": false },
+    { "id": "steam-guides", "status": "identified", "lastTouch": "", "nextAction": "Author a short Steam guide that links back to the source-attributed reference.", "linkedBack": false },
+    { "id": "gaming-blogs", "status": "identified", "lastTouch": "", "nextAction": "Revisit after community links land and there is social proof.", "linkedBack": false }
+  ]
+}

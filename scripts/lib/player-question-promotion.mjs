@@ -24,7 +24,7 @@ export function createReviewTemplate(candidate, reviewedAt = new Date().toISOStr
       answer: { en: "", "zh-cn": "", ru: "" },
       evidenceNote: { en: "", "zh-cn": "", ru: "" },
       searchTerms: { en: "", "zh-cn": "", ru: "" },
-      relatedPages: [],
+      relatedPages: (candidate.suggestedPages ?? []).map((page) => page.href),
       evidenceSources: [{ type: "", label: "", url: "" }],
       attention: {
         observedAt: reviewedAt,

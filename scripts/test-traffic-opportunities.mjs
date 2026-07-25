@@ -46,7 +46,9 @@ assert.match(report.opportunities[0].replyDraft, /I maintain a small evidence-li
 const renderedIssue = renderTrafficOpportunityIssue(report);
 assert.match(renderedIssue, /系统不会自动|不会自动操作 Reddit/);
 assert.match(renderedIssue, /已完成的系统审核/);
-assert.match(renderedIssue, /可直接使用的英文回复/);
+assert.match(renderedIssue, /可直接使用的回复/);
+assert.match(renderedIssue, /中文/);
+assert.match(renderedIssue, /Русский/);
 
 const firstRun = buildTrafficOpportunities({
   candidates: [candidate("repeat", 0.9, 20)],
@@ -65,4 +67,33 @@ assert.equal(secondRun.count, 0, "an opportunity surfaced by an earlier run must
 const sourceCandidate = candidate("source", 0.9, 20);
 assert.equal(buildTrafficOpportunities({ candidates: [sourceCandidate], questions: [question], generatedAt: "now" }).count, 0, "source thread must not be promoted back to itself");
 assert.equal(buildTrafficOpportunities({ candidates: [candidate("open", 0.9, 20)], questions: [{ ...question, resolution: "open" }], generatedAt: "now" }).count, 0, "unresolved guides must not generate replies");
+
+// P1 B.2 + B.3: ready-to-reply NEW question with a matched page generates a pointer draft in 3 locales
+const newQuestionCandidate = {
+  redditId: "newbuild",
+  title: "How do I build the habitat base?",
+  url: "https://www.reddit.com/r/Subnautica_2/comments/newbuild/build/",
+  publishedAt: "2026-07-19T00:00:00Z",
+  painScore: 12,
+  attention: { comments: 6 },
+  review: { state: "ready-to-reply" },
+  relatedPages: ["base-building.html"],
+  suggestedPages: [{ href: "base-building.html", title: "Base building", score: 0.8 }],
+};
+const newReport = buildTrafficOpportunities({
+  candidates: [newQuestionCandidate],
+  questions: [question],
+  generatedAt: "2026-07-19T00:00:00Z",
+});
+assert.equal(newReport.count, 1, "ready-to-reply new question with a matched page should generate a pointer draft");
+assert.equal(
+  new URL(newReport.opportunities[0].guideUrl).pathname,
+  "/subnautica-2-guide/base-building.html",
+  "new-question deep link should point to the specific related page, not /questions/",
+);
+assert.match(newReport.opportunities[0].replyDraft, /Here is where I track this/);
+assert.match(newReport.opportunities[0].replyDraftZh, /带证据链接的攻略里追踪/);
+assert.match(newReport.opportunities[0].replyDraftRu, /отслеживаю это/);
+assert.match(newReport.opportunities[0].guideUrlZh, /\/zh-cn\/base-building\.html/);
+assert.match(newReport.opportunities[0].guideUrlRu, /\/ru\/base-building\.html/);
 process.stdout.write("Traffic opportunity tests passed.\n");

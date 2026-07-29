@@ -20,9 +20,9 @@
   "detailCursor": 0,
   "counts": {
     "total": 30,
-    "systemReview": 9,
-    "readyToReply": 2,
-    "dismissed": 19,
+    "systemReview": 0,
+    "readyToReply": 3,
+    "dismissed": 27,
     "addedThisRun": 8
   },
   "seenRedditIds": [
@@ -63,6 +63,155 @@
     "1v7ylul"
   ],
   "candidates": [
+    {
+      "redditId": "1v7ylul",
+      "firstSeenAt": "2026-07-28T07:47:28.398Z",
+      "review": {
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
+        "notes": "2026-07-29 审核：原帖未解决（楼主未确认修复）。答案有当前版本官方证据：Steam 官方公告 EA 1.1（2026-07-08）明确『Added additional feedback messages to clarify when the Moonpool needs to be enlarged for vehicle fabrication or docking』并缩小了 Vehicle Dock 平台占位；Haul Chassis 需要更大坞位为社区多人一致经验（标注为经验而非事实）。站内深链 guide/items/tadpole-dock.html（wiki 永久修订 oldid=19275）。英文回复草稿见流量机会 Issue，站长复制即可。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 18,
+        "observedAt": "2026-07-28T07:47:28.398Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Tadpole won't dock",
+      "questionKey": "tadpole won t dock",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v7ylul/tadpole_wont_dock/",
+      "publishedAt": "2026-07-27T12:12:13+00:00",
+      "lastSeenAt": "2026-07-28T07:47:28.398Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 7,
+      "signals": [
+        "help",
+        "not-working"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "guide/items/tadpole-dock.html",
+          "title": "Tadpole Dock",
+          "score": 0.67
+        },
+        {
+          "href": "vehicle-planner.html",
+          "title": "Tadpole vehicle planner",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/tadpole.html",
+          "title": "Tadpole",
+          "score": 0.33
+        }
+      ],
+      "priorityScore": 12,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1uuswe2",
+      "firstSeenAt": "2026-07-16T13:36:29.680Z",
+      "review": {
+        "state": "ready-to-reply",
+        "answerStatus": "official-hotfix-verified",
+        "notes": "原帖发布后官方 Hotfix 4 才上线，评论区仍认为只能装 Mod；已在 Issue #28 提供核验后的回复。",
+        "reviewedAt": "2026-07-24"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 7,
+        "observedAt": "2026-07-22T07:42:45.326Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Angel comb bugged",
+      "questionKey": "angel comb bugged",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/",
+      "publishedAt": "2026-07-12T22:00:56+00:00",
+      "lastSeenAt": "2026-07-28T07:47:28.398Z",
+      "painScore": 7,
+      "signals": [
+        "not-working",
+        "bug",
+        "progression"
+      ],
+      "possibleDuplicateOf": {
+        "id": "angel-comb-main-cankers-stuck",
+        "score": 0.67,
+        "sharedTerms": [
+          "angel",
+          "comb"
+        ]
+      },
+      "sourceSubreddit": "r/Subnautica_2",
+      "trafficValue": 0,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.67
+        },
+        {
+          "href": "questions/where-to-find-axum-resonator.html",
+          "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.67
+        }
+      ],
+      "priorityScore": 12
+    },
+    {
+      "redditId": "1ut24gk",
+      "firstSeenAt": "2026-07-16T13:36:29.680Z",
+      "review": {
+        "state": "ready-to-reply",
+        "answerStatus": "official-support-general-guidance",
+        "notes": "原帖未解决。Unknown Worlds 官方支持确认调低游戏图形设置通常可提高 FPS；但未确认 RTX 4060、DLSS Quality 或 2x Frame Generation 的具体异常。回复只能给出该通用建议并建议经游戏内反馈提交复现信息。",
+        "reviewedAt": "2026-07-25"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 5,
+        "observedAt": "2026-07-24T07:42:08.425Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Graphic settings and performance",
+      "questionKey": "graphic settings and performance",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut24gk/graphic_settings_and_performance/",
+      "publishedAt": "2026-07-10T22:21:10+00:00",
+      "lastSeenAt": "2026-07-26T07:46:11.824Z",
+      "painScore": 5,
+      "signals": [
+        "bug",
+        "performance"
+      ],
+      "possibleDuplicateOf": null,
+      "sourceSubreddit": "r/Subnautica_2",
+      "trafficValue": 0,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.25
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.25
+        }
+      ],
+      "priorityScore": 8
+    },
     {
       "redditId": "1uu1fdr",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
@@ -128,9 +277,9 @@
       "redditId": "1v8680z",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "resolved-in-thread",
+        "notes": "2026-07-29 审核：已解决。楼主编辑原帖确认非 bug——基地在 380m，Tadpole 默认压坏深度为 250m，安装 Tadpole Depth Module 后不再爆炸（wiki 永久修订 oldid=17908 证实该模块存在且由改装站制作）。原帖已自我关闭，无需回复。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -174,9 +323,9 @@
       "redditId": "1v8jbmr",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-07-29 审核：帖内已有共识答案（游戏内没有未扫描项清单，只能手持扫描器看橙点或用站外清单），且『游戏内不存在该功能』属否定性断言，官方补丁说明（EA 1.1，2026-07-08 Steam 公告）只提到 Biomod 解锁所需扫描数可见，未证实/否证完整清单，无法给出有官方证据的安全答案。与 1v8o9r3、1v8mjgf 同主题。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -523,60 +672,12 @@
       "priorityScore": 13
     },
     {
-      "redditId": "1v7ylul",
-      "firstSeenAt": "2026-07-28T07:47:28.398Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 18,
-        "observedAt": "2026-07-28T07:47:28.398Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Tadpole won't dock",
-      "questionKey": "tadpole won t dock",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v7ylul/tadpole_wont_dock/",
-      "publishedAt": "2026-07-27T12:12:13+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "help",
-        "not-working"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.67,
-      "suggestedPages": [
-        {
-          "href": "guide/items/tadpole-dock.html",
-          "title": "Tadpole Dock",
-          "score": 0.67
-        },
-        {
-          "href": "vehicle-planner.html",
-          "title": "Tadpole vehicle planner",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/tadpole.html",
-          "title": "Tadpole",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1v81x3v",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-07-29 审核：询问环境音来源，评论区两种猜测（Deepwing Brooder / Collector Leviathan）互相冲突，无官方来源标注环境音归属，无法不把社区猜测写成事实。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -601,58 +702,6 @@
       "suggestedPages": [],
       "priorityScore": 12,
       "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1uuswe2",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "ready-to-reply",
-        "answerStatus": "official-hotfix-verified",
-        "notes": "原帖发布后官方 Hotfix 4 才上线，评论区仍认为只能装 Mod；已在 Issue #28 提供核验后的回复。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 7,
-        "observedAt": "2026-07-22T07:42:45.326Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Angel comb bugged",
-      "questionKey": "angel comb bugged",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/",
-      "publishedAt": "2026-07-12T22:00:56+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 7,
-      "signals": [
-        "not-working",
-        "bug",
-        "progression"
-      ],
-      "possibleDuplicateOf": {
-        "id": "angel-comb-main-cankers-stuck",
-        "score": 0.67,
-        "sharedTerms": [
-          "angel",
-          "comb"
-        ]
-      },
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.67,
-      "suggestedPages": [
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.67
-        },
-        {
-          "href": "questions/where-to-find-axum-resonator.html",
-          "title": "Where is the Axum Resonator in EA 1.1?",
-          "score": 0.67
-        }
-      ],
-      "priorityScore": 12
     },
     {
       "redditId": "1uuiw0l",
@@ -928,9 +977,9 @@
       "redditId": "1v89xmq",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "insufficient-information",
+        "notes": "2026-07-29 审核：一次性崩溃描述，无复现步骤、无存档损失、零评论，官方渠道无对应已知问题条目，信息不足且无可复用答案。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -1019,9 +1068,9 @@
       "redditId": "1v8k557",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-07-29 审核：门无法放在墙体正中，评论仅有『建造系统就是这样/可能是残留附着物』等推测，楼主自查后仍未定位原因；官方补丁说明无对应修复条目，无当前版本证据支撑任何结论。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -1195,61 +1244,12 @@
       "priorityScore": 8
     },
     {
-      "redditId": "1ut24gk",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "ready-to-reply",
-        "answerStatus": "official-support-general-guidance",
-        "notes": "原帖未解决。Unknown Worlds 官方支持确认调低游戏图形设置通常可提高 FPS；但未确认 RTX 4060、DLSS Quality 或 2x Frame Generation 的具体异常。回复只能给出该通用建议并建议经游戏内反馈提交复现信息。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 5,
-        "observedAt": "2026-07-24T07:42:08.425Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Graphic settings and performance",
-      "questionKey": "graphic settings and performance",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut24gk/graphic_settings_and_performance/",
-      "publishedAt": "2026-07-10T22:21:10+00:00",
-      "lastSeenAt": "2026-07-26T07:46:11.824Z",
-      "painScore": 5,
-      "signals": [
-        "bug",
-        "performance"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.5,
-      "suggestedPages": [
-        {
-          "href": "questions/livekernelevent-141-hp-omen-crash.html",
-          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.25
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.25
-        }
-      ],
-      "priorityScore": 8
-    },
-    {
       "redditId": "1v8o9r3",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-07-29 审核：帖内已有共识答案（暂无游戏内一键补全图鉴方式，只能用站外清单），否定性断言无官方证据可引用，且与 1v8jbmr 重复主题。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -1327,9 +1327,9 @@
       "redditId": "1v5gwdc",
       "firstSeenAt": "2026-07-25T07:28:45.434Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-07-29 审核：维持 2026-07-25（PR #44）既有判定——穿模现象吐槽帖，评论全为玩笑/许愿，无官方修复或规避证据（EA 1.1 只修了 Dive Elevator 偶发不伸出，未涉及穿模）。该候选此前已判 dismissed，被采集流水线覆盖回 system-review，本轮恢复。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,
@@ -1410,9 +1410,9 @@
       "redditId": "1v8mjgf",
       "firstSeenAt": "2026-07-28T07:47:28.398Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-07-29 审核：flair 为 Suggestion，是写给开发组的功能建议（扫描室识别未 bioscan 生物），不是求助问题，攻略站无可回复内容。未在 Reddit 发布任何内容。"
       },
       "attention": {
         "upvotes": null,

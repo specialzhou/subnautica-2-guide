@@ -27,19 +27,18 @@ jobs:
         with:
           node-version: 22
       - name: 准备审核分支
+        # 审核基线必须始终为 origin/main：main 保存着站长已审结的权威结论
+        # （dismissed / ready-to-reply）。采集脚本会读取工作区内的
+        # data/player-question-candidates.json 并保留其 review 状态（prior-review 合并），
+        # 因此只要基线是 main，已审结论就不会被冲回 system-review。
+        #
+        # 历史缺陷：曾用 origin/automation/player-question-candidates 分支的旧 JSON
+        # 覆盖 main 版本，导致每次采集把已审结论重置为 system-review、造成人工队列
+        # 重复消化同一批候选。此处不再做该覆盖。
         run: |
           review_branch="automation/player-question-candidates"
-          previous_candidates="$RUNNER_TEMP/player-question-candidates.json"
           git fetch origin main
-          git fetch origin "$review_branch" || true
-          if git show-ref --verify --quiet "refs/remotes/origin/$review_branch" && \
-             git cat-file -e "refs/remotes/origin/$review_branch:data/player-question-candidates.json"; then
-            git show "refs/remotes/origin/$review_branch:data/player-question-candidates.json" > "$previous_candidates"
-          fi
           git checkout -B "$review_branch" origin/main
-          if [[ -s "$previous_candidates" ]]; then
-            cp "$previous_candidates" data/player-question-candidates.json
-          fi
       - name: 收集新的 Reddit 问题候选
         env:
           REDDIT_USER_AGENT: linux:com.specialzhou.subnautica2guide:v0.2.0 (by /u/Comprehensive-Push20)

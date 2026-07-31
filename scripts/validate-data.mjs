@@ -90,8 +90,8 @@ for (const candidate of playerQuestionCandidates.candidates ?? []) {
   if (!candidate.redditId || candidateIds.has(candidate.redditId)) failures.push(`Invalid or duplicate player question candidate: ${candidate.redditId}`);
   candidateIds.add(candidate.redditId);
   if (publishedRedditIds.has(candidate.redditId)) failures.push(`Published Reddit question remains in candidate queue: ${candidate.redditId}`);
-  const allowedCandidateUrlPrefixes = ["https://www.reddit.com/r/Subnautica_2/comments/", "https://www.reddit.com/r/Subnautica/comments/"];
-  if (!allowedCandidateUrlPrefixes.some((prefix) => candidate.url?.startsWith(prefix)) || !candidate.title || !Number.isInteger(candidate.painScore)) failures.push(`Incomplete player question candidate: ${candidate.redditId}`);
+  const allowedCandidateUrlPattern = /^https:\/\/www\.reddit\.com\/r\/(subnautica_2|subnautica)\/comments\//i;
+  if (!allowedCandidateUrlPattern.test(candidate.url ?? "") || !candidate.title || !Number.isInteger(candidate.painScore)) failures.push(`Incomplete player question candidate: ${candidate.redditId}`);
   if (!candidate.review?.state || candidate.attention?.upvotes !== null) failures.push(`Candidate review or RSS attention boundary missing: ${candidate.redditId}`);
   if (Object.hasOwn(candidate, "body") || Object.hasOwn(candidate, "bodyText") || Object.hasOwn(candidate, "content")) failures.push(`Reddit post body was stored for candidate: ${candidate.redditId}`);
   if (!playerQuestionCandidateReport.includes(`](${candidate.url})`)) failures.push(`Candidate review report is missing: ${candidate.redditId}`);

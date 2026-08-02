@@ -914,7 +914,7 @@ function stripLocaleMetadata(html) {
     .replace(/<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-7R7JWG7M2S"><\/script><script>window\.dataLayer=[\s\S]*?gtag\('config','G-7R7JWG7M2S'\);<\/script>/g, "")
     .replace(/<button class="global-search-trigger"[^>]*>.*?<\/button>/g, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/gs, "")
-    .replace(/<span class="language-switcher"[^>]*>.*?<\/span>/g, "");
+    .replace(/<span\b(?=[^>]*\bclass="[^"]*\blanguage-switcher\b[^"]*")[^>]*>[\s\S]*?<\/span>/g, "");
 }
 
 function localPath(pagePath, locale) {

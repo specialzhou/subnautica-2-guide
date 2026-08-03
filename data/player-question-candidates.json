@@ -1,12 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-07-31T08:09:45.851Z",
+  "collectedAt": "2026-08-02T07:41:09.368Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
     "subreddits": [
-      "r/Subnautica_2",
-      "r/Subnautica"
+      "r/Subnautica_2"
     ],
     "feedUrl": "https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100, https://www.reddit.com/r/Subnautica/new/.rss?limit=100",
     "method": "public-atom-rss"
@@ -21,10 +20,10 @@
   "detailCursor": 0,
   "counts": {
     "total": 80,
-    "systemReview": 42,
+    "systemReview": 0,
     "readyToReply": 3,
-    "dismissed": 35,
-    "addedThisRun": 42
+    "dismissed": 77,
+    "addedThisRun": 2
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -119,7 +118,10 @@
     "1v6vuz5",
     "1v6vsqz",
     "1v6tkin",
-    "1v6i10g"
+    "1v6i10g",
+    "1vcaqyu",
+    "1vcaqdz",
+    "1vc9g0e"
   ],
   "candidates": [
     {
@@ -187,9 +189,10 @@
       "redditId": "1v7bhp2",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 专属基地建造问题（r/subnautica），站点为 SN2 攻略；社区给贴墙微调 workaround，无 SN2 对应官方证据，站方无安全增量。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -197,7 +200,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-07-31T08:09:45.851Z",
+        "lastErrorAt": "2026-08-02T07:41:09.368Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1v7bhp2/why_cant_i_center_this_locker/.rss?limit=500"
       },
       "title": "Why can't I center this locker?",
@@ -237,9 +240,10 @@
       "redditId": "1v7ltnq",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-08-03 审核：SN1 + 模组冲突（TweaksAndFixes 等）致 Cyclops 升级制造台无法打开；无原版/官方修复，按 remove 冲突模组处理属模组经验而非 SN2 官方答案，站方无安全增量。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -288,9 +292,10 @@
       "redditId": "1v7kt2k",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：社区行为讨论帖（为什么这么刻薄），非游戏问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -329,12 +334,70 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vcaqyu",
+      "firstSeenAt": "2026-08-02T07:41:09.368Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "not-applicable",
+        "notes": "2026-08-03 审核：SN2 多人组队/找人帖：社交/匹配问题，答案=官方 Discord/社区，非游戏机制事实；站方无安全增量内容，不回复。",
+        "reviewedAt": "2026-08-03"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 5,
+        "observedAt": "2026-08-02T07:41:09.368Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "How do I find people to play multiplayer with or does no one actually do that?",
+      "questionKey": "how do i find people to play multiplayer with or does no one actually do that",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vcaqyu/how_do_i_find_people_to_play_multiplayer_with_or/",
+      "publishedAt": "2026-08-01T02:24:09+00:00",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 11,
+      "signals": [
+        "where",
+        "how"
+      ],
+      "relatedSources": [
+        {
+          "redditId": "1vcaqdz",
+          "title": "How do I find people to play multiplayer with or does no one actually do that?",
+          "url": "https://www.reddit.com/r/Subnautica_2/comments/1vcaqdz/how_do_i_find_people_to_play_multiplayer_with_or/",
+          "publishedAt": "2026-08-01T02:23:20+00:00"
+        }
+      ],
+      "trafficValue": 1,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/where-to-find-sandspear.html",
+          "title": "Where can I find a Sandspear for the bioscan?",
+          "score": 0.33
+        },
+        {
+          "href": "starter-materials.html",
+          "title": "Find starter materials",
+          "score": 0.17
+        }
+      ],
+      "priorityScore": 25,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vb6l6h",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 进度询问（如何到 500m 基地），社区已解答（Degasi 信标/大暗礁）；SN1 内容，无 SN2 官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -382,16 +445,17 @@
       "redditId": "1v8eaqt",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 问题（浮岛是否有制造台），社区已解答；SN1 内容，无 SN2 对应官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 15,
+        "observedAt": "2026-08-02T07:41:09.368Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "Question about an early (I think?) game mechanic that I... had to swim a long time to find",
       "questionKey": "question about an early i think game mechanic that i had to swim a long time to find",
@@ -451,7 +515,7 @@
       "questionKey": "kind of stuck in game play",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaig57/kind_of_stuck_in_game_play/",
       "publishedAt": "2026-07-30T03:46:18+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -501,7 +565,7 @@
       "questionKey": "bug tadpoles keeps exploding no matter what i do",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8680z/bug_tadpoles_keeps_exploding_no_matter_what_i_do/",
       "publishedAt": "2026-07-27T17:00:03+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -529,71 +593,20 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v8jbmr",
-      "firstSeenAt": "2026-07-28T07:47:28.398Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-safe-current-answer",
-        "notes": "2026-07-29 审核：帖内已有共识答案（游戏内没有未扫描项清单，只能手持扫描器看橙点或用站外清单），且『游戏内不存在该功能』属否定性断言，官方补丁说明（EA 1.1，2026-07-08 Steam 公告）只提到 Biomod 解锁所需扫描数可见，未证实/否证完整清单，无法给出有官方证据的安全答案。与 1v8o9r3、1v8mjgf 同主题。未在 Reddit 发布任何内容。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked",
-        "lastErrorAt": "2026-07-28T07:47:28.398Z",
-        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1v8jbmr/is_there_a_list_anywhere_ingame_that_shows_things/.rss?limit=500"
-      },
-      "title": "Is there a list anywhere INGAME that shows things you still need to scan?",
-      "questionKey": "is there a list anywhere ingame that shows things you still need to scan",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8jbmr/is_there_a_list_anywhere_ingame_that_shows_things/",
-      "publishedAt": "2026-07-28T01:08:23+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 12,
-      "signals": [
-        "bug",
-        "where",
-        "how",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.22,
-      "suggestedPages": [
-        {
-          "href": "questions/scan-collector-leviathan-safely.html",
-          "title": "How do I bioscan the Collector Leviathan safely?",
-          "score": 0.22
-        },
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.11
-        },
-        {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
-          "score": 0.11
-        }
-      ],
-      "priorityScore": 22,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1vaw0gn",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1（手机端）Seamoth 卡地形 glitch；社区建议 repulsor/noclip，无官方修复；SN1 非 SN2 内容。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 12,
+        "observedAt": "2026-08-02T07:41:09.368Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "HELP! Seamoth stuck on terrain",
       "questionKey": "help seamoth stuck on terrain",
@@ -629,6 +642,58 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1v8jbmr",
+      "firstSeenAt": "2026-07-28T07:47:28.398Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "no-safe-current-answer",
+        "notes": "2026-07-29 审核：帖内已有共识答案（游戏内没有未扫描项清单，只能手持扫描器看橙点或用站外清单），且『游戏内不存在该功能』属否定性断言，官方补丁说明（EA 1.1，2026-07-08 Steam 公告）只提到 Biomod 解锁所需扫描数可见，未证实/否证完整清单，无法给出有官方证据的安全答案。与 1v8o9r3、1v8mjgf 同主题。未在 Reddit 发布任何内容。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked",
+        "lastErrorAt": "2026-07-28T07:47:28.398Z",
+        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1v8jbmr/is_there_a_list_anywhere_ingame_that_shows_things/.rss?limit=500"
+      },
+      "title": "Is there a list anywhere INGAME that shows things you still need to scan?",
+      "questionKey": "is there a list anywhere ingame that shows things you still need to scan",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8jbmr/is_there_a_list_anywhere_ingame_that_shows_things/",
+      "publishedAt": "2026-07-28T01:08:23+00:00",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 12,
+      "signals": [
+        "bug",
+        "where",
+        "how",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.22,
+      "suggestedPages": [
+        {
+          "href": "questions/scan-collector-leviathan-safely.html",
+          "title": "How do I bioscan the Collector Leviathan safely?",
+          "score": 0.22
+        },
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.11
+        },
+        {
+          "href": "questions/trailer-location-not-in-game.html",
+          "title": "Where is the large habitat shown in the trailer?",
+          "score": 0.11
+        }
+      ],
+      "priorityScore": 22,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1v8wg3p",
       "firstSeenAt": "2026-07-31T02:15:17.947Z",
       "review": {
@@ -648,7 +713,7 @@
       "questionKey": "what is everyone doing while waiting",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8wg3p/what_is_everyone_doing_while_waiting/",
       "publishedAt": "2026-07-28T12:01:05+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -678,9 +743,10 @@
       "redditId": "1v8d1hm",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 Seamoth 卡山体 glitch；社区建议 reaper 卡 bug/控制台，无官方修复；SN1 非 SN2。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -726,9 +792,10 @@
       "redditId": "1v6vsqz",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 水体物理失效 glitch，unstuck 按钮仅临时缓解；无官方永久修复；SN1 非 SN2。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -791,7 +858,7 @@
       "questionKey": "great base location maybe the best so far",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vb286o/great_base_location_maybe_the_best_so_far/",
       "publishedAt": "2026-07-30T18:38:47+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -884,9 +951,10 @@
       "redditId": "1v6tkin",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "resolved-in-thread",
+        "notes": "2026-08-03 审核：楼主已自回原帖确认解决（感染藏在山体下）；原帖自我关闭，无需回复。未在 Reddit 发布任何内容。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -940,9 +1008,10 @@
       "redditId": "1v6vuz5",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 基地建造（部件无法连接），社区解答为肋骨碰撞体阻挡；SN1 内容，无 SN2 官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1006,7 +1075,7 @@
       "questionKey": "why do i have such a bad performance",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9s7fv/why_do_i_have_such_a_bad_performance/",
       "publishedAt": "2026-07-29T10:26:26+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1098,7 +1167,7 @@
       "questionKey": "does anyone know how to craft new underwear",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uur0mi/does_anyone_know_how_to_craft_new_underwear/",
       "publishedAt": "2026-07-12T20:45:19+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "painScore": 10,
       "signals": [
         "how",
@@ -1121,9 +1190,10 @@
       "redditId": "1v82cjo",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 Cyclops 卡住 glitch；社区建议重建/读档/repulsion cannon，无官方修复；SN1 非 SN2。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1230,7 +1300,7 @@
       "questionKey": "where to find saves",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaa6ai/where_to_find_saves/",
       "publishedAt": "2026-07-29T21:47:40+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1278,7 +1348,7 @@
       "questionKey": "i can t destroy a survival or scanner",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaiaeg/i_cant_destroy_a_survival_or_scanner/",
       "publishedAt": "2026-07-30T03:38:36+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1308,12 +1378,63 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vc9g0e",
+      "firstSeenAt": "2026-08-02T07:41:09.368Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "bug-report-no-recovery",
+        "notes": "2026-08-03 审核：SN2 卡在地图下方 glitch，autosave 无法回退；社区称暂停菜单有 unstuck 按钮，但官方支持站无卡地图/unstuck 专文（仅有 Steam 下载卡住），无当前版本官方证据可引用；属已知 glitch，站方不杜撰修复。",
+        "reviewedAt": "2026-08-03"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Broken game",
+      "questionKey": "broken game",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vc9g0e/broken_game/",
+      "publishedAt": "2026-08-01T01:22:10+00:00",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "stuck",
+        "not-working",
+        "how"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/trailer-location-not-in-game.html",
+          "title": "Where is the large habitat shown in the trailer?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.5
+        }
+      ],
+      "priorityScore": 15,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1v7n5f5",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：基地选址观点讨论帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1359,9 +1480,10 @@
       "redditId": "1v6wlks",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：剧情/遭遇分享帖（龙王吃 Prawn），非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1409,7 +1531,7 @@
       "questionKey": "stuck at final angle tree for now",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vabpq8/stuck_at_final_angle_treefor_now/",
       "publishedAt": "2026-07-29T22:47:45+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -1442,9 +1564,10 @@
       "redditId": "1v87dym",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-current-official-evidence",
+        "notes": "2026-08-03 审核：SN2 jet-streams（洋流）去哪了：社区称某次更新移除（因其穿过玩家基地）；移除原因属社区解释，官方更新日志/Wiki 未找到可引用单点移除声明（已查 Update History 与 Currents 永久修订），无当前版本官方证据，站方不杜撰。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1585,9 +1708,10 @@
       "redditId": "1v90btr",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 大型异种蛋穿模出收容单元 bug；社区称游戏已登记会孵化，无官方修复；SN1 非 SN2。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1649,7 +1773,7 @@
       "questionKey": "tadpole won t dock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v7ylul/tadpole_wont_dock/",
       "publishedAt": "2026-07-27T12:12:13+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1697,7 +1821,7 @@
       "questionKey": "what is this growling rumbling",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v81x3v/what_is_this_growlingrumbling/",
       "publishedAt": "2026-07-27T14:25:13+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -1730,7 +1854,7 @@
       "questionKey": "angel comb bugged",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuswe2/angel_comb_bugged/",
       "publishedAt": "2026-07-12T22:00:56+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "painScore": 7,
       "signals": [
         "not-working",
@@ -1782,7 +1906,7 @@
       "questionKey": "i think im first who found new map bug in subnautica 2",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuiw0l/i_think_im_first_who_found_new_map_bug_in/",
       "publishedAt": "2026-07-12T15:42:01+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "painScore": 9,
       "signals": [
         "stuck",
@@ -1866,9 +1990,10 @@
       "redditId": "1v7atnd",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：SN2 文字量吐槽（观点/讨论），非可解问题；社区高赞仅称正式版会替换文本，无官方单点声明可引用。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -1916,9 +2041,10 @@
       "redditId": "1v97gto",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：通关后感怀 meme 帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2025,9 +2151,10 @@
       "redditId": "1vaveep",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：硬核通关+时间胶囊故事帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2073,9 +2200,10 @@
       "redditId": "1v7nzrf",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-current-official-evidence",
+        "notes": "2026-08-03 审核：SN2 扫描收集（75→80）进度询问；社区仅给 Reddit 列表链接，无官方可扫描物清单，站方无权威增量。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2112,9 +2240,10 @@
       "redditId": "1v73hdr",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 进度询问（该干嘛），社区已一致解答（探索/极光号）；SN1 内容，无 SN2 官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2322,9 +2451,10 @@
       "redditId": "1v8uplm",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "insufficient-official-story-evidence",
+        "notes": "2026-08-03 审核：SN2 通关后还能干嘛：社区高赞称全息影像即当前剧情终点；当前 EA 内容到此为止属社区共识、无单一官方声明可引用，且原帖已被解答，站方无安全增量。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2355,9 +2485,10 @@
       "redditId": "1v8ku3m",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：BZ（Below Zero）利维坦卡进 Ventgarden 的搞笑截图 meme，非问题；且非 SN2 内容。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2401,7 +2532,7 @@
       "questionKey": "bug i think",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v89xmq/bug_i_think/",
       "publishedAt": "2026-07-27T19:07:23+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2428,9 +2559,10 @@
       "redditId": "1v91w2u",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：时间胶囊玩法讨论帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2524,9 +2656,10 @@
       "redditId": "1v9hke3",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 新手建议帖，社区给泛用 tips；无单一权威答案且为 SN1 内容，无 SN2 官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2558,9 +2691,10 @@
       "redditId": "1vasq29",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：SN2 像 DLC 观点/讨论帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2625,7 +2759,7 @@
       "questionKey": "is this supposed to happen or is it just a well timed bug",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9x800/is_this_supposed_to_happen_or_is_it_just_a_well/",
       "publishedAt": "2026-07-29T14:06:33+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2658,9 +2792,10 @@
       "redditId": "1v95o27",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 PRAWN 操作技巧询问，社区给勾爪/跳跃技巧；SN1 内容，无 SN2 官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2707,9 +2842,10 @@
       "redditId": "1v7c3bo",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：粉丝同人画分享帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2770,7 +2906,7 @@
       "questionKey": "weird issue with building",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8k557/weird_issue_with_building/",
       "publishedAt": "2026-07-28T01:44:13+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2803,9 +2939,10 @@
       "redditId": "1v6i10g",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 地热厂/输电塔消失 bug（疑似 griefing 玩笑）；无官方修复，SN1 非 SN2。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -2869,7 +3006,7 @@
       "questionKey": "here is my base rate it and give me your ideas i would appreciate giving tip or advice for something to do",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v94r7g/here_is_my_base_rate_it_and_give_me_your_ideas_i/",
       "publishedAt": "2026-07-28T17:14:43+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -3081,9 +3218,10 @@
       "redditId": "1v8fsx3",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "bug-report-no-recovery",
+        "notes": "2026-08-03 审核：SN2 Tadpole 卡地图下方 glitch，Shiver 守护；社区称无指令基本无解、建议退出不存读档；无官方恢复路径/支持专文，站方不杜撰。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3113,9 +3251,10 @@
       "redditId": "1vbhjr5",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：SN2 是否会出第 4 种更快载具：对未发布内容的推测，社区提及游戏文件内 Trident（数据挖掘）；写社区推测为事实违反纪律，且属未发布内容，站方不回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3128,7 +3267,7 @@
       "questionKey": "whats the likelihood of having a 4th faster mode of transport",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vbhjr5/whats_the_likelihood_of_having_a_4thfaster_mode/",
       "publishedAt": "2026-07-31T05:22:29+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3167,7 +3306,7 @@
       "questionKey": "best way through the collector biome",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v90gjz/best_way_through_the_collector_biome/",
       "publishedAt": "2026-07-28T14:41:07+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "lastSeenAt": "2026-08-02T07:41:09.368Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3197,106 +3336,13 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v9j9v4",
-      "firstSeenAt": "2026-07-31T02:15:17.947Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-applicable",
-        "notes": "2026-07-31 审核：NoA 乱码对白：社区高赞称是剧情设计，但无官方来源证实『乱码=有意设计』，不能将社区说法写成确定事实；楼主已获回应。无安全答案。",
-        "reviewedAt": "2026-07-31"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Corrupted NoA dialog",
-      "questionKey": "corrupted noa dialog",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9j9v4/corrupted_noa_dialog/",
-      "publishedAt": "2026-07-29T02:37:32+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 6,
-      "signals": [
-        "bug",
-        "how",
-        "progression",
-        "performance"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "guide/items/noa-terminal.html",
-          "title": "NoA Terminal",
-          "score": 0.33
-        },
-        {
-          "href": "guide/biomes/dolerite-spires.html",
-          "title": "Dolerite Spires",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v8o9r3",
-      "firstSeenAt": "2026-07-28T07:47:28.398Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-safe-current-answer",
-        "notes": "2026-07-29 审核：帖内已有共识答案（暂无游戏内一键补全图鉴方式，只能用站外清单），否定性断言无官方证据可引用，且与 1v8jbmr 重复主题。未在 Reddit 发布任何内容。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Any convenient in-game way to complete the database?",
-      "questionKey": "any convenient in game way to complete the database",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8o9r3/any_convenient_ingame_way_to_complete_the_database/",
-      "publishedAt": "2026-07-28T04:56:52+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 6,
-      "signals": [
-        "bug",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.33
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.33
-        },
-        {
-          "href": "guide/creatures/deepwing-brooder.html",
-          "title": "Deepwing Brooder",
-          "score": 0.17
-        }
-      ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1vbesdt",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：找到 3 个时间胶囊故事帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3336,9 +3382,10 @@
       "redditId": "1v8dqhn",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "no-platform-specific-official-evidence",
+        "notes": "2026-08-03 审核：SN1 询问异种收容单元蓝图位置，社区已解答（球状区残骸）；SN1 内容，无 SN2 官方证据。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3368,9 +3415,10 @@
       "redditId": "1v9j3a5",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-applicable",
+        "notes": "2026-08-03 审核：第三方互动地图自荐帖，非问题；属推广，站方不引用不回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3418,9 +3466,10 @@
       "redditId": "1vb8er7",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：预购后终于通关故事帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3467,9 +3516,10 @@
       "redditId": "1v9oow2",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "bug-report-no-recovery",
+        "notes": "2026-08-03 审核：SN2 电网太阳能板发电量异常 glitch（大量太阳能板脱离断电，需拆建恢复）；社区称已知 bug 建议上报，无官方修复；属已知 glitch，站方不杜撰官方说法。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3516,9 +3566,10 @@
       "redditId": "1v95axr",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：Hoverfish 跟人疑似 bug 趣闻帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3558,9 +3609,10 @@
       "redditId": "1v8g1p3",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "insufficient-official-story-evidence",
+        "notes": "2026-08-03 审核：SN2 Cicada 主残骸剧情询问；社区解答（坠毁解体/创作者盒线索），部分源自爆料 leak，无官方单点可引用声明，且为 lore 讨论，站方无安全增量。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3605,9 +3657,10 @@
       "redditId": "1v822mh",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：饿死通关梗/meme 帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3638,9 +3691,10 @@
       "redditId": "1va8f5x",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：Cyclops 内饰布局讨论帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3686,9 +3740,10 @@
       "redditId": "1va7vsh",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：希望加更多前期生物群系观点/对未来的期待帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3733,9 +3788,10 @@
       "redditId": "1v8d7iu",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：高赞 meme 帖（虚张声势吓不到我），非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,
@@ -3780,9 +3836,10 @@
       "redditId": "1v9jcon",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-03 审核：帮我构思画利维坦的约稿/讨论帖，非问题；站方无需回复。",
+        "reviewedAt": "2026-08-03"
       },
       "attention": {
         "upvotes": null,

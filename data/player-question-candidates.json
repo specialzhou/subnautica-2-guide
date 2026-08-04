@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-08-02T07:41:09.368Z",
+  "collectedAt": "2026-08-03T08:42:31.084Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -21,9 +21,9 @@
   "counts": {
     "total": 80,
     "systemReview": 0,
-    "readyToReply": 3,
-    "dismissed": 77,
-    "addedThisRun": 2
+    "readyToReply": 4,
+    "dismissed": 76,
+    "addedThisRun": 4
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -121,7 +121,11 @@
     "1v6i10g",
     "1vcaqyu",
     "1vcaqdz",
-    "1vc9g0e"
+    "1vc9g0e",
+    "1ve4df5",
+    "1vdwk48",
+    "1vdl6sx",
+    "1vdkwlt"
   ],
   "candidates": [
     {
@@ -353,7 +357,7 @@
       "questionKey": "how do i find people to play multiplayer with or does no one actually do that",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vcaqyu/how_do_i_find_people_to_play_multiplayer_with_or/",
       "publishedAt": "2026-08-01T02:24:09+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -515,7 +519,7 @@
       "questionKey": "kind of stuck in game play",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaig57/kind_of_stuck_in_game_play/",
       "publishedAt": "2026-07-30T03:46:18+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -565,7 +569,7 @@
       "questionKey": "bug tadpoles keeps exploding no matter what i do",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8680z/bug_tadpoles_keeps_exploding_no_matter_what_i_do/",
       "publishedAt": "2026-07-27T17:00:03+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -662,7 +666,7 @@
       "questionKey": "is there a list anywhere ingame that shows things you still need to scan",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8jbmr/is_there_a_list_anywhere_ingame_that_shows_things/",
       "publishedAt": "2026-07-28T01:08:23+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -713,7 +717,7 @@
       "questionKey": "what is everyone doing while waiting",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8wg3p/what_is_everyone_doing_while_waiting/",
       "publishedAt": "2026-07-28T12:01:05+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -858,7 +862,7 @@
       "questionKey": "great base location maybe the best so far",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vb286o/great_base_location_maybe_the_best_so_far/",
       "publishedAt": "2026-07-30T18:38:47+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1075,7 +1079,7 @@
       "questionKey": "why do i have such a bad performance",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9s7fv/why_do_i_have_such_a_bad_performance/",
       "publishedAt": "2026-07-29T10:26:26+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1300,7 +1304,7 @@
       "questionKey": "where to find saves",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaa6ai/where_to_find_saves/",
       "publishedAt": "2026-07-29T21:47:40+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1348,7 +1352,7 @@
       "questionKey": "i can t destroy a survival or scanner",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaiaeg/i_cant_destroy_a_survival_or_scanner/",
       "publishedAt": "2026-07-30T03:38:36+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1397,7 +1401,7 @@
       "questionKey": "broken game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vc9g0e/broken_game/",
       "publishedAt": "2026-08-01T01:22:10+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1531,7 +1535,7 @@
       "questionKey": "stuck at final angle tree for now",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vabpq8/stuck_at_final_angle_treefor_now/",
       "publishedAt": "2026-07-29T22:47:45+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -1773,7 +1777,7 @@
       "questionKey": "tadpole won t dock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v7ylul/tadpole_wont_dock/",
       "publishedAt": "2026-07-27T12:12:13+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1821,7 +1825,7 @@
       "questionKey": "what is this growling rumbling",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v81x3v/what_is_this_growlingrumbling/",
       "publishedAt": "2026-07-27T14:25:13+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2532,7 +2536,7 @@
       "questionKey": "bug i think",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v89xmq/bug_i_think/",
       "publishedAt": "2026-07-27T19:07:23+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2759,7 +2763,7 @@
       "questionKey": "is this supposed to happen or is it just a well timed bug",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9x800/is_this_supposed_to_happen_or_is_it_just_a_well/",
       "publishedAt": "2026-07-29T14:06:33+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2906,7 +2910,7 @@
       "questionKey": "weird issue with building",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8k557/weird_issue_with_building/",
       "publishedAt": "2026-07-28T01:44:13+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3006,7 +3010,7 @@
       "questionKey": "here is my base rate it and give me your ideas i would appreciate giving tip or advice for something to do",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v94r7g/here_is_my_base_rate_it_and_give_me_your_ideas_i/",
       "publishedAt": "2026-07-28T17:14:43+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -3065,6 +3069,56 @@
       "answerability": 0,
       "suggestedPages": [],
       "priorityScore": 8
+    },
+    {
+      "redditId": "1vdkwlt",
+      "firstSeenAt": "2026-08-03T08:42:31.084Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-04 审核：分享/观点帖，非待解决的玩家求助问题。楼主“刚打完目前可用的剧情，惊讶于剧情中途停住”，评论区一致解释 SN2 为抢先体验（EA），剧情本就未完，且首作 EA 时期剧情更少（属社区共识/官方 EA 模式，非需站点解答的故障）。无破损游戏状态需修复，社区已充分说明。判定为非问题帖/讨论观点，dismissed。",
+        "reviewedAt": "2026-08-04"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 14,
+        "observedAt": "2026-08-03T08:42:31.084Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "I just finished the available part of the story",
+      "questionKey": "i just finished the available part of the story",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vdkwlt/i_just_finished_the_available_part_of_the_story/",
+      "publishedAt": "2026-08-02T15:25:10+00:00",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 7,
+      "signals": [
+        "bug",
+        "how",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.2,
+      "suggestedPages": [
+        {
+          "href": "guide/items/just-keep-swimming-poster.html",
+          "title": "Just Keep Swimming Poster",
+          "score": 0.2
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 8,
+      "possibleDuplicateOf": null
     },
     {
       "redditId": "1uubmg7",
@@ -3248,6 +3302,57 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1ve4df5",
+      "firstSeenAt": "2026-08-03T08:42:31.084Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "insufficient-information",
+        "notes": "2026-08-04 审核：原帖“The Great Trench might be much larger than we think”已被版主移除（标题与正文均显示 [removed]，移除原因为 Rule #6 剧透未标注）。原文不可检索，无可核对的玩家问题或安全答案，社区讨论仅围绕“剧透需标注”展开，非可解答问题。判定为信息不足/已移除，dismissed。",
+        "reviewedAt": "2026-08-04"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked",
+        "lastErrorAt": "2026-08-03T08:42:31.084Z",
+        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1ve4df5/the_great_trench_might_be_much_larger_than_we/.rss?limit=500"
+      },
+      "title": "The Great Trench might be much larger than we think — am I reading the scale correctly?",
+      "questionKey": "the great trench might be much larger than we think am i reading the scale correctly",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1ve4df5/the_great_trench_might_be_much_larger_than_we/",
+      "publishedAt": "2026-08-03T05:28:39+00:00",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 7,
+      "signals": [
+        "help",
+        "bug"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.1,
+      "suggestedPages": [
+        {
+          "href": "guide/items/lithium.html",
+          "title": "Lithium",
+          "score": 0.1
+        },
+        {
+          "href": "guide/resources/lithium.html",
+          "title": "Lithium",
+          "score": 0.1
+        },
+        {
+          "href": "questions/scout-ray-chassis-wont-fabricate.html",
+          "title": "Why won't the Scout Ray chassis fabricate?",
+          "score": 0.1
+        }
+      ],
+      "priorityScore": 8,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vbhjr5",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
@@ -3267,7 +3372,7 @@
       "questionKey": "whats the likelihood of having a 4th faster mode of transport",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vbhjr5/whats_the_likelihood_of_having_a_4thfaster_mode/",
       "publishedAt": "2026-07-31T05:22:29+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3306,7 +3411,7 @@
       "questionKey": "best way through the collector biome",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v90gjz/best_way_through_the_collector_biome/",
       "publishedAt": "2026-07-28T14:41:07+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3377,6 +3482,57 @@
       ],
       "priorityScore": 8,
       "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vdl6sx",
+      "firstSeenAt": "2026-08-03T08:42:31.084Z",
+      "review": {
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
+        "notes": "2026-08-04 审核：原帖未解决（楼主在 Karakorum Metal Farm/毒区边界被 Collector 抓死，困惑为何 Collector 离开其区域）。答案有当前版本官方证据：Subnautica 2 Wiki「Collector Leviathan」页（永久修订 oldid=19477）明确 “There are two of them in the game, with one patrolling the area above the Karakorum Metal Farms and the other in the trench in the Sparse Plains”。即绿色水池/金属农场上空本就是第二只 Collector 的巡逻区，属设计内行为而非 bug；Attitude: Aggressive，无法被杀死只能规避。社区评论称“会学习/陪你玩/给只 Tadpole 就放过你”属臆测，Wiki 未记载，不写入事实。站内深链 guide/creatures/collector-leviathan.html。已核验英文回复见审计报告与流量机会 Issue，站长复制即可。",
+        "reviewedAt": "2026-08-04"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 11,
+        "observedAt": "2026-08-03T08:42:31.084Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Does your collector comes out of his zone every now and then ?",
+      "questionKey": "does your collector comes out of his zone every now and then",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vdl6sx/does_your_collector_comes_out_of_his_zone_every/",
+      "publishedAt": "2026-08-02T15:36:30+00:00",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 5,
+      "signals": [
+        "where"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.3,
+      "suggestedPages": [
+        {
+          "href": "questions/scan-collector-leviathan-safely.html",
+          "title": "How do I bioscan the Collector Leviathan safely?",
+          "score": 0.3
+        },
+        {
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/expand-inventory-with-hacked-biobeds.html",
+          "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 7,
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "guide/creatures/collector-leviathan.html"
+      ]
     },
     {
       "redditId": "1v8dqhn",
@@ -3654,6 +3810,54 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vdwk48",
+      "firstSeenAt": "2026-08-03T08:42:31.084Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "not-a-question",
+        "notes": "2026-08-04 审核：观点/感受帖（“有人觉得 out-of-bounds leviathan 太有攻击性吗？”），非待解决的游戏问题。原帖自述误入边界被 Shiver Leviathan 追击，认为 aggro 范围应更远；评论区共识“它本就该如此，你不该在那儿”“这正是它的全部意义”。属游戏设计偏好讨论，无事实性故障需修复，社区已确认 working as intended。判定为观点帖，dismissed。",
+        "reviewedAt": "2026-08-04"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 14,
+        "observedAt": "2026-08-03T08:42:31.084Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "does anyone else feel like the out-of-bounds leviathan is too aggressive?",
+      "questionKey": "does anyone else feel like the out of bounds leviathan is too aggressive",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vdwk48/does_anyone_else_feel_like_the_outofbounds/",
+      "publishedAt": "2026-08-02T23:10:55+00:00",
+      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 5,
+      "signals": [
+        "bug"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.22,
+      "suggestedPages": [
+        {
+          "href": "guide/creatures/collector-leviathan.html",
+          "title": "Collector Leviathan",
+          "score": 0.22
+        },
+        {
+          "href": "guide/creatures/shiver-leviathan.html",
+          "title": "Shiver Leviathan",
+          "score": 0.22
+        },
+        {
+          "href": "guide/creatures/twin-sitaray.html",
+          "title": "Twin Sitaray",
+          "score": 0.22
+        }
+      ],
+      "priorityScore": 6,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1v822mh",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
@@ -3685,183 +3889,6 @@
       "answerability": 0,
       "suggestedPages": [],
       "priorityScore": 6,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1va8f5x",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：Cyclops 内饰布局讨论帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "I always end up building the interior of my Cyclops exactly the same way in every playthrough.",
-      "questionKey": "i always end up building the interior of my cyclops exactly the same way in every playthrough",
-      "url": "https://www.reddit.com/r/subnautica/comments/1va8f5x/i_always_end_up_building_the_interior_of_my/",
-      "publishedAt": "2026-07-29T20:41:42+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "how",
-        "crafting"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.1,
-      "suggestedPages": [
-        {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.1
-        },
-        {
-          "href": "guide/items/cyclops-poster.html",
-          "title": "Cyclops Poster",
-          "score": 0.1
-        },
-        {
-          "href": "guide/items/interior-arch.html",
-          "title": "Interior Arch",
-          "score": 0.1
-        }
-      ],
-      "priorityScore": 6,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1va7vsh",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：希望加更多前期生物群系观点/对未来的期待帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Anyone hope they add more early-game biomes?",
-      "questionKey": "anyone hope they add more early game biomes",
-      "url": "https://www.reddit.com/r/subnautica/comments/1va7vsh/anyone_hope_they_add_more_earlygame_biomes/",
-      "publishedAt": "2026-07-29T20:21:55+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "bug"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.25,
-      "suggestedPages": [
-        {
-          "href": "questions/cross-collector-canyon-safely.html",
-          "title": "How can I cross the Collector canyon without losing my Tadpole?",
-          "score": 0.25
-        },
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.25
-        },
-        {
-          "href": "locations.html",
-          "title": "Key locations",
-          "score": 0.13
-        }
-      ],
-      "priorityScore": 6,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v8d7iu",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：高赞 meme 帖（虚张声势吓不到我），非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Your bluffing doesn't scare me, game!",
-      "questionKey": "your bluffing doesn t scare me game",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v8d7iu/your_bluffing_doesnt_scare_me_game/",
-      "publishedAt": "2026-07-27T21:04:21+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "not-working"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.2,
-      "suggestedPages": [
-        {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 6,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v9jcon",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：帮我构思画利维坦的约稿/讨论帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Hey I need help",
-      "questionKey": "hey i need help",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v9jcon/hey_i_need_help/",
-      "publishedAt": "2026-07-29T02:41:03+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "help"
-      ],
-      "trafficValue": 0,
-      "answerability": 0,
-      "suggestedPages": [],
-      "priorityScore": 5,
       "possibleDuplicateOf": null
     }
   ]

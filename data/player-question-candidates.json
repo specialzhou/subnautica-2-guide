@@ -1,11 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-08-03T08:42:31.084Z",
+  "collectedAt": "2026-08-07T06:18:59.528Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
     "subreddits": [
-      "r/Subnautica_2"
+      "r/Subnautica_2",
+      "r/Subnautica"
     ],
     "feedUrl": "https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100, https://www.reddit.com/r/Subnautica/new/.rss?limit=100",
     "method": "public-atom-rss"
@@ -20,10 +21,10 @@
   "detailCursor": 0,
   "counts": {
     "total": 80,
-    "systemReview": 0,
+    "systemReview": 46,
     "readyToReply": 4,
-    "dismissed": 76,
-    "addedThisRun": 4
+    "dismissed": 30,
+    "addedThisRun": 46
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -125,9 +126,258 @@
     "1ve4df5",
     "1vdwk48",
     "1vdl6sx",
-    "1vdkwlt"
+    "1vdkwlt",
+    "1vgt4e7",
+    "1vgos9l",
+    "1vg6z4c",
+    "1vg6sqc",
+    "1vg023h",
+    "1vfsfxm",
+    "1vf8ili",
+    "1veyheb",
+    "1vebnmt",
+    "1vhox46",
+    "1vhoho6",
+    "1vhheec",
+    "1vhcfmh",
+    "1vh6bj9",
+    "1vh4n0y",
+    "1vh2m1m",
+    "1vgyj16",
+    "1vgp6iv",
+    "1vghg68",
+    "1vgcq9q",
+    "1vg6p0z",
+    "1vfwznm",
+    "1vfuoyq",
+    "1vfs295",
+    "1vff3yw",
+    "1vf9ksd",
+    "1vf6i73",
+    "1vf4sf9",
+    "1vex5ff",
+    "1vetuvk",
+    "1vet7iv",
+    "1veq1jm",
+    "1vemt2v",
+    "1ve6y5c",
+    "1ve0etp",
+    "1vdx42r",
+    "1vdpm5r",
+    "1vdp4bp",
+    "1vdp1k9",
+    "1vdm6ko",
+    "1vdislm",
+    "1vdexuh",
+    "1vder4b",
+    "1vdeh82",
+    "1vd9okz",
+    "1vd9kaf"
   ],
   "candidates": [
+    {
+      "redditId": "1ve6y5c",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked",
+        "lastErrorAt": "2026-08-07T06:18:59.528Z",
+        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1ve6y5c/second_base_any_advice_also_how_do_i_move_my/.rss?limit=500"
+      },
+      "title": "Second base, any advice? Also how do I move my prawn suit there?",
+      "questionKey": "second base any advice also how do i move my prawn suit there",
+      "url": "https://www.reddit.com/r/subnautica/comments/1ve6y5c/second_base_any_advice_also_how_do_i_move_my/",
+      "publishedAt": "2026-08-03T07:54:59+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 22,
+      "signals": [
+        "help",
+        "stuck",
+        "not-working",
+        "bug",
+        "where",
+        "how",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.33
+        },
+        {
+          "href": "questions/hanging-tailing-jar-wont-place.html",
+          "title": "Why won't the Hanging Tailing Jar place?",
+          "score": 0.22
+        },
+        {
+          "href": "base-building.html",
+          "title": "Base building",
+          "score": 0.11
+        }
+      ],
+      "priorityScore": 44,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vfsfxm",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 34,
+        "observedAt": "2026-08-07T06:18:59.528Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Anyone got any advice on how to bioscan the Collector Leviathan?",
+      "questionKey": "anyone got any advice on how to bioscan the collector leviathan",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vfsfxm/anyone_got_any_advice_on_how_to_bioscan_the/",
+      "publishedAt": "2026-08-05T00:49:52+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 15,
+      "signals": [
+        "help",
+        "how",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.43,
+      "suggestedPages": [
+        {
+          "href": "questions/scan-collector-leviathan-safely.html",
+          "title": "How do I bioscan the Collector Leviathan safely?",
+          "score": 0.43
+        },
+        {
+          "href": "guide/creatures/collector-leviathan.html",
+          "title": "Collector Leviathan",
+          "score": 0.29
+        },
+        {
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.29
+        }
+      ],
+      "priorityScore": 32,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vf8ili",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 16,
+        "observedAt": "2026-08-07T06:18:59.528Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "My tadpole is stuck; how can I get it out?",
+      "questionKey": "my tadpole is stuck how can i get it out",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vf8ili/my_tadpole_is_stuck_how_can_i_get_it_out/",
+      "publishedAt": "2026-08-04T12:09:00+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 16,
+      "signals": [
+        "stuck",
+        "not-working",
+        "how",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.25,
+      "suggestedPages": [
+        {
+          "href": "vehicle-planner.html",
+          "title": "Tadpole vehicle planner",
+          "score": 0.25
+        },
+        {
+          "href": "guide/items/tadpole.html",
+          "title": "Tadpole",
+          "score": 0.25
+        },
+        {
+          "href": "guide/items/tadpole-depth-module-mk-1.html",
+          "title": "Tadpole Depth Module Mk. 1",
+          "score": 0.25
+        }
+      ],
+      "priorityScore": 30,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vghg68",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 8,
+        "observedAt": "2026-08-07T06:18:59.528Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Base location help",
+      "questionKey": "base location help",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vghg68/base_location_help/",
+      "publishedAt": "2026-08-05T19:32:34+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 10,
+      "signals": [
+        "help",
+        "where",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 1,
+      "suggestedPages": [
+        {
+          "href": "questions/axum-lever-location.html",
+          "title": "Where is the lever after powering the Axum station?",
+          "score": 1
+        },
+        {
+          "href": "base-building.html",
+          "title": "Base building",
+          "score": 0.5
+        },
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.5
+        }
+      ],
+      "priorityScore": 30,
+      "possibleDuplicateOf": null
+    },
     {
       "redditId": "1uu1fdr",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
@@ -357,7 +607,7 @@
       "questionKey": "how do i find people to play multiplayer with or does no one actually do that",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vcaqyu/how_do_i_find_people_to_play_multiplayer_with_or/",
       "publishedAt": "2026-08-01T02:24:09+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -389,6 +639,45 @@
           "href": "starter-materials.html",
           "title": "Find starter materials",
           "score": 0.17
+        }
+      ],
+      "priorityScore": 25,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vg6z4c",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "I'm stuck on 79 bioscans",
+      "questionKey": "i m stuck on 79 bioscans",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vg6z4c/im_stuck_on_79_bioscans/",
+      "publishedAt": "2026-08-05T13:11:20+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 11,
+      "signals": [
+        "stuck",
+        "bug",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.5
         }
       ],
       "priorityScore": 25,
@@ -519,7 +808,7 @@
       "questionKey": "kind of stuck in game play",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaig57/kind_of_stuck_in_game_play/",
       "publishedAt": "2026-07-30T03:46:18+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -569,7 +858,7 @@
       "questionKey": "bug tadpoles keeps exploding no matter what i do",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8680z/bug_tadpoles_keeps_exploding_no_matter_what_i_do/",
       "publishedAt": "2026-07-27T17:00:03+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -666,7 +955,7 @@
       "questionKey": "is there a list anywhere ingame that shows things you still need to scan",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8jbmr/is_there_a_list_anywhere_ingame_that_shows_things/",
       "publishedAt": "2026-07-28T01:08:23+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -717,7 +1006,7 @@
       "questionKey": "what is everyone doing while waiting",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8wg3p/what_is_everyone_doing_while_waiting/",
       "publishedAt": "2026-07-28T12:01:05+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -843,6 +1132,48 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vf4sf9",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "how do i fix this?",
+      "questionKey": "how do i fix this",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vf4sf9/how_do_i_fix_this/",
+      "publishedAt": "2026-08-04T08:51:22+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 1,
+      "suggestedPages": [
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 1
+        },
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 1
+        }
+      ],
+      "priorityScore": 21,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vb286o",
       "firstSeenAt": "2026-07-31T02:15:17.947Z",
       "review": {
@@ -862,7 +1193,7 @@
       "questionKey": "great base location maybe the best so far",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vb286o/great_base_location_maybe_the_best_so_far/",
       "publishedAt": "2026-07-30T18:38:47+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -952,6 +1283,48 @@
       "priorityScore": 20
     },
     {
+      "redditId": "1vd9okz",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Dying is… ok, actually?",
+      "questionKey": "dying is ok actually",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vd9okz/dying_is_ok_actually/",
+      "publishedAt": "2026-08-02T05:44:56+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 13,
+      "signals": [
+        "help",
+        "bug",
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.5
+        }
+      ],
+      "priorityScore": 20,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1v6tkin",
       "firstSeenAt": "2026-07-31T08:09:45.851Z",
       "review": {
@@ -1007,6 +1380,45 @@
           "open"
         ]
       }
+    },
+    {
+      "redditId": "1vf9ksd",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Stuck PRAWN 😢",
+      "questionKey": "stuck prawn",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vf9ksd/stuck_prawn/",
+      "publishedAt": "2026-08-04T12:55:37+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 9,
+      "signals": [
+        "help",
+        "stuck",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.5
+        }
+      ],
+      "priorityScore": 20,
+      "possibleDuplicateOf": null
     },
     {
       "redditId": "1v6vuz5",
@@ -1079,7 +1491,7 @@
       "questionKey": "why do i have such a bad performance",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9s7fv/why_do_i_have_such_a_bad_performance/",
       "publishedAt": "2026-07-29T10:26:26+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1152,6 +1564,54 @@
       "priorityScore": 19
     },
     {
+      "redditId": "1vet7iv",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Where do I find crash logs? Fresh install with no mods experiencing crashes, haven't had this on previous installs",
+      "questionKey": "where do i find crash logs fresh install with no mods experiencing crashes haven t had this on previous installs",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vet7iv/where_do_i_find_crash_logs_fresh_install_with_no/",
+      "publishedAt": "2026-08-03T23:14:17+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 11,
+      "signals": [
+        "bug",
+        "where"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.17,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.17
+        },
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.17
+        },
+        {
+          "href": "starter-materials.html",
+          "title": "Find starter materials",
+          "score": 0.08
+        }
+      ],
+      "priorityScore": 19,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1uur0mi",
       "firstSeenAt": "2026-07-16T13:36:29.680Z",
       "review": {
@@ -1189,6 +1649,73 @@
         }
       ],
       "priorityScore": 19
+    },
+    {
+      "redditId": "1vff3yw",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Why doesn't she say anything? Is the fixing completed correctly?",
+      "questionKey": "why doesn t she say anything is the fixing completed correctly",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vff3yw/why_doesnt_she_say_anything_is_the_fixing/",
+      "publishedAt": "2026-08-04T16:22:38+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 12,
+      "signals": [
+        "not-working",
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0,
+      "suggestedPages": [],
+      "priorityScore": 18,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vemt2v",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Don’t know how to progress [SPOILER]",
+      "questionKey": "don t know how to progress",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vemt2v/dont_know_how_to_progress_spoiler/",
+      "publishedAt": "2026-08-03T19:08:57+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 12,
+      "signals": [
+        "bug",
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0,
+      "suggestedPages": [],
+      "priorityScore": 18,
+      "possibleDuplicateOf": null
     },
     {
       "redditId": "1v82cjo",
@@ -1285,6 +1812,280 @@
       "priorityScore": 17
     },
     {
+      "redditId": "1vgos9l",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Need help with the final angel comb",
+      "questionKey": "need help with the final angel comb",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vgos9l/need_help_with_the_final_angel_comb/",
+      "publishedAt": "2026-08-06T00:20:01+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "help",
+        "not-working",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.67
+        },
+        {
+          "href": "questions/where-to-find-axum-resonator.html",
+          "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.67
+        }
+      ],
+      "priorityScore": 17,
+      "possibleDuplicateOf": {
+        "id": "angel-comb-main-cankers-stuck",
+        "score": 0.67,
+        "sharedTerms": [
+          "angel",
+          "comb"
+        ]
+      }
+    },
+    {
+      "redditId": "1ve0etp",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Set scanner room to locate silver ore, followed the markers in my hud, swam pretty nearby to open sea, all of a sudden tons of resources started populating around me. Everything from copper ore, to ruby’s, and even a thermoblade????? Why did this happen?",
+      "questionKey": "set scanner room to locate silver ore followed the markers in my hud swam pretty nearby to open sea all of a sudden tons of resources started populating around me everything from copper ore to ruby s and even a thermoblade why did this happen",
+      "url": "https://www.reddit.com/r/subnautica/comments/1ve0etp/set_scanner_room_to_locate_silver_ore_followed/",
+      "publishedAt": "2026-08-03T02:07:32+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 10,
+      "signals": [
+        "how",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.13,
+      "suggestedPages": [
+        {
+          "href": "questions/expand-inventory-with-hacked-biobeds.html",
+          "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.13
+        },
+        {
+          "href": "questions/wall-rack-blueprint-location.html",
+          "title": "Where are the Wall Rack blueprint fragments?",
+          "score": 0.1
+        },
+        {
+          "href": "starter-materials.html",
+          "title": "Find starter materials",
+          "score": 0.06
+        }
+      ],
+      "priorityScore": 17,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vdx42r",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Keep Calm Poster - Why do you torment me??",
+      "questionKey": "keep calm poster why do you torment me",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdx42r/keep_calm_poster_why_do_you_torment_me/",
+      "publishedAt": "2026-08-02T23:35:14+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.6,
+      "suggestedPages": [
+        {
+          "href": "guide/items/keep-calm-poster.html",
+          "title": "Keep Calm Poster",
+          "score": 0.6
+        },
+        {
+          "href": "guide/items/just-keep-swimming-poster.html",
+          "title": "Just Keep Swimming Poster",
+          "score": 0.4
+        },
+        {
+          "href": "guide/items/chbc-live-poster.html",
+          "title": "CHBC Live Poster",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 17,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vgcq9q",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Using Cyclops to go deeper?",
+      "questionKey": "using cyclops to go deeper",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vgcq9q/using_cyclops_to_go_deeper/",
+      "publishedAt": "2026-08-05T16:44:59+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 12,
+      "signals": [
+        "help",
+        "not-working",
+        "where",
+        "how",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "guide/items/cyclops-poster.html",
+          "title": "Cyclops Poster",
+          "score": 0.33
+        }
+      ],
+      "priorityScore": 16,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1veyheb",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Why are the Axum so low tech and why don't they have needle rifles.",
+      "questionKey": "why are the axum so low tech and why don t they have needle rifles",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1veyheb/why_are_the_axum_so_low_tech_and_why_dont_they/",
+      "publishedAt": "2026-08-04T03:07:21+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 9,
+      "signals": [
+        "not-working",
+        "where",
+        "how",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.22,
+      "suggestedPages": [
+        {
+          "href": "questions/where-to-find-axum-resonator.html",
+          "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.22
+        },
+        {
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.22
+        },
+        {
+          "href": "questions/expand-inventory-with-hacked-biobeds.html",
+          "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.22
+        }
+      ],
+      "priorityScore": 16,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vhox46",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Why isn’t it letting me in?",
+      "questionKey": "why isn t it letting me in",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vhox46/why_isnt_it_letting_me_in/",
+      "publishedAt": "2026-08-07T03:03:39+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.5
+        }
+      ],
+      "priorityScore": 16,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vaa6ai",
       "firstSeenAt": "2026-07-31T02:15:17.947Z",
       "review": {
@@ -1304,7 +2105,7 @@
       "questionKey": "where to find saves",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaa6ai/where_to_find_saves/",
       "publishedAt": "2026-07-29T21:47:40+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1333,6 +2134,104 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vh2m1m",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "My little sisters progress is too slow and i worrying about her",
+      "questionKey": "my little sisters progress is too slow and i worrying about her",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vh2m1m/my_little_sisters_progress_is_too_slow_and_i/",
+      "publishedAt": "2026-08-06T12:17:26+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 12,
+      "signals": [
+        "help",
+        "bug",
+        "where",
+        "how",
+        "progression",
+        "performance"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.22,
+      "suggestedPages": [
+        {
+          "href": "questions/where-to-find-sandspear.html",
+          "title": "Where can I find a Sandspear for the bioscan?",
+          "score": 0.22
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.11
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.11
+        }
+      ],
+      "priorityScore": 15,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vf6i73",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Games similar to Subnautica 2?",
+      "questionKey": "games similar to subnautica 2",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vf6i73/games_similar_to_subnautica_2/",
+      "publishedAt": "2026-08-04T10:28:53+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 11,
+      "signals": [
+        "bug",
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.33
+        },
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.33
+        }
+      ],
+      "priorityScore": 15,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vaiaeg",
       "firstSeenAt": "2026-07-31T02:15:17.947Z",
       "review": {
@@ -1352,7 +2251,7 @@
       "questionKey": "i can t destroy a survival or scanner",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vaiaeg/i_cant_destroy_a_survival_or_scanner/",
       "publishedAt": "2026-07-30T03:38:36+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1401,7 +2300,7 @@
       "questionKey": "broken game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vc9g0e/broken_game/",
       "publishedAt": "2026-08-01T01:22:10+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1516,6 +2415,54 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vg023h",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "I blasted two of the virus note thingies but the pda hasn’t said the thing is cleared, and I can’t find any other nodes here. Are they in a different cave or something? Where’s the final virus node",
+      "questionKey": "i blasted two of the virus note thingies but the pda hasn t said the thing is cleared and i can t find any other nodes here are they in a different cave or something where s the final virus node",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vg023h/i_blasted_two_of_the_virus_note_thingies_but_the/",
+      "publishedAt": "2026-08-05T07:08:51+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 8,
+      "signals": [
+        "where",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.13,
+      "suggestedPages": [
+        {
+          "href": "questions/where-to-find-sandspear.html",
+          "title": "Where can I find a Sandspear for the bioscan?",
+          "score": 0.13
+        },
+        {
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.13
+        },
+        {
+          "href": "questions/expand-inventory-with-hacked-biobeds.html",
+          "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.13
+        }
+      ],
+      "priorityScore": 14,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vabpq8",
       "firstSeenAt": "2026-07-31T02:15:17.947Z",
       "review": {
@@ -1535,7 +2482,7 @@
       "questionKey": "stuck at final angle tree for now",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vabpq8/stuck_at_final_angle_treefor_now/",
       "publishedAt": "2026-07-29T22:47:45+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -1559,6 +2506,150 @@
           "href": "questions/angel-comb-main-cankers-stuck.html",
           "title": "Why won't the last Angel Comb cankers open?",
           "score": 0.2
+        }
+      ],
+      "priorityScore": 14,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vex5ff",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Favorite Early-Mid game Base Location?",
+      "questionKey": "favorite early mid game base location",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vex5ff/favorite_earlymid_game_base_location/",
+      "publishedAt": "2026-08-04T02:05:46+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "where"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "questions/trailer-location-not-in-game.html",
+          "title": "Where is the large habitat shown in the trailer?",
+          "score": 0.33
+        },
+        {
+          "href": "questions/axum-lever-location.html",
+          "title": "Where is the lever after powering the Axum station?",
+          "score": 0.33
+        },
+        {
+          "href": "base-building.html",
+          "title": "Base building",
+          "score": 0.17
+        }
+      ],
+      "priorityScore": 14,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vdp4bp",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Build system bugs",
+      "questionKey": "build system bugs",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdp4bp/build_system_bugs/",
+      "publishedAt": "2026-08-02T18:11:39+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "bug",
+        "how",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "guide/items/engine-efficiency.html",
+          "title": "Engine Efficiency",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/rebreather.html",
+          "title": "Rebreather",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/scanner-station.html",
+          "title": "Scanner Station",
+          "score": 0.33
+        }
+      ],
+      "priorityScore": 14,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vdm6ko",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Is there a way to disable base damage from creature attack?",
+      "questionKey": "is there a way to disable base damage from creature attack",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdm6ko/is_there_a_way_to_disable_base_damage_from/",
+      "publishedAt": "2026-08-02T16:15:38+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "not-working",
+        "bug"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.38,
+      "suggestedPages": [
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.38
+        },
+        {
+          "href": "questions/hanging-tailing-jar-wont-place.html",
+          "title": "Why won't the Hanging Tailing Jar place?",
+          "score": 0.25
+        },
+        {
+          "href": "questions/where-to-find-sandspear.html",
+          "title": "Where can I find a Sandspear for the bioscan?",
+          "score": 0.25
         }
       ],
       "priorityScore": 14,
@@ -1608,114 +2699,12 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1uupyuw",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
+      "redditId": "1vh4n0y",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "duplicate-official-hotfix",
-        "notes": "已读取原帖和评论。Unknown Worlds Hotfix 4 明确修复 Angel Comb 对部分玩家不打开、阻断进度的问题；不采纳评论中数量和路线互相矛盾的说法，复用既有 Hotfix 4 答案即可。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 3,
-        "observedAt": "2026-07-17T07:29:41.666Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count",
-        "lastErrorAt": "2026-07-24T07:42:08.425Z",
-        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1uupyuw/alien_base_infested_flower_bug/.rss?limit=500"
-      },
-      "title": "Alien base Infested flower bug",
-      "questionKey": "alien base infested flower bug",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uupyuw/alien_base_infested_flower_bug/",
-      "publishedAt": "2026-07-12T20:04:35+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 7,
-      "signals": [
-        "not-working",
-        "bug",
-        "progression"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 1,
-      "answerability": 0.2,
-      "suggestedPages": [
-        {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.2
-        },
-        {
-          "href": "guide/items/freesia-flower.html",
-          "title": "Freesia Flower",
-          "score": 0.2
-        },
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 13
-    },
-    {
-      "redditId": "1ut6nqu",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "已读取原帖和评论；唯一回复是 Xbox 上偶尔有效的重启经验，而原帖为 PC 多人存档。未找到当前官方补丁或支持说明，不能将该经验发布为解决方案。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 2,
-        "observedAt": "2026-07-22T07:42:45.326Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "No more music and sound issue in Update 1.1?",
-      "questionKey": "no more music and sound issue in update 1 1",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1ut6nqu/no_more_music_and_sound_issue_in_update_11/",
-      "publishedAt": "2026-07-11T01:38:41+00:00",
-      "lastSeenAt": "2026-07-26T07:46:11.824Z",
-      "painScore": 9,
-      "signals": [
-        "bug",
-        "where"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.4,
-      "suggestedPages": [
-        {
-          "href": "questions/cross-collector-canyon-safely.html",
-          "title": "How can I cross the Collector canyon without losing my Tadpole?",
-          "score": 0.4
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 13
-    },
-    {
-      "redditId": "1v90btr",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "2026-08-03 审核：SN1 大型异种蛋穿模出收容单元 bug；社区称游戏已登记会孵化，无官方修复；SN1 非 SN2。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -1724,35 +2713,127 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Large alien eggs phasing through alien containment unit problem. Help needed.",
-      "questionKey": "large alien eggs phasing through alien containment unit problem help needed",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v90btr/large_alien_eggs_phasing_through_alien/",
-      "publishedAt": "2026-07-28T14:36:11+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "I got unstuck out of the aurora but now I have a menu and I'm still lost",
+      "questionKey": "i got unstuck out of the aurora but now i have a menu and i m still lost",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vh4n0y/i_got_unstuck_out_of_the_aurora_but_now_i_have_a/",
+      "publishedAt": "2026-08-06T13:43:00+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 11,
       "signals": [
-        "help",
-        "not-working",
-        "bug"
+        "stuck",
+        "bug",
+        "where",
+        "how"
       ],
       "trafficValue": 0,
-      "answerability": 0.2,
+      "answerability": 0.18,
       "suggestedPages": [
         {
-          "href": "guide/items/wall-unit-large.html",
-          "title": "Wall Unit Large",
-          "score": 0.2
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.18
         },
         {
-          "href": "guide/items/roof-antenna-large.html",
-          "title": "Roof Antenna Large",
-          "score": 0.1
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.18
         },
         {
-          "href": "guide/items/roof-panel-large.html",
-          "title": "Roof Panel Large",
-          "score": 0.1
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.18
+        }
+      ],
+      "priorityScore": 13,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vfwznm",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Why do subnautica youtube content creator keep spoiling everything in thumbnail?",
+      "questionKey": "why do subnautica youtube content creator keep spoiling everything in thumbnail",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vfwznm/why_do_subnautica_youtube_content_creator_keep/",
+      "publishedAt": "2026-08-05T04:23:33+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.25,
+      "suggestedPages": [
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.25
+        },
+        {
+          "href": "guide/items/just-keep-swimming-poster.html",
+          "title": "Just Keep Swimming Poster",
+          "score": 0.13
+        },
+        {
+          "href": "guide/items/keep-calm-poster.html",
+          "title": "Keep Calm Poster",
+          "score": 0.13
+        }
+      ],
+      "priorityScore": 13,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vdislm",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "[SN2] What does this line in the EA 1.1 patch notes mean?",
+      "questionKey": "what does this line in the ea 1 1 patch notes mean",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdislm/sn2_what_does_this_line_in_the_ea_11_patch_notes/",
+      "publishedAt": "2026-08-02T13:58:20+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.25,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.25
+        },
+        {
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.25
         }
       ],
       "priorityScore": 13,
@@ -1777,7 +2858,7 @@
       "questionKey": "tadpole won t dock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1v7ylul/tadpole_wont_dock/",
       "publishedAt": "2026-07-27T12:12:13+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1803,38 +2884,6 @@
           "score": 0.33
         }
       ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v81x3v",
-      "firstSeenAt": "2026-07-28T07:47:28.398Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-safe-current-answer",
-        "notes": "2026-07-29 审核：询问环境音来源，评论区两种猜测（Deepwing Brooder / Collector Leviathan）互相冲突，无官方来源标注环境音归属，无法不把社区猜测写成事实。未在 Reddit 发布任何内容。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 11,
-        "observedAt": "2026-07-28T07:47:28.398Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "what is this growling/rumbling?",
-      "questionKey": "what is this growling rumbling",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v81x3v/what_is_this_growlingrumbling/",
-      "publishedAt": "2026-07-27T14:25:13+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 8,
-      "signals": [
-        "how",
-        "crafting"
-      ],
-      "trafficValue": 1,
-      "answerability": 0,
-      "suggestedPages": [],
       "priorityScore": 12,
       "possibleDuplicateOf": null
     },
@@ -1891,113 +2940,12 @@
       "priorityScore": 12
     },
     {
-      "redditId": "1uuiw0l",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
+      "redditId": "1vfs295",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "bug-report-no-recovery",
-        "notes": "地形穿模报告，评论确认是长期问题但没有安全、可验证的恢复方法；不适合写成解决攻略。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 4,
-        "observedAt": "2026-07-20T08:18:27.103Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "I think im first who found new map bug in subnautica 2",
-      "questionKey": "i think im first who found new map bug in subnautica 2",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uuiw0l/i_think_im_first_who_found_new_map_bug_in/",
-      "publishedAt": "2026-07-12T15:42:01+00:00",
-      "lastSeenAt": "2026-08-02T07:41:09.368Z",
-      "painScore": 9,
-      "signals": [
-        "stuck",
-        "bug",
-        "how"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.29,
-      "suggestedPages": [
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.29
-        },
-        {
-          "href": "guide/items/basic-first-aid-kit.html",
-          "title": "Basic First Aid Kit",
-          "score": 0.14
-        },
-        {
-          "href": "guide/items/enhanced-first-aid-kit.html",
-          "title": "Enhanced First Aid Kit",
-          "score": 0.14
-        }
-      ],
-      "priorityScore": 12
-    },
-    {
-      "redditId": "1uu1yb3",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "bug-report-no-recovery",
-        "notes": "Tadpole 被 Collector 打入地图外是有效 Bug 报告，但目前没有安全恢复方案，不应写成攻略。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 1,
-        "observedAt": "2026-07-21T07:42:36.095Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "2 lost tadpoles + wings and upgrades in 2 hours of playing",
-      "questionKey": "2 lost tadpoles wings and upgrades in 2 hours of playing",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu1yb3/2_lost_tadpoles_wings_and_upgrades_in_2_hours_of/",
-      "publishedAt": "2026-07-12T01:42:10+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 9,
-      "signals": [
-        "bug",
-        "how",
-        "progression"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.29,
-      "suggestedPages": [
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.29
-        },
-        {
-          "href": "equipment-upgrades.html",
-          "title": "Equipment upgrades",
-          "score": 0.14
-        },
-        {
-          "href": "guide/items/lost-river-poster.html",
-          "title": "Lost River Poster",
-          "score": 0.14
-        }
-      ],
-      "priorityScore": 12
-    },
-    {
-      "redditId": "1v7atnd",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：SN2 文字量吐槽（观点/讨论），非可解问题；社区高赞仅称正式版会替换文本，无官方单点声明可引用。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2006,459 +2954,48 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Am I the only one feeling Sn2 is bloated with text?",
-      "questionKey": "am i the only one feeling sn2 is bloated with text",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v7atnd/am_i_the_only_one_feeling_sn2_is_bloated_with_text/",
-      "publishedAt": "2026-07-26T17:49:17+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "Is there a good place to dive below 300m without getting instantly killed? (No major spoilers please)",
+      "questionKey": "is there a good place to dive below 300m without getting instantly killed no major spoilers please",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vfs295/is_there_a_good_place_to_dive_below_300m_without/",
+      "publishedAt": "2026-08-05T00:32:51+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
-      "painScore": 10,
+      "painScore": 11,
       "signals": [
         "help",
-        "not-working",
-        "bug",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.17,
-      "suggestedPages": [
-        {
-          "href": "guide/creatures/hoverthorn.html",
-          "title": "Hoverthorn",
-          "score": 0.17
-        },
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.17
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.17
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v97gto",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：通关后感怀 meme 帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "You ever just sat back after beating this game, and let this thought set in?",
-      "questionKey": "you ever just sat back after beating this game and let this thought set in",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v97gto/you_ever_just_sat_back_after_beating_this_game/",
-      "publishedAt": "2026-07-28T18:48:58+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 9,
-      "signals": [
-        "help",
-        "not-working",
-        "how"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.33
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.25
-        },
-        {
-          "href": "questions/cross-collector-canyon-safely.html",
-          "title": "How can I cross the Collector canyon without losing my Tadpole?",
-          "score": 0.17
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vak8a4",
-      "firstSeenAt": "2026-07-31T02:15:17.947Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-applicable",
-        "notes": "2026-07-31 审核：与已入库 ready-to-reply 候选 1v7ylul（Moonpool 尺寸/停靠反馈，流量机会 Issue #51）主题重复；且 36 条评论已充分解答（Scout Ray Chassis 按展开尺寸建造，需扩建 Moonpool 长度并移开已停靠 Tadpole）。重复且已解决。",
-        "reviewedAt": "2026-07-31"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Tadpole Scout Ray Chassis can't be created, it says the moonpool is too narrow",
-      "questionKey": "tadpole scout ray chassis can t be created it says the moonpool is too narrow",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vak8a4/tadpole_scout_ray_chassis_cant_be_created_it_says/",
-      "publishedAt": "2026-07-30T05:16:12+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 8,
-      "signals": [
-        "not-working",
-        "how",
-        "crafting"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.56,
-      "suggestedPages": [
-        {
-          "href": "questions/scout-ray-chassis-wont-fabricate.html",
-          "title": "Why won't the Scout Ray chassis fabricate?",
-          "score": 0.56
-        },
-        {
-          "href": "guide/items/tadpole-scout-ray-chassis.html",
-          "title": "Tadpole Scout Ray Chassis",
-          "score": 0.44
-        },
-        {
-          "href": "guide/vehicles/tadpole-scout-ray-chassis.html",
-          "title": "Tadpole Scout Ray Chassis",
-          "score": 0.44
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": {
-        "id": "scout-ray-chassis-wont-fabricate",
-        "score": 0.56,
-        "sharedTerms": [
-          "scout",
-          "ray",
-          "chassis",
-          "moonpool",
-          "too"
-        ]
-      }
-    },
-    {
-      "redditId": "1vaveep",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：硬核通关+时间胶囊故事帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Finished my first Hardcore run. If you find my time capsule, please don't eat my pets. Minor spoilers in terms of unlockable items.",
-      "questionKey": "finished my first hardcore run if you find my time capsule please don t eat my pets minor spoilers in terms of unlockable items",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vaveep/finished_my_first_hardcore_run_if_you_find_my/",
-      "publishedAt": "2026-07-30T14:35:00+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 7,
-      "signals": [
-        "where",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.12,
-      "suggestedPages": [
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.12
-        },
-        {
-          "href": "starter-materials.html",
-          "title": "Find starter materials",
-          "score": 0.06
-        },
-        {
-          "href": "guide/items/basic-first-aid-kit.html",
-          "title": "Basic First Aid Kit",
-          "score": 0.06
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v7nzrf",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-current-official-evidence",
-        "notes": "2026-08-03 审核：SN2 扫描收集（75→80）进度询问；社区仅给 Reddit 列表链接，无官方可扫描物清单，站方无权威增量。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Trying to Scan Everything",
-      "questionKey": "trying to scan everything",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v7nzrf/trying_to_scan_everything/",
-      "publishedAt": "2026-07-27T02:45:40+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 6,
-      "signals": [
-        "bug",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "questions/scan-collector-leviathan-safely.html",
-          "title": "How do I bioscan the Collector Leviathan safely?",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v73hdr",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "2026-08-03 审核：SN1 进度询问（该干嘛），社区已一致解答（探索/极光号）；SN1 内容，无 SN2 官方证据。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "I'm not sure what I should be doing rn",
-      "questionKey": "i m not sure what i should be doing rn",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v73hdr/im_not_sure_what_i_should_be_doing_rn/",
-      "publishedAt": "2026-07-26T13:09:24+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 6,
-      "signals": [
-        "where",
         "how",
         "crafting",
         "progression"
       ],
-      "trafficValue": 1,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 12,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1uu6y2k",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "insufficient-context",
-        "notes": "正文为空且依赖截图，只能确认低帧率和硬件利用率问题；没有可复用、可验证的解决方案。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 13,
-        "observedAt": "2026-07-17T07:44:14.908Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Ugh why?",
-      "questionKey": "ugh why",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu6y2k/ugh_why/",
-      "publishedAt": "2026-07-12T05:54:28+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 7,
-      "signals": [
-        "how"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 1,
-      "answerability": 0,
-      "suggestedPages": [],
-      "priorityScore": 11
-    },
-    {
-      "redditId": "1utdw5d",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-current-official-evidence",
-        "notes": "已读取原帖和评论；重建面板或改用其他电源均是社区 workaround。当前官方 Hotfix 4 未列太阳能板供电问题，不能把社区经验写成已验证修复。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 4,
-        "observedAt": "2026-07-23T17:02:24.150Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Bug since the update?",
-      "questionKey": "bug since the update",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1utdw5d/bug_since_the_update/",
-      "publishedAt": "2026-07-11T07:57:28+00:00",
-      "lastSeenAt": "2026-07-26T07:46:11.824Z",
-      "painScore": 7,
-      "signals": [
-        "bug"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
       "trafficValue": 0,
-      "answerability": 0.5,
+      "answerability": 0.08,
       "suggestedPages": [
         {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.5
-        }
-      ],
-      "priorityScore": 11
-    },
-    {
-      "redditId": "1uu6l2e",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "duplicate-official-hotfix",
-        "notes": "已读取原帖和评论。评论对感染生物重生的解释没有官方来源；其仍无法打开 Angel Comb 的主问题已被 Unknown Worlds Hotfix 4 明确修复，重复既有答案而不扩写推测机制。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 3,
-        "observedAt": "2026-07-23T17:02:24.150Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Subnautica 2 Glitch",
-      "questionKey": "subnautica 2 glitch",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uu6l2e/subnautica_2_glitch/",
-      "publishedAt": "2026-07-12T05:35:06+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 7,
-      "signals": [
-        "not-working",
-        "bug",
-        "progression"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.5,
-      "suggestedPages": [
-        {
-          "href": "questions/livekernelevent-141-hp-omen-crash.html",
-          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.5
-        }
-      ],
-      "priorityScore": 11
-    },
-    {
-      "redditId": "1utpteq",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "duplicate-official-hotfix",
-        "notes": "与 EA 1.1 引入的 Angel Comb 动画/进度问题重复，官方 Hotfix 4 已覆盖。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 2,
-        "observedAt": "2026-07-22T07:42:45.326Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Juvenile angle comb both opened and closed??",
-      "questionKey": "juvenile angle comb both opened and closed",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1utpteq/juvenile_angle_comb_both_opened_and_closed/",
-      "publishedAt": "2026-07-11T17:15:31+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 8,
-      "signals": [
-        "not-working",
-        "how",
-        "progression"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.43,
-      "suggestedPages": [
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.43
-        },
-        {
-          "href": "questions/where-to-find-axum-resonator.html",
-          "title": "Where is the Axum Resonator in EA 1.1?",
-          "score": 0.29
+          "href": "guide/items/dive-elevator.html",
+          "title": "Dive Elevator",
+          "score": 0.08
         },
         {
           "href": "questions/water-without-killing-slugs.html",
           "title": "Can I make Water without killing Water Slugs?",
-          "score": 0.14
+          "score": 0.08
+        },
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.08
         }
       ],
-      "priorityScore": 11
+      "priorityScore": 12,
+      "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v8uplm",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1veq1jm",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "insufficient-official-story-evidence",
-        "notes": "2026-08-03 审核：SN2 通关后还能干嘛：社区高赞称全息影像即当前剧情终点；当前 EA 内容到此为止属社区共识、无单一官方声明可引用，且原帖已被解答，站方无安全增量。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2467,63 +3004,97 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "What do I do now?",
-      "questionKey": "what do i do now",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v8uplm/what_do_i_do_now/",
-      "publishedAt": "2026-07-28T10:44:41+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "Can someone point me to the latest and greatest troubleshooting guide for the DirectX issue with Subnautica 2?",
+      "questionKey": "can someone point me to the latest and greatest troubleshooting guide for the directx issue with subnautica 2",
+      "url": "https://www.reddit.com/r/subnautica/comments/1veq1jm/can_someone_point_me_to_the_latest_and_greatest/",
+      "publishedAt": "2026-08-03T21:08:12+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
-      "painScore": 7,
+      "painScore": 10,
       "signals": [
         "not-working",
+        "bug",
+        "crafting"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.2,
+      "suggestedPages": [
+        {
+          "href": "questions/expand-inventory-with-hacked-biobeds.html",
+          "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 12,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vdeh82",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Anyone else tired of the shiver leviathan hate?",
+      "questionKey": "anyone else tired of the shiver leviathan hate",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdeh82/anyone_else_tired_of_the_shiver_leviathan_hate/",
+      "publishedAt": "2026-08-02T10:22:22+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 9,
+      "signals": [
+        "where",
+        "how",
         "crafting",
         "progression"
       ],
-      "trafficValue": 1,
-      "answerability": 0,
-      "suggestedPages": [],
-      "priorityScore": 11,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v8ku3m",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：BZ（Below Zero）利维坦卡进 Ventgarden 的搞笑截图 meme，非问题；且非 SN2 内容。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "How does this even happen??",
-      "questionKey": "how does this even happen",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v8ku3m/how_does_this_even_happen/",
-      "publishedAt": "2026-07-28T02:14:51+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 7,
-      "signals": [
-        "how"
+      "trafficValue": 0,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "guide/creatures/shiver-leviathan.html",
+          "title": "Shiver Leviathan",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/reaper-leviathan.html",
+          "title": "Reaper Leviathan",
+          "score": 0.17
+        },
+        {
+          "href": "guide/creatures/collector-leviathan.html",
+          "title": "Collector Leviathan",
+          "score": 0.17
+        }
       ],
-      "trafficValue": 1,
-      "answerability": 0,
-      "suggestedPages": [],
-      "priorityScore": 11,
+      "priorityScore": 12,
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v89xmq",
-      "firstSeenAt": "2026-07-28T07:47:28.398Z",
+      "redditId": "1vhheec",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "insufficient-information",
-        "notes": "2026-07-29 审核：一次性崩溃描述，无复现步骤、无存档损失、零评论，官方渠道无对应已知问题条目，信息不足且无可复用答案。未在 Reddit 发布任何内容。"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2532,41 +3103,37 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Bug I think?",
-      "questionKey": "bug i think",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v89xmq/bug_i_think/",
-      "publishedAt": "2026-07-27T19:07:23+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
+      "title": "I’ve lost my prawn",
+      "questionKey": "i ve lost my prawn",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vhheec/ive_lost_my_prawn/",
+      "publishedAt": "2026-08-06T21:32:04+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 8,
       "signals": [
-        "bug"
+        "help",
+        "bug",
+        "how"
       ],
       "trafficValue": 0,
       "answerability": 0.5,
       "suggestedPages": [
         {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "href": "guide/items/lost-river-poster.html",
+          "title": "Lost River Poster",
           "score": 0.5
         }
       ],
-      "priorityScore": 11,
+      "priorityScore": 12,
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v91w2u",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vg6p0z",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：时间胶囊玩法讨论帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2575,95 +3142,45 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "What did you do with your time capsules?",
-      "questionKey": "what did you do with your time capsules",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v91w2u/what_did_you_do_with_your_time_capsules/",
-      "publishedAt": "2026-07-28T15:32:50+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "My Cuddlefish that I released decided to float into my base to say hello! Why have the 'F8 to report bugs' pop-up if these same bugs are still here 8 years later?",
+      "questionKey": "my cuddlefish that i released decided to float into my base to say hello why have the f8 to report bugs pop up if these same bugs are still here 8 years later",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vg6p0z/my_cuddlefish_that_i_released_decided_to_float/",
+      "publishedAt": "2026-08-05T12:59:42+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
+      "painScore": 7,
       "signals": [
         "how"
       ],
       "trafficValue": 1,
-      "answerability": 0.4,
+      "answerability": 0.11,
       "suggestedPages": [
+        {
+          "href": "questions/wall-rack-blueprint-location.html",
+          "title": "Where are the Wall Rack blueprint fragments?",
+          "score": 0.11
+        },
+        {
+          "href": "questions/hanging-tailing-jar-wont-place.html",
+          "title": "Why won't the Hanging Tailing Jar place?",
+          "score": 0.11
+        },
         {
           "href": "questions/expand-inventory-with-hacked-biobeds.html",
           "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.4
-        },
-        {
-          "href": "guide/items/time-of-day-display.html",
-          "title": "Time of Day Display",
-          "score": 0.2
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.2
+          "score": 0.11
         }
       ],
-      "priorityScore": 11,
+      "priorityScore": 12,
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1utx73j",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
+      "redditId": "1vfuoyq",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "unsafe-unverified-attribution",
-        "notes": "已读取原帖。官方支持仅在“更新后启动即崩溃且曾安装模组”时建议先移除所有模组；删除 dwmapi.dll 只针对使用 UE4SS 的玩家。原帖将文件归因于 CurseForge 且给出泛化删除建议，不能安全复用。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 0,
-        "observedAt": "2026-07-23T17:02:24.150Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Game crashing at load? Got CurseForge?",
-      "questionKey": "game crashing at load got curseforge",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1utx73j/game_crashing_at_load_got_curseforge/",
-      "publishedAt": "2026-07-11T22:09:28+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 7,
-      "signals": [
-        "bug",
-        "how"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.4,
-      "suggestedPages": [
-        {
-          "href": "questions/livekernelevent-141-hp-omen-crash.html",
-          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
-          "score": 0.4
-        },
-        {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 10
-    },
-    {
-      "redditId": "1v9hke3",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "2026-08-03 审核：SN1 新手建议帖，社区给泛用 tips；无单一权威答案且为 SN1 内容，无 SN2 官方证据。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2672,18 +3189,64 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Beginner Tips?",
-      "questionKey": "beginner tips",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v9hke3/beginner_tips/",
-      "publishedAt": "2026-07-29T01:21:36+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "What was your most boneheaded move in game?",
+      "questionKey": "what was your most boneheaded move in game",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vfuoyq/what_was_your_most_boneheaded_move_in_game/",
+      "publishedAt": "2026-08-05T02:32:12+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 6,
+      "signals": [
+        "where",
+        "performance"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.17,
+      "suggestedPages": [
+        {
+          "href": "questions/trailer-location-not-in-game.html",
+          "title": "Where is the large habitat shown in the trailer?",
+          "score": 0.17
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.17
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.17
+        }
+      ],
+      "priorityScore": 11,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vetuvk",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "I... Help?",
+      "questionKey": "i help",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vetuvk/i_help/",
+      "publishedAt": "2026-08-03T23:41:59+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 10,
       "signals": [
-        "stuck",
-        "how",
-        "crafting",
-        "progression"
+        "help",
+        "not-working"
       ],
       "trafficValue": 0,
       "answerability": 0,
@@ -2692,13 +3255,12 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1vasq29",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vdexuh",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：SN2 像 DLC 观点/讨论帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2707,50 +3269,79 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Subnautica 2 is just a really well packed DLC",
-      "questionKey": "subnautica 2 is just a really well packed dlc",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vasq29/subnautica_2_is_just_a_really_well_packed_dlc/",
-      "publishedAt": "2026-07-30T12:48:47+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "What were you doing instead to completing the main story?",
+      "questionKey": "what were you doing instead to completing the main story",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdexuh/what_were_you_doing_instead_to_completing_the/",
+      "publishedAt": "2026-08-02T10:49:19+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
-      "painScore": 8,
+      "painScore": 6,
       "signals": [
-        "not-working",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.14,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.14
+        },
+        {
+          "href": "questions/axum-lever-location.html",
+          "title": "Where is the lever after powering the Axum station?",
+          "score": 0.14
+        },
+        {
+          "href": "questions/where-to-find-axum-resonator.html",
+          "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.14
+        }
+      ],
+      "priorityScore": 10,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vgp6iv",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Help",
+      "questionKey": "help",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vgp6iv/help/",
+      "publishedAt": "2026-08-06T00:37:41+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 9,
+      "signals": [
+        "help",
         "where",
-        "how",
         "crafting",
         "progression"
       ],
       "trafficValue": 0,
-      "answerability": 0.17,
-      "suggestedPages": [
-        {
-          "href": "guide/items/just-keep-swimming-poster.html",
-          "title": "Just Keep Swimming Poster",
-          "score": 0.17
-        },
-        {
-          "href": "questions/livekernelevent-141-hp-omen-crash.html",
-          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
-          "score": 0.17
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.17
-        }
-      ],
+      "answerability": 0,
+      "suggestedPages": [],
       "priorityScore": 9,
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v9x800",
-      "firstSeenAt": "2026-07-31T02:15:17.947Z",
+      "redditId": "1vdp1k9",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "not-applicable",
-        "notes": "2026-07-31 审核：角色发色变化是否为设计如此：无官方证据，社区仅有猜测（生物模组效果 vs UE 头发渲染 bug），不能把猜测写成事实，无安全答案。",
-        "reviewedAt": "2026-07-31"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2759,132 +3350,32 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Is this supposed to happen or is it just a well timed bug?",
-      "questionKey": "is this supposed to happen or is it just a well timed bug",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v9x800/is_this_supposed_to_happen_or_is_it_just_a_well/",
-      "publishedAt": "2026-07-29T14:06:33+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 8,
-      "signals": [
-        "bug",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.17,
-      "suggestedPages": [
-        {
-          "href": "guide/items/just-keep-swimming-poster.html",
-          "title": "Just Keep Swimming Poster",
-          "score": 0.17
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.17
-        },
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.17
-        }
-      ],
-      "priorityScore": 9,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v95o27",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "2026-08-03 审核：SN1 PRAWN 操作技巧询问，社区给勾爪/跳跃技巧；SN1 内容，无 SN2 官方证据。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Tips for navigating with the PRAWN? I have the grapple arm and jump boost and STILL I somehow feel like it's impossible to pilot...",
-      "questionKey": "tips for navigating with the prawn i have the grapple arm and jump boost and still i somehow feel like it s impossible to pilot",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v95o27/tips_for_navigating_with_the_prawn_i_have_the/",
-      "publishedAt": "2026-07-28T17:46:52+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "I am proud to announce that I finally bought the trilogy! I can't wait to play ALL of 'em! Any tips, guys?",
+      "questionKey": "i am proud to announce that i finally bought the trilogy i can t wait to play all of em any tips guys",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdp1k9/i_am_proud_to_announce_that_i_finally_bought_the/",
+      "publishedAt": "2026-08-02T18:08:47+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 8,
       "signals": [
-        "not-working",
-        "how",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.13,
-      "suggestedPages": [
-        {
-          "href": "questions/where-to-find-axum-resonator.html",
-          "title": "Where is the Axum Resonator in EA 1.1?",
-          "score": 0.13
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.13
-        },
-        {
-          "href": "guide/creatures/twin-sitaray.html",
-          "title": "Twin Sitaray",
-          "score": 0.06
-        }
-      ],
-      "priorityScore": 9,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v7c3bo",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：粉丝同人画分享帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Is this actually that bad or have I been staring at it for too long? I've lost the motivation to finish the body.",
-      "questionKey": "is this actually that bad or have i been staring at it for too long i ve lost the motivation to finish the body",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v7c3bo/is_this_actually_that_bad_or_have_i_been_staring/",
-      "publishedAt": "2026-07-26T18:35:47+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 8,
-      "signals": [
-        "bug",
-        "crafting"
+        "not-working"
       ],
       "trafficValue": 0,
       "answerability": 0.09,
       "suggestedPages": [
         {
-          "href": "guide/items/lost-river-poster.html",
-          "title": "Lost River Poster",
+          "href": "guide/items/quartz.html",
+          "title": "Quartz",
           "score": 0.09
         },
         {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
+          "href": "guide/items/titanium.html",
+          "title": "Titanium",
           "score": 0.09
         },
         {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
+          "href": "guide/creatures/deepwing-brooder.html",
+          "title": "Deepwing Brooder",
           "score": 0.09
         }
       ],
@@ -2892,12 +3383,12 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v8k557",
-      "firstSeenAt": "2026-07-28T07:47:28.398Z",
+      "redditId": "1vhoho6",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "no-safe-current-answer",
-        "notes": "2026-07-29 审核：门无法放在墙体正中，评论仅有『建造系统就是这样/可能是残留附着物』等推测，楼主自查后仍未定位原因；官方补丁说明无对应修复条目，无当前版本证据支撑任何结论。未在 Reddit 发布任何内容。"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -2906,318 +3397,40 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Weird issue with building",
-      "questionKey": "weird issue with building",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v8k557/weird_issue_with_building/",
-      "publishedAt": "2026-07-28T01:44:13+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "bug",
-        "crafting"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.33
-        },
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.33
-        },
-        {
-          "href": "questions/hanging-tailing-jar-wont-place.html",
-          "title": "Why won't the Hanging Tailing Jar place?",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 9,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v6i10g",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "2026-08-03 审核：SN1 地热厂/输电塔消失 bug（疑似 griefing 玩笑）；无官方修复，SN1 非 SN2。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Thermal plant and power transmitters disappearing",
-      "questionKey": "thermal plant and power transmitters disappearing",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v6i10g/thermal_plant_and_power_transmitters_disappearing/",
-      "publishedAt": "2026-07-25T19:48:38+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "Subnautica 2 start extremely confusing.",
+      "questionKey": "subnautica 2 start extremely confusing",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vhoho6/subnautica_2_start_extremely_confusing/",
+      "publishedAt": "2026-08-07T02:43:12+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 7,
       "signals": [
-        "stuck",
+        "bug",
         "where",
-        "crafting",
-        "progression"
+        "how",
+        "crafting"
       ],
       "trafficValue": 0,
-      "answerability": 0.33,
+      "answerability": 0.25,
       "suggestedPages": [
-        {
-          "href": "guide/items/atacamite.html",
-          "title": "Atacamite",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/celestine.html",
-          "title": "Celestine",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/conduit-crystal.html",
-          "title": "Conduit Crystal",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 9,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v94r7g",
-      "firstSeenAt": "2026-07-31T02:15:17.947Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-applicable",
-        "notes": "2026-07-31 审核：Base Tour 求评分帖，非求助问题。",
-        "reviewedAt": "2026-07-31"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Here is my base rate it and give me your ideas I would appreciate giving tip or advice for something to do",
-      "questionKey": "here is my base rate it and give me your ideas i would appreciate giving tip or advice for something to do",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v94r7g/here_is_my_base_rate_it_and_give_me_your_ideas_i/",
-      "publishedAt": "2026-07-28T17:14:43+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 5,
-      "signals": [
-        "help"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.15,
-      "suggestedPages": [
-        {
-          "href": "questions/wall-rack-blueprint-location.html",
-          "title": "Where are the Wall Rack blueprint fragments?",
-          "score": 0.15
-        },
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.15
-        },
         {
           "href": "starter-planner.html",
           "title": "Start here",
-          "score": 0.08
+          "score": 0.25
+        },
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.25
+        },
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.25
         }
       ],
       "priorityScore": 9,
       "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1usxxac",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "resolved-existing-content",
-        "notes": "正文询问世界树下巨洞名称，评论已一致回答为 Void；站内已有 Void 生态区页面，不再新增攻略。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 26,
-        "observedAt": "2026-07-20T08:18:27.103Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "where am i",
-      "questionKey": "where am i",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1usxxac/where_am_i/",
-      "publishedAt": "2026-07-10T19:40:17+00:00",
-      "lastSeenAt": "2026-07-25T07:28:45.434Z",
-      "painScore": 5,
-      "signals": [
-        "where",
-        "crafting"
-      ],
-      "possibleDuplicateOf": null,
-      "trafficValue": 1,
-      "answerability": 0,
-      "suggestedPages": [],
-      "priorityScore": 8
-    },
-    {
-      "redditId": "1vdkwlt",
-      "firstSeenAt": "2026-08-03T08:42:31.084Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-04 审核：分享/观点帖，非待解决的玩家求助问题。楼主“刚打完目前可用的剧情，惊讶于剧情中途停住”，评论区一致解释 SN2 为抢先体验（EA），剧情本就未完，且首作 EA 时期剧情更少（属社区共识/官方 EA 模式，非需站点解答的故障）。无破损游戏状态需修复，社区已充分说明。判定为非问题帖/讨论观点，dismissed。",
-        "reviewedAt": "2026-08-04"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 14,
-        "observedAt": "2026-08-03T08:42:31.084Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "I just finished the available part of the story",
-      "questionKey": "i just finished the available part of the story",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vdkwlt/i_just_finished_the_available_part_of_the_story/",
-      "publishedAt": "2026-08-02T15:25:10+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "bug",
-        "how",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.2,
-      "suggestedPages": [
-        {
-          "href": "guide/items/just-keep-swimming-poster.html",
-          "title": "Just Keep Swimming Poster",
-          "score": 0.2
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1uubmg7",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "resolved-in-thread",
-        "notes": "评论已解释远距离击破开放 canker 的流程，原作者的描述不足以证明生成 Bug；不应把推测升级成攻略。",
-        "reviewedAt": "2026-07-24"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 7,
-        "observedAt": "2026-07-19T07:36:00.722Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Bloom canker not spawning",
-      "questionKey": "bloom canker not spawning",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1uubmg7/bloom_canker_not_spawning/",
-      "publishedAt": "2026-07-12T10:20:35+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "painScore": 5,
-      "signals": [
-        "bug",
-        "progression"
-      ],
-      "possibleDuplicateOf": {
-        "id": "angel-comb-main-cankers-stuck",
-        "score": 0.67,
-        "sharedTerms": [
-          "bloom",
-          "canker"
-        ]
-      },
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 0,
-      "answerability": 0.67,
-      "suggestedPages": [
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.67
-        },
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 8
-    },
-    {
-      "redditId": "1utgnvn",
-      "firstSeenAt": "2026-07-16T13:36:29.680Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "insufficient-official-story-evidence",
-        "notes": "已读取原帖和评论；评论明确是玩家推测且称剧情尚未完整。未找到可核验的官方日志或永久修订来源，不能把 NoA 重印规则写成事实。",
-        "reviewedAt": "2026-07-25"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 5,
-        "observedAt": "2026-07-24T07:42:08.425Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "What were the requirements for/when could NoA reprint and/or reset people?",
-      "questionKey": "what were the requirements for when could noa reprint and or reset people",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1utgnvn/what_were_the_requirements_forwhen_could_noa/",
-      "publishedAt": "2026-07-11T10:39:22+00:00",
-      "lastSeenAt": "2026-07-28T07:47:28.398Z",
-      "painScore": 5,
-      "signals": [
-        "how"
-      ],
-      "possibleDuplicateOf": null,
-      "sourceSubreddit": "r/Subnautica_2",
-      "trafficValue": 1,
-      "answerability": 0.11,
-      "suggestedPages": [
-        {
-          "href": "guide/items/noa-terminal.html",
-          "title": "NoA Terminal",
-          "score": 0.11
-        },
-        {
-          "href": "guide/biomes/dolerite-spires.html",
-          "title": "Dolerite Spires",
-          "score": 0.11
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.11
-        }
-      ],
-      "priorityScore": 8
     },
     {
       "redditId": "1ut24gk",
@@ -3269,13 +3482,12 @@
       "priorityScore": 8
     },
     {
-      "redditId": "1v8fsx3",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vgyj16",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "bug-report-no-recovery",
-        "notes": "2026-08-03 审核：SN2 Tadpole 卡地图下方 glitch，Shiver 守护；社区称无指令基本无解、建议退出不存读档；无官方恢复路径/支持专文，站方不杜撰。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -3284,16 +3496,17 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "SN2 help",
-      "questionKey": "sn2 help",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v8fsx3/sn2_help/",
-      "publishedAt": "2026-07-27T22:43:21+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "1.1 Adaptive Measures destroyed FPS?",
+      "questionKey": "1 1 adaptive measures destroyed fps",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vgyj16/11_adaptive_measures_destroyed_fps/",
+      "publishedAt": "2026-08-06T08:38:57+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 8,
       "signals": [
-        "help",
-        "stuck"
+        "crafting",
+        "progression",
+        "performance"
       ],
       "trafficValue": 0,
       "answerability": 0,
@@ -3302,64 +3515,139 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1ve4df5",
-      "firstSeenAt": "2026-08-03T08:42:31.084Z",
+      "redditId": "1vd9kaf",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "insufficient-information",
-        "notes": "2026-08-04 审核：原帖“The Great Trench might be much larger than we think”已被版主移除（标题与正文均显示 [removed]，移除原因为 Rule #6 剧透未标注）。原文不可检索，无可核对的玩家问题或安全答案，社区讨论仅围绕“剧透需标注”展开，非可解答问题。判定为信息不足/已移除，dismissed。",
-        "reviewedAt": "2026-08-04"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
         "comments": null,
         "observedAt": null,
         "approximate": true,
-        "method": "not-checked",
-        "lastErrorAt": "2026-08-03T08:42:31.084Z",
-        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1ve4df5/the_great_trench_might_be_much_larger_than_we/.rss?limit=500"
+        "method": "not-checked"
       },
-      "title": "The Great Trench might be much larger than we think — am I reading the scale correctly?",
-      "questionKey": "the great trench might be much larger than we think am i reading the scale correctly",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1ve4df5/the_great_trench_might_be_much_larger_than_we/",
-      "publishedAt": "2026-08-03T05:28:39+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "title": "Annoying glitch",
+      "questionKey": "annoying glitch",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vd9kaf/annoying_glitch/",
+      "publishedAt": "2026-08-02T05:38:31+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 8,
+      "signals": [
+        "help",
+        "bug",
+        "crafting",
+        "performance"
+      ],
+      "trafficValue": 0,
+      "answerability": 0,
+      "suggestedPages": [],
+      "priorityScore": 8,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vg6sqc",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "\"Compiling Initial Shaders\" upon every single launch, is this normal?",
+      "questionKey": "compiling initial shaders upon every single launch is this normal",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vg6sqc/compiling_initial_shaders_upon_every_single/",
+      "publishedAt": "2026-08-05T13:03:46+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
-        "help",
+        "not-working",
         "bug"
       ],
       "trafficValue": 0,
-      "answerability": 0.1,
+      "answerability": 0.13,
       "suggestedPages": [
         {
-          "href": "guide/items/lithium.html",
-          "title": "Lithium",
-          "score": 0.1
+          "href": "guide/items/single-bed.html",
+          "title": "Single Bed",
+          "score": 0.13
         },
         {
-          "href": "guide/resources/lithium.html",
-          "title": "Lithium",
-          "score": 0.1
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.13
+        }
+      ],
+      "priorityScore": 8,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vhcfmh",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "I miss the old moonpool.",
+      "questionKey": "i miss the old moonpool",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vhcfmh/i_miss_the_old_moonpool/",
+      "publishedAt": "2026-08-06T18:26:14+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 6,
+      "signals": [
+        "bug",
+        "how",
+        "crafting",
+        "performance"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "guide/items/moonpool.html",
+          "title": "Moonpool",
+          "score": 0.33
+        },
+        {
+          "href": "questions/wall-rack-blueprint-location.html",
+          "title": "Where are the Wall Rack blueprint fragments?",
+          "score": 0.33
         },
         {
           "href": "questions/scout-ray-chassis-wont-fabricate.html",
           "title": "Why won't the Scout Ray chassis fabricate?",
-          "score": 0.1
+          "score": 0.33
         }
       ],
       "priorityScore": 8,
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1vbhjr5",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vdpm5r",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：SN2 是否会出第 4 种更快载具：对未发布内容的推测，社区提及游戏文件内 Trident（数据挖掘）；写社区推测为事实违反纪律，且属未发布内容，站方不回复。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -3368,115 +3656,24 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "whats the likelihood of having a 4th(faster) mode of transport?",
-      "questionKey": "whats the likelihood of having a 4th faster mode of transport",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vbhjr5/whats_the_likelihood_of_having_a_4thfaster_mode/",
-      "publishedAt": "2026-07-31T05:22:29+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "bug",
-        "how"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.14,
-      "suggestedPages": [
-        {
-          "href": "questions/livekernelevent-141-hp-omen-crash.html",
-          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
-          "score": 0.14
-        }
-      ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v90gjz",
-      "firstSeenAt": "2026-07-31T02:15:17.947Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-applicable",
-        "notes": "2026-07-31 审核：Collector 生物群系穿越技巧：62 条评论已给大量玩家经验方案（贴地贴边、消音升级、伪装生物模组等）；纯经验类且无官方证据，社区已充分解答。",
-        "reviewedAt": "2026-07-31"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Best Way Through The Collector Biome?",
-      "questionKey": "best way through the collector biome",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1v90gjz/best_way_through_the_collector_biome/",
-      "publishedAt": "2026-07-28T14:41:07+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "help",
-        "bug"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.2,
-      "suggestedPages": [
-        {
-          "href": "guide/creatures/collector-leviathan.html",
-          "title": "Collector Leviathan",
-          "score": 0.2
-        },
-        {
-          "href": "guide/creatures/deepwing-brooder.html",
-          "title": "Deepwing Brooder",
-          "score": 0.2
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vbesdt",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：找到 3 个时间胶囊故事帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "I can't make this up ngl",
-      "questionKey": "i can t make this up ngl",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vbesdt/i_cant_make_this_up_ngl/",
-      "publishedAt": "2026-07-31T03:08:14+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "Cyclops flying",
+      "questionKey": "cyclops flying",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vdpm5r/cyclops_flying/",
+      "publishedAt": "2026-08-02T18:30:41+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 5,
       "signals": [
-        "not-working"
+        "not-working",
+        "how",
+        "crafting"
       ],
       "trafficValue": 0,
       "answerability": 0.5,
       "suggestedPages": [
         {
-          "href": "questions/water-without-killing-slugs.html",
-          "title": "Can I make Water without killing Water Slugs?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/scout-ray-chassis-wont-fabricate.html",
-          "title": "Why won't the Scout Ray chassis fabricate?",
+          "href": "guide/items/cyclops-poster.html",
+          "title": "Cyclops Poster",
           "score": 0.5
         }
       ],
@@ -3503,7 +3700,7 @@
       "questionKey": "does your collector comes out of his zone every now and then",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vdl6sx/does_your_collector_comes_out_of_his_zone_every/",
       "publishedAt": "2026-08-02T15:36:30+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -3535,13 +3732,12 @@
       ]
     },
     {
-      "redditId": "1v8dqhn",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vgt4e7",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "no-platform-specific-official-evidence",
-        "notes": "2026-08-03 审核：SN1 询问异种收容单元蓝图位置，社区已解答（球状区残骸）；SN1 内容，无 SN2 官方证据。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -3550,16 +3746,17 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Help please",
-      "questionKey": "help please",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v8dqhn/help_please/",
-      "publishedAt": "2026-07-27T21:23:51+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
+      "title": "Bit of a technical issue...",
+      "questionKey": "bit of a technical issue",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vgt4e7/bit_of_a_technical_issue/",
+      "publishedAt": "2026-08-06T03:41:00+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
-        "help",
-        "where"
+        "bug",
+        "how",
+        "progression"
       ],
       "trafficValue": 0,
       "answerability": 0,
@@ -3568,13 +3765,12 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v9j3a5",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vh6bj9",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "not-applicable",
-        "notes": "2026-08-03 审核：第三方互动地图自荐帖，非问题；属推广，站方不引用不回复。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -3583,288 +3779,79 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Just finished updating our interactive Subnautica 2 Map! Hope this helps your exploration",
-      "questionKey": "just finished updating our interactive subnautica 2 map hope this helps your exploration",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v9j3a5/just_finished_updating_our_interactive_subnautica/",
-      "publishedAt": "2026-07-29T02:29:25+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "Is this normal?",
+      "questionKey": "is this normal",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vh6bj9/is_this_normal/",
+      "publishedAt": "2026-08-06T14:46:38+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
       "painScore": 6,
       "signals": [
-        "not-working",
+        "bug",
+        "crafting"
+      ],
+      "trafficValue": 0,
+      "answerability": 0,
+      "suggestedPages": [],
+      "priorityScore": 6,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vebnmt",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "[SPOILERS] Theory: Veps, Crypters, the World Tree, and the possible structure of the late-game biomes",
+      "questionKey": "theory veps crypters the world tree and the possible structure of the late game biomes",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vebnmt/spoilers_theory_veps_crypters_the_world_tree_and/",
+      "publishedAt": "2026-08-03T12:10:54+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 5,
+      "signals": [
         "where",
-        "crafting",
+        "how",
         "progression"
       ],
       "trafficValue": 0,
-      "answerability": 0.09,
+      "answerability": 0.18,
       "suggestedPages": [
         {
-          "href": "guide/items/just-keep-swimming-poster.html",
-          "title": "Just Keep Swimming Poster",
-          "score": 0.09
+          "href": "guide/items/world-tree-relic.html",
+          "title": "World Tree Relic",
+          "score": 0.18
         },
         {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.09
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.18
         },
         {
           "href": "questions/livekernelevent-141-hp-omen-crash.html",
           "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
-          "score": 0.09
-        }
-      ],
-      "priorityScore": 7,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vb8er7",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：预购后终于通关故事帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Finally finished the game after preordering it",
-      "questionKey": "finally finished the game after preordering it",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vb8er7/finally_finished_the_game_after_preordering_it/",
-      "publishedAt": "2026-07-30T22:28:39+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "not-working",
-        "bug",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.4,
-      "suggestedPages": [
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.4
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.4
-        },
-        {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 7,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v9oow2",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "bug-report-no-recovery",
-        "notes": "2026-08-03 审核：SN2 电网太阳能板发电量异常 glitch（大量太阳能板脱离断电，需拆建恢复）；社区称已知 bug 建议上报，无官方修复；属已知 glitch，站方不杜撰官方说法。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Created a power grid",
-      "questionKey": "created a power grid",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v9oow2/created_a_power_grid/",
-      "publishedAt": "2026-07-29T07:09:23+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "bug",
-        "how",
-        "performance"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "guide/items/atacamite.html",
-          "title": "Atacamite",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/celestine.html",
-          "title": "Celestine",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/conduit-crystal.html",
-          "title": "Conduit Crystal",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 7,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v95axr",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：Hoverfish 跟人疑似 bug 趣闻帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Did I tame a hoverfish?",
-      "questionKey": "did i tame a hoverfish",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v95axr/did_i_tame_a_hoverfish/",
-      "publishedAt": "2026-07-28T17:33:59+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "bug"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.33
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 7,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1v8g1p3",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "insufficient-official-story-evidence",
-        "notes": "2026-08-03 审核：SN2 Cicada 主残骸剧情询问；社区解答（坠毁解体/创作者盒线索），部分源自爆料 leak，无官方单点可引用声明，且为 lore 讨论，站方无安全增量。",
-        "reviewedAt": "2026-08-03"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Are we ever going to see the full cicada wreck?",
-      "questionKey": "are we ever going to see the full cicada wreck",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v8g1p3/are_we_ever_going_to_see_the_full_cicada_wreck/",
-      "publishedAt": "2026-07-27T22:53:00+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "where"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "guide/biomes/dolerite-spires.html",
-          "title": "Dolerite Spires",
-          "score": 0.33
-        },
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.33
-        },
-        {
-          "href": "guide/biomes/lead-zone.html",
-          "title": "Lead Zone",
-          "score": 0.17
-        }
-      ],
-      "priorityScore": 7,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vdwk48",
-      "firstSeenAt": "2026-08-03T08:42:31.084Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-04 审核：观点/感受帖（“有人觉得 out-of-bounds leviathan 太有攻击性吗？”），非待解决的游戏问题。原帖自述误入边界被 Shiver Leviathan 追击，认为 aggro 范围应更远；评论区共识“它本就该如此，你不该在那儿”“这正是它的全部意义”。属游戏设计偏好讨论，无事实性故障需修复，社区已确认 working as intended。判定为观点帖，dismissed。",
-        "reviewedAt": "2026-08-04"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 14,
-        "observedAt": "2026-08-03T08:42:31.084Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "does anyone else feel like the out-of-bounds leviathan is too aggressive?",
-      "questionKey": "does anyone else feel like the out of bounds leviathan is too aggressive",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vdwk48/does_anyone_else_feel_like_the_outofbounds/",
-      "publishedAt": "2026-08-02T23:10:55+00:00",
-      "lastSeenAt": "2026-08-03T08:42:31.084Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 5,
-      "signals": [
-        "bug"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.22,
-      "suggestedPages": [
-        {
-          "href": "guide/creatures/collector-leviathan.html",
-          "title": "Collector Leviathan",
-          "score": 0.22
-        },
-        {
-          "href": "guide/creatures/shiver-leviathan.html",
-          "title": "Shiver Leviathan",
-          "score": 0.22
-        },
-        {
-          "href": "guide/creatures/twin-sitaray.html",
-          "title": "Twin Sitaray",
-          "score": 0.22
+          "score": 0.18
         }
       ],
       "priorityScore": 6,
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1v822mh",
-      "firstSeenAt": "2026-07-31T08:09:45.851Z",
+      "redditId": "1vder4b",
+      "firstSeenAt": "2026-08-07T06:18:59.528Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "not-a-question",
-        "notes": "2026-08-03 审核：饿死通关梗/meme 帖，非问题；站方无需回复。",
-        "reviewedAt": "2026-08-03"
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
       },
       "attention": {
         "upvotes": null,
@@ -3873,21 +3860,37 @@
         "approximate": true,
         "method": "not-checked"
       },
-      "title": "Died of starvation.",
-      "questionKey": "died of starvation",
-      "url": "https://www.reddit.com/r/subnautica/comments/1v822mh/died_of_starvation/",
-      "publishedAt": "2026-07-27T14:30:57+00:00",
-      "lastSeenAt": "2026-07-31T08:09:45.851Z",
+      "title": "Finished SN and BZ, got some questions regarding lore",
+      "questionKey": "finished sn and bz got some questions regarding lore",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vder4b/finished_sn_and_bz_got_some_questions_regarding/",
+      "publishedAt": "2026-08-02T10:38:42+00:00",
+      "lastSeenAt": "2026-08-07T06:18:59.528Z",
       "sourceSubreddit": "r/Subnautica",
-      "painScore": 6,
+      "painScore": 5,
       "signals": [
-        "help",
-        "where",
-        "how"
+        "not-working",
+        "how",
+        "crafting"
       ],
       "trafficValue": 0,
-      "answerability": 0,
-      "suggestedPages": [],
+      "answerability": 0.29,
+      "suggestedPages": [
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.29
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.14
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.14
+        }
+      ],
       "priorityScore": 6,
       "possibleDuplicateOf": null
     }

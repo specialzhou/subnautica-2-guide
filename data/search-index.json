@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T05:58:48.092Z",
-  "count": 312,
+  "generatedAt": "2026-08-08T04:31:52.224Z",
+  "count": 313,
   "entries": [
     {
       "title": "Start here",
@@ -225,6 +225,21 @@
       "localizedTerms": {
         "zh-cn": "栖息所建造器 阿克苏姆罐子 铜 玻璃",
         "ru": "Строитель Кувшин аксумов Медь Стекло"
+      }
+    },
+    {
+      "title": "Axum Pot",
+      "type": "Item",
+      "href": "guide/items/axum-pot.html",
+      "terms": "Axum Pot Habitat Builder Celestine Strontium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "阿克苏姆花盆",
+        "ru": "Аксумский горшок"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 锶 天青石 阿克苏姆花盆",
+        "ru": "Строитель Стронций Целестин Аксумский горшок"
       }
     },
     {
@@ -487,7 +502,7 @@
       "type": "Item",
       "href": "guide/items/cherimoya-chutney.html",
       "terms": "Cherimoya Chutney Fabricator Cherimoya Rotsac Sugar of Saturn Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Cherimoya_Chutney.png?a4d6b",
+      "image": null,
       "localizedTitles": {
         "zh-cn": "海荔枝酸辣酱",
         "ru": "Чатни из черимойи"
@@ -1312,7 +1327,7 @@
       "type": "Item",
       "href": "guide/items/hoverthorn-souvlaki.html",
       "terms": "Hoverthorn Souvlaki Fabricator Hoverthorn Salt Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Hoverthorn_Souvlaki.png?c89c7",
+      "image": null,
       "localizedTitles": {
         "zh-cn": "悬浮刺鱼烤串",
         "ru": "Сувлаки из иглохвоста"
@@ -1747,7 +1762,7 @@
       "type": "Item",
       "href": "guide/items/pavlova.html",
       "terms": "Pavlova Fabricator Deepwing Egg Clump Sugar of Saturn Cherimoya Rotsac Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Pavlova.png?e6984",
+      "image": null,
       "localizedTitles": {
         "zh-cn": "蛋白甜饼",
         "ru": "Десерт «Павлова»"
@@ -2827,7 +2842,7 @@
       "type": "Item",
       "href": "guide/items/threemoon-temaki.html",
       "terms": "Threemoon Temaki Fabricator Bluemoon Halfmoon Harvestmoon Fibrous Pulp Fabricator",
-      "image": "https://wiki.subnautica.com/sn2/images/Threemoon_Temaki.png?e6984",
+      "image": null,
       "localizedTitles": {
         "zh-cn": "三月三鱼卷",
         "ru": "Трехмесячный темаки"

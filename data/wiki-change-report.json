@@ -1,67 +1,31 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-07-25T05:58:44.846Z",
+  "detectedAt": "2026-08-08T04:31:49.625Z",
   "changes": [
     {
-      "id": "acid-raion",
-      "title": "Acid Raion",
+      "id": "air-bladder",
+      "title": "Air Bladder",
       "change": "updated",
-      "previousRevisionId": 18900,
-      "revisionId": 19402,
+      "previousRevisionId": 18199,
+      "revisionId": 19715,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "axum-jar",
-      "title": "Axum Jar",
-      "change": "updated",
-      "previousRevisionId": 18988,
-      "revisionId": 19332,
-      "previousStatus": "wiki-backed",
+      "id": "axum-pot",
+      "title": "Axum Pot",
+      "change": "added",
+      "previousRevisionId": null,
+      "revisionId": 19578,
+      "previousStatus": null,
       "status": "wiki-backed"
     },
     {
-      "id": "axum-street-lamp",
-      "title": "Axum Street Lamp",
+      "id": "basic-fins",
+      "title": "Basic Fins",
       "change": "updated",
-      "previousRevisionId": 17401,
-      "revisionId": 19375,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "axum-trashcan",
-      "title": "Axum Trashcan",
-      "change": "updated",
-      "previousRevisionId": 17400,
-      "revisionId": 19374,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "axum-wall-lamp",
-      "title": "Axum Wall Lamp",
-      "change": "updated",
-      "previousRevisionId": 18989,
-      "revisionId": 19286,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "battery-terminal",
-      "title": "Battery Terminal",
-      "change": "updated",
-      "previousRevisionId": 18990,
-      "revisionId": 19291,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "beacon",
-      "title": "Beacon",
-      "change": "updated",
-      "previousRevisionId": 19021,
-      "revisionId": 19307,
+      "previousRevisionId": 17868,
+      "revisionId": 19809,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -69,8 +33,8 @@
       "id": "biobed",
       "title": "Biobed",
       "change": "updated",
-      "previousRevisionId": 18992,
-      "revisionId": 19295,
+      "previousRevisionId": 19295,
+      "revisionId": 19690,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -78,8 +42,8 @@
       "id": "biolab",
       "title": "Biolab",
       "change": "updated",
-      "previousRevisionId": 18993,
-      "revisionId": 19277,
+      "previousRevisionId": 19277,
+      "revisionId": 19602,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -87,80 +51,26 @@
       "id": "bioreactor",
       "title": "Bioreactor",
       "change": "updated",
-      "previousRevisionId": 18994,
-      "revisionId": 19292,
+      "previousRevisionId": 19292,
+      "revisionId": 19689,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "chbc-live-poster",
-      "title": "CHBC Live Poster",
+      "id": "bioscanner",
+      "title": "Bioscanner",
       "change": "updated",
-      "previousRevisionId": 18997,
-      "revisionId": 19336,
+      "previousRevisionId": 18196,
+      "revisionId": 19861,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "cherimoya-rotsac",
-      "title": "Cherimoya Rotsac",
+      "id": "copper-ingot",
+      "title": "Copper Ingot",
       "change": "updated",
-      "previousRevisionId": 18920,
-      "revisionId": 19398,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "coral-jar",
-      "title": "Coral Jar",
-      "change": "updated",
-      "previousRevisionId": 19003,
-      "revisionId": 19324,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "corridor",
-      "title": "Corridor",
-      "change": "updated",
-      "previousRevisionId": 19002,
-      "revisionId": 19264,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "cradle-shootroot",
-      "title": "Cradle Shootroot",
-      "change": "updated",
-      "previousRevisionId": 18916,
-      "revisionId": 19403,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "creature-enamel",
-      "title": "Creature Enamel",
-      "change": "updated",
-      "previousRevisionId": 17861,
-      "revisionId": 19226,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "dining-chair",
-      "title": "Dining Chair",
-      "change": "updated",
-      "previousRevisionId": 19005,
-      "revisionId": 19312,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "dining-table",
-      "title": "Dining Table",
-      "change": "updated",
-      "previousRevisionId": 19006,
-      "revisionId": 19313,
+      "previousRevisionId": 16884,
+      "revisionId": 19815,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -168,8 +78,8 @@
       "id": "distraction-flare",
       "title": "Distraction Flare",
       "change": "updated",
-      "previousRevisionId": 18214,
-      "revisionId": 19427,
+      "previousRevisionId": 19427,
+      "revisionId": 19716,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -177,26 +87,17 @@
       "id": "dive-elevator",
       "title": "Dive Elevator",
       "change": "updated",
-      "previousRevisionId": 19008,
-      "revisionId": 19308,
+      "previousRevisionId": 19308,
+      "revisionId": 19692,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "exterior-wall-light",
-      "title": "Exterior Wall Light",
+      "id": "feedback-resonator",
+      "title": "Feedback Resonator",
       "change": "updated",
-      "previousRevisionId": 19010,
-      "revisionId": 19304,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "fabricator",
-      "title": "Fabricator",
-      "change": "updated",
-      "previousRevisionId": 19011,
-      "revisionId": 19278,
+      "previousRevisionId": 17877,
+      "revisionId": 19713,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -204,62 +105,35 @@
       "id": "flashlight",
       "title": "Flashlight",
       "change": "updated",
-      "previousRevisionId": 10368,
-      "revisionId": 19429,
+      "previousRevisionId": 19429,
+      "revisionId": 19795,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "floor-locker",
-      "title": "Floor Locker",
+      "id": "germanium-ingot",
+      "title": "Germanium Ingot",
       "change": "updated",
-      "previousRevisionId": 19012,
-      "revisionId": 19281,
+      "previousRevisionId": 16885,
+      "revisionId": 19817,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "freesia-flower",
-      "title": "Freesia Flower",
+      "id": "gold-ingot",
+      "title": "Gold Ingot",
       "change": "updated",
-      "previousRevisionId": 18934,
-      "revisionId": 19401,
+      "previousRevisionId": 16887,
+      "revisionId": 19818,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "growbed",
-      "title": "Growbed",
+      "id": "habitat-builder",
+      "title": "Habitat Builder",
       "change": "updated",
-      "previousRevisionId": 19014,
-      "revisionId": 19359,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "habitat-beacon",
-      "title": "Habitat Beacon",
-      "change": "updated",
-      "previousRevisionId": 19015,
-      "revisionId": 19306,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "half-round-room",
-      "title": "Half Round Room",
-      "change": "updated",
-      "previousRevisionId": 19016,
-      "revisionId": 19265,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "hanging-tailing-jar",
-      "title": "Hanging Tailing Jar",
-      "change": "updated",
-      "previousRevisionId": 19017,
-      "revisionId": 19325,
+      "previousRevisionId": 17447,
+      "revisionId": 19796,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -267,8 +141,17 @@
       "id": "hatch",
       "title": "Hatch",
       "change": "updated",
-      "previousRevisionId": 19018,
-      "revisionId": 19266,
+      "previousRevisionId": 19266,
+      "revisionId": 19765,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "high-capacity-air-tank",
+      "title": "High Capacity Air Tank",
+      "change": "updated",
+      "previousRevisionId": 17875,
+      "revisionId": 19811,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -276,89 +159,17 @@
       "id": "hydroelectric-turbine",
       "title": "Hydroelectric Turbine",
       "change": "updated",
-      "previousRevisionId": 19027,
-      "revisionId": 19299,
+      "previousRevisionId": 19299,
+      "revisionId": 19695,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "interior-arch",
-      "title": "Interior Arch",
+      "id": "improved-fins",
+      "title": "Improved Fins",
       "change": "updated",
-      "previousRevisionId": 19030,
-      "revisionId": 19271,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "interior-door",
-      "title": "Interior Door",
-      "change": "updated",
-      "previousRevisionId": 19031,
-      "revisionId": 19272,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "interior-wall",
-      "title": "Interior Wall",
-      "change": "updated",
-      "previousRevisionId": 19032,
-      "revisionId": 19273,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "just-keep-swimming-poster",
-      "title": "Just Keep Swimming Poster",
-      "change": "updated",
-      "previousRevisionId": 19034,
-      "revisionId": 19337,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "keep-calm-poster",
-      "title": "Keep Calm Poster",
-      "change": "updated",
-      "previousRevisionId": 19035,
-      "revisionId": 19338,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "lab-chair",
-      "title": "Lab Chair",
-      "change": "updated",
-      "previousRevisionId": 19036,
-      "revisionId": 19314,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "ladder",
-      "title": "Ladder",
-      "change": "updated",
-      "previousRevisionId": 19038,
-      "revisionId": 19274,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "leviathanawakens-poster",
-      "title": "LeviathanAwakens Poster",
-      "change": "updated",
-      "previousRevisionId": 19039,
-      "revisionId": 19339,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "lost-river-poster",
-      "title": "Lost River Poster",
-      "change": "updated",
-      "previousRevisionId": 19040,
-      "revisionId": 19340,
+      "previousRevisionId": 17870,
+      "revisionId": 19808,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -366,278 +177,53 @@
       "id": "macaron-sponge",
       "title": "Macaron Sponge",
       "change": "updated",
-      "previousRevisionId": 18961,
-      "revisionId": 19389,
+      "previousRevisionId": 19389,
+      "revisionId": 19774,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "metal-farm",
-      "title": "Metal Farm",
+      "id": "mangalloy-ingot",
+      "title": "Mangalloy Ingot",
       "change": "updated",
-      "previousRevisionId": 19041,
-      "revisionId": 19360,
+      "previousRevisionId": 16888,
+      "revisionId": 19821,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "mimic-pylon",
-      "title": "Mimic Pylon",
+      "id": "photovoltaic-charger",
+      "title": "Photovoltaic Charger",
       "change": "updated",
-      "previousRevisionId": 18983,
-      "revisionId": 19400,
+      "previousRevisionId": 17893,
+      "revisionId": 19571,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "modification-station",
-      "title": "Modification Station",
+      "id": "plasteel-ingot",
+      "title": "Plasteel Ingot",
       "change": "updated",
-      "previousRevisionId": 19042,
-      "revisionId": 19279,
+      "previousRevisionId": 16889,
+      "revisionId": 19819,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "moonpool",
-      "title": "Moonpool",
+      "id": "rebreather",
+      "title": "Rebreather",
       "change": "updated",
-      "previousRevisionId": 19046,
-      "revisionId": 19267,
+      "previousRevisionId": 17866,
+      "revisionId": 19807,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "necrolei-bud",
-      "title": "Necrolei Bud",
+      "id": "repair-tool",
+      "title": "Repair Tool",
       "change": "updated",
-      "previousRevisionId": 17887,
-      "revisionId": 19366,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "new-life-poster",
-      "title": "New Life Poster",
-      "change": "updated",
-      "previousRevisionId": 13566,
-      "revisionId": 19343,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "noa-terminal",
-      "title": "NoA Terminal",
-      "change": "updated",
-      "previousRevisionId": 19045,
-      "revisionId": 19296,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "nook",
-      "title": "Nook",
-      "change": "updated",
-      "previousRevisionId": 10070,
-      "revisionId": 19268,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "painted-tree-poster",
-      "title": "Painted Tree Poster",
-      "change": "updated",
-      "previousRevisionId": 19047,
-      "revisionId": 19341,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "pent",
-      "title": "Pent",
-      "change": "updated",
-      "previousRevisionId": 18867,
-      "revisionId": 19399,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "pioneer-hull-plate",
-      "title": "Pioneer Hull Plate",
-      "change": "updated",
-      "previousRevisionId": 14547,
-      "revisionId": 19315,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "pioneer-program-poster",
-      "title": "Pioneer Program Poster",
-      "change": "updated",
-      "previousRevisionId": 19049,
-      "revisionId": 19342,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "portable-locker",
-      "title": "Portable Locker",
-      "change": "updated",
-      "previousRevisionId": 19050,
-      "revisionId": 19309,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "portable-oxygen-generator",
-      "title": "Portable Oxygen Generator",
-      "change": "updated",
-      "previousRevisionId": 19051,
-      "revisionId": 19310,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-cell-terminal",
-      "title": "Power Cell Terminal",
-      "change": "updated",
-      "previousRevisionId": 19052,
-      "revisionId": 19293,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-storage",
-      "title": "Power Storage",
-      "change": "updated",
-      "previousRevisionId": 19053,
-      "revisionId": 19294,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-transmitter",
-      "title": "Power Transmitter",
-      "change": "updated",
-      "previousRevisionId": 19054,
-      "revisionId": 19300,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "processor",
-      "title": "Processor",
-      "change": "updated",
-      "previousRevisionId": 19056,
-      "revisionId": 19280,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "reaper-leviathan",
-      "title": "Reaper Leviathan",
-      "change": "updated",
-      "previousRevisionId": 19057,
-      "revisionId": 19316,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "rectangular-ceiling-light",
-      "title": "Rectangular Ceiling Light",
-      "change": "updated",
-      "previousRevisionId": 19058,
-      "revisionId": 19287,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-antenna",
-      "title": "Roof Antenna",
-      "change": "updated",
-      "previousRevisionId": 19059,
-      "revisionId": 19352,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-antenna-large",
-      "title": "Roof Antenna Large",
-      "change": "updated",
-      "previousRevisionId": 19060,
-      "revisionId": 19353,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-cylinder",
-      "title": "Roof Cylinder",
-      "change": "updated",
-      "previousRevisionId": 19061,
-      "revisionId": 19354,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-listening-dish",
-      "title": "Roof Listening Dish",
-      "change": "updated",
-      "previousRevisionId": 19062,
-      "revisionId": 19355,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-panel-large",
-      "title": "Roof Panel Large",
-      "change": "updated",
-      "previousRevisionId": 19063,
-      "revisionId": 19356,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-pump",
-      "title": "Roof Pump",
-      "change": "updated",
-      "previousRevisionId": 19064,
-      "revisionId": 19357,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "roof-pump-double",
-      "title": "Roof Pump Double",
-      "change": "updated",
-      "previousRevisionId": 19065,
-      "revisionId": 19358,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "room",
-      "title": "Room",
-      "change": "updated",
-      "previousRevisionId": 19066,
-      "revisionId": 19269,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "s-shelf",
-      "title": "S Shelf",
-      "change": "updated",
-      "previousRevisionId": 19067,
-      "revisionId": 19317,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "safety-first-poster",
-      "title": "Safety First Poster",
-      "change": "updated",
-      "previousRevisionId": 19068,
-      "revisionId": 19344,
+      "previousRevisionId": 17748,
+      "revisionId": 19823,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -645,26 +231,8 @@
       "id": "scanner",
       "title": "Scanner",
       "change": "updated",
-      "previousRevisionId": 17743,
-      "revisionId": 19417,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "scanner-station",
-      "title": "Scanner Station",
-      "change": "updated",
-      "previousRevisionId": 19069,
-      "revisionId": 19297,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "scout-ray-poster",
-      "title": "Scout Ray Poster",
-      "change": "updated",
-      "previousRevisionId": 19070,
-      "revisionId": 19345,
+      "previousRevisionId": 19417,
+      "revisionId": 19709,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -672,17 +240,17 @@
       "id": "seamoth-model",
       "title": "Seamoth Model",
       "change": "updated",
-      "previousRevisionId": 19071,
-      "revisionId": 19318,
+      "previousRevisionId": 19318,
+      "revisionId": 19668,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "sign",
-      "title": "Sign",
+      "id": "silver-ingot",
+      "title": "Silver Ingot",
       "change": "updated",
-      "previousRevisionId": 19073,
-      "revisionId": 19319,
+      "previousRevisionId": 16890,
+      "revisionId": 19816,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -690,53 +258,8 @@
       "id": "single-bed",
       "title": "Single Bed",
       "change": "updated",
-      "previousRevisionId": 19074,
-      "revisionId": 19320,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "small-axum-jar",
-      "title": "Small Axum Jar",
-      "change": "updated",
-      "previousRevisionId": 19075,
-      "revisionId": 19333,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "small-ceiling-light",
-      "title": "Small Ceiling Light",
-      "change": "updated",
-      "previousRevisionId": 19076,
-      "revisionId": 19288,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "small-coral-jar",
-      "title": "Small Coral Jar",
-      "change": "updated",
-      "previousRevisionId": 19077,
-      "revisionId": 19326,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "small-crate",
-      "title": "Small Crate",
-      "change": "updated",
-      "previousRevisionId": 19078,
-      "revisionId": 19321,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "solar-panel",
-      "title": "Solar Panel",
-      "change": "updated",
-      "previousRevisionId": 19079,
-      "revisionId": 19301,
+      "previousRevisionId": 19320,
+      "revisionId": 19824,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -744,107 +267,62 @@
       "id": "sonic-resonator",
       "title": "Sonic Resonator",
       "change": "updated",
-      "previousRevisionId": 17744,
-      "revisionId": 19419,
+      "previousRevisionId": 19419,
+      "revisionId": 19712,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "spotlight",
-      "title": "Spotlight",
+      "id": "standard-air-tank",
+      "title": "Standard Air Tank",
       "change": "updated",
-      "previousRevisionId": 10813,
-      "revisionId": 19305,
+      "previousRevisionId": 17871,
+      "revisionId": 19810,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "stool",
-      "title": "Stool",
+      "id": "strontium",
+      "title": "Strontium",
       "change": "updated",
-      "previousRevisionId": 19080,
-      "revisionId": 19322,
+      "previousRevisionId": 16891,
+      "revisionId": 19820,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "storage-cache",
-      "title": "Storage Cache",
+      "id": "survival-multitool",
+      "title": "Survival Multitool",
       "change": "updated",
-      "previousRevisionId": 19142,
-      "revisionId": 19282,
+      "previousRevisionId": 17967,
+      "revisionId": 19696,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tadpole-dock",
-      "title": "Tadpole Dock",
+      "id": "tadpole",
+      "title": "Tadpole",
       "change": "updated",
-      "previousRevisionId": 19085,
-      "revisionId": 19275,
+      "previousRevisionId": 17471,
+      "revisionId": 19898,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tailing-barrel",
-      "title": "Tailing Barrel",
+      "id": "tadpole-haul-chassis",
+      "title": "Tadpole Haul Chassis",
       "change": "updated",
-      "previousRevisionId": 19084,
-      "revisionId": 19327,
+      "previousRevisionId": 18001,
+      "revisionId": 19813,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tailing-chest",
-      "title": "Tailing Chest",
+      "id": "tadpole-scout-ray-chassis",
+      "title": "Tadpole Scout Ray Chassis",
       "change": "updated",
-      "previousRevisionId": 19086,
-      "revisionId": 19283,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tailing-drum",
-      "title": "Tailing Drum",
-      "change": "updated",
-      "previousRevisionId": 17318,
-      "revisionId": 19328,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tailing-jar",
-      "title": "Tailing Jar",
-      "change": "updated",
-      "previousRevisionId": 19087,
-      "revisionId": 19329,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tailing-rug",
-      "title": "Tailing Rug",
-      "change": "updated",
-      "previousRevisionId": 19088,
-      "revisionId": 19330,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tailing-table",
-      "title": "Tailing Table",
-      "change": "updated",
-      "previousRevisionId": 19089,
-      "revisionId": 19331,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tall-axum-jar",
-      "title": "Tall Axum Jar",
-      "change": "updated",
-      "previousRevisionId": 19090,
-      "revisionId": 19334,
+      "previousRevisionId": 15298,
+      "revisionId": 19812,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -852,44 +330,17 @@
       "id": "thermal-plant",
       "title": "Thermal Plant",
       "change": "updated",
-      "previousRevisionId": 19144,
-      "revisionId": 19303,
+      "previousRevisionId": 19303,
+      "revisionId": 19699,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "time-of-day-display",
-      "title": "Time of Day Display",
+      "id": "titanium-ingot",
+      "title": "Titanium Ingot",
       "change": "updated",
-      "previousRevisionId": 17291,
-      "revisionId": 19298,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "trashcan",
-      "title": "Trashcan",
-      "change": "updated",
-      "previousRevisionId": 19093,
-      "revisionId": 19323,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "troilite",
-      "title": "Troilite",
-      "change": "updated",
-      "previousRevisionId": 17820,
-      "revisionId": 19219,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "vehicle-fabricator",
-      "title": "Vehicle Fabricator",
-      "change": "updated",
-      "previousRevisionId": 19094,
-      "revisionId": 19276,
+      "previousRevisionId": 16895,
+      "revisionId": 19814,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -897,125 +348,8 @@
       "id": "wakemaker",
       "title": "Wakemaker",
       "change": "updated",
-      "previousRevisionId": 17825,
-      "revisionId": 19421,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-light-large",
-      "title": "Wall Light Large",
-      "change": "updated",
-      "previousRevisionId": 19095,
-      "revisionId": 19289,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-light-small",
-      "title": "Wall Light Small",
-      "change": "updated",
-      "previousRevisionId": 19096,
-      "revisionId": 19290,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-locker",
-      "title": "Wall Locker",
-      "change": "updated",
-      "previousRevisionId": 19097,
-      "revisionId": 19284,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-panel",
-      "title": "Wall Panel",
-      "change": "updated",
-      "previousRevisionId": 19098,
-      "revisionId": 19347,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-rack",
-      "title": "Wall Rack",
-      "change": "updated",
-      "previousRevisionId": 19099,
-      "revisionId": 19285,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-unit-large",
-      "title": "Wall Unit Large",
-      "change": "updated",
-      "previousRevisionId": 19100,
-      "revisionId": 19348,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-unit-small",
-      "title": "Wall Unit Small",
-      "change": "updated",
-      "previousRevisionId": 19101,
-      "revisionId": 19349,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-vent",
-      "title": "Wall Vent",
-      "change": "updated",
-      "previousRevisionId": 19102,
-      "revisionId": 19350,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-vent-large",
-      "title": "Wall Vent Large",
-      "change": "updated",
-      "previousRevisionId": 19103,
-      "revisionId": 19351,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "window",
-      "title": "Window",
-      "change": "updated",
-      "previousRevisionId": 19104,
-      "revisionId": 19270,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "work-light",
-      "title": "Work Light",
-      "change": "updated",
-      "previousRevisionId": 19105,
-      "revisionId": 19311,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "world-tree-relic",
-      "title": "World Tree Relic",
-      "change": "updated",
-      "previousRevisionId": 19106,
-      "revisionId": 19335,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "zezura-poster",
-      "title": "Zezura Poster",
-      "change": "updated",
-      "previousRevisionId": 14748,
-      "revisionId": 19346,
+      "previousRevisionId": 19421,
+      "revisionId": 19714,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

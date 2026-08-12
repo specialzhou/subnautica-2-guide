@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-07-25T05:58:51.925Z",
+  "generatedAt": "2026-08-12T05:09:33.605Z",
   "category": "Story",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -9,9 +9,9 @@
   "pages": [
     {
       "title": "Blackboxes",
-      "revisionId": 19255,
-      "revisionTimestamp": "2026-07-23T21:29:51Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackboxes&oldid=19255",
+      "revisionId": 20065,
+      "revisionTimestamp": "2026-08-11T12:01:05Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackboxes&oldid=20065",
       "sections": []
     },
     {
@@ -61,6 +61,13 @@
       "revisionId": 19210,
       "revisionTimestamp": "2026-07-23T17:51:24Z",
       "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Notes&oldid=19210",
+      "sections": []
+    },
+    {
+      "title": "Protean Mass",
+      "revisionId": 19868,
+      "revisionTimestamp": "2026-08-05T16:38:38Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Protean_Mass&oldid=19868",
       "sections": []
     },
     {

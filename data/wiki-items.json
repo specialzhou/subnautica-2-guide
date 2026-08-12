@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-07-25T05:58:44.846Z",
+  "generatedAt": "2026-08-12T05:09:28.351Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -14,9 +14,9 @@
     "Crafted with Vehicle Fabricator",
     "Crafted with Metal Farm"
   ],
-  "publishedCount": 206,
+  "publishedCount": 207,
   "excludedCount": 0,
-  "imageCount": 86,
+  "imageCount": 82,
   "items": [
     {
       "id": "acid-raion",
@@ -53,10 +53,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Acid_Raion",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acid_Raion&oldid=19402",
-        "revisionId": 19402,
-        "revisionTimestamp": "2026-07-24T04:19:46Z",
-        "fetchedAt": "2026-07-25T05:58:46.977Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acid_Raion&oldid=20085",
+        "revisionId": 20085,
+        "revisionTimestamp": "2026-08-11T19:19:08Z",
+        "fetchedAt": "2026-08-12T05:09:30.285Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -185,6 +185,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": true,
@@ -214,10 +215,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Air_Bladder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Air_Bladder&oldid=18199",
-        "revisionId": 18199,
-        "revisionTimestamp": "2026-07-14T01:48:32Z",
-        "fetchedAt": "2026-07-18T05:38:27.585Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Air_Bladder&oldid=19715",
+        "revisionId": 19715,
+        "revisionTimestamp": "2026-07-28T19:44:29Z",
+        "fetchedAt": "2026-08-12T05:09:30.286Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -291,7 +292,9 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Needs In-Game Screenshots",
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -318,10 +321,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Atacamite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Atacamite&oldid=13953",
-        "revisionId": 13953,
-        "revisionTimestamp": "2026-06-21T00:56:39Z",
-        "fetchedAt": "2026-07-12T12:33:02.985Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Atacamite&oldid=20005",
+        "revisionId": 20005,
+        "revisionTimestamp": "2026-08-10T09:47:05Z",
+        "fetchedAt": "2026-08-12T05:09:30.288Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -376,6 +379,53 @@
         "revisionId": 19332,
         "revisionTimestamp": "2026-07-24T01:52:08Z",
         "fetchedAt": "2026-07-25T05:58:46.984Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "media": null
+    },
+    {
+      "id": "axum-pot",
+      "title": "Axum Pot",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Crafted with Habitat Builder",
+        "Unimplemented seabase parts"
+      ],
+      "availableByDefault": false,
+      "unlock": {
+        "source": null,
+        "fragments": null,
+        "biomes": []
+      },
+      "recipes": [
+        {
+          "station": "Habitat Builder",
+          "ingredients": [
+            {
+              "item": "Celestine",
+              "count": "1"
+            },
+            {
+              "item": "Strontium",
+              "count": "1"
+            }
+          ],
+          "result": "Axum Pot",
+          "resultCount": "1",
+          "craftingTime": null
+        }
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Pot",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Pot&oldid=19578",
+        "revisionId": 19578,
+        "revisionTimestamp": "2026-07-26T10:43:12Z",
+        "fetchedAt": "2026-08-12T05:09:30.290Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -635,7 +685,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Feet equipment"
+        "Feet equipment",
+        "Section stubs"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -664,10 +715,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Basic_Fins",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_Fins&oldid=17868",
-        "revisionId": 17868,
-        "revisionTimestamp": "2026-07-11T15:27:09Z",
-        "fetchedAt": "2026-07-12T12:33:02.985Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_Fins&oldid=19974",
+        "revisionId": 19974,
+        "revisionTimestamp": "2026-08-09T19:10:59Z",
+        "fetchedAt": "2026-08-12T05:09:30.286Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -785,10 +836,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Battery_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Battery_Terminal&oldid=19291",
-        "revisionId": 19291,
-        "revisionTimestamp": "2026-07-24T01:41:38Z",
-        "fetchedAt": "2026-07-25T05:58:46.980Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Battery_Terminal&oldid=19938",
+        "revisionId": 19938,
+        "revisionTimestamp": "2026-08-09T17:42:22Z",
+        "fetchedAt": "2026-08-12T05:09:30.286Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -885,10 +936,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Biobed",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biobed&oldid=19295",
-        "revisionId": 19295,
-        "revisionTimestamp": "2026-07-24T01:42:45Z",
-        "fetchedAt": "2026-07-25T05:58:46.979Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biobed&oldid=19928",
+        "revisionId": 19928,
+        "revisionTimestamp": "2026-08-09T17:29:09Z",
+        "fetchedAt": "2026-08-12T05:09:30.286Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1005,10 +1056,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Biolab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biolab&oldid=19277",
-        "revisionId": 19277,
-        "revisionTimestamp": "2026-07-24T01:38:18Z",
-        "fetchedAt": "2026-07-25T05:58:46.982Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Biolab&oldid=19602",
+        "revisionId": 19602,
+        "revisionTimestamp": "2026-07-26T16:47:01Z",
+        "fetchedAt": "2026-08-12T05:09:30.288Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1053,10 +1104,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bioreactor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioreactor&oldid=19292",
-        "revisionId": 19292,
-        "revisionTimestamp": "2026-07-24T01:41:49Z",
-        "fetchedAt": "2026-07-25T05:58:46.980Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioreactor&oldid=19908",
+        "revisionId": 19908,
+        "revisionTimestamp": "2026-08-09T17:06:48Z",
+        "fetchedAt": "2026-08-12T05:09:30.286Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1071,6 +1122,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -1104,10 +1156,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bioscanner",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=18196",
-        "revisionId": 18196,
-        "revisionTimestamp": "2026-07-14T01:22:29Z",
-        "fetchedAt": "2026-07-18T05:38:27.587Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=19861",
+        "revisionId": 19861,
+        "revisionTimestamp": "2026-08-05T11:42:08Z",
+        "fetchedAt": "2026-08-12T05:09:30.288Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1181,7 +1233,9 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Needs In-Game Screenshots",
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1208,10 +1262,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Celestine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Celestine&oldid=17731",
-        "revisionId": 17731,
-        "revisionTimestamp": "2026-07-11T00:58:07Z",
-        "fetchedAt": "2026-07-12T12:33:02.985Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Celestine&oldid=20004",
+        "revisionId": 20004,
+        "revisionTimestamp": "2026-08-10T09:46:32Z",
+        "fetchedAt": "2026-08-12T05:09:30.288Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1316,13 +1370,7 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": {
-        "fileName": "Cherimoya Chutney.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Cherimoya_Chutney.png?a4d6b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Cherimoya_Chutney.png",
-        "width": 256,
-        "height": 256
-      }
+      "media": null
     },
     {
       "id": "cherimoya-rotsac",
@@ -1421,7 +1469,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1448,10 +1497,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Conduit_Crystal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Conduit_Crystal&oldid=18633",
-        "revisionId": 18633,
-        "revisionTimestamp": "2026-07-19T23:28:19Z",
-        "fetchedAt": "2026-07-23T16:22:12.818Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Conduit_Crystal&oldid=20011",
+        "revisionId": 20011,
+        "revisionTimestamp": "2026-08-10T09:51:47Z",
+        "fetchedAt": "2026-08-12T05:09:30.288Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1473,7 +1522,8 @@
       "categories": [
         "Bioreactor fuel",
         "Cooked Food",
-        "Crafted with Fabricator"
+        "Crafted with Fabricator",
+        "Pages with broken file links"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1523,7 +1573,8 @@
       "categories": [
         "Bioreactor fuel",
         "Cooked Food",
-        "Crafted with Fabricator"
+        "Crafted with Fabricator",
+        "Pages with broken file links"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1923,7 +1974,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1950,10 +2002,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Copper",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=17728",
-        "revisionId": 17728,
-        "revisionTimestamp": "2026-07-11T00:54:23Z",
-        "fetchedAt": "2026-07-12T12:33:02.984Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=20009",
+        "revisionId": 20009,
+        "revisionTimestamp": "2026-08-10T09:51:24Z",
+        "fetchedAt": "2026-08-12T05:09:30.285Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1999,10 +2051,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Copper_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper_Ingot&oldid=16884",
-        "revisionId": 16884,
-        "revisionTimestamp": "2026-07-09T09:43:23Z",
-        "fetchedAt": "2026-07-12T12:33:02.985Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper_Ingot&oldid=19815",
+        "revisionId": 19815,
+        "revisionTimestamp": "2026-08-02T10:42:12Z",
+        "fetchedAt": "2026-08-12T05:09:30.285Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2288,10 +2340,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Creature_Enamel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=19226",
-        "revisionId": 19226,
-        "revisionTimestamp": "2026-07-23T20:31:26Z",
-        "fetchedAt": "2026-07-25T05:58:46.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=20014",
+        "revisionId": 20014,
+        "revisionTimestamp": "2026-08-10T10:12:45Z",
+        "fetchedAt": "2026-08-12T05:09:30.294Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2486,10 +2538,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dining_Table",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Table&oldid=19313",
-        "revisionId": 19313,
-        "revisionTimestamp": "2026-07-24T01:47:22Z",
-        "fetchedAt": "2026-07-25T05:58:46.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Table&oldid=19972",
+        "revisionId": 19972,
+        "revisionTimestamp": "2026-08-09T18:25:36Z",
+        "fetchedAt": "2026-08-12T05:09:30.295Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2505,6 +2557,7 @@
       "categories": [
         "Consumables",
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -2534,10 +2587,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Distraction_Flare",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Distraction_Flare&oldid=19427",
-        "revisionId": 19427,
-        "revisionTimestamp": "2026-07-24T17:50:09Z",
-        "fetchedAt": "2026-07-25T05:58:46.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Distraction_Flare&oldid=19716",
+        "revisionId": 19716,
+        "revisionTimestamp": "2026-07-28T19:44:38Z",
+        "fetchedAt": "2026-08-12T05:09:30.292Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2592,10 +2645,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dive_Elevator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=19308",
-        "revisionId": 19308,
-        "revisionTimestamp": "2026-07-24T01:46:09Z",
-        "fetchedAt": "2026-07-25T05:58:46.989Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=19692",
+        "revisionId": 19692,
+        "revisionTimestamp": "2026-07-28T11:00:12Z",
+        "fetchedAt": "2026-08-12T05:09:30.293Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2692,10 +2745,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Enameled_Glass",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Enameled_Glass&oldid=17414",
-        "revisionId": 17414,
-        "revisionTimestamp": "2026-07-10T15:32:56Z",
-        "fetchedAt": "2026-07-12T12:33:02.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Enameled_Glass&oldid=20013",
+        "revisionId": 20013,
+        "revisionTimestamp": "2026-08-10T10:11:04Z",
+        "fetchedAt": "2026-08-12T05:09:30.294Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3038,6 +3091,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -3075,10 +3129,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Feedback_Resonator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Feedback_Resonator&oldid=17877",
-        "revisionId": 17877,
-        "revisionTimestamp": "2026-07-11T15:29:46Z",
-        "fetchedAt": "2026-07-12T12:33:02.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Feedback_Resonator&oldid=19955",
+        "revisionId": 19955,
+        "revisionTimestamp": "2026-08-09T18:06:39Z",
+        "fetchedAt": "2026-08-12T05:09:30.295Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3203,6 +3257,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -3236,10 +3291,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flashlight",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flashlight&oldid=19429",
-        "revisionId": 19429,
-        "revisionTimestamp": "2026-07-24T17:52:41Z",
-        "fetchedAt": "2026-07-25T05:58:46.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flashlight&oldid=20076",
+        "revisionId": 20076,
+        "revisionTimestamp": "2026-08-11T13:33:26Z",
+        "fetchedAt": "2026-08-12T05:09:30.292Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3392,10 +3447,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Germanium_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Germanium_Ingot&oldid=16885",
-        "revisionId": 16885,
-        "revisionTimestamp": "2026-07-09T09:43:53Z",
-        "fetchedAt": "2026-07-12T12:33:02.989Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Germanium_Ingot&oldid=19817",
+        "revisionId": 19817,
+        "revisionTimestamp": "2026-08-02T10:42:29Z",
+        "fetchedAt": "2026-08-12T05:09:30.296Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3479,7 +3534,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -3506,10 +3562,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=17880",
-        "revisionId": 17880,
-        "revisionTimestamp": "2026-07-11T15:30:56Z",
-        "fetchedAt": "2026-07-12T12:33:02.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=20016",
+        "revisionId": 20016,
+        "revisionTimestamp": "2026-08-10T10:27:43Z",
+        "fetchedAt": "2026-08-12T05:09:30.291Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3555,10 +3611,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold_Ingot&oldid=16887",
-        "revisionId": 16887,
-        "revisionTimestamp": "2026-07-09T09:45:44Z",
-        "fetchedAt": "2026-07-12T12:33:02.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold_Ingot&oldid=19818",
+        "revisionId": 19818,
+        "revisionTimestamp": "2026-08-02T10:42:47Z",
+        "fetchedAt": "2026-08-12T05:09:30.294Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3581,6 +3637,7 @@
         "Basic Materials",
         "Crafted with Fabricator",
         "Crafted with Processor",
+        "Pages with broken file links",
         "Processed Materials"
       ],
       "availableByDefault": true,
@@ -3730,6 +3787,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -3769,10 +3827,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Habitat_Builder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Builder&oldid=17447",
-        "revisionId": 17447,
-        "revisionTimestamp": "2026-07-10T16:12:25Z",
-        "fetchedAt": "2026-07-12T12:33:02.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Builder&oldid=19796",
+        "revisionId": 19796,
+        "revisionTimestamp": "2026-08-02T10:12:58Z",
+        "fetchedAt": "2026-08-12T05:09:30.292Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3973,10 +4031,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hatch",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hatch&oldid=19266",
-        "revisionId": 19266,
-        "revisionTimestamp": "2026-07-24T01:30:34Z",
-        "fetchedAt": "2026-07-25T05:58:46.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hatch&oldid=19765",
+        "revisionId": 19765,
+        "revisionTimestamp": "2026-07-30T13:41:37Z",
+        "fetchedAt": "2026-08-12T05:09:30.291Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3991,6 +4049,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tank equipment"
       ],
       "availableByDefault": false,
@@ -4020,10 +4079,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/High_Capacity_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=High_Capacity_Air_Tank&oldid=17875",
-        "revisionId": 17875,
-        "revisionTimestamp": "2026-07-11T15:29:05Z",
-        "fetchedAt": "2026-07-12T12:33:02.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=High_Capacity_Air_Tank&oldid=19977",
+        "revisionId": 19977,
+        "revisionTimestamp": "2026-08-09T19:12:22Z",
+        "fetchedAt": "2026-08-12T05:09:30.293Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4126,13 +4185,7 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": {
-        "fileName": "Hoverthorn Souvlaki.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Hoverthorn_Souvlaki.png?c89c7",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Hoverthorn_Souvlaki.png",
-        "width": 256,
-        "height": 256
-      }
+      "media": null
     },
     {
       "id": "hydroelectric-turbine",
@@ -4175,10 +4228,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hydroelectric_Turbine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hydroelectric_Turbine&oldid=19299",
-        "revisionId": 19299,
-        "revisionTimestamp": "2026-07-24T01:43:53Z",
-        "fetchedAt": "2026-07-25T05:58:46.997Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hydroelectric_Turbine&oldid=19695",
+        "revisionId": 19695,
+        "revisionTimestamp": "2026-07-28T11:02:21Z",
+        "fetchedAt": "2026-08-12T05:09:30.299Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4193,7 +4246,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Feet equipment"
+        "Feet equipment",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -4226,10 +4280,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Improved_Fins",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Improved_Fins&oldid=17870",
-        "revisionId": 17870,
-        "revisionTimestamp": "2026-07-11T15:27:41Z",
-        "fetchedAt": "2026-07-12T12:33:02.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Improved_Fins&oldid=19975",
+        "revisionId": 19975,
+        "revisionTimestamp": "2026-08-09T19:11:29Z",
+        "fetchedAt": "2026-08-12T05:09:30.299Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4619,7 +4673,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -4646,10 +4701,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead&oldid=17883",
-        "revisionId": 17883,
-        "revisionTimestamp": "2026-07-11T15:31:50Z",
-        "fetchedAt": "2026-07-12T12:33:02.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead&oldid=20019",
+        "revisionId": 20019,
+        "revisionTimestamp": "2026-08-10T10:30:45Z",
+        "fetchedAt": "2026-08-12T05:09:30.296Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4714,7 +4769,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -4741,10 +4797,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lithium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium&oldid=17828",
-        "revisionId": 17828,
-        "revisionTimestamp": "2026-07-11T15:05:27Z",
-        "fetchedAt": "2026-07-12T12:33:02.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium&oldid=20020",
+        "revisionId": 20020,
+        "revisionTimestamp": "2026-08-10T10:32:07Z",
+        "fetchedAt": "2026-08-12T05:09:30.298Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4836,10 +4892,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Macaron_Sponge",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Macaron_Sponge&oldid=19389",
-        "revisionId": 19389,
-        "revisionTimestamp": "2026-07-24T04:05:25Z",
-        "fetchedAt": "2026-07-25T05:58:46.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Macaron_Sponge&oldid=19774",
+        "revisionId": 19774,
+        "revisionTimestamp": "2026-07-31T13:11:22Z",
+        "fetchedAt": "2026-08-12T05:09:30.298Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4887,10 +4943,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Mangalloy_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mangalloy_Ingot&oldid=16888",
-        "revisionId": 16888,
-        "revisionTimestamp": "2026-07-09T09:46:17Z",
-        "fetchedAt": "2026-07-12T12:33:02.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mangalloy_Ingot&oldid=19821",
+        "revisionId": 19821,
+        "revisionTimestamp": "2026-08-02T10:44:52Z",
+        "fetchedAt": "2026-08-12T05:09:30.299Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5111,10 +5167,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Modification_Station",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=19279",
-        "revisionId": 19279,
-        "revisionTimestamp": "2026-07-24T01:38:43Z",
-        "fetchedAt": "2026-07-25T05:58:46.996Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=19956",
+        "revisionId": 19956,
+        "revisionTimestamp": "2026-08-09T18:07:44Z",
+        "fetchedAt": "2026-08-12T05:09:30.299Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5167,16 +5223,13 @@
       "media": null
     },
     {
-      "id": "necrolei-bud",
-      "title": "Necrolei Bud",
+      "id": "necrolei-cyst",
+      "title": "Necrolei Cyst",
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Bioreactor fuel",
         "Crafted with Habitat Builder",
-        "Harvestable",
-        "Plantables",
-        "Raw Materials"
+        "Resource nodes"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -5195,27 +5248,27 @@
               "count": "1"
             }
           ],
-          "result": "Necrolei Bud",
+          "result": "Necrolei Cyst",
           "resultCount": "1",
           "craftingTime": null
         }
       ],
       "source": {
         "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Bud",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=19366",
-        "revisionId": 19366,
-        "revisionTimestamp": "2026-07-24T02:10:20Z",
-        "fetchedAt": "2026-07-25T05:58:46.994Z",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Cyst",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Cyst&oldid=20024",
+        "revisionId": 20024,
+        "revisionTimestamp": "2026-08-10T10:49:59Z",
+        "fetchedAt": "2026-08-12T05:09:30.298Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
       "media": {
-        "fileName": "Necrolei Bud.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Bud.png?abc9e",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Bud.png",
+        "fileName": "Necrolei Cyst.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Cyst.png?32305",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Cyst.png",
         "width": 256,
         "height": 256
       }
@@ -5553,13 +5606,7 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": {
-        "fileName": "Pavlova.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Pavlova.png?e6984",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Pavlova.png",
-        "width": 256,
-        "height": 256
-      }
+      "media": null
     },
     {
       "id": "pent",
@@ -5597,10 +5644,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pent",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pent&oldid=19399",
-        "revisionId": 19399,
-        "revisionTimestamp": "2026-07-24T04:19:18Z",
-        "fetchedAt": "2026-07-25T05:58:46.994Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pent&oldid=20027",
+        "revisionId": 20027,
+        "revisionTimestamp": "2026-08-10T11:00:13Z",
+        "fetchedAt": "2026-08-12T05:09:30.298Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5615,6 +5662,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
+        "Pages with broken file links",
         "Tadpole upgrades"
       ],
       "availableByDefault": false,
@@ -5648,10 +5696,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Photovoltaic_Charger",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Photovoltaic_Charger&oldid=17893",
-        "revisionId": 17893,
-        "revisionTimestamp": "2026-07-11T15:36:00Z",
-        "fetchedAt": "2026-07-12T12:33:02.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Photovoltaic_Charger&oldid=19571",
+        "revisionId": 19571,
+        "revisionTimestamp": "2026-07-25T17:09:37Z",
+        "fetchedAt": "2026-08-12T05:09:30.299Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5790,10 +5838,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Plasteel_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plasteel_Ingot&oldid=16889",
-        "revisionId": 16889,
-        "revisionTimestamp": "2026-07-09T09:47:16Z",
-        "fetchedAt": "2026-07-12T12:33:02.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plasteel_Ingot&oldid=19819",
+        "revisionId": 19819,
+        "revisionTimestamp": "2026-08-02T10:43:02Z",
+        "fetchedAt": "2026-08-12T05:09:30.299Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6096,10 +6144,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Storage",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Storage&oldid=19294",
-        "revisionId": 19294,
-        "revisionTimestamp": "2026-07-24T01:42:12Z",
-        "fetchedAt": "2026-07-25T05:58:46.997Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Storage&oldid=19930",
+        "revisionId": 19930,
+        "revisionTimestamp": "2026-08-09T17:32:00Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6214,7 +6262,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -6241,10 +6290,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Quartz",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=17896",
-        "revisionId": 17896,
-        "revisionTimestamp": "2026-07-11T15:37:01Z",
-        "fetchedAt": "2026-07-12T12:33:02.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=20028",
+        "revisionId": 20028,
+        "revisionTimestamp": "2026-08-10T11:02:03Z",
+        "fetchedAt": "2026-08-12T05:09:30.301Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6309,7 +6358,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Head equipment"
+        "Head equipment",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -6338,10 +6388,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Rebreather",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Rebreather&oldid=17866",
-        "revisionId": 17866,
-        "revisionTimestamp": "2026-07-11T15:24:41Z",
-        "fetchedAt": "2026-07-12T12:33:02.993Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Rebreather&oldid=19980",
+        "revisionId": 19980,
+        "revisionTimestamp": "2026-08-09T19:13:42Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6410,6 +6460,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -6447,10 +6498,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Repair_Tool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Repair_Tool&oldid=17748",
-        "revisionId": 17748,
-        "revisionTimestamp": "2026-07-11T01:29:09Z",
-        "fetchedAt": "2026-07-12T12:33:02.993Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Repair_Tool&oldid=19923",
+        "revisionId": 19923,
+        "revisionTimestamp": "2026-08-09T17:19:27Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6805,10 +6856,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Room",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Room&oldid=19269",
-        "revisionId": 19269,
-        "revisionTimestamp": "2026-07-24T01:34:08Z",
-        "fetchedAt": "2026-07-25T05:58:46.999Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Room&oldid=19916",
+        "revisionId": 19916,
+        "revisionTimestamp": "2026-08-09T17:12:22Z",
+        "fetchedAt": "2026-08-12T05:09:30.301Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6960,7 +7011,9 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Needs In-Game Screenshots",
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -6987,10 +7040,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Salt",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Salt&oldid=17903",
-        "revisionId": 17903,
-        "revisionTimestamp": "2026-07-11T15:39:13Z",
-        "fetchedAt": "2026-07-12T12:33:02.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Salt&oldid=20030",
+        "revisionId": 20030,
+        "revisionTimestamp": "2026-08-10T11:03:42Z",
+        "fetchedAt": "2026-08-12T05:09:30.300Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7045,10 +7098,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Scanner",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner&oldid=19417",
-        "revisionId": 19417,
-        "revisionTimestamp": "2026-07-24T17:37:17Z",
-        "fetchedAt": "2026-07-25T05:58:47.000Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner&oldid=19709",
+        "revisionId": 19709,
+        "revisionTimestamp": "2026-07-28T19:42:32Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7253,6 +7306,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Articles needing action",
         "Crafted with Habitat Builder",
         "Discontinued content",
         "Furniture",
@@ -7281,10 +7335,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Seamoth_Model",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=19318",
-        "revisionId": 19318,
-        "revisionTimestamp": "2026-07-24T01:48:30Z",
-        "fetchedAt": "2026-07-25T05:58:47.001Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=19668",
+        "revisionId": 19668,
+        "revisionTimestamp": "2026-07-27T11:22:50Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7347,7 +7401,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -7374,10 +7429,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=17904",
-        "revisionId": 17904,
-        "revisionTimestamp": "2026-07-11T15:39:39Z",
-        "fetchedAt": "2026-07-12T12:33:02.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=20031",
+        "revisionId": 20031,
+        "revisionTimestamp": "2026-08-10T11:11:23Z",
+        "fetchedAt": "2026-08-12T05:09:30.301Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7423,10 +7478,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver_Ingot&oldid=16890",
-        "revisionId": 16890,
-        "revisionTimestamp": "2026-07-09T09:47:58Z",
-        "fetchedAt": "2026-07-12T12:33:02.993Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver_Ingot&oldid=19816",
+        "revisionId": 19816,
+        "revisionTimestamp": "2026-08-02T10:42:20Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7477,10 +7532,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Single_Bed",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Single_Bed&oldid=19320",
-        "revisionId": 19320,
-        "revisionTimestamp": "2026-07-24T01:48:49Z",
-        "fetchedAt": "2026-07-25T05:58:47.001Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Single_Bed&oldid=19824",
+        "revisionId": 19824,
+        "revisionTimestamp": "2026-08-03T00:00:23Z",
+        "fetchedAt": "2026-08-12T05:09:30.303Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7727,6 +7782,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -7764,10 +7820,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sonic_Resonator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sonic_Resonator&oldid=19419",
-        "revisionId": 19419,
-        "revisionTimestamp": "2026-07-24T17:38:43Z",
-        "fetchedAt": "2026-07-25T05:58:46.999Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sonic_Resonator&oldid=19712",
+        "revisionId": 19712,
+        "revisionTimestamp": "2026-07-28T19:44:01Z",
+        "fetchedAt": "2026-08-12T05:09:30.301Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7817,10 +7873,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Spotlight",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Spotlight&oldid=19305",
-        "revisionId": 19305,
-        "revisionTimestamp": "2026-07-24T01:45:04Z",
-        "fetchedAt": "2026-07-25T05:58:47.002Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Spotlight&oldid=19934",
+        "revisionId": 19934,
+        "revisionTimestamp": "2026-08-09T17:36:32Z",
+        "fetchedAt": "2026-08-12T05:09:30.304Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7835,6 +7891,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tank equipment"
       ],
       "availableByDefault": true,
@@ -7868,10 +7925,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Standard_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Standard_Air_Tank&oldid=17871",
-        "revisionId": 17871,
-        "revisionTimestamp": "2026-07-11T15:27:53Z",
-        "fetchedAt": "2026-07-12T12:33:02.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Standard_Air_Tank&oldid=19981",
+        "revisionId": 19981,
+        "revisionTimestamp": "2026-08-09T19:15:56Z",
+        "fetchedAt": "2026-08-12T05:09:30.300Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8129,10 +8186,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Strontium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Strontium&oldid=16891",
-        "revisionId": 16891,
-        "revisionTimestamp": "2026-07-09T09:48:38Z",
-        "fetchedAt": "2026-07-12T12:33:02.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Strontium&oldid=19820",
+        "revisionId": 19820,
+        "revisionTimestamp": "2026-08-02T10:44:08Z",
+        "fetchedAt": "2026-08-12T05:09:30.306Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8207,7 +8264,9 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Needs In-Game Screenshots",
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -8234,10 +8293,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sulfur",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=17907",
-        "revisionId": 17907,
-        "revisionTimestamp": "2026-07-11T15:41:43Z",
-        "fetchedAt": "2026-07-12T12:33:02.994Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=20034",
+        "revisionId": 20034,
+        "revisionTimestamp": "2026-08-10T11:16:25Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8283,10 +8342,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Survival_Multitool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Survival_Multitool&oldid=17967",
-        "revisionId": 17967,
-        "revisionTimestamp": "2026-07-12T03:32:30Z",
-        "fetchedAt": "2026-07-12T12:33:02.994Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Survival_Multitool&oldid=20072",
+        "revisionId": 20072,
+        "revisionTimestamp": "2026-08-11T13:10:22Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8360,7 +8419,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Vehicle Fabricator",
-        "Section stubs",
+        "Needs In-Game Screenshots",
         "Vehicles"
       ],
       "availableByDefault": false,
@@ -8398,10 +8457,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=17471",
-        "revisionId": 17471,
-        "revisionTimestamp": "2026-07-10T16:42:34Z",
-        "fetchedAt": "2026-07-12T12:33:02.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=19906",
+        "revisionId": 19906,
+        "revisionTimestamp": "2026-08-09T17:05:28Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8583,6 +8642,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Vehicle Fabricator",
+        "Section stubs",
         "Vehicles"
       ],
       "availableByDefault": false,
@@ -8620,10 +8680,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Haul_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=18001",
-        "revisionId": 18001,
-        "revisionTimestamp": "2026-07-13T01:42:49Z",
-        "fetchedAt": "2026-07-13T15:00:02.476Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=19813",
+        "revisionId": 19813,
+        "revisionTimestamp": "2026-08-02T10:39:47Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8638,6 +8698,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Vehicle Fabricator",
+        "Section stubs",
         "Vehicles"
       ],
       "availableByDefault": false,
@@ -8675,10 +8736,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Scout_Ray_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=15298",
-        "revisionId": 15298,
-        "revisionTimestamp": "2026-07-08T17:26:54Z",
-        "fetchedAt": "2026-07-12T12:33:02.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=19812",
+        "revisionId": 19812,
+        "revisionTimestamp": "2026-08-02T10:39:39Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9046,10 +9107,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Thermal_Plant",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Thermal_Plant&oldid=19303",
-        "revisionId": 19303,
-        "revisionTimestamp": "2026-07-24T01:44:34Z",
-        "fetchedAt": "2026-07-25T05:58:47.006Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Thermal_Plant&oldid=19699",
+        "revisionId": 19699,
+        "revisionTimestamp": "2026-07-28T11:08:10Z",
+        "fetchedAt": "2026-08-12T05:09:30.307Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9111,13 +9172,7 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": {
-        "fileName": "Threemoon Temaki.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Threemoon_Temaki.png?e6984",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Threemoon_Temaki.png",
-        "width": 256,
-        "height": 256
-      }
+      "media": null
     },
     {
       "id": "time-of-day-display",
@@ -9178,7 +9233,8 @@
       "categories": [
         "Crafted with Fabricator",
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -9217,10 +9273,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=18779",
-        "revisionId": 18779,
-        "revisionTimestamp": "2026-07-21T03:11:18Z",
-        "fetchedAt": "2026-07-23T16:22:12.836Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=20036",
+        "revisionId": 20036,
+        "revisionTimestamp": "2026-08-10T11:20:29Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9266,10 +9322,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium_Ingot&oldid=16895",
-        "revisionId": 16895,
-        "revisionTimestamp": "2026-07-09T09:51:23Z",
-        "fetchedAt": "2026-07-12T12:33:02.994Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium_Ingot&oldid=19814",
+        "revisionId": 19814,
+        "revisionTimestamp": "2026-08-02T10:42:05Z",
+        "fetchedAt": "2026-08-12T05:09:30.304Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9334,7 +9390,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Section stubs"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -9361,10 +9418,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=19219",
-        "revisionId": 19219,
-        "revisionTimestamp": "2026-07-23T20:17:39Z",
-        "fetchedAt": "2026-07-25T05:58:47.005Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=20037",
+        "revisionId": 20037,
+        "revisionTimestamp": "2026-08-10T11:26:38Z",
+        "fetchedAt": "2026-08-12T05:09:30.306Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9385,6 +9442,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tank equipment"
       ],
       "availableByDefault": false,
@@ -9418,10 +9476,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Ultra_High_Capacity_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=17876",
-        "revisionId": 17876,
-        "revisionTimestamp": "2026-07-11T15:29:17Z",
-        "fetchedAt": "2026-07-12T12:33:02.995Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=19978",
+        "revisionId": 19978,
+        "revisionTimestamp": "2026-08-09T19:12:46Z",
+        "fetchedAt": "2026-08-12T05:09:30.305Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9593,6 +9651,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
+        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -9630,10 +9689,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wakemaker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wakemaker&oldid=19421",
-        "revisionId": 19421,
-        "revisionTimestamp": "2026-07-24T17:45:06Z",
-        "fetchedAt": "2026-07-25T05:58:47.003Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wakemaker&oldid=19714",
+        "revisionId": 19714,
+        "revisionTimestamp": "2026-07-28T19:44:18Z",
+        "fetchedAt": "2026-08-12T05:09:30.304Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10264,10 +10323,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Work_Light",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Work_Light&oldid=19311",
-        "revisionId": 19311,
-        "revisionTimestamp": "2026-07-24T01:46:41Z",
-        "fetchedAt": "2026-07-25T05:58:47.008Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Work_Light&oldid=19957",
+        "revisionId": 19957,
+        "revisionTimestamp": "2026-08-09T18:08:26Z",
+        "fetchedAt": "2026-08-12T05:09:30.308Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T05:09:30.913Z",
-  "count": 313,
+  "generatedAt": "2026-08-15T17:57:58.284Z",
+  "count": 322,
   "entries": [
     {
       "title": "Start here",
@@ -303,6 +303,21 @@
       }
     },
     {
+      "title": "Axum-tech Multitool",
+      "type": "Item",
+      "href": "guide/items/axum-tech-multitool.html",
+      "terms": "Axum-tech Multitool Modification Station Survival Multitool Mangalloy Ingot Hydraulic Bulb",
+      "image": "https://wiki.subnautica.com/sn2/images/EMT.png?2a234",
+      "localizedTitles": {
+        "zh-cn": "阿克苏姆科技多功能工具",
+        "ru": "Мультитул аксум-тек"
+      },
+      "localizedTerms": {
+        "zh-cn": "模改中心 阿克苏姆科技多功能工具 多功能生存工具 锰合金锭",
+        "ru": "Модификационная станция Мультитул аксум-тек Мультитул Слиток марганцевой стали"
+      }
+    },
+    {
       "title": "Basic Battery",
       "type": "Item",
       "href": "guide/items/basic-battery.html",
@@ -378,6 +393,21 @@
       }
     },
     {
+      "title": "Big Sub Key Item",
+      "type": "Item",
+      "href": "guide/items/big-sub-key-item.html",
+      "terms": "Big Sub Key Item Fabricator Axum Bacterial Culture Graphene Ingot",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Big_Sub_Key_Item.png/720px-Big_Sub_Key_Item.png?ca703",
+      "localizedTitles": {
+        "zh-cn": "大型潜艇关键物品",
+        "ru": "Ключевой предмет большой подлодки"
+      },
+      "localizedTerms": {
+        "zh-cn": "阿克苏姆细菌培养物 大型潜艇关键物品 石墨烯锭 装配台",
+        "ru": "Бактериальная культура аксумов Ключевой предмет большой подлодки Слиток графена Изготовитель"
+      }
+    },
+    {
       "title": "Biobed",
       "type": "Item",
       "href": "guide/items/biobed.html",
@@ -450,6 +480,21 @@
       "localizedTerms": {
         "zh-cn": "模改中心 导管晶体 搪瓷玻璃 生物扫描仪 扫描仪 玻璃",
         "ru": "Модификационная станция Проводящий кристалл Эмалированное стекло Биосканер Сканнер Стекло"
+      }
+    },
+    {
+      "title": "Bulb Floor Lamp",
+      "type": "Item",
+      "href": "guide/items/bulb-floor-lamp.html",
+      "terms": "Bulb Floor Lamp Habitat Builder Titanium Copper Wire",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "落地灯",
+        "ru": "Напольный светильник"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 落地灯 铜线 钛 铜",
+        "ru": "Строитель Напольный светильник Медный провод Титан Медь"
       }
     },
     {
@@ -813,6 +858,21 @@
       }
     },
     {
+      "title": "Current Ring",
+      "type": "Item",
+      "href": "guide/items/current-ring.html",
+      "terms": "Current Ring Habitat Builder Titanium Wiring Kit Lithium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "水流环",
+        "ru": "Кольцевой генератор течения"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 水流环 接线盒 钛 锂",
+        "ru": "Строитель Кольцевой генератор течения Комплект проводов Титан Литий"
+      }
+    },
+    {
       "title": "Cyclops Poster",
       "type": "Item",
       "href": "guide/items/cyclops-poster.html",
@@ -915,6 +975,21 @@
       "localizedTerms": {
         "zh-cn": "双联太阳能电池板 栖息所建造器 锗锭 太阳能电池板 钛 铜",
         "ru": "Двойная солнечная панель Строитель Слиток германия Солнечная панель Титан Медь"
+      }
+    },
+    {
+      "title": "Echo Location",
+      "type": "Item",
+      "href": "guide/items/echo-location.html",
+      "terms": "Echo Location Modification Station Quartz Mild Acid Atacamite Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/Echo_Location.png?abab7",
+      "localizedTitles": {
+        "zh-cn": "回声定位",
+        "ru": "Эхолокация"
+      },
+      "localizedTerms": {
+        "zh-cn": "模改中心 回声定位 弱酸 氯铜矿 石英",
+        "ru": "Модификационная станция Эхолокация Слабая кислота Атакамит Кварц"
       }
     },
     {
@@ -1173,6 +1248,21 @@
       }
     },
     {
+      "title": "Graphene Ingot",
+      "type": "Item",
+      "href": "guide/items/graphene-ingot.html",
+      "terms": "Graphene Ingot Processor Tar Graphene Lithium",
+      "image": "https://wiki.subnautica.com/sn2/images/Graphene_Ingot.png?7426f",
+      "localizedTitles": {
+        "zh-cn": "石墨烯锭",
+        "ru": "Слиток графена"
+      },
+      "localizedTerms": {
+        "zh-cn": "石墨烯锭 处理器 锂",
+        "ru": "Слиток графена Переработчик Литий"
+      }
+    },
+    {
       "title": "Grease",
       "type": "Item",
       "href": "guide/items/grease.html",
@@ -1243,8 +1333,8 @@
         "ru": "Полукруглый отсек"
       },
       "localizedTerms": {
-        "zh-cn": "栖息所建造器 半圆形房间 钛 玻璃 房间",
-        "ru": "Строитель Полукруглый отсек Титан Стекло Отсек"
+        "zh-cn": "栖息所建造器 半圆形房间 圆形房间 钛 玻璃 房间",
+        "ru": "Строитель Полукруглый отсек Круглая комната Титан Стекло Отсек"
       }
     },
     {
@@ -2043,6 +2133,21 @@
       }
     },
     {
+      "title": "Resource Crusher",
+      "type": "Item",
+      "href": "guide/items/resource-crusher.html",
+      "terms": "Resource Crusher Habitat Builder Mangalloy Ingot Plasteel Ingot",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "资源破碎机",
+        "ru": "Дробилка ресурсов"
+      },
+      "localizedTerms": {
+        "zh-cn": "资源破碎机 栖息所建造器 锰合金锭 塑钢锭",
+        "ru": "Дробилка ресурсов Строитель Слиток марганцевой стали Слиток пластали"
+      }
+    },
+    {
       "title": "Roof Antenna",
       "type": "Item",
       "href": "guide/items/roof-antenna.html",
@@ -2160,6 +2265,21 @@
       "localizedTerms": {
         "zh-cn": "栖息所建造器 钛 房间",
         "ru": "Строитель Титан Отсек"
+      }
+    },
+    {
+      "title": "Round Room",
+      "type": "Item",
+      "href": "guide/items/round-room.html",
+      "terms": "Round Room Habitat Builder Titanium Glass",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "圆形房间",
+        "ru": "Круглая комната"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 圆形房间 钛 玻璃 房间",
+        "ru": "Строитель Круглая комната Титан Стекло Отсек"
       }
     },
     {
@@ -2895,6 +3015,21 @@
       "localizedTerms": {
         "zh-cn": "钛锭 处理器 钛",
         "ru": "Титановый слиток Переработчик Титан"
+      }
+    },
+    {
+      "title": "Tracking Tag",
+      "type": "Item",
+      "href": "guide/items/tracking-tag.html",
+      "terms": "Tracking Tag Fabricator Copper Quartz Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/Tracking_Tag.png?307ef",
+      "localizedTitles": {
+        "zh-cn": "追踪标签",
+        "ru": "Метка отслеживания"
+      },
+      "localizedTerms": {
+        "zh-cn": "追踪标签 装配台 石英 铜",
+        "ru": "Метка отслеживания Изготовитель Кварц Медь"
       }
     },
     {

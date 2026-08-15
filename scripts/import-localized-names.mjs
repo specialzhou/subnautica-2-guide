@@ -78,6 +78,12 @@ const community = {
   "Lead node": ["铅矿脉", "Свинцовая жила"],
   "Lead deposit": ["铅矿床", "Месторождение свинца"],
   "Atacamite deposit": ["氯铜矿矿床", "Месторождение атакамита"],
+  "Axum-tech Multitool": ["阿克苏姆科技多功能工具", "Мультитул аксум-тек"],
+  "Big Sub Key Item": ["大型潜艇关键物品", "Ключевой предмет большой подлодки"],
+  "Graphene Ingot": ["石墨烯锭", "Слиток графена"],
+  "Resource Crusher": ["资源破碎机", "Дробилка ресурсов"],
+  "Round Room": ["圆形房间", "Круглая комната"],
+  "Tracking Tag": ["追踪标签", "Метка отслеживания"],
 };
 
 const decode = (value) => value

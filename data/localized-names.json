@@ -1,16 +1,16 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-12T05:09:34.673Z",
+  "generatedAt": "2026-08-15T17:56:31.669Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
     "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index."
   },
   "counts": {
-    "recordNames": 257,
-    "total": 381,
+    "recordNames": 266,
+    "total": 387,
     "imported": 312,
-    "community": 69
+    "community": 75
   },
   "names": {
     "Advanced Battery": {
@@ -2296,6 +2296,42 @@
     "Pudding Urchin": {
       "zh-cn": "布丁海胆",
       "ru": "Пудинговый морской ёж",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Axum-tech Multitool": {
+      "zh-cn": "阿克苏姆科技多功能工具",
+      "ru": "Мультитул аксум-тек",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Big Sub Key Item": {
+      "zh-cn": "大型潜艇关键物品",
+      "ru": "Ключевой предмет большой подлодки",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Graphene Ingot": {
+      "zh-cn": "石墨烯锭",
+      "ru": "Слиток графена",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Resource Crusher": {
+      "zh-cn": "资源破碎机",
+      "ru": "Дробилка ресурсов",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Round Room": {
+      "zh-cn": "圆形房间",
+      "ru": "Круглая комната",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Tracking Tag": {
+      "zh-cn": "追踪标签",
+      "ru": "Метка отслеживания",
       "provenance": "community-translation",
       "sourceUrl": null
     }

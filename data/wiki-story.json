@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-15T17:52:56.302Z",
+  "generatedAt": "2026-08-24T17:09:38.356Z",
   "category": "Story",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -9,9 +9,9 @@
   "pages": [
     {
       "title": "Blackboxes",
-      "revisionId": 20065,
-      "revisionTimestamp": "2026-08-11T12:01:05Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackboxes&oldid=20065",
+      "revisionId": 20999,
+      "revisionTimestamp": "2026-08-17T02:19:17Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackboxes&oldid=20999",
       "sections": []
     },
     {
@@ -23,9 +23,9 @@
     },
     {
       "title": "Databank",
-      "revisionId": 18390,
-      "revisionTimestamp": "2026-07-14T22:03:05Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Databank&oldid=18390",
+      "revisionId": 21512,
+      "revisionTimestamp": "2026-08-19T20:12:49Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Databank&oldid=21512",
       "sections": []
     },
     {
@@ -72,30 +72,30 @@
     },
     {
       "title": "Proteavirus",
-      "revisionId": 14789,
-      "revisionTimestamp": "2026-07-05T18:20:01Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteavirus&oldid=14789",
+      "revisionId": 21453,
+      "revisionTimestamp": "2026-08-19T18:26:05Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteavirus&oldid=21453",
       "sections": []
     },
     {
       "title": "Proteus",
-      "revisionId": 18437,
-      "revisionTimestamp": "2026-07-15T11:28:11Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteus&oldid=18437",
+      "revisionId": 21120,
+      "revisionTimestamp": "2026-08-18T10:47:46Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteus&oldid=21120",
       "sections": []
     },
     {
       "title": "Qualified Investigator",
-      "revisionId": 18605,
-      "revisionTimestamp": "2026-07-18T00:06:14Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Qualified_Investigator&oldid=18605",
+      "revisionId": 21272,
+      "revisionTimestamp": "2026-08-19T15:45:26Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Qualified_Investigator&oldid=21272",
       "sections": []
     },
     {
       "title": "Story",
-      "revisionId": 18362,
-      "revisionTimestamp": "2026-07-14T15:38:42Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Story&oldid=18362",
+      "revisionId": 21219,
+      "revisionTimestamp": "2026-08-18T19:23:08Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Story&oldid=21219",
       "sections": [
         "Arrival",
         "Tensions Rise",

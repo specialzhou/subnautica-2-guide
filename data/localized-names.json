@@ -1,16 +1,16 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-15T17:58:03.994Z",
+  "generatedAt": "2026-08-24T17:09:50.670Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
     "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index."
   },
   "counts": {
-    "recordNames": 266,
-    "total": 387,
+    "recordNames": 273,
+    "total": 395,
     "imported": 312,
-    "community": 75
+    "community": 83
   },
   "names": {
     "Advanced Battery": {
@@ -2299,6 +2299,12 @@
       "provenance": "community-translation",
       "sourceUrl": null
     },
+    "Axum Ingot": {
+      "zh-cn": "阿克苏姆锭",
+      "ru": "Слиток аксума",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
     "Axum-tech Multitool": {
       "zh-cn": "阿克苏姆科技多功能工具",
       "ru": "Мультитул аксум-тек",
@@ -2311,9 +2317,45 @@
       "provenance": "community-translation",
       "sourceUrl": null
     },
+    "Blackthorn": {
+      "zh-cn": "黑刺鱼",
+      "ru": "Черношип",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Bullfrog Workmech": {
+      "zh-cn": "牛蛙工程机甲",
+      "ru": "Рабочий мех «Лягушка-бык»",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Carryables Rack": {
+      "zh-cn": "搬运物挂架",
+      "ru": "Стойка для переносимых предметов",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Cooked Blackthorn": {
+      "zh-cn": "熟黑刺鱼",
+      "ru": "Приготовленный черношип",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
     "Graphene Ingot": {
       "zh-cn": "石墨烯锭",
       "ru": "Слиток графена",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lava Floor Lamp": {
+      "zh-cn": "熔岩落地灯",
+      "ru": "Лавовый торшер",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Lithium Grains": {
+      "zh-cn": "锂颗粒",
+      "ru": "Крупицы лития",
       "provenance": "community-translation",
       "sourceUrl": null
     },
@@ -2326,6 +2368,12 @@
     "Round Room": {
       "zh-cn": "圆形房间",
       "ru": "Круглая комната",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Scorpius": {
+      "zh-cn": "天蝎区",
+      "ru": "Скорпиус",
       "provenance": "community-translation",
       "sourceUrl": null
     },

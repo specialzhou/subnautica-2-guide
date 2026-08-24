@@ -138,6 +138,7 @@ const relatedPageLabels = {
   "guide/items/strong-acid.html": { en: "Strong Acid", "zh-cn": "强酸", ru: "Сильная кислота" },
   "equipment-upgrades.html": { en: "Equipment upgrades", "zh-cn": "装备升级", ru: "Улучшения снаряжения" },
   "guide/items/wall-rack.html": { en: "Wall Rack", "zh-cn": "墙壁挂架", ru: "Настенная стойка" },
+  "guide/items/carryables-rack.html": { en: "Carryables Rack", "zh-cn": "搬运物挂架", ru: "Стойка для переносимых предметов" },
   "blueprints.html": { en: "Blueprints", "zh-cn": "蓝图", ru: "Чертежи" },
   "guide/items/tadpole-scout-ray-chassis.html": { en: "Tadpole Scout Ray Chassis", "zh-cn": "蝌蚪号 Scout Ray 底盘", ru: "Шасси Scout Ray" },
   "vehicle-planner.html": { en: "Tadpole planner", "zh-cn": "蝌蚪号规划", ru: "План Головастика" },

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T17:57:58.284Z",
-  "count": 322,
+  "generatedAt": "2026-08-24T17:09:23.317Z",
+  "count": 329,
   "entries": [
     {
       "title": "Start here",
@@ -213,6 +213,21 @@
       }
     },
     {
+      "title": "Axum Ingot",
+      "type": "Item",
+      "href": "guide/items/axum-ingot.html",
+      "terms": "Axum Ingot Processor Titanium Ingot Atacamite Troilite Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/Axum_Ingot.png?ca1c6",
+      "localizedTitles": {
+        "zh-cn": "阿克苏姆锭",
+        "ru": "Слиток аксума"
+      },
+      "localizedTerms": {
+        "zh-cn": "钛锭 阿克苏姆锭 处理器 氯铜矿 钛 磁黄铁矿",
+        "ru": "Титановый слиток Слиток аксума Переработчик Атакамит Титан Троилит"
+      }
+    },
+    {
       "title": "Axum Jar",
       "type": "Item",
       "href": "guide/items/axum-jar.html",
@@ -306,15 +321,15 @@
       "title": "Axum-tech Multitool",
       "type": "Item",
       "href": "guide/items/axum-tech-multitool.html",
-      "terms": "Axum-tech Multitool Modification Station Survival Multitool Mangalloy Ingot Hydraulic Bulb",
+      "terms": "Axum-tech Multitool Modification Station Survival Multitool Axum Ingot Hydraulic Bulb",
       "image": "https://wiki.subnautica.com/sn2/images/EMT.png?2a234",
       "localizedTitles": {
         "zh-cn": "阿克苏姆科技多功能工具",
         "ru": "Мультитул аксум-тек"
       },
       "localizedTerms": {
-        "zh-cn": "模改中心 阿克苏姆科技多功能工具 多功能生存工具 锰合金锭",
-        "ru": "Модификационная станция Мультитул аксум-тек Мультитул Слиток марганцевой стали"
+        "zh-cn": "模改中心 阿克苏姆科技多功能工具 多功能生存工具 阿克苏姆锭",
+        "ru": "Модификационная станция Мультитул аксум-тек Мультитул Слиток аксума"
       }
     },
     {
@@ -498,6 +513,36 @@
       }
     },
     {
+      "title": "Bullfrog Workmech",
+      "type": "Item",
+      "href": "guide/items/bullfrog-workmech.html",
+      "terms": "Bullfrog Workmech Vehicle Fabricator Plasteel Ingot Hydraulic Bulb",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "牛蛙工程机甲",
+        "ru": "Рабочий мех «Лягушка-бык»"
+      },
+      "localizedTerms": {
+        "zh-cn": "载具制造台 牛蛙工程机甲 塑钢锭 装配台",
+        "ru": "Изготовитель транспорта Рабочий мех «Лягушка-бык» Слиток пластали Изготовитель"
+      }
+    },
+    {
+      "title": "Carryables Rack",
+      "type": "Item",
+      "href": "guide/items/carryables-rack.html",
+      "terms": "Carryables Rack Habitat Builder Titanium Copper",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "搬运物挂架",
+        "ru": "Стойка для переносимых предметов"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 搬运物挂架 钛 铜",
+        "ru": "Строитель Стойка для переносимых предметов Титан Медь"
+      }
+    },
+    {
       "title": "Cavitation Muffler",
       "type": "Item",
       "href": "guide/items/cavitation-muffler.html",
@@ -603,18 +648,18 @@
       }
     },
     {
-      "title": "Cooked Black Hoverthorn",
+      "title": "Cooked Blackthorn",
       "type": "Item",
-      "href": "guide/items/cooked-black-hoverthorn.html",
-      "terms": "Cooked Black Hoverthorn Fabricator Black Hoverthorn Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Cooked_Black_Hoverthorn.png?a4d6c",
+      "href": "guide/items/cooked-blackthorn.html",
+      "terms": "Cooked Blackthorn Fabricator Blackthorn Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/Cooked_Blackthorn.png?a4d6c",
       "localizedTitles": {
-        "zh-cn": "烹饪过的黑悬浮刺鱼",
-        "ru": "Приготовленный чёрный иглохвост"
+        "zh-cn": "熟黑刺鱼",
+        "ru": "Приготовленный черношип"
       },
       "localizedTerms": {
-        "zh-cn": "烹饪过的黑悬浮刺鱼 黑悬浮刺鱼 装配台 悬浮刺鱼",
-        "ru": "Приготовленный чёрный иглохвост Чёрный иглохвост Изготовитель Иглохвост"
+        "zh-cn": "熟黑刺鱼 装配台 黑刺鱼",
+        "ru": "Приготовленный черношип Изготовитель Черношип"
       }
     },
     {
@@ -1056,15 +1101,15 @@
       "title": "Expanded Deployable Locker",
       "type": "Item",
       "href": "guide/items/expanded-deployable-locker.html",
-      "terms": "Expanded Deployable Locker Habitat Builder Strontium Mangalloy Ingot Titanium Ingot",
+      "terms": "Expanded Deployable Locker Habitat Builder Strontium Axum Ingot Titanium Ingot",
       "image": null,
       "localizedTitles": {
         "zh-cn": "扩容可部署储物柜",
         "ru": "Вместительный шкаф"
       },
       "localizedTerms": {
-        "zh-cn": "扩容可部署储物柜 栖息所建造器 锰合金锭 钛锭 锶 钛",
-        "ru": "Вместительный шкаф Строитель Слиток марганцевой стали Титановый слиток Стронций Титан"
+        "zh-cn": "扩容可部署储物柜 栖息所建造器 钛锭 阿克苏姆锭 锶 钛",
+        "ru": "Вместительный шкаф Строитель Титановый слиток Слиток аксума Стронций Титан"
       }
     },
     {
@@ -1185,6 +1230,21 @@
       "localizedTerms": {
         "zh-cn": "栖息所建造器 小苍兰 纤维浆",
         "ru": "Строитель Фрезия Волокнистая масса"
+      }
+    },
+    {
+      "title": "Geothermal Recharger",
+      "type": "Item",
+      "href": "guide/items/geothermal-recharger.html",
+      "terms": "Geothermal Recharger Habitat Builder Titanium Ingot Copper Wire Basic Battery",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "地热充电器",
+        "ru": "Геотермальное зарядное устройство"
+      },
+      "localizedTerms": {
+        "zh-cn": "地热充电器 栖息所建造器 钛锭 基础电池 铜线 钛 铜",
+        "ru": "Геотермальное зарядное устройство Строитель Титановый слиток Простой аккумулятор Медный провод Титан Медь"
       }
     },
     {
@@ -1578,6 +1638,21 @@
       }
     },
     {
+      "title": "Lava Floor Lamp",
+      "type": "Item",
+      "href": "guide/items/lava-floor-lamp.html",
+      "terms": "Lava Floor Lamp Habitat Builder Titanium Copper Wire",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "熔岩落地灯",
+        "ru": "Лавовый торшер"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 熔岩落地灯 铜线 钛 铜",
+        "ru": "Строитель Лавовый торшер Медный провод Титан Медь"
+      }
+    },
+    {
       "title": "Lead",
       "type": "Item",
       "href": "guide/items/lead.html",
@@ -1623,6 +1698,21 @@
       }
     },
     {
+      "title": "Lithium Grains",
+      "type": "Item",
+      "href": "guide/items/lithium-grains.html",
+      "terms": "Lithium Grains Fabricator Lithium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "锂颗粒",
+        "ru": "Крупицы лития"
+      },
+      "localizedTerms": {
+        "zh-cn": "锂颗粒 装配台 锂",
+        "ru": "Крупицы лития Изготовитель Литий"
+      }
+    },
+    {
       "title": "Lost River Poster",
       "type": "Item",
       "href": "guide/items/lost-river-poster.html",
@@ -1653,33 +1743,18 @@
       }
     },
     {
-      "title": "Mangalloy Ingot",
-      "type": "Item",
-      "href": "guide/items/mangalloy-ingot.html",
-      "terms": "Mangalloy Ingot Processor Titanium Ingot Atacamite Troilite Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Mangalloy_Ingot.png?ca1c6",
-      "localizedTitles": {
-        "zh-cn": "锰合金锭",
-        "ru": "Слиток марганцевой стали"
-      },
-      "localizedTerms": {
-        "zh-cn": "锰合金锭 钛锭 处理器 氯铜矿 钛 磁黄铁矿",
-        "ru": "Слиток марганцевой стали Титановый слиток Переработчик Атакамит Титан Троилит"
-      }
-    },
-    {
       "title": "Metal Farm",
       "type": "Item",
       "href": "guide/items/metal-farm.html",
-      "terms": "Metal Farm Habitat Builder Mangalloy Ingot Axum Bacterial Culture",
+      "terms": "Metal Farm Habitat Builder Axum Ingot Axum Bacterial Culture",
       "image": null,
       "localizedTitles": {
         "zh-cn": "金属农场",
         "ru": "Металлическая ферма"
       },
       "localizedTerms": {
-        "zh-cn": "阿克苏姆细菌培养物 栖息所建造器 锰合金锭 金属农场",
-        "ru": "Бактериальная культура аксумов Строитель Слиток марганцевой стали Металлическая ферма"
+        "zh-cn": "阿克苏姆细菌培养物 栖息所建造器 金属农场 阿克苏姆锭",
+        "ru": "Бактериальная культура аксумов Строитель Металлическая ферма Слиток аксума"
       }
     },
     {
@@ -2073,6 +2148,21 @@
       }
     },
     {
+      "title": "Radio",
+      "type": "Item",
+      "href": "guide/items/radio.html",
+      "terms": "Radio Habitat Builder Titanium Copper Wire",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "无线电",
+        "ru": "Радио"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 铜线 钛 铜 无线电",
+        "ru": "Строитель Медный провод Титан Медь Радио"
+      }
+    },
+    {
       "title": "Reaper Leviathan",
       "type": "Item",
       "href": "guide/items/reaper-leviathan.html",
@@ -2133,18 +2223,33 @@
       }
     },
     {
+      "title": "Resonance Fountain",
+      "type": "Item",
+      "href": "guide/items/resonance-fountain.html",
+      "terms": "Resonance Fountain Habitat Builder Ferrofluid Crystal Titanium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "共振喷泉",
+        "ru": "Резонансный фонтан"
+      },
+      "localizedTerms": {
+        "zh-cn": "共振喷泉 栖息所建造器 钛",
+        "ru": "Резонансный фонтан Строитель Титан"
+      }
+    },
+    {
       "title": "Resource Crusher",
       "type": "Item",
       "href": "guide/items/resource-crusher.html",
-      "terms": "Resource Crusher Habitat Builder Mangalloy Ingot Plasteel Ingot",
+      "terms": "Resource Crusher Habitat Builder Axum Ingot Plasteel Ingot",
       "image": null,
       "localizedTitles": {
         "zh-cn": "资源破碎机",
         "ru": "Дробилка ресурсов"
       },
       "localizedTerms": {
-        "zh-cn": "资源破碎机 栖息所建造器 锰合金锭 塑钢锭",
-        "ru": "Дробилка ресурсов Строитель Слиток марганцевой стали Слиток пластали"
+        "zh-cn": "资源破碎机 栖息所建造器 塑钢锭 阿克苏姆锭",
+        "ru": "Дробилка ресурсов Строитель Слиток пластали Слиток аксума"
       }
     },
     {
@@ -2781,15 +2886,15 @@
       "title": "Tadpole Depth Module Mk. 2",
       "type": "Item",
       "href": "guide/items/tadpole-depth-module-mk-2.html",
-      "terms": "Tadpole Depth Module Mk. 2 Modification Station Dedicated Core Troilite Mangalloy Ingot Crafting",
+      "terms": "Tadpole Depth Module Mk. 2 Modification Station Tadpole Depth Module Mk. 1 Troilite Tar Graphene Crafting",
       "image": "https://wiki.subnautica.com/sn2/images/Tadpole_Depth_Module_Mk._2.png?44af2",
       "localizedTitles": {
         "zh-cn": "蝌蚪号深潜模块2型",
         "ru": "Модуль глубины погружения «Головастика» – Мод. 2"
       },
       "localizedTerms": {
-        "zh-cn": "蝌蚪号深潜模块2型 模改中心 锰合金锭 专用核心 磁黄铁矿 蝌蚪号",
-        "ru": "Модуль глубины погружения «Головастика» – Мод. 2 Модификационная станция Слиток марганцевой стали Выделенное ядро Троилит «Головастик»"
+        "zh-cn": "蝌蚪号深潜模块1型 蝌蚪号深潜模块2型 模改中心 磁黄铁矿 蝌蚪号",
+        "ru": "Модуль глубины погружения «Головастика» – Мод. 1 Модуль глубины погружения «Головастика» – Мод. 2 Модификационная станция Троилит «Головастик»"
       }
     },
     {
@@ -3198,21 +3303,6 @@
       }
     },
     {
-      "title": "Wall Rack",
-      "type": "Item",
-      "href": "guide/items/wall-rack.html",
-      "terms": "Wall Rack Habitat Builder Titanium Copper",
-      "image": null,
-      "localizedTitles": {
-        "zh-cn": "壁架",
-        "ru": "Настенный стеллаж"
-      },
-      "localizedTerms": {
-        "zh-cn": "栖息所建造器 壁架 钛 铜",
-        "ru": "Строитель Настенный стеллаж Титан Медь"
-      }
-    },
-    {
       "title": "Wall Unit Large",
       "type": "Item",
       "href": "guide/items/wall-unit-large.html",
@@ -3408,6 +3498,21 @@
       }
     },
     {
+      "title": "Axum Ingot",
+      "type": "Resource",
+      "href": "guide/resources/axum-ingot.html",
+      "terms": "Axum Ingot Crafting Ingots",
+      "image": "https://wiki.subnautica.com/sn2/images/Axum_Ingot.png?ca1c6",
+      "localizedTitles": {
+        "zh-cn": "阿克苏姆锭",
+        "ru": "Слиток аксума"
+      },
+      "localizedTerms": {
+        "zh-cn": "阿克苏姆锭",
+        "ru": "Слиток аксума"
+      }
+    },
+    {
       "title": "Basic First Aid Kit",
       "type": "Resource",
       "href": "guide/resources/basic-first-aid-kit.html",
@@ -3423,18 +3528,18 @@
       }
     },
     {
-      "title": "Black Hoverthorn",
+      "title": "Blackthorn",
       "type": "Creature",
-      "href": "guide/creatures/black-hoverthorn.html",
-      "terms": "Black Hoverthorn Passive Mobile Foragers Monopter astrapakantha Food +15 / Health 0 / Water -5 Karakorum Metal Farms",
-      "image": "https://wiki.subnautica.com/sn2/images/Black_Hoverthorn.png?4627a",
+      "href": "guide/creatures/blackthorn.html",
+      "terms": "Blackthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Food +15 / Health 0 / Water -5 Karakorum Metal Farms",
+      "image": "https://wiki.subnautica.com/sn2/images/Blackthorn.png?4627a",
       "localizedTitles": {
-        "zh-cn": "黑悬浮刺鱼",
-        "ru": "Чёрный иглохвост"
+        "zh-cn": "黑刺鱼",
+        "ru": "Черношип"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 黑悬浮刺鱼 悬浮刺鱼 金属农场 水",
-        "ru": "Металлические фермы Каракорума Чёрный иглохвост Иглохвост Металлическая ферма Вода"
+        "zh-cn": "喀喇昆仑金属农场 金属农场 黑刺鱼 水",
+        "ru": "Металлические фермы Каракорума Металлическая ферма Черношип Вода"
       }
     },
     {
@@ -3666,7 +3771,7 @@
       "title": "Foureye",
       "type": "Creature",
       "href": "guide/creatures/foureye.html",
-      "terms": "Foureye Defensive Mobile Predators Morokotoform duplex Coral Gardens Necrolei Hills",
+      "terms": "Foureye Defensive Mobile Predators Morokotoform duplex “twofold morokoto-shaped one” Coral Gardens Necrolei Hills",
       "image": "https://wiki.subnautica.com/sn2/images/Foureye.png?d1513",
       "localizedTitles": {
         "zh-cn": "四眼鱼",
@@ -3681,7 +3786,7 @@
       "title": "Geordie",
       "type": "Creature",
       "href": "guide/creatures/geordie.html",
-      "terms": "Geordie Passive Mobile Foragers Salpapod geordie Food +20 / Health -5 / Water 0 Coral Gardens",
+      "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Food +20 / Health -5 / Water 0 Coral Gardens",
       "image": "https://wiki.subnautica.com/sn2/images/Geordie.png?574cc",
       "localizedTitles": {
         "zh-cn": "四翅海鞘",
@@ -3816,7 +3921,7 @@
       "title": "Harvestmoon",
       "type": "Creature",
       "href": "guide/creatures/harvestmoon.html",
-      "terms": "Harvestmoon Passive Mobile Foragers Unknown Food +20 / Health 0 / Water -5 Shallows Root Canyon",
+      "terms": "Harvestmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Food +20 / Health 0 / Water -5 Shallows Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/Harvestmoon.png?a042b",
       "localizedTitles": {
         "zh-cn": "满月鱼",
@@ -3963,25 +4068,10 @@
       }
     },
     {
-      "title": "Mangalloy Ingot",
-      "type": "Resource",
-      "href": "guide/resources/mangalloy-ingot.html",
-      "terms": "Mangalloy Ingot Crafting Ingots",
-      "image": "https://wiki.subnautica.com/sn2/images/Mangalloy_Ingot.png?ca1c6",
-      "localizedTitles": {
-        "zh-cn": "锰合金锭",
-        "ru": "Слиток марганцевой стали"
-      },
-      "localizedTerms": {
-        "zh-cn": "锰合金锭",
-        "ru": "Слиток марганцевой стали"
-      }
-    },
-    {
       "title": "Marrowbreach",
       "type": "Creature",
       "href": "guide/creatures/marrowbreach.html",
-      "terms": "Marrowbreach Aggressive Mobile Predators Mango marrowbreach \"Marrowbreach\" Shallows Plateaus Graveyard",
+      "terms": "Marrowbreach Aggressive Mobile Predators Mango marrowbreach \"Marrowbreach shark\" Shallows Plateaus Graveyard",
       "image": "https://wiki.subnautica.com/sn2/images/Marrowbreach.png?9288f",
       "localizedTitles": {
         "zh-cn": "拆骨鲨",
@@ -4057,7 +4147,7 @@
       "type": "Creature",
       "href": "guide/creatures/needler-mango.html",
       "terms": "Needler Mango Aggressive Mobile Predators Mango kestros \"dart-throwing shark\" Overgrown Ruins Needler Nest",
-      "image": "https://wiki.subnautica.com/sn2/images/Needler_Mango.png?9288f",
+      "image": "https://wiki.subnautica.com/sn2/images/Needler_Mango.png?d9439",
       "localizedTitles": {
         "zh-cn": "飞针鲨",
         "ru": "Акула-иглострел"
@@ -4161,7 +4251,7 @@
       "title": "Pneuma",
       "type": "Creature",
       "href": "guide/creatures/pneuma.html",
-      "terms": "Pneuma Passive Mobile Foragers Pneuma pneuma Food +25 / Health 0 / Water -5 Overgrown Ruins",
+      "terms": "Pneuma Passive Mobile Foragers Pneuma pneuma “Wind wind” Food +25 / Health 0 / Water -5 Overgrown Ruins",
       "image": "https://wiki.subnautica.com/sn2/images/Pneuma.png?9288f",
       "localizedTitles": {
         "zh-cn": "泡泡鱼",
@@ -4236,7 +4326,7 @@
       "title": "Sandspear",
       "type": "Creature",
       "href": "guide/creatures/sandspear.html",
-      "terms": "Sandspear Aggressive Mobile Predators Unknown Overgrown Ruins Plateaus Shallows Necrolei Hills",
+      "terms": "Sandspear Aggressive Mobile Predators Psalidoprosopon kryptokonton \"scissor-faced hidden spear\" Overgrown Ruins Plateaus Shallows Necrolei Hills",
       "image": "https://wiki.subnautica.com/sn2/images/Sandspear.png?9288f",
       "localizedTitles": {
         "zh-cn": "潜沙矛",
@@ -4245,6 +4335,21 @@
       "localizedTerms": {
         "zh-cn": "蔓生遗迹 尼克罗蕾丘陵 潜沙矛 死腐水母 高原 浅滩",
         "ru": "Заросшие руины Холмы Некролеи Копейник Некролея Плато Мелководье"
+      }
+    },
+    {
+      "title": "Scorpius",
+      "type": "Biome",
+      "href": "guide/biomes/scorpius.html",
+      "terms": "Scorpius 360 - 660m",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Scorpius_Wreck.png/720px-Scorpius_Wreck.png?08589",
+      "localizedTitles": {
+        "zh-cn": "天蝎区",
+        "ru": "Скорпиус"
+      },
+      "localizedTerms": {
+        "zh-cn": "天蝎区",
+        "ru": "Скорпиус"
       }
     },
     {
@@ -4401,7 +4506,7 @@
       "title": "Surge Jelly",
       "type": "Creature",
       "href": "guide/creatures/surge-jelly.html",
-      "terms": "Surge Jelly Defensive Mobile Foragers Staurobrachia capacitor Dolerite Spires Karakorum Power Plant",
+      "terms": "Surge Jelly Defensive Mobile Foragers Staurobrachia capacitor “Pole-arms capacitor” Dolerite Spires Karakorum Power Plant",
       "image": "https://wiki.subnautica.com/sn2/images/Surge_Jelly.png?4627a",
       "localizedTitles": {
         "zh-cn": "放电水母",
@@ -4551,22 +4656,22 @@
       "title": "Water Slug",
       "type": "Creature",
       "href": "guide/creatures/water-slug.html",
-      "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” Food -5 / Health 0 / Water +15 Coral Gardens",
+      "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” Food -5 / Health 0 / Water +15 All",
       "image": "https://wiki.subnautica.com/sn2/images/Water_Slug.png?4627a",
       "localizedTitles": {
         "zh-cn": "水蛞蝓",
         "ru": "Водный слизень"
       },
       "localizedTerms": {
-        "zh-cn": "珊瑚区 水蛞蝓 水",
-        "ru": "Коралловые сады Водный слизень Вода"
+        "zh-cn": "水蛞蝓 水",
+        "ru": "Водный слизень Вода"
       }
     },
     {
       "title": "Waxmoon",
       "type": "Creature",
       "href": "guide/creatures/waxmoon.html",
-      "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna Shallows Graveyard Necrolei Hills Root Canyon",
+      "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Shallows Graveyard Necrolei Hills Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/Waxmoon.png?4627a",
       "localizedTitles": {
         "zh-cn": "蜡月鱼",

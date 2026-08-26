@@ -14,7 +14,7 @@
     "traffic:opportunities": "node scripts/generate-traffic-opportunities.mjs",
     "test:traffic": "node scripts/test-traffic-opportunities.mjs",
     "enhance": "node scripts/generate-player-questions.mjs && node scripts/enhance-site.mjs",
-    "validate": "node scripts/test-player-question-collector.mjs && node scripts/test-player-question-promotion.mjs && node scripts/test-traffic-opportunities.mjs && node scripts/validate-data.mjs && node scripts/check-site.mjs && node scripts/check-locales.mjs",
+    "validate": "node scripts/test-player-question-collector.mjs && node scripts/test-player-question-promotion.mjs && node scripts/test-traffic-opportunities.mjs && node scripts/test-localized-names-fallback.mjs && node scripts/validate-data.mjs && node scripts/check-site.mjs && node scripts/check-locales.mjs",
     "validate:wiki-import": "node scripts/check-import-anomalies.mjs"
   }
 }

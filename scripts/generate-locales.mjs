@@ -891,7 +891,8 @@ function translate(html, dictionary, locale) {
     const localized = translations[locale];
     if (!localized) continue;
     const token = `__LN_${names.length}__`;
-    names.push(locale === "zh-cn" ? `${localized}（${source}）` : `${localized} (${source})`);
+    const formatted = localized === source ? source : (locale === "zh-cn" ? `${localized}（${source}）` : `${localized} (${source})`);
+    names.push(formatted);
     protectedHtml = replaceWithToken(protectedHtml, source, token);
   }
   for (const entry of dictionaryEntries.filter(([source]) => !/\s|[.,;:!?]/.test(source))) {

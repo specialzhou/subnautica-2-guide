@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-08-26T14:11:05.920Z",
+  "generatedAt": "2026-08-26T14:38:03.774Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1712,10 +1712,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Marrowbreach",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=21694",
-        "revisionId": 21694,
-        "revisionTimestamp": "2026-08-23T11:13:48Z",
-        "fetchedAt": "2026-08-24T17:09:30.148Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=22254",
+        "revisionId": 22254,
+        "revisionTimestamp": "2026-08-26T14:37:57Z",
+        "fetchedAt": "2026-08-26T14:38:09.015Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1734,11 +1734,11 @@
         ]
       },
       "media": {
-        "fileName": "Marrowbreach.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Marrowbreach.png?9288f",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Marrowbreach.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Marrowbreach render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Marrowbreach_render.png/720px-Marrowbreach_render.png?2ca06",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Marrowbreach_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {

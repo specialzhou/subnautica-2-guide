@@ -81,9 +81,21 @@ const recordNames = [...new Set([
   ...itemData.items.filter((item) => item.status === "wiki-backed").map((item) => item.title),
   ...entityData.entities.filter((entity) => entity.status === "wiki-backed").map((entity) => entity.title),
 ])];
+const missingTranslations = JSON.parse(await readFile(path.join(root, "data", "missing-translations.json"), "utf8").catch(() => "{\"missingCount\":0,\"items\":[]}"));
+const fallbackMap = new Map((missingTranslations.items || []).map((item) => [item.english, item.missingLocales || []]));
+
 for (const name of recordNames) {
   for (const locale of ["zh-cn", "ru"]) {
-    if (!localizedNames.names?.[name]?.[locale] || localizedNames.names[name][locale] === name) failures.push(`Missing localized record name: ${locale}/${name}`);
+    const entry = localizedNames.names?.[name];
+    const val = entry?.[locale];
+    if (!val) {
+      failures.push(`Missing localized record name: ${locale}/${name}`);
+    } else if (val === name) {
+      const isExpectedFallback = fallbackMap.get(name)?.includes(locale) || entry?.provenance === "fallback-untranslated" || entry?.provenance === "partial-fallback";
+      if (!isExpectedFallback) {
+        failures.push(`Untranslated record name without fallback registration: ${locale}/${name}`);
+      }
+    }
   }
 }
 for (const entry of searchIndex.entries) {

@@ -1,16 +1,17 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-26T14:16:26.626Z",
+  "generatedAt": "2026-08-26T14:38:41.382Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
-    "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index."
+    "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index. Missing translations gracefully fall back to English."
   },
   "counts": {
     "recordNames": 273,
     "total": 396,
     "imported": 312,
-    "community": 84
+    "community": 84,
+    "fallback": 0
   },
   "names": {
     "Advanced Battery": {

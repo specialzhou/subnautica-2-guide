@@ -170,8 +170,32 @@ for (const english of wanted) {
   else if (importedName && importedName["zh-cn"] !== english && importedName.ru !== english) names[english] = importedName;
 }
 
-const missing = wanted.filter((name) => !names[name]?.["zh-cn"] || !names[name]?.ru);
-if (missing.length) throw new Error(`Missing localized names: ${missing.join(", ")}`);
+const missing = [];
+for (const english of wanted) {
+  const hasZh = Boolean(names[english]?.["zh-cn"]);
+  const hasRu = Boolean(names[english]?.ru);
+  if (!hasZh || !hasRu) {
+    const missingLocales = [];
+    if (!hasZh) missingLocales.push("zh-cn");
+    if (!hasRu) missingLocales.push("ru");
+    missing.push({ english, missingLocales });
+
+    names[english] = {
+      "zh-cn": names[english]?.["zh-cn"] || english,
+      ru: names[english]?.ru || english,
+      provenance: (hasZh || hasRu) ? "partial-fallback" : "fallback-untranslated",
+      sourceUrl: names[english]?.sourceUrl || null,
+    };
+  }
+}
+
+const missingOutput = {
+  schemaVersion: "1.0.0",
+  generatedAt: new Date().toISOString(),
+  missingCount: missing.length,
+  items: missing,
+};
+await writeFile(path.join(root, "data", "missing-translations.json"), `${JSON.stringify(missingOutput, null, 2)}\n`);
 
 const output = {
   schemaVersion: "1.0.0",
@@ -179,16 +203,21 @@ const output = {
   source: {
     name: "Subnautica 2 Wiki localized game-data index",
     url: `${origin}/en/items`,
-    note: "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index.",
+    note: "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index. Missing translations gracefully fall back to English.",
   },
   counts: {
     recordNames: wanted.length,
     total: Object.keys(names).length,
     imported: Object.values(names).filter((entry) => entry.provenance === "game-language-data").length,
     community: Object.values(names).filter((entry) => entry.provenance === "community-translation").length,
+    fallback: missing.length,
   },
   names,
 };
 
 await writeFile(path.join(root, "data", "localized-names.json"), `${JSON.stringify(output, null, 2)}\n`);
-process.stdout.write(`Imported ${output.counts.imported} localized names; added ${output.counts.community} explicit community translations.\n`);
+process.stdout.write(`Imported ${output.counts.imported} localized names; added ${output.counts.community} explicit community translations; ${output.counts.fallback} fell back to English.\n`);
+if (missing.length > 0) {
+  process.stdout.write(`[Notice] ${missing.length} missing localized names fell back to English: ${missing.map((m) => m.english).join(", ")}\n`);
+}
+

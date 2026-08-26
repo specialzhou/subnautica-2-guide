@@ -58,8 +58,17 @@ jobs:
           git add --all
           git commit -m "chore: 更新官方 Wiki 修订"
           git push --force-with-lease --set-upstream origin automation/wiki-revisions
+          missing_section=""
+          if [[ -f "data/missing-translations.json" ]]; then
+            missing_count=$(jq -r '.missingCount // 0' data/missing-translations.json)
+            if [[ "$missing_count" -gt 0 ]]; then
+              missing_list=$(jq -r '.items[] | "- `" + .english + "` (缺少: " + (.missingLocales | join(", ")) + ")"' data/missing-translations.json)
+              missing_section=$(printf "\n\n> [!WARNING]\n> **待办本地化提醒**：检测到 %s 个新增词条暂无翻译，已临时降级使用英文原名显示：\n%s\n" "$missing_count" "$missing_list")
+            fi
+          fi
+
           if [[ "$(gh pr list --head automation/wiki-revisions --state open --json number --jq 'length')" == "0" ]]; then
-            cat > "$RUNNER_TEMP/wiki-review-pr.md" <<'EOF'
+            cat > "$RUNNER_TEMP/wiki-review-pr.md" <<EOF
           这是官方 Wiki 自动导入产生的待审核变更，不应直接合并。
 
           审核步骤：
@@ -67,11 +76,14 @@ jobs:
           - [ ] 检查新增、删除记录是否符合当前 Wiki
           - [ ] 检查配方、位置、版本号等结构化字段变化
           - [ ] 打开关键页面，确认生成内容和多语言页面没有异常
-          - [ ] 确认 `npm run validate` 与 `npm run validate:wiki-import` 通过
-          - [ ] 发现来源异常时关闭 PR，不要为了通过检查而编造数据
+          - [ ] 确认 \`npm run validate\` 与 \`npm run validate:wiki-import\` 通过
+          - [ ] 发现来源异常时关闭 PR，不要为了通过检查而编造数据${missing_section}
           EOF
             gh pr create --draft --base main --head automation/wiki-revisions \
               --title "待审核：官方 Wiki 修订变更" \
               --body-file "$RUNNER_TEMP/wiki-review-pr.md"
           fi
           echo "官方 Wiki 修订发生变化，审核分支已更新。" >> "$GITHUB_STEP_SUMMARY"
+          if [[ -n "$missing_section" ]]; then
+            echo "$missing_section" >> "$GITHUB_STEP_SUMMARY"
+          fi

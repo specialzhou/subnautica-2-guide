@@ -1,12 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-08-25T05:47:51.441Z",
+  "collectedAt": "2026-08-26T05:50:16.248Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
     "subreddits": [
-      "r/Subnautica_2",
-      "r/Subnautica"
+      "r/Subnautica_2"
     ],
     "feedUrl": "https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100, https://www.reddit.com/r/Subnautica/new/.rss?limit=100",
     "method": "public-atom-rss"
@@ -24,7 +23,7 @@
     "systemReview": 75,
     "readyToReply": 5,
     "dismissed": 0,
-    "addedThisRun": 42
+    "addedThisRun": 0
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -279,7 +278,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-08-25T05:47:51.441Z",
+        "lastErrorAt": "2026-08-26T05:50:16.248Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1vwaxnn/prawn_suit_stuck_in_dry_land_mode_glitched_inside/.rss?limit=500"
       },
       "title": "Prawn Suit stuck in dry land mode? Glitched inside the Alien Containment facility and can't get out? I made a video on how to solve these glitches without potentially dying or using commands. Info in description.",
@@ -434,7 +433,7 @@
       "questionKey": "help with multiplayer",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vqedn8/help_with_multiplayer/",
       "publishedAt": "2026-08-17T01:19:37+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -478,7 +477,7 @@
       "questionKey": "weird issue with the build tool i cannot understand",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vvp98z/weird_issue_with_the_build_tool_i_cannot/",
       "publishedAt": "2026-08-22T22:01:21+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -578,7 +577,7 @@
       "questionKey": "pda simply not working when starting a new game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vrybxw/pda_simply_not_working_when_starting_a_new_game/",
       "publishedAt": "2026-08-18T18:52:50+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 13,
       "signals": [
@@ -609,58 +608,6 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1voe45x",
-      "firstSeenAt": "2026-08-20T05:46:20.836Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 14,
-        "observedAt": "2026-08-20T05:46:20.836Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "No idea what to do next, no hints from NoA (story spoilers)",
-      "questionKey": "no idea what to do next no hints from noa story spoilers",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1voe45x/no_idea_what_to_do_next_no_hints_from_noa_story/",
-      "publishedAt": "2026-08-14T17:44:54+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 12,
-      "signals": [
-        "help",
-        "not-working",
-        "where",
-        "how",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.14,
-      "suggestedPages": [
-        {
-          "href": "guide/items/noa-terminal.html",
-          "title": "NoA Terminal",
-          "score": 0.14
-        },
-        {
-          "href": "guide/biomes/dolerite-spires.html",
-          "title": "Dolerite Spires",
-          "score": 0.14
-        },
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.14
-        }
-      ],
-      "priorityScore": 21,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1vu4r7d",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
@@ -670,10 +617,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 246,
+        "observedAt": "2026-08-26T05:50:16.248Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "I collected every (non-organic) raw resource from Subnautica. Can I borrow someone's fabricator?",
       "questionKey": "i collected every non organic raw resource from subnautica can i borrow someone s fabricator",
@@ -705,6 +652,58 @@
           "href": "guide/items/advanced-battery.html",
           "title": "Advanced Battery",
           "score": 0.09
+        }
+      ],
+      "priorityScore": 21,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1voe45x",
+      "firstSeenAt": "2026-08-20T05:46:20.836Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 14,
+        "observedAt": "2026-08-20T05:46:20.836Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "No idea what to do next, no hints from NoA (story spoilers)",
+      "questionKey": "no idea what to do next no hints from noa story spoilers",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1voe45x/no_idea_what_to_do_next_no_hints_from_noa_story/",
+      "publishedAt": "2026-08-14T17:44:54+00:00",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 12,
+      "signals": [
+        "help",
+        "not-working",
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.14,
+      "suggestedPages": [
+        {
+          "href": "guide/items/noa-terminal.html",
+          "title": "NoA Terminal",
+          "score": 0.14
+        },
+        {
+          "href": "guide/biomes/dolerite-spires.html",
+          "title": "Dolerite Spires",
+          "score": 0.14
+        },
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.14
         }
       ],
       "priorityScore": 21,
@@ -867,10 +866,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 0,
+        "observedAt": "2026-08-26T05:50:16.248Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "Please help me with this bug/glitch",
       "questionKey": "please help me with this bug glitch",
@@ -904,56 +903,6 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1vpzqri",
-      "firstSeenAt": "2026-08-20T05:46:20.836Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 15,
-        "observedAt": "2026-08-24T05:53:41.913Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Shattered all the bloom biofilm. Is there any way to still get a scan of it.",
-      "questionKey": "shattered all the bloom biofilm is there any way to still get a scan of it",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vpzqri/shattered_all_the_bloom_biofilm_is_there_any_way/",
-      "publishedAt": "2026-08-16T15:19:06+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 8,
-      "signals": [
-        "where",
-        "how",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.3,
-      "suggestedPages": [
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.3
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 16,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1vxck6g",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
@@ -963,10 +912,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 18,
+        "observedAt": "2026-08-26T05:50:16.248Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "What do you do when you get lost? 😭",
       "questionKey": "what do you do when you get lost",
@@ -995,6 +944,56 @@
         {
           "href": "questions/expand-inventory-with-hacked-biobeds.html",
           "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 16,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vpzqri",
+      "firstSeenAt": "2026-08-20T05:46:20.836Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 15,
+        "observedAt": "2026-08-24T05:53:41.913Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Shattered all the bloom biofilm. Is there any way to still get a scan of it.",
+      "questionKey": "shattered all the bloom biofilm is there any way to still get a scan of it",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vpzqri/shattered_all_the_bloom_biofilm_is_there_any_way/",
+      "publishedAt": "2026-08-16T15:19:06+00:00",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 8,
+      "signals": [
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.3,
+      "suggestedPages": [
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.3
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
           "score": 0.2
         }
       ],
@@ -1059,7 +1058,7 @@
       "questionKey": "subnautica void genesis full game concept",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vno85l/subnauticavoid_genesis_full_game_concept/",
       "publishedAt": "2026-08-13T21:40:39+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1111,7 +1110,7 @@
       "questionKey": "anyone else experiencing more bug issues than normal after the update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vx35w1/anyone_else_experiencing_more_bug_issues_than/",
       "publishedAt": "2026-08-24T13:41:01+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -1212,7 +1211,7 @@
       "questionKey": "pricing and a work around",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vr1e69/pricing_and_a_work_around/",
       "publishedAt": "2026-08-17T18:59:18+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -1403,7 +1402,7 @@
       "questionKey": "is this a common sight or how do you power your bases",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vqsadz/is_this_a_common_sight_or_how_do_you_power_your/",
       "publishedAt": "2026-08-17T13:25:05+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1544,7 +1543,7 @@
       "questionKey": "uh where did i see this guy alredy",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vuenwr/uh_where_did_i_see_this_guy_alredy/",
       "publishedAt": "2026-08-21T12:13:23+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1825,7 +1824,7 @@
       "questionKey": "help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vu2hga/help/",
       "publishedAt": "2026-08-21T01:34:17+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -1860,7 +1859,7 @@
       "questionKey": "subnautica 2 void glitch",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vp4s6d/subnautica_2_void_glitch/",
       "publishedAt": "2026-08-15T14:49:39+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -2036,7 +2035,7 @@
       "questionKey": "anyone know how to open commands on steam deck",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vopcrw/anyone_know_how_to_open_commands_on_steam_deck/",
       "publishedAt": "2026-08-15T01:19:45+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2230,7 +2229,7 @@
       "questionKey": "do you not get the angel comb prompts in creative",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vuo4wq/do_you_not_get_the_angel_comb_prompts_in_creative/",
       "publishedAt": "2026-08-21T18:16:41+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2278,7 +2277,7 @@
       "questionKey": "nsfw i simply could not resist the temptation once i realized how amazing the rotation symmetry is with building forgive my immaturity and enjoy my sign",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vx5gak/nsfw_i_simply_could_not_resist_the_temptation/",
       "publishedAt": "2026-08-24T15:07:39+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2326,7 +2325,7 @@
       "questionKey": "building problem",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vu2bwj/building_problem/",
       "publishedAt": "2026-08-21T01:27:06+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2421,7 +2420,7 @@
       "questionKey": "what to do",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vo6bt3/what_to_do/",
       "publishedAt": "2026-08-14T12:46:48+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2583,7 +2582,7 @@
       "questionKey": "started compiling a map of the ea build s wreck blueprints",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vrhdr4/started_compiling_a_map_of_the_ea_builds_wreck/",
       "publishedAt": "2026-08-18T06:38:56+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -2687,7 +2686,7 @@
       "questionKey": "bladder broken bugged or am i stupid",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vvgmov/bladder_brokenbugged_or_am_i_stupid/",
       "publishedAt": "2026-08-22T16:18:43+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2818,7 +2817,7 @@
       "questionKey": "anyone else see this bug",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vnlwjf/anyone_else_see_this_bug/",
       "publishedAt": "2026-08-13T20:11:38+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2910,7 +2909,7 @@
       "questionKey": "can someone help me with this",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vski04/can_someone_help_me_with_this/",
       "publishedAt": "2026-08-19T12:04:02+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -2943,7 +2942,7 @@
       "questionKey": "unreleased scorpius area first look terrain",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vns5es/unreleased_scorpius_area_first_look_terrain/",
       "publishedAt": "2026-08-14T00:25:32+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2993,7 +2992,7 @@
       "questionKey": "how to explore experimental",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vqf2e6/how_to_explore_experimental/",
       "publishedAt": "2026-08-17T01:52:26+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -3155,7 +3154,7 @@
       "questionKey": "this is just a theory a game theory subnautica the ultimate grand unified timeline theory an expansive lore theory connecting the events of subnautica 2 planet proteus earth history and the tragic downfall of the architects on planet 4546b",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vt2hp2/this_is_just_a_theory_a_game_theorysubnautica_the/",
       "publishedAt": "2026-08-19T23:17:17+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3331,7 +3330,7 @@
       "questionKey": "revisit the wrecks and camps",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vwl0hv/revisit_the_wrecks_and_camps/",
       "publishedAt": "2026-08-23T22:29:05+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -3490,7 +3489,7 @@
       "questionKey": "wakemaker rework",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vspnjj/wakemaker_rework/",
       "publishedAt": "2026-08-19T15:27:38+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -3762,7 +3761,7 @@
       "questionKey": "news about update breaking unintentional features",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vtqjhe/news_about_update_breaking_unintentional_features/",
       "publishedAt": "2026-08-20T17:48:36+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [

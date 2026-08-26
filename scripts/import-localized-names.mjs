@@ -85,6 +85,7 @@ const community = {
   "Bullfrog Workmech": ["牛蛙工程机甲", "Рабочий мех «Лягушка-бык»"],
   "Carryables Rack": ["搬运物挂架", "Стойка для переносимых предметов"],
   "Cooked Blackthorn": ["熟黑刺鱼", "Приготовленный черношип"],
+  "Dead Coral Crab": ["死珊瑚蟹", "Мёртвый коралловый краб"],
   "Graphene Ingot": ["石墨烯锭", "Слиток графена"],
   "Lava Floor Lamp": ["熔岩落地灯", "Лавовый торшер"],
   "Lithium Grains": ["锂颗粒", "Крупицы лития"],

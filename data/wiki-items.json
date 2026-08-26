@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-08-24T17:09:15.113Z",
+  "generatedAt": "2026-08-26T14:10:48.763Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -53,10 +53,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Acid_Raion",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acid_Raion&oldid=20177",
-        "revisionId": 20177,
-        "revisionTimestamp": "2026-08-12T11:26:00Z",
-        "fetchedAt": "2026-08-15T17:52:23.846Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acid_Raion&oldid=22144",
+        "revisionId": 22144,
+        "revisionTimestamp": "2026-08-25T08:57:59Z",
+        "fetchedAt": "2026-08-26T14:11:01.782Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -71,9 +71,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Electronics",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Electronics"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -106,10 +104,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Advanced_Battery",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Advanced_Battery&oldid=20256",
-        "revisionId": 20256,
-        "revisionTimestamp": "2026-08-12T12:52:23Z",
-        "fetchedAt": "2026-08-15T17:52:23.850Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Advanced_Battery&oldid=21745",
+        "revisionId": 21745,
+        "revisionTimestamp": "2026-08-24T18:34:58Z",
+        "fetchedAt": "2026-08-26T14:11:01.785Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -130,9 +128,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Electronics",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Electronics"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -165,10 +161,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Advanced_Wiring_Kit",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Advanced_Wiring_Kit&oldid=20261",
-        "revisionId": 20261,
-        "revisionTimestamp": "2026-08-12T12:53:11Z",
-        "fetchedAt": "2026-08-15T17:52:23.850Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Advanced_Wiring_Kit&oldid=21747",
+        "revisionId": 21747,
+        "revisionTimestamp": "2026-08-24T19:04:09Z",
+        "fetchedAt": "2026-08-26T14:11:01.785Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5747,10 +5743,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Mimic_Pylon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=20176",
-        "revisionId": 20176,
-        "revisionTimestamp": "2026-08-12T11:25:31Z",
-        "fetchedAt": "2026-08-15T17:52:23.856Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=22153",
+        "revisionId": 22153,
+        "revisionTimestamp": "2026-08-25T11:25:02Z",
+        "fetchedAt": "2026-08-26T14:11:01.791Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8013,10 +8009,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Scanner_Station",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner_Station&oldid=21072",
-        "revisionId": 21072,
-        "revisionTimestamp": "2026-08-17T23:27:05Z",
-        "fetchedAt": "2026-08-24T17:09:21.525Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner_Station&oldid=22244",
+        "revisionId": 22244,
+        "revisionTimestamp": "2026-08-25T20:34:13Z",
+        "fetchedAt": "2026-08-26T14:11:01.797Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8685,10 +8681,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sonic_Resonator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sonic_Resonator&oldid=20302",
-        "revisionId": 20302,
-        "revisionTimestamp": "2026-08-12T15:00:42Z",
-        "fetchedAt": "2026-08-15T17:52:23.864Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sonic_Resonator&oldid=22159",
+        "revisionId": 22159,
+        "revisionTimestamp": "2026-08-25T12:41:55Z",
+        "fetchedAt": "2026-08-26T14:11:01.799Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9554,10 +9550,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Haul_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=20754",
-        "revisionId": 20754,
-        "revisionTimestamp": "2026-08-15T12:33:38Z",
-        "fetchedAt": "2026-08-15T17:52:23.864Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=22156",
+        "revisionId": 22156,
+        "revisionTimestamp": "2026-08-25T11:57:24Z",
+        "fetchedAt": "2026-08-26T14:11:01.799Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

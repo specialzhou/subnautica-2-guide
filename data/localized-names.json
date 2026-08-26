@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-24T17:10:48.978Z",
+  "generatedAt": "2026-08-26T14:13:06.540Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
@@ -8,9 +8,9 @@
   },
   "counts": {
     "recordNames": 273,
-    "total": 395,
+    "total": 396,
     "imported": 312,
-    "community": 83
+    "community": 84
   },
   "names": {
     "Advanced Battery": {
@@ -2338,6 +2338,12 @@
     "Cooked Blackthorn": {
       "zh-cn": "熟黑刺鱼",
       "ru": "Приготовленный черношип",
+      "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Dead Coral Crab": {
+      "zh-cn": "死珊瑚蟹",
+      "ru": "Мёртвый коралловый краб",
       "provenance": "community-translation",
       "sourceUrl": null
     },

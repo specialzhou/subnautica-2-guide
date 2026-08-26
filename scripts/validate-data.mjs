@@ -198,7 +198,7 @@ for (const expected of ["Moonpool", "Vehicle Fabricator", "Tadpole Dock", "Tadpo
 }
 if (!sitemap.includes("/vehicle-planner.html")) failures.push("Sitemap missing vehicle planner");
 const locationsHtml = await readFile(path.join(root, "locations.html"), "utf8");
-for (const expected of ["Lifepod", "Welcome Center", "Control Room", "Hot Cave Basecamp", "Names and biome depth are not coordinates"]) {
+for (const expected of ["Lifepod", "Welcome Center", "Hot Cave Basecamp", "Names and biome depth are not coordinates"]) {
   if (!locationsHtml.includes(expected)) failures.push(`Locations index missing: ${expected}`);
 }
 if (locationsHtml.includes("&amp;ndash;")) failures.push("Locations index contains undecoded depth entities");

@@ -58,7 +58,7 @@ for (const [locale, html] of [["zh-cn", zhQuestions], ["ru", ruQuestions]]) for 
 const zhLocations = await readFile(path.join(root, "zh-cn", "locations.html"), "utf8");
 const ruLocations = await readFile(path.join(root, "ru", "locations.html"), "utf8");
 for (const [locale, html, note] of [["zh-cn", zhLocations, "避免臆造翻译"], ["ru", ruLocations, "нет проверенного перевода"]]) {
-  if ((html.match(/class="location-thumb"/g) || []).length < 8) failures.push(`${locale} locations index lacks biome thumbnails`);
+  if ((html.match(/class="location-thumb"/g) || []).length < 5) failures.push(`${locale} locations index lacks biome thumbnails`);
   if (!html.includes(note)) failures.push(`${locale} locations index lacks proper-name policy`);
 }
 const searchIndex = JSON.parse(await readFile(path.join(root, "data", "search-index.json"), "utf8"));

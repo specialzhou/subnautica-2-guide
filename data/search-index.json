@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:09:23.317Z",
+  "generatedAt": "2026-08-26T14:11:05.920Z",
   "count": 329,
   "entries": [
     {
@@ -3607,7 +3607,7 @@
       "type": "Creature",
       "href": "guide/creatures/collector-leviathan.html",
       "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farm Sparse Plains",
-      "image": "https://wiki.subnautica.com/sn2/images/Collector_Leviathan.png?a0ecc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?645dc",
       "localizedTitles": {
         "zh-cn": "深渊巨触",
         "ru": "Левиафан-коллекционер"
@@ -3667,7 +3667,7 @@
       "type": "Creature",
       "href": "guide/creatures/coral-crab.html",
       "terms": "Coral Crab Passive Mobile Foragers Ostrakonskelos anaktoraphore “Hard-Legged Palace-Bearer” Dolerite Spires",
-      "image": "https://wiki.subnautica.com/sn2/images/Coral_Crab.png?a0ecc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Coral_Crab_render.png/720px-Coral_Crab_render.png?d9876",
       "localizedTitles": {
         "zh-cn": "珊瑚蟹",
         "ru": "Коралловый краб"
@@ -3708,11 +3708,26 @@
       }
     },
     {
+      "title": "Dead Coral Crab",
+      "type": "Creature",
+      "href": "guide/creatures/dead-coral-crab.html",
+      "terms": "Dead Coral Crab Crustaceans Graveyard Caves South Raceway",
+      "image": "https://wiki.subnautica.com/sn2/images/Dead_Coral_Crab.png?d1513",
+      "localizedTitles": {
+        "zh-cn": "死珊瑚蟹",
+        "ru": "Мёртвый коралловый краб"
+      },
+      "localizedTerms": {
+        "zh-cn": "死珊瑚蟹 南部赛道 珊瑚蟹 墓地",
+        "ru": "Мёртвый коралловый краб Южная трасса Коралловый краб Кладбище"
+      }
+    },
+    {
       "title": "Deepwing Brooder",
       "type": "Creature",
       "href": "guide/creatures/deepwing-brooder.html",
       "terms": "Deepwing Brooder Passive Mobile Leviathans Titanotagmataptera amalthea \"segment-winged nurturing giant\" Migratory - Not found in any particular biome",
-      "image": "https://wiki.subnautica.com/sn2/images/Deepwing_Brooder.png?43b6d",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Deepwing_render.png/720px-Deepwing_render.png?1acd7",
       "localizedTitles": {
         "zh-cn": "深翼育母鲸",
         "ru": "Глубококрыл-матка"
@@ -3742,7 +3757,7 @@
       "type": "Creature",
       "href": "guide/creatures/epicurean.html",
       "terms": "Epicurean Aggressive Mobile Foragers Postpanoplia epicurean ”formerly-armored epicurean” Root Canyon Karakorum Metal Farms",
-      "image": "https://wiki.subnautica.com/sn2/images/Epicurean.png?d1513",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Epicurean_render.png/720px-Epicurean_render.png?5a0ae",
       "localizedTitles": {
         "zh-cn": "大胃鱼",
         "ru": "Ротан ненасытный"
@@ -3967,7 +3982,7 @@
       "type": "Creature",
       "href": "guide/creatures/hycean.html",
       "terms": "Hycean Passive Mobile Predators Hycean hycean Coral Gardens Necrolei Hills",
-      "image": "https://wiki.subnautica.com/sn2/images/Hycean.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Hycean_Render.png/720px-Hycean_Render.png?fb63e",
       "localizedTitles": {
         "zh-cn": "氢海鱿鱼",
         "ru": "Гикеан"
@@ -4041,15 +4056,15 @@
       "title": "Lead Zone",
       "type": "Biome",
       "href": "guide/biomes/lead-zone.html",
-      "terms": "Lead Zone 34–65 m EA data Atoll, Atoll Cave, Nook, Wreck",
+      "terms": "Lead Zone 34-65m",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/CG_Lead_Zone_Biome.png/720px-CG_Lead_Zone_Biome.png?232ad",
       "localizedTitles": {
         "zh-cn": "铅区",
         "ru": "Свинцовая зона"
       },
       "localizedTerms": {
-        "zh-cn": "铅区 观景台 铅",
-        "ru": "Свинцовая зона Выступ Свинец"
+        "zh-cn": "铅区 铅",
+        "ru": "Свинцовая зона Свинец"
       }
     },
     {
@@ -4236,7 +4251,7 @@
       "title": "Plateaus",
       "type": "Biome",
       "href": "guide/biomes/plateaus.html",
-      "terms": "Plateaus Colonist Bunker (Salvage)",
+      "terms": "Plateaus ? Colonist Bunker (Salvage)",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/CG_Plateaus_Biome.png/720px-CG_Plateaus_Biome.png?232ad",
       "localizedTitles": {
         "zh-cn": "高原",
@@ -4296,15 +4311,15 @@
       "title": "Root Canyon",
       "type": "Biome",
       "href": "guide/biomes/root-canyon.html",
-      "terms": "Root Canyon 364–750 m EA data Control Room, Resonator Wreck, Blighted Wreck, Blight Nodes, Heat Vents",
+      "terms": "Root Canyon 364-750m",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/KR_Root_Canyon_Biome.png/720px-KR_Root_Canyon_Biome.png?1da39",
       "localizedTitles": {
         "zh-cn": "根系峡谷",
         "ru": "Корневой каньон"
       },
       "localizedTerms": {
-        "zh-cn": "根系峡谷 房间",
-        "ru": "Корневой каньон Отсек"
+        "zh-cn": "根系峡谷",
+        "ru": "Корневой каньон"
       }
     },
     {
@@ -4338,21 +4353,6 @@
       }
     },
     {
-      "title": "Scorpius",
-      "type": "Biome",
-      "href": "guide/biomes/scorpius.html",
-      "terms": "Scorpius 360 - 660m",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Scorpius_Wreck.png/720px-Scorpius_Wreck.png?08589",
-      "localizedTitles": {
-        "zh-cn": "天蝎区",
-        "ru": "Скорпиус"
-      },
-      "localizedTerms": {
-        "zh-cn": "天蝎区",
-        "ru": "Скорпиус"
-      }
-    },
-    {
       "title": "Shallows",
       "type": "Biome",
       "href": "guide/biomes/shallows.html",
@@ -4372,7 +4372,7 @@
       "type": "Creature",
       "href": "guide/creatures/shiver-leviathan.html",
       "terms": "Shiver Leviathan Aggressive Mobile Leviathans Skythopterygion atropos “scythe-finned fate-ender” Void",
-      "image": "https://wiki.subnautica.com/sn2/images/Shiver_Leviathan.png?9288f",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Shiver_render.png/720px-Shiver_render.png?58688",
       "localizedTitles": {
         "zh-cn": "鲨群利维坦",
         "ru": "Левиафан-пожиратель"
@@ -4387,7 +4387,7 @@
       "type": "Creature",
       "href": "guide/creatures/shiver-male.html",
       "terms": "Shiver Male Aggressive Mobile Leviathans Skythopterygion atropos “scythe-finned fate-ender” Void",
-      "image": "https://wiki.subnautica.com/sn2/images/Shiver_Leviathan.png?9288f",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Shiver_male_render.png/720px-Shiver_male_render.png?05dd8",
       "localizedTitles": {
         "zh-cn": "雄性鲨群利维坦",
         "ru": "Пожиратель (самец)"
@@ -4446,7 +4446,7 @@
       "title": "Sparse Plains",
       "type": "Biome",
       "href": "guide/biomes/sparse-plains.html",
-      "terms": "Sparse Plains",
+      "terms": "Sparse Plains ?",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Sparse_Plains.png/720px-Sparse_Plains.png?6518c",
       "localizedTitles": {
         "zh-cn": "稀疏平原",
@@ -4657,7 +4657,7 @@
       "type": "Creature",
       "href": "guide/creatures/water-slug.html",
       "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” Food -5 / Health 0 / Water +15 All",
-      "image": "https://wiki.subnautica.com/sn2/images/Water_Slug.png?4627a",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Water_Slug_render.png/720px-Water_Slug_render.png?a9476",
       "localizedTitles": {
         "zh-cn": "水蛞蝓",
         "ru": "Водный слизень"
@@ -4672,7 +4672,7 @@
       "type": "Creature",
       "href": "guide/creatures/waxmoon.html",
       "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Shallows Graveyard Necrolei Hills Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Waxmoon.png?4627a",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Waxmoon_render.png/720px-Waxmoon_render.png?1f5be",
       "localizedTitles": {
         "zh-cn": "蜡月鱼",
         "ru": "Рыба-серп"

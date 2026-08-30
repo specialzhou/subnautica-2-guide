@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-26T14:41:04.625Z",
+  "generatedAt": "2026-08-30T12:45:18.730Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
@@ -8,10 +8,10 @@
   },
   "counts": {
     "recordNames": 273,
-    "total": 396,
+    "total": 397,
     "imported": 312,
     "community": 84,
-    "fallback": 0
+    "fallback": 1
   },
   "names": {
     "Advanced Battery": {
@@ -2388,6 +2388,12 @@
       "zh-cn": "追踪标签",
       "ru": "Метка отслеживания",
       "provenance": "community-translation",
+      "sourceUrl": null
+    },
+    "Intermediary Basin": {
+      "zh-cn": "Intermediary Basin",
+      "ru": "Intermediary Basin",
+      "provenance": "fallback-untranslated",
       "sourceUrl": null
     }
   }

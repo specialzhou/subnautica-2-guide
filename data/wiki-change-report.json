@@ -1,67 +1,49 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-08-26T14:10:48.763Z",
+  "detectedAt": "2026-08-30T12:45:11.436Z",
   "changes": [
     {
-      "id": "acid-raion",
-      "title": "Acid Raion",
+      "id": "copper",
+      "title": "Copper",
       "change": "updated",
-      "previousRevisionId": 20177,
-      "revisionId": 22144,
+      "previousRevisionId": 20227,
+      "revisionId": 22355,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "advanced-battery",
-      "title": "Advanced Battery",
+      "id": "gold-ingot",
+      "title": "Gold Ingot",
       "change": "updated",
-      "previousRevisionId": 20256,
-      "revisionId": 21745,
+      "previousRevisionId": 20242,
+      "revisionId": 22286,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "advanced-wiring-kit",
-      "title": "Advanced Wiring Kit",
+      "id": "noa-terminal",
+      "title": "NoA Terminal",
       "change": "updated",
-      "previousRevisionId": 20261,
-      "revisionId": 21747,
+      "previousRevisionId": 21070,
+      "revisionId": 22360,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "mimic-pylon",
-      "title": "Mimic Pylon",
+      "id": "quartz",
+      "title": "Quartz",
       "change": "updated",
-      "previousRevisionId": 20176,
-      "revisionId": 22153,
+      "previousRevisionId": 20234,
+      "revisionId": 22356,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "scanner-station",
-      "title": "Scanner Station",
+      "id": "silver",
+      "title": "Silver",
       "change": "updated",
-      "previousRevisionId": 21072,
-      "revisionId": 22244,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "sonic-resonator",
-      "title": "Sonic Resonator",
-      "change": "updated",
-      "previousRevisionId": 20302,
-      "revisionId": 22159,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tadpole-haul-chassis",
-      "title": "Tadpole Haul Chassis",
-      "change": "updated",
-      "previousRevisionId": 20754,
-      "revisionId": 22156,
+      "previousRevisionId": 20642,
+      "revisionId": 22357,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

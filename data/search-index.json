@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:38:03.774Z",
+  "generatedAt": "2026-08-30T12:45:13.693Z",
   "count": 329,
   "entries": [
     {
@@ -3532,7 +3532,7 @@
       "type": "Creature",
       "href": "guide/creatures/blackthorn.html",
       "terms": "Blackthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Food +15 / Health 0 / Water -5 Karakorum Metal Farms",
-      "image": "https://wiki.subnautica.com/sn2/images/Blackthorn.png?4627a",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Blackthorn_render.png/720px-Blackthorn_render.png?67e55",
       "localizedTitles": {
         "zh-cn": "黑刺鱼",
         "ru": "Черношип"
@@ -3547,7 +3547,7 @@
       "type": "Creature",
       "href": "guide/creatures/bluemoon.html",
       "terms": "Bluemoon Passive Mobile Foragers Unknown Food +10 / Health 0 / Water +5 Shallows Root Canyon Graveyard Caves",
-      "image": "https://wiki.subnautica.com/sn2/images/Bluemoon.png?a0ecc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Bluemoon_render.png/720px-Bluemoon_render.png?26ab0",
       "localizedTitles": {
         "zh-cn": "蓝月鱼",
         "ru": "Рыба-синемесяц"
@@ -3562,7 +3562,7 @@
       "type": "Creature",
       "href": "guide/creatures/bullethead.html",
       "terms": "Bullethead Aggressive Mobile Predators Panopliateuthis velos ”armored squid dart” Graveyard Overgrown Ruins Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Bullethead.png?a0ecc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Bullethead_render.png/720px-Bullethead_render.png?63a76",
       "localizedTitles": {
         "zh-cn": "子弹头",
         "ru": "Кальмар-пуля"
@@ -3592,7 +3592,7 @@
       "type": "Creature",
       "href": "guide/creatures/cerathecan.html",
       "terms": "Cerathecan Passive Mobile Predators Exile cerathecan ”the horn-cupped exile” Overgrown Ruins",
-      "image": "https://wiki.subnautica.com/sn2/images/Cerathecan.png?a0ecc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Cerathecan_render.png/720px-Cerathecan_render.png?5109d",
       "localizedTitles": {
         "zh-cn": "角壳贝",
         "ru": "Футлярник"
@@ -3607,7 +3607,7 @@
       "type": "Creature",
       "href": "guide/creatures/collector-leviathan.html",
       "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farm Sparse Plains",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?645dc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?09f51",
       "localizedTitles": {
         "zh-cn": "深渊巨触",
         "ru": "Левиафан-коллекционер"
@@ -3667,7 +3667,7 @@
       "type": "Creature",
       "href": "guide/creatures/coral-crab.html",
       "terms": "Coral Crab Passive Mobile Foragers Ostrakonskelos anaktoraphore “Hard-Legged Palace-Bearer” Dolerite Spires",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Coral_Crab_render.png/720px-Coral_Crab_render.png?d9876",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Coral_Crab_render.png/720px-Coral_Crab_render.png?0a8fe",
       "localizedTitles": {
         "zh-cn": "珊瑚蟹",
         "ru": "Коралловый краб"
@@ -3727,7 +3727,7 @@
       "type": "Creature",
       "href": "guide/creatures/deepwing-brooder.html",
       "terms": "Deepwing Brooder Passive Mobile Leviathans Titanotagmataptera amalthea \"segment-winged nurturing giant\" Migratory - Not found in any particular biome",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Deepwing_render.png/720px-Deepwing_render.png?1acd7",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Deepwing_render.png/720px-Deepwing_render.png?d003d",
       "localizedTitles": {
         "zh-cn": "深翼育母鲸",
         "ru": "Глубококрыл-матка"
@@ -3757,7 +3757,7 @@
       "type": "Creature",
       "href": "guide/creatures/epicurean.html",
       "terms": "Epicurean Aggressive Mobile Foragers Postpanoplia epicurean ”formerly-armored epicurean” Root Canyon Karakorum Metal Farms",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Epicurean_render.png/720px-Epicurean_render.png?5a0ae",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Epicurean_render.png/720px-Epicurean_render.png?36df9",
       "localizedTitles": {
         "zh-cn": "大胃鱼",
         "ru": "Ротан ненасытный"
@@ -3772,7 +3772,7 @@
       "type": "Creature",
       "href": "guide/creatures/flash-slug.html",
       "terms": "Flash Slug Defensive Mobile Foragers Seaslug kleptopharos The stolen beacon slug Food +20 / Health -10 / Water 0 Overgrown Ruins Karakorum Power Plant Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Flash_Slug.png?d1513",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Flash_Slug_render.png/720px-Flash_Slug_render.png?aa3ba",
       "localizedTitles": {
         "zh-cn": "闪光蛞蝓",
         "ru": "Слепящий слизень"
@@ -3787,7 +3787,7 @@
       "type": "Creature",
       "href": "guide/creatures/foureye.html",
       "terms": "Foureye Defensive Mobile Predators Morokotoform duplex “twofold morokoto-shaped one” Coral Gardens Necrolei Hills",
-      "image": "https://wiki.subnautica.com/sn2/images/Foureye.png?d1513",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Foureye_render.png/720px-Foureye_render.png?a265c",
       "localizedTitles": {
         "zh-cn": "四眼鱼",
         "ru": "Четырёхглаз"
@@ -3802,7 +3802,7 @@
       "type": "Creature",
       "href": "guide/creatures/geordie.html",
       "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Food +20 / Health -5 / Water 0 Coral Gardens",
-      "image": "https://wiki.subnautica.com/sn2/images/Geordie.png?574cc",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Geordie_render.png/720px-Geordie_render.png?10757",
       "localizedTitles": {
         "zh-cn": "四翅海鞘",
         "ru": "Джорди"
@@ -3907,7 +3907,7 @@
       "type": "Creature",
       "href": "guide/creatures/halfmoon.html",
       "terms": "Halfmoon Passive Mobile Foragers Moliform luna “Mola-shaped moon” Food +15 / Health 0 / Water -5 Coral Gardens Graveyard Necrolei Hills Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Halfmoon.png?a0766",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Halfmoon_render.png/720px-Halfmoon_render.png?e7230",
       "localizedTitles": {
         "zh-cn": "半月鱼",
         "ru": "Рыба-полумесяц"
@@ -3922,7 +3922,7 @@
       "type": "Creature",
       "href": "guide/creatures/hammerhead.html",
       "terms": "Hammerhead Defensive Mobile Foragers Panoplia hammerhead \"fully-armoured hammerhead\" Coral Gardens Lead Zone",
-      "image": "https://wiki.subnautica.com/sn2/images/Hammerhead.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Hammerhead_render.png/720px-Hammerhead_render.png?f0e32",
       "localizedTitles": {
         "zh-cn": "锤头鱼",
         "ru": "Рыба-таран"
@@ -3937,7 +3937,7 @@
       "type": "Creature",
       "href": "guide/creatures/harvestmoon.html",
       "terms": "Harvestmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Food +20 / Health 0 / Water -5 Shallows Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Harvestmoon.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Harvestmoon_render.png/720px-Harvestmoon_render.png?de7bc",
       "localizedTitles": {
         "zh-cn": "满月鱼",
         "ru": "Рыба-желтомесяц"
@@ -3952,7 +3952,7 @@
       "type": "Creature",
       "href": "guide/creatures/houndgar.html",
       "terms": "Houndgar Aggressive Mobile Predators Teuthis courser \"Hunting dog squid\" Graveyard",
-      "image": "https://wiki.subnautica.com/sn2/images/Houndgar.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Houndgar_render.png/720px-Houndgar_render.png?7416a",
       "localizedTitles": {
         "zh-cn": "猎狗鱿鱼",
         "ru": "Щука-гончая"
@@ -3967,7 +3967,7 @@
       "type": "Creature",
       "href": "guide/creatures/hoverthorn.html",
       "terms": "Hoverthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Food +15 / Health 0 / Water -5 Karakorum Metal Farms Karakorum Power Plant Overgrown Ruins Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Hoverthorn.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Hoverthorn_render.png/720px-Hoverthorn_render.png?b48bb",
       "localizedTitles": {
         "zh-cn": "悬浮刺鱼",
         "ru": "Иглохвост"
@@ -3993,11 +3993,26 @@
       }
     },
     {
+      "title": "Intermediary Basin",
+      "type": "Biome",
+      "href": "guide/biomes/intermediary-basin.html",
+      "terms": "Intermediary Basin ?",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Intermediary Basin",
+        "ru": "Intermediary Basin"
+      },
+      "localizedTerms": {
+        "zh-cn": "Intermediary Basin",
+        "ru": "Intermediary Basin"
+      }
+    },
+    {
       "title": "Jelly Ring",
       "type": "Creature",
       "href": "guide/creatures/jelly-ring.html",
       "terms": "Jelly Ring Passive Mobile Foragers Thermodont sufganiyah “heat eating jelly donut” Graveyard Karakorum Power Plant",
-      "image": "https://wiki.subnautica.com/sn2/images/Jelly_Ring.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Jelly_Ring_render.png/720px-Jelly_Ring_render.png?23478",
       "localizedTitles": {
         "zh-cn": "水母圈",
         "ru": "Медуза-кольцо"
@@ -4012,7 +4027,7 @@
       "type": "Creature",
       "href": "guide/creatures/jetocaris.html",
       "terms": "Jetocaris Passive Mobile Foragers Tripod phrontiscaris ”three-legged caring-crab” Necrolei Hills Overgrown Ruins",
-      "image": "https://wiki.subnautica.com/sn2/images/Jetocaris.png?a042b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Jetocaris_Render.png/720px-Jetocaris_Render.png?77cba",
       "localizedTitles": {
         "zh-cn": "喷射虾",
         "ru": "Рак-брызгун"
@@ -4087,7 +4102,7 @@
       "type": "Creature",
       "href": "guide/creatures/marrowbreach.html",
       "terms": "Marrowbreach Aggressive Mobile Predators Mango marrowbreach \"Marrowbreach shark\" Shallows Plateaus Graveyard",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Marrowbreach_render.png/720px-Marrowbreach_render.png?2ca06",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Marrowbreach_render.png/720px-Marrowbreach_render.png?aa2ce",
       "localizedTitles": {
         "zh-cn": "拆骨鲨",
         "ru": "Костолом"
@@ -4162,7 +4177,7 @@
       "type": "Creature",
       "href": "guide/creatures/needler-mango.html",
       "terms": "Needler Mango Aggressive Mobile Predators Mango kestros \"dart-throwing shark\" Overgrown Ruins Needler Nest",
-      "image": "https://wiki.subnautica.com/sn2/images/Needler_Mango.png?d9439",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Needler_Mango_render.png/720px-Needler_Mango_render.png?e3fa4",
       "localizedTitles": {
         "zh-cn": "飞针鲨",
         "ru": "Акула-иглострел"
@@ -4177,7 +4192,7 @@
       "type": "Creature",
       "href": "guide/creatures/nibbler-mango.html",
       "terms": "Nibbler Mango Aggressive Mobile Predators Mango tructa “Nibbler shark” Coral Gardens",
-      "image": "https://wiki.subnautica.com/sn2/images/Nibbler_Mango.png?9288f",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Nibbler_Mango_render.png/720px-Nibbler_Mango_render.png?108a2",
       "localizedTitles": {
         "zh-cn": "啃咬鲨",
         "ru": "Акула-кусач"
@@ -4222,7 +4237,7 @@
       "type": "Creature",
       "href": "guide/creatures/periscopic-clowncrab.html",
       "terms": "Periscopic Clowncrab Passive Mobile Foragers Ostrakonskelos periskopion “Hard-legged periscope” Necrolei Hills Shallows",
-      "image": "https://wiki.subnautica.com/sn2/images/Periscopic_Clowncrab.png?83c2b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Periscopic_Clowncrab_Render.png/720px-Periscopic_Clowncrab_Render.png?7823b",
       "localizedTitles": {
         "zh-cn": "潜望小丑蟹",
         "ru": "Стебельчатоглазый краб-клоун"
@@ -4267,7 +4282,7 @@
       "type": "Creature",
       "href": "guide/creatures/pneuma.html",
       "terms": "Pneuma Passive Mobile Foragers Pneuma pneuma “Wind wind” Food +25 / Health 0 / Water -5 Overgrown Ruins",
-      "image": "https://wiki.subnautica.com/sn2/images/Pneuma.png?9288f",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Pneuma_render.png/720px-Pneuma_render.png?60bb8",
       "localizedTitles": {
         "zh-cn": "泡泡鱼",
         "ru": "Пневма"
@@ -4342,7 +4357,7 @@
       "type": "Creature",
       "href": "guide/creatures/sandspear.html",
       "terms": "Sandspear Aggressive Mobile Predators Psalidoprosopon kryptokonton \"scissor-faced hidden spear\" Overgrown Ruins Plateaus Shallows Necrolei Hills",
-      "image": "https://wiki.subnautica.com/sn2/images/Sandspear.png?9288f",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Sandspear_render.png/720px-Sandspear_render.png?15b91",
       "localizedTitles": {
         "zh-cn": "潜沙矛",
         "ru": "Копейник"
@@ -4443,21 +4458,6 @@
       }
     },
     {
-      "title": "Sparse Plains",
-      "type": "Biome",
-      "href": "guide/biomes/sparse-plains.html",
-      "terms": "Sparse Plains ?",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Sparse_Plains.png/720px-Sparse_Plains.png?6518c",
-      "localizedTitles": {
-        "zh-cn": "稀疏平原",
-        "ru": "Разреженные равнины"
-      },
-      "localizedTerms": {
-        "zh-cn": "稀疏平原",
-        "ru": "Разреженные равнины"
-      }
-    },
-    {
       "title": "Strong Acid",
       "type": "Resource",
       "href": "guide/resources/strong-acid.html",
@@ -4507,7 +4507,7 @@
       "type": "Creature",
       "href": "guide/creatures/surge-jelly.html",
       "terms": "Surge Jelly Defensive Mobile Foragers Staurobrachia capacitor “Pole-arms capacitor” Dolerite Spires Karakorum Power Plant",
-      "image": "https://wiki.subnautica.com/sn2/images/Surge_Jelly.png?4627a",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Surge_Jelly_render.png/720px-Surge_Jelly_render.png?84a16",
       "localizedTitles": {
         "zh-cn": "放电水母",
         "ru": "Медуза-шокер"
@@ -4612,7 +4612,7 @@
       "type": "Creature",
       "href": "guide/creatures/twin-sitaray.html",
       "terms": "Twin Sitaray Aggressive Mobile Predators Sitaroid gemini \"sitar-like twins\" Karakorum Metal Farms Karakorum Power Plant Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/Twin_Sitaray.png?4627a",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Twin_Sitaray_render.png/720px-Twin_Sitaray_render.png?7ef49",
       "localizedTitles": {
         "zh-cn": "孪生西塔鳐",
         "ru": "Двойной ситар"
@@ -4657,7 +4657,7 @@
       "type": "Creature",
       "href": "guide/creatures/water-slug.html",
       "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” Food -5 / Health 0 / Water +15 All",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Water_Slug_render.png/720px-Water_Slug_render.png?a9476",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Water_Slug_render.png/720px-Water_Slug_render.png?02a06",
       "localizedTitles": {
         "zh-cn": "水蛞蝓",
         "ru": "Водный слизень"
@@ -4672,7 +4672,7 @@
       "type": "Creature",
       "href": "guide/creatures/waxmoon.html",
       "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Shallows Graveyard Necrolei Hills Root Canyon",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Waxmoon_render.png/720px-Waxmoon_render.png?1f5be",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Waxmoon_render.png/720px-Waxmoon_render.png?69288",
       "localizedTitles": {
         "zh-cn": "蜡月鱼",
         "ru": "Рыба-серп"

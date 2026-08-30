@@ -26,31 +26,13 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: 22
-      - name: 准备审核分支
-        # 审核基线必须始终为 origin/main：main 保存着站长已审结的权威结论
-        # （dismissed / ready-to-reply）。采集脚本会读取工作区内的
-        # data/player-question-candidates.json 并保留其 review 状态（prior-review 合并），
-        # 因此只要基线是 main，已审结论就不会被冲回 system-review。
-        #
-        # 历史缺陷：曾用 origin/automation/player-question-candidates 分支的旧 JSON
-        # 覆盖 main 版本，导致每次采集把已审结论重置为 system-review、造成人工队列
-        # 重复消化同一批候选。此处不再做该覆盖。
-        run: |
-          review_branch="automation/player-question-candidates"
-          git fetch origin main
-          git checkout -B "$review_branch" origin/main
       - name: 收集新的 Reddit 问题候选
         env:
           REDDIT_USER_AGENT: linux:com.specialzhou.subnautica2guide:v0.2.0 (by /u/Comprehensive-Push20)
-        # 多 sub 监听：漏斗口从 1 个 sub 扩到多个强相关社区。
-        # 当前只启用低噪声、强相关的两个 sub；泛社区（r/GamingHelp、r/XboxGamePass、r/BaseBuildingGames 等）
-        # 在加入"内容相关性预过滤"（仅命中 Subnautica 2 关键词的帖子才入候选）后再放开，避免淹没人工审核队列。
         run: node scripts/collect-player-question-candidates.mjs --feeds="https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100,https://www.reddit.com/r/Subnautica/new/.rss?limit=100" --max-details=4 --detail-delay-ms=65000 --fetch-attempts=3 --fetch-retry-delay-ms=5000 --allow-stale-feed
       - name: 验证候选队列和生成页面
         run: npm run validate
-      - name: 提交候选审核队列
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: 自动提交并同步至 main
         run: |
           if git diff --quiet -- data/player-question-candidates.json data/player-question-candidates.md; then
             echo "候选队列没有变化。"
@@ -59,21 +41,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/player-question-candidates.json data/player-question-candidates.md
-          git commit -m "chore: 更新玩家问题候选"
-          git push --force-with-lease --set-upstream origin automation/player-question-candidates
-          if [[ "$(gh pr list --head automation/player-question-candidates --state open --json number --jq 'length')" == "0" ]]; then
-            cat > "$RUNNER_TEMP/player-question-pr.md" <<'EOF'
-          这是 Reddit RSS 自动收集的玩家问题候选，只进入系统证据审核，不会自动发布到攻略站。
-
-          系统处理步骤：
-
-          - `system-review`：等待系统核对 Reddit 上下文、官方资料和证据边界
-          - `ready-to-reply`：证据审核完成，可以生成回复草稿
-          - `dismissed`：重复、已解决、信息不足或不适合攻略化
-
-          站长不需要判断游戏事实；只有证据完整的内容才能进入攻略或流量机会。
-          EOF
-            gh pr create --draft --base main --head automation/player-question-candidates \
-              --title "系统审核：新的玩家问题候选" \
-              --body-file "$RUNNER_TEMP/player-question-pr.md"
-          fi
+          git commit -m "chore(questions): 自动更新玩家问题候选"
+          git pull --rebase origin main
+          git push origin main
+          echo "✅ 玩家问题候选已自动验证并同步至 main 分支。" >> "$GITHUB_STEP_SUMMARY"

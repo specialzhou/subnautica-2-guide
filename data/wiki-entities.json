@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-08-26T14:38:03.774Z",
+  "generatedAt": "2026-08-30T09:20:17.407Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -14,7 +14,7 @@
     "vehicles": 3,
     "biomes": 13
   },
-  "imageCount": 80,
+  "imageCount": 79,
   "entities": [
     {
       "id": "acidic-raion-pouch",
@@ -219,10 +219,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Blackthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=21731",
-        "revisionId": 21731,
-        "revisionTimestamp": "2026-08-24T00:42:30Z",
-        "fetchedAt": "2026-08-24T17:09:30.151Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=22339",
+        "revisionId": 22339,
+        "revisionTimestamp": "2026-08-27T17:10:56Z",
+        "fetchedAt": "2026-08-30T09:20:18.198Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -239,11 +239,11 @@
         ]
       },
       "media": {
-        "fileName": "Blackthorn.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Blackthorn.png?4627a",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Blackthorn.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Blackthorn render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Blackthorn_render.png/720px-Blackthorn_render.png?67e55",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Blackthorn_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -263,10 +263,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bluemoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=20848",
-        "revisionId": 20848,
-        "revisionTimestamp": "2026-08-15T22:43:27Z",
-        "fetchedAt": "2026-08-24T17:09:30.149Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=22312",
+        "revisionId": 22312,
+        "revisionTimestamp": "2026-08-27T15:04:15Z",
+        "fetchedAt": "2026-08-30T09:20:18.194Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -285,11 +285,11 @@
         ]
       },
       "media": {
-        "fileName": "Bluemoon.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Bluemoon.png?a0ecc",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Bluemoon.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Bluemoon render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Bluemoon_render.png/720px-Bluemoon_render.png?26ab0",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Bluemoon_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -306,10 +306,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullethead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=20115",
-        "revisionId": 20115,
-        "revisionTimestamp": "2026-08-12T09:36:52Z",
-        "fetchedAt": "2026-08-15T17:52:38.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=22304",
+        "revisionId": 22304,
+        "revisionTimestamp": "2026-08-27T11:06:27Z",
+        "fetchedAt": "2026-08-30T09:20:18.197Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -328,11 +328,11 @@
         ]
       },
       "media": {
-        "fileName": "Bullethead.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Bullethead.png?a0ecc",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Bullethead.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Bullethead render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Bullethead_render.png/720px-Bullethead_render.png?63a76",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Bullethead_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -391,10 +391,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cerathecan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=20745",
-        "revisionId": 20745,
-        "revisionTimestamp": "2026-08-15T11:01:59Z",
-        "fetchedAt": "2026-08-15T17:52:38.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=22457",
+        "revisionId": 22457,
+        "revisionTimestamp": "2026-08-29T22:18:17Z",
+        "fetchedAt": "2026-08-30T09:20:18.197Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -411,11 +411,11 @@
         ]
       },
       "media": {
-        "fileName": "Cerathecan.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Cerathecan.png?a0ecc",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Cerathecan.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Cerathecan render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Cerathecan_render.png/720px-Cerathecan_render.png?5109d",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cerathecan_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -431,10 +431,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=22218",
-        "revisionId": 22218,
-        "revisionTimestamp": "2026-08-25T17:46:04Z",
-        "fetchedAt": "2026-08-26T14:11:18.658Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=22351",
+        "revisionId": 22351,
+        "revisionTimestamp": "2026-08-27T23:02:20Z",
+        "fetchedAt": "2026-08-30T09:20:18.195Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -453,7 +453,7 @@
       },
       "media": {
         "fileName": "Collector render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?645dc",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?09f51",
         "filePage": "https://wiki.subnautica.com/sn2/File:Collector_render.png",
         "width": 720,
         "height": 720
@@ -505,16 +505,15 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials",
-        "Section stubs"
+        "Raw Materials"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Copper",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=20227",
-        "revisionId": 20227,
-        "revisionTimestamp": "2026-08-12T12:04:37Z",
-        "fetchedAt": "2026-08-15T17:52:33.491Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=22355",
+        "revisionId": 22355,
+        "revisionTimestamp": "2026-08-27T23:23:33Z",
+        "fetchedAt": "2026-08-30T09:20:17.832Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -612,7 +611,7 @@
       },
       "media": {
         "fileName": "Coral Crab render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Coral_Crab_render.png/720px-Coral_Crab_render.png?d9876",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Coral_Crab_render.png/720px-Coral_Crab_render.png?0a8fe",
         "filePage": "https://wiki.subnautica.com/sn2/File:Coral_Crab_render.png",
         "width": 720,
         "height": 720
@@ -767,7 +766,7 @@
       },
       "media": {
         "fileName": "Deepwing render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Deepwing_render.png/720px-Deepwing_render.png?1acd7",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Deepwing_render.png/720px-Deepwing_render.png?d003d",
         "filePage": "https://wiki.subnautica.com/sn2/File:Deepwing_render.png",
         "width": 720,
         "height": 720
@@ -846,7 +845,7 @@
       },
       "media": {
         "fileName": "Epicurean render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Epicurean_render.png/720px-Epicurean_render.png?5a0ae",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Epicurean_render.png/720px-Epicurean_render.png?36df9",
         "filePage": "https://wiki.subnautica.com/sn2/File:Epicurean_render.png",
         "width": 720,
         "height": 720
@@ -868,10 +867,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flash_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=20853",
-        "revisionId": 20853,
-        "revisionTimestamp": "2026-08-15T22:47:03Z",
-        "fetchedAt": "2026-08-24T17:09:30.151Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=22325",
+        "revisionId": 22325,
+        "revisionTimestamp": "2026-08-27T15:52:47Z",
+        "fetchedAt": "2026-08-30T09:20:18.199Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -890,11 +889,11 @@
         ]
       },
       "media": {
-        "fileName": "Flash Slug.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Flash_Slug.png?d1513",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Flash_Slug.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Flash Slug render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Flash_Slug_render.png/720px-Flash_Slug_render.png?aa3ba",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Flash_Slug_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -910,10 +909,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Foureye",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=21703",
-        "revisionId": 21703,
-        "revisionTimestamp": "2026-08-23T13:36:20Z",
-        "fetchedAt": "2026-08-24T17:09:30.150Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=22302",
+        "revisionId": 22302,
+        "revisionTimestamp": "2026-08-27T10:56:58Z",
+        "fetchedAt": "2026-08-30T09:20:18.196Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -931,11 +930,11 @@
         ]
       },
       "media": {
-        "fileName": "Foureye.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Foureye.png?d1513",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Foureye.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Foureye render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Foureye_render.png/720px-Foureye_render.png?a265c",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Foureye_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -955,10 +954,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Geordie",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=21736",
-        "revisionId": 21736,
-        "revisionTimestamp": "2026-08-24T09:10:20Z",
-        "fetchedAt": "2026-08-24T17:09:30.150Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=22456",
+        "revisionId": 22456,
+        "revisionTimestamp": "2026-08-29T14:29:55Z",
+        "fetchedAt": "2026-08-30T09:20:18.197Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -975,11 +974,11 @@
         ]
       },
       "media": {
-        "fileName": "Geordie.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Geordie.png?574cc",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Geordie.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Geordie render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Geordie_render.png/720px-Geordie_render.png?10757",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Geordie_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1110,10 +1109,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold_Ingot&oldid=20242",
-        "revisionId": 20242,
-        "revisionTimestamp": "2026-08-12T12:09:18Z",
-        "fetchedAt": "2026-08-15T17:52:33.494Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold_Ingot&oldid=22286",
+        "revisionId": 22286,
+        "revisionTimestamp": "2026-08-27T03:35:54Z",
+        "fetchedAt": "2026-08-30T09:20:17.837Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1146,10 +1145,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Graveyard",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graveyard&oldid=22119",
-        "revisionId": 22119,
-        "revisionTimestamp": "2026-08-25T02:57:05Z",
-        "fetchedAt": "2026-08-26T14:11:31.956Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graveyard&oldid=22448",
+        "revisionId": 22448,
+        "revisionTimestamp": "2026-08-29T12:32:18Z",
+        "fetchedAt": "2026-08-30T09:20:19.296Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1225,10 +1224,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Halfmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=20856",
-        "revisionId": 20856,
-        "revisionTimestamp": "2026-08-15T22:48:28Z",
-        "fetchedAt": "2026-08-24T17:09:30.149Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=22315",
+        "revisionId": 22315,
+        "revisionTimestamp": "2026-08-27T15:05:36Z",
+        "fetchedAt": "2026-08-30T09:20:18.194Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1248,11 +1247,11 @@
         ]
       },
       "media": {
-        "fileName": "Halfmoon.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Halfmoon.png?a0766",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Halfmoon render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Halfmoon_render.png/720px-Halfmoon_render.png?e7230",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1268,10 +1267,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hammerhead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=20099",
-        "revisionId": 20099,
-        "revisionTimestamp": "2026-08-12T09:30:40Z",
-        "fetchedAt": "2026-08-15T17:52:38.181Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=22349",
+        "revisionId": 22349,
+        "revisionTimestamp": "2026-08-27T18:04:16Z",
+        "fetchedAt": "2026-08-30T09:20:18.193Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1289,11 +1288,11 @@
         ]
       },
       "media": {
-        "fileName": "Hammerhead.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Hammerhead.png?a042b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Hammerhead.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Hammerhead render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Hammerhead_render.png/720px-Hammerhead_render.png?f0e32",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Hammerhead_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1312,10 +1311,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Harvestmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=21695",
-        "revisionId": 21695,
-        "revisionTimestamp": "2026-08-23T11:32:50Z",
-        "fetchedAt": "2026-08-24T17:09:30.149Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=22313",
+        "revisionId": 22313,
+        "revisionTimestamp": "2026-08-27T15:04:50Z",
+        "fetchedAt": "2026-08-30T09:20:18.194Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1333,11 +1332,11 @@
         ]
       },
       "media": {
-        "fileName": "Harvestmoon.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Harvestmoon.png?a042b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Harvestmoon.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Harvestmoon render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Harvestmoon_render.png/720px-Harvestmoon_render.png?de7bc",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Harvestmoon_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1353,10 +1352,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Houndgar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Houndgar&oldid=20120",
-        "revisionId": 20120,
-        "revisionTimestamp": "2026-08-12T09:40:28Z",
-        "fetchedAt": "2026-08-15T17:52:38.183Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Houndgar&oldid=22300",
+        "revisionId": 22300,
+        "revisionTimestamp": "2026-08-27T10:43:48Z",
+        "fetchedAt": "2026-08-30T09:20:18.196Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1373,11 +1372,11 @@
         ]
       },
       "media": {
-        "fileName": "Houndgar.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Houndgar.png?a042b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Houndgar.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Houndgar render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Houndgar_render.png/720px-Houndgar_render.png?7416a",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Houndgar_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1396,10 +1395,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hoverthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=21557",
-        "revisionId": 21557,
-        "revisionTimestamp": "2026-08-19T21:11:42Z",
-        "fetchedAt": "2026-08-24T17:09:30.151Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=22340",
+        "revisionId": 22340,
+        "revisionTimestamp": "2026-08-27T17:11:05Z",
+        "fetchedAt": "2026-08-30T09:20:18.198Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1419,11 +1418,11 @@
         ]
       },
       "media": {
-        "fileName": "Hoverthorn.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Hoverthorn.png?a042b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Hoverthorn.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Hoverthorn render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Hoverthorn_render.png/720px-Hoverthorn_render.png?b48bb",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Hoverthorn_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1440,10 +1439,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=22252",
-        "revisionId": 22252,
-        "revisionTimestamp": "2026-08-26T11:31:15Z",
-        "fetchedAt": "2026-08-26T14:11:18.661Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=22305",
+        "revisionId": 22305,
+        "revisionTimestamp": "2026-08-27T13:19:18Z",
+        "fetchedAt": "2026-08-30T09:20:18.199Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1469,6 +1468,35 @@
       }
     },
     {
+      "id": "intermediary-basin",
+      "title": "Intermediary Basin",
+      "kind": "biomes",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Needs In-Game Screenshots",
+        "Scorpius biomes",
+        "Section stubs"
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Intermediary_Basin",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=22434",
+        "revisionId": 22434,
+        "revisionTimestamp": "2026-08-29T11:39:33Z",
+        "fetchedAt": "2026-08-30T09:20:19.297Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "facts": {
+        "depth": "?",
+        "pointsOfInterest": []
+      },
+      "media": null
+    },
+    {
       "id": "jelly-ring",
       "title": "Jelly Ring",
       "kind": "creatures",
@@ -1481,10 +1509,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Jelly_Ring",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jelly_Ring&oldid=20741",
-        "revisionId": 20741,
-        "revisionTimestamp": "2026-08-15T10:55:32Z",
-        "fetchedAt": "2026-08-15T17:52:38.185Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jelly_Ring&oldid=22266",
+        "revisionId": 22266,
+        "revisionTimestamp": "2026-08-26T17:50:14Z",
+        "fetchedAt": "2026-08-30T09:20:18.199Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1502,11 +1530,11 @@
         ]
       },
       "media": {
-        "fileName": "Jelly Ring.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Jelly_Ring.png?a042b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Jelly_Ring.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Jelly Ring render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Jelly_Ring_render.png/720px-Jelly_Ring_render.png?23478",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Jelly_Ring_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1522,10 +1550,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Jetocaris",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jetocaris&oldid=20103",
-        "revisionId": 20103,
-        "revisionTimestamp": "2026-08-12T09:32:00Z",
-        "fetchedAt": "2026-08-15T17:52:38.183Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jetocaris&oldid=22268",
+        "revisionId": 22268,
+        "revisionTimestamp": "2026-08-26T19:39:38Z",
+        "fetchedAt": "2026-08-30T09:20:18.196Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1543,11 +1571,11 @@
         ]
       },
       "media": {
-        "fileName": "Jetocaris.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Jetocaris.png?a042b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Jetocaris.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Jetocaris Render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Jetocaris_Render.png/720px-Jetocaris_Render.png?77cba",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Jetocaris_Render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1735,7 +1763,7 @@
       },
       "media": {
         "fileName": "Marrowbreach render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Marrowbreach_render.png/720px-Marrowbreach_render.png?2ca06",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Marrowbreach_render.png/720px-Marrowbreach_render.png?aa2ce",
         "filePage": "https://wiki.subnautica.com/sn2/File:Marrowbreach_render.png",
         "width": 720,
         "height": 720
@@ -1905,10 +1933,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Needler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=20720",
-        "revisionId": 20720,
-        "revisionTimestamp": "2026-08-14T21:43:23Z",
-        "fetchedAt": "2026-08-15T17:52:38.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=22258",
+        "revisionId": 22258,
+        "revisionTimestamp": "2026-08-26T15:28:38Z",
+        "fetchedAt": "2026-08-30T09:20:18.196Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1926,11 +1954,11 @@
         ]
       },
       "media": {
-        "fileName": "Needler Mango.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Needler_Mango.png?d9439",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Needler_Mango.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Needler Mango render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Needler_Mango_render.png/720px-Needler_Mango_render.png?e3fa4",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Needler_Mango_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -1946,10 +1974,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Nibbler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=20125",
-        "revisionId": 20125,
-        "revisionTimestamp": "2026-08-12T09:42:09Z",
-        "fetchedAt": "2026-08-15T17:52:38.182Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=22256",
+        "revisionId": 22256,
+        "revisionTimestamp": "2026-08-26T15:07:23Z",
+        "fetchedAt": "2026-08-30T09:20:18.194Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1966,11 +1994,11 @@
         ]
       },
       "media": {
-        "fileName": "Nibbler Mango.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Nibbler_Mango.png?9288f",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Nibbler_Mango.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Nibbler Mango render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Nibbler_Mango_render.png/720px-Nibbler_Mango_render.png?108a2",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Nibbler_Mango_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -2059,10 +2087,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Periscopic_Clowncrab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=21411",
-        "revisionId": 21411,
-        "revisionTimestamp": "2026-08-19T17:39:41Z",
-        "fetchedAt": "2026-08-24T17:09:30.150Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=22277",
+        "revisionId": 22277,
+        "revisionTimestamp": "2026-08-26T20:13:46Z",
+        "fetchedAt": "2026-08-30T09:20:18.195Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2080,11 +2108,11 @@
         ]
       },
       "media": {
-        "fileName": "Periscopic Clowncrab.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Periscopic_Clowncrab.png?83c2b",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Periscopic_Clowncrab.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Periscopic Clowncrab Render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Periscopic_Clowncrab_Render.png/720px-Periscopic_Clowncrab_Render.png?7823b",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Periscopic_Clowncrab_Render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -2175,10 +2203,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pneuma",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=21705",
-        "revisionId": 21705,
-        "revisionTimestamp": "2026-08-23T13:42:37Z",
-        "fetchedAt": "2026-08-24T17:09:30.150Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=22372",
+        "revisionId": 22372,
+        "revisionTimestamp": "2026-08-28T13:38:26Z",
+        "fetchedAt": "2026-08-30T09:20:18.197Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2195,11 +2223,11 @@
         ]
       },
       "media": {
-        "fileName": "Pneuma.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Pneuma.png?9288f",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Pneuma.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Pneuma render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Pneuma_render.png/720px-Pneuma_render.png?60bb8",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Pneuma_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -2210,16 +2238,15 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials",
-        "Section stubs"
+        "Raw Materials"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Quartz",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=20234",
-        "revisionId": 20234,
-        "revisionTimestamp": "2026-08-12T12:06:36Z",
-        "fetchedAt": "2026-08-15T17:52:33.493Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=22356",
+        "revisionId": 22356,
+        "revisionTimestamp": "2026-08-27T23:27:31Z",
+        "fetchedAt": "2026-08-30T09:20:17.834Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2362,10 +2389,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sandspear",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=21712",
-        "revisionId": 21712,
-        "revisionTimestamp": "2026-08-23T16:26:44Z",
-        "fetchedAt": "2026-08-24T17:09:30.149Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=22347",
+        "revisionId": 22347,
+        "revisionTimestamp": "2026-08-27T17:50:27Z",
+        "fetchedAt": "2026-08-30T09:20:18.195Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2385,11 +2412,11 @@
         ]
       },
       "media": {
-        "fileName": "Sandspear.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Sandspear.png?9288f",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Sandspear.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Sandspear render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Sandspear_render.png/720px-Sandspear_render.png?15b91",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Sandspear_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -2485,10 +2512,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Male",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Male&oldid=22213",
-        "revisionId": 22213,
-        "revisionTimestamp": "2026-08-25T16:09:26Z",
-        "fetchedAt": "2026-08-26T14:11:18.661Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Male&oldid=22358",
+        "revisionId": 22358,
+        "revisionTimestamp": "2026-08-27T23:41:22Z",
+        "fetchedAt": "2026-08-30T09:20:18.199Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2520,16 +2547,15 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials",
-        "Section stubs"
+        "Raw Materials"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=20642",
-        "revisionId": 20642,
-        "revisionTimestamp": "2026-08-14T08:05:21Z",
-        "fetchedAt": "2026-08-15T17:52:33.493Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=22357",
+        "revisionId": 22357,
+        "revisionTimestamp": "2026-08-27T23:30:04Z",
+        "fetchedAt": "2026-08-30T09:20:17.834Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2622,41 +2648,6 @@
         "filePage": "https://wiki.subnautica.com/sn2/File:CG_South_Raceway_Biome.jpg",
         "width": 720,
         "height": 405
-      }
-    },
-    {
-      "id": "sparse-plains",
-      "title": "Sparse Plains",
-      "kind": "biomes",
-      "status": "wiki-backed",
-      "exclusionReasons": [],
-      "categories": [
-        "Needs In-Game Screenshots",
-        "Scorpius biomes",
-        "Section stubs"
-      ],
-      "source": {
-        "type": "official-community-wiki",
-        "pageUrl": "https://wiki.subnautica.com/sn2/Sparse_Plains",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sparse_Plains&oldid=22131",
-        "revisionId": 22131,
-        "revisionTimestamp": "2026-08-25T03:05:00Z",
-        "fetchedAt": "2026-08-26T14:11:31.957Z",
-        "license": {
-          "name": "CC BY-NC-SA 3.0",
-          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
-        }
-      },
-      "facts": {
-        "depth": "?",
-        "pointsOfInterest": []
-      },
-      "media": {
-        "fileName": "Sparse Plains.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Sparse_Plains.png/720px-Sparse_Plains.png?6518c",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Sparse_Plains.png",
-        "width": 720,
-        "height": 337
       }
     },
     {
@@ -2786,10 +2777,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Surge_Jelly",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=21704",
-        "revisionId": 21704,
-        "revisionTimestamp": "2026-08-23T13:39:15Z",
-        "fetchedAt": "2026-08-24T17:09:30.151Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=22377",
+        "revisionId": 22377,
+        "revisionTimestamp": "2026-08-28T14:27:00Z",
+        "fetchedAt": "2026-08-30T09:20:18.199Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2807,11 +2798,11 @@
         ]
       },
       "media": {
-        "fileName": "Surge Jelly.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Surge_Jelly.png?4627a",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Surge_Jelly.png",
-        "width": 512,
-        "height": 512
+        "fileName": "Surge Jelly render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Surge_Jelly_render.png/720px-Surge_Jelly_render.png?84a16",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Surge_Jelly_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -3050,10 +3041,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Twin_Sitaray",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=20118",
-        "revisionId": 20118,
-        "revisionTimestamp": "2026-08-12T09:39:52Z",
-        "fetchedAt": "2026-08-15T17:52:38.185Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=22289",
+        "revisionId": 22289,
+        "revisionTimestamp": "2026-08-27T08:50:29Z",
+        "fetchedAt": "2026-08-30T09:20:18.198Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3072,11 +3063,11 @@
         ]
       },
       "media": {
-        "fileName": "Twin Sitaray.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Twin_Sitaray.png?4627a",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Twin_Sitaray.png",
-        "width": 256,
-        "height": 256
+        "fileName": "Twin Sitaray render.png",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Twin_Sitaray_render.png/720px-Twin_Sitaray_render.png?7ef49",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Twin_Sitaray_render.png",
+        "width": 720,
+        "height": 720
       }
     },
     {
@@ -3188,7 +3179,7 @@
       },
       "media": {
         "fileName": "Water Slug render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Water_Slug_render.png/720px-Water_Slug_render.png?a9476",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Water_Slug_render.png/720px-Water_Slug_render.png?02a06",
         "filePage": "https://wiki.subnautica.com/sn2/File:Water_Slug_render.png",
         "width": 720,
         "height": 720
@@ -3231,7 +3222,7 @@
       },
       "media": {
         "fileName": "Waxmoon render.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Waxmoon_render.png/720px-Waxmoon_render.png?1f5be",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Waxmoon_render.png/720px-Waxmoon_render.png?69288",
         "filePage": "https://wiki.subnautica.com/sn2/File:Waxmoon_render.png",
         "width": 720,
         "height": 720

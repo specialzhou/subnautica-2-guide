@@ -1,6 +1,14 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-26T14:41:04.623Z",
-  "missingCount": 0,
-  "items": []
+  "generatedAt": "2026-08-30T09:20:21.034Z",
+  "missingCount": 1,
+  "items": [
+    {
+      "english": "Intermediary Basin",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    }
+  ]
 }

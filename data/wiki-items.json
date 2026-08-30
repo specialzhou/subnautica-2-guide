@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-08-26T14:10:48.763Z",
+  "generatedAt": "2026-08-30T09:20:14.761Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -2309,8 +2309,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials",
-        "Section stubs"
+        "Raw Materials"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -2337,10 +2336,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Copper",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=20227",
-        "revisionId": 20227,
-        "revisionTimestamp": "2026-08-12T12:04:37Z",
-        "fetchedAt": "2026-08-15T17:52:23.852Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=22355",
+        "revisionId": 22355,
+        "revisionTimestamp": "2026-08-27T23:23:33Z",
+        "fetchedAt": "2026-08-30T09:20:16.795Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4128,10 +4127,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold_Ingot&oldid=20242",
-        "revisionId": 20242,
-        "revisionTimestamp": "2026-08-12T12:09:18Z",
-        "fetchedAt": "2026-08-15T17:52:23.854Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold_Ingot&oldid=22286",
+        "revisionId": 22286,
+        "revisionTimestamp": "2026-08-27T03:35:54Z",
+        "fetchedAt": "2026-08-30T09:20:16.797Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5990,10 +5989,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/NoA_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=NoA_Terminal&oldid=21070",
-        "revisionId": 21070,
-        "revisionTimestamp": "2026-08-17T22:57:55Z",
-        "fetchedAt": "2026-08-24T17:09:21.523Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=NoA_Terminal&oldid=22360",
+        "revisionId": 22360,
+        "revisionTimestamp": "2026-08-28T09:40:15Z",
+        "fetchedAt": "2026-08-30T09:20:16.800Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6911,8 +6910,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials",
-        "Section stubs"
+        "Raw Materials"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -6939,10 +6937,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Quartz",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=20234",
-        "revisionId": 20234,
-        "revisionTimestamp": "2026-08-12T12:06:36Z",
-        "fetchedAt": "2026-08-15T17:52:23.860Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=22356",
+        "revisionId": 22356,
+        "revisionTimestamp": "2026-08-27T23:27:31Z",
+        "fetchedAt": "2026-08-30T09:20:16.802Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8256,8 +8254,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials",
-        "Section stubs"
+        "Raw Materials"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -8284,10 +8281,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=20642",
-        "revisionId": 20642,
-        "revisionTimestamp": "2026-08-14T08:05:21Z",
-        "fetchedAt": "2026-08-15T17:52:23.860Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=22357",
+        "revisionId": 22357,
+        "revisionTimestamp": "2026-08-27T23:30:04Z",
+        "fetchedAt": "2026-08-30T09:20:16.806Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

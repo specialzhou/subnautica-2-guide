@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:45:13.693Z",
+  "generatedAt": "2026-08-31T09:54:37.617Z",
   "count": 329,
   "entries": [
     {
@@ -2932,7 +2932,7 @@
       "type": "Item",
       "href": "guide/items/tadpole-scout-ray-chassis.html",
       "terms": "Tadpole Scout Ray Chassis Vehicle Fabricator Plasteel Ingot Advanced Wiring Kit Dedicated Core Strong Acid",
-      "image": null,
+      "image": "https://wiki.subnautica.com/sn2/images/Tadpole_Scout_Ray_Chassis.png?bdf79",
       "localizedTitles": {
         "zh-cn": "蝌蚪号侦察鳐底盘",
         "ru": "Шасси «Скат» для «Головастика»"
@@ -3802,7 +3802,7 @@
       "type": "Creature",
       "href": "guide/creatures/geordie.html",
       "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Food +20 / Health -5 / Water 0 Coral Gardens",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Geordie_render.png/720px-Geordie_render.png?10757",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Geordie_render.png/720px-Geordie_render.png?5a532",
       "localizedTitles": {
         "zh-cn": "四翅海鞘",
         "ru": "Джорди"
@@ -4237,7 +4237,7 @@
       "type": "Creature",
       "href": "guide/creatures/periscopic-clowncrab.html",
       "terms": "Periscopic Clowncrab Passive Mobile Foragers Ostrakonskelos periskopion “Hard-legged periscope” Necrolei Hills Shallows",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Periscopic_Clowncrab_Render.png/720px-Periscopic_Clowncrab_Render.png?7823b",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Periscopic_Clowncrab_Render.png/720px-Periscopic_Clowncrab_Render.png?4c648",
       "localizedTitles": {
         "zh-cn": "潜望小丑蟹",
         "ru": "Стебельчатоглазый краб-клоун"
@@ -4552,7 +4552,7 @@
       "type": "Vehicle",
       "href": "guide/vehicles/tadpole-scout-ray-chassis.html",
       "terms": "Tadpole Scout Ray Chassis 10 m/s 1",
-      "image": null,
+      "image": "https://wiki.subnautica.com/sn2/images/Tadpole_Scout_Ray_Chassis.png?bdf79",
       "localizedTitles": {
         "zh-cn": "蝌蚪号侦察鳐底盘",
         "ru": "Шасси «Скат» для «Головастика»"

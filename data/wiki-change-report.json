@@ -1,49 +1,31 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-08-30T12:45:11.436Z",
+  "detectedAt": "2026-08-31T09:54:34.103Z",
   "changes": [
     {
-      "id": "copper",
-      "title": "Copper",
+      "id": "tadpole",
+      "title": "Tadpole",
       "change": "updated",
-      "previousRevisionId": 20227,
-      "revisionId": 22355,
+      "previousRevisionId": 20667,
+      "revisionId": 22488,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "gold-ingot",
-      "title": "Gold Ingot",
+      "id": "tadpole-haul-chassis",
+      "title": "Tadpole Haul Chassis",
       "change": "updated",
-      "previousRevisionId": 20242,
-      "revisionId": 22286,
+      "previousRevisionId": 22156,
+      "revisionId": 22486,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "noa-terminal",
-      "title": "NoA Terminal",
+      "id": "tadpole-scout-ray-chassis",
+      "title": "Tadpole Scout Ray Chassis",
       "change": "updated",
-      "previousRevisionId": 21070,
-      "revisionId": 22360,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "quartz",
-      "title": "Quartz",
-      "change": "updated",
-      "previousRevisionId": 20234,
-      "revisionId": 22356,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "silver",
-      "title": "Silver",
-      "change": "updated",
-      "previousRevisionId": 20642,
-      "revisionId": 22357,
+      "previousRevisionId": 20296,
+      "revisionId": 22489,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-08-30T12:45:11.436Z",
+  "generatedAt": "2026-08-31T09:54:34.103Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -9323,10 +9323,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=20667",
-        "revisionId": 20667,
-        "revisionTimestamp": "2026-08-14T11:44:21Z",
-        "fetchedAt": "2026-08-15T17:52:23.864Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=22488",
+        "revisionId": 22488,
+        "revisionTimestamp": "2026-08-30T20:34:16Z",
+        "fetchedAt": "2026-08-31T09:54:36.835Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9509,7 +9509,6 @@
       "categories": [
         "Crafted with Vehicle Fabricator",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Vehicles"
       ],
       "availableByDefault": false,
@@ -9547,10 +9546,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Haul_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=22156",
-        "revisionId": 22156,
-        "revisionTimestamp": "2026-08-25T11:57:24Z",
-        "fetchedAt": "2026-08-26T14:11:01.799Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=22486",
+        "revisionId": 22486,
+        "revisionTimestamp": "2026-08-30T20:30:31Z",
+        "fetchedAt": "2026-08-31T09:54:36.835Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9566,7 +9565,6 @@
       "categories": [
         "Crafted with Vehicle Fabricator",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Vehicles"
       ],
       "availableByDefault": false,
@@ -9604,10 +9602,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Scout_Ray_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=20296",
-        "revisionId": 20296,
-        "revisionTimestamp": "2026-08-12T14:59:30Z",
-        "fetchedAt": "2026-08-15T17:52:23.864Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=22489",
+        "revisionId": 22489,
+        "revisionTimestamp": "2026-08-30T20:42:39Z",
+        "fetchedAt": "2026-08-31T09:54:36.835Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

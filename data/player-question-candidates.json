@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-08-30T12:45:12.751Z",
+  "collectedAt": "2026-08-31T11:36:21.897Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -23,7 +23,7 @@
     "systemReview": 75,
     "readyToReply": 5,
     "dismissed": 0,
-    "addedThisRun": 13
+    "addedThisRun": 2
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -274,7 +274,9 @@
     "1w0e422",
     "1w0965u",
     "1vzzmw5",
-    "1vzmzni"
+    "1vzmzni",
+    "1w2r82a",
+    "1w2kae1"
   ],
   "candidates": [
     {
@@ -291,7 +293,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-08-30T12:45:12.751Z",
+        "lastErrorAt": "2026-08-31T11:36:21.897Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1vwaxnn/prawn_suit_stuck_in_dry_land_mode_glitched_inside/.rss?limit=500"
       },
       "title": "Prawn Suit stuck in dry land mode? Glitched inside the Alien Containment facility and can't get out? I made a video on how to solve these glitches without potentially dying or using commands. Info in description.",
@@ -398,7 +400,7 @@
       "questionKey": "why won t my tadpole dock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1sj6d/why_wont_my_tadpole_dock/",
       "publishedAt": "2026-08-29T17:28:42+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -425,6 +427,56 @@
         }
       ],
       "priorityScore": 30,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1w2kae1",
+      "firstSeenAt": "2026-08-31T11:36:21.897Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 3,
+        "observedAt": "2026-08-31T11:36:21.897Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Mangalloy Ingot Recipe won't unlock?",
+      "questionKey": "mangalloy ingot recipe won t unlock",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1w2kae1/mangalloy_ingot_recipe_wont_unlock/",
+      "publishedAt": "2026-08-30T15:17:43+00:00",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 16,
+      "signals": [
+        "not-working",
+        "where",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.2,
+      "suggestedPages": [
+        {
+          "href": "blueprints.html",
+          "title": "Blueprint checklist",
+          "score": 0.2
+        },
+        {
+          "href": "guide/items/advanced-battery.html",
+          "title": "Advanced Battery",
+          "score": 0.2
+        },
+        {
+          "href": "guide/items/axum-ingot.html",
+          "title": "Axum Ingot",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 29,
       "possibleDuplicateOf": null
     },
     {
@@ -538,7 +590,7 @@
       "questionKey": "weird issue with the build tool i cannot understand",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vvp98z/weird_issue_with_the_build_tool_i_cannot/",
       "publishedAt": "2026-08-22T22:01:21+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -638,7 +690,7 @@
       "questionKey": "pda simply not working when starting a new game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vrybxw/pda_simply_not_working_when_starting_a_new_game/",
       "publishedAt": "2026-08-18T18:52:50+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 13,
       "signals": [
@@ -687,7 +739,7 @@
       "questionKey": "am i just stuck forever",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w0ku1e/am_i_just_stuck_forever/",
       "publishedAt": "2026-08-28T08:35:52+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -880,7 +932,7 @@
       "questionKey": "angel comb bug campaign breaking bug any advise helpful",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vzzmw5/angel_comb_bug_campaign_breaking_bug_any_advise/",
       "publishedAt": "2026-08-27T16:58:54+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1058,6 +1110,45 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1vxf3o7",
+      "firstSeenAt": "2026-08-25T05:47:51.441Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 49,
+        "observedAt": "2026-08-31T11:36:21.897Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Help Me Start :)",
+      "questionKey": "help me start",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vxf3o7/help_me_start/",
+      "publishedAt": "2026-08-24T20:51:05+00:00",
+      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 8,
+      "signals": [
+        "help",
+        "where",
+        "crafting"
+      ],
+      "trafficValue": 0,
+      "answerability": 1,
+      "suggestedPages": [
+        {
+          "href": "starter-planner.html",
+          "title": "Start here",
+          "score": 1
+        }
+      ],
+      "priorityScore": 16,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vxck6g",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
@@ -1165,16 +1256,16 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 13,
+        "observedAt": "2026-08-31T11:36:21.897Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "I need help for my son, can't get the game to launch, tells me may have exited wrong and if you have minimum requirements, we do meet all requirements",
       "questionKey": "i need help for my son can t get the game to launch tells me may have exited wrong and if you have minimum requirements we do meet all requirements",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1tfny/i_need_help_for_my_son_cant_get_the_game_to/",
       "publishedAt": "2026-08-29T18:04:14+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1200,45 +1291,6 @@
           "href": "questions/scan-collector-leviathan-safely.html",
           "title": "How do I bioscan the Collector Leviathan safely?",
           "score": 0.12
-        }
-      ],
-      "priorityScore": 16,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vxf3o7",
-      "firstSeenAt": "2026-08-25T05:47:51.441Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Help Me Start :)",
-      "questionKey": "help me start",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vxf3o7/help_me_start/",
-      "publishedAt": "2026-08-24T20:51:05+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 8,
-      "signals": [
-        "help",
-        "where",
-        "crafting"
-      ],
-      "trafficValue": 0,
-      "answerability": 1,
-      "suggestedPages": [
-        {
-          "href": "starter-planner.html",
-          "title": "Start here",
-          "score": 1
         }
       ],
       "priorityScore": 16,
@@ -1315,7 +1367,7 @@
       "questionKey": "anyone else experiencing more bug issues than normal after the update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vx35w1/anyone_else_experiencing_more_bug_issues_than/",
       "publishedAt": "2026-08-24T13:41:01+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -1365,7 +1417,7 @@
       "questionKey": "collector leviathan stuck",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w239o7/collector_leviathan_stuck/",
       "publishedAt": "2026-08-30T00:54:00+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -1755,7 +1807,7 @@
       "questionKey": "lighthouse base",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1ew98/lighthouse_base/",
       "publishedAt": "2026-08-29T06:30:20+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -1805,7 +1857,7 @@
       "questionKey": "what is this baby collector spoilers for in dev content",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w0965u/what_is_this_baby_collector_spoilers_for_in_dev/",
       "publishedAt": "2026-08-27T22:50:06+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -1899,7 +1951,7 @@
       "questionKey": "uh where did i see this guy alredy",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vuenwr/uh_where_did_i_see_this_guy_alredy/",
       "publishedAt": "2026-08-21T12:13:23+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2180,7 +2232,7 @@
       "questionKey": "help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vu2hga/help/",
       "publishedAt": "2026-08-21T01:34:17+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -2420,6 +2472,53 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1w2r82a",
+      "firstSeenAt": "2026-08-31T11:36:21.897Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Did I break something? The blueprint for repairing the thermal plant turbines has disappeared.",
+      "questionKey": "did i break something the blueprint for repairing the thermal plant turbines has disappeared",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1w2r82a/did_i_break_something_the_blueprint_for_repairing/",
+      "publishedAt": "2026-08-30T19:41:34+00:00",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 6,
+      "signals": [
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.3,
+      "suggestedPages": [
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.3
+        },
+        {
+          "href": "guide/items/thermal-plant.html",
+          "title": "Thermal Plant",
+          "score": 0.2
+        },
+        {
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 12,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1w259np",
       "firstSeenAt": "2026-08-30T12:45:12.751Z",
       "review": {
@@ -2438,7 +2537,7 @@
       "questionKey": "need some help from some vets",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w259np/need_some_help_from_some_vets/",
       "publishedAt": "2026-08-30T02:31:04+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -2634,7 +2733,7 @@
       "questionKey": "do you not get the angel comb prompts in creative",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vuo4wq/do_you_not_get_the_angel_comb_prompts_in_creative/",
       "publishedAt": "2026-08-21T18:16:41+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2682,7 +2781,7 @@
       "questionKey": "any way i can run this game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1be2h/any_way_i_can_run_this_game/",
       "publishedAt": "2026-08-29T03:26:35+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2730,7 +2829,7 @@
       "questionKey": "nsfw i simply could not resist the temptation once i realized how amazing the rotation symmetry is with building forgive my immaturity and enjoy my sign",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vx5gak/nsfw_i_simply_could_not_resist_the_temptation/",
       "publishedAt": "2026-08-24T15:07:39+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2778,7 +2877,7 @@
       "questionKey": "building problem",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vu2bwj/building_problem/",
       "publishedAt": "2026-08-21T01:27:06+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3139,7 +3238,7 @@
       "questionKey": "people joining glitch",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vzmzni/people_joining_glitch/",
       "publishedAt": "2026-08-27T07:21:32+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -3172,7 +3271,7 @@
       "questionKey": "bladder broken bugged or am i stupid",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vvgmov/bladder_brokenbugged_or_am_i_stupid/",
       "publishedAt": "2026-08-22T16:18:43+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3347,7 +3446,7 @@
       "questionKey": "lighthouse base finalized",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1s68d/lighthouse_base_finalized/",
       "publishedAt": "2026-08-29T17:14:34+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -3444,7 +3543,7 @@
       "questionKey": "can someone help me with this",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vski04/can_someone_help_me_with_this/",
       "publishedAt": "2026-08-19T12:04:02+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3689,7 +3788,7 @@
       "questionKey": "this is just a theory a game theory subnautica the ultimate grand unified timeline theory an expansive lore theory connecting the events of subnautica 2 planet proteus earth history and the tragic downfall of the architects on planet 4546b",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1vt2hp2/this_is_just_a_theory_a_game_theorysubnautica_the/",
       "publishedAt": "2026-08-19T23:17:17+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
+      "lastSeenAt": "2026-08-31T11:36:21.897Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3843,86 +3942,6 @@
           "score": 0.5
         }
       ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vwl0hv",
-      "firstSeenAt": "2026-08-24T05:53:41.913Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Revisit the Wrecks and Camps",
-      "questionKey": "revisit the wrecks and camps",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vwl0hv/revisit_the_wrecks_and_camps/",
-      "publishedAt": "2026-08-23T22:29:05+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 5,
-      "signals": [
-        "where",
-        "how",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.5,
-      "suggestedPages": [
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.25
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.25
-        }
-      ],
-      "priorityScore": 8,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vw5uhl",
-      "firstSeenAt": "2026-08-25T05:47:51.441Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "What the hell is this?",
-      "questionKey": "what the hell is this",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vw5uhl/what_the_hell_is_this/",
-      "publishedAt": "2026-08-23T12:25:04+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 5,
-      "signals": [
-        "not-working"
-      ],
-      "trafficValue": 1,
-      "answerability": 0,
-      "suggestedPages": [],
       "priorityScore": 8,
       "possibleDuplicateOf": null
     },

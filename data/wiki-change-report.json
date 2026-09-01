@@ -1,31 +1,22 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-08-31T09:54:34.103Z",
+  "detectedAt": "2026-09-01T08:45:44.768Z",
   "changes": [
     {
-      "id": "tadpole",
-      "title": "Tadpole",
+      "id": "fabricator",
+      "title": "Fabricator",
       "change": "updated",
-      "previousRevisionId": 20667,
-      "revisionId": 22488,
+      "previousRevisionId": 21559,
+      "revisionId": 22501,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tadpole-haul-chassis",
-      "title": "Tadpole Haul Chassis",
+      "id": "salt",
+      "title": "Salt",
       "change": "updated",
-      "previousRevisionId": 22156,
-      "revisionId": 22486,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tadpole-scout-ray-chassis",
-      "title": "Tadpole Scout Ray Chassis",
-      "change": "updated",
-      "previousRevisionId": 20296,
-      "revisionId": 22489,
+      "previousRevisionId": 21427,
+      "revisionId": 22492,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,202 +1,31 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-02T07:59:32.787Z",
+  "detectedAt": "2026-09-03T08:09:05.684Z",
   "changes": [
     {
-      "id": "battery-terminal",
-      "title": "Battery Terminal",
+      "id": "cherimoya-rotsac",
+      "title": "Cherimoya Rotsac",
       "change": "updated",
-      "previousRevisionId": 21217,
-      "revisionId": 22599,
+      "previousRevisionId": 20865,
+      "revisionId": 22858,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "beacon",
-      "title": "Beacon",
+      "id": "feedback-resonator",
+      "title": "Feedback Resonator",
       "change": "updated",
-      "previousRevisionId": 21119,
-      "revisionId": 22594,
+      "previousRevisionId": 21436,
+      "revisionId": 22856,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "biobed",
-      "title": "Biobed",
+      "id": "quartz",
+      "title": "Quartz",
       "change": "updated",
-      "previousRevisionId": 21069,
-      "revisionId": 22626,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "carryables-rack",
-      "title": "Carryables Rack",
-      "change": "updated",
-      "previousRevisionId": 21551,
-      "revisionId": 22583,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "dive-elevator",
-      "title": "Dive Elevator",
-      "change": "updated",
-      "previousRevisionId": 21123,
-      "revisionId": 22592,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "flashlight",
-      "title": "Flashlight",
-      "change": "updated",
-      "previousRevisionId": 20076,
-      "revisionId": 22593,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "habitat-builder",
-      "title": "Habitat Builder",
-      "change": "updated",
-      "previousRevisionId": 21541,
-      "revisionId": 22588,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "high-capacity-air-tank",
-      "title": "High Capacity Air Tank",
-      "change": "updated",
-      "previousRevisionId": 19977,
-      "revisionId": 22611,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "keep-calm-poster",
-      "title": "Keep Calm Poster",
-      "change": "updated",
-      "previousRevisionId": 21154,
-      "revisionId": 22614,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "new-life-poster",
-      "title": "New Life Poster",
-      "change": "updated",
-      "previousRevisionId": 21157,
-      "revisionId": 22580,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "nook",
-      "title": "Nook",
-      "change": "updated",
-      "previousRevisionId": 21055,
-      "revisionId": 22620,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "pioneer-program-poster",
-      "title": "Pioneer Program Poster",
-      "change": "updated",
-      "previousRevisionId": 21159,
-      "revisionId": 22604,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-cell-terminal",
-      "title": "Power Cell Terminal",
-      "change": "updated",
-      "previousRevisionId": 21090,
-      "revisionId": 22609,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-transmitter",
-      "title": "Power Transmitter",
-      "change": "updated",
-      "previousRevisionId": 21114,
-      "revisionId": 22610,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "processor",
-      "title": "Processor",
-      "change": "updated",
-      "previousRevisionId": 21532,
-      "revisionId": 22608,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "rectangular-ceiling-light",
-      "title": "Rectangular Ceiling Light",
-      "change": "updated",
-      "previousRevisionId": 21076,
-      "revisionId": 22607,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "room",
-      "title": "Room",
-      "change": "updated",
-      "previousRevisionId": 21059,
-      "revisionId": 22612,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "sonic-resonator",
-      "title": "Sonic Resonator",
-      "change": "updated",
-      "previousRevisionId": 22159,
-      "revisionId": 22603,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "stool",
-      "title": "Stool",
-      "change": "updated",
-      "previousRevisionId": 21133,
-      "revisionId": 22613,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "storage-cache",
-      "title": "Storage Cache",
-      "change": "updated",
-      "previousRevisionId": 21105,
-      "revisionId": 22787,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tadpole-depth-module-mk-1",
-      "title": "Tadpole Depth Module Mk. 1",
-      "change": "updated",
-      "previousRevisionId": 17908,
-      "revisionId": 22796,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wakemaker",
-      "title": "Wakemaker",
-      "change": "updated",
-      "previousRevisionId": 20300,
-      "revisionId": 22582,
+      "previousRevisionId": 22356,
+      "revisionId": 22862,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

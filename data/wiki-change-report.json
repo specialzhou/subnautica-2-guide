@@ -1,31 +1,22 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-03T08:09:05.684Z",
+  "detectedAt": "2026-09-04T08:04:06.665Z",
   "changes": [
     {
-      "id": "cherimoya-rotsac",
-      "title": "Cherimoya Rotsac",
+      "id": "dive-elevator",
+      "title": "Dive Elevator",
       "change": "updated",
-      "previousRevisionId": 20865,
-      "revisionId": 22858,
+      "previousRevisionId": 22592,
+      "revisionId": 22872,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "feedback-resonator",
-      "title": "Feedback Resonator",
+      "id": "tadpole",
+      "title": "Tadpole",
       "change": "updated",
-      "previousRevisionId": 21436,
-      "revisionId": 22856,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "quartz",
-      "title": "Quartz",
-      "change": "updated",
-      "previousRevisionId": 22356,
-      "revisionId": 22862,
+      "previousRevisionId": 22488,
+      "revisionId": 22878,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

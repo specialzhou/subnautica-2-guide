@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-03T08:09:05.684Z",
+  "generatedAt": "2026-09-04T08:04:06.665Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -3040,10 +3040,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dive_Elevator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=22592",
-        "revisionId": 22592,
-        "revisionTimestamp": "2026-09-01T19:35:44Z",
-        "fetchedAt": "2026-09-02T07:59:36.124Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=22872",
+        "revisionId": 22872,
+        "revisionTimestamp": "2026-09-03T09:08:47Z",
+        "fetchedAt": "2026-09-04T08:04:08.850Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9323,10 +9323,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=22488",
-        "revisionId": 22488,
-        "revisionTimestamp": "2026-08-30T20:34:16Z",
-        "fetchedAt": "2026-08-31T09:54:36.835Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=22878",
+        "revisionId": 22878,
+        "revisionTimestamp": "2026-09-03T17:16:15Z",
+        "fetchedAt": "2026-09-04T08:04:08.861Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

@@ -1,22 +1,31 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-04T08:04:06.665Z",
+  "detectedAt": "2026-09-06T07:59:11.331Z",
   "changes": [
     {
-      "id": "dive-elevator",
-      "title": "Dive Elevator",
+      "id": "bioscanner",
+      "title": "Bioscanner",
       "change": "updated",
-      "previousRevisionId": 22592,
-      "revisionId": 22872,
+      "previousRevisionId": 21595,
+      "revisionId": 22897,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tadpole",
-      "title": "Tadpole",
+      "id": "metal-farm",
+      "title": "Metal Farm",
       "change": "updated",
-      "previousRevisionId": 22488,
-      "revisionId": 22878,
+      "previousRevisionId": 21526,
+      "revisionId": 22940,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "vintage-wanted-poster",
+      "title": "Vintage Wanted poster",
+      "change": "updated",
+      "previousRevisionId": 21464,
+      "revisionId": 22939,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

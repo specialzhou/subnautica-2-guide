@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-04T08:04:09.715Z",
+  "generatedAt": "2026-09-06T07:59:13.495Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1509,10 +1509,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Jelly_Ring",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jelly_Ring&oldid=22266",
-        "revisionId": 22266,
-        "revisionTimestamp": "2026-08-26T17:50:14Z",
-        "fetchedAt": "2026-08-30T12:45:14.841Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jelly_Ring&oldid=22895",
+        "revisionId": 22895,
+        "revisionTimestamp": "2026-09-05T15:32:38Z",
+        "fetchedAt": "2026-09-06T07:59:14.260Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1526,7 +1526,7 @@
         "nutrition": "",
         "biomes": [
           "Graveyard",
-          "Karakorum Power Plant"
+          "Root Canyon"
         ]
       },
       "media": {

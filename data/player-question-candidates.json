@@ -1,12 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-09-10T09:44:59.124Z",
+  "collectedAt": "2026-09-11T09:42:07.658Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
     "subreddits": [
-      "r/Subnautica_2",
-      "r/Subnautica"
+      "r/Subnautica_2"
     ],
     "feedUrl": "https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100, https://www.reddit.com/r/Subnautica/new/.rss?limit=100",
     "method": "public-atom-rss"
@@ -24,7 +23,7 @@
     "systemReview": 75,
     "readyToReply": 5,
     "dismissed": 0,
-    "addedThisRun": 42
+    "addedThisRun": 1
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -381,7 +380,8 @@
     "1w5ri08",
     "1w5rh1r",
     "1w5phyg",
-    "1w5phvz"
+    "1w5phvz",
+    "1wcrapu"
   ],
   "candidates": [
     {
@@ -398,14 +398,14 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-09-10T09:44:59.124Z",
+        "lastErrorAt": "2026-09-11T09:42:07.658Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/.rss?limit=500"
       },
       "title": "Stuck on Angel comb?",
       "questionKey": "stuck on angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/",
       "publishedAt": "2026-09-09T17:01:44+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -654,7 +654,7 @@
       "questionKey": "why won t my tadpole dock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1sj6d/why_wont_my_tadpole_dock/",
       "publishedAt": "2026-08-29T17:28:42+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -702,7 +702,7 @@
       "questionKey": "mangalloy ingot recipe won t unlock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w2kae1/mangalloy_ingot_recipe_wont_unlock/",
       "publishedAt": "2026-08-30T15:17:43+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 16,
       "signals": [
@@ -779,6 +779,55 @@
         }
       ],
       "priorityScore": 28,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1w8dtxs",
+      "firstSeenAt": "2026-09-10T09:44:59.124Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 23,
+        "observedAt": "2026-09-11T09:42:07.658Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "How to build a base next to a reaper?",
+      "questionKey": "how to build a base next to a reaper",
+      "url": "https://www.reddit.com/r/subnautica/comments/1w8dtxs/how_to_build_a_base_next_to_a_reaper/",
+      "publishedAt": "2026-09-05T21:58:43+00:00",
+      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 12,
+      "signals": [
+        "bug",
+        "how",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/hanging-tailing-jar-wont-place.html",
+          "title": "Why won't the Hanging Tailing Jar place?",
+          "score": 0.5
+        },
+        {
+          "href": "base-building.html",
+          "title": "Base building",
+          "score": 0.25
+        },
+        {
+          "href": "guide/items/reaper-leviathan.html",
+          "title": "Reaper Leviathan",
+          "score": 0.25
+        }
+      ],
+      "priorityScore": 27,
       "possibleDuplicateOf": null
     },
     {
@@ -878,55 +927,6 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1w8dtxs",
-      "firstSeenAt": "2026-09-10T09:44:59.124Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "How to build a base next to a reaper?",
-      "questionKey": "how to build a base next to a reaper",
-      "url": "https://www.reddit.com/r/subnautica/comments/1w8dtxs/how_to_build_a_base_next_to_a_reaper/",
-      "publishedAt": "2026-09-05T21:58:43+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 12,
-      "signals": [
-        "bug",
-        "how",
-        "crafting"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.5,
-      "suggestedPages": [
-        {
-          "href": "questions/hanging-tailing-jar-wont-place.html",
-          "title": "Why won't the Hanging Tailing Jar place?",
-          "score": 0.5
-        },
-        {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.25
-        },
-        {
-          "href": "guide/items/reaper-leviathan.html",
-          "title": "Reaper Leviathan",
-          "score": 0.25
-        }
-      ],
-      "priorityScore": 27,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1vvp98z",
       "firstSeenAt": "2026-08-24T05:53:41.913Z",
       "review": {
@@ -977,55 +977,6 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1w79pcm",
-      "firstSeenAt": "2026-09-05T09:05:33.744Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 7,
-        "observedAt": "2026-09-05T09:05:33.744Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "I'm not sure what actually respawns and what is limited? Help?",
-      "questionKey": "i m not sure what actually respawns and what is limited help",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1w79pcm/im_not_sure_what_actually_respawns_and_what_is/",
-      "publishedAt": "2026-09-04T16:45:33+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 14,
-      "signals": [
-        "help",
-        "where",
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.2,
-      "suggestedPages": [
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/strong-acid-after-update.html",
-          "title": "Where did the Strong Acid recipe move in EA 1.1?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 25,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1w5phyg",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
@@ -1035,10 +986,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 10,
+        "observedAt": "2026-09-11T09:42:07.658Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "How did I just find out you could do this today?",
       "questionKey": "how did i just find out you could do this today",
@@ -1069,6 +1020,55 @@
           "href": "guide/items/just-keep-swimming-poster.html",
           "title": "Just Keep Swimming Poster",
           "score": 0.14
+        }
+      ],
+      "priorityScore": 25,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1w79pcm",
+      "firstSeenAt": "2026-09-05T09:05:33.744Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 7,
+        "observedAt": "2026-09-05T09:05:33.744Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "I'm not sure what actually respawns and what is limited? Help?",
+      "questionKey": "i m not sure what actually respawns and what is limited help",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1w79pcm/im_not_sure_what_actually_respawns_and_what_is/",
+      "publishedAt": "2026-09-04T16:45:33+00:00",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 14,
+      "signals": [
+        "help",
+        "where",
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.2,
+      "suggestedPages": [
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.2
         }
       ],
       "priorityScore": 25,
@@ -1289,7 +1289,7 @@
       "questionKey": "am i just stuck forever",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w0ku1e/am_i_just_stuck_forever/",
       "publishedAt": "2026-08-28T08:35:52+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1618,7 +1618,7 @@
       "questionKey": "did they move the rebreather in 1 2 i m going nuts trying to find one",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wae2ah/did_they_move_the_rebreather_in_12_im_going_nuts/",
       "publishedAt": "2026-09-08T04:16:54+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1709,10 +1709,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 8,
+        "observedAt": "2026-09-11T09:42:07.658Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "Could I have soft locked Prawn suit progress at 0?",
       "questionKey": "could i have soft locked prawn suit progress at 0",
@@ -1810,7 +1810,7 @@
       "questionKey": "bug on late game angel comb spoilers",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8lblb/bug_on_late_game_angel_comb_spoilers/",
       "publishedAt": "2026-09-06T03:48:29+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1917,7 +1917,7 @@
       "questionKey": "possible soft lock on 1st bloom help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w6r1l2/possible_soft_lock_on_1st_bloom_help/",
       "publishedAt": "2026-09-04T01:57:00+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1982,6 +1982,55 @@
           "href": "questions/rebioscan-biofilm-not-respawning.html",
           "title": "Why isn't Biofilm respawning for a re-bioscan?",
           "score": 0.33
+        }
+      ],
+      "priorityScore": 17,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1wcrapu",
+      "firstSeenAt": "2026-09-11T09:42:07.658Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Why did Noa take so long to print the Qualified Investigator?",
+      "questionKey": "why did noa take so long to print the qualified investigator",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1wcrapu/why_did_noa_take_so_long_to_print_the_qualified/",
+      "publishedAt": "2026-09-10T18:22:05+00:00",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "help",
+        "how",
+        "crafting"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.14,
+      "suggestedPages": [
+        {
+          "href": "guide/items/noa-terminal.html",
+          "title": "NoA Terminal",
+          "score": 0.14
+        },
+        {
+          "href": "guide/biomes/dolerite-spires.html",
+          "title": "Dolerite Spires",
+          "score": 0.14
+        },
+        {
+          "href": "questions/strong-acid-after-update.html",
+          "title": "Where did the Strong Acid recipe move in EA 1.1?",
+          "score": 0.14
         }
       ],
       "priorityScore": 17,
@@ -2192,7 +2241,7 @@
       "questionKey": "i need help for my son can t get the game to launch tells me may have exited wrong and if you have minimum requirements we do meet all requirements",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1tfny/i_need_help_for_my_son_cant_get_the_game_to/",
       "publishedAt": "2026-08-29T18:04:14+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2291,7 +2340,7 @@
       "questionKey": "how do i get in here",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1waxo9p/how_do_i_get_in_here/",
       "publishedAt": "2026-09-08T19:01:56+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2328,7 +2377,7 @@
       "questionKey": "why do they call it a shiver leviathan",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9ucok/why_do_they_call_it_a_shiver_leviathan/",
       "publishedAt": "2026-09-07T14:53:43+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2424,7 +2473,7 @@
       "questionKey": "how s the base lookin",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8aqs2/hows_the_base_lookin/",
       "publishedAt": "2026-09-05T19:55:05+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2471,7 +2520,7 @@
       "questionKey": "please help turbine repair option gone after update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4wi23/please_help_turbine_repair_option_gone_after/",
       "publishedAt": "2026-09-02T01:39:10+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2816,7 +2865,7 @@
       "questionKey": "question regarding building tadpole dock in moonpool",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9dvif/question_regarding_building_tadpole_dock_in/",
       "publishedAt": "2026-09-07T01:08:41+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -2867,7 +2916,7 @@
       "questionKey": "collector leviathan stuck",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w239o7/collector_leviathan_stuck/",
       "publishedAt": "2026-08-30T00:54:00+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -2973,7 +3022,7 @@
       "questionKey": "yet another base tour",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9cwni/yet_another_base_tour/",
       "publishedAt": "2026-09-07T00:23:28+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3316,7 +3365,7 @@
       "questionKey": "how can there be insufficient space how",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w3jmd3/how_can_there_be_insufficient_space_how/",
       "publishedAt": "2026-08-31T16:55:32+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3446,7 +3495,7 @@
       "questionKey": "struggle with last angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w449hm/struggle_with_last_angel_comb/",
       "publishedAt": "2026-09-01T06:59:08+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3913,7 +3962,7 @@
       "questionKey": "lighthouse base",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1ew98/lighthouse_base/",
       "publishedAt": "2026-08-29T06:30:20+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "lastSeenAt": "2026-09-11T09:42:07.658Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -3942,57 +3991,6 @@
         }
       ],
       "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1w0gz7i",
-      "firstSeenAt": "2026-09-01T10:06:48.624Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "\"INSUFFICIENT SPACE TO DOCK\": Is Hauler Chassis docking simply completely bugged?",
-      "questionKey": "insufficient space to dock is hauler chassis docking simply completely bugged",
-      "url": "https://www.reddit.com/r/subnautica/comments/1w0gz7i/insufficient_space_to_dock_is_hauler_chassis/",
-      "publishedAt": "2026-08-28T04:51:25+00:00",
-      "lastSeenAt": "2026-09-01T10:06:48.624Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 12,
-      "signals": [
-        "not-working",
-        "bug",
-        "where",
-        "how",
-        "crafting"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.11,
-      "suggestedPages": [
-        {
-          "href": "vehicle-planner.html",
-          "title": "Tadpole vehicle planner",
-          "score": 0.11
-        },
-        {
-          "href": "guide/items/tadpole-dock.html",
-          "title": "Tadpole Dock",
-          "score": 0.11
-        },
-        {
-          "href": "guide/items/tadpole-haul-chassis.html",
-          "title": "Tadpole Haul Chassis",
-          "score": 0.11
-        }
-      ],
-      "priorityScore": 13,
       "possibleDuplicateOf": null
     },
     {

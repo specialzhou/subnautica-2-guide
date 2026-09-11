@@ -1,22 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-10T08:14:20.323Z",
+  "detectedAt": "2026-09-11T08:09:29.475Z",
   "changes": [
     {
       "id": "sugar-of-saturn",
       "title": "Sugar of Saturn",
       "change": "updated",
-      "previousRevisionId": 20863,
-      "revisionId": 22995,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tadpole",
-      "title": "Tadpole",
-      "change": "updated",
-      "previousRevisionId": 22878,
-      "revisionId": 22993,
+      "previousRevisionId": 22995,
+      "revisionId": 23024,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-11T08:09:29.475Z",
+  "generatedAt": "2026-09-12T08:00:03.166Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -185,7 +185,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": true,
@@ -215,10 +214,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Air_Bladder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Air_Bladder&oldid=20299",
-        "revisionId": 20299,
-        "revisionTimestamp": "2026-08-12T15:00:08Z",
-        "fetchedAt": "2026-08-15T17:52:23.847Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Air_Bladder&oldid=23045",
+        "revisionId": 23045,
+        "revisionTimestamp": "2026-09-11T12:37:41Z",
+        "fetchedAt": "2026-09-12T08:00:05.131Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1302,7 +1301,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -1336,10 +1334,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bioscanner",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=22897",
-        "revisionId": 22897,
-        "revisionTimestamp": "2026-09-05T16:03:04Z",
-        "fetchedAt": "2026-09-06T07:59:12.923Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=23041",
+        "revisionId": 23041,
+        "revisionTimestamp": "2026-09-11T12:21:48Z",
+        "fetchedAt": "2026-09-12T08:00:05.133Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2951,7 +2949,6 @@
       "categories": [
         "Consumables",
         "Crafted with Fabricator",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -2981,10 +2978,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Distraction_Flare",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Distraction_Flare&oldid=20298",
-        "revisionId": 20298,
-        "revisionTimestamp": "2026-08-12T14:59:58Z",
-        "fetchedAt": "2026-08-15T17:52:23.852Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Distraction_Flare&oldid=23046",
+        "revisionId": 23046,
+        "revisionTimestamp": "2026-09-11T12:39:09Z",
+        "fetchedAt": "2026-09-12T08:00:05.137Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3549,7 +3546,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -3587,10 +3583,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Feedback_Resonator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Feedback_Resonator&oldid=22856",
-        "revisionId": 22856,
-        "revisionTimestamp": "2026-09-02T20:38:04Z",
-        "fetchedAt": "2026-09-03T08:09:07.818Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Feedback_Resonator&oldid=23048",
+        "revisionId": 23048,
+        "revisionTimestamp": "2026-09-11T12:53:28Z",
+        "fetchedAt": "2026-09-12T08:00:05.139Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3718,7 +3714,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -3752,10 +3747,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flashlight",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flashlight&oldid=22593",
-        "revisionId": 22593,
-        "revisionTimestamp": "2026-09-01T19:35:48Z",
-        "fetchedAt": "2026-09-02T07:59:36.123Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flashlight&oldid=23039",
+        "revisionId": 23039,
+        "revisionTimestamp": "2026-09-11T12:16:09Z",
+        "fetchedAt": "2026-09-12T08:00:05.137Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4400,10 +4395,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Habitat_Builder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Builder&oldid=22588",
-        "revisionId": 22588,
-        "revisionTimestamp": "2026-09-01T19:33:48Z",
-        "fetchedAt": "2026-09-02T07:59:36.128Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Builder&oldid=23043",
+        "revisionId": 23043,
+        "revisionTimestamp": "2026-09-11T12:30:27Z",
+        "fetchedAt": "2026-09-12T08:00:05.142Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7156,7 +7151,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -7194,10 +7188,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Repair_Tool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Repair_Tool&oldid=21329",
-        "revisionId": 21329,
-        "revisionTimestamp": "2026-08-19T16:15:53Z",
-        "fetchedAt": "2026-08-24T17:09:21.525Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Repair_Tool&oldid=23042",
+        "revisionId": 23042,
+        "revisionTimestamp": "2026-09-11T12:26:17Z",
+        "fetchedAt": "2026-09-12T08:00:05.145Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7948,10 +7942,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Scanner",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner&oldid=21432",
-        "revisionId": 21432,
-        "revisionTimestamp": "2026-08-19T18:04:02Z",
-        "fetchedAt": "2026-08-24T17:09:21.525Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Scanner&oldid=23040",
+        "revisionId": 23040,
+        "revisionTimestamp": "2026-09-11T12:18:36Z",
+        "fetchedAt": "2026-09-12T08:00:05.145Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8640,7 +8634,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Fabricator",
-        "Section stubs",
         "Tools"
       ],
       "availableByDefault": false,
@@ -8678,10 +8671,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sonic_Resonator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sonic_Resonator&oldid=22603",
-        "revisionId": 22603,
-        "revisionTimestamp": "2026-09-01T19:38:14Z",
-        "fetchedAt": "2026-09-02T07:59:36.133Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sonic_Resonator&oldid=23047",
+        "revisionId": 23047,
+        "revisionTimestamp": "2026-09-11T12:50:35Z",
+        "fetchedAt": "2026-09-12T08:00:05.148Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10618,10 +10611,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Wakemaker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wakemaker&oldid=22582",
-        "revisionId": 22582,
-        "revisionTimestamp": "2026-09-01T19:30:58Z",
-        "fetchedAt": "2026-09-02T07:59:36.135Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Wakemaker&oldid=23044",
+        "revisionId": 23044,
+        "revisionTimestamp": "2026-09-11T12:34:11Z",
+        "fetchedAt": "2026-09-12T08:00:05.151Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

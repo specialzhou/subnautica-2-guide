@@ -1,94 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-12T08:00:03.166Z",
+  "detectedAt": "2026-09-13T08:24:46.148Z",
   "changes": [
     {
-      "id": "air-bladder",
-      "title": "Air Bladder",
+      "id": "time-of-day-display",
+      "title": "Time of Day Display",
       "change": "updated",
-      "previousRevisionId": 20299,
-      "revisionId": 23045,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "bioscanner",
-      "title": "Bioscanner",
-      "change": "updated",
-      "previousRevisionId": 22897,
-      "revisionId": 23041,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "distraction-flare",
-      "title": "Distraction Flare",
-      "change": "updated",
-      "previousRevisionId": 20298,
-      "revisionId": 23046,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "feedback-resonator",
-      "title": "Feedback Resonator",
-      "change": "updated",
-      "previousRevisionId": 22856,
-      "revisionId": 23048,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "flashlight",
-      "title": "Flashlight",
-      "change": "updated",
-      "previousRevisionId": 22593,
-      "revisionId": 23039,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "habitat-builder",
-      "title": "Habitat Builder",
-      "change": "updated",
-      "previousRevisionId": 22588,
-      "revisionId": 23043,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "repair-tool",
-      "title": "Repair Tool",
-      "change": "updated",
-      "previousRevisionId": 21329,
-      "revisionId": 23042,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "scanner",
-      "title": "Scanner",
-      "change": "updated",
-      "previousRevisionId": 21432,
-      "revisionId": 23040,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "sonic-resonator",
-      "title": "Sonic Resonator",
-      "change": "updated",
-      "previousRevisionId": 22603,
-      "revisionId": 23047,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wakemaker",
-      "title": "Wakemaker",
-      "change": "updated",
-      "previousRevisionId": 22582,
-      "revisionId": 23044,
+      "previousRevisionId": 21074,
+      "revisionId": 23077,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

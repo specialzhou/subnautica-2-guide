@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-09-13T10:17:39.361Z",
+  "collectedAt": "2026-09-14T10:39:30.121Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -23,7 +23,7 @@
     "systemReview": 75,
     "readyToReply": 5,
     "dismissed": 0,
-    "addedThisRun": 2
+    "addedThisRun": 3
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -384,7 +384,10 @@
     "1wcrapu",
     "1wdsaob",
     "1wepubl",
-    "1weludc"
+    "1weludc",
+    "1wfyzd6",
+    "1wfugan",
+    "1wfi15s"
   ],
   "candidates": [
     {
@@ -401,14 +404,14 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-09-13T10:17:39.361Z",
+        "lastErrorAt": "2026-09-14T10:39:30.121Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/.rss?limit=500"
       },
       "title": "Stuck on Angel comb?",
       "questionKey": "stuck on angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/",
       "publishedAt": "2026-09-09T17:01:44+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -705,7 +708,7 @@
       "questionKey": "mangalloy ingot recipe won t unlock",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w2kae1/mangalloy_ingot_recipe_wont_unlock/",
       "publishedAt": "2026-08-30T15:17:43+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 16,
       "signals": [
@@ -1047,7 +1050,7 @@
       "questionKey": "i m not sure what actually respawns and what is limited help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w79pcm/im_not_sure_what_actually_respawns_and_what_is/",
       "publishedAt": "2026-09-04T16:45:33+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1621,7 +1624,7 @@
       "questionKey": "did they move the rebreather in 1 2 i m going nuts trying to find one",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wae2ah/did_they_move_the_rebreather_in_12_im_going_nuts/",
       "publishedAt": "2026-09-08T04:16:54+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1862,7 +1865,7 @@
       "questionKey": "bug on late game angel comb spoilers",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8lblb/bug_on_late_game_angel_comb_spoilers/",
       "publishedAt": "2026-09-06T03:48:29+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1920,7 +1923,7 @@
       "questionKey": "why did noa take so long to print the qualified investigator",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wcrapu/why_did_noa_take_so_long_to_print_the_qualified/",
       "publishedAt": "2026-09-10T18:22:05+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1969,7 +1972,7 @@
       "questionKey": "possible soft lock on 1st bloom help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w6r1l2/possible_soft_lock_on_1st_bloom_help/",
       "publishedAt": "2026-09-04T01:57:00+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2292,7 +2295,7 @@
       "questionKey": "i need help for my son can t get the game to launch tells me may have exited wrong and if you have minimum requirements we do meet all requirements",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w1tfny/i_need_help_for_my_son_cant_get_the_game_to/",
       "publishedAt": "2026-08-29T18:04:14+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2391,7 +2394,7 @@
       "questionKey": "how do i get in here",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1waxo9p/how_do_i_get_in_here/",
       "publishedAt": "2026-09-08T19:01:56+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2428,7 +2431,7 @@
       "questionKey": "why do they call it a shiver leviathan",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9ucok/why_do_they_call_it_a_shiver_leviathan/",
       "publishedAt": "2026-09-07T14:53:43+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2571,7 +2574,7 @@
       "questionKey": "how s the base lookin",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8aqs2/hows_the_base_lookin/",
       "publishedAt": "2026-09-05T19:55:05+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2618,7 +2621,7 @@
       "questionKey": "please help turbine repair option gone after update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4wi23/please_help_turbine_repair_option_gone_after/",
       "publishedAt": "2026-09-02T01:39:10+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2650,6 +2653,56 @@
         }
       ],
       "priorityScore": 16,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1waqwc2",
+      "firstSeenAt": "2026-09-10T09:44:59.124Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 83,
+        "observedAt": "2026-09-14T10:39:30.121Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "What would you like to know in our next Subnautica 2 Dev Vlog series?",
+      "questionKey": "what would you like to know in our next subnautica 2 dev vlog series",
+      "url": "https://www.reddit.com/r/subnautica/comments/1waqwc2/what_would_you_like_to_know_in_our_next/",
+      "publishedAt": "2026-09-08T15:02:58+00:00",
+      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 9,
+      "signals": [
+        "help",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.1,
+      "suggestedPages": [
+        {
+          "href": "guide/creatures/twin-sitaray.html",
+          "title": "Twin Sitaray",
+          "score": 0.1
+        },
+        {
+          "href": "questions/where-to-find-axum-resonator.html",
+          "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.1
+        },
+        {
+          "href": "questions/scan-collector-leviathan-safely.html",
+          "title": "How do I bioscan the Collector Leviathan safely?",
+          "score": 0.1
+        }
+      ],
+      "priorityScore": 15,
       "possibleDuplicateOf": null
     },
     {
@@ -2750,6 +2803,55 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1wcdh0r",
+      "firstSeenAt": "2026-09-10T09:44:59.124Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 33,
+        "observedAt": "2026-09-14T10:39:30.121Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "What do you think about using the map mod in the first playthrough?",
+      "questionKey": "what do you think about using the map mod in the first playthrough",
+      "url": "https://www.reddit.com/r/subnautica/comments/1wcdh0r/what_do_you_think_about_using_the_map_mod_in_the/",
+      "publishedAt": "2026-09-10T08:47:49+00:00",
+      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 9,
+      "signals": [
+        "help",
+        "bug",
+        "where"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.13,
+      "suggestedPages": [
+        {
+          "href": "guide/items/basic-first-aid-kit.html",
+          "title": "Basic First Aid Kit",
+          "score": 0.13
+        },
+        {
+          "href": "guide/items/enhanced-first-aid-kit.html",
+          "title": "Enhanced First Aid Kit",
+          "score": 0.13
+        },
+        {
+          "href": "guide/items/safety-first-poster.html",
+          "title": "Safety First Poster",
+          "score": 0.13
+        }
+      ],
+      "priorityScore": 15,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1vyk374",
       "firstSeenAt": "2026-09-01T10:06:48.624Z",
       "review": {
@@ -2794,6 +2896,58 @@
           "href": "questions/rebioscan-biofilm-not-respawning.html",
           "title": "Why isn't Biofilm respawning for a re-bioscan?",
           "score": 0.13
+        }
+      ],
+      "priorityScore": 15,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1wfugan",
+      "firstSeenAt": "2026-09-14T10:39:30.121Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 18,
+        "observedAt": "2026-09-14T10:39:30.121Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "This game is not good",
+      "questionKey": "this game is not good",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1wfugan/this_game_is_not_good/",
+      "publishedAt": "2026-09-14T05:23:09+00:00",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "not-working",
+        "bug",
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/trailer-location-not-in-game.html",
+          "title": "Where is the large habitat shown in the trailer?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/livekernelevent-141-hp-omen-crash.html",
+          "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.5
         }
       ],
       "priorityScore": 15,
@@ -2868,7 +3022,7 @@
       "questionKey": "question regarding building tadpole dock in moonpool",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9dvif/question_regarding_building_tadpole_dock_in/",
       "publishedAt": "2026-09-07T01:08:41+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -2919,7 +3073,7 @@
       "questionKey": "collector leviathan stuck",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w239o7/collector_leviathan_stuck/",
       "publishedAt": "2026-08-30T00:54:00+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -3025,7 +3179,7 @@
       "questionKey": "yet another base tour",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9cwni/yet_another_base_tour/",
       "publishedAt": "2026-09-07T00:23:28+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3051,105 +3205,6 @@
           "href": "questions/trailer-location-not-in-game.html",
           "title": "Where is the large habitat shown in the trailer?",
           "score": 0.25
-        }
-      ],
-      "priorityScore": 15,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1wcdh0r",
-      "firstSeenAt": "2026-09-10T09:44:59.124Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "What do you think about using the map mod in the first playthrough?",
-      "questionKey": "what do you think about using the map mod in the first playthrough",
-      "url": "https://www.reddit.com/r/subnautica/comments/1wcdh0r/what_do_you_think_about_using_the_map_mod_in_the/",
-      "publishedAt": "2026-09-10T08:47:49+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 9,
-      "signals": [
-        "help",
-        "bug",
-        "where"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.13,
-      "suggestedPages": [
-        {
-          "href": "guide/items/basic-first-aid-kit.html",
-          "title": "Basic First Aid Kit",
-          "score": 0.13
-        },
-        {
-          "href": "guide/items/enhanced-first-aid-kit.html",
-          "title": "Enhanced First Aid Kit",
-          "score": 0.13
-        },
-        {
-          "href": "guide/items/safety-first-poster.html",
-          "title": "Safety First Poster",
-          "score": 0.13
-        }
-      ],
-      "priorityScore": 15,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1waqwc2",
-      "firstSeenAt": "2026-09-10T09:44:59.124Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "What would you like to know in our next Subnautica 2 Dev Vlog series?",
-      "questionKey": "what would you like to know in our next subnautica 2 dev vlog series",
-      "url": "https://www.reddit.com/r/subnautica/comments/1waqwc2/what_would_you_like_to_know_in_our_next/",
-      "publishedAt": "2026-09-08T15:02:58+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 9,
-      "signals": [
-        "help",
-        "how",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.1,
-      "suggestedPages": [
-        {
-          "href": "guide/creatures/twin-sitaray.html",
-          "title": "Twin Sitaray",
-          "score": 0.1
-        },
-        {
-          "href": "questions/where-to-find-axum-resonator.html",
-          "title": "Where is the Axum Resonator in EA 1.1?",
-          "score": 0.1
-        },
-        {
-          "href": "questions/scan-collector-leviathan-safely.html",
-          "title": "How do I bioscan the Collector Leviathan safely?",
-          "score": 0.1
         }
       ],
       "priorityScore": 15,
@@ -3368,7 +3423,7 @@
       "questionKey": "how can there be insufficient space how",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w3jmd3/how_can_there_be_insufficient_space_how/",
       "publishedAt": "2026-08-31T16:55:32+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3498,7 +3553,7 @@
       "questionKey": "struggle with last angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w449hm/struggle_with_last_angel_comb/",
       "publishedAt": "2026-09-01T06:59:08+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3556,7 +3611,7 @@
       "questionKey": "how am i attracting flash slugs",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1weludc/how_am_i_attracting_flash_slugs/",
       "publishedAt": "2026-09-12T19:30:43+00:00",
-      "lastSeenAt": "2026-09-13T10:17:39.361Z",
+      "lastSeenAt": "2026-09-14T10:39:30.121Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3950,44 +4005,6 @@
           "href": "guide/items/conduit-crystal.html",
           "title": "Conduit Crystal",
           "score": 0.33
-        }
-      ],
-      "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1wbplqg",
-      "firstSeenAt": "2026-09-10T09:44:59.124Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "How to charge Cyclops",
-      "questionKey": "how to charge cyclops",
-      "url": "https://www.reddit.com/r/subnautica/comments/1wbplqg/how_to_charge_cyclops/",
-      "publishedAt": "2026-09-09T15:58:30+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 6,
-      "signals": [
-        "where",
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.5,
-      "suggestedPages": [
-        {
-          "href": "guide/items/cyclops-poster.html",
-          "title": "Cyclops Poster",
-          "score": 0.5
         }
       ],
       "priorityScore": 14,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-14T09:04:48.363Z",
+  "generatedAt": "2026-09-15T08:47:55.439Z",
   "category": "Story",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -23,9 +23,9 @@
     },
     {
       "title": "Databank",
-      "revisionId": 21512,
-      "revisionTimestamp": "2026-08-19T20:12:49Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Databank&oldid=21512",
+      "revisionId": 23439,
+      "revisionTimestamp": "2026-09-14T19:05:19Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Databank&oldid=23439",
       "sections": []
     },
     {
@@ -36,10 +36,17 @@
       "sections": []
     },
     {
+      "title": "Extraterrestrial Locations",
+      "revisionId": 23490,
+      "revisionTimestamp": "2026-09-14T20:32:36Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Extraterrestrial_Locations&oldid=23490",
+      "sections": []
+    },
+    {
       "title": "Kharaa Bacterium",
-      "revisionId": 23331,
-      "revisionTimestamp": "2026-09-13T23:24:45Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Kharaa_Bacterium&oldid=23331",
+      "revisionId": 23384,
+      "revisionTimestamp": "2026-09-14T18:42:04Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Kharaa_Bacterium&oldid=23384",
       "sections": []
     },
     {
@@ -51,9 +58,9 @@
     },
     {
       "title": "Logs",
-      "revisionId": 17068,
-      "revisionTimestamp": "2026-07-09T20:38:34Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Logs&oldid=17068",
+      "revisionId": 23486,
+      "revisionTimestamp": "2026-09-14T19:27:53Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Logs&oldid=23486",
       "sections": []
     },
     {
@@ -100,9 +107,9 @@
     },
     {
       "title": "Story",
-      "revisionId": 21219,
-      "revisionTimestamp": "2026-08-18T19:23:08Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Story&oldid=21219",
+      "revisionId": 23476,
+      "revisionTimestamp": "2026-09-14T19:21:58Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Story&oldid=23476",
       "sections": [
         "Arrival",
         "Tensions Rise",

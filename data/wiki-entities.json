@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-14T09:04:44.652Z",
+  "generatedAt": "2026-09-15T08:47:52.584Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -61,6 +61,7 @@
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -99,6 +100,7 @@
       "exclusionReasons": [],
       "categories": [
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -180,10 +182,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Basic_First_Aid_Kit",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_First_Aid_Kit&oldid=21433",
-        "revisionId": 21433,
-        "revisionTimestamp": "2026-08-19T18:05:56Z",
-        "fetchedAt": "2026-08-24T17:09:26.566Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_First_Aid_Kit&oldid=23454",
+        "revisionId": 23454,
+        "revisionTimestamp": "2026-09-14T19:10:29Z",
+        "fetchedAt": "2026-09-15T08:47:52.992Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -210,6 +212,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Needs In-Game Screenshots",
@@ -254,6 +257,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -300,6 +304,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators",
         "Section stubs"
       ],
@@ -345,6 +350,7 @@
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -385,6 +391,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Passive",
         "Predators"
       ],
@@ -426,6 +433,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Leviathans"
       ],
       "source": {
@@ -468,6 +476,7 @@
       "categories": [
         "Crafted with Metal Farm",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -505,15 +514,16 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Copper",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=23210",
-        "revisionId": 23210,
-        "revisionTimestamp": "2026-09-13T22:17:18Z",
-        "fetchedAt": "2026-09-14T09:04:45.180Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=23387",
+        "revisionId": 23387,
+        "revisionTimestamp": "2026-09-14T18:45:03Z",
+        "fetchedAt": "2026-09-15T08:47:52.988Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -584,6 +594,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Foragers",
         "Passive"
       ],
@@ -663,7 +674,8 @@
       "categories": [
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -699,6 +711,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Lifeforms"
       ],
       "source": {
@@ -739,6 +752,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Leviathans",
         "Passive"
       ],
@@ -817,6 +831,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Foragers",
         "Needs In-Game Screenshots"
       ],
@@ -859,6 +874,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Defensive",
         "Foragers",
         "Section stubs",
@@ -903,6 +919,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Defensive",
         "Predators"
       ],
@@ -945,6 +962,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -1033,10 +1051,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Glass",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Glass&oldid=20247",
-        "revisionId": 20247,
-        "revisionTimestamp": "2026-08-12T12:50:47Z",
-        "fetchedAt": "2026-08-15T17:52:33.493Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Glass&oldid=23392",
+        "revisionId": 23392,
+        "revisionTimestamp": "2026-09-14T18:47:47Z",
+        "fetchedAt": "2026-09-15T08:47:52.990Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1064,15 +1082,16 @@
       "categories": [
         "Crafted with Metal Farm",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=23212",
-        "revisionId": 23212,
-        "revisionTimestamp": "2026-09-13T22:17:56Z",
-        "fetchedAt": "2026-09-14T09:04:45.182Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=23399",
+        "revisionId": 23399,
+        "revisionTimestamp": "2026-09-14T18:51:30Z",
+        "fetchedAt": "2026-09-15T08:47:52.991Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1216,6 +1235,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -1261,6 +1281,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Defensive",
         "Foragers"
       ],
@@ -1303,6 +1324,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -1347,6 +1369,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators"
       ],
       "source": {
@@ -1387,6 +1410,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -1432,6 +1456,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Passive",
         "Predators",
         "Section stubs"
@@ -1503,6 +1528,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Foragers",
         "Passive"
       ],
@@ -1544,6 +1570,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Foragers",
         "Passive"
       ],
@@ -1622,15 +1649,16 @@
       "categories": [
         "Crafted with Metal Farm",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead&oldid=23213",
-        "revisionId": 23213,
-        "revisionTimestamp": "2026-09-13T22:18:11Z",
-        "fetchedAt": "2026-09-14T09:04:45.181Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead&oldid=23395",
+        "revisionId": 23395,
+        "revisionTimestamp": "2026-09-14T18:50:13Z",
+        "fetchedAt": "2026-09-15T08:47:52.990Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1697,15 +1725,16 @@
       "categories": [
         "Crafted with Metal Farm",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lithium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium&oldid=23214",
-        "revisionId": 23214,
-        "revisionTimestamp": "2026-09-13T22:18:27Z",
-        "fetchedAt": "2026-09-14T09:04:45.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium&oldid=23458",
+        "revisionId": 23458,
+        "revisionTimestamp": "2026-09-14T19:12:01Z",
+        "fetchedAt": "2026-09-15T08:47:52.994Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1735,6 +1764,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators"
       ],
       "source": {
@@ -1852,6 +1882,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Harvestable",
         "Plantables",
         "Raw Materials"
@@ -1928,6 +1959,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators"
       ],
       "source": {
@@ -1969,6 +2001,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators"
       ],
       "source": {
@@ -2079,6 +2112,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
@@ -2128,10 +2162,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Plasteel_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plasteel_Ingot&oldid=21426",
-        "revisionId": 21426,
-        "revisionTimestamp": "2026-08-19T17:57:40Z",
-        "fetchedAt": "2026-08-24T17:09:26.568Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plasteel_Ingot&oldid=23459",
+        "revisionId": 23459,
+        "revisionTimestamp": "2026-09-14T19:12:38Z",
+        "fetchedAt": "2026-09-15T08:47:52.994Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2195,6 +2229,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Passive",
         "Section stubs",
@@ -2238,15 +2273,16 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Quartz",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=23216",
-        "revisionId": 23216,
-        "revisionTimestamp": "2026-09-13T22:19:02Z",
-        "fetchedAt": "2026-09-14T09:04:45.182Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=23400",
+        "revisionId": 23400,
+        "revisionTimestamp": "2026-09-14T18:51:48Z",
+        "fetchedAt": "2026-09-15T08:47:52.991Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2344,15 +2380,16 @@
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Salt",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Salt&oldid=23218",
-        "revisionId": 23218,
-        "revisionTimestamp": "2026-09-13T22:19:37Z",
-        "fetchedAt": "2026-09-14T09:04:45.182Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Salt&oldid=23397",
+        "revisionId": 23397,
+        "revisionTimestamp": "2026-09-14T18:50:53Z",
+        "fetchedAt": "2026-09-15T08:47:52.990Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2384,6 +2421,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators"
       ],
       "source": {
@@ -2465,6 +2503,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Leviathans",
         "Needs In-Game Screenshots"
       ],
@@ -2506,6 +2545,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Leviathans",
         "Needs In-Game Screenshots"
       ],
@@ -2547,15 +2587,16 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Metal Farm",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=23219",
-        "revisionId": 23219,
-        "revisionTimestamp": "2026-09-13T22:19:47Z",
-        "fetchedAt": "2026-09-14T09:04:45.182Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=23398",
+        "revisionId": 23398,
+        "revisionTimestamp": "2026-09-14T18:51:12Z",
+        "fetchedAt": "2026-09-15T08:47:52.990Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2734,15 +2775,16 @@
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sulfur",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=23220",
-        "revisionId": 23220,
-        "revisionTimestamp": "2026-09-13T22:19:55Z",
-        "fetchedAt": "2026-09-14T09:04:45.181Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=23396",
+        "revisionId": 23396,
+        "revisionTimestamp": "2026-09-14T18:50:35Z",
+        "fetchedAt": "2026-09-15T08:47:52.990Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2770,6 +2812,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Defensive",
         "Foragers",
         "Section stubs"
@@ -2929,15 +2972,16 @@
         "Crafted with Fabricator",
         "Crafted with Metal Farm",
         "Raw Materials",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=23221",
-        "revisionId": 23221,
-        "revisionTimestamp": "2026-09-13T22:20:09Z",
-        "fetchedAt": "2026-09-14T09:04:45.181Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=23393",
+        "revisionId": 23393,
+        "revisionTimestamp": "2026-09-14T18:48:08Z",
+        "fetchedAt": "2026-09-15T08:47:52.990Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2971,10 +3015,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium_Ingot&oldid=21537",
-        "revisionId": 21537,
-        "revisionTimestamp": "2026-08-19T20:59:03Z",
-        "fetchedAt": "2026-08-24T17:09:26.565Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium_Ingot&oldid=23390",
+        "revisionId": 23390,
+        "revisionTimestamp": "2026-09-14T18:47:03Z",
+        "fetchedAt": "2026-09-15T08:47:52.989Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3002,7 +3046,8 @@
       "categories": [
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -3039,6 +3084,7 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Bioscannables",
         "Predators",
         "Section stubs"
       ],
@@ -3125,10 +3171,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Water",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water&oldid=20265",
-        "revisionId": 20265,
-        "revisionTimestamp": "2026-08-12T12:54:27Z",
-        "fetchedAt": "2026-08-15T17:52:33.494Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water&oldid=23453",
+        "revisionId": 23453,
+        "revisionTimestamp": "2026-09-14T19:10:03Z",
+        "fetchedAt": "2026-09-15T08:47:52.991Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3155,6 +3201,7 @@
       "exclusionReasons": [],
       "categories": [
         "Bioreactor fuel",
+        "Bioscannables",
         "Foragers",
         "Passive",
         "Uncooked Food"
@@ -3196,6 +3243,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Foragers",
         "Passive"
       ],

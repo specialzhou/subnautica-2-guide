@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-15T08:47:49.565Z",
+  "generatedAt": "2026-09-16T08:41:42.937Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -14,7 +14,7 @@
     "Crafted with Vehicle Fabricator",
     "Crafted with Metal Farm"
   ],
-  "publishedCount": 222,
+  "publishedCount": 223,
   "excludedCount": 0,
   "imageCount": 87,
   "items": [
@@ -3204,10 +3204,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Enameled_Glass",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Enameled_Glass&oldid=23466",
-        "revisionId": 23466,
-        "revisionTimestamp": "2026-09-14T19:15:52Z",
-        "fetchedAt": "2026-09-15T08:47:51.444Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Enameled_Glass&oldid=23507",
+        "revisionId": 23507,
+        "revisionTimestamp": "2026-09-15T14:19:13Z",
+        "fetchedAt": "2026-09-16T08:41:44.779Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4301,10 +4301,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Growbed",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Growbed&oldid=23427",
-        "revisionId": 23427,
-        "revisionTimestamp": "2026-09-14T19:00:45Z",
-        "fetchedAt": "2026-09-15T08:47:51.449Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Growbed&oldid=23549",
+        "revisionId": 23549,
+        "revisionTimestamp": "2026-09-15T15:27:34Z",
+        "fetchedAt": "2026-09-16T08:41:44.783Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4320,7 +4320,6 @@
       "categories": [
         "Crafted with Habitat Builder",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Utility (Exterior)"
       ],
       "availableByDefault": false,
@@ -4346,10 +4345,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Habitat_Beacon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Beacon&oldid=23294",
-        "revisionId": 23294,
-        "revisionTimestamp": "2026-09-13T23:21:41Z",
-        "fetchedAt": "2026-09-14T09:04:43.921Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Habitat_Beacon&oldid=23500",
+        "revisionId": 23500,
+        "revisionTimestamp": "2026-09-15T11:13:10Z",
+        "fetchedAt": "2026-09-16T08:41:44.783Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4430,8 +4429,7 @@
       "categories": [
         "Base Pieces",
         "Crafted with Habitat Builder",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Needs In-Game Screenshots"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -4460,10 +4458,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Half_Round_Room",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Half_Round_Room&oldid=23236",
-        "revisionId": 23236,
-        "revisionTimestamp": "2026-09-13T23:19:32Z",
-        "fetchedAt": "2026-09-14T09:04:43.919Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Half_Round_Room&oldid=23505",
+        "revisionId": 23505,
+        "revisionTimestamp": "2026-09-15T12:41:31Z",
+        "fetchedAt": "2026-09-16T08:41:44.782Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4583,8 +4581,7 @@
       "categories": [
         "Base Pieces",
         "Crafted with Habitat Builder",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Needs In-Game Screenshots"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -4613,10 +4610,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hatch",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hatch&oldid=23403",
-        "revisionId": 23403,
-        "revisionTimestamp": "2026-09-14T18:52:44Z",
-        "fetchedAt": "2026-09-15T08:47:51.447Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hatch&oldid=23502",
+        "revisionId": 23502,
+        "revisionTimestamp": "2026-09-15T11:26:12Z",
+        "fetchedAt": "2026-09-16T08:41:44.782Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5721,7 +5718,6 @@
         "Defensive",
         "Plantables",
         "Pylons",
-        "Section stubs",
         "Stubs"
       ],
       "availableByDefault": false,
@@ -5751,10 +5747,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Mimic_Pylon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=23130",
-        "revisionId": 23130,
-        "revisionTimestamp": "2026-09-13T22:00:27Z",
-        "fetchedAt": "2026-09-14T09:04:43.919Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=23578",
+        "revisionId": 23578,
+        "revisionTimestamp": "2026-09-15T19:18:29Z",
+        "fetchedAt": "2026-09-16T08:41:44.781Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5998,10 +5994,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/NoA_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=NoA_Terminal&oldid=22360",
-        "revisionId": 22360,
-        "revisionTimestamp": "2026-08-28T09:40:15Z",
-        "fetchedAt": "2026-08-30T12:45:13.069Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=NoA_Terminal&oldid=23574",
+        "revisionId": 23574,
+        "revisionTimestamp": "2026-09-15T17:07:47Z",
+        "fetchedAt": "2026-09-16T08:41:44.782Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6751,6 +6747,60 @@
         "revisionId": 23446,
         "revisionTimestamp": "2026-09-14T19:07:27Z",
         "fetchedAt": "2026-09-15T08:47:51.451Z",
+        "license": {
+          "name": "CC BY-NC-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      },
+      "media": null
+    },
+    {
+      "id": "power-plant-turbine",
+      "title": "Power Plant Turbine",
+      "status": "wiki-backed",
+      "exclusionReasons": [],
+      "categories": [
+        "Axum Structures",
+        "Bioscannables",
+        "Crafted with Habitat Builder",
+        "Karakorum Ruins points of interest",
+        "Section stubs"
+      ],
+      "availableByDefault": false,
+      "unlock": {
+        "source": null,
+        "fragments": null,
+        "biomes": []
+      },
+      "recipes": [
+        {
+          "station": "Habitat Builder",
+          "ingredients": [
+            {
+              "item": "Titanium Ingot",
+              "count": "10"
+            },
+            {
+              "item": "Strontium",
+              "count": "10"
+            },
+            {
+              "item": "Axum Ingot",
+              "count": "10"
+            }
+          ],
+          "result": "Power Plant Turbine",
+          "resultCount": "1",
+          "craftingTime": null
+        }
+      ],
+      "source": {
+        "type": "official-community-wiki",
+        "pageUrl": "https://wiki.subnautica.com/sn2/Power_Plant_Turbine",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Plant_Turbine&oldid=23559",
+        "revisionId": 23559,
+        "revisionTimestamp": "2026-09-15T16:22:47Z",
+        "fetchedAt": "2026-09-16T08:41:44.787Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

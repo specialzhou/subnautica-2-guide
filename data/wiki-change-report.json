@@ -1,202 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-15T08:47:49.565Z",
+  "detectedAt": "2026-09-16T08:41:42.937Z",
   "changes": [
-    {
-      "id": "advanced-battery",
-      "title": "Advanced Battery",
-      "change": "updated",
-      "previousRevisionId": 21745,
-      "revisionId": 23468,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "advanced-wiring-kit",
-      "title": "Advanced Wiring Kit",
-      "change": "updated",
-      "previousRevisionId": 21747,
-      "revisionId": 23421,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "air-bladder",
-      "title": "Air Bladder",
-      "change": "updated",
-      "previousRevisionId": 23045,
-      "revisionId": 23433,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "basic-battery",
-      "title": "Basic Battery",
-      "change": "updated",
-      "previousRevisionId": 20255,
-      "revisionId": 23385,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "basic-fins",
-      "title": "Basic Fins",
-      "change": "updated",
-      "previousRevisionId": 19974,
-      "revisionId": 23404,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "basic-first-aid-kit",
-      "title": "Basic First Aid Kit",
-      "change": "updated",
-      "previousRevisionId": 21433,
-      "revisionId": 23454,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "battery-terminal",
-      "title": "Battery Terminal",
-      "change": "updated",
-      "previousRevisionId": 23080,
-      "revisionId": 23445,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "beacon",
-      "title": "Beacon",
-      "change": "updated",
-      "previousRevisionId": 22594,
-      "revisionId": 23441,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "biobed",
-      "title": "Biobed",
-      "change": "updated",
-      "previousRevisionId": 22626,
-      "revisionId": 23379,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "bioreactor",
-      "title": "Bioreactor",
-      "change": "updated",
-      "previousRevisionId": 21563,
-      "revisionId": 23448,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "copper",
-      "title": "Copper",
-      "change": "updated",
-      "previousRevisionId": 23210,
-      "revisionId": 23387,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "copper-wire",
-      "title": "Copper Wire",
-      "change": "updated",
-      "previousRevisionId": 20257,
-      "revisionId": 23388,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "corridor",
-      "title": "Corridor",
-      "change": "updated",
-      "previousRevisionId": 21369,
-      "revisionId": 23425,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "distraction-flare",
-      "title": "Distraction Flare",
-      "change": "updated",
-      "previousRevisionId": 23046,
-      "revisionId": 23408,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
     {
       "id": "enameled-glass",
       "title": "Enameled Glass",
       "change": "updated",
-      "previousRevisionId": 20252,
-      "revisionId": 23466,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "entangled-power-cell",
-      "title": "Entangled Power Cell",
-      "change": "updated",
-      "previousRevisionId": 20259,
-      "revisionId": 23470,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "fabricator",
-      "title": "Fabricator",
-      "change": "updated",
-      "previousRevisionId": 23226,
-      "revisionId": 23412,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "fiber-mesh",
-      "title": "Fiber Mesh",
-      "change": "updated",
-      "previousRevisionId": 20253,
-      "revisionId": 23455,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "flashlight",
-      "title": "Flashlight",
-      "change": "updated",
-      "previousRevisionId": 23039,
-      "revisionId": 23406,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "floor-locker",
-      "title": "Floor Locker",
-      "change": "updated",
-      "previousRevisionId": 23272,
-      "revisionId": 23456,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "glass",
-      "title": "Glass",
-      "change": "updated",
-      "previousRevisionId": 20247,
-      "revisionId": 23392,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "gold",
-      "title": "Gold",
-      "change": "updated",
-      "previousRevisionId": 23212,
-      "revisionId": 23399,
+      "previousRevisionId": 23466,
+      "revisionId": 23507,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -204,17 +15,26 @@
       "id": "growbed",
       "title": "Growbed",
       "change": "updated",
-      "previousRevisionId": 23251,
-      "revisionId": 23427,
+      "previousRevisionId": 23427,
+      "revisionId": 23549,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "habitat-builder",
-      "title": "Habitat Builder",
+      "id": "habitat-beacon",
+      "title": "Habitat Beacon",
       "change": "updated",
-      "previousRevisionId": 23043,
-      "revisionId": 23409,
+      "previousRevisionId": 23294,
+      "revisionId": 23500,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "half-round-room",
+      "title": "Half Round Room",
+      "change": "updated",
+      "previousRevisionId": 23236,
+      "revisionId": 23505,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -222,378 +42,36 @@
       "id": "hatch",
       "title": "Hatch",
       "change": "updated",
-      "previousRevisionId": 23281,
-      "revisionId": 23403,
+      "previousRevisionId": 23403,
+      "revisionId": 23502,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "high-capacity-air-tank",
-      "title": "High Capacity Air Tank",
+      "id": "mimic-pylon",
+      "title": "Mimic Pylon",
       "change": "updated",
-      "previousRevisionId": 22611,
-      "revisionId": 23447,
+      "previousRevisionId": 23130,
+      "revisionId": 23578,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "interior-door",
-      "title": "Interior Door",
+      "id": "noa-terminal",
+      "title": "NoA Terminal",
       "change": "updated",
-      "previousRevisionId": 23263,
-      "revisionId": 23420,
+      "previousRevisionId": 22360,
+      "revisionId": 23574,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "interior-wall",
-      "title": "Interior Wall",
-      "change": "updated",
-      "previousRevisionId": 23261,
-      "revisionId": 23419,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "keep-calm-poster",
-      "title": "Keep Calm Poster",
-      "change": "updated",
-      "previousRevisionId": 23296,
-      "revisionId": 23430,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "ladder",
-      "title": "Ladder",
-      "change": "updated",
-      "previousRevisionId": 21064,
-      "revisionId": 23422,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "lead",
-      "title": "Lead",
-      "change": "updated",
-      "previousRevisionId": 23213,
-      "revisionId": 23395,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "lithium",
-      "title": "Lithium",
-      "change": "updated",
-      "previousRevisionId": 23214,
-      "revisionId": 23458,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "modification-station",
-      "title": "Modification Station",
-      "change": "updated",
-      "previousRevisionId": 23224,
-      "revisionId": 23464,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "moonpool",
-      "title": "Moonpool",
-      "change": "updated",
-      "previousRevisionId": 21054,
-      "revisionId": 23417,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "nutrient-block",
-      "title": "Nutrient Block",
-      "change": "updated",
-      "previousRevisionId": 21522,
-      "revisionId": 23467,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "pioneer-hull-plate",
-      "title": "Pioneer Hull Plate",
-      "change": "updated",
-      "previousRevisionId": 21163,
-      "revisionId": 23437,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "plasteel-ingot",
-      "title": "Plasteel Ingot",
-      "change": "updated",
-      "previousRevisionId": 21426,
-      "revisionId": 23459,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "portable-locker",
-      "title": "Portable Locker",
-      "change": "updated",
-      "previousRevisionId": 23241,
-      "revisionId": 23435,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-cell",
-      "title": "Power Cell",
-      "change": "updated",
-      "previousRevisionId": 20258,
-      "revisionId": 23460,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-cell-terminal",
-      "title": "Power Cell Terminal",
-      "change": "updated",
-      "previousRevisionId": 23232,
-      "revisionId": 23446,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "quartz",
-      "title": "Quartz",
-      "change": "updated",
-      "previousRevisionId": 23216,
-      "revisionId": 23400,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "rebreather",
-      "title": "Rebreather",
-      "change": "updated",
-      "previousRevisionId": 21457,
-      "revisionId": 23449,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "repair-tool",
-      "title": "Repair Tool",
-      "change": "updated",
-      "previousRevisionId": 23042,
-      "revisionId": 23431,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "room",
-      "title": "Room",
-      "change": "updated",
-      "previousRevisionId": 23262,
-      "revisionId": 23413,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "rubber",
-      "title": "Rubber",
-      "change": "updated",
-      "previousRevisionId": 20250,
-      "revisionId": 23386,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "s-shelf",
-      "title": "S Shelf",
-      "change": "updated",
-      "previousRevisionId": 23244,
-      "revisionId": 23432,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "salt",
-      "title": "Salt",
-      "change": "updated",
-      "previousRevisionId": 23218,
-      "revisionId": 23397,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "scanner",
-      "title": "Scanner",
-      "change": "updated",
-      "previousRevisionId": 23040,
-      "revisionId": 23434,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "scanner-station",
-      "title": "Scanner Station",
-      "change": "updated",
-      "previousRevisionId": 23237,
-      "revisionId": 23463,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "sign",
-      "title": "Sign",
-      "change": "updated",
-      "previousRevisionId": 23300,
-      "revisionId": 23426,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "silver",
-      "title": "Silver",
-      "change": "updated",
-      "previousRevisionId": 23219,
-      "revisionId": 23398,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "single-bed",
-      "title": "Single Bed",
-      "change": "updated",
-      "previousRevisionId": 23252,
-      "revisionId": 23429,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "solar-panel",
-      "title": "Solar Panel",
-      "change": "updated",
-      "previousRevisionId": 23293,
-      "revisionId": 23423,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "standard-air-tank",
-      "title": "Standard Air Tank",
-      "change": "updated",
-      "previousRevisionId": 19981,
-      "revisionId": 23394,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "sulfur",
-      "title": "Sulfur",
-      "change": "updated",
-      "previousRevisionId": 23220,
-      "revisionId": 23396,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "survival-multitool",
-      "title": "Survival Multitool",
-      "change": "updated",
-      "previousRevisionId": 20072,
-      "revisionId": 23405,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "system-chip",
-      "title": "System Chip",
-      "change": "updated",
-      "previousRevisionId": 20262,
-      "revisionId": 23461,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "titanium",
-      "title": "Titanium",
-      "change": "updated",
-      "previousRevisionId": 23221,
-      "revisionId": 23393,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "titanium-ingot",
-      "title": "Titanium Ingot",
-      "change": "updated",
-      "previousRevisionId": 21537,
-      "revisionId": 23390,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "trashcan",
-      "title": "Trashcan",
-      "change": "updated",
-      "previousRevisionId": 23234,
-      "revisionId": 23428,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "ultra-high-capacity-air-tank",
-      "title": "Ultra High Capacity Air Tank",
-      "change": "updated",
-      "previousRevisionId": 19978,
-      "revisionId": 23451,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "vehicle-fabricator",
-      "title": "Vehicle Fabricator",
-      "change": "updated",
-      "previousRevisionId": 23230,
-      "revisionId": 23389,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-locker",
-      "title": "Wall Locker",
-      "change": "updated",
-      "previousRevisionId": 23291,
-      "revisionId": 23424,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "water",
-      "title": "Water",
-      "change": "updated",
-      "previousRevisionId": 20265,
-      "revisionId": 23453,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "window",
-      "title": "Window",
-      "change": "updated",
-      "previousRevisionId": 23266,
-      "revisionId": 23414,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wiring-kit",
-      "title": "Wiring Kit",
-      "change": "updated",
-      "previousRevisionId": 20260,
-      "revisionId": 23450,
-      "previousStatus": "wiki-backed",
+      "id": "power-plant-turbine",
+      "title": "Power Plant Turbine",
+      "change": "added",
+      "previousRevisionId": null,
+      "revisionId": 23559,
+      "previousStatus": null,
       "status": "wiki-backed"
     }
   ]

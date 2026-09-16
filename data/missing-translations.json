@@ -1,10 +1,17 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-15T08:47:56.773Z",
-  "missingCount": 1,
+  "generatedAt": "2026-09-16T08:41:49.399Z",
+  "missingCount": 2,
   "items": [
     {
       "english": "Intermediary Basin",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Power Plant Turbine",
       "missingLocales": [
         "zh-cn",
         "ru"

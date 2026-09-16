@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-15T08:47:56.774Z",
+  "generatedAt": "2026-09-16T08:41:49.400Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
     "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index. Missing translations gracefully fall back to English."
   },
   "counts": {
-    "recordNames": 273,
-    "total": 397,
+    "recordNames": 274,
+    "total": 398,
     "imported": 312,
     "community": 84,
-    "fallback": 1
+    "fallback": 2
   },
   "names": {
     "Advanced Battery": {
@@ -2393,6 +2393,12 @@
     "Intermediary Basin": {
       "zh-cn": "Intermediary Basin",
       "ru": "Intermediary Basin",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Power Plant Turbine": {
+      "zh-cn": "Power Plant Turbine",
+      "ru": "Power Plant Turbine",
       "provenance": "fallback-untranslated",
       "sourceUrl": null
     }

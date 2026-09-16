@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T08:47:52.584Z",
-  "count": 329,
+  "generatedAt": "2026-09-16T08:41:45.397Z",
+  "count": 330,
   "entries": [
     {
       "title": "Start here",
@@ -2085,6 +2085,21 @@
       "localizedTerms": {
         "zh-cn": "动力电池终端 栖息所建造器 动力电池 接线盒 钛 铜",
         "ru": "Терминал для энергоячеек Строитель Энергоячейка Комплект проводов Титан Медь"
+      }
+    },
+    {
+      "title": "Power Plant Turbine",
+      "type": "Item",
+      "href": "guide/items/power-plant-turbine.html",
+      "terms": "Power Plant Turbine Habitat Builder Titanium Ingot Strontium Axum Ingot",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Power Plant Turbine",
+        "ru": "Power Plant Turbine"
+      },
+      "localizedTerms": {
+        "zh-cn": "Power Plant Turbine 栖息所建造器 钛锭 阿克苏姆锭 锶 钛",
+        "ru": "Power Plant Turbine Строитель Титановый слиток Слиток аксума Стронций Титан"
       }
     },
     {

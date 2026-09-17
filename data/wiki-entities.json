@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-16T08:41:45.397Z",
+  "generatedAt": "2026-09-17T08:45:29.497Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -217,6 +217,7 @@
         "Lifeforms with Variants",
         "Needs In-Game Screenshots",
         "Passive",
+        "Scannables",
         "Uncooked Food"
       ],
       "source": {
@@ -261,6 +262,7 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
+        "Scannables",
         "Section stubs",
         "Uncooked Food"
       ],
@@ -306,6 +308,7 @@
         "Aggressive",
         "Bioscannables",
         "Predators",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -393,7 +396,8 @@
       "categories": [
         "Bioscannables",
         "Passive",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -434,7 +438,8 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
-        "Leviathans"
+        "Leviathans",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -596,7 +601,8 @@
       "categories": [
         "Bioscannables",
         "Foragers",
-        "Passive"
+        "Passive",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -712,7 +718,8 @@
       "exclusionReasons": [],
       "categories": [
         "Bioscannables",
-        "Lifeforms"
+        "Lifeforms",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -754,7 +761,8 @@
       "categories": [
         "Bioscannables",
         "Leviathans",
-        "Passive"
+        "Passive",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -833,7 +841,8 @@
         "Aggressive",
         "Bioscannables",
         "Foragers",
-        "Needs In-Game Screenshots"
+        "Needs In-Game Screenshots",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -877,6 +886,7 @@
         "Bioscannables",
         "Defensive",
         "Foragers",
+        "Scannables",
         "Section stubs",
         "Uncooked Food"
       ],
@@ -921,7 +931,8 @@
       "categories": [
         "Bioscannables",
         "Defensive",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -966,6 +977,7 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
+        "Scannables",
         "Section stubs",
         "Uncooked Food"
       ],
@@ -1239,6 +1251,7 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
+        "Scannables",
         "Uncooked Food"
       ],
       "source": {
@@ -1283,7 +1296,8 @@
       "categories": [
         "Bioscannables",
         "Defensive",
-        "Foragers"
+        "Foragers",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -1328,6 +1342,7 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
+        "Scannables",
         "Uncooked Food"
       ],
       "source": {
@@ -1370,7 +1385,8 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -1414,6 +1430,7 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
+        "Scannables",
         "Uncooked Food"
       ],
       "source": {
@@ -1459,6 +1476,7 @@
         "Bioscannables",
         "Passive",
         "Predators",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -1530,7 +1548,8 @@
       "categories": [
         "Bioscannables",
         "Foragers",
-        "Passive"
+        "Passive",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -1572,7 +1591,8 @@
       "categories": [
         "Bioscannables",
         "Foragers",
-        "Passive"
+        "Passive",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -1765,7 +1785,8 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -1885,15 +1906,16 @@
         "Bioscannables",
         "Harvestable",
         "Plantables",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Bud",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=23203",
-        "revisionId": 23203,
-        "revisionTimestamp": "2026-09-13T22:12:41Z",
-        "fetchedAt": "2026-09-14T09:04:45.182Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=23663",
+        "revisionId": 23663,
+        "revisionTimestamp": "2026-09-16T15:51:03Z",
+        "fetchedAt": "2026-09-17T08:45:30.086Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1960,7 +1982,8 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -2002,7 +2025,8 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -2116,6 +2140,7 @@
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -2232,6 +2257,7 @@
         "Bioscannables",
         "Foragers",
         "Passive",
+        "Scannables",
         "Section stubs",
         "Uncooked Food"
       ],
@@ -2422,7 +2448,8 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
-        "Predators"
+        "Predators",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -2505,7 +2532,8 @@
         "Aggressive",
         "Bioscannables",
         "Leviathans",
-        "Needs In-Game Screenshots"
+        "Needs In-Game Screenshots",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -2547,7 +2575,8 @@
         "Aggressive",
         "Bioscannables",
         "Leviathans",
-        "Needs In-Game Screenshots"
+        "Needs In-Game Screenshots",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
@@ -2815,6 +2844,7 @@
         "Bioscannables",
         "Defensive",
         "Foragers",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -3086,6 +3116,7 @@
         "Aggressive",
         "Bioscannables",
         "Predators",
+        "Scannables",
         "Section stubs"
       ],
       "source": {
@@ -3204,6 +3235,7 @@
         "Bioscannables",
         "Foragers",
         "Passive",
+        "Scannables",
         "Uncooked Food"
       ],
       "source": {
@@ -3245,7 +3277,8 @@
       "categories": [
         "Bioscannables",
         "Foragers",
-        "Passive"
+        "Passive",
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",

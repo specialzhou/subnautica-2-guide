@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-15T08:47:55.439Z",
+  "generatedAt": "2026-09-17T08:45:33.332Z",
   "category": "Story",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -36,10 +36,17 @@
       "sections": []
     },
     {
+      "title": "Extraterrestrial Life",
+      "revisionId": 23680,
+      "revisionTimestamp": "2026-09-16T18:43:59Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Extraterrestrial_Life&oldid=23680",
+      "sections": []
+    },
+    {
       "title": "Extraterrestrial Locations",
-      "revisionId": 23490,
-      "revisionTimestamp": "2026-09-14T20:32:36Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Extraterrestrial_Locations&oldid=23490",
+      "revisionId": 23682,
+      "revisionTimestamp": "2026-09-16T19:39:08Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Extraterrestrial_Locations&oldid=23682",
       "sections": []
     },
     {
@@ -86,9 +93,9 @@
     },
     {
       "title": "Proteavirus",
-      "revisionId": 21453,
-      "revisionTimestamp": "2026-08-19T18:26:05Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteavirus&oldid=21453",
+      "revisionId": 23629,
+      "revisionTimestamp": "2026-09-16T11:13:03Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteavirus&oldid=23629",
       "sections": []
     },
     {

@@ -1,77 +1,32 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-16T08:41:42.937Z",
+  "detectedAt": "2026-09-17T08:45:26.500Z",
   "changes": [
     {
-      "id": "enameled-glass",
-      "title": "Enameled Glass",
+      "id": "bioscanner",
+      "title": "Bioscanner",
       "change": "updated",
-      "previousRevisionId": 23466,
-      "revisionId": 23507,
+      "previousRevisionId": 23041,
+      "revisionId": 23653,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "growbed",
-      "title": "Growbed",
+      "id": "necrolei-cyst",
+      "title": "Necrolei Cyst",
       "change": "updated",
-      "previousRevisionId": 23427,
-      "revisionId": 23549,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "habitat-beacon",
-      "title": "Habitat Beacon",
-      "change": "updated",
-      "previousRevisionId": 23294,
-      "revisionId": 23500,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "half-round-room",
-      "title": "Half Round Room",
-      "change": "updated",
-      "previousRevisionId": 23236,
-      "revisionId": 23505,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "hatch",
-      "title": "Hatch",
-      "change": "updated",
-      "previousRevisionId": 23403,
-      "revisionId": 23502,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "mimic-pylon",
-      "title": "Mimic Pylon",
-      "change": "updated",
-      "previousRevisionId": 23130,
-      "revisionId": 23578,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "noa-terminal",
-      "title": "NoA Terminal",
-      "change": "updated",
-      "previousRevisionId": 22360,
-      "revisionId": 23574,
+      "previousRevisionId": 23332,
+      "revisionId": 23664,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
       "id": "power-plant-turbine",
       "title": "Power Plant Turbine",
-      "change": "added",
-      "previousRevisionId": null,
-      "revisionId": 23559,
-      "previousStatus": null,
+      "change": "updated",
+      "previousRevisionId": 23559,
+      "revisionId": 23641,
+      "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }
   ]

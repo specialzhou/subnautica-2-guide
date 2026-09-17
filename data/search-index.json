@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T08:41:45.397Z",
+  "generatedAt": "2026-09-17T08:45:29.497Z",
   "count": 330,
   "entries": [
     {
@@ -1821,15 +1821,15 @@
       "title": "Necrolei Cyst",
       "type": "Item",
       "href": "guide/items/necrolei-cyst.html",
-      "terms": "Necrolei Cyst Habitat Builder Necrolei Bud Necrolei Hills",
-      "image": "https://wiki.subnautica.com/sn2/images/Necrolei_Cyst.png?32305",
+      "terms": "Necrolei Cyst Habitat Builder Necrolei Bud",
+      "image": null,
       "localizedTitles": {
         "zh-cn": "死腐水母包囊",
         "ru": "Циста некролеи"
       },
       "localizedTerms": {
-        "zh-cn": "栖息所建造器 尼克罗蕾丘陵 死腐水母包囊 尼克罗蕾花苞 死腐水母",
-        "ru": "Строитель Холмы Некролеи Циста некролеи Бутон некролеи Некролея"
+        "zh-cn": "栖息所建造器 死腐水母包囊 尼克罗蕾花苞 死腐水母",
+        "ru": "Строитель Циста некролеи Бутон некролеи Некролея"
       }
     },
     {

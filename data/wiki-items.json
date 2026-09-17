@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-16T08:41:42.937Z",
+  "generatedAt": "2026-09-17T08:45:26.500Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -16,7 +16,7 @@
   ],
   "publishedCount": 223,
   "excludedCount": 0,
-  "imageCount": 87,
+  "imageCount": 86,
   "items": [
     {
       "id": "acid-raion",
@@ -29,7 +29,8 @@
         "Harvestable",
         "Passive",
         "Plantables",
-        "Raions"
+        "Raions",
+        "Scannables"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1336,10 +1337,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bioscanner",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=23041",
-        "revisionId": 23041,
-        "revisionTimestamp": "2026-09-11T12:21:48Z",
-        "fetchedAt": "2026-09-12T08:00:05.133Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=23653",
+        "revisionId": 23653,
+        "revisionTimestamp": "2026-09-16T15:32:13Z",
+        "fetchedAt": "2026-09-17T08:45:28.667Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1710,6 +1711,7 @@
         "Crafted with Habitat Builder",
         "Passive",
         "Plantables",
+        "Scannables",
         "Section stubs",
         "Tunics",
         "Uncooked Food"
@@ -2613,6 +2615,7 @@
         "Harvestable",
         "Passive",
         "Plantables",
+        "Scannables",
         "Starfish"
       ],
       "availableByDefault": false,
@@ -3832,6 +3835,7 @@
         "Harvestable",
         "Passive",
         "Plantables",
+        "Scannables",
         "Section stubs",
         "Unscannable lifeforms"
       ],
@@ -5553,6 +5557,7 @@
         "Crafted with Habitat Builder",
         "Passive",
         "Plantables",
+        "Scannables",
         "Sponges"
       ],
       "availableByDefault": false,
@@ -5718,6 +5723,7 @@
         "Defensive",
         "Plantables",
         "Pylons",
+        "Scannables",
         "Stubs"
       ],
       "availableByDefault": false,
@@ -5862,16 +5868,16 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Bioscannables",
         "Crafted with Habitat Builder",
-        "Resource nodes"
+        "Resource nodes",
+        "Scannables"
       ],
       "availableByDefault": false,
       "unlock": {
         "source": null,
         "fragments": null,
-        "biomes": [
-          "Necrolei Hills"
-        ]
+        "biomes": []
       },
       "recipes": [
         {
@@ -5890,22 +5896,16 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Cyst",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Cyst&oldid=23332",
-        "revisionId": 23332,
-        "revisionTimestamp": "2026-09-13T23:24:47Z",
-        "fetchedAt": "2026-09-14T09:04:43.919Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Cyst&oldid=23664",
+        "revisionId": 23664,
+        "revisionTimestamp": "2026-09-16T15:51:17Z",
+        "fetchedAt": "2026-09-17T08:45:28.676Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": {
-        "fileName": "Necrolei Cyst.png",
-        "url": "https://wiki.subnautica.com/sn2/images/Necrolei_Cyst.png?32305",
-        "filePage": "https://wiki.subnautica.com/sn2/File:Necrolei_Cyst.png",
-        "width": 256,
-        "height": 256
-      }
+      "media": null
     },
     {
       "id": "new-life-poster",
@@ -6264,7 +6264,8 @@
         "Crafted with Habitat Builder",
         "Passive",
         "Plantables",
-        "Raw Materials"
+        "Raw Materials",
+        "Scannables"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -6797,10 +6798,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Plant_Turbine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Plant_Turbine&oldid=23559",
-        "revisionId": 23559,
-        "revisionTimestamp": "2026-09-15T16:22:47Z",
-        "fetchedAt": "2026-09-16T08:41:44.787Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Plant_Turbine&oldid=23641",
+        "revisionId": 23641,
+        "revisionTimestamp": "2026-09-16T14:02:08Z",
+        "fetchedAt": "2026-09-17T08:45:28.680Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

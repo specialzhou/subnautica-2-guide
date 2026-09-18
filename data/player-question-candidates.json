@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-09-17T09:59:39.610Z",
+  "collectedAt": "2026-09-18T09:46:14.083Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -390,7 +390,8 @@
     "1wfi15s",
     "1whrzi3",
     "1whruaw",
-    "1wi97vl"
+    "1wi97vl",
+    "1wiu49w"
   ],
   "candidates": [
     {
@@ -407,14 +408,14 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-09-17T09:59:39.610Z",
+        "lastErrorAt": "2026-09-18T09:46:14.083Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/.rss?limit=500"
       },
       "title": "Stuck on Angel comb?",
       "questionKey": "stuck on angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/",
       "publishedAt": "2026-09-09T17:01:44+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -1053,7 +1054,7 @@
       "questionKey": "i m not sure what actually respawns and what is limited help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w79pcm/im_not_sure_what_actually_respawns_and_what_is/",
       "publishedAt": "2026-09-04T16:45:33+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1298,7 +1299,7 @@
       "questionKey": "base oxygen",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1whrzi3/base_oxygen/",
       "publishedAt": "2026-09-16T09:08:08+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1485,8 +1486,8 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": 40,
-        "observedAt": "2026-08-14T06:42:38.441Z",
+        "comments": 41,
+        "observedAt": "2026-09-18T09:46:14.083Z",
         "approximate": true,
         "method": "reddit-post-rss-comment-entry-count"
       },
@@ -1678,7 +1679,7 @@
       "questionKey": "did they move the rebreather in 1 2 i m going nuts trying to find one",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wae2ah/did_they_move_the_rebreather_in_12_im_going_nuts/",
       "publishedAt": "2026-09-08T04:16:54+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1919,7 +1920,7 @@
       "questionKey": "bug on late game angel comb spoilers",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8lblb/bug_on_late_game_angel_comb_spoilers/",
       "publishedAt": "2026-09-06T03:48:29+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1977,7 +1978,7 @@
       "questionKey": "why did noa take so long to print the qualified investigator",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wcrapu/why_did_noa_take_so_long_to_print_the_qualified/",
       "publishedAt": "2026-09-10T18:22:05+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -2026,7 +2027,7 @@
       "questionKey": "possible soft lock on 1st bloom help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w6r1l2/possible_soft_lock_on_1st_bloom_help/",
       "publishedAt": "2026-09-04T01:57:00+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2448,7 +2449,7 @@
       "questionKey": "how do i get in here",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1waxo9p/how_do_i_get_in_here/",
       "publishedAt": "2026-09-08T19:01:56+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2485,7 +2486,7 @@
       "questionKey": "why do they call it a shiver leviathan",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9ucok/why_do_they_call_it_a_shiver_leviathan/",
       "publishedAt": "2026-09-07T14:53:43+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2628,7 +2629,7 @@
       "questionKey": "how s the base lookin",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8aqs2/hows_the_base_lookin/",
       "publishedAt": "2026-09-05T19:55:05+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2675,7 +2676,7 @@
       "questionKey": "please help turbine repair option gone after update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4wi23/please_help_turbine_repair_option_gone_after/",
       "publishedAt": "2026-09-02T01:39:10+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -3021,7 +3022,7 @@
       "questionKey": "this game is not good",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wfugan/this_game_is_not_good/",
       "publishedAt": "2026-09-14T05:23:09+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -3123,7 +3124,7 @@
       "questionKey": "question regarding building tadpole dock in moonpool",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9dvif/question_regarding_building_tadpole_dock_in/",
       "publishedAt": "2026-09-07T01:08:41+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -3328,7 +3329,7 @@
       "questionKey": "yet another base tour",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9cwni/yet_another_base_tour/",
       "publishedAt": "2026-09-07T00:23:28+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3571,7 +3572,7 @@
       "questionKey": "how can there be insufficient space how",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w3jmd3/how_can_there_be_insufficient_space_how/",
       "publishedAt": "2026-08-31T16:55:32+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3675,6 +3676,100 @@
           "href": "questions/wall-rack-blueprint-location.html",
           "title": "Where are the Wall Rack blueprint fragments?",
           "score": 0.33
+        }
+      ],
+      "priorityScore": 14,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vqsadz",
+      "firstSeenAt": "2026-08-20T05:46:20.836Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 17,
+        "observedAt": "2026-09-18T09:46:14.083Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Is this a common sight or how do you power your bases?",
+      "questionKey": "is this a common sight or how do you power your bases",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vqsadz/is_this_a_common_sight_or_how_do_you_power_your/",
+      "publishedAt": "2026-08-17T13:25:05+00:00",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 7,
+      "signals": [
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.33,
+      "suggestedPages": [
+        {
+          "href": "questions/expand-inventory-with-hacked-biobeds.html",
+          "title": "How do I permanently expand my inventory and hotbar?",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/atacamite.html",
+          "title": "Atacamite",
+          "score": 0.17
+        },
+        {
+          "href": "guide/items/celestine.html",
+          "title": "Celestine",
+          "score": 0.17
+        }
+      ],
+      "priorityScore": 14,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vtqys7",
+      "firstSeenAt": "2026-08-25T05:47:51.441Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 15,
+        "observedAt": "2026-09-18T09:46:14.083Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "About to finish my first Subnautica playthrough - where do I go from here?",
+      "questionKey": "about to finish my first subnautica playthrough where do i go from here",
+      "url": "https://www.reddit.com/r/subnautica/comments/1vtqys7/about_to_finish_my_first_subnautica_playthrough/",
+      "publishedAt": "2026-08-20T18:03:49+00:00",
+      "lastSeenAt": "2026-08-25T05:47:51.441Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "where"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.29,
+      "suggestedPages": [
+        {
+          "href": "questions/where-to-find-sandspear.html",
+          "title": "Where can I find a Sandspear for the bioscan?",
+          "score": 0.29
+        },
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.29
+        },
+        {
+          "href": "starter-planner.html",
+          "title": "Start here",
+          "score": 0.14
         }
       ],
       "priorityScore": 14,
@@ -3795,7 +3890,7 @@
       "questionKey": "how am i attracting flash slugs",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1weludc/how_am_i_attracting_flash_slugs/",
       "publishedAt": "2026-09-12T19:30:43+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -3842,7 +3937,7 @@
       "questionKey": "struggle with last angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w449hm/struggle_with_last_angel_comb/",
       "publishedAt": "2026-09-01T06:59:08+00:00",
-      "lastSeenAt": "2026-09-17T09:59:39.610Z",
+      "lastSeenAt": "2026-09-18T09:46:14.083Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3918,100 +4013,6 @@
           "href": "questions/rebioscan-biofilm-not-respawning.html",
           "title": "Why isn't Biofilm respawning for a re-bioscan?",
           "score": 1
-        }
-      ],
-      "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vtqys7",
-      "firstSeenAt": "2026-08-25T05:47:51.441Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "About to finish my first Subnautica playthrough - where do I go from here?",
-      "questionKey": "about to finish my first subnautica playthrough where do i go from here",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vtqys7/about_to_finish_my_first_subnautica_playthrough/",
-      "publishedAt": "2026-08-20T18:03:49+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 7,
-      "signals": [
-        "where"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.29,
-      "suggestedPages": [
-        {
-          "href": "questions/where-to-find-sandspear.html",
-          "title": "Where can I find a Sandspear for the bioscan?",
-          "score": 0.29
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.29
-        },
-        {
-          "href": "starter-planner.html",
-          "title": "Start here",
-          "score": 0.14
-        }
-      ],
-      "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vqsadz",
-      "firstSeenAt": "2026-08-20T05:46:20.836Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": null,
-        "observedAt": null,
-        "approximate": true,
-        "method": "not-checked"
-      },
-      "title": "Is this a common sight or how do you power your bases?",
-      "questionKey": "is this a common sight or how do you power your bases",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vqsadz/is_this_a_common_sight_or_how_do_you_power_your/",
-      "publishedAt": "2026-08-17T13:25:05+00:00",
-      "lastSeenAt": "2026-08-26T05:50:16.248Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/atacamite.html",
-          "title": "Atacamite",
-          "score": 0.17
-        },
-        {
-          "href": "guide/items/celestine.html",
-          "title": "Celestine",
-          "score": 0.17
         }
       ],
       "priorityScore": 14,

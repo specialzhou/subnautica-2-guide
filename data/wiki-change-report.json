@@ -1,31 +1,22 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-17T08:45:26.500Z",
+  "detectedAt": "2026-09-19T08:09:17.713Z",
   "changes": [
     {
-      "id": "bioscanner",
-      "title": "Bioscanner",
+      "id": "habitat-builder",
+      "title": "Habitat Builder",
       "change": "updated",
-      "previousRevisionId": 23041,
-      "revisionId": 23653,
+      "previousRevisionId": 23409,
+      "revisionId": 23713,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "necrolei-cyst",
-      "title": "Necrolei Cyst",
+      "id": "round-room",
+      "title": "Round Room",
       "change": "updated",
-      "previousRevisionId": 23332,
-      "revisionId": 23664,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-plant-turbine",
-      "title": "Power Plant Turbine",
-      "change": "updated",
-      "previousRevisionId": 23559,
-      "revisionId": 23641,
+      "previousRevisionId": 21327,
+      "revisionId": 23712,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

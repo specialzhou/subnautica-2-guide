@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-18T08:21:27.232Z",
+  "generatedAt": "2026-09-20T08:41:48.144Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -444,10 +444,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=23127",
-        "revisionId": 23127,
-        "revisionTimestamp": "2026-09-13T21:59:50Z",
-        "fetchedAt": "2026-09-14T09:04:45.672Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=23737",
+        "revisionId": 23737,
+        "revisionTimestamp": "2026-09-19T22:52:18Z",
+        "fetchedAt": "2026-09-20T08:41:49.201Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1482,10 +1482,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=23156",
-        "revisionId": 23156,
-        "revisionTimestamp": "2026-09-13T22:04:38Z",
-        "fetchedAt": "2026-09-14T09:04:45.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=23715",
+        "revisionId": 23715,
+        "revisionTimestamp": "2026-09-19T13:53:14Z",
+        "fetchedAt": "2026-09-20T08:41:49.203Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

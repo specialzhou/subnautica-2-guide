@@ -868,15 +868,7 @@ function replaceWithToken(output, source, token) {
 
 function translate(html, dictionary, locale) {
   const attributes = [];
-  // 标签名必须完全避开字典替换：字典里的 "Source"→"来源" 曾把 <source> 变成 <来源>，
-  // 导致 <picture> 的 webp 分支失效、locale 页面回落到 858KB 的 PNG。
-  const tagNames = [];
-  let protectedHtml = html.replace(/<(\/?)([a-zA-Z][a-zA-Z0-9]*)/g, (match, slash, tag) => {
-    const token = `__TAG_${tagNames.length}__`;
-    tagNames.push(tag);
-    return `<${slash}${token}`;
-  });
-  protectedHtml = protectedHtml.replace(/\b(?:href|src)="[^"]*"|\bcontent="https?:\/\/[^"]*"/g, (attribute) => {
+  let protectedHtml = html.replace(/\b(?:href|src)="[^"]*"|\bcontent="https?:\/\/[^"]*"/g, (attribute) => {
     const token = `__URL_ATTRIBUTE_${attributes.length}__`;
     attributes.push(attribute);
     return token;
@@ -895,6 +887,17 @@ function translate(html, dictionary, locale) {
     if (localizedNames[entry[0]]?.[locale]) continue;
     protectDictionaryEntry(entry);
   }
+  // 整句替换完成后，再把 HTML 标签名打点保护，交给后面的单词级替换处理。
+  // 顺序很关键：字典里有形如 "What are you trying<br><em>to do next?</em>" 这样
+  // 故意包含标签的整句条目，若提前保护标签名会让这些 key 匹配不上（曾导致 zh/ru
+  // 首页 H1 退回英文）。而单词级条目（如 "Source"→"来源"）才是污染 <source> 的元凶，
+  // 它必须被挡住——否则 <picture> 的 webp 分支失效，locale 页面会回落 858KB PNG。
+  const tagNames = [];
+  protectedHtml = protectedHtml.replace(/<(\/?)([a-zA-Z][a-zA-Z0-9]*)/g, (match, slash, tag) => {
+    const token = `__TAG_${tagNames.length}__`;
+    tagNames.push(tag);
+    return `<${slash}${token}`;
+  });
   const names = [];
   for (const [source, translations] of Object.entries(localizedNames).sort(([a], [b]) => b.length - a.length)) {
     const localized = translations[locale];

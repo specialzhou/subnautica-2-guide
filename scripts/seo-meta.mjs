@@ -255,23 +255,33 @@ export function buildSeoMeta({ pagePath, locale, items, entities, playerQuestion
 }
 
 // 覆盖 <title> 与 <meta name="description">，并补 og/twitter 卡片标签。
-export function applySeoMeta(html, meta) {
+// 必须幂等：index.html 及其语言副本不会被任何 import 脚本重新生成，
+// 若每次 enhance 都追加一套 og 标签，定时同步会让它们无限增长。
+export function applySeoMeta(html, meta, pagePath = "") {
   if (!meta?.title || !meta.description) return html;
   const esc = (value) => String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   let out = html
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(meta.title)}</title>`)
     .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${esc(meta.description)}">`);
-  const tags = `<meta property="og:title" content="${esc(meta.title)}"><meta property="og:description" content="${esc(meta.description)}"><meta property="og:type" content="article"><meta name="twitter:card" content="summary_large_image">`;
-  if (out.includes('<meta name="theme-color"')) {
+  // 先清掉历史注入的同类标签（含早期非幂等版本留下的重复项），再插入唯一一份。
+  out = out
+    .replace(/<meta property="og:title" content="[^"]*">/g, "")
+    .replace(/<meta property="og:description" content="[^"]*">/g, "")
+    .replace(/<meta name="twitter:card" content="[^"]*">/g, "")
+    .replace(/<meta property="og:type" content="[^"]*">/g, "");
+  // og:type 按页面性质取值：站点首页是 website，其余是 article
+  const ogType = /(^|\/)index\.html$/.test(pagePath) ? "website" : "article";
+  const tags = `<meta property="og:title" content="${esc(meta.title)}"><meta property="og:description" content="${esc(meta.description)}"><meta property="og:type" content="${ogType}"><meta name="twitter:card" content="summary_large_image">`;
+  if (/<meta name="theme-color"/.test(out)) {
     out = out.replace(/<meta name="theme-color"/, `${tags}<meta name="theme-color"`);
   } else if (/<meta name="viewport"[^>]*>/.test(out)) {
     out = out.replace(/<meta name="viewport"[^>]*>/, (m) => `${m}${tags}`);
   } else {
     out = out.replace("</head>", `${tags}</head>`);
   }
-  // 若页面原本没有 description 标签，补一个
   if (!/<meta name="description"/.test(out)) {
     out = out.replace("</head>", `<meta name="description" content="${esc(meta.description)}"></head>`);
   }
-  return out;
+  // 收敛因非幂等版本产生的残留空行
+  return out.replace(/<head>\s+/, "<head>");
 }

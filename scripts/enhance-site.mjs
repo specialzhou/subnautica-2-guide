@@ -560,7 +560,7 @@ for (const pagePath of [...new Set(pagePaths)]) {
     localizedNames,
     usesByTitle,
   });
-  html = applySeoMeta(html, seoMeta);
+  html = applySeoMeta(html, seoMeta, pagePath);
   const searchCopy = locale === "zh-cn" ? "搜索" : locale === "ru" ? "Поиск" : "Search";
   html = html.replace("</head>", `<link rel="stylesheet" href="${base}questions.css?v=2"><link rel="stylesheet" href="${base}search.css?v=4"></head>`);
   html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="${searchCopy}"><span aria-hidden="true">⌕</span><span>${searchCopy}</span><kbd>/</kbd></button></nav>`);

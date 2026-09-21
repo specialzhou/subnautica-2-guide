@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-09-20T09:49:11.248Z",
+  "collectedAt": "2026-09-21T10:44:32.213Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -23,7 +23,7 @@
     "systemReview": 75,
     "readyToReply": 5,
     "dismissed": 0,
-    "addedThisRun": 3
+    "addedThisRun": 4
   },
   "seenRedditIds": [
     "1uv44tv",
@@ -394,7 +394,11 @@
     "1wiu49w",
     "1wl7uwr",
     "1wkiv07",
-    "1wjzdo4"
+    "1wjzdo4",
+    "1wm05cc",
+    "1wlt6r6",
+    "1wlr6s7",
+    "1wljwpp"
   ],
   "candidates": [
     {
@@ -411,14 +415,14 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-09-20T09:49:11.248Z",
+        "lastErrorAt": "2026-09-21T10:44:32.213Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/.rss?limit=500"
       },
       "title": "Stuck on Angel comb?",
       "questionKey": "stuck on angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wbre6i/stuck_on_angel_comb/",
       "publishedAt": "2026-09-09T17:01:44+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -1057,7 +1061,7 @@
       "questionKey": "i m not sure what actually respawns and what is limited help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w79pcm/im_not_sure_what_actually_respawns_and_what_is/",
       "publishedAt": "2026-09-04T16:45:33+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1082,6 +1086,45 @@
           "href": "questions/strong-acid-after-update.html",
           "title": "Where did the Strong Acid recipe move in EA 1.1?",
           "score": 0.2
+        }
+      ],
+      "priorityScore": 25,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1wm05cc",
+      "firstSeenAt": "2026-09-21T10:44:32.213Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 4,
+        "observedAt": "2026-09-21T10:44:32.213Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "How do I get this biomod?",
+      "questionKey": "how do i get this biomod",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1wm05cc/how_do_i_get_this_biomod/",
+      "publishedAt": "2026-09-21T02:23:10+00:00",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 11,
+      "signals": [
+        "not-working",
+        "where",
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.5,
+      "suggestedPages": [
+        {
+          "href": "questions/scan-collector-leviathan-safely.html",
+          "title": "How do I bioscan the Collector Leviathan safely?",
+          "score": 0.5
         }
       ],
       "priorityScore": 25,
@@ -1179,6 +1222,54 @@
           "href": "guide/creatures/shiver-leviathan.html",
           "title": "Shiver Leviathan",
           "score": 0.2
+        }
+      ],
+      "priorityScore": 23,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1wljwpp",
+      "firstSeenAt": "2026-09-21T10:44:32.213Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 17,
+        "observedAt": "2026-09-21T10:44:32.213Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "How do I dock my Tadpole with chassis?",
+      "questionKey": "how do i dock my tadpole with chassis",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1wljwpp/how_do_i_dock_my_tadpole_with_chassis/",
+      "publishedAt": "2026-09-20T15:23:48+00:00",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 9,
+      "signals": [
+        "not-working",
+        "how"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "vehicle-planner.html",
+          "title": "Tadpole vehicle planner",
+          "score": 0.67
+        },
+        {
+          "href": "guide/items/tadpole-dock.html",
+          "title": "Tadpole Dock",
+          "score": 0.67
+        },
+        {
+          "href": "guide/items/tadpole-haul-chassis.html",
+          "title": "Tadpole Haul Chassis",
+          "score": 0.67
         }
       ],
       "priorityScore": 23,
@@ -1302,7 +1393,7 @@
       "questionKey": "base oxygen",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1whrzi3/base_oxygen/",
       "publishedAt": "2026-09-16T09:08:08+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1396,7 +1487,7 @@
       "questionKey": "what now help a new player out",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wl7uwr/what_now_help_a_new_player_out/",
       "publishedAt": "2026-09-20T05:10:06+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1728,7 +1819,7 @@
       "questionKey": "did they move the rebreather in 1 2 i m going nuts trying to find one",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wae2ah/did_they_move_the_rebreather_in_12_im_going_nuts/",
       "publishedAt": "2026-09-08T04:16:54+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1969,7 +2060,7 @@
       "questionKey": "bug on late game angel comb spoilers",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8lblb/bug_on_late_game_angel_comb_spoilers/",
       "publishedAt": "2026-09-06T03:48:29+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -2027,7 +2118,7 @@
       "questionKey": "why did noa take so long to print the qualified investigator",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wcrapu/why_did_noa_take_so_long_to_print_the_qualified/",
       "publishedAt": "2026-09-10T18:22:05+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -2076,7 +2167,7 @@
       "questionKey": "what new items upgrades buildings do you think will be added in ea 2 0",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wjzdo4/what_new_itemsupgradesbuildings_do_you_think_will/",
       "publishedAt": "2026-09-18T19:09:34+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -2106,6 +2197,64 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1wlt6r6",
+      "firstSeenAt": "2026-09-21T10:44:32.213Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "needs-evidence",
+        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 4,
+        "observedAt": "2026-09-21T10:44:32.213Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Final Angel Comb Core Won't Open",
+      "questionKey": "final angel comb core won t open",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1wlt6r6/final_angel_comb_core_wont_open/",
+      "publishedAt": "2026-09-20T21:15:48+00:00",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "not-working",
+        "bug",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.67
+        },
+        {
+          "href": "questions/where-to-find-axum-resonator.html",
+          "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/dedicated-core.html",
+          "title": "Dedicated Core",
+          "score": 0.17
+        }
+      ],
+      "priorityScore": 17,
+      "possibleDuplicateOf": {
+        "id": "angel-comb-main-cankers-stuck",
+        "score": 0.67,
+        "sharedTerms": [
+          "angel",
+          "comb",
+          "won",
+          "open"
+        ]
+      }
+    },
+    {
       "redditId": "1w6r1l2",
       "firstSeenAt": "2026-09-04T09:40:01.443Z",
       "review": {
@@ -2124,7 +2273,7 @@
       "questionKey": "possible soft lock on 1st bloom help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w6r1l2/possible_soft_lock_on_1st_bloom_help/",
       "publishedAt": "2026-09-04T01:57:00+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -2546,7 +2695,7 @@
       "questionKey": "how do i get in here",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1waxo9p/how_do_i_get_in_here/",
       "publishedAt": "2026-09-08T19:01:56+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2583,7 +2732,7 @@
       "questionKey": "why do they call it a shiver leviathan",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9ucok/why_do_they_call_it_a_shiver_leviathan/",
       "publishedAt": "2026-09-07T14:53:43+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2726,7 +2875,7 @@
       "questionKey": "how s the base lookin",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w8aqs2/hows_the_base_lookin/",
       "publishedAt": "2026-09-05T19:55:05+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 7,
       "signals": [
@@ -2773,7 +2922,7 @@
       "questionKey": "please help turbine repair option gone after update",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4wi23/please_help_turbine_repair_option_gone_after/",
       "publishedAt": "2026-09-02T01:39:10+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -3119,7 +3268,7 @@
       "questionKey": "this game is not good",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wfugan/this_game_is_not_good/",
       "publishedAt": "2026-09-14T05:23:09+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -3221,7 +3370,7 @@
       "questionKey": "question regarding building tadpole dock in moonpool",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9dvif/question_regarding_building_tadpole_dock_in/",
       "publishedAt": "2026-09-07T01:08:41+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -3426,7 +3575,7 @@
       "questionKey": "yet another base tour",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1w9cwni/yet_another_base_tour/",
       "publishedAt": "2026-09-07T00:23:28+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
+      "lastSeenAt": "2026-09-21T10:44:32.213Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -3867,149 +4016,6 @@
           "href": "starter-planner.html",
           "title": "Start here",
           "score": 0.14
-        }
-      ],
-      "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vr1e69",
-      "firstSeenAt": "2026-08-20T05:46:20.836Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 9,
-        "observedAt": "2026-09-07T10:19:01.140Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Pricing and a work around?",
-      "questionKey": "pricing and a work around",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vr1e69/pricing_and_a_work_around/",
-      "publishedAt": "2026-08-17T18:59:18+00:00",
-      "lastSeenAt": "2026-08-30T12:45:12.751Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 9,
-      "signals": [
-        "help",
-        "bug",
-        "where"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.5,
-      "suggestedPages": [
-        {
-          "href": "questions/where-to-find-axum-resonator.html",
-          "title": "Where is the Axum Resonator in EA 1.1?",
-          "score": 0.5
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.5
-        },
-        {
-          "href": "guide/items/work-light.html",
-          "title": "Work Light",
-          "score": 0.25
-        }
-      ],
-      "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vuazx7",
-      "firstSeenAt": "2026-08-25T05:47:51.441Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 9,
-        "observedAt": "2026-09-17T09:59:39.610Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "How do time capsules work?",
-      "questionKey": "how do time capsules work",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vuazx7/how_do_time_capsules_work/",
-      "publishedAt": "2026-08-21T09:04:35+00:00",
-      "lastSeenAt": "2026-08-25T05:47:51.441Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 7,
-      "signals": [
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "guide/items/time-of-day-display.html",
-          "title": "Time of Day Display",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/work-light.html",
-          "title": "Work Light",
-          "score": 0.33
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 14,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1weludc",
-      "firstSeenAt": "2026-09-13T10:17:39.361Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "needs-evidence",
-        "notes": "等待系统核对 Reddit 上下文、官方资料和证据边界。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 8,
-        "observedAt": "2026-09-15T10:05:14.674Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "How am I attracting flash slugs?",
-      "questionKey": "how am i attracting flash slugs",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1weludc/how_am_i_attracting_flash_slugs/",
-      "publishedAt": "2026-09-12T19:30:43+00:00",
-      "lastSeenAt": "2026-09-20T09:49:11.248Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 7,
-      "signals": [
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.33,
-      "suggestedPages": [
-        {
-          "href": "guide/items/isotonic-water.html",
-          "title": "Isotonic Water",
-          "score": 0.33
-        },
-        {
-          "href": "guide/creatures/flash-slug.html",
-          "title": "Flash Slug",
-          "score": 0.33
-        },
-        {
-          "href": "questions/water-without-killing-slugs.html",
-          "title": "Can I make Water without killing Water Slugs?",
-          "score": 0.33
         }
       ],
       "priorityScore": 14,

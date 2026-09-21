@@ -868,7 +868,15 @@ function replaceWithToken(output, source, token) {
 
 function translate(html, dictionary, locale) {
   const attributes = [];
-  let protectedHtml = html.replace(/\b(?:href|src)="[^"]*"|\bcontent="https?:\/\/[^"]*"/g, (attribute) => {
+  // 标签名必须完全避开字典替换：字典里的 "Source"→"来源" 曾把 <source> 变成 <来源>，
+  // 导致 <picture> 的 webp 分支失效、locale 页面回落到 858KB 的 PNG。
+  const tagNames = [];
+  let protectedHtml = html.replace(/<(\/?)([a-zA-Z][a-zA-Z0-9]*)/g, (match, slash, tag) => {
+    const token = `__TAG_${tagNames.length}__`;
+    tagNames.push(tag);
+    return `<${slash}${token}`;
+  });
+  protectedHtml = protectedHtml.replace(/\b(?:href|src)="[^"]*"|\bcontent="https?:\/\/[^"]*"/g, (attribute) => {
     const token = `__URL_ATTRIBUTE_${attributes.length}__`;
     attributes.push(attribute);
     return token;
@@ -902,7 +910,8 @@ function translate(html, dictionary, locale) {
   }
   const withNames = names.reduce((output, name, index) => output.replaceAll(`__LN_${index}__`, name), protectedHtml);
   const withDictionary = dictionaryValues.reduce((output, value, index) => output.replaceAll(`__DT_${index}__`, value), withNames);
-  return attributes.reduce((output, attribute, index) => output.replace(`__URL_ATTRIBUTE_${index}__`, attribute), withDictionary);
+  const withAttributes = attributes.reduce((output, attribute, index) => output.replace(`__URL_ATTRIBUTE_${index}__`, attribute), withDictionary);
+  return tagNames.reduce((output, tag, index) => output.replace(`__TAG_${index}__`, tag), withAttributes);
 }
 
 function stripLocaleMetadata(html) {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T08:41:48.144Z",
+  "generatedAt": "2026-09-21T09:06:39.600Z",
   "count": 330,
   "entries": [
     {
@@ -561,15 +561,15 @@
       "title": "Celestine",
       "type": "Item",
       "href": "guide/items/celestine.html",
-      "terms": "Celestine Metal Farm Celestine Celestine Deposit * Sparse Plains * Needler Nest * Karakorum Power Plant * Root Canyon * Karakorum Metal Farms",
+      "terms": "Celestine Metal Farm Celestine Celestine Deposit * Intermediary Basin * Needler Nest * Karakorum Power Plant * Root Canyon * Karakorum Metal Farms",
       "image": "https://wiki.subnautica.com/sn2/images/Celestine.png?fbc02",
       "localizedTitles": {
         "zh-cn": "天青石",
         "ru": "Целестин"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 天青石矿床 稀疏平原 根系峡谷 金属农场 天青石",
-        "ru": "Металлические фермы Каракорума Электростанция Каракорума Месторождение целестина Разреженные равнины Корневой каньон Металлическая ферма Целестин"
+        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 Intermediary Basin 天青石矿床 根系峡谷 金属农场 天青石",
+        "ru": "Металлические фермы Каракорума Электростанция Каракорума Intermediary Basin Месторождение целестина Корневой каньон Металлическая ферма Целестин"
       }
     },
     {
@@ -786,15 +786,15 @@
       "title": "Copper",
       "type": "Item",
       "href": "guide/items/copper.html",
-      "terms": "Copper Metal Farm Copper Copper Node, Copper Deposit * Shallows * Dolerite Spires * Plateaus * Graveyard * Necrolei Hills * Lead Zone * Sparse Plains * Overgrown Ruins * Needler Nest",
+      "terms": "Copper Metal Farm Copper Copper Node, Copper Deposit * Shallows * Dolerite Spires * Plateaus * Graveyard * Necrolei Hills * Lead Zone * Intermediary Basin * Overgrown Ruins * Needler Nest",
       "image": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9",
       "localizedTitles": {
         "zh-cn": "铜",
         "ru": "Медь"
       },
       "localizedTerms": {
-        "zh-cn": "蔓生遗迹 辉绿岩尖塔 铜矿床 尼克罗蕾丘陵 稀疏平原 铜矿脉 金属农场 墓地 铅区 死腐水母 高原 浅滩 铜 铅",
-        "ru": "Заросшие руины Долеритовые шпили Месторождение меди Холмы Некролеи Разреженные равнины Медная жила Металлическая ферма Кладбище Свинцовая зона Некролея Плато Мелководье Медь Свинец"
+        "zh-cn": "Intermediary Basin 蔓生遗迹 辉绿岩尖塔 铜矿床 尼克罗蕾丘陵 铜矿脉 金属农场 墓地 铅区 死腐水母 高原 浅滩 铜 铅",
+        "ru": "Intermediary Basin Заросшие руины Долеритовые шпили Месторождение меди Холмы Некролеи Медная жила Металлическая ферма Кладбище Свинцовая зона Некролея Плато Мелководье Медь Свинец"
       }
     },
     {
@@ -2451,15 +2451,15 @@
       "title": "Salt",
       "type": "Item",
       "href": "guide/items/salt.html",
-      "terms": "Salt Metal Farm Salt Salt Node, Salt Deposit * Graveyard * Sparse Plains * Overgrown Ruins * Root Canyon",
+      "terms": "Salt Metal Farm Salt Salt Node, Salt Deposit * Graveyard * Intermediary Basin * Overgrown Ruins * Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/Salt.png?98ca9",
       "localizedTitles": {
         "zh-cn": "盐",
         "ru": "Соль"
       },
       "localizedTerms": {
-        "zh-cn": "蔓生遗迹 稀疏平原 盐矿床 根系峡谷 金属农场 盐矿脉 墓地 盐",
-        "ru": "Заросшие руины Разреженные равнины Месторождение соли Корневой каньон Металлическая ферма Соляная жила Кладбище Соль"
+        "zh-cn": "Intermediary Basin 蔓生遗迹 盐矿床 根系峡谷 金属农场 盐矿脉 墓地 盐",
+        "ru": "Intermediary Basin Заросшие руины Месторождение соли Корневой каньон Металлическая ферма Соляная жила Кладбище Соль"
       }
     },
     {
@@ -3591,15 +3591,15 @@
       "title": "Celestine",
       "type": "Resource",
       "href": "guide/resources/celestine.html",
-      "terms": "Celestine Celestine Deposit Raw Materials Sparse Plains Needler Nest Karakorum Power Plant Root Canyon Karakorum Metal Farms",
+      "terms": "Celestine Celestine Deposit Raw Materials Intermediary Basin Needler Nest Karakorum Power Plant Root Canyon Karakorum Metal Farms",
       "image": "https://wiki.subnautica.com/sn2/images/Celestine.png?fbc02",
       "localizedTitles": {
         "zh-cn": "天青石",
         "ru": "Целестин"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 天青石矿床 稀疏平原 根系峡谷 金属农场 天青石",
-        "ru": "Металлические фермы Каракорума Электростанция Каракорума Месторождение целестина Разреженные равнины Корневой каньон Металлическая ферма Целестин"
+        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 Intermediary Basin 天青石矿床 根系峡谷 金属农场 天青石",
+        "ru": "Металлические фермы Каракорума Электростанция Каракорума Intermediary Basin Месторождение целестина Корневой каньон Металлическая ферма Целестин"
       }
     },
     {
@@ -3621,15 +3621,15 @@
       "title": "Collector Leviathan",
       "type": "Creature",
       "href": "guide/creatures/collector-leviathan.html",
-      "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farm Sparse Plains",
+      "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farm Intermediary Basin",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?09f51",
       "localizedTitles": {
         "zh-cn": "深渊巨触",
         "ru": "Левиафан-коллекционер"
       },
       "localizedTerms": {
-        "zh-cn": "深渊巨触 稀疏平原 金属农场",
-        "ru": "Левиафан-коллекционер Разреженные равнины Металлическая ферма"
+        "zh-cn": "深渊巨触 Intermediary Basin 金属农场",
+        "ru": "Левиафан-коллекционер Intermediary Basin Металлическая ферма"
       }
     },
     {
@@ -3651,15 +3651,15 @@
       "title": "Copper",
       "type": "Resource",
       "href": "guide/resources/copper.html",
-      "terms": "Copper Copper Node, Copper Deposit Raw Materials Shallows Dolerite Spires Plateaus Graveyard Necrolei Hills Lead Zone Sparse Plains Overgrown Ruins Needler Nest",
+      "terms": "Copper Copper Node, Copper Deposit Raw Materials Shallows Dolerite Spires Plateaus Graveyard Necrolei Hills Lead Zone Intermediary Basin Overgrown Ruins Needler Nest",
       "image": "https://wiki.subnautica.com/sn2/images/Copper.png?98ca9",
       "localizedTitles": {
         "zh-cn": "铜",
         "ru": "Медь"
       },
       "localizedTerms": {
-        "zh-cn": "蔓生遗迹 辉绿岩尖塔 铜矿床 尼克罗蕾丘陵 稀疏平原 铜矿脉 墓地 铅区 死腐水母 高原 浅滩 铜 铅",
-        "ru": "Заросшие руины Долеритовые шпили Месторождение меди Холмы Некролеи Разреженные равнины Медная жила Кладбище Свинцовая зона Некролея Плато Мелководье Медь Свинец"
+        "zh-cn": "Intermediary Basin 蔓生遗迹 辉绿岩尖塔 铜矿床 尼克罗蕾丘陵 铜矿脉 墓地 铅区 死腐水母 高原 浅滩 铜 铅",
+        "ru": "Intermediary Basin Заросшие руины Долеритовые шпили Месторождение меди Холмы Некролеи Медная жила Кладбище Свинцовая зона Некролея Плато Мелководье Медь Свинец"
       }
     },
     {
@@ -4356,15 +4356,15 @@
       "title": "Salt",
       "type": "Resource",
       "href": "guide/resources/salt.html",
-      "terms": "Salt Salt Node, Salt Deposit Raw Materials Graveyard Sparse Plains Overgrown Ruins Root Canyon",
+      "terms": "Salt Salt Node, Salt Deposit Raw Materials Graveyard Intermediary Basin Overgrown Ruins Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/Salt.png?98ca9",
       "localizedTitles": {
         "zh-cn": "盐",
         "ru": "Соль"
       },
       "localizedTerms": {
-        "zh-cn": "蔓生遗迹 稀疏平原 盐矿床 根系峡谷 盐矿脉 墓地 盐",
-        "ru": "Заросшие руины Разреженные равнины Месторождение соли Корневой каньон Соляная жила Кладбище Соль"
+        "zh-cn": "Intermediary Basin 蔓生遗迹 盐矿床 根系峡谷 盐矿脉 墓地 盐",
+        "ru": "Intermediary Basin Заросшие руины Месторождение соли Корневой каньон Соляная жила Кладбище Соль"
       }
     },
     {

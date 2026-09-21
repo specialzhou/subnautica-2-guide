@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-20T08:41:48.144Z",
+  "generatedAt": "2026-09-21T09:06:39.600Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -67,10 +67,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Atacamite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Atacamite&oldid=23205",
-        "revisionId": 23205,
-        "revisionTimestamp": "2026-09-13T22:15:42Z",
-        "fetchedAt": "2026-09-14T09:04:45.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Atacamite&oldid=23792",
+        "revisionId": 23792,
+        "revisionTimestamp": "2026-09-20T17:50:23Z",
+        "fetchedAt": "2026-09-21T09:06:40.095Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -223,10 +223,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Blackthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=23225",
-        "revisionId": 23225,
-        "revisionTimestamp": "2026-09-13T23:18:43Z",
-        "fetchedAt": "2026-09-14T09:04:45.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=23825",
+        "revisionId": 23825,
+        "revisionTimestamp": "2026-09-20T19:10:05Z",
+        "fetchedAt": "2026-09-21T09:06:40.606Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -314,10 +314,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullethead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=23150",
-        "revisionId": 23150,
-        "revisionTimestamp": "2026-09-13T22:04:05Z",
-        "fetchedAt": "2026-09-14T09:04:45.674Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=23783",
+        "revisionId": 23783,
+        "revisionTimestamp": "2026-09-20T17:42:04Z",
+        "fetchedAt": "2026-09-21T09:06:40.606Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -359,10 +359,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Celestine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Celestine&oldid=23208",
-        "revisionId": 23208,
-        "revisionTimestamp": "2026-09-13T22:16:35Z",
-        "fetchedAt": "2026-09-14T09:04:45.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Celestine&oldid=23789",
+        "revisionId": 23789,
+        "revisionTimestamp": "2026-09-20T17:48:37Z",
+        "fetchedAt": "2026-09-21T09:06:40.095Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -372,7 +372,7 @@
         "source": "Celestine Deposit",
         "group": "Raw Materials",
         "biomes": [
-          "Sparse Plains",
+          "Intermediary Basin",
           "Needler Nest",
           "Karakorum Power Plant",
           "Root Canyon",
@@ -402,10 +402,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cerathecan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=23148",
-        "revisionId": 23148,
-        "revisionTimestamp": "2026-09-13T22:03:55Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=23781",
+        "revisionId": 23781,
+        "revisionTimestamp": "2026-09-20T17:39:39Z",
+        "fetchedAt": "2026-09-21T09:06:40.605Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -444,10 +444,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=23737",
-        "revisionId": 23737,
-        "revisionTimestamp": "2026-09-19T22:52:18Z",
-        "fetchedAt": "2026-09-20T08:41:49.201Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=23764",
+        "revisionId": 23764,
+        "revisionTimestamp": "2026-09-20T17:15:37Z",
+        "fetchedAt": "2026-09-21T09:06:40.603Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -461,7 +461,7 @@
         "nutrition": "",
         "biomes": [
           "Karakorum Metal Farm",
-          "Sparse Plains"
+          "Intermediary Basin"
         ]
       },
       "media": {
@@ -487,10 +487,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Conduit_Crystal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Conduit_Crystal&oldid=23209",
-        "revisionId": 23209,
-        "revisionTimestamp": "2026-09-13T22:16:49Z",
-        "fetchedAt": "2026-09-14T09:04:45.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Conduit_Crystal&oldid=23796",
+        "revisionId": 23796,
+        "revisionTimestamp": "2026-09-20T17:52:37Z",
+        "fetchedAt": "2026-09-21T09:06:40.096Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -525,10 +525,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Copper",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=23387",
-        "revisionId": 23387,
-        "revisionTimestamp": "2026-09-14T18:45:03Z",
-        "fetchedAt": "2026-09-15T08:47:52.988Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Copper&oldid=23767",
+        "revisionId": 23767,
+        "revisionTimestamp": "2026-09-20T17:19:45Z",
+        "fetchedAt": "2026-09-21T09:06:40.091Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -544,7 +544,7 @@
           "Graveyard",
           "Necrolei Hills",
           "Lead Zone",
-          "Sparse Plains",
+          "Intermediary Basin",
           "Overgrown Ruins",
           "Needler Nest"
         ]
@@ -607,10 +607,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Coral_Crab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Crab&oldid=23231",
-        "revisionId": 23231,
-        "revisionTimestamp": "2026-09-13T23:19:16Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Crab&oldid=23765",
+        "revisionId": 23765,
+        "revisionTimestamp": "2026-09-20T17:16:14Z",
+        "fetchedAt": "2026-09-21T09:06:40.603Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -686,10 +686,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Creature_Enamel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=23211",
-        "revisionId": 23211,
-        "revisionTimestamp": "2026-09-13T22:17:40Z",
-        "fetchedAt": "2026-09-14T09:04:45.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Creature_Enamel&oldid=23794",
+        "revisionId": 23794,
+        "revisionTimestamp": "2026-09-20T17:51:44Z",
+        "fetchedAt": "2026-09-21T09:06:40.096Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -724,10 +724,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dead_Coral_Crab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dead_Coral_Crab&oldid=23335",
-        "revisionId": 23335,
-        "revisionTimestamp": "2026-09-13T23:25:19Z",
-        "fetchedAt": "2026-09-14T09:04:45.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dead_Coral_Crab&oldid=23804",
+        "revisionId": 23804,
+        "revisionTimestamp": "2026-09-20T18:01:09Z",
+        "fetchedAt": "2026-09-21T09:06:40.607Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -767,10 +767,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Deepwing_Brooder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Deepwing_Brooder&oldid=23142",
-        "revisionId": 23142,
-        "revisionTimestamp": "2026-09-13T22:03:12Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Deepwing_Brooder&oldid=23778",
+        "revisionId": 23778,
+        "revisionTimestamp": "2026-09-20T17:34:30Z",
+        "fetchedAt": "2026-09-21T09:06:40.604Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -847,10 +847,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Epicurean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Epicurean&oldid=23151",
-        "revisionId": 23151,
-        "revisionTimestamp": "2026-09-13T22:04:11Z",
-        "fetchedAt": "2026-09-14T09:04:45.674Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Epicurean&oldid=23784",
+        "revisionId": 23784,
+        "revisionTimestamp": "2026-09-20T17:43:05Z",
+        "fetchedAt": "2026-09-21T09:06:40.606Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -937,10 +937,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Foureye",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=23144",
-        "revisionId": 23144,
-        "revisionTimestamp": "2026-09-13T22:03:30Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=23822",
+        "revisionId": 23822,
+        "revisionTimestamp": "2026-09-20T19:07:40Z",
+        "fetchedAt": "2026-09-21T09:06:40.605Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -984,10 +984,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Geordie",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=23145",
-        "revisionId": 23145,
-        "revisionTimestamp": "2026-09-13T22:03:36Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=23823",
+        "revisionId": 23823,
+        "revisionTimestamp": "2026-09-20T19:08:45Z",
+        "fetchedAt": "2026-09-21T09:06:40.605Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1100,10 +1100,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=23399",
-        "revisionId": 23399,
-        "revisionTimestamp": "2026-09-14T18:51:30Z",
-        "fetchedAt": "2026-09-15T08:47:52.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=23773",
+        "revisionId": 23773,
+        "revisionTimestamp": "2026-09-20T17:27:48Z",
+        "fetchedAt": "2026-09-21T09:06:40.093Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1176,10 +1176,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Graveyard",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graveyard&oldid=23229",
-        "revisionId": 23229,
-        "revisionTimestamp": "2026-09-13T23:18:54Z",
-        "fetchedAt": "2026-09-14T09:04:47.142Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graveyard&oldid=23747",
+        "revisionId": 23747,
+        "revisionTimestamp": "2026-09-20T14:11:45Z",
+        "fetchedAt": "2026-09-21T09:06:42.016Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1257,10 +1257,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Halfmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=23122",
-        "revisionId": 23122,
-        "revisionTimestamp": "2026-09-13T21:58:59Z",
-        "fetchedAt": "2026-09-14T09:04:45.672Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=23763",
+        "revisionId": 23763,
+        "revisionTimestamp": "2026-09-20T17:14:51Z",
+        "fetchedAt": "2026-09-21T09:06:40.603Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1302,10 +1302,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hammerhead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=23115",
-        "revisionId": 23115,
-        "revisionTimestamp": "2026-09-13T21:54:06Z",
-        "fetchedAt": "2026-09-14T09:04:45.671Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=23761",
+        "revisionId": 23761,
+        "revisionTimestamp": "2026-09-20T17:12:25Z",
+        "fetchedAt": "2026-09-21T09:06:40.602Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1391,10 +1391,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Houndgar",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Houndgar&oldid=23136",
-        "revisionId": 23136,
-        "revisionTimestamp": "2026-09-13T22:01:42Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Houndgar&oldid=23776",
+        "revisionId": 23776,
+        "revisionTimestamp": "2026-09-20T17:31:25Z",
+        "fetchedAt": "2026-09-21T09:06:40.604Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1436,10 +1436,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hoverthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=23152",
-        "revisionId": 23152,
-        "revisionTimestamp": "2026-09-13T22:04:16Z",
-        "fetchedAt": "2026-09-14T09:04:45.674Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=23785",
+        "revisionId": 23785,
+        "revisionTimestamp": "2026-09-20T17:43:52Z",
+        "fetchedAt": "2026-09-21T09:06:40.606Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1482,10 +1482,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=23715",
-        "revisionId": 23715,
-        "revisionTimestamp": "2026-09-19T13:53:14Z",
-        "fetchedAt": "2026-09-20T08:41:49.203Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=23864",
+        "revisionId": 23864,
+        "revisionTimestamp": "2026-09-20T20:45:22Z",
+        "fetchedAt": "2026-09-21T09:06:40.607Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1597,10 +1597,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Jetocaris",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jetocaris&oldid=23138",
-        "revisionId": 23138,
-        "revisionTimestamp": "2026-09-13T22:02:14Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Jetocaris&oldid=23777",
+        "revisionId": 23777,
+        "revisionTimestamp": "2026-09-20T17:33:04Z",
+        "fetchedAt": "2026-09-21T09:06:40.604Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1675,10 +1675,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead&oldid=23395",
-        "revisionId": 23395,
-        "revisionTimestamp": "2026-09-14T18:50:13Z",
-        "fetchedAt": "2026-09-15T08:47:52.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lead&oldid=23769",
+        "revisionId": 23769,
+        "revisionTimestamp": "2026-09-20T17:23:09Z",
+        "fetchedAt": "2026-09-21T09:06:40.093Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1751,10 +1751,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lithium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium&oldid=23458",
-        "revisionId": 23458,
-        "revisionTimestamp": "2026-09-14T19:12:01Z",
-        "fetchedAt": "2026-09-15T08:47:52.994Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium&oldid=23797",
+        "revisionId": 23797,
+        "revisionTimestamp": "2026-09-20T17:53:05Z",
+        "fetchedAt": "2026-09-21T09:06:40.096Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1988,10 +1988,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Needler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=23143",
-        "revisionId": 23143,
-        "revisionTimestamp": "2026-09-13T22:03:22Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=23779",
+        "revisionId": 23779,
+        "revisionTimestamp": "2026-09-20T17:36:31Z",
+        "fetchedAt": "2026-09-21T09:06:40.604Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2146,10 +2146,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Periscopic_Clowncrab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=23135",
-        "revisionId": 23135,
-        "revisionTimestamp": "2026-09-13T22:01:35Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=23775",
+        "revisionId": 23775,
+        "revisionTimestamp": "2026-09-20T17:29:48Z",
+        "fetchedAt": "2026-09-21T09:06:40.604Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2264,10 +2264,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pneuma",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=23149",
-        "revisionId": 23149,
-        "revisionTimestamp": "2026-09-13T22:04:00Z",
-        "fetchedAt": "2026-09-14T09:04:45.674Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=23782",
+        "revisionId": 23782,
+        "revisionTimestamp": "2026-09-20T17:41:11Z",
+        "fetchedAt": "2026-09-21T09:06:40.605Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2305,10 +2305,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Quartz",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=23400",
-        "revisionId": 23400,
-        "revisionTimestamp": "2026-09-14T18:51:48Z",
-        "fetchedAt": "2026-09-15T08:47:52.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Quartz&oldid=23774",
+        "revisionId": 23774,
+        "revisionTimestamp": "2026-09-20T17:28:33Z",
+        "fetchedAt": "2026-09-21T09:06:40.094Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2412,10 +2412,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Salt",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Salt&oldid=23397",
-        "revisionId": 23397,
-        "revisionTimestamp": "2026-09-14T18:50:53Z",
-        "fetchedAt": "2026-09-15T08:47:52.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Salt&oldid=23771",
+        "revisionId": 23771,
+        "revisionTimestamp": "2026-09-20T17:25:32Z",
+        "fetchedAt": "2026-09-21T09:06:40.093Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2426,7 +2426,7 @@
         "group": "Raw Materials",
         "biomes": [
           "Graveyard",
-          "Sparse Plains",
+          "Intermediary Basin",
           "Overgrown Ruins",
           "Root Canyon"
         ]
@@ -2454,10 +2454,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sandspear",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=23133",
-        "revisionId": 23133,
-        "revisionTimestamp": "2026-09-13T22:01:09Z",
-        "fetchedAt": "2026-09-14T09:04:45.673Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sandspear&oldid=23818",
+        "revisionId": 23818,
+        "revisionTimestamp": "2026-09-20T19:05:52Z",
+        "fetchedAt": "2026-09-21T09:06:40.603Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2538,10 +2538,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=23618",
-        "revisionId": 23618,
-        "revisionTimestamp": "2026-09-16T01:18:07Z",
-        "fetchedAt": "2026-09-16T08:41:46.339Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=23807",
+        "revisionId": 23807,
+        "revisionTimestamp": "2026-09-20T18:55:14Z",
+        "fetchedAt": "2026-09-21T09:06:40.602Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2581,10 +2581,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Male",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Male&oldid=23619",
-        "revisionId": 23619,
-        "revisionTimestamp": "2026-09-16T01:18:26Z",
-        "fetchedAt": "2026-09-16T08:41:46.343Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Male&oldid=23847",
+        "revisionId": 23847,
+        "revisionTimestamp": "2026-09-20T19:23:00Z",
+        "fetchedAt": "2026-09-21T09:06:40.607Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2622,10 +2622,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=23398",
-        "revisionId": 23398,
-        "revisionTimestamp": "2026-09-14T18:51:12Z",
-        "fetchedAt": "2026-09-15T08:47:52.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=23772",
+        "revisionId": 23772,
+        "revisionTimestamp": "2026-09-20T17:26:34Z",
+        "fetchedAt": "2026-09-21T09:06:40.093Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2810,10 +2810,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sulfur",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=23396",
-        "revisionId": 23396,
-        "revisionTimestamp": "2026-09-14T18:50:35Z",
-        "fetchedAt": "2026-09-15T08:47:52.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=23770",
+        "revisionId": 23770,
+        "revisionTimestamp": "2026-09-20T17:23:59Z",
+        "fetchedAt": "2026-09-21T09:06:40.093Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2850,10 +2850,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Surge_Jelly",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=23155",
-        "revisionId": 23155,
-        "revisionTimestamp": "2026-09-13T22:04:31Z",
-        "fetchedAt": "2026-09-14T09:04:45.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=23826",
+        "revisionId": 23826,
+        "revisionTimestamp": "2026-09-20T19:10:38Z",
+        "fetchedAt": "2026-09-21T09:06:40.607Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2892,10 +2892,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=22993",
-        "revisionId": 22993,
-        "revisionTimestamp": "2026-09-09T12:09:00Z",
-        "fetchedAt": "2026-09-10T08:14:23.620Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=23859",
+        "revisionId": 23859,
+        "revisionTimestamp": "2026-09-20T19:33:55Z",
+        "fetchedAt": "2026-09-21T09:06:41.035Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2930,10 +2930,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Haul_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=22486",
-        "revisionId": 22486,
-        "revisionTimestamp": "2026-08-30T20:30:31Z",
-        "fetchedAt": "2026-08-31T09:54:39.098Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Haul_Chassis&oldid=23820",
+        "revisionId": 23820,
+        "revisionTimestamp": "2026-09-20T19:06:46Z",
+        "fetchedAt": "2026-09-21T09:06:41.035Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2968,10 +2968,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Scout_Ray_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=22489",
-        "revisionId": 22489,
-        "revisionTimestamp": "2026-08-30T20:42:39Z",
-        "fetchedAt": "2026-08-31T09:54:39.098Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=23819",
+        "revisionId": 23819,
+        "revisionTimestamp": "2026-09-20T19:06:18Z",
+        "fetchedAt": "2026-09-21T09:06:41.035Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3008,10 +3008,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=23393",
-        "revisionId": 23393,
-        "revisionTimestamp": "2026-09-14T18:48:08Z",
-        "fetchedAt": "2026-09-15T08:47:52.990Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=23768",
+        "revisionId": 23768,
+        "revisionTimestamp": "2026-09-20T17:20:28Z",
+        "fetchedAt": "2026-09-21T09:06:40.093Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3082,10 +3082,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=23217",
-        "revisionId": 23217,
-        "revisionTimestamp": "2026-09-13T22:19:26Z",
-        "fetchedAt": "2026-09-14T09:04:45.184Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=23795",
+        "revisionId": 23795,
+        "revisionTimestamp": "2026-09-20T17:52:04Z",
+        "fetchedAt": "2026-09-21T09:06:40.096Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3122,10 +3122,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Twin_Sitaray",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=23154",
-        "revisionId": 23154,
-        "revisionTimestamp": "2026-09-13T22:04:25Z",
-        "fetchedAt": "2026-09-14T09:04:45.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=23786",
+        "revisionId": 23786,
+        "revisionTimestamp": "2026-09-20T17:44:38Z",
+        "fetchedAt": "2026-09-21T09:06:40.607Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3283,10 +3283,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Waxmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Waxmoon&oldid=23124",
-        "revisionId": 23124,
-        "revisionTimestamp": "2026-09-13T21:59:19Z",
-        "fetchedAt": "2026-09-14T09:04:45.672Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Waxmoon&oldid=23815",
+        "revisionId": 23815,
+        "revisionTimestamp": "2026-09-20T19:04:14Z",
+        "fetchedAt": "2026-09-21T09:06:40.603Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

@@ -1,4 +1,5 @@
 import { mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -930,6 +931,7 @@ function decorate(sourceHtml, pagePath, locale) {
   html = html.replaceAll(pathBase, `${pathBase}${locale}/`)
     .replaceAll(`${pathBase}${locale}/styles.css`, `${pathBase}styles.css`)
     .replaceAll(`${pathBase}${locale}/guide.css`, `${pathBase}guide.css`)
+    .replaceAll(`${pathBase}${locale}/assets/`, `${pathBase}assets/`)
     .replaceAll(`${pathBase}${locale}/favicon.svg`, `${pathBase}favicon.svg`)
     .replaceAll(`${pathBase}${locale}/app.js`, `${pathBase}app.js`)
     .replaceAll(`${pathBase}${locale}/data/`, `${pathBase}data/`)
@@ -955,6 +957,9 @@ async function scanHtmlFiles(dir, prefix = "") {
   const result = [];
   for (const entry of entries) {
     if (entry.name.startsWith(".")) continue;
+    // 站点验证/校验类裸文件（如 Google Search Console 的 googledb….html）不参与多语言复制，
+    // 否则会在 /zh-cn、/ru 下生成无 <title> 的垃圾页并破坏 check-site 校验。
+    if (/^google[a-z0-9-]+\.html$/i.test(entry.name)) continue;
     const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
     if (entry.isDirectory()) {
       if (skipDirs.has(entry.name)) continue;
@@ -1016,6 +1021,8 @@ const nonEnLocales = Object.keys(locales).filter((l) => l !== "en");
 
 function classifyPath(pagePath) {
   if (pagePath.startsWith("questions.html") || pagePath.startsWith("questions/")) return "questions";
+  // 实体总览页属于核心页，优先级高于逐条实体记录
+  if (/^guide\/(?:items|biomes|creatures|resources|vehicles)\/index\.html$/.test(pagePath)) return "core";
   if (pagePath.startsWith("guide/items/") || pagePath.startsWith("guide/biomes/") || pagePath.startsWith("guide/creatures/") || pagePath.startsWith("guide/resources/") || pagePath.startsWith("guide/vehicles/")) return "database";
   return "core";
 }
@@ -1026,26 +1033,66 @@ function buildUrlEntry(loc, lastmod, priority) {
 
 const buckets = { core: [], questions: [], database: [] };
 
-// Root (English) URLs — use per-page lastmod from data files, fall back to existing sitemap, then siteLastModified
+// --- lastmod 只在实质内容变化时才前移 ---
+// 背景：每天自动同步 Wiki 会把 revisionId / "Wiki updated" 日期写进每一页，
+// 但配方正文逐字未变。原先 lastmod 直接取 revisionTimestamp，导致全站 1023 条
+// URL 的 lastmod 每天集体前移，Google 会因此衰减对 sitemap 的信任。
+// 做法：先把已知的易变字段归一化，再对 HTML 取哈希；哈希不变则沿用上次 lastmod。
+const VOLATILE_PATTERNS = [
+  /(<dt>Revision<\/dt><dd><a[^>]*>)[^<]*(<\/dd>)/g,
+  /(<dt>Revision<\/dt><dd><a[^>]*>[^<]*<\/a><\/dd><div><dt>Wiki updated<\/dt><dd>)[^<]*(<\/dd>)/g,
+  /(<dt>Wiki updated<\/dt><dd>)[^<]*(<\/dd>)/g,
+  /(rev )\d+/g,
+  /(&oldid=)\d+/g,
+  /(\.png\?)[0-9a-zA-Z]+/g,
+  /(Scanner_Station\.png\?)[0-9a-zA-Z]+/g,
+  /("revisionId":)\s*"?\d+/g,
+  /("revisionTimestamp":)\s*"[^"]*"/g,
+  /("fetchedAt":)\s*"[^"]*"/g,
+  /(Official Wiki import · )[\d-]+/g,
+  /(Evidence policy active from )[\d-]+/g,
+];
+const normalizeVolatile = (html) => VOLATILE_PATTERNS.reduce((acc, re) => acc.replace(re, "$1§$2"), html);
+const hashOf = (html) => createHash("sha256").update(normalizeVolatile(html)).digest("hex").slice(0, 16);
+const todayIso = new Date().toISOString().slice(0, 10);
+const storedHashes = await readFile(path.join(root, "data", "page-hashes.json"), "utf8")
+  .then((text) => JSON.parse(text)).catch(() => ({ schemaVersion: "1.0.0", pages: {} }));
+if (!storedHashes.pages) storedHashes.pages = {};
+const nextPageHashes = {};
+
+async function stableLastmod(relPath, loc, fallback) {
+  const html = await readFile(path.join(root, relPath), "utf8").catch(() => null);
+  if (html === null) return existingLastmodMap.get(loc) || fallback || todayIso;
+  const hash = hashOf(html);
+  const previous = storedHashes.pages[loc];
+  let lastmod;
+  if (previous && previous.hash === hash) lastmod = previous.lastmod;
+  else if (!previous) lastmod = existingLastmodMap.get(loc) || fallback || todayIso;
+  else lastmod = todayIso;
+  nextPageHashes[loc] = { hash, lastmod };
+  return lastmod;
+}
+
+// Root (English) URLs
 for (const pagePath of pagePaths) {
   const urlPath = pagePath === "index.html" ? "" : pagePath;
   const loc = `${siteBase}${urlPath}`;
-  const lastmod = resolveLastmod(pagePath) || existingLastmodMap.get(loc) || siteLastModified;
+  const lastmod = await stableLastmod(pagePath, loc, resolveLastmod(pagePath) || siteLastModified);
   const priority = pagePath === "index.html" ? "1.0" : "0.8";
   buckets[classifyPath(pagePath)].push(buildUrlEntry(loc, lastmod, priority));
 }
 
-// Locale URLs (zh-cn, ru only — no /en/) — inherit root lastmod
+// Locale URLs (zh-cn, ru only — no /en/)
 for (const locale of nonEnLocales) {
   for (const pagePath of pagePaths) {
     const urlPath = `${locale}/${pagePath === "index.html" ? "" : pagePath}`;
     const loc = `${siteBase}${urlPath}`;
-    const rootLoc = `${siteBase}${pagePath === "index.html" ? "" : pagePath}`;
-    const lastmod = resolveLastmod(pagePath) || existingLastmodMap.get(rootLoc) || existingLastmodMap.get(loc) || siteLastModified;
+    const lastmod = await stableLastmod(`${locale}/${pagePath}`, loc, siteLastModified);
     const priority = pagePath === "index.html" ? "0.9" : "0.7";
     buckets[classifyPath(pagePath)].push(buildUrlEntry(loc, lastmod, priority));
   }
 }
+await writeFile(path.join(root, "data", "page-hashes.json"), `${JSON.stringify({ schemaVersion: "1.0.0", pages: nextPageHashes }, null, 2)}\n`);
 
 function sitemapBody(urls) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;

@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readSitemapContents } from "./sitemap-utils.mjs";
+import { buildSeoMeta, applySeoMeta, corePageMeta } from "./seo-meta.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const base = "/subnautica-2-guide/";
@@ -16,6 +17,13 @@ for (const item of items.items) {
 }
 for (const entity of entities.entities) {
   if (entity.media) imageByPage.set(`guide/${entity.kind}/${entity.id}.html`, { ...entity.media, title: entity.title });
+}
+// 实体总览页的代表图：取该类型里第一个有图的记录，避免总览页显示「暂无图片」。
+for (const kind of ["items", "resources", "creatures", "biomes", "vehicles"]) {
+  if (imageByPage.has(`guide/${kind}/index.html`)) continue;
+  const pool = kind === "items" ? items.items : entities.entities.filter((entity) => entity.kind === kind);
+  const withImage = pool.find((entry) => entry.media);
+  if (withImage) imageByPage.set(`guide/${kind}/index.html`, { ...withImage.media, title: withImage.title });
 }
 
 const guides = [
@@ -129,6 +137,18 @@ for (const src of items.items) {
   }
 }
 const creaturesByBiome = new Map();
+// title -> 该实体被哪些成品当作原料使用（用于资源页 description 的「能合成什么」）
+const usesByTitle = new Map();
+for (const src of items.items) {
+  if (src.status !== "wiki-backed") continue;
+  for (const recipe of src.recipes) {
+    for (const ingredient of recipe.ingredients) {
+      if (!usesByTitle.has(ingredient.item)) usesByTitle.set(ingredient.item, []);
+      const bucket = usesByTitle.get(ingredient.item);
+      if (!bucket.includes(src.title)) bucket.push(src.title);
+    }
+  }
+}
 for (const entity of entities.entities) {
   if (entity.kind === "creatures" && entity.status === "wiki-backed" && Array.isArray(entity.facts?.biomes)) {
     for (const biome of entity.facts.biomes) {
@@ -214,6 +234,24 @@ const buildRelatedRecords = (kind, id, locale) => {
 // entity disambiguation / E-E-A-T. dateModified uses the real wiki revision
 // timestamp when available (stronger freshness than the build date).
 const SITE_URL = "https://specialzhou.github.io/subnautica-2-guide/";
+// datePublished 表示「本页首次发布」，必须稳定；Wiki revision 时间戳每天同步都会前移，
+// 用它当 datePublished 会让 Google 看到全站假更新。这里改为首次落盘即锁定。
+const publishedDatesPath = path.join(root, "data", "published-dates.json");
+const publishedDates = await readFile(publishedDatesPath, "utf8").then((text) => JSON.parse(text)).catch(() => ({ schemaVersion: "1.0.0", dates: {} }));
+if (!publishedDates.dates) publishedDates.dates = {};
+// 首次落盘时的种子：用该页在 sitemap 里已有的 lastmod（代表本站已发布日期），
+// 而不是 Wiki 的 revisionTimestamp——后者每天同步都会前移，会让 datePublished 一起漂移。
+const pageHashes = await readFile(path.join(root, "data", "page-hashes.json"), "utf8").then((text) => JSON.parse(text)).catch(() => ({ pages: {} }));
+const seedDateFor = (relPath) => {
+  const loc = `${SITE_URL}${relPath}`;
+  const lastmod = pageHashes.pages?.[loc]?.lastmod ?? pageHashes.pages?.[`${SITE_URL}${relPath.replace("index.html", "")}`]?.lastmod;
+  return lastmod ? `${lastmod}T00:00:00Z` : new Date().toISOString();
+};
+const firstSeenAt = new Date().toISOString();
+const publishedDateFor = (key) => {
+  if (!publishedDates.dates[key]) publishedDates.dates[key] = seedDateFor(key);
+  return publishedDates.dates[key];
+};
 const publisherNode = { "@type": "Organization", "name": "Subnautica 2 Evidence Guide", "url": SITE_URL };
 const descTemplates = {
   en: {
@@ -263,7 +301,7 @@ const buildEntityJsonLd = (kind, id, locale, pagePath) => {
     "headline": name,
     "description": description,
     ...(image ? { "image": image } : {}),
-    "datePublished": dateModified,
+    "datePublished": publishedDateFor(`guide/${kind}/${id}.html`),
     "dateModified": dateModified,
     "author": publisherNode,
     "publisher": publisherNode,
@@ -323,6 +361,19 @@ const FAQ = {
     overview: (n, d) => ({ q: `Что такое ${n} в Subnautica 2?`, a: d }),
   },
 };
+// FAQ 兜底答案：复用按数据生成的 SEO 描述，避免出现「问题自指」式非答案。
+const seoSummary = (kind, id, locale, dataObj) => {
+  const meta = buildSeoMeta({
+    pagePath: `guide/${kind}/${id}.html`,
+    locale,
+    items: items.items,
+    entities: entities.entities,
+    playerQuestions: playerQuestions.questions,
+    localizedNames,
+    usesByTitle,
+  });
+  return meta?.description ?? null;
+};
 const buildEntityFaq = (kind, id, locale) => {
   const l = locale === "zh-cn" || locale === "ru" ? locale : "en";
   const t = FAQ[l];
@@ -360,7 +411,7 @@ const buildEntityFaq = (kind, id, locale) => {
     if (f.source && f.fragments) pairs.push(t.getVehicle(name, f.source, f.fragments));
     if (f.depth) pairs.push(t.depthVehicle(name, f.depth));
   }
-  while (pairs.length < 2) pairs.push(t.overview(name, desc));
+  while (pairs.length < 2) pairs.push(t.overview(name, seoSummary(kind, id, locale, dataObj) ?? desc));
   const chosen = pairs.slice(0, 4);
   const itemsHtml = chosen.map((p) => `<div class="faq__item"><h3 class="faq__q">${escapeHtml(p.q)}</h3><p class="faq__a">${escapeHtml(p.a)}</p></div>`).join("");
   const html = `<section class="entity-faq" aria-labelledby="entity-faq-title"><h2 id="entity-faq-title">${escapeHtml(faqHeading[l])}</h2>${itemsHtml}</section>`;
@@ -421,6 +472,72 @@ const mediaUnavailable = (locale) => {
   return `<div class="record-media record-media--empty" data-image-status="unavailable"><span>${text}</span></div>`;
 };
 
+// --- hub 页结构化数据 ---
+// 原先 57 个核心页完全没有 JSON-LD，而 912 个实体页挂着拿不到富结果的 FAQPage。
+// 这里给首页补 WebSite+SearchAction 与 VideoGame，给列表页补 ItemList，全部带面包屑。
+const SITE_NAME = "Subnautica 2 Evidence Guide";
+const breadcrumbFor = (pagePath, name) => ({
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Subnautica 2 Guide", "item": SITE_URL },
+    { "@type": "ListItem", "position": 2, "name": name, "item": `${SITE_URL}${pagePath}` },
+  ],
+});
+const guidehubLabels = { items: "Craftable items", resources: "Resources", creatures: "Creatures", biomes: "Biomes", vehicles: "Vehicles" };
+function buildHubJsonLd(unlocalizedPath, locale, pagePath) {
+  if (unlocalizedPath === "index.html") {
+    const node = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": SITE_NAME,
+          "url": SITE_URL,
+          "inLanguage": locale === "zh-cn" ? "zh-CN" : locale === "ru" ? "ru" : "en",
+          "publisher": publisherNode,
+        },
+        {
+          "@type": "VideoGame",
+          "name": "Subnautica 2",
+          "url": `${SITE_URL}index.html`,
+          "genre": ["Survival", "Open world", "Underwater"],
+          "gamePlatform": ["Microsoft Windows", "PlayStation 5", "Xbox Series X|S"],
+          "publisher": { "@type": "Organization", "name": "Unknown Worlds Entertainment" },
+        },
+      ],
+    };
+    return node;
+  }
+  const hubMatch = unlocalizedPath.match(/^guide\/(items|resources|creatures|biomes|vehicles)\/index\.html$/);
+  if (hubMatch) {
+    const kind = hubMatch[1];
+    const source = kind === "items" ? items.items.filter((item) => item.status === "wiki-backed").map((item) => ({ title: item.title, id: item.id })) : entities.entities.filter((entity) => entity.kind === kind && entity.status === "wiki-backed").map((entity) => ({ title: entity.title, id: entity.id }));
+    const name = localizedName(guidehubLabels[kind], locale) ?? guidehubLabels[kind];
+    return {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": `${name} — Subnautica 2`,
+      "numberOfItems": source.length,
+      "itemListElement": source.slice(0, 200).map((entry, index) => ({ "@type": "ListItem", "position": index + 1, "name": localizedName(entry.title, locale), "url": `${SITE_URL}guide/${kind}/${entry.id}.html` })),
+      "breadcrumb": breadcrumbFor(pagePath, name),
+    };
+  }
+  if (corePageMeta[unlocalizedPath]) {
+    const meta = corePageMeta[unlocalizedPath][locale] ?? corePageMeta[unlocalizedPath].en;
+    return {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": meta.title,
+      "description": meta.description,
+      "url": `${SITE_URL}${pagePath.replace("index.html", "")}`,
+      "inLanguage": locale === "zh-cn" ? "zh-CN" : locale === "ru" ? "ru" : "en",
+      "isPartOf": { "@type": "WebSite", "name": SITE_NAME, "url": SITE_URL },
+      "breadcrumb": breadcrumbFor(pagePath, meta.title),
+    };
+  }
+  return null;
+}
+
 for (const pagePath of [...new Set(pagePaths)]) {
   const filePath = path.join(root, pagePath);
   let html = await readFile(filePath, "utf8");
@@ -434,6 +551,16 @@ for (const pagePath of [...new Set(pagePaths)]) {
     .replace(/<section class="player-pain-section"[\s\S]*?<\/section>/, "")
     .replace(/<(figure|div) class="record-media[^"]*"[^>]*>.*?<\/\1>/s, "");
   const locale = pagePath.match(/^(en|zh-cn|ru)\//)?.[1] ?? "en";
+  const seoMeta = buildSeoMeta({
+    pagePath,
+    locale,
+    items: items.items,
+    entities: entities.entities,
+    playerQuestions: playerQuestions.questions,
+    localizedNames,
+    usesByTitle,
+  });
+  html = applySeoMeta(html, seoMeta);
   const searchCopy = locale === "zh-cn" ? "搜索" : locale === "ru" ? "Поиск" : "Search";
   html = html.replace("</head>", `<link rel="stylesheet" href="${base}questions.css?v=2"><link rel="stylesheet" href="${base}search.css?v=4"></head>`);
   html = html.replace("</nav>", `<button class="global-search-trigger" type="button" aria-label="${searchCopy}"><span aria-hidden="true">⌕</span><span>${searchCopy}</span><kbd>/</kbd></button></nav>`);
@@ -450,7 +577,7 @@ for (const pagePath of [...new Set(pagePaths)]) {
   }
   const image = imageByPage.get(unlocalizedPath);
   if (/<article class="entity-hero">/.test(html)) html = html.replace(/(<article class="entity-hero">.*?<p class="lede">.*?<\/p>)/s, `$1${image ? mediaFigure(image, locale) : mediaUnavailable(locale)}`);
-  const entityMatch = pagePath.match(/^(?:(?:en|zh-cn|ru)\/)?guide\/(items|creatures|vehicles|biomes|resources)\/([^/]+)\.html$/);
+  const entityMatch = pagePath.match(/^(?:(?:en|zh-cn|ru)\/)?guide\/(items|creatures|vehicles|biomes|resources)\/(?!index\.html$)([^/]+)\.html$/);
   if (entityMatch) {
     const [, kind, id] = entityMatch;
     html = html.replace(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/, "");
@@ -470,9 +597,27 @@ for (const pagePath of [...new Set(pagePaths)]) {
       html = html.replace(/<!-- faq-jsonld -->[\s\S]*?<!-- \/faq-jsonld -->/, "");
       html = html.replace("</body>", `<!-- faq-jsonld --><script type="application/ld+json">${faqString}</script><!-- /faq-jsonld -->\n</body>`);
     }
+  } else {
+    const hubJsonLd = buildHubJsonLd(unlocalizedPath, locale, pagePath);
+    html = html.replace(/<!-- hub-jsonld -->[\s\S]*?<!-- \/hub-jsonld -->/, "");
+    if (hubJsonLd) {
+      const hubString = JSON.stringify(hubJsonLd).replace(/</g, "\\u003c");
+      html = html.replace("</body>", `<!-- hub-jsonld --><script type="application/ld+json">${hubString}</script><!-- /hub-jsonld -->\n</body>`);
+    }
   }
+  // 全站页脚挂上 5 个实体总览页，给它们可被抓取的内链入口（否则新页只存在于 sitemap 里）。
+  html = html.replace(/<!-- index-links -->[\s\S]*?<!-- \/index-links -->/, "");
+  const indexLinkCopy = {
+    en: { heading: "Full indexes", labels: { items: "All items", resources: "All resources", creatures: "All creatures", biomes: "All biomes", vehicles: "All vehicles" } },
+    "zh-cn": { heading: "完整索引", labels: { items: "全部物品", resources: "全部材料", creatures: "全部生物", biomes: "全部生物群系", vehicles: "全部载具" } },
+    ru: { heading: "Полные списки", labels: { items: "Все предметы", resources: "Все ресурсы", creatures: "Все существ", biomes: "Все биомы", vehicles: "Весь транспорт" } },
+  };
+  const copy = indexLinkCopy[locale] ?? indexLinkCopy.en;
+  const indexLinksHtml = `<!-- index-links --><nav class="index-links" aria-label="${copy.heading}"><p class="eyebrow">${copy.heading}</p><ul>${["items", "resources", "creatures", "biomes", "vehicles"].map((kind) => `<li><a href="${base}guide/${kind}/index.html">${copy.labels[kind]}</a></li>`).join("")}</ul></nav><!-- /index-links -->`;
+  html = html.replace(/<\/footer>/, `${indexLinksHtml}</footer>`);
   html = html.replace("</body>", `<script defer src="${base}analytics.js?v=1"></script><script defer src="${base}search.js?v=5"></script></body>`);
   await writeFile(filePath, html);
 }
 
+await writeFile(publishedDatesPath, `${JSON.stringify({ schemaVersion: "1.0.0", dates: publishedDates.dates }, null, 2)}\n`);
 process.stdout.write(`Enhanced ${new Set(pagePaths).size} pages and indexed ${index.length} records.\n`);

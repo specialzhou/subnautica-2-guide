@@ -20,6 +20,9 @@ const htmlFiles = await collect(root);
 for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
   const relative = path.relative(root, file);
+  // Root-level search engine ownership verification files carry a bare token,
+  // so they are excluded from guide metadata checks.
+  if (/^(?:google|bing|yandex|baidu|naver|sezn)[a-z0-9_-]*\.html$/i.test(relative)) continue;
   if (!/<title>[^<]+<\/title>/.test(html)) failures.push(`${relative}: missing title`);
   if (!/<link rel="canonical" href="https:\/\/specialzhou\.github\.io\/subnautica-2-guide\//.test(html)) failures.push(`${relative}: missing canonical`);
   if (!/<main\b/.test(html)) failures.push(`${relative}: missing main landmark`);
@@ -29,7 +32,7 @@ for (const file of htmlFiles) {
     if (!html.includes('type="application/ld+json"') || !html.includes('"@type":"BreadcrumbList"') || !html.includes('"@type":"QAPage"')) failures.push(`${relative}: missing QAPage structured data`);
     if (!/<meta name="description" content="[^"]+">/.test(html)) failures.push(`${relative}: missing detail description`);
   }
-  const entityMatch = relative.match(/^(?:en[\\/]|zh-cn[\\/]|ru[\\/])?guide\/(?:items|creatures|vehicles|biomes|resources)\/[^/]+\.html$/);
+  const entityMatch = relative.match(/^(?:en[\\/]|zh-cn[\\/]|ru[\\/])?guide\/(?:items|creatures|vehicles|biomes|resources)\/(?!index\.html$)[^/]+\.html$/);
   if (entityMatch) {
     const section = html.match(/<section class="related-records"[^>]*>[\s\S]*?<\/section>/);
     if (!section) {

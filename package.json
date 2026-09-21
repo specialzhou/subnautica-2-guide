@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "import:wiki": "node scripts/import-wiki.mjs && node scripts/import-entities.mjs && node scripts/import-story.mjs && node scripts/import-official.mjs && node scripts/import-localized-names.mjs && node scripts/generate-player-questions.mjs && node scripts/generate-locales.mjs && node scripts/generate-player-questions.mjs && node scripts/enhance-site.mjs",
-    "questions": "node scripts/generate-player-questions.mjs && node scripts/generate-locales.mjs && node scripts/generate-player-questions.mjs && node scripts/enhance-site.mjs",
+    "import:wiki": "node scripts/import-wiki.mjs && node scripts/import-entities.mjs && node scripts/import-story.mjs && node scripts/import-official.mjs && node scripts/import-localized-names.mjs && node scripts/generate-player-questions.mjs && node scripts/generate-entity-index.mjs && node scripts/generate-locales.mjs && node scripts/generate-player-questions.mjs && node scripts/enhance-site.mjs",
+    "questions": "node scripts/generate-player-questions.mjs && node scripts/generate-entity-index.mjs && node scripts/generate-locales.mjs && node scripts/generate-player-questions.mjs && node scripts/enhance-site.mjs",
+    "index:entities": "node scripts/generate-entity-index.mjs",
     "collect:questions": "node scripts/collect-player-question-candidates.mjs --max-details=4",
     "test:collector": "node scripts/test-player-question-collector.mjs",
     "review:question": "node scripts/create-player-question-review.mjs",

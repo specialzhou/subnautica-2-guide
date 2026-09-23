@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-22T08:39:14.640Z",
+  "detectedAt": "2026-09-23T08:41:34.021Z",
   "changes": [
     {
-      "id": "grease",
-      "title": "Grease",
+      "id": "processor",
+      "title": "Processor",
       "change": "updated",
-      "previousRevisionId": 20251,
-      "revisionId": 23888,
+      "previousRevisionId": 23227,
+      "revisionId": 23896,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

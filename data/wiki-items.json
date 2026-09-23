@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-22T08:39:14.640Z",
+  "generatedAt": "2026-09-23T08:41:34.021Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -6953,10 +6953,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Processor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Processor&oldid=23227",
-        "revisionId": 23227,
-        "revisionTimestamp": "2026-09-13T23:18:47Z",
-        "fetchedAt": "2026-09-14T09:04:43.922Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Processor&oldid=23896",
+        "revisionId": 23896,
+        "revisionTimestamp": "2026-09-22T18:46:14Z",
+        "fetchedAt": "2026-09-23T08:41:36.179Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10437,7 +10437,8 @@
       "categories": [
         "Crafted with Fabricator",
         "Section stubs",
-        "Tank equipment"
+        "Tank equipment",
+        "Unimplemented items"
       ],
       "availableByDefault": false,
       "unlock": {

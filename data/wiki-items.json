@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-23T08:41:34.021Z",
+  "generatedAt": "2026-09-25T08:56:10.810Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -3048,10 +3048,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dive_Elevator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=22872",
-        "revisionId": 22872,
-        "revisionTimestamp": "2026-09-03T09:08:47Z",
-        "fetchedAt": "2026-09-04T08:04:08.850Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=23954",
+        "revisionId": 23954,
+        "revisionTimestamp": "2026-09-24T19:02:42Z",
+        "fetchedAt": "2026-09-25T08:56:12.731Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6364,7 +6364,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Articles needing action",
+        "Articles needing improvement",
         "Crafted with Habitat Builder",
         "Discontinued content",
         "Furniture",
@@ -6393,10 +6393,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pioneer_Hull_Plate",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pioneer_Hull_Plate&oldid=23437",
-        "revisionId": 23437,
-        "revisionTimestamp": "2026-09-14T19:04:40Z",
-        "fetchedAt": "2026-09-15T08:47:51.451Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pioneer_Hull_Plate&oldid=23983",
+        "revisionId": 23983,
+        "revisionTimestamp": "2026-09-24T20:54:56Z",
+        "fetchedAt": "2026-09-25T08:56:12.738Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8219,7 +8219,7 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Articles needing action",
+        "Articles needing improvement",
         "Crafted with Habitat Builder",
         "Discontinued content",
         "Furniture",
@@ -8249,10 +8249,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Seamoth_Model",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=21166",
-        "revisionId": 21166,
-        "revisionTimestamp": "2026-08-18T13:40:46Z",
-        "fetchedAt": "2026-08-24T17:09:21.527Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=23984",
+        "revisionId": 23984,
+        "revisionTimestamp": "2026-09-24T20:55:21Z",
+        "fetchedAt": "2026-09-25T08:56:12.740Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

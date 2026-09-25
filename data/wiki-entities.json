@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-23T08:41:36.957Z",
+  "generatedAt": "2026-09-25T08:56:13.319Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -306,18 +306,18 @@
       "exclusionReasons": [],
       "categories": [
         "Aggressive",
+        "Articles in need of cleanup",
         "Bioscannables",
         "Predators",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullethead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=23783",
-        "revisionId": 23783,
-        "revisionTimestamp": "2026-09-20T17:42:04Z",
-        "fetchedAt": "2026-09-21T09:06:40.606Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullethead&oldid=23971",
+        "revisionId": 23971,
+        "revisionTimestamp": "2026-09-24T20:32:20Z",
+        "fetchedAt": "2026-09-25T08:56:14.289Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -444,10 +444,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=23764",
-        "revisionId": 23764,
-        "revisionTimestamp": "2026-09-20T17:15:37Z",
-        "fetchedAt": "2026-09-21T09:06:40.603Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=23956",
+        "revisionId": 23956,
+        "revisionTimestamp": "2026-09-24T19:44:48Z",
+        "fetchedAt": "2026-09-25T08:56:14.287Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -882,21 +882,21 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Articles in need of cleanup",
         "Bioreactor fuel",
         "Bioscannables",
         "Defensive",
         "Foragers",
         "Scannables",
-        "Section stubs",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flash_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=23158",
-        "revisionId": 23158,
-        "revisionTimestamp": "2026-09-13T22:04:53Z",
-        "fetchedAt": "2026-09-14T09:04:45.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=23969",
+        "revisionId": 23969,
+        "revisionTimestamp": "2026-09-24T20:31:25Z",
+        "fetchedAt": "2026-09-25T08:56:14.290Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -972,22 +972,22 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Articles in need of cleanup",
         "Bioreactor fuel",
         "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
         "Scannables",
-        "Section stubs",
         "Uncooked Food"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Geordie",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=23823",
-        "revisionId": 23823,
-        "revisionTimestamp": "2026-09-20T19:08:45Z",
-        "fetchedAt": "2026-09-21T09:06:40.605Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=23970",
+        "revisionId": 23970,
+        "revisionTimestamp": "2026-09-24T20:31:53Z",
+        "fetchedAt": "2026-09-25T08:56:14.288Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1473,19 +1473,19 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Articles in need of cleanup",
         "Bioscannables",
         "Passive",
         "Predators",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=23864",
-        "revisionId": 23864,
-        "revisionTimestamp": "2026-09-20T20:45:22Z",
-        "fetchedAt": "2026-09-21T09:06:40.607Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=23975",
+        "revisionId": 23975,
+        "revisionTimestamp": "2026-09-24T20:35:57Z",
+        "fetchedAt": "2026-09-25T08:56:14.290Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2031,10 +2031,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Nibbler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=23118",
-        "revisionId": 23118,
-        "revisionTimestamp": "2026-09-13T21:58:09Z",
-        "fetchedAt": "2026-09-14T09:04:45.672Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=23955",
+        "revisionId": 23955,
+        "revisionTimestamp": "2026-09-24T19:42:12Z",
+        "fetchedAt": "2026-09-25T08:56:14.286Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2136,20 +2136,20 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
+        "Articles in need of cleanup",
         "Bioscannables",
         "Foragers",
         "Lifeforms with Variants",
         "Passive",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Periscopic_Clowncrab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=23775",
-        "revisionId": 23775,
-        "revisionTimestamp": "2026-09-20T17:29:48Z",
-        "fetchedAt": "2026-09-21T09:06:40.604Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=23966",
+        "revisionId": 23966,
+        "revisionTimestamp": "2026-09-24T20:29:05Z",
+        "fetchedAt": "2026-09-25T08:56:14.287Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2844,16 +2844,15 @@
         "Bioscannables",
         "Defensive",
         "Foragers",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Surge_Jelly",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=23826",
-        "revisionId": 23826,
-        "revisionTimestamp": "2026-09-20T19:10:38Z",
-        "fetchedAt": "2026-09-21T09:06:40.607Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=23961",
+        "revisionId": 23961,
+        "revisionTimestamp": "2026-09-24T20:19:59Z",
+        "fetchedAt": "2026-09-25T08:56:14.290Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

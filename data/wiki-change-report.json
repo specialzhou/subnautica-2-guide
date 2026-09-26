@@ -1,31 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-25T08:56:10.810Z",
+  "detectedAt": "2026-09-26T08:42:18.472Z",
   "changes": [
     {
-      "id": "dive-elevator",
-      "title": "Dive Elevator",
+      "id": "vintage-wanted-poster",
+      "title": "Vintage Wanted poster",
       "change": "updated",
-      "previousRevisionId": 22872,
-      "revisionId": 23954,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "pioneer-hull-plate",
-      "title": "Pioneer Hull Plate",
-      "change": "updated",
-      "previousRevisionId": 23437,
-      "revisionId": 23983,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "seamoth-model",
-      "title": "Seamoth Model",
-      "change": "updated",
-      "previousRevisionId": 21166,
-      "revisionId": 23984,
+      "previousRevisionId": 22939,
+      "revisionId": 24040,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

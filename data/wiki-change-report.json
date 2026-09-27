@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-26T08:42:18.472Z",
+  "detectedAt": "2026-09-27T09:22:43.917Z",
   "changes": [
     {
-      "id": "vintage-wanted-poster",
-      "title": "Vintage Wanted poster",
+      "id": "necrolei-cyst",
+      "title": "Necrolei Cyst",
       "change": "updated",
-      "previousRevisionId": 22939,
-      "revisionId": 24040,
+      "previousRevisionId": 23852,
+      "revisionId": 24049,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

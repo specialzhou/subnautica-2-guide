@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, appendFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -11,6 +11,12 @@ import {
   parseAtomFeed,
   renderCandidateReport,
 } from "./lib/player-question-collector.mjs";
+import {
+  applyEvidenceAutoReview,
+  createPageEvidenceIndex,
+  defaultEvidencePolicy,
+  renderEvidenceReviewSummary,
+} from "./lib/question-evidence-review.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Map(process.argv.slice(2).map((arg) => {
@@ -27,6 +33,7 @@ const detailDelayMs = Number(args.get("detail-delay-ms") || 65000);
 const fetchAttempts = Math.max(1, Number(args.get("fetch-attempts") || 1));
 const fetchRetryDelayMs = Math.max(0, Number(args.get("fetch-retry-delay-ms") || 5000));
 const allowStaleFeed = args.has("allow-stale-feed");
+const skipAutoReview = args.has("no-auto-review");
 const feedsArg = args.get("feeds");
 const feedUrls = feedsArg ? String(feedsArg).split(",").map((value) => value.trim()).filter(Boolean) : [feedUrl];
 const now = process.env.COLLECTED_AT || new Date().toISOString();
@@ -96,6 +103,22 @@ for (const candidate of document.candidates) {
   candidate.possibleDuplicateOf = findPublishedDuplicate(candidate.title, published.questions);
 }
 
+// System evidence review: advances system-review -> ready-to-reply when the site
+// really does hold a trilingual, source-cited page that answers the question.
+// Without this step nothing ever reached the Reddit draft generator and the
+// traffic funnel sat at zero opportunities for seven weeks while CI stayed green.
+const reviewCounts = skipAutoReview
+  ? { promoted: 0, revoked: 0, held: 0, skippedHuman: 0, alreadyReady: 0, disabled: true }
+  : applyEvidenceAutoReview({
+    document,
+    searchIndex,
+    pageEvidence: createPageEvidenceIndex({ root }),
+    now,
+  });
+document.reviewPolicy = skipAutoReview ? { disabled: true } : { ...defaultEvidencePolicy, externalSourcePattern: undefined };
+document.counts.autoPromotedThisRun = reviewCounts.promoted;
+document.counts.autoRevokedThisRun = reviewCounts.revoked;
+
 const detailCandidates = document.candidates
   .filter((candidate) => candidate.review?.state === "system-review")
   .sort((a, b) => String(a.attention?.observedAt ?? "").localeCompare(String(b.attention?.observedAt ?? "")))
@@ -119,11 +142,22 @@ for (let index = 0; index < detailCandidates.length; index += 1) {
   }
 }
 
-document.candidates.sort((a, b) => (b.priorityScore ?? 0) - (a.priorityScore ?? 0) || (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt)));
+const statePriority = { "ready-to-reply": 0, "system-review": 1, dismissed: 2, promoted: 3 };
+document.candidates.sort((a, b) => ((statePriority[a.review?.state] ?? 9) - (statePriority[b.review?.state] ?? 9)) || (b.priorityScore ?? 0) - (a.priorityScore ?? 0) || (b.attention?.comments ?? -1) - (a.attention?.comments ?? -1) || b.painScore - a.painScore || String(b.publishedAt).localeCompare(String(a.publishedAt)));
 document.counts.total = document.candidates.length;
 document.counts.systemReview = document.candidates.filter((candidate) => candidate.review?.state === "system-review").length;
 document.counts.readyToReply = document.candidates.filter((candidate) => candidate.review?.state === "ready-to-reply").length;
 document.counts.dismissed = document.candidates.filter((candidate) => candidate.review?.state === "dismissed").length;
 await writeFile(outputPath, `${JSON.stringify(document, null, 2)}\n`);
-await writeFile(reportPath, renderCandidateReport(document));
-process.stdout.write(`Collected ${feedEntries.length} Reddit posts across ${subreddits.length} subreddit(s) (${subreddits.join(", ")}); added ${merged.added} pain candidates; ${detailCandidates.length} discussion counts checked.\n`);
+const reviewSummary = renderEvidenceReviewSummary({ document, counts: reviewCounts });
+await writeFile(reportPath, `${renderCandidateReport(document)}\n${reviewSummary}`);
+if (process.env.GITHUB_STEP_SUMMARY) {
+  await appendFile(process.env.GITHUB_STEP_SUMMARY, `\n${reviewSummary}\n`);
+}
+if (!document.counts.readyToReply) {
+  // Warning, not error: failing here would block the candidate commit step and
+  // turn a visibility problem into an actual outage. The hard failure lives in
+  // the traffic-opportunities workflow, which is the job that owns the output.
+  process.stderr.write("::warning title=Reddit 候选队列零出水::没有任何候选通过系统证据审核，流量机会生成器将持续返回 0 条。请查看本次 step summary 的卡住原因分布。\n");
+}
+process.stdout.write(`Collected ${feedEntries.length} Reddit posts across ${subreddits.length} subreddit(s) (${subreddits.join(", ")}); added ${merged.added} pain candidates; ${detailCandidates.length} discussion counts checked; evidence review promoted ${reviewCounts.promoted}/revoked ${reviewCounts.revoked}, ready-to-reply now ${document.counts.readyToReply}.\n`);

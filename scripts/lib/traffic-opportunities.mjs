@@ -130,14 +130,69 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
   return { generatedAt, count: selected.length, opportunities: selected };
 }
 
+const utcDay = (value) => String(value ?? "").slice(0, 10);
+
 export function buildTrafficOpportunityState({ state = {}, report }) {
   const seenOpportunityKeys = new Set(state.seenOpportunityKeys ?? []);
   for (const entry of report.opportunities) seenOpportunityKeys.add(entry.opportunityKey);
+  const produced = report.count > 0;
+  // Re-runs within one UTC day (workflow_dispatch, retries) must not inflate the
+  // dry-run streak, otherwise a manual poke would silence the alert for a day.
+  const sameDayRerun = Boolean(state.lastRunAt) && utcDay(state.lastRunAt) === utcDay(report.generatedAt);
+  let dryRunStreak = Number(state.dryRunStreak) || 0;
+  if (produced) dryRunStreak = 0;
+  else if (!sameDayRerun) dryRunStreak += 1;
   return {
-    schemaVersion: "1.0.0",
-    updatedAt: report.count > 0 ? report.generatedAt : (state.updatedAt ?? report.generatedAt),
+    schemaVersion: "1.1.0",
+    updatedAt: produced ? report.generatedAt : (state.updatedAt ?? report.generatedAt),
+    lastRunAt: report.generatedAt,
+    lastOpportunityAt: produced ? report.generatedAt : (state.lastOpportunityAt ?? null),
+    dryRunStreak,
     seenOpportunityKeys: [...seenOpportunityKeys].slice(-stateLimit),
   };
+}
+
+/**
+ * Distinguishes "today genuinely had no good question" from "the funnel has
+ * stalled and nobody notices". The 2026-08-09 -> 2026-09-29 outage looked like a
+ * green daily run for seven weeks precisely because nothing watched this.
+ */
+export function evaluatePipelineHealth({ state, alertAfterDryRuns = 3 } = {}) {
+  const dryRunStreak = Number(state?.dryRunStreak) || 0;
+  const alert = dryRunStreak >= alertAfterDryRuns;
+  const lastOpportunityAt = state?.lastOpportunityAt ?? null;
+  return {
+    dryRunStreak,
+    alert,
+    lastOpportunityAt,
+    message: alert
+      ? `Reddit 流量机会已连续 ${dryRunStreak} 次运行产出 0 条（最后一次出水：${lastOpportunityAt ?? "从未"}）。这是管道空转，不是今天恰好没有问题：请检查候选队列的 ready-to-reply 数量与卡住原因分布。`
+      : `连续 0 产出运行次数：${dryRunStreak}（告警阈值 ${alertAfterDryRuns}）。`,
+  };
+}
+
+export function renderPipelineHealthSummary(health) {
+  return `## Reddit 流量管道健康\n\n- 状态：${health.alert ? "🔴 空转" : "🟢 正常"}\n- ${health.message}\n- 最后一次出水：${health.lastOpportunityAt ?? "从未"}\n`;
+}
+
+/** Body for the "pipeline is dry" alert issue, written by the generator, filed by CI. */
+export function renderPipelineAlertIssue({ health, report, queueDepth = {} }) {
+  return `# 管道空转：Reddit 流量机会连续 ${health.dryRunStreak} 次运行 0 产出\n\n` +
+    `生成时间：${report.generatedAt}\n\n` +
+    `最后一次真正出水：${health.lastOpportunityAt ?? "从未"}\n\n` +
+    `这不是"今天恰好没有问题"。工作流每天仍然报 success，是因为产出为 0 时它会跳过建单——` +
+    `2026-08-09 到 2026-09-29 就是这样静默空转了七周，期间站点唯一的流量入口是干的。\n\n` +
+    `## 当前队列\n\n` +
+    `| 指标 | 数值 |\n| --- | ---: |\n` +
+    `| 候选总数 | ${queueDepth.total ?? "—"} |\n` +
+    `| ready-to-reply（可出水） | ${queueDepth.readyToReply ?? "—"} |\n` +
+    `| system-review（卡住） | ${queueDepth.systemReview ?? "—"} |\n\n` +
+    `## 排查顺序\n\n` +
+    `1. 看最近一次「收集玩家问题候选」的 step summary 里的**卡住原因分布**——它会直接告诉你是匹配度不够、三语缺页，还是页面没外链证据。\n` +
+    `2. 若 ready-to-reply 为 0 且原因集中在"匹配度过低/无标题词重叠"，说明是**内容缺口**：站上没有能回答这些问题的页面，需要补攻略而不是调阈值。\n` +
+    `3. 若原因集中在"三语版本不齐全"或"目标页文件缺失"，说明是**本地化/构建回归**，跑 \`npm run validate\` 对照 check-locales 输出。\n` +
+    `4. 若候选总数本身在掉，说明 Reddit RSS 采集被限流，看采集工作流有没有 \`Reddit 采集已降级\` 警告。\n\n` +
+    `> 本 Issue 由 traffic-opportunities 工作流自动创建，不会自动操作 Reddit。\n`;
 }
 
 const verificationLabels = {

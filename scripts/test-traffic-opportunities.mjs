@@ -2,6 +2,9 @@ import assert from "node:assert/strict";
 import {
   buildTrafficOpportunities,
   buildTrafficOpportunityState,
+  evaluatePipelineHealth,
+  renderPipelineAlertIssue,
+  renderPipelineHealthSummary,
   renderTrafficOpportunityIssue,
 } from "./lib/traffic-opportunities.mjs";
 
@@ -96,4 +99,31 @@ assert.match(newReport.opportunities[0].replyDraftZh, /带证据链接的攻略�
 assert.match(newReport.opportunities[0].replyDraftRu, /отслеживаю это/);
 assert.match(newReport.opportunities[0].guideUrlZh, /\/zh-cn\/base-building\.html/);
 assert.match(newReport.opportunities[0].guideUrlRu, /\/ru\/base-building\.html/);
+// Dry-run streak tracking: the seven-week outage was invisible because a zero
+// output run looked identical to a healthy one in CI.
+const emptyReport = (generatedAt) => ({ generatedAt, count: 0, opportunities: [] });
+const fullReport = (generatedAt) => ({ generatedAt, count: 1, opportunities: [{ opportunityKey: "abc:page:x.html" }] });
+
+const dayOne = buildTrafficOpportunityState({ state: { schemaVersion: "1.0.0", seenOpportunityKeys: [] }, report: emptyReport("2026-09-25T07:17:00Z") });
+assert.equal(dayOne.dryRunStreak, 1, "legacy state without a streak field should start counting at 1");
+assert.equal(dayOne.lastOpportunityAt, null, "an unknown last-outage date should stay null");
+const dayOneRerun = buildTrafficOpportunityState({ state: dayOne, report: emptyReport("2026-09-25T09:00:00Z") });
+assert.equal(dayOneRerun.dryRunStreak, 1, "a same-day re-run must not inflate the streak");
+const dayTwo = buildTrafficOpportunityState({ state: dayOneRerun, report: emptyReport("2026-09-26T07:17:00Z") });
+const dayThree = buildTrafficOpportunityState({ state: dayTwo, report: emptyReport("2026-09-27T07:17:00Z") });
+assert.equal(dayThree.dryRunStreak, 3);
+assert.equal(evaluatePipelineHealth({ state: dayTwo }).alert, false, "two dry runs is still normal day-to-day variance");
+const health = evaluatePipelineHealth({ state: dayThree });
+assert.equal(health.alert, true, "three consecutive dry runs must escalate");
+assert.match(health.message, /连续 3 次运行产出 0 条/);
+const recovered = buildTrafficOpportunityState({ state: dayThree, report: fullReport("2026-09-28T07:17:00Z") });
+assert.equal(recovered.dryRunStreak, 0, "producing an opportunity resets the streak");
+assert.equal(recovered.lastOpportunityAt, "2026-09-28T07:17:00Z");
+assert.equal(evaluatePipelineHealth({ state: recovered }).alert, false);
+const alertBody = renderPipelineAlertIssue({ health, report: emptyReport("2026-09-27T07:17:00Z"), queueDepth: { total: 80, readyToReply: 0, systemReview: 75 } });
+assert.match(alertBody, /管道空转/);
+assert.match(alertBody, /ready-to-reply/);
+assert.match(alertBody, /排查顺序/);
+assert.match(renderPipelineHealthSummary(health), /🔴 空转/);
+
 process.stdout.write("Traffic opportunity tests passed.\n");

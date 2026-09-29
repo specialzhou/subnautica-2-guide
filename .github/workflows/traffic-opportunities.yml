@@ -42,11 +42,11 @@ jobs:
           elif [[ -f data/traffic-opportunity-state.json ]]; then
             cp data/traffic-opportunity-state.json "$state_file"
           else
-            printf '%s\n' '{"schemaVersion":"1.0.0","seenOpportunityKeys":[]}' > "$state_file"
+            printf '%s\n' '{"schemaVersion":"1.1.0","seenOpportunityKeys":[],"dryRunStreak":0,"lastOpportunityAt":null}' > "$state_file"
           fi
       - name: 生成待审核回复草稿
         id: opportunities
-        run: npm run traffic:opportunities -- --output="$RUNNER_TEMP/traffic-opportunities.md" --state="$RUNNER_TEMP/traffic-opportunity-state.json" --state-output="$RUNNER_TEMP/next-traffic-opportunity-state.json"
+        run: npm run traffic:opportunities -- --output="$RUNNER_TEMP/traffic-opportunities.md" --state="$RUNNER_TEMP/traffic-opportunity-state.json" --state-output="$RUNNER_TEMP/next-traffic-opportunity-state.json" --alert-output="$RUNNER_TEMP/traffic-pipeline-alert.md" --alert-after-dry-runs=3
       - name: 验证机会筛选逻辑
         run: npm run test:traffic
       - name: 创建待审核 Issue
@@ -74,3 +74,21 @@ jobs:
             git -C "$state_worktree" commit -m "chore: 更新流量机会状态"
             git -C "$state_worktree" push origin "HEAD:$state_branch"
           fi
+      # Anti-recurrence gate: a run that produces nothing is only healthy while it
+      # is brief. Without this step the job reports success forever, which is
+      # exactly how the funnel stayed silently dry from 2026-08-09 to 2026-09-29.
+      - name: 管道空转告警
+        if: steps.opportunities.outputs.alert == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STREAK: ${{ steps.opportunities.outputs.dry-run-streak }}
+        run: |
+          gh label create traffic-pipeline-alert --color "b60205" --description "Reddit 流量机会管道连续 0 产出" --force
+          existing="$(gh issue list --label traffic-pipeline-alert --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file "$RUNNER_TEMP/traffic-pipeline-alert.md"
+          else
+            gh issue create --title "管道空转：Reddit 流量机会连续 ${STREAK} 次运行 0 产出" --label traffic-pipeline-alert --body-file "$RUNNER_TEMP/traffic-pipeline-alert.md"
+          fi
+          echo "::error::Reddit 流量机会管道已连续 ${STREAK} 次运行 0 产出，详见上面的 Issue。"
+          exit 1

@@ -125,24 +125,47 @@ export function computePriorityScore(painScore = 0, answerability = 0, trafficVa
 
 const matchTokens = (value) => normalizeQuestionKey(value).split(" ").filter((token) => token.length > 2 && !duplicateStopWords.has(token));
 
-export function matchSiteIndex(title = "", searchIndex = { entries: [] }) {
+const indexHay = (entry) => `${entry.title ?? ""} ${entry.terms ?? ""} ${entry.localizedTitles?.en ?? ""} ${entry.localizedTerms?.en ?? ""} ${entry.localizedTerms?.["zh-cn"] ?? ""}`.toLowerCase();
+const indexTitleHay = (entry) => `${entry.title ?? ""} ${entry.localizedTitles?.en ?? ""}`.toLowerCase();
+const toTokenSet = (value) => new Set(value.split(/[^a-z0-9]+/i).filter(Boolean));
+
+/**
+ * Same matching as matchSiteIndex but keeps the raw overlap counts, because the
+ * evidence reviewer must tell "3 of 3 title tokens land on this page" apart from
+ * "a single generic word happened to collide".
+ */
+export function matchSiteIndexDetailed(title = "", searchIndex = { entries: [] }) {
   const tokens = matchTokens(title);
-  if (!tokens.length) return { suggestedPages: [], answerability: 0 };
+  if (!tokens.length) return { suggestedPages: [], answerability: 0, tokenCount: 0 };
   const tokenSet = new Set(tokens);
   const scored = [];
   for (const entry of searchIndex.entries ?? []) {
-    const hay = `${entry.title ?? ""} ${entry.terms ?? ""} ${entry.localizedTitles?.en ?? ""} ${entry.localizedTerms?.en ?? ""} ${entry.localizedTerms?.["zh-cn"] ?? ""}`.toLowerCase();
-    const hayTokens = new Set(hay.split(/[^a-z0-9]+/i).filter(Boolean));
+    const hayTokens = toTokenSet(indexHay(entry));
+    const titleTokens = toTokenSet(indexTitleHay(entry));
     let hits = 0;
-    for (const token of tokenSet) if (hayTokens.has(token)) hits += 1;
+    let titleHits = 0;
+    for (const token of tokenSet) {
+      if (!hayTokens.has(token)) continue;
+      hits += 1;
+      if (titleTokens.has(token)) titleHits += 1;
+    }
     const score = hits / tokens.length;
-    if (score > 0) scored.push({ href: entry.href, title: entry.title, score: Number(score.toFixed(2)) });
+    if (score > 0) scored.push({ href: entry.href, title: entry.title, score: Number(score.toFixed(2)), hits, titleHits });
   }
   scored.sort((a, b) => b.score - a.score);
   const top = scored.slice(0, 3);
   return {
     suggestedPages: top,
     answerability: top.length ? Number(Math.min(1, top[0].score).toFixed(2)) : 0,
+    tokenCount: tokens.length,
+  };
+}
+
+export function matchSiteIndex(title = "", searchIndex = { entries: [] }) {
+  const detailed = matchSiteIndexDetailed(title, searchIndex);
+  return {
+    suggestedPages: detailed.suggestedPages.map(({ hits, titleHits, ...page }) => page),
+    answerability: detailed.answerability,
   };
 }
 

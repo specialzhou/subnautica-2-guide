@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-09-27T09:22:43.917Z",
+  "detectedAt": "2026-09-30T09:49:39.965Z",
   "changes": [
     {
-      "id": "necrolei-cyst",
-      "title": "Necrolei Cyst",
+      "id": "power-cell-terminal",
+      "title": "Power Cell Terminal",
       "change": "updated",
-      "previousRevisionId": 23852,
-      "revisionId": 24049,
+      "previousRevisionId": 23446,
+      "revisionId": 24115,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

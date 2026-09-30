@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-09-27T09:22:43.917Z",
+  "generatedAt": "2026-09-30T09:49:39.965Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -6709,7 +6709,6 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Habitat Builder",
-        "Needs In-Game Screenshots",
         "Power (Interior)",
         "Section stubs"
       ],
@@ -6744,10 +6743,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Cell_Terminal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Cell_Terminal&oldid=23446",
-        "revisionId": 23446,
-        "revisionTimestamp": "2026-09-14T19:07:27Z",
-        "fetchedAt": "2026-09-15T08:47:51.451Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Cell_Terminal&oldid=24115",
+        "revisionId": 24115,
+        "revisionTimestamp": "2026-09-29T18:43:29Z",
+        "fetchedAt": "2026-09-30T09:49:42.830Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

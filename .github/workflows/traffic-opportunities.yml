@@ -26,12 +26,12 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: 22
-      - name: 读取最新候选问题
-        run: |
-          git fetch origin automation/player-question-candidates || true
-          if git show-ref --verify --quiet refs/remotes/origin/automation/player-question-candidates; then
-            git checkout origin/automation/player-question-candidates -- data/player-question-candidates.json
-          fi
+      # Candidates are committed straight to main by collect-player-questions.yml.
+      # This job used to re-checkout data/player-question-candidates.json from the
+      # automation/player-question-candidates branch, which froze on 2026-08-30;
+      # every ready-to-reply entry in it was already in seenOpportunityKeys, so the
+      # pipeline could only ever emit 0 opportunities. The generator now fails loudly
+      # if the file it reads is stale, so no override step belongs here.
       - name: 读取已处理机会状态
         run: |
           state_branch="automation/traffic-opportunity-state"

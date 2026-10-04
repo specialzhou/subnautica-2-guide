@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildTrafficOpportunities,
   buildTrafficOpportunityState,
+  evaluateCandidateFreshness,
   evaluatePipelineHealth,
   renderPipelineAlertIssue,
   renderPipelineHealthSummary,
@@ -32,6 +33,20 @@ const state = stateInput
     throw error;
   })
   : {};
+const maxCandidateAgeDays = Math.max(1, Number(args.get("max-candidate-age-days") || 3));
+const freshness = evaluateCandidateFreshness({
+  collectedAt: candidateData.collectedAt,
+  generatedAt,
+  maxAgeDays: maxCandidateAgeDays,
+});
+if (!freshness.ok) {
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await appendFile(process.env.GITHUB_STEP_SUMMARY, `\n## Reddit 流量管道健康\n\n- 状态：🔴 候选数据源失效\n- ${freshness.message}\n`);
+  }
+  process.stderr.write(`::error title=Reddit 流量候选数据源过期::${freshness.message} 请确认「收集玩家问题候选」仍在向本工作流读取的路径写入最新 data/player-question-candidates.json。\n`);
+  process.exitCode = 1;
+  process.exit(1);
+}
 const report = buildTrafficOpportunities({
   candidates: candidateData.candidates ?? [],
   questions: questionData.questions ?? [],

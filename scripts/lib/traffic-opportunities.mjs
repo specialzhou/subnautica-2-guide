@@ -171,6 +171,33 @@ export function evaluatePipelineHealth({ state, alertAfterDryRuns = 3 } = {}) {
   };
 }
 
+/**
+ * The candidate file is produced by a separate daily collector. If this job ever
+ * reads a snapshot from a dead source again -- which is exactly what happened from
+ * 2026-08-31 to 2026-10-04, when CI overwrote main's file with a frozen branch --
+ * every ready-to-reply entry is already in seenOpportunityKeys, so the pipeline
+ * reports "0 opportunities" forever while looking like ordinary day-to-day variance.
+ * Age is the one signal that separates a stale source from a genuinely quiet day.
+ */
+export function evaluateCandidateFreshness({ collectedAt, generatedAt, maxAgeDays = 3 } = {}) {
+  const collectedMs = Date.parse(String(collectedAt ?? ""));
+  const generatedMs = Date.parse(String(generatedAt ?? ""));
+  if (!Number.isFinite(collectedMs)) {
+    return { ok: false, ageDays: null, reason: "missing-collectedAt", message: `候选文件没有可用的 collectedAt（当前值：${collectedAt ?? "缺失"}），无法判断数据源是否还在更新。` };
+  }
+  const referenceMs = Number.isFinite(generatedMs) ? generatedMs : Date.now();
+  const ageDays = (referenceMs - collectedMs) / 86_400_000;
+  if (ageDays > maxAgeDays) {
+    return {
+      ok: false,
+      ageDays,
+      reason: "stale",
+      message: `候选数据源已过期：collectedAt=${collectedAt}，距运行时间 ${Math.floor(ageDays)} 天（阈值 ${maxAgeDays} 天）。这说明本步骤读到的不是采集工作流最新写入的文件，而不是"今天恰好没有问题"。`,
+    };
+  }
+  return { ok: true, ageDays, reason: null, message: `候选数据源新鲜：collectedAt=${collectedAt}（${ageDays.toFixed(2)} 天前）。` };
+}
+
 export function renderPipelineHealthSummary(health) {
   return `## Reddit 流量管道健康\n\n- 状态：${health.alert ? "🔴 空转" : "🟢 正常"}\n- ${health.message}\n- 最后一次出水：${health.lastOpportunityAt ?? "从未"}\n`;
 }

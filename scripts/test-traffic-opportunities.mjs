@@ -1,7 +1,13 @@
 import assert from "node:assert/strict";
+import { execFileSync, spawnSync } from "node:child_process";
+import { mkdtempSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   buildTrafficOpportunities,
   buildTrafficOpportunityState,
+  evaluateCandidateFreshness,
   evaluatePipelineHealth,
   renderPipelineAlertIssue,
   renderPipelineHealthSummary,
@@ -125,5 +131,36 @@ assert.match(alertBody, /管道空转/);
 assert.match(alertBody, /ready-to-reply/);
 assert.match(alertBody, /排查顺序/);
 assert.match(renderPipelineHealthSummary(health), /🔴 空转/);
+
+// Anti-recurrence for the 2026-08-31..2026-10-04 outage: CI read candidate data from a
+// frozen branch, so every ready-to-reply entry was already deduped and the job could
+// only ever produce 0. A stale source must fail loudly instead of looking like a quiet day.
+assert.equal(evaluateCandidateFreshness({ collectedAt: "2026-10-04T00:00:00Z", generatedAt: "2026-10-04T07:17:00Z" }).ok, true, "same-day candidates are fresh");
+assert.equal(evaluateCandidateFreshness({ collectedAt: "2026-10-01T00:00:00Z", generatedAt: "2026-10-04T00:00:00Z" }).ok, true, "three days is still inside the tolerance");
+const stale = evaluateCandidateFreshness({ collectedAt: "2026-08-30T10:29:08Z", generatedAt: "2026-10-04T07:17:00Z" });
+assert.equal(stale.ok, false, "a five-week-old snapshot must be rejected");
+assert.equal(stale.reason, "stale");
+assert.ok(stale.ageDays > 34, `expected ~35 days of age, got ${stale.ageDays}`);
+assert.match(stale.message, /候选数据源已过期/);
+assert.equal(evaluateCandidateFreshness({ collectedAt: undefined, generatedAt: "2026-10-04T07:17:00Z" }).ok, false, "a candidate file without collectedAt cannot be trusted");
+
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const sandbox = mkdtempSync(path.join(tmpdir(), "traffic-stale-"));
+execFileSync("cp", ["-R", path.join(repoRoot, "scripts"), path.join(sandbox, "scripts")]);
+const sandboxData = path.join(sandbox, "data");
+execFileSync("mkdir", ["-p", sandboxData]);
+writeFileSync(path.join(sandboxData, "player-question-candidates.json"), `${JSON.stringify({
+  collectedAt: "2026-08-30T10:29:08.231Z",
+  counts: { total: 1, readyToReply: 1, systemReview: 0 },
+  candidates: [{ redditId: "stale", title: "Angel Comb bug", review: { state: "ready-to-reply" } }],
+})}\n`);
+writeFileSync(path.join(sandboxData, "player-questions.json"), `${JSON.stringify({ questions: [] })}\n`);
+const staleRun = spawnSync(process.execPath, [
+  path.join(sandbox, "scripts", "generate-traffic-opportunities.mjs"),
+  "--generated-at=2026-10-04T07:17:00Z",
+], { cwd: sandbox, encoding: "utf8" });
+assert.equal(staleRun.status, 1, "the generator must exit non-zero when the candidate source is stale");
+assert.match(staleRun.stderr, /::error title=Reddit 流量候选数据源过期::/);
+assert.match(staleRun.stderr, /2026-08-30T10:29:08.231Z/);
 
 process.stdout.write("Traffic opportunity tests passed.\n");

@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-08-09T08:03:45.365Z",
-  "lastRunAt": "2026-10-04T13:16:16.127Z",
-  "lastOpportunityAt": null,
-  "dryRunStreak": 5,
+  "updatedAt": "2026-10-04T14:19:04.356Z",
+  "lastRunAt": "2026-10-04T14:19:04.356Z",
+  "lastOpportunityAt": "2026-10-04T14:19:04.356Z",
+  "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
     "1uuswe2:angel-comb-main-cankers-stuck",
@@ -11,6 +11,9 @@
     "1ut24gk:page:questions/livekernelevent-141-hp-omen-crash.html",
     "1v7ylul:page:guide/items/tadpole-dock.html",
     "1vdl6sx:page:guide/creatures/collector-leviathan.html",
-    "1vdislm:page:questions/angel-comb-main-cankers-stuck.html"
+    "1vdislm:page:questions/angel-comb-main-cankers-stuck.html",
+    "1wljwpp:page:vehicle-planner.html",
+    "1wbre6i:dup:angel-comb-main-cankers-stuck",
+    "1wlab09:page:questions/save-missing-after-ea-1-1-update.html"
   ]
 }

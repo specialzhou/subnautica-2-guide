@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-10-05T16:07:51.612Z",
-  "lastRunAt": "2026-10-05T16:07:51.612Z",
-  "lastOpportunityAt": "2026-10-05T16:07:51.612Z",
+  "updatedAt": "2026-10-06T14:15:08.057Z",
+  "lastRunAt": "2026-10-06T14:15:08.057Z",
+  "lastOpportunityAt": "2026-10-06T14:15:08.057Z",
   "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
@@ -17,6 +17,8 @@
     "1wlab09:page:questions/save-missing-after-ea-1-1-update.html",
     "1wlt6r6:dup:angel-comb-main-cankers-stuck",
     "1w1sj6d:page:guide/items/tadpole-dock.html",
-    "1w9ucok:page:guide/creatures/shiver-leviathan.html"
+    "1w9ucok:page:guide/creatures/shiver-leviathan.html",
+    "1w8lblb:page:questions/angel-comb-main-cankers-stuck.html",
+    "1vjl3cl:page:guide/items/tadpole-dock.html"
   ]
 }

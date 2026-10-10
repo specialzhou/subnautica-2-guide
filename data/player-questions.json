@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-07-18T00:00:00.000Z",
+  "collectedAt": "2026-10-10T00:00:00.000Z",
   "sourcePolicy": "Attention counts are point-in-time Reddit observations. Community answers are labelled separately from Wiki-backed or in-game verified facts.",
   "questions": [
     {
@@ -726,6 +726,205 @@
         "upvotes": 4,
         "comments": 11,
         "approximate": false
+      }
+    },
+    {
+      "id": "how-to-get-biomod",
+      "featuredRank": null,
+      "category": "equipment",
+      "buildContext": "EA 1.2",
+      "resolution": "solved",
+      "verification": "Wiki Biomods page rev 23946 (2026-09-24): biomods are acquired through the Bioscanner and equipped in the Biolab; Dash, Pathfinder, Sea Skimmer and Oxygen Control are unlocked by default.",
+      "question": {
+        "en": "How do I get this biomod?",
+        "ru": "Как получить этот биомод?",
+        "zh-cn": "这个 biomod 怎么获得？"
+      },
+      "answer": {
+        "en": "Scan creatures with the Bioscanner — that is how biomods are unlocked — then equip them at the Biolab. Dash, Pathfinder, Sea Skimmer and Oxygen Control are unlocked by default; every other biomod requires Bioscanner scans first.",
+        "ru": "Сканируйте существ с помощью Bioscanner — так открываются биомоды, — затем экипируйте их в Biolab. Dash, Pathfinder, Sea Skimmer и Oxygen Control разблокированы по умолчанию; остальные биомоды требуют предварительного сканирования.",
+        "zh-cn": "用 Bioscanner（生物扫描仪）扫描生物即可解锁 biomod，然后在 Biolab（生物实验室）中装备。Dash、Pathfinder、Sea Skimmer 和 Oxygen Control 这四个默认已解锁，其余 biomod 都需要先用 Bioscanner 扫描解锁。"
+      },
+      "evidenceNote": {
+        "en": "Acquisition method is Wiki-backed (Biomods, rev 23946, 2026-09-24). The post includes a screenshot, so which exact creature unlocks that specific biomod cannot be confirmed from the title alone — scanning fauna with the Bioscanner and checking the Biolab covers it.",
+        "ru": "Способ получения подтверждён Wiki (Biomods, rev 23946, 2026-09-24). В посте есть скриншот, поэтому по заголовку нельзя точно сказать, какое существо открывает этот биомод, — сканируйте фауну Bioscanner и проверяйте Biolab.",
+        "zh-cn": "获取方式有 Wiki 依据（Biomods 词条，修订版 23946，2026-09-24）。原帖带截图，仅从标题无法确认具体是哪个生物解锁该 biomod——用 Bioscanner 扫描动物并在 Biolab 查看即可覆盖。"
+      },
+      "searchTerms": {
+        "en": "biomod how to get unlock bioscanner biolab",
+        "ru": "биомод как получить разблокировать bioscanner biolab",
+        "zh-cn": "biomod 获得 解锁 生物扫描仪 生物实验室"
+      },
+      "relatedPages": [
+        "guide/items/bioscanner.html",
+        "guide/items/biolab.html"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Biomods — Subnautica 2 Wiki",
+          "type": "wiki-revision",
+          "url": "https://wiki.subnautica.com/sn2/index.php?title=Biomods&oldid=23946"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "How do I get this biomod?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1wm05cc/how_do_i_get_this_biomod/",
+        "observedAt": "2026-10-10",
+        "upvotes": 0,
+        "comments": 4,
+        "approximate": true
+      }
+    },
+    {
+      "id": "moonpool-fragments-location",
+      "featuredRank": null,
+      "category": "blueprints",
+      "buildContext": "EA 1.2",
+      "resolution": "solved",
+      "verification": "Wiki Moonpool page rev 23417 (2026-09-14): blueprint from Recipe Data Card (Tailings Village, Tadpole Pens, Canteen) or scanning two Tadpole fragments.",
+      "question": {
+        "en": "Need help finding Moonpool fragments",
+        "ru": "Нужна помощь с поиском фрагментов Moonpool",
+        "zh-cn": "求助：Moonpool 碎片在哪找？"
+      },
+      "answer": {
+        "en": "The Moonpool blueprint comes from a Recipe Data Card — check Tailings Village, Tadpole Pens, or the Canteen — or scan two Tadpole fragments instead. It is a seabase module that opens the floor for entrances and exits, and it is the mount point for Tadpole Docks and Vehicle Fabricators.",
+        "ru": "Чертёж Moonpool даёт карта рецепта — ищите в Tailings Village, Tadpole Pens или Canteen, — либо отсканируйте два фрагмента Tadpole. Это модуль базы, открывающий пол для входов и выходов, а также точка крепления Tadpole Dock и Vehicle Fabricator.",
+        "zh-cn": "Moonpool 蓝图来自配方数据卡（Recipe Data Card），去 Tailings Village、Tadpole Pens 或 Canteen 找；也可以扫描两个 Tadpole 碎片解锁。它是海底基地模块，在地板上开口作为出入口，也是 Tadpole Dock 和 Vehicle Fabricator 的安装位。"
+      },
+      "evidenceNote": {
+        "en": "Blueprint sources are Wiki-backed (Moonpool, rev 23417, 2026-09-14). Exact fragment coordinates are not published on the wiki page; the Recipe Data Card locations are.",
+        "ru": "Источники чертежа подтверждены Wiki (Moonpool, rev 23417, 2026-09-14). Точные координаты фрагментов на странице вики не указаны; указаны места карт рецептов.",
+        "zh-cn": "蓝图来源有 Wiki 依据（Moonpool 词条，修订版 23417，2026-09-14）。碎片精确坐标 wiki 未公布，配方数据卡位置有记录。"
+      },
+      "searchTerms": {
+        "en": "moonpool fragments location blueprint recipe data card",
+        "ru": "moonpool фрагменты где найти чертёж",
+        "zh-cn": "moonpool 碎片 位置 蓝图 配方数据卡"
+      },
+      "relatedPages": [
+        "vehicle-planner.html",
+        "base-building.html"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Moonpool — Subnautica 2 Wiki",
+          "type": "wiki-revision",
+          "url": "https://wiki.subnautica.com/sn2/index.php?title=Moonpool&oldid=23417"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Need help finding Moonpool fragments",
+        "url": "https://www.reddit.com/r/subnautica/comments/1wb5gn9/need_help_finding_moonpool_fragments/",
+        "observedAt": "2026-10-10",
+        "upvotes": 0,
+        "comments": 8,
+        "approximate": true
+      }
+    },
+    {
+      "id": "rebreather-location-1-2",
+      "featuredRank": null,
+      "category": "equipment",
+      "buildContext": "EA 1.2",
+      "resolution": "solved",
+      "verification": "Wiki Rebreather page rev 24575 (2026-10-06): blueprint by scanning one Rebreather; listed locations include Colonist Bunker in Dolerite Spires and Lander Garage wreck.",
+      "question": {
+        "en": "Did they move the rebreather in 1.2?",
+        "ru": "Rebreather перенесли в 1.2?",
+        "zh-cn": "1.2 版本把 rebreather 搬走了吗？"
+      },
+      "answer": {
+        "en": "It was not moved — the Rebreather blueprint still unlocks by scanning one Rebreather. Documented locations: a Colonist Bunker in the Dolerite Spires, and the Lander Garage wreck (bring a Repair Tool). It counters the oxygen drain when diving below 100m.",
+        "ru": "Его не переносили — чертёж Rebreather по-прежнему открывается сканированием одного Rebreather. Известные места: бункер колонистов в Dolerite Spires и затонувший Lander Garage (возьмите Repair Tool). Он снижает расход кислорода на глубине ниже 100 м.",
+        "zh-cn": "没搬家——Rebreather 蓝图依然是扫描一个 Rebreather 解锁。已记录的位置：Dolerite Spires 的殖民者地堡，以及 Lander Garage 残骸（带上 Repair Tool）。它可以抵消 100 米以下潜水的氧气消耗加速。"
+      },
+      "evidenceNote": {
+        "en": "Unlock method and locations are Wiki-backed (Rebreather, rev 24575, 2026-10-06). The page lists additional fragment coordinates; the two above are the documented ones relevant here.",
+        "ru": "Способ разблокировки и места подтверждены Wiki (Rebreather, rev 24575, 2026-10-06). На странице есть и другие координаты фрагментов; выше — подходящие задокументированные.",
+        "zh-cn": "解锁方式与位置有 Wiki 依据（Rebreather 词条，修订版 24575，2026-10-06）。该页面还列有其他碎片坐标，上面两个是相关的已记录位置。"
+      },
+      "searchTerms": {
+        "en": "rebreather location 1.2 moved blueprint scan",
+        "ru": "rebreather где найти 1.2 чертёж",
+        "zh-cn": "rebreather 位置 1.2 蓝图 扫描"
+      },
+      "relatedPages": [
+        "equipment-upgrades.html"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Rebreather — Subnautica 2 Wiki",
+          "type": "wiki-revision",
+          "url": "https://wiki.subnautica.com/sn2/index.php?title=Rebreather&oldid=24575"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Did they move the rebreather in 1.2? I'm going nuts trying to find one",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1wae2ah/did_they_move_the_rebreather_in_12_im_going_nuts/",
+        "observedAt": "2026-10-10",
+        "upvotes": 0,
+        "comments": 3,
+        "approximate": true
+      }
+    },
+    {
+      "id": "multiplayer-how-it-works",
+      "featuredRank": null,
+      "category": "multiplayer",
+      "buildContext": "EA 1.2",
+      "resolution": "solved",
+      "verification": "Official facts (official-facts.json): optional online co-op up to 4 players per official game page + Steam listing; wiki Multiplayer corroborates peer-to-peer hosting, no dedicated servers.",
+      "question": {
+        "en": "Help with multiplayer",
+        "ru": "Помощь с мультиплеером",
+        "zh-cn": "求助：联机怎么玩？"
+      },
+      "answer": {
+        "en": "Yes — Subnautica 2 has optional online co-op for up to 4 players, and solo play is fully supported. Multiplayer is cross-platform. Hosting is currently peer-to-peer only; dedicated servers are not available yet. Joining, hosting and save behavior beyond that are not officially documented.",
+        "ru": "Да — в Subnautica 2 есть необязательный онлайн-кооператив до 4 игроков, одиночная игра полностью поддерживается. Мультиплеер кроссплатформенный. Хостинг пока только peer-to-peer; выделенных серверов нет. Остальные детали официально не задокументированы.",
+        "zh-cn": "有——《Subnautica 2》支持可选的在线联机，最多 4 人，单人游玩也完全支持，且跨平台联机。当前仅支持 P2P 建房，暂无专用服务器。之外的加入/建房/存档细节官方尚未公布。"
+      },
+      "evidenceNote": {
+        "en": "Official-backed: official game page and Steam listing document optional co-op up to 4 players (official-facts.json); wiki Multiplayer page corroborates peer-to-peer hosting. Operational details (join flow, saves) are intentionally not inferred.",
+        "ru": "Подтверждено официально: страница игры и Steam указывают необязательный кооператив до 4 игроков (official-facts.json); вики-страница Multiplayer подтверждает peer-to-peer хостинг. Операционные детали намеренно не домысливаются.",
+        "zh-cn": "官方依据：官网与 Steam 页面确认可选联机最多 4 人（official-facts.json）；Wiki Multiplayer 页佐证 P2P 建房。操作细节（如何加入、存档机制）不做推测。"
+      },
+      "searchTerms": {
+        "en": "multiplayer how to play co-op how many players",
+        "ru": "мультиплеер как играть кооператив сколько игроков",
+        "zh-cn": "联机 怎么玩 几个人 合作模式"
+      },
+      "relatedPages": [
+        "coop.html"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Official Subnautica 2 game page",
+          "type": "official",
+          "url": "https://subnautica.com/en"
+        },
+        {
+          "label": "Multiplayer — Subnautica 2 Wiki",
+          "type": "wiki-revision",
+          "url": "https://wiki.subnautica.com/sn2/Multiplayer"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Help with multiplayer",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1vqedn8/help_with_multiplayer/",
+        "observedAt": "2026-10-10",
+        "upvotes": 0,
+        "comments": 3,
+        "approximate": true
       }
     }
   ]

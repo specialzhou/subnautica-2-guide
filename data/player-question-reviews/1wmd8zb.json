@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "redditId": "1wmd8zb",
+  "decision": "promote",
+  "review": {
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "",
+    "duplicateDisposition": "not-duplicate",
+    "notes": ""
+  },
+  "question": {
+    "id": "",
+    "featuredRank": null,
+    "category": "",
+    "buildContext": "",
+    "resolution": "",
+    "verification": "",
+    "question": {
+      "en": "How the hecc do you navigate the caves where the walls are so black you can't tell which walls are 2 meters away vs 200? Specifically in the prawn suit, the lights are so bad.",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "answer": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "evidenceNote": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "searchTerms": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "relatedPages": [
+      "guide/items/gold.html",
+      "guide/items/lithium.html",
+      "guide/creatures/bluemoon.html"
+    ],
+    "evidenceSources": [
+      {
+        "type": "",
+        "label": "",
+        "url": ""
+      }
+    ],
+    "attention": {
+      "observedAt": "2026-10-10",
+      "upvotes": null,
+      "comments": 26,
+      "approximate": true
+    }
+  }
+}

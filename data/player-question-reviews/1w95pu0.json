@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "redditId": "1w95pu0",
+  "decision": "promote",
+  "review": {
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "",
+    "duplicateDisposition": "not-duplicate",
+    "notes": ""
+  },
+  "question": {
+    "id": "",
+    "featuredRank": null,
+    "category": "",
+    "buildContext": "",
+    "resolution": "",
+    "verification": "",
+    "question": {
+      "en": "Where do I find lube?",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "answer": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "evidenceNote": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "searchTerms": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "relatedPages": [
+      "starter-materials.html",
+      "questions/where-to-find-sandspear.html",
+      "questions/where-to-find-axum-resonator.html"
+    ],
+    "evidenceSources": [
+      {
+        "type": "",
+        "label": "",
+        "url": ""
+      }
+    ],
+    "attention": {
+      "observedAt": "2026-10-10",
+      "upvotes": null,
+      "comments": 9,
+      "approximate": true
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "decision": "promote",
+  "question": {
+    "answer": {
+      "en": "Yes — Subnautica 2 has optional online co-op for up to 4 players, and solo play is fully supported. Multiplayer is cross-platform. Hosting is currently peer-to-peer only; dedicated servers are not available yet. Joining, hosting and save behavior beyond that are not officially documented.",
+      "ru": "Да — в Subnautica 2 есть необязательный онлайн-кооператив до 4 игроков, одиночная игра полностью поддерживается. Мультиплеер кроссплатформенный. Хостинг пока только peer-to-peer; выделенных серверов нет. Остальные детали официально не задокументированы.",
+      "zh-cn": "有——《Subnautica 2》支持可选的在线联机，最多 4 人，单人游玩也完全支持，且跨平台联机。当前仅支持 P2P 建房，暂无专用服务器。之外的加入/建房/存档细节官方尚未公布。"
+    },
+    "attention": {
+      "approximate": true,
+      "comments": 3,
+      "observedAt": "2026-10-10",
+      "upvotes": 0
+    },
+    "buildContext": "EA 1.2",
+    "category": "multiplayer",
+    "evidenceNote": {
+      "en": "Official-backed: official game page and Steam listing document optional co-op up to 4 players (official-facts.json); wiki Multiplayer page corroborates peer-to-peer hosting. Operational details (join flow, saves) are intentionally not inferred.",
+      "ru": "Подтверждено официально: страница игры и Steam указывают необязательный кооператив до 4 игроков (official-facts.json); вики-страница Multiplayer подтверждает peer-to-peer хостинг. Операционные детали намеренно не домысливаются.",
+      "zh-cn": "官方依据：官网与 Steam 页面确认可选联机最多 4 人（official-facts.json）；Wiki Multiplayer 页佐证 P2P 建房。操作细节（如何加入、存档机制）不做推测。"
+    },
+    "evidenceSources": [
+      {
+        "label": "Official Subnautica 2 game page",
+        "type": "official",
+        "url": "https://subnautica.com/en"
+      },
+      {
+        "label": "Multiplayer — Subnautica 2 Wiki",
+        "type": "wiki-revision",
+        "url": "https://wiki.subnautica.com/sn2/Multiplayer"
+      }
+    ],
+    "featuredRank": null,
+    "id": "multiplayer-how-it-works",
+    "question": {
+      "en": "Help with multiplayer",
+      "ru": "Помощь с мультиплеером",
+      "zh-cn": "求助：联机怎么玩？"
+    },
+    "relatedPages": [
+      "coop.html"
+    ],
+    "resolution": "solved",
+    "searchTerms": {
+      "en": "multiplayer how to play co-op how many players",
+      "ru": "мультиплеер как играть кооператив сколько игроков",
+      "zh-cn": "联机 怎么玩 几个人 合作模式"
+    },
+    "verification": "Official facts (official-facts.json): optional online co-op up to 4 players per official game page + Steam listing; wiki Multiplayer corroborates peer-to-peer hosting, no dedicated servers."
+  },
+  "redditId": "1vqedn8",
+  "review": {
+    "duplicateDisposition": "not-duplicate",
+    "notes": "Official-backed multiplayer FAQ; complements coop.html reference.",
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "Ren"
+  },
+  "schemaVersion": "1.0.0",
+  "promotion": {
+    "publishedId": "multiplayer-how-it-works",
+    "promotedAt": "2026-10-10T09:38:15.703Z"
+  }
+}

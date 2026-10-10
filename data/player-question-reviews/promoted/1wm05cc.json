@@ -1,0 +1,60 @@
+{
+  "decision": "promote",
+  "question": {
+    "answer": {
+      "en": "Scan creatures with the Bioscanner — that is how biomods are unlocked — then equip them at the Biolab. Dash, Pathfinder, Sea Skimmer and Oxygen Control are unlocked by default; every other biomod requires Bioscanner scans first.",
+      "ru": "Сканируйте существ с помощью Bioscanner — так открываются биомоды, — затем экипируйте их в Biolab. Dash, Pathfinder, Sea Skimmer и Oxygen Control разблокированы по умолчанию; остальные биомоды требуют предварительного сканирования.",
+      "zh-cn": "用 Bioscanner（生物扫描仪）扫描生物即可解锁 biomod，然后在 Biolab（生物实验室）中装备。Dash、Pathfinder、Sea Skimmer 和 Oxygen Control 这四个默认已解锁，其余 biomod 都需要先用 Bioscanner 扫描解锁。"
+    },
+    "attention": {
+      "approximate": true,
+      "comments": 4,
+      "observedAt": "2026-10-10",
+      "upvotes": 0
+    },
+    "buildContext": "EA 1.2",
+    "category": "equipment",
+    "evidenceNote": {
+      "en": "Acquisition method is Wiki-backed (Biomods, rev 23946, 2026-09-24). The post includes a screenshot, so which exact creature unlocks that specific biomod cannot be confirmed from the title alone — scanning fauna with the Bioscanner and checking the Biolab covers it.",
+      "ru": "Способ получения подтверждён Wiki (Biomods, rev 23946, 2026-09-24). В посте есть скриншот, поэтому по заголовку нельзя точно сказать, какое существо открывает этот биомод, — сканируйте фауну Bioscanner и проверяйте Biolab.",
+      "zh-cn": "获取方式有 Wiki 依据（Biomods 词条，修订版 23946，2026-09-24）。原帖带截图，仅从标题无法确认具体是哪个生物解锁该 biomod——用 Bioscanner 扫描动物并在 Biolab 查看即可覆盖。"
+    },
+    "evidenceSources": [
+      {
+        "label": "Biomods — Subnautica 2 Wiki",
+        "type": "wiki-revision",
+        "url": "https://wiki.subnautica.com/sn2/index.php?title=Biomods&oldid=23946"
+      }
+    ],
+    "featuredRank": null,
+    "id": "how-to-get-biomod",
+    "question": {
+      "en": "How do I get this biomod?",
+      "ru": "Как получить этот биомод?",
+      "zh-cn": "这个 biomod 怎么获得？"
+    },
+    "relatedPages": [
+      "guide/items/bioscanner.html",
+      "guide/items/biolab.html"
+    ],
+    "resolution": "solved",
+    "searchTerms": {
+      "en": "biomod how to get unlock bioscanner biolab",
+      "ru": "биомод как получить разблокировать bioscanner biolab",
+      "zh-cn": "biomod 获得 解锁 生物扫描仪 生物实验室"
+    },
+    "verification": "Wiki Biomods page rev 23946 (2026-09-24): biomods are acquired through the Bioscanner and equipped in the Biolab; Dash, Pathfinder, Sea Skimmer and Oxygen Control are unlocked by default."
+  },
+  "redditId": "1wm05cc",
+  "review": {
+    "duplicateDisposition": "not-duplicate",
+    "notes": "Wiki-backed answer: Biomods page documents Bioscanner acquisition.",
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "Ren"
+  },
+  "schemaVersion": "1.0.0",
+  "promotion": {
+    "publishedId": "how-to-get-biomod",
+    "promotedAt": "2026-10-10T09:37:10.595Z"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-10-10T11:11:00.712Z",
+  "collectedAt": "2026-10-09T11:54:11.106Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -19,11 +19,11 @@
   },
   "detailCursor": 0,
   "counts": {
-    "total": 74,
-    "systemReview": 0,
-    "readyToReply": 15,
-    "dismissed": 59,
-    "addedThisRun": 0,
+    "total": 76,
+    "systemReview": 35,
+    "readyToReply": 14,
+    "dismissed": 27,
+    "addedThisRun": 1,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
   },
@@ -695,7 +695,7 @@
       "questionKey": "how do i dock my tadpole with chassis",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wljwpp/how_do_i_dock_my_tadpole_with_chassis/",
       "publishedAt": "2026-09-20T15:23:48+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -864,7 +864,7 @@
       "questionKey": "final angel comb core won t open",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wlt6r6/final_angel_comb_core_wont_open/",
       "publishedAt": "2026-09-20T21:15:48+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1204,10 +1204,14 @@
       "redditId": "1wr16vw",
       "firstSeenAt": "2026-09-28T11:41:56.325Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：存档系统无Wiki/官方文档可引用，无法按本站证据标准作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1305,10 +1309,15 @@
       "redditId": "1wsdy1c",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：房间拼接建造规则Wiki未记载（Habitat Builder用法节为空），无法按证据标准作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1316,7 +1325,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-10-10T11:11:00.712Z",
+        "lastErrorAt": "2026-10-09T11:54:11.106Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1wsdy1c/why_cant_i_build_this_room_by_connecting_it_to/.rss?limit=500"
       },
       "title": "Why can't I build this room by connecting it to two existing structures?",
@@ -1359,10 +1368,15 @@
       "redditId": "1wkt6kr",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：选址建议类主观问题，无唯一正确答案，不适合证据型攻略"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1412,10 +1426,14 @@
       "redditId": "1wr3ny4",
       "firstSeenAt": "2026-09-28T11:41:56.325Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：选址建议类主观问题（50条评论的讨论帖），不适合证据型攻略"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1567,10 +1585,15 @@
       "redditId": "1wbojb9",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：标题截断且Wiki无Vehicle Upgrade Console词条"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1618,10 +1641,15 @@
       "redditId": "1vx4zum",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：“coral tube”无法对应任何Wiki词条，无法核实"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1669,10 +1697,16 @@
       "redditId": "1w2kae1",
       "firstSeenAt": "2026-08-31T11:36:21.897Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：Wiki无Mangalloy词条，无法核实该物品存在"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1720,10 +1754,14 @@
       "redditId": "1vvidju",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：纯图片帖无上下文（How do I find all of these?）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1819,10 +1857,15 @@
       "redditId": "1wx03vn",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：联机Bug报告细节不足"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1835,7 +1878,7 @@
       "questionKey": "having a huge issue where players can t interact with my world and are suffering from horrible lag",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wx03vn/having_a_huge_issue_where_players_cant_interact/",
       "publishedAt": "2026-10-03T22:43:01+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 15,
       "signals": [
@@ -1867,13 +1910,74 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1w4s0qs",
+      "firstSeenAt": "2026-09-02T09:38:08.284Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "no-title-token-overlap"
+        ]
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 8,
+        "observedAt": "2026-09-02T09:38:08.284Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Help with repairing the power plant?",
+      "questionKey": "help with repairing the power plant",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4s0qs/help_with_repairing_the_power_plant/",
+      "publishedAt": "2026-09-01T22:29:20+00:00",
+      "lastSeenAt": "2026-09-03T09:51:17.151Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 16,
+      "signals": [
+        "help",
+        "not-working",
+        "bug",
+        "where",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "guide/items/atacamite.html",
+          "title": "Atacamite",
+          "score": 0.67
+        },
+        {
+          "href": "guide/items/celestine.html",
+          "title": "Celestine",
+          "score": 0.67
+        },
+        {
+          "href": "guide/items/conduit-crystal.html",
+          "title": "Conduit Crystal",
+          "score": 0.67
+        }
+      ],
+      "priorityScore": 27,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1wvyctu",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：表述 incoherent，无可作答的具体信息"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1921,10 +2025,16 @@
       "redditId": "1wmd8zb",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：问题过于模糊（未指明哪个洞穴）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -1971,10 +2081,16 @@
       "redditId": "1vvp98z",
       "firstSeenAt": "2026-08-24T05:53:41.913Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：建造工具问题无具体描述"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2072,10 +2188,15 @@
       "redditId": "1w79pcm",
       "firstSeenAt": "2026-09-05T09:05:33.744Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：重生物品机制Wiki无专门记载，无法按证据标准作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2138,7 +2259,7 @@
       "questionKey": "subnautica 2 doesn t feel like a subnautica game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wzbu02/subnautica_2_doesnt_feel_like_a_subnautica_game/",
       "publishedAt": "2026-10-06T19:29:37+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -2271,9 +2392,11 @@
       "attention": {
         "upvotes": null,
         "comments": 55,
-        "observedAt": "2026-10-10T11:11:00.712Z",
+        "observedAt": "2026-09-01T10:06:48.624Z",
         "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
+        "method": "reddit-post-rss-comment-entry-count",
+        "lastErrorAt": "2026-10-09T11:54:11.106Z",
+        "lastError": "Reddit RSS request failed (403) for https://www.reddit.com/r/subnautica/comments/1vyk7r8/what_is_your_preferred_lost_river_entrance/.rss?limit=500"
       },
       "title": "What is your preferred lost river entrance?",
       "questionKey": "what is your preferred lost river entrance",
@@ -2459,10 +2582,16 @@
       "redditId": "1wjuvg2",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：信息混乱（称手机版，SN2无手机版），无可作答内容"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2560,10 +2689,15 @@
       "redditId": "1wlawvy",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：问题过于模糊（stuck 8小时，无具体卡点）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2610,10 +2744,16 @@
       "redditId": "1vrybxw",
       "firstSeenAt": "2026-08-20T05:46:20.836Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：Bug报告无细节（PDA不工作）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2660,10 +2800,15 @@
       "redditId": "1whrzi3",
       "firstSeenAt": "2026-09-16T09:57:16.893Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：问题过于模糊（Base Oxygen）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2712,10 +2857,15 @@
       "redditId": "1w0ku1e",
       "firstSeenAt": "2026-08-30T12:45:12.751Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：问题过于模糊"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2756,10 +2906,16 @@
       "redditId": "1wl7uwr",
       "firstSeenAt": "2026-09-20T09:49:11.248Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：问题过于模糊（What now?无上下文）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2772,7 +2928,7 @@
       "questionKey": "what now help a new player out",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wl7uwr/what_now_help_a_new_player_out/",
       "publishedAt": "2026-09-20T05:10:06+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -2801,10 +2957,15 @@
       "redditId": "1ww96kq",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：寻找游戏恶性bug（ exploit 挖掘），不适合攻略化"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -2903,10 +3064,15 @@
       "redditId": "1voe45x",
       "firstSeenAt": "2026-08-20T05:46:20.836Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：主线进度问题依赖玩家具体故事状态且含剧透，版本相关性强，不适合静态攻略页"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3141,10 +3307,15 @@
       "redditId": "1wt7kq1",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：选址建议类主观问题，不适合证据型攻略"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3191,10 +3362,14 @@
       "redditId": "1vzzmw5",
       "firstSeenAt": "2026-08-30T12:45:12.751Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：Bug报告无具体症状描述，无法准确作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3243,10 +3418,15 @@
       "redditId": "1w43x21",
       "firstSeenAt": "2026-09-01T10:06:48.624Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：问题过于模糊（哪条船、怎么卡住均无信息）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3287,7 +3467,7 @@
         "reviewedAt": "2026-10-10T00:00:00Z",
         "reviewedBy": "Ren",
         "evidencePage": "questions/angel-comb-main-cankers-stuck.html",
-        "matchScore": 1,
+        "matchScore": 1.0,
         "tokenHits": 2,
         "notes": "人工核验 2026-10-10：与已发布 solved 问题 angel-comb-main-cankers-stuck 为同一问题（duplicate score 1.0，共享词 bloom/canker），直接采用已发布答案。"
       },
@@ -3374,6 +3554,60 @@
         }
       ],
       "priorityScore": 19,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1w5phvz",
+      "firstSeenAt": "2026-09-10T09:44:59.124Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "no-title-token-overlap"
+        ]
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 16,
+        "observedAt": "2026-09-12T09:22:17.015Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Not enough power for base?",
+      "questionKey": "not enough power for base",
+      "url": "https://www.reddit.com/r/subnautica/comments/1w5phvz/not_enough_power_for_base/",
+      "publishedAt": "2026-09-02T22:33:54+00:00",
+      "lastSeenAt": "2026-09-10T09:44:59.124Z",
+      "sourceSubreddit": "r/Subnautica",
+      "painScore": 7,
+      "signals": [
+        "where",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.67,
+      "suggestedPages": [
+        {
+          "href": "questions/axum-lever-location.html",
+          "title": "Where is the lever after powering the Axum station?",
+          "score": 0.67
+        },
+        {
+          "href": "base-building.html",
+          "title": "Base building",
+          "score": 0.33
+        },
+        {
+          "href": "guide/items/atacamite.html",
+          "title": "Atacamite",
+          "score": 0.33
+        }
+      ],
+      "priorityScore": 18,
       "possibleDuplicateOf": null
     },
     {
@@ -3478,10 +3712,15 @@
       "redditId": "1wcrapu",
       "firstSeenAt": "2026-09-11T09:42:07.658Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：NoA打印机制Wiki无记载，无法按证据标准作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3544,7 +3783,7 @@
       "questionKey": "what new items upgrades buildings do you think will be added in ea 2 0",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wjzdo4/what_new_itemsupgradesbuildings_do_you_think_will/",
       "publishedAt": "2026-09-18T19:09:34+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3585,10 +3824,16 @@
       "redditId": "1w6r1l2",
       "firstSeenAt": "2026-09-04T09:40:01.443Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：Soft lock报告无具体信息，无法准确作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3629,10 +3874,16 @@
       "redditId": "1vur3ql",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：无任何有效信息（仅“求助bug”）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3676,10 +3927,15 @@
       "redditId": "1w92yrq",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：自称的DLSS修复方案无法验证"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3742,7 +3998,7 @@
       "questionKey": "not only that i hope with the future map design resource allocation logistics and story progression we will be forced to use one and rely on it in some areas of the map",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wnv7of/not_only_that_i_hope_with_the_future_map_design/",
       "publishedAt": "2026-09-23T03:49:05+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-09T11:54:11.106Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3777,17 +4033,23 @@
       "redditId": "1vxf3o7",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：过于宽泛的新手向问题，站点已有starter-planner.html承接此需求"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
-        "comments": 52,
-        "observedAt": "2026-10-10T11:11:00.712Z",
+        "comments": 49,
+        "observedAt": "2026-08-31T11:36:21.897Z",
         "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
+        "method": "reddit-post-rss-comment-entry-count",
+        "lastErrorAt": "2026-10-09T11:54:11.106Z",
+        "lastError": "Reddit RSS request failed (403) for https://www.reddit.com/r/subnautica/comments/1vxf3o7/help_me_start/.rss?limit=500"
       },
       "title": "Help Me Start :)",
       "questionKey": "help me start",
@@ -3904,10 +4166,15 @@
       "redditId": "1vxck6g",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：观点/经验征集帖，非Wiki可作答"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -3953,15 +4220,14 @@
       "redditId": "1vpzqri",
       "firstSeenAt": "2026-08-20T05:46:20.836Z",
       "review": {
-        "state": "ready-to-reply",
-        "answerStatus": "evidence-verified",
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-10T00:00:00Z",
-        "reviewedBy": "Ren",
-        "evidencePage": "questions/rebioscan-biofilm-not-respawning.html",
-        "matchScore": 0.9,
-        "tokenHits": 2,
-        "notes": "人工核验 2026-10-10：与已发布 solved 问题 rebioscan-biofilm-not-respawning 同一问题（biofilm 缺失如何补扫描），采用已发布答案。"
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "match-score-too-low"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -4003,14 +4269,7 @@
         }
       ],
       "priorityScore": 16,
-      "possibleDuplicateOf": {
-        "id": "rebioscan-biofilm-not-respawning",
-        "score": 0.9,
-        "sharedTerms": [
-          "biofilm",
-          "scan"
-        ]
-      }
+      "possibleDuplicateOf": null
     },
     {
       "redditId": "1w1tfny",
@@ -4024,9 +4283,11 @@
       "attention": {
         "upvotes": null,
         "comments": 13,
-        "observedAt": "2026-10-10T11:11:00.712Z",
+        "observedAt": "2026-08-31T11:36:21.897Z",
         "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
+        "method": "reddit-post-rss-comment-entry-count",
+        "lastErrorAt": "2026-10-09T11:54:11.106Z",
+        "lastError": "Reddit RSS request failed (403) for https://www.reddit.com/r/Subnautica_2/comments/1w1tfny/i_need_help_for_my_son_cant_get_the_game_to/.rss?limit=500"
       },
       "title": "I need help for my son, can't get the game to launch, tells me may have exited wrong and if you have minimum requirements, we do meet all requirements",
       "questionKey": "i need help for my son can t get the game to launch tells me may have exited wrong and if you have minimum requirements we do meet all requirements",
@@ -4117,10 +4378,14 @@
       "redditId": "1waxo9p",
       "firstSeenAt": "2026-09-09T09:46:32.894Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：纯图片帖无上下文（How do I get in here?）"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,
@@ -4155,10 +4420,14 @@
       "redditId": "1w95pu0",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：Wiki无Lubricant词条，无法核实该物品存在"
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-09T11:54:11.106Z",
+        "holdReasons": [
+          "too-few-shared-tokens"
+        ]
       },
       "attention": {
         "upvotes": null,

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "redditId": "1wr3ny4",
+  "decision": "promote",
+  "review": {
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "",
+    "duplicateDisposition": "not-duplicate",
+    "notes": ""
+  },
+  "question": {
+    "id": "",
+    "featuredRank": null,
+    "category": "",
+    "buildContext": "",
+    "resolution": "",
+    "verification": "",
+    "question": {
+      "en": "Where should I be building bases? How many should I be building thought the game?",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "answer": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "evidenceNote": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "searchTerms": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "relatedPages": [
+      "questions/save-missing-after-ea-1-1-update.html",
+      "base-building.html",
+      "questions/personal-storage-use.html"
+    ],
+    "evidenceSources": [
+      {
+        "type": "",
+        "label": "",
+        "url": ""
+      }
+    ],
+    "attention": {
+      "observedAt": "2026-10-10",
+      "upvotes": null,
+      "comments": 50,
+      "approximate": true
+    }
+  }
+}

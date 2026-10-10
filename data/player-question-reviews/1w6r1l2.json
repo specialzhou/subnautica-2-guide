@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "redditId": "1w6r1l2",
+  "decision": "promote",
+  "review": {
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "",
+    "duplicateDisposition": "not-duplicate",
+    "notes": ""
+  },
+  "question": {
+    "id": "",
+    "featuredRank": null,
+    "category": "",
+    "buildContext": "",
+    "resolution": "",
+    "verification": "",
+    "question": {
+      "en": "Possible soft lock on 1st bloom? help",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "answer": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "evidenceNote": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "searchTerms": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "relatedPages": [
+      "questions/angel-comb-main-cankers-stuck.html",
+      "questions/rebioscan-biofilm-not-respawning.html"
+    ],
+    "evidenceSources": [
+      {
+        "type": "",
+        "label": "",
+        "url": ""
+      }
+    ],
+    "attention": {
+      "observedAt": "2026-10-10",
+      "upvotes": null,
+      "comments": 1,
+      "approximate": true
+    }
+  }
+}

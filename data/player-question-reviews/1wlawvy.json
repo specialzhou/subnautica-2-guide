@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "redditId": "1wlawvy",
+  "decision": "promote",
+  "review": {
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "",
+    "duplicateDisposition": "not-duplicate",
+    "notes": ""
+  },
+  "question": {
+    "id": "",
+    "featuredRank": null,
+    "category": "",
+    "buildContext": "",
+    "resolution": "",
+    "verification": "",
+    "question": {
+      "en": "Stuck with no progression for like 8 hours or more",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "answer": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "evidenceNote": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "searchTerms": {
+      "en": "",
+      "zh-cn": "",
+      "ru": ""
+    },
+    "relatedPages": [
+      "questions/angel-comb-main-cankers-stuck.html",
+      "guide/creatures/twin-sitaray.html",
+      "questions/where-to-find-axum-resonator.html"
+    ],
+    "evidenceSources": [
+      {
+        "type": "",
+        "label": "",
+        "url": ""
+      }
+    ],
+    "attention": {
+      "observedAt": "2026-10-10",
+      "upvotes": null,
+      "comments": 14,
+      "approximate": true
+    }
+  }
+}

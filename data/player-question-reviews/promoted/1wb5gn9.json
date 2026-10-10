@@ -1,0 +1,60 @@
+{
+  "decision": "promote",
+  "question": {
+    "answer": {
+      "en": "The Moonpool blueprint comes from a Recipe Data Card — check Tailings Village, Tadpole Pens, or the Canteen — or scan two Tadpole fragments instead. It is a seabase module that opens the floor for entrances and exits, and it is the mount point for Tadpole Docks and Vehicle Fabricators.",
+      "ru": "Чертёж Moonpool даёт карта рецепта — ищите в Tailings Village, Tadpole Pens или Canteen, — либо отсканируйте два фрагмента Tadpole. Это модуль базы, открывающий пол для входов и выходов, а также точка крепления Tadpole Dock и Vehicle Fabricator.",
+      "zh-cn": "Moonpool 蓝图来自配方数据卡（Recipe Data Card），去 Tailings Village、Tadpole Pens 或 Canteen 找；也可以扫描两个 Tadpole 碎片解锁。它是海底基地模块，在地板上开口作为出入口，也是 Tadpole Dock 和 Vehicle Fabricator 的安装位。"
+    },
+    "attention": {
+      "approximate": true,
+      "comments": 8,
+      "observedAt": "2026-10-10",
+      "upvotes": 0
+    },
+    "buildContext": "EA 1.2",
+    "category": "blueprints",
+    "evidenceNote": {
+      "en": "Blueprint sources are Wiki-backed (Moonpool, rev 23417, 2026-09-14). Exact fragment coordinates are not published on the wiki page; the Recipe Data Card locations are.",
+      "ru": "Источники чертежа подтверждены Wiki (Moonpool, rev 23417, 2026-09-14). Точные координаты фрагментов на странице вики не указаны; указаны места карт рецептов.",
+      "zh-cn": "蓝图来源有 Wiki 依据（Moonpool 词条，修订版 23417，2026-09-14）。碎片精确坐标 wiki 未公布，配方数据卡位置有记录。"
+    },
+    "evidenceSources": [
+      {
+        "label": "Moonpool — Subnautica 2 Wiki",
+        "type": "wiki-revision",
+        "url": "https://wiki.subnautica.com/sn2/index.php?title=Moonpool&oldid=23417"
+      }
+    ],
+    "featuredRank": null,
+    "id": "moonpool-fragments-location",
+    "question": {
+      "en": "Need help finding Moonpool fragments",
+      "ru": "Нужна помощь с поиском фрагментов Moonpool",
+      "zh-cn": "求助：Moonpool 碎片在哪找？"
+    },
+    "relatedPages": [
+      "vehicle-planner.html",
+      "base-building.html"
+    ],
+    "resolution": "solved",
+    "searchTerms": {
+      "en": "moonpool fragments location blueprint recipe data card",
+      "ru": "moonpool фрагменты где найти чертёж",
+      "zh-cn": "moonpool 碎片 位置 蓝图 配方数据卡"
+    },
+    "verification": "Wiki Moonpool page rev 23417 (2026-09-14): blueprint from Recipe Data Card (Tailings Village, Tadpole Pens, Canteen) or scanning two Tadpole fragments."
+  },
+  "redditId": "1wb5gn9",
+  "review": {
+    "duplicateDisposition": "not-duplicate",
+    "notes": "Wiki-backed: Moonpool blueprint sources documented.",
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "Ren"
+  },
+  "schemaVersion": "1.0.0",
+  "promotion": {
+    "publishedId": "moonpool-fragments-location",
+    "promotedAt": "2026-10-10T09:37:34.529Z"
+  }
+}

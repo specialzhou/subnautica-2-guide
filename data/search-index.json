@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-10T05:59:59.032Z",
-  "count": 335,
+  "count": 333,
   "entries": [
     {
       "title": "Start here",
@@ -5246,60 +5246,6 @@
       "attention": {
         "upvotes": 0,
         "comments": 3,
-        "approximate": true
-      }
-    },
-    {
-      "title": "Help with repairing the power plant?",
-      "type": "Question",
-      "href": "questions/repair-karakorum-power-plant.html",
-      "terms": "repair power plant karakorum turbine generator control Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum. EA 1.2 story-location",
-      "image": null,
-      "localizedTitles": {
-        "zh-cn": "求助：电站怎么修？",
-        "ru": "Помощь с ремонтом электростанции?"
-      },
-      "localizedTerms": {
-        "zh-cn": "电站 修理 karakorum 涡轮 发电机 修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。",
-        "ru": "ремонт электростанция karakorum турбина Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum."
-      },
-      "answer": "Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum.",
-      "localizedAnswers": {
-        "zh-cn": "修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。",
-        "ru": "Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum."
-      },
-      "resolution": "solved",
-      "featuredRank": null,
-      "attention": {
-        "upvotes": 0,
-        "comments": 8,
-        "approximate": true
-      }
-    },
-    {
-      "title": "Not enough power for base?",
-      "type": "Question",
-      "href": "questions/base-not-enough-power.html",
-      "terms": "base not enough power solar panel bioreactor energy Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m. EA 1.2 base-building",
-      "image": null,
-      "localizedTitles": {
-        "zh-cn": "基地电力不够怎么办？",
-        "ru": "Не хватает энергии для базы?"
-      },
-      "localizedTerms": {
-        "zh-cn": "基地 电力不够 太阳能 生物反应堆 增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。",
-        "ru": "база не хватает энергии solar panel bioreactor Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют."
-      },
-      "answer": "Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m.",
-      "localizedAnswers": {
-        "zh-cn": "增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。",
-        "ru": "Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют."
-      },
-      "resolution": "solved",
-      "featuredRank": null,
-      "attention": {
-        "upvotes": 0,
-        "comments": 16,
         "approximate": true
       }
     }

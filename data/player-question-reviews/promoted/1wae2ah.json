@@ -1,0 +1,59 @@
+{
+  "decision": "promote",
+  "question": {
+    "answer": {
+      "en": "It was not moved — the Rebreather blueprint still unlocks by scanning one Rebreather. Documented locations: a Colonist Bunker in the Dolerite Spires, and the Lander Garage wreck (bring a Repair Tool). It counters the oxygen drain when diving below 100m.",
+      "ru": "Его не переносили — чертёж Rebreather по-прежнему открывается сканированием одного Rebreather. Известные места: бункер колонистов в Dolerite Spires и затонувший Lander Garage (возьмите Repair Tool). Он снижает расход кислорода на глубине ниже 100 м.",
+      "zh-cn": "没搬家——Rebreather 蓝图依然是扫描一个 Rebreather 解锁。已记录的位置：Dolerite Spires 的殖民者地堡，以及 Lander Garage 残骸（带上 Repair Tool）。它可以抵消 100 米以下潜水的氧气消耗加速。"
+    },
+    "attention": {
+      "approximate": true,
+      "comments": 3,
+      "observedAt": "2026-10-10",
+      "upvotes": 0
+    },
+    "buildContext": "EA 1.2",
+    "category": "equipment",
+    "evidenceNote": {
+      "en": "Unlock method and locations are Wiki-backed (Rebreather, rev 24575, 2026-10-06). The page lists additional fragment coordinates; the two above are the documented ones relevant here.",
+      "ru": "Способ разблокировки и места подтверждены Wiki (Rebreather, rev 24575, 2026-10-06). На странице есть и другие координаты фрагментов; выше — подходящие задокументированные.",
+      "zh-cn": "解锁方式与位置有 Wiki 依据（Rebreather 词条，修订版 24575，2026-10-06）。该页面还列有其他碎片坐标，上面两个是相关的已记录位置。"
+    },
+    "evidenceSources": [
+      {
+        "label": "Rebreather — Subnautica 2 Wiki",
+        "type": "wiki-revision",
+        "url": "https://wiki.subnautica.com/sn2/index.php?title=Rebreather&oldid=24575"
+      }
+    ],
+    "featuredRank": null,
+    "id": "rebreather-location-1-2",
+    "question": {
+      "en": "Did they move the rebreather in 1.2?",
+      "ru": "Rebreather перенесли в 1.2?",
+      "zh-cn": "1.2 版本把 rebreather 搬走了吗？"
+    },
+    "relatedPages": [
+      "equipment-upgrades.html"
+    ],
+    "resolution": "solved",
+    "searchTerms": {
+      "en": "rebreather location 1.2 moved blueprint scan",
+      "ru": "rebreather где найти 1.2 чертёж",
+      "zh-cn": "rebreather 位置 1.2 蓝图 扫描"
+    },
+    "verification": "Wiki Rebreather page rev 24575 (2026-10-06): blueprint by scanning one Rebreather; listed locations include Colonist Bunker in Dolerite Spires and Lander Garage wreck."
+  },
+  "redditId": "1wae2ah",
+  "review": {
+    "duplicateDisposition": "not-duplicate",
+    "notes": "Wiki-backed: rebreather not moved, scan-to-unlock with documented locations.",
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "Ren"
+  },
+  "schemaVersion": "1.0.0",
+  "promotion": {
+    "publishedId": "rebreather-location-1-2",
+    "promotedAt": "2026-10-10T09:37:53.454Z"
+  }
+}

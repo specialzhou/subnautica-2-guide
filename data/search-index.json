@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-10T05:59:59.032Z",
-  "count": 333,
+  "count": 334,
   "entries": [
     {
       "title": "Start here",
@@ -5246,6 +5246,33 @@
       "attention": {
         "upvotes": 0,
         "comments": 3,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Help with repairing the power plant?",
+      "type": "Question",
+      "href": "questions/repair-karakorum-power-plant.html",
+      "terms": "repair power plant karakorum turbine generator control Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum. EA 1.2 story-location",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "求助：电站怎么修？",
+        "ru": "Помощь с ремонтом электростанции?"
+      },
+      "localizedTerms": {
+        "zh-cn": "电站 修理 karakorum 涡轮 发电机 修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。",
+        "ru": "ремонт электростанция karakorum турбина Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum."
+      },
+      "answer": "Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum.",
+      "localizedAnswers": {
+        "zh-cn": "修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。",
+        "ru": "Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 8,
         "approximate": true
       }
     }

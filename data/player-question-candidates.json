@@ -19,10 +19,10 @@
   },
   "detailCursor": 0,
   "counts": {
-    "total": 76,
-    "systemReview": 35,
-    "readyToReply": 14,
-    "dismissed": 27,
+    "total": 75,
+    "systemReview": 8,
+    "readyToReply": 15,
+    "dismissed": 52,
     "addedThisRun": 1,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
@@ -1204,14 +1204,10 @@
       "redditId": "1wr16vw",
       "firstSeenAt": "2026-09-28T11:41:56.325Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：存档系统无Wiki/官方文档可引用，无法按本站证据标准作答"
       },
       "attention": {
         "upvotes": null,
@@ -1309,15 +1305,10 @@
       "redditId": "1wsdy1c",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：房间拼接建造规则Wiki未记载（Habitat Builder用法节为空），无法按证据标准作答"
       },
       "attention": {
         "upvotes": null,
@@ -1585,15 +1576,10 @@
       "redditId": "1wbojb9",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：标题截断且Wiki无Vehicle Upgrade Console词条"
       },
       "attention": {
         "upvotes": null,
@@ -1641,15 +1627,10 @@
       "redditId": "1vx4zum",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：“coral tube”无法对应任何Wiki词条，无法核实"
       },
       "attention": {
         "upvotes": null,
@@ -1697,16 +1678,10 @@
       "redditId": "1w2kae1",
       "firstSeenAt": "2026-08-31T11:36:21.897Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：Wiki无Mangalloy词条，无法核实该物品存在"
       },
       "attention": {
         "upvotes": null,
@@ -1754,14 +1729,10 @@
       "redditId": "1vvidju",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：纯图片帖无上下文（How do I find all of these?）"
       },
       "attention": {
         "upvotes": null,
@@ -1857,15 +1828,10 @@
       "redditId": "1wx03vn",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：联机Bug报告细节不足"
       },
       "attention": {
         "upvotes": null,
@@ -1910,74 +1876,13 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1w4s0qs",
-      "firstSeenAt": "2026-09-02T09:38:08.284Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "no-title-token-overlap"
-        ]
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 8,
-        "observedAt": "2026-09-02T09:38:08.284Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Help with repairing the power plant?",
-      "questionKey": "help with repairing the power plant",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4s0qs/help_with_repairing_the_power_plant/",
-      "publishedAt": "2026-09-01T22:29:20+00:00",
-      "lastSeenAt": "2026-09-03T09:51:17.151Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 16,
-      "signals": [
-        "help",
-        "not-working",
-        "bug",
-        "where",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 0.67,
-      "suggestedPages": [
-        {
-          "href": "guide/items/atacamite.html",
-          "title": "Atacamite",
-          "score": 0.67
-        },
-        {
-          "href": "guide/items/celestine.html",
-          "title": "Celestine",
-          "score": 0.67
-        },
-        {
-          "href": "guide/items/conduit-crystal.html",
-          "title": "Conduit Crystal",
-          "score": 0.67
-        }
-      ],
-      "priorityScore": 27,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1wvyctu",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：表述 incoherent，无可作答的具体信息"
       },
       "attention": {
         "upvotes": null,
@@ -2025,16 +1930,10 @@
       "redditId": "1wmd8zb",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：问题过于模糊（未指明哪个洞穴）"
       },
       "attention": {
         "upvotes": null,
@@ -2081,16 +1980,10 @@
       "redditId": "1vvp98z",
       "firstSeenAt": "2026-08-24T05:53:41.913Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：建造工具问题无具体描述"
       },
       "attention": {
         "upvotes": null,
@@ -2582,16 +2475,10 @@
       "redditId": "1wjuvg2",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：信息混乱（称手机版，SN2无手机版），无可作答内容"
       },
       "attention": {
         "upvotes": null,
@@ -2689,15 +2576,10 @@
       "redditId": "1wlawvy",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：问题过于模糊（stuck 8小时，无具体卡点）"
       },
       "attention": {
         "upvotes": null,
@@ -2744,16 +2626,10 @@
       "redditId": "1vrybxw",
       "firstSeenAt": "2026-08-20T05:46:20.836Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：Bug报告无细节（PDA不工作）"
       },
       "attention": {
         "upvotes": null,
@@ -2800,15 +2676,10 @@
       "redditId": "1whrzi3",
       "firstSeenAt": "2026-09-16T09:57:16.893Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：问题过于模糊（Base Oxygen）"
       },
       "attention": {
         "upvotes": null,
@@ -2857,15 +2728,10 @@
       "redditId": "1w0ku1e",
       "firstSeenAt": "2026-08-30T12:45:12.751Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：问题过于模糊"
       },
       "attention": {
         "upvotes": null,
@@ -2906,16 +2772,10 @@
       "redditId": "1wl7uwr",
       "firstSeenAt": "2026-09-20T09:49:11.248Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：问题过于模糊（What now?无上下文）"
       },
       "attention": {
         "upvotes": null,
@@ -2957,15 +2817,10 @@
       "redditId": "1ww96kq",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：寻找游戏恶性bug（ exploit 挖掘），不适合攻略化"
       },
       "attention": {
         "upvotes": null,
@@ -3362,14 +3217,10 @@
       "redditId": "1vzzmw5",
       "firstSeenAt": "2026-08-30T12:45:12.751Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：Bug报告无具体症状描述，无法准确作答"
       },
       "attention": {
         "upvotes": null,
@@ -3418,15 +3269,10 @@
       "redditId": "1w43x21",
       "firstSeenAt": "2026-09-01T10:06:48.624Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：问题过于模糊（哪条船、怎么卡住均无信息）"
       },
       "attention": {
         "upvotes": null,
@@ -3467,7 +3313,7 @@
         "reviewedAt": "2026-10-10T00:00:00Z",
         "reviewedBy": "Ren",
         "evidencePage": "questions/angel-comb-main-cankers-stuck.html",
-        "matchScore": 1.0,
+        "matchScore": 1,
         "tokenHits": 2,
         "notes": "人工核验 2026-10-10：与已发布 solved 问题 angel-comb-main-cankers-stuck 为同一问题（duplicate score 1.0，共享词 bloom/canker），直接采用已发布答案。"
       },
@@ -3824,16 +3670,10 @@
       "redditId": "1w6r1l2",
       "firstSeenAt": "2026-09-04T09:40:01.443Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：Soft lock报告无具体信息，无法准确作答"
       },
       "attention": {
         "upvotes": null,
@@ -3874,16 +3714,10 @@
       "redditId": "1vur3ql",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：无任何有效信息（仅“求助bug”）"
       },
       "attention": {
         "upvotes": null,
@@ -3927,15 +3761,10 @@
       "redditId": "1w92yrq",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：自称的DLSS修复方案无法验证"
       },
       "attention": {
         "upvotes": null,
@@ -4166,15 +3995,10 @@
       "redditId": "1vxck6g",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：观点/经验征集帖，非Wiki可作答"
       },
       "attention": {
         "upvotes": null,
@@ -4220,14 +4044,15 @@
       "redditId": "1vpzqri",
       "firstSeenAt": "2026-08-20T05:46:20.836Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low"
-        ]
+        "reviewedAt": "2026-10-10T00:00:00Z",
+        "reviewedBy": "Ren",
+        "evidencePage": "questions/rebioscan-biofilm-not-respawning.html",
+        "matchScore": 0.9,
+        "tokenHits": 2,
+        "notes": "人工核验 2026-10-10：与已发布 solved 问题 rebioscan-biofilm-not-respawning 同一问题（biofilm 缺失如何补扫描），采用已发布答案。"
       },
       "attention": {
         "upvotes": null,
@@ -4269,7 +4094,14 @@
         }
       ],
       "priorityScore": 16,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": {
+        "id": "rebioscan-biofilm-not-respawning",
+        "score": 0.9,
+        "sharedTerms": [
+          "biofilm",
+          "scan"
+        ]
+      }
     },
     {
       "redditId": "1w1tfny",
@@ -4378,14 +4210,10 @@
       "redditId": "1waxo9p",
       "firstSeenAt": "2026-09-09T09:46:32.894Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：纯图片帖无上下文（How do I get in here?）"
       },
       "attention": {
         "upvotes": null,
@@ -4420,14 +4248,10 @@
       "redditId": "1w95pu0",
       "firstSeenAt": "2026-09-10T09:44:59.124Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：Wiki无Lubricant词条，无法核实该物品存在"
       },
       "attention": {
         "upvotes": null,

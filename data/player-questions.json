@@ -926,6 +926,54 @@
         "comments": 3,
         "approximate": true
       }
+    },
+    {
+      "id": "repair-karakorum-power-plant",
+      "featuredRank": null,
+      "category": "story-location",
+      "buildContext": "EA 1.2",
+      "resolution": "solved",
+      "verification": "Wiki Karakorum Power Plant rev 23564 (2026-09-15): repairing the turbine reignites the plant; requires Axum Vision from the Angel Comb below; restart via Lower/Upper Generator Control plus manual repair of the damaged section.",
+      "question": {
+        "en": "Help with repairing the power plant?",
+        "ru": "Помощь с ремонтом электростанции?",
+        "zh-cn": "求助：电站怎么修？"
+      },
+      "answer": {
+        "en": "Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum.",
+        "ru": "Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum.",
+        "zh-cn": "修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。"
+      },
+      "evidenceNote": {
+        "en": "Repair sequence is Wiki-backed (Karakorum Power Plant, rev 23564, 2026-09-15). Coordinates (-166269, 437515, 20–470m) are recorded on the same page.",
+        "ru": "Порядок ремонта подтверждён Wiki (Karakorum Power Plant, rev 23564, 2026-09-15). Координаты (-166269, 437515, 20–470 м) указаны на той же странице.",
+        "zh-cn": "修理流程有 Wiki 依据（Karakorum Power Plant 词条，修订版 23564，2026-09-15）。坐标（-166269, 437515，20–470 米）见同一页面。"
+      },
+      "searchTerms": {
+        "en": "repair power plant karakorum turbine generator control",
+        "ru": "ремонт электростанция karakorum турбина",
+        "zh-cn": "电站 修理 karakorum 涡轮 发电机"
+      },
+      "relatedPages": [
+        "locations.html"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Karakorum Power Plant — Subnautica 2 Wiki",
+          "type": "wiki-revision",
+          "url": "https://wiki.subnautica.com/sn2/index.php?title=Karakorum_Power_Plant&oldid=23564"
+        }
+      ],
+      "source": {
+        "platform": "Reddit",
+        "subreddit": "r/Subnautica_2",
+        "title": "Help with repairing the power plant?",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1w4s0qs/help_with_repairing_the_power_plant/",
+        "observedAt": "2026-10-10",
+        "upvotes": 0,
+        "comments": 8,
+        "approximate": true
+      }
     }
   ]
 }

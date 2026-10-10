@@ -1,0 +1,64 @@
+{
+  "decision": "promote",
+  "question": {
+    "answer": {
+      "en": "Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m.",
+      "ru": "Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют.",
+      "zh-cn": "增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。"
+    },
+    "attention": {
+      "approximate": true,
+      "comments": 16,
+      "observedAt": "2026-10-10",
+      "upvotes": 0
+    },
+    "buildContext": "EA 1.2",
+    "category": "base-building",
+    "evidenceNote": {
+      "en": "Output figures are Wiki-backed (Solar Panel rev 23423, Bioreactor rev 23448, both 2026-09-14). Which appliance is draining the base cannot be known from the post; adding generation is the documented fix.",
+      "ru": "Цифры выработки подтверждены Wiki (Solar Panel rev 23423, Bioreactor rev 23448, обе 2026-09-14). Что именно разряжает базу, по посту неизвестно; добавление генерации — задокументированное решение.",
+      "zh-cn": "发电数值有 Wiki 依据（Solar Panel 修订版 23423、Bioreactor 修订版 23448，均为 2026-09-14）。原帖看不出是哪个设备在耗电，增加发电是文档化的解法。"
+    },
+    "evidenceSources": [
+      {
+        "label": "Solar Panel — Subnautica 2 Wiki",
+        "type": "wiki-revision",
+        "url": "https://wiki.subnautica.com/sn2/index.php?title=Solar_Panel&oldid=23423"
+      },
+      {
+        "label": "Bioreactor — Subnautica 2 Wiki",
+        "type": "wiki-revision",
+        "url": "https://wiki.subnautica.com/sn2/index.php?title=Bioreactor&oldid=23448"
+      }
+    ],
+    "featuredRank": null,
+    "id": "base-not-enough-power",
+    "question": {
+      "en": "Not enough power for base?",
+      "ru": "Не хватает энергии для базы?",
+      "zh-cn": "基地电力不够怎么办？"
+    },
+    "relatedPages": [
+      "base-building.html"
+    ],
+    "resolution": "solved",
+    "searchTerms": {
+      "en": "base not enough power solar panel bioreactor energy",
+      "ru": "база не хватает энергии solar panel bioreactor",
+      "zh-cn": "基地 电力不够 太阳能 生物反应堆"
+    },
+    "verification": "Wiki Solar Panel rev 23423 (8 energy daytime above 200m, ~1/4 at night) and Bioreactor rev 23448 (10 energy Normal mode, fragments at Quaker's Meetinghouse / Empty Hold / debris)."
+  },
+  "redditId": "1w5phvz",
+  "review": {
+    "duplicateDisposition": "not-duplicate",
+    "notes": "Wiki-backed: base power generation figures documented.",
+    "reviewedAt": "2026-10-10",
+    "reviewedBy": "Ren"
+  },
+  "schemaVersion": "1.0.0",
+  "promotion": {
+    "publishedId": "base-not-enough-power",
+    "promotedAt": "2026-10-10T09:43:34.856Z"
+  }
+}

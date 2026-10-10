@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-10T05:59:59.032Z",
-  "count": 334,
+  "count": 335,
   "entries": [
     {
       "title": "Start here",
@@ -5273,6 +5273,33 @@
       "attention": {
         "upvotes": 0,
         "comments": 8,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Not enough power for base?",
+      "type": "Question",
+      "href": "questions/base-not-enough-power.html",
+      "terms": "base not enough power solar panel bioreactor energy Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m. EA 1.2 base-building",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "基地电力不够怎么办？",
+        "ru": "Не хватает энергии для базы?"
+      },
+      "localizedTerms": {
+        "zh-cn": "基地 电力不够 太阳能 生物反应堆 增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。",
+        "ru": "база не хватает энергии solar panel bioreactor Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют."
+      },
+      "answer": "Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m.",
+      "localizedAnswers": {
+        "zh-cn": "增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。",
+        "ru": "Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 16,
         "approximate": true
       }
     }

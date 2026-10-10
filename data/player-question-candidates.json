@@ -19,10 +19,10 @@
   },
   "detailCursor": 0,
   "counts": {
-    "total": 75,
-    "systemReview": 8,
+    "total": 74,
+    "systemReview": 0,
     "readyToReply": 15,
-    "dismissed": 52,
+    "dismissed": 59,
     "addedThisRun": 1,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
@@ -1359,15 +1359,10 @@
       "redditId": "1wkt6kr",
       "firstSeenAt": "2026-09-22T09:57:49.197Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "no-title-token-overlap"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：选址建议类主观问题，无唯一正确答案，不适合证据型攻略"
       },
       "attention": {
         "upvotes": null,
@@ -1417,14 +1412,10 @@
       "redditId": "1wr3ny4",
       "firstSeenAt": "2026-09-28T11:41:56.325Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：选址建议类主观问题（50条评论的讨论帖），不适合证据型攻略"
       },
       "attention": {
         "upvotes": null,
@@ -2081,15 +2072,10 @@
       "redditId": "1w79pcm",
       "firstSeenAt": "2026-09-05T09:05:33.744Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：重生物品机制Wiki无专门记载，无法按证据标准作答"
       },
       "attention": {
         "upvotes": null,
@@ -2919,15 +2905,10 @@
       "redditId": "1voe45x",
       "firstSeenAt": "2026-08-20T05:46:20.836Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：主线进度问题依赖玩家具体故事状态且含剧透，版本相关性强，不适合静态攻略页"
       },
       "attention": {
         "upvotes": null,
@@ -3162,15 +3143,10 @@
       "redditId": "1wt7kq1",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：选址建议类主观问题，不适合证据型攻略"
       },
       "attention": {
         "upvotes": null,
@@ -3403,60 +3379,6 @@
       "possibleDuplicateOf": null
     },
     {
-      "redditId": "1w5phvz",
-      "firstSeenAt": "2026-09-10T09:44:59.124Z",
-      "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "no-title-token-overlap"
-        ]
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 16,
-        "observedAt": "2026-09-12T09:22:17.015Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Not enough power for base?",
-      "questionKey": "not enough power for base",
-      "url": "https://www.reddit.com/r/subnautica/comments/1w5phvz/not_enough_power_for_base/",
-      "publishedAt": "2026-09-02T22:33:54+00:00",
-      "lastSeenAt": "2026-09-10T09:44:59.124Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 7,
-      "signals": [
-        "where",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.67,
-      "suggestedPages": [
-        {
-          "href": "questions/axum-lever-location.html",
-          "title": "Where is the lever after powering the Axum station?",
-          "score": 0.67
-        },
-        {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.33
-        },
-        {
-          "href": "guide/items/atacamite.html",
-          "title": "Atacamite",
-          "score": 0.33
-        }
-      ],
-      "priorityScore": 18,
-      "possibleDuplicateOf": null
-    },
-    {
       "redditId": "1ww6uuz",
       "firstSeenAt": "2026-10-04T11:06:58.803Z",
       "review": {
@@ -3558,15 +3480,10 @@
       "redditId": "1wcrapu",
       "firstSeenAt": "2026-09-11T09:42:07.658Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "match-score-too-low",
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：NoA打印机制Wiki无记载，无法按证据标准作答"
       },
       "attention": {
         "upvotes": null,
@@ -3862,14 +3779,10 @@
       "redditId": "1vxf3o7",
       "firstSeenAt": "2026-08-25T05:47:51.441Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-09T11:54:11.106Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：过于宽泛的新手向问题，站点已有starter-planner.html承接此需求"
       },
       "attention": {
         "upvotes": null,

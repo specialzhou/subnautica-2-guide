@@ -10,7 +10,10 @@ const excludedPattern = /\b(dnl|test|debug|placeholder|unobtainable|unused|remov
 const definitions = {
   resources: { label: "Resources", singular: "Resource", categories: ["Raw Materials", "Processed Materials"], template: "Infobox Item", output: "resources.html" },
   creatures: { label: "Creatures", singular: "Creature", categories: ["Foragers", "Predators", "Leviathans", "Lifeforms"], template: "Infobox Lifeform", output: "creatures.html" },
-  vehicles: { label: "Vehicles", singular: "Vehicle", categories: ["Vehicles"], template: "Infobox Vehicle", output: "vehicles.html" },
+  // 2026-10-06 起官方 Wiki 把两个蝌蚪号底盘从 Category:Vehicles 摘除（编辑者 Drekryan 的
+  // "reorder, -cat" 归类调整）。本站仍将其作为载具相关记录收录，因此用 titles 显式补回，
+  // 不再完全依赖分类成员。
+  vehicles: { label: "Vehicles", singular: "Vehicle", categories: ["Vehicles"], titles: ["Tadpole Haul Chassis", "Tadpole Scout Ray Chassis"], template: "Infobox Vehicle", output: "vehicles.html" },
   biomes: { label: "Biomes", singular: "Biome", categories: ["Biomes"], template: ["Infobox Biome", "Infobox_Biome"], output: "biomes.html" },
 };
 
@@ -288,7 +291,9 @@ async function main() {
   const allEntities = [];
   for (const [kind, definition] of Object.entries(definitions)) {
     const lists = await Promise.all(definition.categories.map((category) => categoryMembers(category, kind === "biomes")));
-    const pages = await fetchPages([...new Set(lists.flat())].sort());
+    // titles 为显式指定的页面标题（如因 Wiki 重新归类而脱离分类、但本站仍需收录的记录）；
+    // fetchPages 会自动过滤已不存在的页面，页面被删除/改名时由异常闸门兜底。
+    const pages = await fetchPages([...new Set(lists.flat().concat(definition.titles ?? []))].sort());
     allEntities.push(...pages.map((page) => normalizePage(kind, page)).filter(Boolean));
   }
   const mediaByFile = await fetchImageMedia(allEntities.map((entity) => entity.imageFile));

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T10:38:25.883Z",
-  "count": 330,
+  "generatedAt": "2026-10-10T05:59:59.032Z",
+  "count": 335,
   "entries": [
     {
       "title": "Start here",
@@ -1545,21 +1545,6 @@
       "localizedTerms": {
         "zh-cn": "栖息所建造器 室内门 铜线 钛 铜 玻璃",
         "ru": "Строитель Внутренняя дверь Медный провод Титан Медь Стекло"
-      }
-    },
-    {
-      "title": "Interior Wall",
-      "type": "Item",
-      "href": "guide/items/interior-wall.html",
-      "terms": "Interior Wall Habitat Builder Titanium",
-      "image": null,
-      "localizedTitles": {
-        "zh-cn": "室内墙体",
-        "ru": "Внутренняя стена"
-      },
-      "localizedTerms": {
-        "zh-cn": "栖息所建造器 室内墙体 钛",
-        "ru": "Строитель Внутренняя стена Титан"
       }
     },
     {
@@ -5154,6 +5139,168 @@
         "upvotes": 4,
         "comments": 11,
         "approximate": false
+      }
+    },
+    {
+      "title": "How do I get this biomod?",
+      "type": "Question",
+      "href": "questions/how-to-get-biomod.html",
+      "terms": "biomod how to get unlock bioscanner biolab Scan creatures with the Bioscanner — that is how biomods are unlocked — then equip them at the Biolab. Dash, Pathfinder, Sea Skimmer and Oxygen Control are unlocked by default; every other biomod requires Bioscanner scans first. EA 1.2 equipment",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "这个 biomod 怎么获得？",
+        "ru": "Как получить этот биомод?"
+      },
+      "localizedTerms": {
+        "zh-cn": "biomod 获得 解锁 生物扫描仪 生物实验室 用 Bioscanner（生物扫描仪）扫描生物即可解锁 biomod，然后在 Biolab（生物实验室）中装备。Dash、Pathfinder、Sea Skimmer 和 Oxygen Control 这四个默认已解锁，其余 biomod 都需要先用 Bioscanner 扫描解锁。",
+        "ru": "биомод как получить разблокировать bioscanner biolab Сканируйте существ с помощью Bioscanner — так открываются биомоды, — затем экипируйте их в Biolab. Dash, Pathfinder, Sea Skimmer и Oxygen Control разблокированы по умолчанию; остальные биомоды требуют предварительного сканирования."
+      },
+      "answer": "Scan creatures with the Bioscanner — that is how biomods are unlocked — then equip them at the Biolab. Dash, Pathfinder, Sea Skimmer and Oxygen Control are unlocked by default; every other biomod requires Bioscanner scans first.",
+      "localizedAnswers": {
+        "zh-cn": "用 Bioscanner（生物扫描仪）扫描生物即可解锁 biomod，然后在 Biolab（生物实验室）中装备。Dash、Pathfinder、Sea Skimmer 和 Oxygen Control 这四个默认已解锁，其余 biomod 都需要先用 Bioscanner 扫描解锁。",
+        "ru": "Сканируйте существ с помощью Bioscanner — так открываются биомоды, — затем экипируйте их в Biolab. Dash, Pathfinder, Sea Skimmer и Oxygen Control разблокированы по умолчанию; остальные биомоды требуют предварительного сканирования."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 4,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Need help finding Moonpool fragments",
+      "type": "Question",
+      "href": "questions/moonpool-fragments-location.html",
+      "terms": "moonpool fragments location blueprint recipe data card The Moonpool blueprint comes from a Recipe Data Card — check Tailings Village, Tadpole Pens, or the Canteen — or scan two Tadpole fragments instead. It is a seabase module that opens the floor for entrances and exits, and it is the mount point for Tadpole Docks and Vehicle Fabricators. EA 1.2 blueprints",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "求助：Moonpool 碎片在哪找？",
+        "ru": "Нужна помощь с поиском фрагментов Moonpool"
+      },
+      "localizedTerms": {
+        "zh-cn": "moonpool 碎片 位置 蓝图 配方数据卡 Moonpool 蓝图来自配方数据卡（Recipe Data Card），去 Tailings Village、Tadpole Pens 或 Canteen 找；也可以扫描两个 Tadpole 碎片解锁。它是海底基地模块，在地板上开口作为出入口，也是 Tadpole Dock 和 Vehicle Fabricator 的安装位。",
+        "ru": "moonpool фрагменты где найти чертёж Чертёж Moonpool даёт карта рецепта — ищите в Tailings Village, Tadpole Pens или Canteen, — либо отсканируйте два фрагмента Tadpole. Это модуль базы, открывающий пол для входов и выходов, а также точка крепления Tadpole Dock и Vehicle Fabricator."
+      },
+      "answer": "The Moonpool blueprint comes from a Recipe Data Card — check Tailings Village, Tadpole Pens, or the Canteen — or scan two Tadpole fragments instead. It is a seabase module that opens the floor for entrances and exits, and it is the mount point for Tadpole Docks and Vehicle Fabricators.",
+      "localizedAnswers": {
+        "zh-cn": "Moonpool 蓝图来自配方数据卡（Recipe Data Card），去 Tailings Village、Tadpole Pens 或 Canteen 找；也可以扫描两个 Tadpole 碎片解锁。它是海底基地模块，在地板上开口作为出入口，也是 Tadpole Dock 和 Vehicle Fabricator 的安装位。",
+        "ru": "Чертёж Moonpool даёт карта рецепта — ищите в Tailings Village, Tadpole Pens или Canteen, — либо отсканируйте два фрагмента Tadpole. Это модуль базы, открывающий пол для входов и выходов, а также точка крепления Tadpole Dock и Vehicle Fabricator."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 8,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Did they move the rebreather in 1.2?",
+      "type": "Question",
+      "href": "questions/rebreather-location-1-2.html",
+      "terms": "rebreather location 1.2 moved blueprint scan It was not moved — the Rebreather blueprint still unlocks by scanning one Rebreather. Documented locations: a Colonist Bunker in the Dolerite Spires, and the Lander Garage wreck (bring a Repair Tool). It counters the oxygen drain when diving below 100m. EA 1.2 equipment",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "1.2 版本把 rebreather 搬走了吗？",
+        "ru": "Rebreather перенесли в 1.2?"
+      },
+      "localizedTerms": {
+        "zh-cn": "rebreather 位置 1.2 蓝图 扫描 没搬家——Rebreather 蓝图依然是扫描一个 Rebreather 解锁。已记录的位置：Dolerite Spires 的殖民者地堡，以及 Lander Garage 残骸（带上 Repair Tool）。它可以抵消 100 米以下潜水的氧气消耗加速。",
+        "ru": "rebreather где найти 1.2 чертёж Его не переносили — чертёж Rebreather по-прежнему открывается сканированием одного Rebreather. Известные места: бункер колонистов в Dolerite Spires и затонувший Lander Garage (возьмите Repair Tool). Он снижает расход кислорода на глубине ниже 100 м."
+      },
+      "answer": "It was not moved — the Rebreather blueprint still unlocks by scanning one Rebreather. Documented locations: a Colonist Bunker in the Dolerite Spires, and the Lander Garage wreck (bring a Repair Tool). It counters the oxygen drain when diving below 100m.",
+      "localizedAnswers": {
+        "zh-cn": "没搬家——Rebreather 蓝图依然是扫描一个 Rebreather 解锁。已记录的位置：Dolerite Spires 的殖民者地堡，以及 Lander Garage 残骸（带上 Repair Tool）。它可以抵消 100 米以下潜水的氧气消耗加速。",
+        "ru": "Его не переносили — чертёж Rebreather по-прежнему открывается сканированием одного Rebreather. Известные места: бункер колонистов в Dolerite Spires и затонувший Lander Garage (возьмите Repair Tool). Он снижает расход кислорода на глубине ниже 100 м."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 3,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Help with multiplayer",
+      "type": "Question",
+      "href": "questions/multiplayer-how-it-works.html",
+      "terms": "multiplayer how to play co-op how many players Yes — Subnautica 2 has optional online co-op for up to 4 players, and solo play is fully supported. Multiplayer is cross-platform. Hosting is currently peer-to-peer only; dedicated servers are not available yet. Joining, hosting and save behavior beyond that are not officially documented. EA 1.2 multiplayer",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "求助：联机怎么玩？",
+        "ru": "Помощь с мультиплеером"
+      },
+      "localizedTerms": {
+        "zh-cn": "联机 怎么玩 几个人 合作模式 有——《Subnautica 2》支持可选的在线联机，最多 4 人，单人游玩也完全支持，且跨平台联机。当前仅支持 P2P 建房，暂无专用服务器。之外的加入/建房/存档细节官方尚未公布。",
+        "ru": "мультиплеер как играть кооператив сколько игроков Да — в Subnautica 2 есть необязательный онлайн-кооператив до 4 игроков, одиночная игра полностью поддерживается. Мультиплеер кроссплатформенный. Хостинг пока только peer-to-peer; выделенных серверов нет. Остальные детали официально не задокументированы."
+      },
+      "answer": "Yes — Subnautica 2 has optional online co-op for up to 4 players, and solo play is fully supported. Multiplayer is cross-platform. Hosting is currently peer-to-peer only; dedicated servers are not available yet. Joining, hosting and save behavior beyond that are not officially documented.",
+      "localizedAnswers": {
+        "zh-cn": "有——《Subnautica 2》支持可选的在线联机，最多 4 人，单人游玩也完全支持，且跨平台联机。当前仅支持 P2P 建房，暂无专用服务器。之外的加入/建房/存档细节官方尚未公布。",
+        "ru": "Да — в Subnautica 2 есть необязательный онлайн-кооператив до 4 игроков, одиночная игра полностью поддерживается. Мультиплеер кроссплатформенный. Хостинг пока только peer-to-peer; выделенных серверов нет. Остальные детали официально не задокументированы."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 3,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Help with repairing the power plant?",
+      "type": "Question",
+      "href": "questions/repair-karakorum-power-plant.html",
+      "terms": "repair power plant karakorum turbine generator control Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum. EA 1.2 story-location",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "求助：电站怎么修？",
+        "ru": "Помощь с ремонтом электростанции?"
+      },
+      "localizedTerms": {
+        "zh-cn": "电站 修理 karakorum 涡轮 发电机 修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。",
+        "ru": "ремонт электростанция karakorum турбина Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum."
+      },
+      "answer": "Repair the turbine: first gain the Axum Vision adaptation from the Angel Comb directly below the turbine, then use the Lower Generator Control and Upper Generator Control to restart it, and manually repair the damaged section across from the Upper Generator Control. That reignites the plant, powers the facility, and unlocks the Observatory Museum.",
+      "localizedAnswers": {
+        "zh-cn": "修理涡轮：先从涡轮正下方的 Angel Comb 处获得 Axum Vision 适应能力，然后用 Lower Generator Control 和 Upper Generator Control 重启涡轮，并手动修复 Upper Generator Control 对面损坏的部分。这样就能重新点燃电站、恢复设施供电，并解锁 Observatory Museum。",
+        "ru": "Отремонтируйте турбину: сначала получите адаптацию Axum Vision от Angel Comb прямо под турбиной, затем используйте Lower Generator Control и Upper Generator Control для перезапуска и вручную почините повреждённый участок напротив Upper Generator Control. Это перезапустит станцию, даст энергию комплексу и откроет Observatory Museum."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 8,
+        "approximate": true
+      }
+    },
+    {
+      "title": "Not enough power for base?",
+      "type": "Question",
+      "href": "questions/base-not-enough-power.html",
+      "terms": "base not enough power solar panel bioreactor energy Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m. EA 1.2 base-building",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "基地电力不够怎么办？",
+        "ru": "Не хватает энергии для базы?"
+      },
+      "localizedTerms": {
+        "zh-cn": "基地 电力不够 太阳能 生物反应堆 增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。",
+        "ru": "база не хватает энергии solar panel bioreactor Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют."
+      },
+      "answer": "Add more generation: Solar Panels give 8 energy each during daytime above 200m (about a quarter of that at night), so stack several. For steady output build a Bioreactor — it burns biological matter for 10 energy in Normal mode (fragments at Quaker's Meetinghouse, the Empty Hold, or scattered debris). Also check depth: solars fade below 200m.",
+      "localizedAnswers": {
+        "zh-cn": "增加发电：Solar Panel 白天在 200 米以上每块供 8 点能量（夜间约四分之一），多建几块；要稳定输出就造 Bioreactor，烧生物质、普通模式供 10 点能量（碎片在 Quaker's Meetinghouse、Empty Hold 或残骸堆）。另外检查深度：200 米以下太阳能衰减。",
+        "ru": "Добавьте генерацию: Solar Panel даёт 8 энергии днём выше 200 м (ночью — примерно четверть), так что ставьте несколько. Для стабильной выработки постройте Bioreactor — он сжигает биомассу и даёт 10 энергии в обычном режиме (фрагменты в Quaker's Meetinghouse, Empty Hold или среди обломков). Проверьте глубину: ниже 200 м панели слабеют."
+      },
+      "resolution": "solved",
+      "featuredRank": null,
+      "attention": {
+        "upvotes": 0,
+        "comments": 16,
+        "approximate": true
       }
     }
   ]

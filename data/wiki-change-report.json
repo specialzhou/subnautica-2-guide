@@ -1,15 +1,663 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-10-05T10:38:23.236Z",
+  "detectedAt": "2026-10-10T05:59:52.452Z",
   "changes": [
+    {
+      "id": "axum-wall-lamp",
+      "title": "Axum Wall Lamp",
+      "change": "updated",
+      "previousRevisionId": 21075,
+      "revisionId": 24634,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "basic-fins",
+      "title": "Basic Fins",
+      "change": "updated",
+      "previousRevisionId": 23404,
+      "revisionId": 24560,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "battery-terminal",
+      "title": "Battery Terminal",
+      "change": "updated",
+      "previousRevisionId": 23445,
+      "revisionId": 24363,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "beacon",
+      "title": "Beacon",
+      "change": "updated",
+      "previousRevisionId": 23441,
+      "revisionId": 24417,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "biolab",
+      "title": "Biolab",
+      "change": "updated",
+      "previousRevisionId": 23791,
+      "revisionId": 24642,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "bioscanner",
+      "title": "Bioscanner",
+      "change": "updated",
+      "previousRevisionId": 23653,
+      "revisionId": 24474,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "bullfrog-workmech",
+      "title": "Bullfrog Workmech",
+      "change": "updated",
+      "previousRevisionId": 21489,
+      "revisionId": 24540,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "celestine",
+      "title": "Celestine",
+      "change": "updated",
+      "previousRevisionId": 23789,
+      "revisionId": 24387,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "copper",
+      "title": "Copper",
+      "change": "updated",
+      "previousRevisionId": 23767,
+      "revisionId": 24393,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "coral-mash",
+      "title": "Coral Mash",
+      "change": "updated",
+      "previousRevisionId": 20874,
+      "revisionId": 24388,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "creature-enamel",
+      "title": "Creature Enamel",
+      "change": "updated",
+      "previousRevisionId": 23794,
+      "revisionId": 24398,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "dedicated-core",
+      "title": "Dedicated Core",
+      "change": "updated",
+      "previousRevisionId": 20263,
+      "revisionId": 24360,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "distraction-flare",
+      "title": "Distraction Flare",
+      "change": "updated",
+      "previousRevisionId": 23408,
+      "revisionId": 24359,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "dive-elevator",
+      "title": "Dive Elevator",
+      "change": "updated",
+      "previousRevisionId": 23954,
+      "revisionId": 24376,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "engine-efficiency",
+      "title": "Engine Efficiency",
+      "change": "updated",
+      "previousRevisionId": 17864,
+      "revisionId": 24381,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "expanded-deployable-locker",
+      "title": "Expanded Deployable Locker",
+      "change": "updated",
+      "previousRevisionId": 23303,
+      "revisionId": 24470,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "feedback-resonator",
+      "title": "Feedback Resonator",
+      "change": "updated",
+      "previousRevisionId": 23048,
+      "revisionId": 24356,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "fiber-mesh",
+      "title": "Fiber Mesh",
+      "change": "updated",
+      "previousRevisionId": 23455,
+      "revisionId": 24395,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "floor-locker",
+      "title": "Floor Locker",
+      "change": "updated",
+      "previousRevisionId": 23456,
+      "revisionId": 24473,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "grease",
+      "title": "Grease",
+      "change": "updated",
+      "previousRevisionId": 23888,
+      "revisionId": 24364,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "habitat-beacon",
+      "title": "Habitat Beacon",
+      "change": "updated",
+      "previousRevisionId": 23500,
+      "revisionId": 24347,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "hanging-tailing-jar",
+      "title": "Hanging Tailing Jar",
+      "change": "updated",
+      "previousRevisionId": 23297,
+      "revisionId": 24377,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
     {
       "id": "hatch",
       "title": "Hatch",
       "change": "updated",
-      "previousRevisionId": 23851,
-      "revisionId": 24238,
+      "previousRevisionId": 24238,
+      "revisionId": 24375,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
+    },
+    {
+      "id": "high-capacity-air-tank",
+      "title": "High Capacity Air Tank",
+      "change": "updated",
+      "previousRevisionId": 23447,
+      "revisionId": 24562,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "hydroelectric-turbine",
+      "title": "Hydroelectric Turbine",
+      "change": "updated",
+      "previousRevisionId": 21594,
+      "revisionId": 24362,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "improved-fins",
+      "title": "Improved Fins",
+      "change": "updated",
+      "previousRevisionId": 19975,
+      "revisionId": 24574,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "interior-door",
+      "title": "Interior Door",
+      "change": "updated",
+      "previousRevisionId": 23420,
+      "revisionId": 24528,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "just-keep-swimming-poster",
+      "title": "Just Keep Swimming Poster",
+      "change": "updated",
+      "previousRevisionId": 23248,
+      "revisionId": 24600,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "keep-calm-poster",
+      "title": "Keep Calm Poster",
+      "change": "updated",
+      "previousRevisionId": 23430,
+      "revisionId": 24601,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "lab-chair",
+      "title": "Lab Chair",
+      "change": "updated",
+      "previousRevisionId": 23233,
+      "revisionId": 24365,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "lead",
+      "title": "Lead",
+      "change": "updated",
+      "previousRevisionId": 23769,
+      "revisionId": 24378,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "leviathanawakens-poster",
+      "title": "LeviathanAwakens Poster",
+      "change": "updated",
+      "previousRevisionId": 23279,
+      "revisionId": 24481,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "lost-river-poster",
+      "title": "Lost River Poster",
+      "change": "updated",
+      "previousRevisionId": 23249,
+      "revisionId": 24472,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "macaron-sponge",
+      "title": "Macaron Sponge",
+      "change": "updated",
+      "previousRevisionId": 23858,
+      "revisionId": 24350,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "metal-farm",
+      "title": "Metal Farm",
+      "change": "updated",
+      "previousRevisionId": 23242,
+      "revisionId": 24397,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "mild-acid",
+      "title": "Mild Acid",
+      "change": "updated",
+      "previousRevisionId": 20249,
+      "revisionId": 24469,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "modification-station",
+      "title": "Modification Station",
+      "change": "updated",
+      "previousRevisionId": 23464,
+      "revisionId": 24484,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "necrolei-cyst",
+      "title": "Necrolei Cyst",
+      "change": "updated",
+      "previousRevisionId": 24049,
+      "revisionId": 24391,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "noa-terminal",
+      "title": "NoA Terminal",
+      "change": "updated",
+      "previousRevisionId": 23574,
+      "revisionId": 24414,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "painted-tree-poster",
+      "title": "Painted Tree Poster",
+      "change": "updated",
+      "previousRevisionId": 23295,
+      "revisionId": 24369,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "pioneer-hull-plate",
+      "title": "Pioneer Hull Plate",
+      "change": "updated",
+      "previousRevisionId": 23983,
+      "revisionId": 24627,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "portable-locker",
+      "title": "Portable Locker",
+      "change": "updated",
+      "previousRevisionId": 23435,
+      "revisionId": 24345,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "portable-oxygen-generator",
+      "title": "Portable Oxygen Generator",
+      "change": "updated",
+      "previousRevisionId": 23846,
+      "revisionId": 24348,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "power-cell-bank",
+      "title": "Power Cell Bank",
+      "change": "updated",
+      "previousRevisionId": 23306,
+      "revisionId": 24406,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "power-transmitter",
+      "title": "Power Transmitter",
+      "change": "updated",
+      "previousRevisionId": 23254,
+      "revisionId": 24353,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "quartz",
+      "title": "Quartz",
+      "change": "updated",
+      "previousRevisionId": 23774,
+      "revisionId": 24409,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "rebreather",
+      "title": "Rebreather",
+      "change": "updated",
+      "previousRevisionId": 23449,
+      "revisionId": 24575,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "repair-tool",
+      "title": "Repair Tool",
+      "change": "updated",
+      "previousRevisionId": 23431,
+      "revisionId": 24349,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "roof-listening-dish",
+      "title": "Roof Listening Dish",
+      "change": "updated",
+      "previousRevisionId": 23305,
+      "revisionId": 24368,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "roof-pump-double",
+      "title": "Roof Pump Double",
+      "change": "updated",
+      "previousRevisionId": 23257,
+      "revisionId": 24401,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "salt",
+      "title": "Salt",
+      "change": "updated",
+      "previousRevisionId": 23771,
+      "revisionId": 24352,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "scanner",
+      "title": "Scanner",
+      "change": "updated",
+      "previousRevisionId": 23434,
+      "revisionId": 24468,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "scanner-station",
+      "title": "Scanner Station",
+      "change": "updated",
+      "previousRevisionId": 23798,
+      "revisionId": 24367,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "seamoth-model",
+      "title": "Seamoth Model",
+      "change": "updated",
+      "previousRevisionId": 23984,
+      "revisionId": 24626,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "sign",
+      "title": "Sign",
+      "change": "updated",
+      "previousRevisionId": 23426,
+      "revisionId": 24485,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "sonic-resonator",
+      "title": "Sonic Resonator",
+      "change": "updated",
+      "previousRevisionId": 23047,
+      "revisionId": 24354,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "standard-air-tank",
+      "title": "Standard Air Tank",
+      "change": "updated",
+      "previousRevisionId": 23394,
+      "revisionId": 24565,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "system-chip",
+      "title": "System Chip",
+      "change": "updated",
+      "previousRevisionId": 23461,
+      "revisionId": 24379,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-haul-chassis",
+      "title": "Tadpole Haul Chassis",
+      "change": "updated",
+      "previousRevisionId": 23820,
+      "revisionId": 24355,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-scout-ray-chassis",
+      "title": "Tadpole Scout Ray Chassis",
+      "change": "updated",
+      "previousRevisionId": 23819,
+      "revisionId": 24641,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tailing-table",
+      "title": "Tailing Table",
+      "change": "updated",
+      "previousRevisionId": 23274,
+      "revisionId": 24396,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tall-axum-jar",
+      "title": "Tall Axum Jar",
+      "change": "updated",
+      "previousRevisionId": 23255,
+      "revisionId": 24386,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "time-of-day-display",
+      "title": "Time of Day Display",
+      "change": "updated",
+      "previousRevisionId": 23077,
+      "revisionId": 24471,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "trashcan",
+      "title": "Trashcan",
+      "change": "updated",
+      "previousRevisionId": 23428,
+      "revisionId": 24385,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "ultra-high-capacity-air-tank",
+      "title": "Ultra High Capacity Air Tank",
+      "change": "updated",
+      "previousRevisionId": 23451,
+      "revisionId": 24578,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "urchin-pudding",
+      "title": "Urchin Pudding",
+      "change": "updated",
+      "previousRevisionId": 18235,
+      "revisionId": 24404,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "vehicle-fabricator",
+      "title": "Vehicle Fabricator",
+      "change": "updated",
+      "previousRevisionId": 23389,
+      "revisionId": 24483,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "vintage-wanted-poster",
+      "title": "Vintage Wanted poster",
+      "change": "updated",
+      "previousRevisionId": 24040,
+      "revisionId": 24596,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "wall-light-large",
+      "title": "Wall Light Large",
+      "change": "updated",
+      "previousRevisionId": 23264,
+      "revisionId": 24410,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "wall-light-small",
+      "title": "Wall Light Small",
+      "change": "updated",
+      "previousRevisionId": 23289,
+      "revisionId": 24372,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "wall-unit-small",
+      "title": "Wall Unit Small",
+      "change": "updated",
+      "previousRevisionId": 23309,
+      "revisionId": 24370,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "window",
+      "title": "Window",
+      "change": "updated",
+      "previousRevisionId": 23414,
+      "revisionId": 24373,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "interior-wall",
+      "title": "Interior Wall",
+      "change": "removed",
+      "previousRevisionId": 23419,
+      "revisionId": null,
+      "previousStatus": "wiki-backed",
+      "status": null
     }
   ]
 }

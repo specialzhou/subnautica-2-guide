@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-10-10T11:11:00.712Z",
+  "collectedAt": "2026-10-11T11:24:37.692Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -19,11 +19,11 @@
   },
   "detailCursor": 0,
   "counts": {
-    "total": 74,
-    "systemReview": 0,
+    "total": 76,
+    "systemReview": 2,
     "readyToReply": 15,
     "dismissed": 59,
-    "addedThisRun": 0,
+    "addedThisRun": 2,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
   },
@@ -505,7 +505,9 @@
     "1wxi2sl",
     "1wzkhhi",
     "1wzbu02",
-    "1x0vsj2"
+    "1x0vsj2",
+    "1x2yb3j",
+    "1x2osmp"
   ],
   "candidates": [
     {
@@ -555,6 +557,11 @@
         {
           "href": "questions/where-to-find-axum-resonator.html",
           "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.67
+        },
+        {
+          "href": "questions/repair-karakorum-power-plant.html",
+          "title": "Help with repairing the power plant?",
           "score": 0.67
         }
       ],
@@ -613,6 +620,11 @@
           "href": "questions/angel-comb-main-cankers-stuck.html",
           "title": "Why won't the last Angel Comb cankers open?",
           "score": 0.33
+        },
+        {
+          "href": "questions/how-to-get-biomod.html",
+          "title": "How do I get this biomod?",
+          "score": 0.33
         }
       ],
       "priorityScore": 30,
@@ -658,13 +670,13 @@
           "score": 0.67
         },
         {
-          "href": "vehicle-planner.html",
-          "title": "Tadpole vehicle planner",
-          "score": 0.33
+          "href": "questions/moonpool-fragments-location.html",
+          "title": "Need help finding Moonpool fragments",
+          "score": 0.67
         },
         {
-          "href": "guide/items/tadpole.html",
-          "title": "Tadpole",
+          "href": "vehicle-planner.html",
+          "title": "Tadpole vehicle planner",
           "score": 0.33
         }
       ],
@@ -695,7 +707,7 @@
       "questionKey": "how do i dock my tadpole with chassis",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wljwpp/how_do_i_dock_my_tadpole_with_chassis/",
       "publishedAt": "2026-09-20T15:23:48+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -764,18 +776,75 @@
           "score": 1
         },
         {
-          "href": "vehicle-planner.html",
-          "title": "Tadpole vehicle planner",
-          "score": 0.5
+          "href": "questions/moonpool-fragments-location.html",
+          "title": "Need help finding Moonpool fragments",
+          "score": 1
         },
         {
-          "href": "guide/items/tadpole.html",
-          "title": "Tadpole",
+          "href": "vehicle-planner.html",
+          "title": "Tadpole vehicle planner",
           "score": 0.5
         }
       ],
       "priorityScore": 20,
       "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1vivrud",
+      "firstSeenAt": "2026-08-14T06:42:38.441Z",
+      "review": {
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-10T00:00:00Z",
+        "reviewedBy": "Ren",
+        "evidencePage": "questions/angel-comb-main-cankers-stuck.html",
+        "matchScore": 1,
+        "tokenHits": 2,
+        "notes": "人工核验 2026-10-10：与已发布 solved 问题 angel-comb-main-cankers-stuck 为同一问题（duplicate score 1.0，共享词 bloom/canker），直接采用已发布答案。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 3,
+        "observedAt": "2026-09-26T09:52:24.010Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Bloom canker?",
+      "questionKey": "bloom canker",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vivrud/bloom_canker/",
+      "publishedAt": "2026-08-08T13:15:37+00:00",
+      "lastSeenAt": "2026-08-20T05:46:20.836Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "not-working",
+        "how",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 1,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 1
+        },
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.5
+        }
+      ],
+      "priorityScore": 20,
+      "possibleDuplicateOf": {
+        "id": "angel-comb-main-cankers-stuck",
+        "score": 1,
+        "sharedTerms": [
+          "bloom",
+          "canker"
+        ]
+      }
     },
     {
       "redditId": "1w8lblb",
@@ -824,9 +893,9 @@
           "score": 0.33
         },
         {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
-          "score": 0.17
+          "href": "questions/repair-karakorum-power-plant.html",
+          "title": "Help with repairing the power plant?",
+          "score": 0.33
         }
       ],
       "priorityScore": 18,
@@ -864,7 +933,7 @@
       "questionKey": "final angel comb core won t open",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wlt6r6/final_angel_comb_core_wont_open/",
       "publishedAt": "2026-09-20T21:15:48+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -886,9 +955,9 @@
           "score": 0.33
         },
         {
-          "href": "guide/items/dedicated-core.html",
-          "title": "Dedicated Core",
-          "score": 0.17
+          "href": "questions/repair-karakorum-power-plant.html",
+          "title": "Help with repairing the power plant?",
+          "score": 0.33
         }
       ],
       "priorityScore": 17,
@@ -902,6 +971,62 @@
           "open"
         ]
       }
+    },
+    {
+      "redditId": "1vpzqri",
+      "firstSeenAt": "2026-08-20T05:46:20.836Z",
+      "review": {
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-10T00:00:00Z",
+        "reviewedBy": "Ren",
+        "evidencePage": "questions/rebioscan-biofilm-not-respawning.html",
+        "matchScore": 0.9,
+        "tokenHits": 2,
+        "notes": "人工核验 2026-10-10：与已发布 solved 问题 rebioscan-biofilm-not-respawning 同一问题（biofilm 缺失如何补扫描），采用已发布答案。"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 15,
+        "observedAt": "2026-09-30T11:10:28.894Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Shattered all the bloom biofilm. Is there any way to still get a scan of it.",
+      "questionKey": "shattered all the bloom biofilm is there any way to still get a scan of it",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vpzqri/shattered_all_the_bloom_biofilm_is_there_any_way/",
+      "publishedAt": "2026-08-16T15:19:06+00:00",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 8,
+      "signals": [
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.3,
+      "suggestedPages": [
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.3
+        },
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 0.2
+        },
+        {
+          "href": "questions/save-missing-after-ea-1-1-update.html",
+          "title": "My save disappeared after the EA 1.1 update. What should I do?",
+          "score": 0.2
+        }
+      ],
+      "priorityScore": 16,
+      "possibleDuplicateOf": null
     },
     {
       "redditId": "1w9ucok",
@@ -1035,13 +1160,13 @@
           "score": 0.67
         },
         {
-          "href": "vehicle-planner.html",
-          "title": "Tadpole vehicle planner",
-          "score": 0.33
+          "href": "questions/moonpool-fragments-location.html",
+          "title": "Need help finding Moonpool fragments",
+          "score": 0.67
         },
         {
-          "href": "guide/items/tadpole.html",
-          "title": "Tadpole",
+          "href": "vehicle-planner.html",
+          "title": "Tadpole vehicle planner",
           "score": 0.33
         }
       ],
@@ -1095,6 +1220,11 @@
         {
           "href": "questions/where-to-find-axum-resonator.html",
           "title": "Where is the Axum Resonator in EA 1.1?",
+          "score": 0.67
+        },
+        {
+          "href": "questions/repair-karakorum-power-plant.html",
+          "title": "Help with repairing the power plant?",
           "score": 0.67
         }
       ],
@@ -1184,13 +1314,13 @@
           "score": 0.3
         },
         {
-          "href": "questions/cross-collector-canyon-safely.html",
-          "title": "How can I cross the Collector canyon without losing my Tadpole?",
-          "score": 0.2
+          "href": "questions/how-to-get-biomod.html",
+          "title": "How do I get this biomod?",
+          "score": 0.3
         },
         {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
+          "href": "questions/cross-collector-canyon-safely.html",
+          "title": "How can I cross the Collector canyon without losing my Tadpole?",
           "score": 0.2
         }
       ],
@@ -1199,6 +1329,96 @@
       "relatedPages": [
         "guide/creatures/collector-leviathan.html"
       ]
+    },
+    {
+      "redditId": "1x2yb3j",
+      "firstSeenAt": "2026-10-11T11:24:37.692Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-11T11:24:37.692Z",
+        "holdReasons": [
+          "too-few-shared-tokens",
+          "no-title-token-overlap"
+        ]
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked",
+        "lastErrorAt": "2026-10-11T11:24:37.692Z",
+        "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica_2/comments/1x2yb3j/help_with_bug/.rss?limit=500"
+      },
+      "title": "Help with bug",
+      "questionKey": "help with bug",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1x2yb3j/help_with_bug/",
+      "publishedAt": "2026-10-11T03:57:27+00:00",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 10,
+      "signals": [
+        "help",
+        "bug",
+        "progression"
+      ],
+      "trafficValue": 0,
+      "answerability": 1,
+      "suggestedPages": [
+        {
+          "href": "questions/angel-comb-main-cankers-stuck.html",
+          "title": "Why won't the last Angel Comb cankers open?",
+          "score": 1
+        },
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 1
+        }
+      ],
+      "priorityScore": 20,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1x2osmp",
+      "firstSeenAt": "2026-10-11T11:24:37.692Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "no-matched-page",
+        "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-11T11:24:37.692Z",
+        "holdReasons": [
+          "no-matched-page"
+        ]
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 0,
+        "observedAt": "2026-10-11T11:24:37.692Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "Help",
+      "questionKey": "help",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1x2osmp/help/",
+      "publishedAt": "2026-10-10T20:10:28+00:00",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 9,
+      "signals": [
+        "help",
+        "not-working",
+        "bug"
+      ],
+      "trafficValue": 0,
+      "answerability": 0,
+      "suggestedPages": [],
+      "priorityScore": 9,
+      "possibleDuplicateOf": null
     },
     {
       "redditId": "1wr16vw",
@@ -1395,13 +1615,13 @@
           "score": 0.4
         },
         {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.2
+          "href": "questions/base-not-enough-power.html",
+          "title": "Not enough power for base?",
+          "score": 0.4
         },
         {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
+          "href": "base-building.html",
+          "title": "Base building",
           "score": 0.2
         }
       ],
@@ -1802,13 +2022,13 @@
           "score": 0.5
         },
         {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.25
+          "href": "questions/base-not-enough-power.html",
+          "title": "Not enough power for base?",
+          "score": 0.5
         },
         {
-          "href": "guide/items/reaper-leviathan.html",
-          "title": "Reaper Leviathan",
+          "href": "base-building.html",
+          "title": "Base building",
           "score": 0.25
         }
       ],
@@ -1835,7 +2055,7 @@
       "questionKey": "having a huge issue where players can t interact with my world and are suffering from horrible lag",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wx03vn/having_a_huge_issue_where_players_cant_interact/",
       "publishedAt": "2026-10-03T22:43:01+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 15,
       "signals": [
@@ -2138,7 +2358,7 @@
       "questionKey": "subnautica 2 doesn t feel like a subnautica game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wzbu02/subnautica_2_doesnt_feel_like_a_subnautica_game/",
       "publishedAt": "2026-10-06T19:29:37+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -2253,6 +2473,11 @@
         {
           "href": "questions/livekernelevent-141-hp-omen-crash.html",
           "title": "Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?",
+          "score": 0.25
+        },
+        {
+          "href": "questions/how-to-get-biomod.html",
+          "title": "How do I get this biomod?",
           "score": 0.25
         }
       ],
@@ -2397,6 +2622,11 @@
         {
           "href": "questions/where-to-find-sandspear.html",
           "title": "Where can I find a Sandspear for the bioscan?",
+          "score": 0.5
+        },
+        {
+          "href": "questions/moonpool-fragments-location.html",
+          "title": "Need help finding Moonpool fragments",
           "score": 0.5
         }
       ],
@@ -2551,6 +2781,59 @@
           "href": "guide/items/enhanced-first-aid-kit.html",
           "title": "Enhanced First Aid Kit",
           "score": 0.2
+        }
+      ],
+      "priorityScore": 23,
+      "possibleDuplicateOf": null
+    },
+    {
+      "redditId": "1voe45x",
+      "firstSeenAt": "2026-08-20T05:46:20.836Z",
+      "review": {
+        "state": "dismissed",
+        "answerStatus": "dismissed",
+        "reviewedAt": "2026-10-10",
+        "notes": "人工分诊 2026-10-10：主线进度问题依赖玩家具体故事状态且含剧透，版本相关性强，不适合静态攻略页"
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": 14,
+        "observedAt": "2026-09-27T10:33:23.556Z",
+        "approximate": true,
+        "method": "reddit-post-rss-comment-entry-count"
+      },
+      "title": "No idea what to do next, no hints from NoA (story spoilers)",
+      "questionKey": "no idea what to do next no hints from noa story spoilers",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1voe45x/no_idea_what_to_do_next_no_hints_from_noa_story/",
+      "publishedAt": "2026-08-14T17:44:54+00:00",
+      "lastSeenAt": "2026-08-26T05:50:16.248Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 12,
+      "signals": [
+        "help",
+        "not-working",
+        "where",
+        "how",
+        "crafting",
+        "progression"
+      ],
+      "trafficValue": 1,
+      "answerability": 0.29,
+      "suggestedPages": [
+        {
+          "href": "questions/repair-karakorum-power-plant.html",
+          "title": "Help with repairing the power plant?",
+          "score": 0.29
+        },
+        {
+          "href": "guide/items/noa-terminal.html",
+          "title": "NoA Terminal",
+          "score": 0.14
+        },
+        {
+          "href": "guide/biomes/dolerite-spires.html",
+          "title": "Dolerite Spires",
+          "score": 0.14
         }
       ],
       "priorityScore": 23,
@@ -2772,7 +3055,7 @@
       "questionKey": "what now help a new player out",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wl7uwr/what_now_help_a_new_player_out/",
       "publishedAt": "2026-09-20T05:10:06+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -2840,9 +3123,9 @@
           "score": 0.29
         },
         {
-          "href": "questions/trailer-location-not-in-game.html",
-          "title": "Where is the large habitat shown in the trailer?",
-          "score": 0.14
+          "href": "questions/moonpool-fragments-location.html",
+          "title": "Need help finding Moonpool fragments",
+          "score": 0.29
         }
       ],
       "priorityScore": 22,
@@ -2891,62 +3174,9 @@
           "score": 0.18
         },
         {
-          "href": "guide/items/advanced-battery.html",
-          "title": "Advanced Battery",
-          "score": 0.09
-        }
-      ],
-      "priorityScore": 21,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1voe45x",
-      "firstSeenAt": "2026-08-20T05:46:20.836Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：主线进度问题依赖玩家具体故事状态且含剧透，版本相关性强，不适合静态攻略页"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 14,
-        "observedAt": "2026-09-27T10:33:23.556Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "No idea what to do next, no hints from NoA (story spoilers)",
-      "questionKey": "no idea what to do next no hints from noa story spoilers",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1voe45x/no_idea_what_to_do_next_no_hints_from_noa_story/",
-      "publishedAt": "2026-08-14T17:44:54+00:00",
-      "lastSeenAt": "2026-08-26T05:50:16.248Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 12,
-      "signals": [
-        "help",
-        "not-working",
-        "where",
-        "how",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.14,
-      "suggestedPages": [
-        {
-          "href": "guide/items/noa-terminal.html",
-          "title": "NoA Terminal",
-          "score": 0.14
-        },
-        {
-          "href": "guide/biomes/dolerite-spires.html",
-          "title": "Dolerite Spires",
-          "score": 0.14
-        },
-        {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
-          "score": 0.14
+          "href": "questions/moonpool-fragments-location.html",
+          "title": "Need help finding Moonpool fragments",
+          "score": 0.18
         }
       ],
       "priorityScore": 21,
@@ -3231,9 +3461,9 @@
           "score": 0.22
         },
         {
-          "href": "guide/creatures/deepwing-brooder.html",
-          "title": "Deepwing Brooder",
-          "score": 0.11
+          "href": "questions/repair-karakorum-power-plant.html",
+          "title": "Help with repairing the power plant?",
+          "score": 0.22
         }
       ],
       "priorityScore": 20,
@@ -3276,63 +3506,6 @@
       ],
       "priorityScore": 20,
       "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vivrud",
-      "firstSeenAt": "2026-08-14T06:42:38.441Z",
-      "review": {
-        "state": "ready-to-reply",
-        "answerStatus": "evidence-verified",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-10T00:00:00Z",
-        "reviewedBy": "Ren",
-        "evidencePage": "questions/angel-comb-main-cankers-stuck.html",
-        "matchScore": 1,
-        "tokenHits": 2,
-        "notes": "人工核验 2026-10-10：与已发布 solved 问题 angel-comb-main-cankers-stuck 为同一问题（duplicate score 1.0，共享词 bloom/canker），直接采用已发布答案。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 3,
-        "observedAt": "2026-09-26T09:52:24.010Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Bloom canker?",
-      "questionKey": "bloom canker",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vivrud/bloom_canker/",
-      "publishedAt": "2026-08-08T13:15:37+00:00",
-      "lastSeenAt": "2026-08-20T05:46:20.836Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 10,
-      "signals": [
-        "not-working",
-        "how",
-        "progression"
-      ],
-      "trafficValue": 0,
-      "answerability": 1,
-      "suggestedPages": [
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 1
-        },
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.5
-        }
-      ],
-      "priorityScore": 20,
-      "possibleDuplicateOf": {
-        "id": "angel-comb-main-cankers-stuck",
-        "score": 1,
-        "sharedTerms": [
-          "bloom",
-          "canker"
-        ]
-      }
     },
     {
       "redditId": "1w9bjqv",
@@ -3461,13 +3634,13 @@
           "score": 0.25
         },
         {
-          "href": "base-building.html",
-          "title": "Base building",
-          "score": 0.13
+          "href": "questions/base-not-enough-power.html",
+          "title": "Not enough power for base?",
+          "score": 0.25
         },
         {
-          "href": "questions/personal-storage-use.html",
-          "title": "What is the personal storage box actually useful for?",
+          "href": "base-building.html",
+          "title": "Base building",
           "score": 0.13
         }
       ],
@@ -3742,7 +3915,7 @@
       "questionKey": "not only that i hope with the future map design resource allocation logistics and story progression we will be forced to use one and rely on it in some areas of the map",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wnv7of/not_only_that_i_hope_with_the_future_map_design/",
       "publishedAt": "2026-09-23T03:49:05+00:00",
-      "lastSeenAt": "2026-10-10T11:11:00.712Z",
+      "lastSeenAt": "2026-10-11T11:24:37.692Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3895,6 +4068,11 @@
           "href": "questions/save-missing-after-ea-1-1-update.html",
           "title": "My save disappeared after the EA 1.1 update. What should I do?",
           "score": 0.25
+        },
+        {
+          "href": "questions/multiplayer-how-it-works.html",
+          "title": "Help with multiplayer",
+          "score": 0.25
         }
       ],
       "priorityScore": 16,
@@ -3948,69 +4126,6 @@
       ],
       "priorityScore": 16,
       "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vpzqri",
-      "firstSeenAt": "2026-08-20T05:46:20.836Z",
-      "review": {
-        "state": "ready-to-reply",
-        "answerStatus": "evidence-verified",
-        "autoReviewed": false,
-        "reviewedAt": "2026-10-10T00:00:00Z",
-        "reviewedBy": "Ren",
-        "evidencePage": "questions/rebioscan-biofilm-not-respawning.html",
-        "matchScore": 0.9,
-        "tokenHits": 2,
-        "notes": "人工核验 2026-10-10：与已发布 solved 问题 rebioscan-biofilm-not-respawning 同一问题（biofilm 缺失如何补扫描），采用已发布答案。"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 15,
-        "observedAt": "2026-09-30T11:10:28.894Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "Shattered all the bloom biofilm. Is there any way to still get a scan of it.",
-      "questionKey": "shattered all the bloom biofilm is there any way to still get a scan of it",
-      "url": "https://www.reddit.com/r/Subnautica_2/comments/1vpzqri/shattered_all_the_bloom_biofilm_is_there_any_way/",
-      "publishedAt": "2026-08-16T15:19:06+00:00",
-      "lastSeenAt": "2026-08-26T05:50:16.248Z",
-      "sourceSubreddit": "r/Subnautica_2",
-      "painScore": 8,
-      "signals": [
-        "where",
-        "how",
-        "crafting",
-        "progression"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.3,
-      "suggestedPages": [
-        {
-          "href": "questions/rebioscan-biofilm-not-respawning.html",
-          "title": "Why isn't Biofilm respawning for a re-bioscan?",
-          "score": 0.3
-        },
-        {
-          "href": "questions/angel-comb-main-cankers-stuck.html",
-          "title": "Why won't the last Angel Comb cankers open?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/save-missing-after-ea-1-1-update.html",
-          "title": "My save disappeared after the EA 1.1 update. What should I do?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 16,
-      "possibleDuplicateOf": {
-        "id": "rebioscan-biofilm-not-respawning",
-        "score": 0.9,
-        "sharedTerms": [
-          "biofilm",
-          "scan"
-        ]
-      }
     },
     {
       "redditId": "1w1tfny",
@@ -4145,6 +4260,11 @@
         {
           "href": "starter-planner.html",
           "title": "Start here",
+          "score": 0.5
+        },
+        {
+          "href": "questions/how-to-get-biomod.html",
+          "title": "How do I get this biomod?",
           "score": 0.5
         }
       ],

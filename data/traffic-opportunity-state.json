@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-10-06T14:15:08.057Z",
-  "lastRunAt": "2026-10-10T13:48:29.480Z",
-  "lastOpportunityAt": "2026-10-06T14:15:08.057Z",
-  "dryRunStreak": 4,
+  "updatedAt": "2026-10-11T14:07:20.403Z",
+  "lastRunAt": "2026-10-11T14:07:20.403Z",
+  "lastOpportunityAt": "2026-10-11T14:07:20.403Z",
+  "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
     "1uuswe2:angel-comb-main-cankers-stuck",
@@ -19,6 +19,8 @@
     "1w1sj6d:page:guide/items/tadpole-dock.html",
     "1w9ucok:page:guide/creatures/shiver-leviathan.html",
     "1w8lblb:page:questions/angel-comb-main-cankers-stuck.html",
-    "1vjl3cl:page:guide/items/tadpole-dock.html"
+    "1vjl3cl:page:guide/items/tadpole-dock.html",
+    "1vpzqri:page:questions/rebioscan-biofilm-not-respawning.html",
+    "1vivrud:dup:angel-comb-main-cankers-stuck"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-10-09T11:54:11.106Z",
+  "collectedAt": "2026-10-10T11:11:00.712Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -23,7 +23,7 @@
     "systemReview": 0,
     "readyToReply": 15,
     "dismissed": 59,
-    "addedThisRun": 1,
+    "addedThisRun": 0,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
   },
@@ -695,7 +695,7 @@
       "questionKey": "how do i dock my tadpole with chassis",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wljwpp/how_do_i_dock_my_tadpole_with_chassis/",
       "publishedAt": "2026-09-20T15:23:48+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -864,7 +864,7 @@
       "questionKey": "final angel comb core won t open",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wlt6r6/final_angel_comb_core_wont_open/",
       "publishedAt": "2026-09-20T21:15:48+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1316,7 +1316,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-10-09T11:54:11.106Z",
+        "lastErrorAt": "2026-10-10T11:11:00.712Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1wsdy1c/why_cant_i_build_this_room_by_connecting_it_to/.rss?limit=500"
       },
       "title": "Why can't I build this room by connecting it to two existing structures?",
@@ -1835,7 +1835,7 @@
       "questionKey": "having a huge issue where players can t interact with my world and are suffering from horrible lag",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wx03vn/having_a_huge_issue_where_players_cant_interact/",
       "publishedAt": "2026-10-03T22:43:01+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 15,
       "signals": [
@@ -2138,7 +2138,7 @@
       "questionKey": "subnautica 2 doesn t feel like a subnautica game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wzbu02/subnautica_2_doesnt_feel_like_a_subnautica_game/",
       "publishedAt": "2026-10-06T19:29:37+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -2271,11 +2271,9 @@
       "attention": {
         "upvotes": null,
         "comments": 55,
-        "observedAt": "2026-09-01T10:06:48.624Z",
+        "observedAt": "2026-10-10T11:11:00.712Z",
         "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count",
-        "lastErrorAt": "2026-10-09T11:54:11.106Z",
-        "lastError": "Reddit RSS request failed (403) for https://www.reddit.com/r/subnautica/comments/1vyk7r8/what_is_your_preferred_lost_river_entrance/.rss?limit=500"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "What is your preferred lost river entrance?",
       "questionKey": "what is your preferred lost river entrance",
@@ -2774,7 +2772,7 @@
       "questionKey": "what now help a new player out",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wl7uwr/what_now_help_a_new_player_out/",
       "publishedAt": "2026-09-20T05:10:06+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -3546,7 +3544,7 @@
       "questionKey": "what new items upgrades buildings do you think will be added in ea 2 0",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wjzdo4/what_new_itemsupgradesbuildings_do_you_think_will/",
       "publishedAt": "2026-09-18T19:09:34+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3744,7 +3742,7 @@
       "questionKey": "not only that i hope with the future map design resource allocation logistics and story progression we will be forced to use one and rely on it in some areas of the map",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wnv7of/not_only_that_i_hope_with_the_future_map_design/",
       "publishedAt": "2026-09-23T03:49:05+00:00",
-      "lastSeenAt": "2026-10-09T11:54:11.106Z",
+      "lastSeenAt": "2026-10-10T11:11:00.712Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3786,12 +3784,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": 49,
-        "observedAt": "2026-08-31T11:36:21.897Z",
+        "comments": 52,
+        "observedAt": "2026-10-10T11:11:00.712Z",
         "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count",
-        "lastErrorAt": "2026-10-09T11:54:11.106Z",
-        "lastError": "Reddit RSS request failed (403) for https://www.reddit.com/r/subnautica/comments/1vxf3o7/help_me_start/.rss?limit=500"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "Help Me Start :)",
       "questionKey": "help me start",
@@ -4028,11 +4024,9 @@
       "attention": {
         "upvotes": null,
         "comments": 13,
-        "observedAt": "2026-08-31T11:36:21.897Z",
+        "observedAt": "2026-10-10T11:11:00.712Z",
         "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count",
-        "lastErrorAt": "2026-10-09T11:54:11.106Z",
-        "lastError": "Reddit RSS request failed (403) for https://www.reddit.com/r/Subnautica_2/comments/1w1tfny/i_need_help_for_my_son_cant_get_the_game_to/.rss?limit=500"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "I need help for my son, can't get the game to launch, tells me may have exited wrong and if you have minimum requirements, we do meet all requirements",
       "questionKey": "i need help for my son can t get the game to launch tells me may have exited wrong and if you have minimum requirements we do meet all requirements",

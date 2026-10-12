@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-10T05:59:52.452Z",
+  "generatedAt": "2026-10-12T11:04:22.878Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1409,7 +1409,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Vehicle Fabricator",
-        "Future content"
+        "Future content",
+        "Unofficially named content"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -1438,10 +1439,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullfrog_Workmech",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullfrog_Workmech&oldid=24540",
-        "revisionId": 24540,
-        "revisionTimestamp": "2026-10-06T18:22:13Z",
-        "fetchedAt": "2026-10-10T05:59:57.629Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullfrog_Workmech&oldid=24681",
+        "revisionId": 24681,
+        "revisionTimestamp": "2026-10-12T04:14:18Z",
+        "fetchedAt": "2026-10-12T11:04:24.890Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

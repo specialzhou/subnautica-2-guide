@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:04:22.878Z",
+  "generatedAt": "2026-10-13T10:47:02.017Z",
   "count": 335,
   "entries": [
     {
@@ -423,6 +423,21 @@
       }
     },
     {
+      "title": "BigSub",
+      "type": "Item",
+      "href": "guide/items/bigsub.html",
+      "terms": "BigSub Habitat Builder Plasteel Ingot Volatile Acid Methane Clathrate",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "BigSub",
+        "ru": "BigSub"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 塑钢锭 BigSub",
+        "ru": "Строитель Слиток пластали BigSub"
+      }
+    },
+    {
       "title": "Biobed",
       "type": "Item",
       "href": "guide/items/biobed.html",
@@ -636,7 +651,7 @@
       "title": "Conduit Crystal",
       "type": "Item",
       "href": "guide/items/conduit-crystal.html",
-      "terms": "Conduit Crystal Metal Farm Conduit Crystal Conduit Crystal Deposit * Karakorum Power Plant",
+      "terms": "Conduit Crystal Metal Farm Conduit Crystal Conduit Crystal Deposit Karakorum Power Plant",
       "image": "https://wiki.subnautica.com/sn2/images/Conduit_Crystal.png?c9cfd",
       "localizedTitles": {
         "zh-cn": "导管晶体",
@@ -3183,21 +3198,6 @@
       }
     },
     {
-      "title": "Urchin Pudding",
-      "type": "Item",
-      "href": "guide/items/urchin-pudding.html",
-      "terms": "Urchin Pudding Fabricator Pudding Urchin Salt Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Urchin_Pudding.png?9b47f",
-      "localizedTitles": {
-        "zh-cn": "海胆布丁",
-        "ru": "Пудинг из морского ежа"
-      },
-      "localizedTerms": {
-        "zh-cn": "海胆布丁 布丁海胆 装配台 盐",
-        "ru": "Пудинг из морского ежа Пудинговый морской ёж Изготовитель Соль"
-      }
-    },
-    {
       "title": "Vehicle Fabricator",
       "type": "Item",
       "href": "guide/items/vehicle-fabricator.html",
@@ -3531,30 +3531,30 @@
       "title": "Blackthorn",
       "type": "Creature",
       "href": "guide/creatures/blackthorn.html",
-      "terms": "Blackthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Food +15 / Health 0 / Water -5 Karakorum Metal Farms",
+      "terms": "Blackthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Karakorum Metal Farms",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Blackthorn_render.png/720px-Blackthorn_render.png?67e55",
       "localizedTitles": {
         "zh-cn": "黑刺鱼",
         "ru": "Черношип"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 金属农场 黑刺鱼 水",
-        "ru": "Металлические фермы Каракорума Металлическая ферма Черношип Вода"
+        "zh-cn": "喀喇昆仑金属农场 金属农场 黑刺鱼",
+        "ru": "Металлические фермы Каракорума Металлическая ферма Черношип"
       }
     },
     {
       "title": "Bluemoon",
       "type": "Creature",
       "href": "guide/creatures/bluemoon.html",
-      "terms": "Bluemoon Passive Mobile Foragers Unknown Food +10 / Health 0 / Water +5 Shallows Root Canyon Graveyard Caves",
+      "terms": "Bluemoon Passive Mobile Foragers Unknown Shallows Root Canyon Graveyard Caves",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Bluemoon_render.png/720px-Bluemoon_render.png?26ab0",
       "localizedTitles": {
         "zh-cn": "蓝月鱼",
         "ru": "Рыба-синемесяц"
       },
       "localizedTerms": {
-        "zh-cn": "根系峡谷 墓地 蓝月鱼 浅滩 水",
-        "ru": "Корневой каньон Кладбище Рыба-синемесяц Мелководье Вода"
+        "zh-cn": "根系峡谷 墓地 蓝月鱼 浅滩",
+        "ru": "Корневой каньон Кладбище Рыба-синемесяц Мелководье"
       }
     },
     {
@@ -3771,15 +3771,15 @@
       "title": "Flash Slug",
       "type": "Creature",
       "href": "guide/creatures/flash-slug.html",
-      "terms": "Flash Slug Defensive Mobile Foragers Seaslug kleptopharos The stolen beacon slug Food +20 / Health -10 / Water 0 Overgrown Ruins Karakorum Power Plant Root Canyon",
+      "terms": "Flash Slug Defensive Mobile Foragers Seaslug kleptopharos The stolen beacon slug Overgrown Ruins Karakorum Power Plant Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Flash_Slug_render.png/720px-Flash_Slug_render.png?aa3ba",
       "localizedTitles": {
         "zh-cn": "闪光蛞蝓",
         "ru": "Слепящий слизень"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑发电站 蔓生遗迹 根系峡谷 闪光蛞蝓 信标 水",
-        "ru": "Электростанция Каракорума Заросшие руины Корневой каньон Слепящий слизень Маяк Вода"
+        "zh-cn": "喀喇昆仑发电站 蔓生遗迹 根系峡谷 闪光蛞蝓 信标",
+        "ru": "Электростанция Каракорума Заросшие руины Корневой каньон Слепящий слизень Маяк"
       }
     },
     {
@@ -3801,15 +3801,15 @@
       "title": "Geordie",
       "type": "Creature",
       "href": "guide/creatures/geordie.html",
-      "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Food +20 / Health -5 / Water 0 Coral Gardens",
+      "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Coral Gardens",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Geordie_render.png/720px-Geordie_render.png?5a532",
       "localizedTitles": {
         "zh-cn": "四翅海鞘",
         "ru": "Джорди"
       },
       "localizedTerms": {
-        "zh-cn": "珊瑚区 四翅海鞘 水",
-        "ru": "Коралловые сады Джорди Вода"
+        "zh-cn": "珊瑚区 四翅海鞘",
+        "ru": "Коралловые сады Джорди"
       }
     },
     {
@@ -3906,15 +3906,15 @@
       "title": "Halfmoon",
       "type": "Creature",
       "href": "guide/creatures/halfmoon.html",
-      "terms": "Halfmoon Passive Mobile Foragers Moliform luna “Mola-shaped moon” Food +15 / Health 0 / Water -5 Coral Gardens Graveyard Necrolei Hills Root Canyon",
+      "terms": "Halfmoon Passive Mobile Foragers Moliform luna “Mola-shaped moon” Coral Gardens Graveyard Necrolei Hills Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Halfmoon_render.png/720px-Halfmoon_render.png?e7230",
       "localizedTitles": {
         "zh-cn": "半月鱼",
         "ru": "Рыба-полумесяц"
       },
       "localizedTerms": {
-        "zh-cn": "尼克罗蕾丘陵 珊瑚区 根系峡谷 墓地 半月鱼 死腐水母 水",
-        "ru": "Холмы Некролеи Коралловые сады Корневой каньон Кладбище Рыба-полумесяц Некролея Вода"
+        "zh-cn": "尼克罗蕾丘陵 珊瑚区 根系峡谷 墓地 半月鱼 死腐水母",
+        "ru": "Холмы Некролеи Коралловые сады Корневой каньон Кладбище Рыба-полумесяц Некролея"
       }
     },
     {
@@ -3936,15 +3936,15 @@
       "title": "Harvestmoon",
       "type": "Creature",
       "href": "guide/creatures/harvestmoon.html",
-      "terms": "Harvestmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Food +20 / Health 0 / Water -5 Shallows Root Canyon",
+      "terms": "Harvestmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Shallows Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Harvestmoon_render.png/720px-Harvestmoon_render.png?de7bc",
       "localizedTitles": {
         "zh-cn": "满月鱼",
         "ru": "Рыба-желтомесяц"
       },
       "localizedTerms": {
-        "zh-cn": "满月鱼 根系峡谷 浅滩 水",
-        "ru": "Рыба-желтомесяц Корневой каньон Мелководье Вода"
+        "zh-cn": "满月鱼 根系峡谷 浅滩",
+        "ru": "Рыба-желтомесяц Корневой каньон Мелководье"
       }
     },
     {
@@ -3966,15 +3966,15 @@
       "title": "Hoverthorn",
       "type": "Creature",
       "href": "guide/creatures/hoverthorn.html",
-      "terms": "Hoverthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Food +15 / Health 0 / Water -5 Karakorum Metal Farms Karakorum Power Plant Overgrown Ruins Root Canyon",
+      "terms": "Hoverthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Karakorum Metal Farms Karakorum Power Plant Overgrown Ruins Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Hoverthorn_render.png/720px-Hoverthorn_render.png?b48bb",
       "localizedTitles": {
         "zh-cn": "悬浮刺鱼",
         "ru": "Иглохвост"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 蔓生遗迹 根系峡谷 悬浮刺鱼 金属农场 水",
-        "ru": "Металлические фермы Каракорума Электростанция Каракорума Заросшие руины Корневой каньон Иглохвост Металлическая ферма Вода"
+        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 蔓生遗迹 根系峡谷 悬浮刺鱼 金属农场",
+        "ru": "Металлические фермы Каракорума Электростанция Каракорума Заросшие руины Корневой каньон Иглохвост Металлическая ферма"
       }
     },
     {
@@ -4281,15 +4281,15 @@
       "title": "Pneuma",
       "type": "Creature",
       "href": "guide/creatures/pneuma.html",
-      "terms": "Pneuma Passive Mobile Foragers Pneuma pneuma “Wind wind” Food +25 / Health 0 / Water -5 Overgrown Ruins",
+      "terms": "Pneuma Passive Mobile Foragers Pneuma pneuma “Wind wind” Overgrown Ruins",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Pneuma_render.png/720px-Pneuma_render.png?60bb8",
       "localizedTitles": {
         "zh-cn": "泡泡鱼",
         "ru": "Пневма"
       },
       "localizedTerms": {
-        "zh-cn": "蔓生遗迹 泡泡鱼 水",
-        "ru": "Заросшие руины Пневма Вода"
+        "zh-cn": "蔓生遗迹 泡泡鱼",
+        "ru": "Заросшие руины Пневма"
       }
     },
     {
@@ -4641,7 +4641,7 @@
       "title": "Water",
       "type": "Resource",
       "href": "guide/resources/water.html",
-      "terms": "Water Crafting Processor Food",
+      "terms": "Water Crafting Processor Sustenance",
       "image": "https://wiki.subnautica.com/sn2/images/Water.png?e6984",
       "localizedTitles": {
         "zh-cn": "水",
@@ -4656,7 +4656,7 @@
       "title": "Water Slug",
       "type": "Creature",
       "href": "guide/creatures/water-slug.html",
-      "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” Food -5 / Health 0 / Water +15 All",
+      "terms": "Water Slug Passive Mobile Foragers Seaslug hydroclast ”sea slug water breaker” All",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Water_Slug_render.png/720px-Water_Slug_render.png?02a06",
       "localizedTitles": {
         "zh-cn": "水蛞蝓",

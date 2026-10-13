@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-10T05:59:59.032Z",
+  "generatedAt": "2026-10-13T10:47:02.017Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -61,16 +61,15 @@
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
         "Raw Materials",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Atacamite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Atacamite&oldid=23792",
-        "revisionId": 23792,
-        "revisionTimestamp": "2026-09-20T17:50:23Z",
-        "fetchedAt": "2026-09-21T09:06:40.095Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Atacamite&oldid=24928",
+        "revisionId": 24928,
+        "revisionTimestamp": "2026-10-12T19:51:27Z",
+        "fetchedAt": "2026-10-13T10:47:02.411Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -223,10 +222,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Blackthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=23825",
-        "revisionId": 23825,
-        "revisionTimestamp": "2026-09-20T19:10:05Z",
-        "fetchedAt": "2026-09-21T09:06:40.606Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=24850",
+        "revisionId": 24850,
+        "revisionTimestamp": "2026-10-12T17:00:32Z",
+        "fetchedAt": "2026-10-13T10:47:02.807Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -237,7 +236,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Monopter astrapakantha \"one-finned lightning-thorn\"",
-        "nutrition": "Food +15 / Health 0 / Water -5",
+        "nutrition": "",
         "biomes": [
           "Karakorum Metal Farms"
         ]
@@ -269,10 +268,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bluemoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=23123",
-        "revisionId": 23123,
-        "revisionTimestamp": "2026-09-13T21:59:09Z",
-        "fetchedAt": "2026-09-14T09:04:45.672Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=24815",
+        "revisionId": 24815,
+        "revisionTimestamp": "2026-10-12T16:37:17Z",
+        "fetchedAt": "2026-10-13T10:47:02.804Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -283,7 +282,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Unknown",
-        "nutrition": "Food +10 / Health 0 / Water +5",
+        "nutrition": "",
         "biomes": [
           "Shallows",
           "Root Canyon",
@@ -402,10 +401,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cerathecan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=24155",
-        "revisionId": 24155,
-        "revisionTimestamp": "2026-09-30T23:28:34Z",
-        "fetchedAt": "2026-10-01T10:17:11.009Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=24889",
+        "revisionId": 24889,
+        "revisionTimestamp": "2026-10-12T18:33:08Z",
+        "fetchedAt": "2026-10-13T10:47:02.805Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -487,10 +486,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Conduit_Crystal",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Conduit_Crystal&oldid=23796",
-        "revisionId": 23796,
-        "revisionTimestamp": "2026-09-20T17:52:37Z",
-        "fetchedAt": "2026-09-21T09:06:40.096Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Conduit_Crystal&oldid=24909",
+        "revisionId": 24909,
+        "revisionTimestamp": "2026-10-12T19:38:00Z",
+        "fetchedAt": "2026-10-13T10:47:02.412Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -806,10 +805,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dolerite_Spires",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dolerite_Spires&oldid=23317",
-        "revisionId": 23317,
-        "revisionTimestamp": "2026-09-13T23:23:16Z",
-        "fetchedAt": "2026-09-14T09:04:47.142Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dolerite_Spires&oldid=24770",
+        "revisionId": 24770,
+        "revisionTimestamp": "2026-10-12T12:14:04Z",
+        "fetchedAt": "2026-10-13T10:47:03.753Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -847,10 +846,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Epicurean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Epicurean&oldid=23784",
-        "revisionId": 23784,
-        "revisionTimestamp": "2026-09-20T17:43:05Z",
-        "fetchedAt": "2026-09-21T09:06:40.606Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Epicurean&oldid=24887",
+        "revisionId": 24887,
+        "revisionTimestamp": "2026-10-12T18:32:46Z",
+        "fetchedAt": "2026-10-13T10:47:02.806Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -893,10 +892,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flash_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=23969",
-        "revisionId": 23969,
-        "revisionTimestamp": "2026-09-24T20:31:25Z",
-        "fetchedAt": "2026-09-25T08:56:14.290Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=24856",
+        "revisionId": 24856,
+        "revisionTimestamp": "2026-10-12T17:02:57Z",
+        "fetchedAt": "2026-10-13T10:47:02.807Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -907,7 +906,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Seaslug kleptopharos The stolen beacon slug",
-        "nutrition": "Food +20 / Health -10 / Water 0",
+        "nutrition": "",
         "biomes": [
           "Overgrown Ruins",
           "Karakorum Power Plant",
@@ -984,10 +983,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Geordie",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=24384",
-        "revisionId": 24384,
-        "revisionTimestamp": "2026-10-06T01:38:49Z",
-        "fetchedAt": "2026-10-10T06:00:02.528Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=24847",
+        "revisionId": 24847,
+        "revisionTimestamp": "2026-10-12T16:59:26Z",
+        "fetchedAt": "2026-10-13T10:47:02.805Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -998,7 +997,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Salpapod geordie “Salp foot geordie”",
-        "nutrition": "Food +20 / Health -5 / Water 0",
+        "nutrition": "",
         "biomes": [
           "Coral Gardens"
         ]
@@ -1100,10 +1099,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Gold",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=23773",
-        "revisionId": 23773,
-        "revisionTimestamp": "2026-09-20T17:27:48Z",
-        "fetchedAt": "2026-09-21T09:06:40.093Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Gold&oldid=24924",
+        "revisionId": 24924,
+        "revisionTimestamp": "2026-10-12T19:48:31Z",
+        "fetchedAt": "2026-10-13T10:47:02.409Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1256,10 +1255,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Halfmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=24323",
-        "revisionId": 24323,
-        "revisionTimestamp": "2026-10-05T19:09:26Z",
-        "fetchedAt": "2026-10-10T06:00:02.527Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=24845",
+        "revisionId": 24845,
+        "revisionTimestamp": "2026-10-12T16:58:33Z",
+        "fetchedAt": "2026-10-13T10:47:02.804Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1270,7 +1269,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Moliform luna “Mola-shaped moon”",
-        "nutrition": "Food +15 / Health 0 / Water -5",
+        "nutrition": "",
         "biomes": [
           "Coral Gardens",
           "Graveyard",
@@ -1347,10 +1346,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Harvestmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=23121",
-        "revisionId": 23121,
-        "revisionTimestamp": "2026-09-13T21:58:52Z",
-        "fetchedAt": "2026-09-14T09:04:45.672Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=24846",
+        "revisionId": 24846,
+        "revisionTimestamp": "2026-10-12T16:58:48Z",
+        "fetchedAt": "2026-10-13T10:47:02.804Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1361,7 +1360,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Moliform semiluna \"Mola-shaped half-moon\"",
-        "nutrition": "Food +20 / Health 0 / Water -5",
+        "nutrition": "",
         "biomes": [
           "Shallows",
           "Root Canyon"
@@ -1435,10 +1434,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hoverthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=24130",
-        "revisionId": 24130,
-        "revisionTimestamp": "2026-09-30T20:24:42Z",
-        "fetchedAt": "2026-10-01T10:17:11.010Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=24849",
+        "revisionId": 24849,
+        "revisionTimestamp": "2026-10-12T17:00:05Z",
+        "fetchedAt": "2026-10-13T10:47:02.806Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1449,7 +1448,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Monopter astrapakantha \"one-finned lightning-thorn\"",
-        "nutrition": "Food +15 / Health 0 / Water -5",
+        "nutrition": "",
         "biomes": [
           "Karakorum Metal Farms",
           "Karakorum Power Plant",
@@ -1522,10 +1521,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Intermediary_Basin",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=24549",
-        "revisionId": 24549,
-        "revisionTimestamp": "2026-10-06T20:57:57Z",
-        "fetchedAt": "2026-10-10T06:00:05.204Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=24767",
+        "revisionId": 24767,
+        "revisionTimestamp": "2026-10-12T11:46:09Z",
+        "fetchedAt": "2026-10-13T10:47:03.753Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2261,10 +2260,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pneuma",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=23782",
-        "revisionId": 23782,
-        "revisionTimestamp": "2026-09-20T17:41:11Z",
-        "fetchedAt": "2026-09-21T09:06:40.605Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=24851",
+        "revisionId": 24851,
+        "revisionTimestamp": "2026-10-12T17:00:46Z",
+        "fetchedAt": "2026-10-13T10:47:02.805Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2275,7 +2274,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Pneuma pneuma “Wind wind”",
-        "nutrition": "Food +25 / Health 0 / Water -5",
+        "nutrition": "",
         "biomes": [
           "Overgrown Ruins"
         ]
@@ -2618,10 +2617,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=23772",
-        "revisionId": 23772,
-        "revisionTimestamp": "2026-09-20T17:26:34Z",
-        "fetchedAt": "2026-09-21T09:06:40.093Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=24929",
+        "revisionId": 24929,
+        "revisionTimestamp": "2026-10-12T19:52:05Z",
+        "fetchedAt": "2026-10-13T10:47:02.409Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2695,10 +2694,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/South_Raceway",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=South_Raceway&oldid=23034",
-        "revisionId": 23034,
-        "revisionTimestamp": "2026-09-10T12:50:47Z",
-        "fetchedAt": "2026-09-11T08:09:35.297Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=South_Raceway&oldid=24906",
+        "revisionId": 24906,
+        "revisionTimestamp": "2026-10-12T19:33:17Z",
+        "fetchedAt": "2026-10-13T10:47:03.754Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2887,10 +2886,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=23859",
-        "revisionId": 23859,
-        "revisionTimestamp": "2026-09-20T19:33:55Z",
-        "fetchedAt": "2026-09-21T09:06:41.035Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=24942",
+        "revisionId": 24942,
+        "revisionTimestamp": "2026-10-12T21:43:21Z",
+        "fetchedAt": "2026-10-13T10:47:03.071Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3001,10 +3000,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=23768",
-        "revisionId": 23768,
-        "revisionTimestamp": "2026-09-20T17:20:28Z",
-        "fetchedAt": "2026-09-21T09:06:40.093Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=24923",
+        "revisionId": 24923,
+        "revisionTimestamp": "2026-10-12T19:47:49Z",
+        "fetchedAt": "2026-10-13T10:47:02.408Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3075,10 +3074,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=23795",
-        "revisionId": 23795,
-        "revisionTimestamp": "2026-09-20T17:52:04Z",
-        "fetchedAt": "2026-09-21T09:06:40.096Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=24935",
+        "revisionId": 24935,
+        "revisionTimestamp": "2026-10-12T21:29:52Z",
+        "fetchedAt": "2026-10-13T10:47:02.412Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3115,10 +3114,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Twin_Sitaray",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=23786",
-        "revisionId": 23786,
-        "revisionTimestamp": "2026-09-20T17:44:38Z",
-        "fetchedAt": "2026-09-21T09:06:40.607Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=24888",
+        "revisionId": 24888,
+        "revisionTimestamp": "2026-10-12T18:33:01Z",
+        "fetchedAt": "2026-10-13T10:47:02.807Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3157,10 +3156,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Void",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=20325",
-        "revisionId": 20325,
-        "revisionTimestamp": "2026-08-12T16:27:05Z",
-        "fetchedAt": "2026-08-15T17:52:47.372Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=24771",
+        "revisionId": 24771,
+        "revisionTimestamp": "2026-10-12T12:15:05Z",
+        "fetchedAt": "2026-10-13T10:47:03.753Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3189,16 +3188,15 @@
         "Crafted with Processor",
         "Needs In-Game Screenshots",
         "Processed Materials",
-        "Section stubs",
         "Water"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Water",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water&oldid=23453",
-        "revisionId": 23453,
-        "revisionTimestamp": "2026-09-14T19:10:03Z",
-        "fetchedAt": "2026-09-15T08:47:52.991Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water&oldid=24916",
+        "revisionId": 24916,
+        "revisionTimestamp": "2026-10-12T19:42:29Z",
+        "fetchedAt": "2026-10-13T10:47:02.410Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3206,7 +3204,7 @@
       },
       "facts": {
         "source": "Crafting Processor",
-        "group": "Food",
+        "group": "Sustenance",
         "biomes": []
       },
       "media": {
@@ -3234,10 +3232,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Water_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water_Slug&oldid=24318",
-        "revisionId": 24318,
-        "revisionTimestamp": "2026-10-05T09:03:38Z",
-        "fetchedAt": "2026-10-05T10:38:26.827Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water_Slug&oldid=24852",
+        "revisionId": 24852,
+        "revisionTimestamp": "2026-10-12T17:01:01Z",
+        "fetchedAt": "2026-10-13T10:47:02.804Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3248,7 +3246,7 @@
         "type": "Mobile",
         "group": "Foragers",
         "species": "Seaslug hydroclast ”sea slug water breaker”",
-        "nutrition": "Food -5 / Health 0 / Water +15",
+        "nutrition": "",
         "biomes": [
           "All"
         ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-13T10:46:59.677Z",
+  "generatedAt": "2026-10-14T08:51:01.327Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1113,10 +1113,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/BigSub",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=BigSub&oldid=24966",
-        "revisionId": 24966,
-        "revisionTimestamp": "2026-10-12T22:54:32Z",
-        "fetchedAt": "2026-10-13T10:47:01.460Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=BigSub&oldid=25028",
+        "revisionId": 25028,
+        "revisionTimestamp": "2026-10-13T15:18:16Z",
+        "fetchedAt": "2026-10-14T08:51:03.623Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1490,10 +1490,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullfrog_Workmech",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullfrog_Workmech&oldid=24982",
-        "revisionId": 24982,
-        "revisionTimestamp": "2026-10-12T23:21:41Z",
-        "fetchedAt": "2026-10-13T10:47:01.460Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullfrog_Workmech&oldid=25027",
+        "revisionId": 25027,
+        "revisionTimestamp": "2026-10-13T15:18:13Z",
+        "fetchedAt": "2026-10-14T08:51:03.623Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

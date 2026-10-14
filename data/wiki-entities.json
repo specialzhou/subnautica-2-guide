@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-13T10:47:02.017Z",
+  "generatedAt": "2026-10-14T08:51:04.437Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1516,15 +1516,15 @@
       "exclusionReasons": [],
       "categories": [
         "Needs In-Game Screenshots",
-        "Scorpius biomes"
+        "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Intermediary_Basin",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=24767",
-        "revisionId": 24767,
-        "revisionTimestamp": "2026-10-12T11:46:09Z",
-        "fetchedAt": "2026-10-13T10:47:03.753Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=25024",
+        "revisionId": 25024,
+        "revisionTimestamp": "2026-10-13T15:15:21Z",
+        "fetchedAt": "2026-10-14T08:51:07.357Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

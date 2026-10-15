@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/dolerite-spires.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/graveyard.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/intermediary-basin.html</loc><lastmod>2026-10-14</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/intermediary-basin.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/karakorum-metal-farms.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/lead-zone.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/necrolei-hills.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
@@ -10,7 +10,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/overgrown-ruins.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/plateaus.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/root-canyon.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/shallows.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/shallows.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/south-raceway.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/biomes/void.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/blackthorn.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
@@ -36,7 +36,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/marrowbreach.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/needler-mango.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/nibbler-mango.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/periscopic-clowncrab.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/periscopic-clowncrab.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/pneuma.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/ringbearer-krill.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/creatures/sandspear.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
@@ -97,7 +97,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/coral-jar.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/coral-mash.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/corridor.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/cradle-shootroot.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/cradle-shootroot.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/creature-enamel.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/current-ring.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/cyclops-poster.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
@@ -153,13 +153,13 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/lithium-grains.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/lithium.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/lost-river-poster.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/macaron-sponge.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/macaron-sponge.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/metal-farm.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/mild-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/mimic-pylon.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/modification-station.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/moonpool.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/necrolei-cyst.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/necrolei-cyst.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/new-life-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/noa-terminal.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/nook.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
@@ -226,7 +226,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/strong-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/strontium.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/sugar-of-saturn.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/sulfur.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/sulfur.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/survival-multitool.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/system-chip.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-depth-module-mk-1.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
@@ -249,7 +249,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/titanium.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/tracking-tag.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/trashcan.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/troilite.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/troilite.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/ultra-high-capacity-air-tank.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/vehicle-fabricator.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/vintage-wanted-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
@@ -268,9 +268,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/work-light.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/world-tree-relic.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/items/zezura-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/acidic-raion-pouch.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/acidic-raion-pouch.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/atacamite.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/axum-bacterial-culture.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/axum-bacterial-culture.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/axum-ingot.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/basic-first-aid-kit.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/celestine.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
@@ -296,17 +296,17 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/silver.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/strong-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/strontium.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/sulfur.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/sulfur.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/titanium-ingot.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/titanium.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/troilite.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/troilite.html</loc><lastmod>2026-10-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/resources/water.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/vehicles/tadpole-haul-chassis.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/vehicles/tadpole-scout-ray-chassis.html</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/guide/vehicles/tadpole.html</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/dolerite-spires.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/graveyard.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/intermediary-basin.html</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/intermediary-basin.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/karakorum-metal-farms.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/lead-zone.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/necrolei-hills.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -314,7 +314,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/overgrown-ruins.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/plateaus.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/root-canyon.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/shallows.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/shallows.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/south-raceway.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/void.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/blackthorn.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -340,7 +340,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/marrowbreach.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/needler-mango.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/nibbler-mango.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/periscopic-clowncrab.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/periscopic-clowncrab.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/pneuma.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/ringbearer-krill.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/sandspear.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -401,7 +401,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/coral-jar.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/coral-mash.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/corridor.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cradle-shootroot.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cradle-shootroot.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/creature-enamel.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/current-ring.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cyclops-poster.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -457,13 +457,13 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/lithium-grains.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/lithium.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/lost-river-poster.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/macaron-sponge.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/macaron-sponge.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/metal-farm.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/mild-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/mimic-pylon.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/modification-station.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/moonpool.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/necrolei-cyst.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/necrolei-cyst.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/new-life-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/noa-terminal.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/nook.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -530,7 +530,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/strong-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/strontium.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/sugar-of-saturn.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/sulfur.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/sulfur.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/survival-multitool.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/system-chip.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-depth-module-mk-1.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -553,7 +553,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/titanium.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tracking-tag.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/trashcan.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/troilite.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/troilite.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/ultra-high-capacity-air-tank.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/vehicle-fabricator.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/vintage-wanted-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -572,9 +572,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/work-light.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/world-tree-relic.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/zezura-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/acidic-raion-pouch.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/acidic-raion-pouch.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/atacamite.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/axum-bacterial-culture.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/axum-bacterial-culture.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/axum-ingot.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/basic-first-aid-kit.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/celestine.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -600,17 +600,17 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/silver.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/strong-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/strontium.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/sulfur.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/sulfur.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/titanium-ingot.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/titanium.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/troilite.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/troilite.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/water.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/vehicles/tadpole-haul-chassis.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/vehicles/tadpole-scout-ray-chassis.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/vehicles/tadpole.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/dolerite-spires.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/graveyard.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/intermediary-basin.html</loc><lastmod>2026-10-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/intermediary-basin.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/karakorum-metal-farms.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/lead-zone.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/necrolei-hills.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -618,7 +618,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/overgrown-ruins.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/plateaus.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/root-canyon.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/shallows.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/shallows.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/south-raceway.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/void.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/blackthorn.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -644,7 +644,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/marrowbreach.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/needler-mango.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/nibbler-mango.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/periscopic-clowncrab.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/periscopic-clowncrab.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/pneuma.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/ringbearer-krill.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/sandspear.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -705,7 +705,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/coral-jar.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/coral-mash.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/corridor.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cradle-shootroot.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cradle-shootroot.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/creature-enamel.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/current-ring.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cyclops-poster.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -761,13 +761,13 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/lithium-grains.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/lithium.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/lost-river-poster.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/macaron-sponge.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/macaron-sponge.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/metal-farm.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/mild-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/mimic-pylon.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/modification-station.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/moonpool.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/necrolei-cyst.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/necrolei-cyst.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/new-life-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/noa-terminal.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/nook.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -834,7 +834,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/strong-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/strontium.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/sugar-of-saturn.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/sulfur.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/sulfur.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/survival-multitool.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/system-chip.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-depth-module-mk-1.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -857,7 +857,7 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/titanium.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tracking-tag.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/trashcan.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/troilite.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/troilite.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/ultra-high-capacity-air-tank.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/vehicle-fabricator.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/vintage-wanted-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
@@ -876,9 +876,9 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/work-light.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/world-tree-relic.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/zezura-poster.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/acidic-raion-pouch.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/acidic-raion-pouch.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/atacamite.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/axum-bacterial-culture.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/axum-bacterial-culture.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/axum-ingot.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/basic-first-aid-kit.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/celestine.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
@@ -904,10 +904,10 @@
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/silver.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/strong-acid.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/strontium.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/sulfur.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/sulfur.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/titanium-ingot.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/titanium.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/troilite.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/troilite.html</loc><lastmod>2026-10-15</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/water.html</loc><lastmod>2026-10-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/vehicles/tadpole-haul-chassis.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://specialzhou.github.io/subnautica-2-guide/ru/guide/vehicles/tadpole-scout-ray-chassis.html</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>

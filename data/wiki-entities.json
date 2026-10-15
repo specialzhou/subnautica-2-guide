@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-14T08:51:04.437Z",
+  "generatedAt": "2026-10-15T08:26:12.322Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -29,10 +29,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Acidic_Raion_Pouch",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acidic_Raion_Pouch&oldid=21743",
-        "revisionId": 21743,
-        "revisionTimestamp": "2026-08-24T18:30:00Z",
-        "fetchedAt": "2026-08-26T14:11:13.712Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acidic_Raion_Pouch&oldid=25094",
+        "revisionId": 25094,
+        "revisionTimestamp": "2026-10-14T13:15:52Z",
+        "fetchedAt": "2026-10-15T08:26:12.934Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -105,10 +105,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Bacterial_Culture",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Bacterial_Culture&oldid=23207",
-        "revisionId": 23207,
-        "revisionTimestamp": "2026-09-13T22:16:17Z",
-        "fetchedAt": "2026-09-14T09:04:45.185Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Bacterial_Culture&oldid=25095",
+        "revisionId": 25095,
+        "revisionTimestamp": "2026-10-14T13:20:51Z",
+        "fetchedAt": "2026-10-15T08:26:12.937Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1521,17 +1521,17 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Intermediary_Basin",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=25024",
-        "revisionId": 25024,
-        "revisionTimestamp": "2026-10-13T15:15:21Z",
-        "fetchedAt": "2026-10-14T08:51:07.357Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=25098",
+        "revisionId": 25098,
+        "revisionTimestamp": "2026-10-14T15:30:53Z",
+        "fetchedAt": "2026-10-15T08:26:15.478Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
       "facts": {
-        "depth": "?",
+        "depth": "0-360m",
         "pointsOfInterest": []
       },
       "media": null
@@ -2142,10 +2142,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Periscopic_Clowncrab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=24532",
-        "revisionId": 24532,
-        "revisionTimestamp": "2026-10-06T17:16:05Z",
-        "fetchedAt": "2026-10-10T06:00:02.528Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Periscopic_Clowncrab&oldid=25186",
+        "revisionId": 25186,
+        "revisionTimestamp": "2026-10-15T03:32:52Z",
+        "fetchedAt": "2026-10-15T08:26:13.514Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2443,6 +2443,7 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
+        "Lifeforms with Variants",
         "Predators",
         "Scannables"
       ],
@@ -2492,10 +2493,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shallows",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shallows&oldid=22125",
-        "revisionId": 22125,
-        "revisionTimestamp": "2026-08-25T03:01:22Z",
-        "fetchedAt": "2026-08-26T14:11:31.956Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shallows&oldid=25181",
+        "revisionId": 25181,
+        "revisionTimestamp": "2026-10-15T03:10:05Z",
+        "fetchedAt": "2026-10-15T08:26:15.477Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2805,10 +2806,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Sulfur",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=23770",
-        "revisionId": 23770,
-        "revisionTimestamp": "2026-09-20T17:23:59Z",
-        "fetchedAt": "2026-09-21T09:06:40.093Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Sulfur&oldid=25093",
+        "revisionId": 25093,
+        "revisionTimestamp": "2026-10-14T13:15:16Z",
+        "fetchedAt": "2026-10-15T08:26:12.933Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3074,10 +3075,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=24935",
-        "revisionId": 24935,
-        "revisionTimestamp": "2026-10-12T21:29:52Z",
-        "fetchedAt": "2026-10-13T10:47:02.412Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=25116",
+        "revisionId": 25116,
+        "revisionTimestamp": "2026-10-14T18:19:30Z",
+        "fetchedAt": "2026-10-15T08:26:12.936Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

@@ -1,22 +1,49 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-10-14T08:51:01.327Z",
+  "detectedAt": "2026-10-15T08:26:08.978Z",
   "changes": [
     {
-      "id": "bigsub",
-      "title": "BigSub",
+      "id": "cradle-shootroot",
+      "title": "Cradle Shootroot",
       "change": "updated",
-      "previousRevisionId": 24966,
-      "revisionId": 25028,
+      "previousRevisionId": 23139,
+      "revisionId": 25092,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "bullfrog-workmech",
-      "title": "Bullfrog Workmech",
+      "id": "macaron-sponge",
+      "title": "Macaron Sponge",
       "change": "updated",
-      "previousRevisionId": 24982,
-      "revisionId": 25027,
+      "previousRevisionId": 24350,
+      "revisionId": 25091,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "necrolei-cyst",
+      "title": "Necrolei Cyst",
+      "change": "updated",
+      "previousRevisionId": 24391,
+      "revisionId": 25087,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "sulfur",
+      "title": "Sulfur",
+      "change": "updated",
+      "previousRevisionId": 23770,
+      "revisionId": 25093,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "troilite",
+      "title": "Troilite",
+      "change": "updated",
+      "previousRevisionId": 24935,
+      "revisionId": 25116,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

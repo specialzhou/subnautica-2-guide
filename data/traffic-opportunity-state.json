@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-10-11T14:07:20.403Z",
-  "lastRunAt": "2026-10-14T12:54:44.368Z",
-  "lastOpportunityAt": "2026-10-11T14:07:20.403Z",
-  "dryRunStreak": 3,
+  "updatedAt": "2026-10-15T12:41:41.919Z",
+  "lastRunAt": "2026-10-15T12:41:41.919Z",
+  "lastOpportunityAt": "2026-10-15T12:41:41.919Z",
+  "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
     "1uuswe2:angel-comb-main-cankers-stuck",
@@ -21,6 +21,7 @@
     "1w8lblb:page:questions/angel-comb-main-cankers-stuck.html",
     "1vjl3cl:page:guide/items/tadpole-dock.html",
     "1vpzqri:page:questions/rebioscan-biofilm-not-respawning.html",
-    "1vivrud:dup:angel-comb-main-cankers-stuck"
+    "1vivrud:dup:angel-comb-main-cankers-stuck",
+    "1x6betu:page:guide/items/dive-elevator.html"
   ]
 }

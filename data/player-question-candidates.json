@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-10-16T09:50:06.075Z",
+  "collectedAt": "2026-10-17T09:21:37.435Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -20,16 +20,14 @@
   "detailCursor": 0,
   "counts": {
     "total": 80,
-    "systemReview": 41,
+    "systemReview": 43,
     "readyToReply": 16,
-    "dismissed": 23,
-    "addedThisRun": 3,
+    "dismissed": 21,
+    "addedThisRun": 2,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
   },
   "seenRedditIds": [
-    "1ut2jvh",
-    "1ut24gk",
     "1usxxac",
     "1usuldi",
     "1usu5kt",
@@ -527,7 +525,9 @@
     "1x6betu",
     "1x6v3ha",
     "1x6i5ts",
-    "1x6hpf7"
+    "1x6hpf7",
+    "1x7mbo1",
+    "1x7l4qk"
   ],
   "candidates": [
     {
@@ -1169,7 +1169,7 @@
       "questionKey": "what s the dive elevator useful for",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x6betu/whats_the_dive_elevator_useful_for/",
       "publishedAt": "2026-10-15T03:39:45+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 5,
       "signals": [
@@ -1405,7 +1405,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
@@ -1416,7 +1416,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-10-16T09:50:06.075Z",
+        "lastErrorAt": "2026-10-17T09:21:37.435Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1x3lu1t/help_with_base/.rss?limit=500"
       },
       "title": "Help with base!",
@@ -1462,7 +1462,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -1479,7 +1479,7 @@
       "questionKey": "rescue mission for one of my stuck players",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x6hpf7/rescue_mission_for_one_of_my_stuck_players/",
       "publishedAt": "2026-10-15T10:05:37+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 14,
       "signals": [
@@ -1519,7 +1519,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -1573,7 +1573,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -1630,7 +1630,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -1647,7 +1647,7 @@
       "questionKey": "help with bug",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x2yb3j/help_with_bug/",
       "publishedAt": "2026-10-11T03:57:27+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1680,7 +1680,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -1737,7 +1737,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -1792,7 +1792,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -1809,7 +1809,7 @@
       "questionKey": "video guide how to find scannable empedocles kelp subnautica 2",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x6i5ts/video_guide_how_to_find_scannable_empedocles_kelp/",
       "publishedAt": "2026-10-15T10:32:02+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 11,
       "signals": [
@@ -1847,7 +1847,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -1905,7 +1905,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -1949,7 +1949,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -2009,7 +2009,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -2059,7 +2059,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -2115,7 +2115,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -2123,10 +2123,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 3,
+        "observedAt": "2026-10-17T09:21:37.435Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "When the Tadpole is thrown, why does it IMMEDIATELY stabilize?",
       "questionKey": "when the tadpole is thrown why does it immediately stabilize",
@@ -2169,17 +2169,17 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 29,
+        "observedAt": "2026-10-17T09:21:37.435Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "How to start",
       "questionKey": "how to start",
@@ -2212,7 +2212,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2220,10 +2220,10 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": null,
-        "observedAt": null,
+        "comments": 0,
+        "observedAt": "2026-10-17T09:21:37.435Z",
         "approximate": true,
-        "method": "not-checked"
+        "method": "reddit-post-rss-comment-entry-count"
       },
       "title": "I cannot get my subnautica vr mod to work please help!",
       "questionKey": "i cannot get my subnautica vr mod to work please help",
@@ -2266,7 +2266,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -2321,7 +2321,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -2375,7 +2375,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -2419,7 +2419,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2472,7 +2472,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -2526,7 +2526,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -2542,7 +2542,7 @@
       "questionKey": "a little nudge please",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x3cwum/a_little_nudge_please/",
       "publishedAt": "2026-10-11T16:43:04+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 12,
       "signals": [
@@ -2566,7 +2566,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2619,7 +2619,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2636,7 +2636,7 @@
       "questionKey": "is there a reason alterra in this game is more flexible",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x6v3ha/is_there_a_reason_alterra_in_this_game_is_more/",
       "publishedAt": "2026-10-15T19:27:55+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 8,
       "signals": [
@@ -2674,7 +2674,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2731,7 +2731,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -2786,7 +2786,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -2823,7 +2823,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -2870,6 +2870,62 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1x7mbo1",
+      "firstSeenAt": "2026-10-17T09:21:37.435Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "no-title-token-overlap"
+        ]
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Armored cankers destroyed but minor Infestation still there.",
+      "questionKey": "armored cankers destroyed but minor infestation still there",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1x7mbo1/armored_cankers_destroyed_but_minor_infestation/",
+      "publishedAt": "2026-10-16T17:24:09+00:00",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 8,
+      "signals": [
+        "bug",
+        "where",
+        "progression",
+        "performance"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.25,
+      "suggestedPages": [
+        {
+          "href": "questions/rebioscan-biofilm-not-respawning.html",
+          "title": "Why isn't Biofilm respawning for a re-bioscan?",
+          "score": 0.25
+        },
+        {
+          "href": "guide/creatures/bullethead.html",
+          "title": "Bullethead",
+          "score": 0.13
+        },
+        {
+          "href": "guide/creatures/epicurean.html",
+          "title": "Epicurean",
+          "score": 0.13
+        }
+      ],
+      "priorityScore": 10,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1x2ianp",
       "firstSeenAt": "2026-10-12T13:10:46.153Z",
       "review": {
@@ -2877,7 +2933,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -2932,7 +2988,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -2948,7 +3004,7 @@
       "questionKey": "help",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x2osmp/help/",
       "publishedAt": "2026-10-10T20:10:28+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -2978,7 +3034,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -3016,7 +3072,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -3058,6 +3114,59 @@
       "possibleDuplicateOf": null
     },
     {
+      "redditId": "1x7l4qk",
+      "firstSeenAt": "2026-10-17T09:21:37.435Z",
+      "review": {
+        "state": "system-review",
+        "answerStatus": "evidence-thin",
+        "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
+        "autoReviewed": false,
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
+        "holdReasons": [
+          "match-score-too-low",
+          "too-few-shared-tokens"
+        ]
+      },
+      "attention": {
+        "upvotes": null,
+        "comments": null,
+        "observedAt": null,
+        "approximate": true,
+        "method": "not-checked"
+      },
+      "title": "Building a protected corridor : worth it?",
+      "questionKey": "building a protected corridor worth it",
+      "url": "https://www.reddit.com/r/Subnautica_2/comments/1x7l4qk/building_a_protected_corridor_worth_it/",
+      "publishedAt": "2026-10-16T16:39:02+00:00",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
+      "sourceSubreddit": "r/Subnautica_2",
+      "painScore": 6,
+      "signals": [
+        "crafting"
+      ],
+      "trafficValue": 0,
+      "answerability": 0.25,
+      "suggestedPages": [
+        {
+          "href": "base-building.html",
+          "title": "Base building",
+          "score": 0.25
+        },
+        {
+          "href": "guide/items/corridor.html",
+          "title": "Corridor",
+          "score": 0.25
+        },
+        {
+          "href": "questions/personal-storage-use.html",
+          "title": "What is the personal storage box actually useful for?",
+          "score": 0.25
+        }
+      ],
+      "priorityScore": 8,
+      "possibleDuplicateOf": null
+    },
+    {
       "redditId": "1wzdkal",
       "firstSeenAt": "2026-10-12T13:10:46.153Z",
       "review": {
@@ -3065,7 +3174,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
@@ -3117,7 +3226,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -3154,7 +3263,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -3171,7 +3280,7 @@
       "questionKey": "there are quite a few pieces of furniture you can place outside also check out the progress on the memorial park",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1x4exzi/there_are_quite_a_few_pieces_of_furniture_you_can/",
       "publishedAt": "2026-10-12T21:45:43+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 6,
       "signals": [
@@ -3208,7 +3317,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -3264,7 +3373,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -3301,7 +3410,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -3339,7 +3448,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -3376,7 +3485,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -3429,7 +3538,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-10-16T09:50:06.075Z",
+        "reviewedAt": "2026-10-17T09:21:37.435Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -4092,7 +4201,7 @@
       "questionKey": "having a huge issue where players can t interact with my world and are suffering from horrible lag",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wx03vn/having_a_huge_issue_where_players_cant_interact/",
       "publishedAt": "2026-10-03T22:43:01+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 15,
       "signals": [
@@ -4395,7 +4504,7 @@
       "questionKey": "subnautica 2 doesn t feel like a subnautica game",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1wzbu02/subnautica_2_doesnt_feel_like_a_subnautica_game/",
       "publishedAt": "2026-10-06T19:29:37+00:00",
-      "lastSeenAt": "2026-10-16T09:50:06.075Z",
+      "lastSeenAt": "2026-10-17T09:21:37.435Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 18,
       "signals": [
@@ -4519,105 +4628,6 @@
         }
       ],
       "priorityScore": 24,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1vyk7r8",
-      "firstSeenAt": "2026-09-01T10:06:48.624Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：SN1问题（Lost River为一代区域）"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 55,
-        "observedAt": "2026-10-10T11:11:00.712Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "What is your preferred lost river entrance?",
-      "questionKey": "what is your preferred lost river entrance",
-      "url": "https://www.reddit.com/r/subnautica/comments/1vyk7r8/what_is_your_preferred_lost_river_entrance/",
-      "publishedAt": "2026-08-26T02:26:32+00:00",
-      "lastSeenAt": "2026-09-01T10:06:48.624Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 11,
-      "signals": [
-        "bug",
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.4,
-      "suggestedPages": [
-        {
-          "href": "guide/items/lost-river-poster.html",
-          "title": "Lost River Poster",
-          "score": 0.4
-        },
-        {
-          "href": "questions/axum-lever-location.html",
-          "title": "Where is the lever after powering the Axum station?",
-          "score": 0.2
-        },
-        {
-          "href": "questions/expand-inventory-with-hacked-biobeds.html",
-          "title": "How do I permanently expand my inventory and hotbar?",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 23,
-      "possibleDuplicateOf": null
-    },
-    {
-      "redditId": "1w1y92x",
-      "firstSeenAt": "2026-09-01T10:06:48.624Z",
-      "review": {
-        "state": "dismissed",
-        "answerStatus": "dismissed",
-        "reviewedAt": "2026-10-10",
-        "notes": "人工分诊 2026-10-10：SN1问题（Reaper Leviathan为一代生物）"
-      },
-      "attention": {
-        "upvotes": null,
-        "comments": 33,
-        "observedAt": "2026-09-01T10:06:48.624Z",
-        "approximate": true,
-        "method": "reddit-post-rss-comment-entry-count"
-      },
-      "title": "How have I never seen a reaper leviathan?",
-      "questionKey": "how have i never seen a reaper leviathan",
-      "url": "https://www.reddit.com/r/subnautica/comments/1w1y92x/how_have_i_never_seen_a_reaper_leviathan/",
-      "publishedAt": "2026-08-29T21:14:06+00:00",
-      "lastSeenAt": "2026-09-01T10:06:48.624Z",
-      "sourceSubreddit": "r/Subnautica",
-      "painScore": 11,
-      "signals": [
-        "bug",
-        "where",
-        "how"
-      ],
-      "trafficValue": 1,
-      "answerability": 0.4,
-      "suggestedPages": [
-        {
-          "href": "guide/items/reaper-leviathan.html",
-          "title": "Reaper Leviathan",
-          "score": 0.4
-        },
-        {
-          "href": "guide/creatures/collector-leviathan.html",
-          "title": "Collector Leviathan",
-          "score": 0.2
-        },
-        {
-          "href": "guide/creatures/shiver-leviathan.html",
-          "title": "Shiver Leviathan",
-          "score": 0.2
-        }
-      ],
-      "priorityScore": 23,
       "possibleDuplicateOf": null
     }
   ],

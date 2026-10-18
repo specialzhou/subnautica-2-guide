@@ -1,6 +1,6 @@
 # 玩家问题候选审核
 
-采集时间：2026-10-17T09:21:37.435Z
+采集时间：2026-10-18T09:38:08.229Z
 
 这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。
 
@@ -38,12 +38,13 @@
 | 17 | 8 | 1 | system-review | [Stuck Reefback](https://www.reddit.com/r/subnautica/comments/1x4pk8e/stuck_reefback/) | — | 0.5 | 1 | 18 | [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html) | r/Subnautica |
 | 10 | 15 | 1 | system-review | [SN2 Just hasn't felt like Subnautica to me](https://www.reddit.com/r/subnautica/comments/1wzbsc8/sn2_just_hasnt_felt_like_subnautica_to_me/) | — | 0.17 | 0 | 18 | [Just Keep Swimming Poster](https://specialzhou.github.io/subnautica-2-guide/guide/items/just-keep-swimming-poster.html); [Twin Sitaray](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/twin-sitaray.html); [Where is the Axum Resonator in EA 1.1?](https://specialzhou.github.io/subnautica-2-guide/questions/where-to-find-axum-resonator.html) | r/Subnautica |
 | 1 | 9 | 1 | system-review | [Yo why can't I pick more things up🤣✌️](https://www.reddit.com/r/subnautica/comments/1x4dbpp/yo_why_cant_i_pick_more_things_up/) | — | 0.33 | 1 | 18 | [How can I cross the Collector canyon without losing my Tadpole?](https://specialzhou.github.io/subnautica-2-guide/questions/cross-collector-canyon-safely.html); [Not enough power for base?](https://specialzhou.github.io/subnautica-2-guide/questions/base-not-enough-power.html) | r/Subnautica |
+| 23 | 9 | 1 | system-review | [What actually changed since ea launch?](https://www.reddit.com/r/Subnautica_2/comments/1x88ow3/what_actually_changed_since_ea_launch/) | — | 0.25 | 1 | 17 | [What is the personal storage box actually useful for?](https://specialzhou.github.io/subnautica-2-guide/questions/personal-storage-use.html) | r/Subnautica_2 |
 | 18 | 9 | 1 | system-review | [Prawn Suit stuck in Jellyshroom Caves](https://www.reddit.com/r/subnautica/comments/1x3a2ws/prawn_suit_stuck_in_jellyshroom_caves/) | — | 0.2 | 1 | 16 | [Gold](https://specialzhou.github.io/subnautica-2-guide/guide/items/gold.html); [Lithium](https://specialzhou.github.io/subnautica-2-guide/guide/items/lithium.html); [Bluemoon](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/bluemoon.html) | r/Subnautica |
 | 3 | 9 | 1 | system-review | [When the Tadpole is thrown, why does it IMMEDIATELY stabilize?](https://www.reddit.com/r/subnautica/comments/1x1p86w/when_the_tadpole_is_thrown_why_does_it/) | — | 0.2 | 1 | 16 | [Tadpole vehicle planner](https://specialzhou.github.io/subnautica-2-guide/vehicle-planner.html); [Tadpole](https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole.html); [Tadpole Depth Module Mk. 1](https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-depth-module-mk-1.html) | r/Subnautica |
 | 29 | 5 | 1 | system-review | [How to start](https://www.reddit.com/r/subnautica/comments/1wzqh0y/how_to_start/) | — | 1 | 1 | 15 | [Start here](https://specialzhou.github.io/subnautica-2-guide/starter-planner.html) | r/Subnautica |
+| 32 | 8 | 1 | system-review | [How far from life pod is the void](https://www.reddit.com/r/subnautica/comments/1x2tixc/how_far_from_life_pod_is_the_void/) | — | 0.2 | 1 | 14 | [New Life Poster](https://specialzhou.github.io/subnautica-2-guide/guide/items/new-life-poster.html); [Shiver Leviathan](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/shiver-leviathan.html); [Shiver Male](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/shiver-male.html) | r/Subnautica |
+| 23 | 7 | 1 | system-review | [Why is below zero so buggy?](https://www.reddit.com/r/subnautica/comments/1x44o3d/why_is_below_zero_so_buggy/) | — | 0.33 | 1 | 14 | [Where can I find a Sandspear for the bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/where-to-find-sandspear.html); [Did they move the rebreather in 1.2?](https://specialzhou.github.io/subnautica-2-guide/questions/rebreather-location-1-2.html); [Help with repairing the power plant?](https://specialzhou.github.io/subnautica-2-guide/questions/repair-karakorum-power-plant.html) | r/Subnautica |
 | 0 | 10 | 1 | system-review | [I cannot get my subnautica vr mod to work please help!](https://www.reddit.com/r/subnautica/comments/1x04ddx/i_cannot_get_my_subnautica_vr_mod_to_work_please/) | — | 0.4 | 0 | 14 | [My save disappeared after the EA 1.1 update. What should I do?](https://specialzhou.github.io/subnautica-2-guide/questions/save-missing-after-ea-1-1-update.html); [Work Light](https://specialzhou.github.io/subnautica-2-guide/guide/items/work-light.html); [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html) | r/Subnautica |
-| ? | 8 | 1 | system-review | [How far from life pod is the void](https://www.reddit.com/r/subnautica/comments/1x2tixc/how_far_from_life_pod_is_the_void/) | — | 0.2 | 1 | 14 | [New Life Poster](https://specialzhou.github.io/subnautica-2-guide/guide/items/new-life-poster.html); [Shiver Leviathan](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/shiver-leviathan.html); [Shiver Male](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/shiver-male.html) | r/Subnautica |
-| ? | 7 | 1 | system-review | [Why is below zero so buggy?](https://www.reddit.com/r/subnautica/comments/1x44o3d/why_is_below_zero_so_buggy/) | — | 0.33 | 1 | 14 | [Where can I find a Sandspear for the bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/where-to-find-sandspear.html); [Did they move the rebreather in 1.2?](https://specialzhou.github.io/subnautica-2-guide/questions/rebreather-location-1-2.html); [Help with repairing the power plant?](https://specialzhou.github.io/subnautica-2-guide/questions/repair-karakorum-power-plant.html) | r/Subnautica |
 | ? | 7 | 1 | system-review | [is this normal?](https://www.reddit.com/r/subnautica/comments/1x1tt45/is_this_normal/) | — | 1 | 0 | 14 | [Not enough power for base?](https://specialzhou.github.io/subnautica-2-guide/questions/base-not-enough-power.html) | r/Subnautica |
 | ? | 7 | 1 | system-review | [From Shallows to Deeper: How Do You Know It’s Time to Move Your Base?](https://www.reddit.com/r/subnautica/comments/1x4l1si/from_shallows_to_deeper_how_do_you_know_its_time/) | — | 0.22 | 1 | 13 | [What is the personal storage box actually useful for?](https://specialzhou.github.io/subnautica-2-guide/questions/personal-storage-use.html); [Why won't the Hanging Tailing Jar place?](https://specialzhou.github.io/subnautica-2-guide/questions/hanging-tailing-jar-wont-place.html); [Where can I find a Sandspear for the bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/where-to-find-sandspear.html) | r/Subnautica |
 | ? | 7 | 1 | system-review | [How often do you dream of Subnautica?](https://www.reddit.com/r/subnautica/comments/1x18trp/how_often_do_you_dream_of_subnautica/) | — | 0.25 | 1 | 13 | [How do I bioscan the Collector Leviathan safely?](https://specialzhou.github.io/subnautica-2-guide/questions/scan-collector-leviathan-safely.html); [How do I permanently expand my inventory and hotbar?](https://specialzhou.github.io/subnautica-2-guide/questions/expand-inventory-with-hacked-biobeds.html); [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html) | r/Subnautica |
@@ -89,13 +90,12 @@
 | 7 | 14 | 1 | dismissed | [I'm not sure what actually respawns and what is limited? Help?](https://www.reddit.com/r/Subnautica_2/comments/1w79pcm/im_not_sure_what_actually_respawns_and_what_is/) | — | 0.2 | 1 | 25 | [What is the personal storage box actually useful for?](https://specialzhou.github.io/subnautica-2-guide/questions/personal-storage-use.html); [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html); [Where did the Strong Acid recipe move in EA 1.1?](https://specialzhou.github.io/subnautica-2-guide/questions/strong-acid-after-update.html) | r/Subnautica_2 |
 | 20 | 18 | 1 | dismissed | [Subnautica 2 doesn't feel like a Subnautica game.](https://www.reddit.com/r/Subnautica_2/comments/1wzbu02/subnautica_2_doesnt_feel_like_a_subnautica_game/) | — | 0.33 | 0 | 24 | [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html); [My save disappeared after the EA 1.1 update. What should I do?](https://specialzhou.github.io/subnautica-2-guide/questions/save-missing-after-ea-1-1-update.html); [Twin Sitaray](https://specialzhou.github.io/subnautica-2-guide/guide/creatures/twin-sitaray.html) | r/Subnautica_2 |
 | 12 | 8 | 1 | dismissed | [I'm stuck](https://www.reddit.com/r/subnautica/comments/1wngepd/im_stuck/) | — | 1 | 1 | 24 | [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html) | r/Subnautica |
-| 7 | 13 | 1 | dismissed | [What if every fish had an egg?](https://www.reddit.com/r/subnautica/comments/1wqxpen/what_if_every_fish_had_an_egg/) | — | 0.25 | 1 | 24 | [Pavlova](https://specialzhou.github.io/subnautica-2-guide/guide/items/pavlova.html); [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html); [How do I get this biomod?](https://specialzhou.github.io/subnautica-2-guide/questions/how-to-get-biomod.html) | r/Subnautica |
 
 ## 候选证据审核
 
 - 队列总数：80
-- 可生成回复草稿（ready-to-reply）：16（本次自动放行 0，回退 0，人工保留 28）
-- 仍待审核（system-review）：43
+- 可生成回复草稿（ready-to-reply）：16（本次自动放行 0，回退 0，人工保留 27）
+- 仍待审核（system-review）：44
 
 本轮可出水的问题：
 
@@ -112,8 +112,8 @@
 
 卡住原因分布：
 
-- 标题与目标页匹配度过低：28
-- 共享实词太少（可能只是通用词撞车）：22
+- 标题与目标页匹配度过低：29
+- 共享实词太少（可能只是通用词撞车）：23
 - 目标页标题与问题无实词重叠：21
 - 站点索引里没有可匹配的页面：9
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-15T08:26:08.978Z",
+  "generatedAt": "2026-10-20T16:11:56.825Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -16,7 +16,7 @@
   ],
   "publishedCount": 222,
   "excludedCount": 1,
-  "imageCount": 85,
+  "imageCount": 89,
   "items": [
     {
       "id": "acid-raion",
@@ -216,10 +216,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Air_Bladder",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Air_Bladder&oldid=24926",
-        "revisionId": 24926,
-        "revisionTimestamp": "2026-10-12T19:49:29Z",
-        "fetchedAt": "2026-10-13T10:47:01.456Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Air_Bladder&oldid=25226",
+        "revisionId": 25226,
+        "revisionTimestamp": "2026-10-15T16:19:57Z",
+        "fetchedAt": "2026-10-20T16:12:03.871Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -269,10 +269,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Alcohol",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Alcohol&oldid=16964",
-        "revisionId": 16964,
-        "revisionTimestamp": "2026-07-09T16:41:54Z",
-        "fetchedAt": "2026-07-12T12:33:02.987Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Alcohol&oldid=25468",
+        "revisionId": 25468,
+        "revisionTimestamp": "2026-10-17T19:45:29Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -481,10 +481,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Pot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Pot&oldid=23256",
-        "revisionId": 23256,
-        "revisionTimestamp": "2026-09-13T23:20:18Z",
-        "fetchedAt": "2026-09-14T09:04:43.912Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Pot&oldid=25474",
+        "revisionId": 25474,
+        "revisionTimestamp": "2026-10-17T19:46:55Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -524,10 +524,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Seat",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Seat&oldid=23307",
-        "revisionId": 23307,
-        "revisionTimestamp": "2026-09-13T23:21:57Z",
-        "fetchedAt": "2026-09-14T09:04:43.912Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Seat&oldid=25475",
+        "revisionId": 25475,
+        "revisionTimestamp": "2026-10-17T19:47:02Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -575,10 +575,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Street_Lamp",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Street_Lamp&oldid=19375",
-        "revisionId": 19375,
-        "revisionTimestamp": "2026-07-24T03:10:12Z",
-        "fetchedAt": "2026-07-25T05:58:46.986Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Street_Lamp&oldid=25476",
+        "revisionId": 25476,
+        "revisionTimestamp": "2026-10-17T19:47:14Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -626,10 +626,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Trashcan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Trashcan&oldid=19374",
-        "revisionId": 19374,
-        "revisionTimestamp": "2026-07-24T03:10:02Z",
-        "fetchedAt": "2026-07-25T05:58:46.986Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Trashcan&oldid=25477",
+        "revisionId": 25477,
+        "revisionTimestamp": "2026-10-17T19:47:24Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -725,10 +725,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum-tech_Multitool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum-tech_Multitool&oldid=23245",
-        "revisionId": 23245,
-        "revisionTimestamp": "2026-09-13T23:20:01Z",
-        "fetchedAt": "2026-09-14T09:04:43.912Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum-tech_Multitool&oldid=25467",
+        "revisionId": 25467,
+        "revisionTimestamp": "2026-10-17T19:45:17Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1055,10 +1055,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Big_Sub_Key_Item",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Big_Sub_Key_Item&oldid=21277",
-        "revisionId": 21277,
-        "revisionTimestamp": "2026-08-19T15:52:46Z",
-        "fetchedAt": "2026-08-24T17:09:21.518Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Big_Sub_Key_Item&oldid=25469",
+        "revisionId": 25469,
+        "revisionTimestamp": "2026-10-17T19:45:41Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1113,10 +1113,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/BigSub",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=BigSub&oldid=25028",
-        "revisionId": 25028,
-        "revisionTimestamp": "2026-10-13T15:18:16Z",
-        "fetchedAt": "2026-10-14T08:51:03.623Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=BigSub&oldid=25403",
+        "revisionId": 25403,
+        "revisionTimestamp": "2026-10-17T14:55:26Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1389,10 +1389,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bioscanner",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=24474",
-        "revisionId": 24474,
-        "revisionTimestamp": "2026-10-06T03:48:19Z",
-        "fetchedAt": "2026-10-10T05:59:57.622Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bioscanner&oldid=25517",
+        "revisionId": 25517,
+        "revisionTimestamp": "2026-10-18T18:27:24Z",
+        "fetchedAt": "2026-10-20T16:12:03.872Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1442,10 +1442,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bulb_Floor_Lamp",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bulb_Floor_Lamp&oldid=20480",
-        "revisionId": 20480,
-        "revisionTimestamp": "2026-08-13T00:15:30Z",
-        "fetchedAt": "2026-08-15T17:52:23.852Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bulb_Floor_Lamp&oldid=25479",
+        "revisionId": 25479,
+        "revisionTimestamp": "2026-10-17T19:47:42Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1490,10 +1490,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bullfrog_Workmech",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullfrog_Workmech&oldid=25027",
-        "revisionId": 25027,
-        "revisionTimestamp": "2026-10-13T15:18:13Z",
-        "fetchedAt": "2026-10-14T08:51:03.623Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bullfrog_Workmech&oldid=25413",
+        "revisionId": 25413,
+        "revisionTimestamp": "2026-10-17T16:04:19Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1750,7 +1750,13 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": null
+      "media": {
+        "fileName": "Halfmoon Jerky.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Halfmoon_Jerky.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon_Jerky.png",
+        "width": 256,
+        "height": 256
+      }
     },
     {
       "id": "cherimoya-rotsac",
@@ -1764,7 +1770,6 @@
         "Passive",
         "Plantables",
         "Scannables",
-        "Section stubs",
         "Tunics",
         "Uncooked Food"
       ],
@@ -1791,10 +1796,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cherimoya_Rotsac",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cherimoya_Rotsac&oldid=24853",
-        "revisionId": 24853,
-        "revisionTimestamp": "2026-10-12T17:01:33Z",
-        "fetchedAt": "2026-10-13T10:47:01.454Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cherimoya_Rotsac&oldid=25506",
+        "revisionId": 25506,
+        "revisionTimestamp": "2026-10-18T00:42:24Z",
+        "fetchedAt": "2026-10-20T16:12:03.870Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1834,10 +1839,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Community_Poster_02",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Community_Poster_02&oldid=23304",
-        "revisionId": 23304,
-        "revisionTimestamp": "2026-09-13T23:21:53Z",
-        "fetchedAt": "2026-09-14T09:04:43.912Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Community_Poster_02&oldid=25478",
+        "revisionId": 25478,
+        "revisionTimestamp": "2026-10-17T19:47:36Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2644,10 +2649,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Corridor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Corridor&oldid=24922",
-        "revisionId": 24922,
-        "revisionTimestamp": "2026-10-12T19:47:00Z",
-        "fetchedAt": "2026-10-13T10:47:01.463Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Corridor&oldid=25235",
+        "revisionId": 25235,
+        "revisionTimestamp": "2026-10-15T17:27:23Z",
+        "fetchedAt": "2026-10-20T16:12:03.873Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3201,10 +3206,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Echo_Location",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Echo_Location&oldid=20474",
-        "revisionId": 20474,
-        "revisionTimestamp": "2026-08-13T00:06:02Z",
-        "fetchedAt": "2026-08-15T17:52:23.856Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Echo_Location&oldid=25470",
+        "revisionId": 25470,
+        "revisionTimestamp": "2026-10-17T19:46:07Z",
+        "fetchedAt": "2026-10-20T16:12:03.874Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3487,10 +3492,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Expanded_Deployable_Locker",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Expanded_Deployable_Locker&oldid=24470",
-        "revisionId": 24470,
-        "revisionTimestamp": "2026-10-06T03:43:01Z",
-        "fetchedAt": "2026-10-10T05:59:57.641Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Expanded_Deployable_Locker&oldid=25466",
+        "revisionId": 25466,
+        "revisionTimestamp": "2026-10-17T19:45:01Z",
+        "fetchedAt": "2026-10-20T16:12:03.874Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4237,10 +4242,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Graphene_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graphene_Ingot&oldid=21278",
-        "revisionId": 21278,
-        "revisionTimestamp": "2026-08-19T15:53:01Z",
-        "fetchedAt": "2026-08-24T17:09:21.522Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Graphene_Ingot&oldid=25471",
+        "revisionId": 25471,
+        "revisionTimestamp": "2026-10-17T19:46:19Z",
+        "fetchedAt": "2026-10-20T16:12:03.876Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5491,16 +5496,22 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Lithium_Grains",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium_Grains&oldid=20786",
-        "revisionId": 20786,
-        "revisionTimestamp": "2026-08-15T19:41:55Z",
-        "fetchedAt": "2026-08-24T17:09:21.524Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Lithium_Grains&oldid=25472",
+        "revisionId": 25472,
+        "revisionTimestamp": "2026-10-17T19:46:32Z",
+        "fetchedAt": "2026-10-20T16:12:03.876Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": null
+      "media": {
+        "fileName": "Cicada Logo.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Cicada_Logo.png?23814",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Cicada_Logo.png",
+        "width": 256,
+        "height": 256
+      }
     },
     {
       "id": "lost-river-poster",
@@ -5805,10 +5816,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Modification_Station",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=24918",
-        "revisionId": 24918,
-        "revisionTimestamp": "2026-10-12T19:44:10Z",
-        "fetchedAt": "2026-10-13T10:47:01.469Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=25345",
+        "revisionId": 25345,
+        "revisionTimestamp": "2026-10-16T15:30:35Z",
+        "fetchedAt": "2026-10-20T16:12:03.875Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6248,7 +6259,13 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": null
+      "media": {
+        "fileName": "Halfmoon Jerky.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Halfmoon_Jerky.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon_Jerky.png",
+        "width": 256,
+        "height": 256
+      }
     },
     {
       "id": "pent",
@@ -6793,10 +6810,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Power_Plant_Turbine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Plant_Turbine&oldid=23641",
-        "revisionId": 23641,
-        "revisionTimestamp": "2026-09-16T14:02:08Z",
-        "fetchedAt": "2026-09-17T08:45:28.680Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Power_Plant_Turbine&oldid=25400",
+        "revisionId": 25400,
+        "revisionTimestamp": "2026-10-17T14:38:44Z",
+        "fetchedAt": "2026-10-20T16:12:03.877Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8337,10 +8354,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Silver",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=24929",
-        "revisionId": 24929,
-        "revisionTimestamp": "2026-10-12T19:52:05Z",
-        "fetchedAt": "2026-10-13T10:47:01.474Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Silver&oldid=25532",
+        "revisionId": 25532,
+        "revisionTimestamp": "2026-10-20T13:25:25Z",
+        "fetchedAt": "2026-10-20T16:12:03.877Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10100,7 +10117,13 @@
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
-      "media": null
+      "media": {
+        "fileName": "Halfmoon Jerky.png",
+        "url": "https://wiki.subnautica.com/sn2/images/Halfmoon_Jerky.png?c89c7",
+        "filePage": "https://wiki.subnautica.com/sn2/File:Halfmoon_Jerky.png",
+        "width": 256,
+        "height": 256
+      }
     },
     {
       "id": "time-of-day-display",
@@ -10462,10 +10485,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Ultra_High_Capacity_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=24578",
-        "revisionId": 24578,
-        "revisionTimestamp": "2026-10-06T22:30:45Z",
-        "fetchedAt": "2026-10-10T05:59:57.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=25473",
+        "revisionId": 25473,
+        "revisionTimestamp": "2026-10-17T19:46:42Z",
+        "fetchedAt": "2026-10-20T16:12:03.878Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

@@ -180,17 +180,39 @@ async function fetchImageMedia(fileNames) {
       iiurlwidth: "720",
       redirects: "1",
     });
+    // With redirects=1 (and title normalization) MediaWiki returns each page under its
+    // canonical title, not the title we asked for. Callers look media up by the original
+    // infobox filename, so walk normalized/redirects back to the requested title.
+    // Without this, the wiki renaming "CG Dolerite Spires Biome.png" -> "Dolerite Spires.png"
+    // silently returned null for every biome thumbnail and broke check-locales.
+    const aliases = new Map();
+    for (const item of data.query.normalized ?? []) aliases.set(item.to.toLowerCase(), item.from.toLowerCase());
+    for (const item of data.query.redirects ?? []) aliases.set(item.to.toLowerCase(), item.from.toLowerCase());
+    const requestedTitle = (title) => {
+      let current = title.toLowerCase();
+      const visited = new Set();
+      while (!visited.has(current)) {
+        visited.add(current);
+        const previous = aliases.get(current);
+        if (!previous) break;
+        current = previous;
+      }
+      return current.replace(/^file:/i, "");
+    };
     for (const page of data.query.pages) {
       const info = page.imageinfo?.[0];
       if (!info || !info.mime?.startsWith("image/")) continue;
       const fileName = page.title.replace(/^File:/i, "");
-      media.set(fileName.toLowerCase(), {
+      const entry = {
         fileName,
         url: info.thumburl || info.url,
         filePage: info.descriptionurl,
         width: info.thumbwidth || info.width,
         height: info.thumbheight || info.height,
-      });
+      };
+      // Keep the canonical name too: several infobox filenames can alias one file.
+      media.set(fileName.toLowerCase(), entry);
+      media.set(requestedTitle(page.title), entry);
     }
   }
   return media;

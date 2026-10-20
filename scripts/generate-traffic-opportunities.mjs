@@ -38,6 +38,7 @@ const freshness = evaluateCandidateFreshness({
   collectedAt: candidateData.collectedAt,
   generatedAt,
   maxAgeDays: maxCandidateAgeDays,
+  collection: candidateData.collection ?? null,
 });
 if (!freshness.ok) {
   if (process.env.GITHUB_STEP_SUMMARY) {
@@ -55,7 +56,7 @@ const report = buildTrafficOpportunities({
   state,
 });
 const nextState = buildTrafficOpportunityState({ state, report });
-const health = evaluatePipelineHealth({ state: nextState, alertAfterDryRuns });
+const health = evaluatePipelineHealth({ state: nextState, alertAfterDryRuns, upstreamDegraded: Boolean(freshness.degraded) });
 const queueDepth = {
   total: candidateData.candidates?.length ?? 0,
   readyToReply: candidateData.counts?.readyToReply ?? candidateData.candidates?.filter((entry) => entry.review?.state === "ready-to-reply").length ?? 0,
@@ -64,21 +65,22 @@ const queueDepth = {
 
 await writeFile(output, renderTrafficOpportunityIssue(report));
 if (process.env.GITHUB_OUTPUT) {
-  await appendFile(process.env.GITHUB_OUTPUT, `count=${report.count}\ndry-run-streak=${health.dryRunStreak}\nalert=${health.alert ? "true" : "false"}\n`);
+  await appendFile(process.env.GITHUB_OUTPUT, `count=${report.count}\ndry-run-streak=${health.dryRunStreak}\nalert=${health.alert ? "true" : "false"}\nshould-fail=${health.fail ? "true" : "false"}\ncause=${health.cause ?? ""}\n`);
 }
 if (stateOutput) {
   await writeFile(stateOutput, `${JSON.stringify(nextState, null, 2)}\n`);
 }
 if (alertOutput && health.alert) {
-  await writeFile(alertOutput, renderPipelineAlertIssue({ health, report, queueDepth }));
+  await writeFile(alertOutput, renderPipelineAlertIssue({ health, report, queueDepth, freshness }));
 }
 if (process.env.GITHUB_STEP_SUMMARY) {
-  await appendFile(process.env.GITHUB_STEP_SUMMARY, `\n${renderPipelineHealthSummary(health)}\n- 候选队列：${queueDepth.total} 条，其中 ready-to-reply ${queueDepth.readyToReply} / system-review ${queueDepth.systemReview}\n`);
+  await appendFile(process.env.GITHUB_STEP_SUMMARY, `\n${renderPipelineHealthSummary(health)}\n- 候选队列：${queueDepth.total} 条，其中 ready-to-reply ${queueDepth.readyToReply} / system-review ${queueDepth.systemReview}\n- 候选数据源：${freshness.message}\n`);
 }
 
 if (health.alert) {
-  process.stderr.write(`::error title=Reddit 流量管道空转::${health.message} 候选队列 ${queueDepth.total} 条，ready-to-reply 仅 ${queueDepth.readyToReply} 条。\n`);
+  const annotation = health.fail ? "error" : "warning";
+  process.stderr.write(`::${annotation} title=Reddit 流量管道空转::${health.message} 候选队列 ${queueDepth.total} 条，ready-to-reply 仅 ${queueDepth.readyToReply} 条。\n`);
 } else if (!report.count) {
   process.stderr.write(`::warning title=Reddit 流量机会今日 0 产出::${health.message}\n`);
 }
-process.stdout.write(`已生成 ${report.count} 个 Reddit 流量机会：${output}（连续 0 产出 ${health.dryRunStreak} 次，告警 ${health.alert ? "已触发" : "未触发"}）\n`);
+process.stdout.write(`已生成 ${report.count} 个 Reddit 流量机会：${output}（连续 0 产出 ${health.dryRunStreak} 次，告警 ${health.alert ? "已触发" : "未触发"}，归因 ${health.cause ?? "无"}）\n`);

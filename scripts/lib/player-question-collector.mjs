@@ -123,37 +123,69 @@ export function computePriorityScore(painScore = 0, answerability = 0, trafficVa
   return Math.round(safe * (1 + ans) * (1 + 0.5 * tv));
 }
 
-const matchTokens = (value) => normalizeQuestionKey(value).split(" ").filter((token) => token.length > 2 && !duplicateStopWords.has(token));
+/**
+ * Collapses trivial English inflection so that a question phrased in the
+ * singular still matches a page titled in the plural. Without this, "Bloom
+ * canker?" shares only one *title* token with "Why won't the last Angel Comb
+ * cankers open?" and the evidence reviewer holds a candidate the site can
+ * actually answer. Deliberately conservative: no stemming library, no
+ * cross-word guessing, only regular plural forms.
+ */
+export function foldToken(token = "") {
+  if (token.length <= 4) return token;
+  if (token.endsWith("ies") && token.length > 5) return `${token.slice(0, -3)}y`;
+  if (/(?:ses|xes|zes|ches|shes)$/.test(token)) return token.slice(0, -2);
+  if (token.endsWith("s") && !token.endsWith("ss") && !token.endsWith("us") && !token.endsWith("is")) return token.slice(0, -1);
+  return token;
+}
+
+const matchTokens = (value) => normalizeQuestionKey(value).split(" ").filter((token) => token.length > 2 && !duplicateStopWords.has(token)).map(foldToken);
 
 const indexHay = (entry) => `${entry.title ?? ""} ${entry.terms ?? ""} ${entry.localizedTitles?.en ?? ""} ${entry.localizedTerms?.en ?? ""} ${entry.localizedTerms?.["zh-cn"] ?? ""}`.toLowerCase();
 const indexTitleHay = (entry) => `${entry.title ?? ""} ${entry.localizedTitles?.en ?? ""}`.toLowerCase();
-const toTokenSet = (value) => new Set(value.split(/[^a-z0-9]+/i).filter(Boolean));
+const toTokenSet = (value) => new Set(value.split(/[^a-z0-9]+/i).filter(Boolean).map(foldToken));
 
 /**
  * Same matching as matchSiteIndex but keeps the raw overlap counts, because the
  * evidence reviewer must tell "3 of 3 title tokens land on this page" apart from
  * "a single generic word happened to collide".
+ *
+ * Ranking is score-first, then *specificity*: when two pages tie on the raw
+ * overlap ratio, the page whose matched tokens are rarer in the corpus wins.
+ * Before this, ties fell back to search-index order, so "Building a protected
+ * corridor" resolved to base-building.html (generic "building") instead of
+ * guide/items/corridor.html, and the reviewer judged candidates against the
+ * wrong page.
  */
 export function matchSiteIndexDetailed(title = "", searchIndex = { entries: [] }) {
   const tokens = matchTokens(title);
   if (!tokens.length) return { suggestedPages: [], answerability: 0, tokenCount: 0 };
   const tokenSet = new Set(tokens);
+  const entries = searchIndex.entries ?? [];
+  // Corpus document frequency, used only to break ties between equal ratios.
+  const documentFrequency = new Map();
+  for (const entry of entries) {
+    for (const token of toTokenSet(indexHay(entry))) documentFrequency.set(token, (documentFrequency.get(token) ?? 0) + 1);
+  }
+  const specificity = (token) => 1 / (1 + (documentFrequency.get(token) ?? 0));
   const scored = [];
-  for (const entry of searchIndex.entries ?? []) {
+  for (const entry of entries) {
     const hayTokens = toTokenSet(indexHay(entry));
     const titleTokens = toTokenSet(indexTitleHay(entry));
     let hits = 0;
     let titleHits = 0;
+    let rarity = 0;
     for (const token of tokenSet) {
       if (!hayTokens.has(token)) continue;
       hits += 1;
+      rarity += specificity(token);
       if (titleTokens.has(token)) titleHits += 1;
     }
     const score = hits / tokens.length;
-    if (score > 0) scored.push({ href: entry.href, title: entry.title, score: Number(score.toFixed(2)), hits, titleHits });
+    if (score > 0) scored.push({ href: entry.href, title: entry.title, score: Number(score.toFixed(2)), hits, titleHits, rarity: Number(rarity.toFixed(4)) });
   }
-  scored.sort((a, b) => b.score - a.score);
-  const top = scored.slice(0, 3);
+  scored.sort((a, b) => b.score - a.score || b.titleHits - a.titleHits || b.rarity - a.rarity || b.hits - a.hits);
+  const top = scored.slice(0, 3).map(({ rarity, ...page }) => page);
   return {
     suggestedPages: top,
     answerability: top.length ? Number(Math.min(1, top[0].score).toFixed(2)) : 0,
@@ -235,7 +267,39 @@ export function mergeCandidateFeed({ feedEntries, existing, publishedUrls, now, 
   return { candidates, seenRedditIds: [...seenIds].slice(-500), added };
 }
 
-export function candidateDocument({ previous = {}, merged, now, feedUrl, subreddits = [] }) {
+/**
+ * Health of the *upstream feed*, recorded in the candidate document itself.
+ *
+ * Why this exists: when every RSS request is rejected the collector keeps the
+ * existing queue and exits 0 (so a Reddit outage never blocks the commit step).
+ * That is the right call, but it used to leave no trace in the data file, so
+ * downstream could not tell "Reddit is refusing us" apart from "this job read a
+ * frozen branch". The traffic job then hard-failed with the wrong diagnosis
+ * ("候选数据源已过期，说明读到的不是最新文件") while the real cause was an
+ * upstream outage. Recording the attempt makes both cases distinguishable.
+ */
+export function buildCollectionHealth({ attemptedAt, fetchErrors = [], entries = 0, degraded = false }) {
+  return {
+    attemptedAt,
+    entriesCollected: entries,
+    degraded,
+    reason: degraded ? "all-feeds-rejected" : null,
+    lastError: fetchErrors.length ? fetchErrors.join("; ").slice(0, 500) : null,
+  };
+}
+
+/** Parses a Retry-After header (delta-seconds or HTTP-date) into milliseconds. */
+export function parseRetryAfterMs(value, nowMs = Date.now()) {
+  if (value === null || value === undefined) return null;
+  const raw = String(value).trim();
+  if (!raw) return null;
+  if (/^\d+$/.test(raw)) return Number(raw) * 1000;
+  const asDate = Date.parse(raw);
+  if (!Number.isFinite(asDate)) return null;
+  return Math.max(0, asDate - nowMs);
+}
+
+export function candidateDocument({ previous = {}, merged, now, feedUrl, subreddits = [], collection = null }) {
   return {
     schemaVersion: "1.0.0",
     collectedAt: now,
@@ -254,6 +318,7 @@ export function candidateDocument({ previous = {}, merged, now, feedUrl, subredd
       promotionGate: "The system must verify the Reddit context, answer, evidence boundary, build context, and all three locales before moving a candidate to player-questions.json.",
     },
     detailCursor: previous.detailCursor ?? 0,
+    ...(collection ? { collection } : {}),
     counts: {
       total: merged.candidates.length,
       systemReview: merged.candidates.filter((candidate) => candidate.review?.state === "system-review").length,

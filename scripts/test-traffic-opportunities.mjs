@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { execFileSync, spawnSync } from "node:child_process";
-import { mkdtempSync, writeFileSync } from "node:fs";
+import { mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -144,6 +144,71 @@ assert.ok(stale.ageDays > 34, `expected ~35 days of age, got ${stale.ageDays}`);
 assert.match(stale.message, /候选数据源已过期/);
 assert.equal(evaluateCandidateFreshness({ collectedAt: undefined, generatedAt: "2026-10-04T07:17:00Z" }).ok, false, "a candidate file without collectedAt cannot be trusted");
 
+// 2026-10-19..: Reddit began rejecting every RSS request. The collector correctly
+// kept the queue and exited 0, but left no trace, so this job blamed itself with
+// "候选数据源已过期，说明读到的不是最新文件" while the real cause was an upstream
+// outage. A *recorded* degraded attempt must be attributed to the feed, not to a
+// stale read -- and must still not claim the data is fresh.
+const degraded = evaluateCandidateFreshness({
+  collectedAt: "2026-10-18T09:38:08.229Z",
+  generatedAt: "2026-10-22T07:17:00Z",
+  collection: { attemptedAt: "2026-10-21T09:50:00.000Z", degraded: true, reason: "all-feeds-rejected", entriesCollected: 0, lastError: "Reddit RSS request failed (429)" },
+});
+assert.equal(degraded.ok, true, "a recorded upstream outage must not be reported as a stale read");
+assert.equal(degraded.reason, "upstream-degraded");
+assert.equal(degraded.degraded, true);
+assert.match(degraded.message, /上游 Reddit 采集已降级/);
+assert.match(degraded.message, /429/);
+assert.doesNotMatch(degraded.message, /这说明本步骤读到的不是采集工作流最新写入的文件/, "must not blame the read path when the feed is the cause");
+// The same old file WITHOUT a degraded record is still a defect: this is the case
+// the gate exists for (frozen branch / broken collector), so it must keep failing.
+const staleNoRecord = evaluateCandidateFreshness({ collectedAt: "2026-10-18T09:38:08.229Z", generatedAt: "2026-10-22T07:17:00Z" });
+assert.equal(staleNoRecord.ok, false, "staleness without a degraded record must still hard-fail");
+assert.equal(staleNoRecord.reason, "stale");
+// A degraded flag is only trusted while the attempt itself is recent; an ancient
+// record must not permanently whitelist a frozen queue.
+const staleOldRecord = evaluateCandidateFreshness({
+  collectedAt: "2026-08-30T10:29:08Z",
+  generatedAt: "2026-10-04T07:17:00Z",
+  collection: { attemptedAt: "2026-09-01T00:00:00Z", degraded: true, reason: "all-feeds-rejected" },
+});
+assert.equal(staleOldRecord.ok, false, "an expired degraded record must not mask a frozen queue");
+
+// Severity split: the streak and its threshold are unchanged, but only a
+// repo-owned defect fails the job. Both causes still alert and still file an issue.
+const starved = evaluatePipelineHealth({ state: dayThree, upstreamDegraded: true });
+assert.equal(starved.alert, true, "an upstream-starved dry streak must still raise the alarm");
+assert.equal(starved.cause, "upstream-starved");
+assert.equal(starved.fail, false, "an upstream outage cannot be fixed by failing this repo's build");
+assert.match(starved.message, /上游 Reddit 采集/);
+assert.doesNotMatch(starved.message, /这是管道空转，不是今天恰好没有问题/, "must not claim a funnel defect when the feed is the cause");
+const funnel = evaluatePipelineHealth({ state: dayThree, upstreamDegraded: false });
+assert.equal(funnel.alert, true);
+assert.equal(funnel.cause, "funnel-defect");
+assert.equal(funnel.fail, true, "fresh candidates that still never convert must fail the build");
+assert.match(funnel.message, /这是管道空转/);
+// Default (unspecified) attribution stays strict: never silently downgrade.
+assert.equal(evaluatePipelineHealth({ state: dayThree }).fail, true, "unattributed dry streaks must default to a repo defect");
+// Below threshold nothing fails regardless of cause.
+assert.equal(evaluatePipelineHealth({ state: dayTwo, upstreamDegraded: true }).fail, false);
+assert.equal(evaluatePipelineHealth({ state: dayTwo, upstreamDegraded: false }).fail, false);
+// A degraded feed that still produced opportunities is not a "starved" alarm.
+const recoveredWhileDegraded = buildTrafficOpportunityState({ state: dayThree, report: fullReport("2026-09-28T07:17:00Z") });
+assert.equal(evaluatePipelineHealth({ state: recoveredWhileDegraded, upstreamDegraded: true }).alert, false);
+const degradedAlertBody = renderPipelineAlertIssue({
+  health: starved,
+  report: emptyReport("2026-10-22T07:17:00Z"),
+  queueDepth: { total: 80, readyToReply: 16, systemReview: 44 },
+  freshness: degraded,
+});
+assert.match(degradedAlertBody, /上游采集已降级/, "the filed issue must state the real cause");
+assert.match(degradedAlertBody, /请不要靠调阈值或清空 seenOpportunityKeys/, "the issue must warn against fake recovery");
+assert.doesNotMatch(degradedAlertBody, /这不是"今天恰好没有问题"/, "must not accuse the funnel when the feed is the cause");
+assert.match(degradedAlertBody, /只发警告、不判红/);
+// The funnel-defect issue keeps the original, accusatory wording.
+assert.match(alertBody, /这不是"今天恰好没有问题"/, "a genuine funnel defect must keep the hard diagnosis");
+assert.doesNotMatch(alertBody, /上游采集已降级/);
+
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sandbox = mkdtempSync(path.join(tmpdir(), "traffic-stale-"));
 execFileSync("cp", ["-R", path.join(repoRoot, "scripts"), path.join(sandbox, "scripts")]);
@@ -162,5 +227,55 @@ const staleRun = spawnSync(process.execPath, [
 assert.equal(staleRun.status, 1, "the generator must exit non-zero when the candidate source is stale");
 assert.match(staleRun.stderr, /::error title=Reddit 流量候选数据源过期::/);
 assert.match(staleRun.stderr, /2026-08-30T10:29:08.231Z/);
+
+// The same stale file, but with a fresh degraded record, is an upstream outage:
+// the generator must not hard-fail, must say so, and must tell CI not to fail.
+writeFileSync(path.join(sandboxData, "player-question-candidates.json"), `${JSON.stringify({
+  collectedAt: "2026-10-18T09:38:08.229Z",
+  collection: { attemptedAt: "2026-10-21T09:50:00.000Z", degraded: true, reason: "all-feeds-rejected", entriesCollected: 0, lastError: "Reddit RSS request failed (429)" },
+  counts: { total: 1, readyToReply: 1, systemReview: 0 },
+  candidates: [{ redditId: "starved", title: "Angel Comb bug", review: { state: "ready-to-reply" } }],
+})}\n`);
+// A prior dry streak is what makes the alert fire; seed the state file so this
+// exercises the real gate instead of a first-run warning.
+const seedState = (target) => writeFileSync(target, `${JSON.stringify({
+  schemaVersion: "1.1.0", lastRunAt: "2026-10-21T07:17:00.000Z", lastOpportunityAt: "2026-10-15T12:41:41.919Z",
+  dryRunStreak: 3, seenOpportunityKeys: [],
+})}\n`);
+const degradedStatePath = path.join(sandbox, "state-degraded.json");
+seedState(degradedStatePath);
+const degradedRun = spawnSync(process.execPath, [
+  path.join(sandbox, "scripts", "generate-traffic-opportunities.mjs"),
+  "--generated-at=2026-10-22T07:17:00Z",
+  `--output=${path.join(sandbox, "out.md")}`,
+  `--state=${degradedStatePath}`,
+  `--state-output=${path.join(sandbox, "next-degraded.json")}`,
+], { cwd: sandbox, encoding: "utf8" });
+assert.equal(degradedRun.status, 0, "a recorded upstream outage must not fail the generator");
+assert.match(degradedRun.stderr, /::warning title=Reddit 流量管道空转::/, "the outage must still be surfaced as a warning");
+assert.doesNotMatch(degradedRun.stderr, /::error title=Reddit 流量候选数据源过期::/);
+assert.match(degradedRun.stdout, /归因 upstream-starved/);
+// The alarm still advances the streak -- a starved queue is still a real drought.
+const nextDegraded = JSON.parse(readFileSync(path.join(sandbox, "next-degraded.json"), "utf8"));
+assert.equal(nextDegraded.dryRunStreak, 4, "an upstream-starved run must still count toward the dry streak");
+
+// And the defect case keeps failing loudly: a fresh-looking file with no degraded
+// record still produces a red, attributable failure.
+writeFileSync(path.join(sandboxData, "player-question-candidates.json"), `${JSON.stringify({
+  collectedAt: "2026-10-18T09:38:08.229Z",
+  counts: { total: 1, readyToReply: 1, systemReview: 0 },
+  candidates: [{ redditId: "frozen", title: "Angel Comb bug", review: { state: "ready-to-reply" } }],
+})}\n`);
+const frozenStatePath = path.join(sandbox, "state-frozen.json");
+seedState(frozenStatePath);
+const frozenRun = spawnSync(process.execPath, [
+  path.join(sandbox, "scripts", "generate-traffic-opportunities.mjs"),
+  "--generated-at=2026-10-22T07:17:00Z",
+  `--output=${path.join(sandbox, "out2.md")}`,
+  `--state=${frozenStatePath}`,
+  `--state-output=${path.join(sandbox, "next-frozen.json")}`,
+  `--alert-output=${path.join(sandbox, "alert-frozen.md")}`,
+], { cwd: sandbox, encoding: "utf8" });
+assert.equal(frozenRun.status, 1, "an unexplained stale source must still fail the build");
 
 process.stdout.write("Traffic opportunity tests passed.\n");

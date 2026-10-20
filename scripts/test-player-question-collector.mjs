@@ -3,18 +3,21 @@ import { mkdir, mkdtemp, rm, writeFile as writeFixture } from "node:fs/promises"
 import { tmpdir } from "node:os";
 import path from "node:path";
 import {
+  buildCollectionHealth,
   countCommentEntries,
   candidateDocument,
   computePriorityScore,
   computeTrafficValue,
   extractSubredditFromFeedUrl,
   findPublishedDuplicate,
+  foldToken,
   matchSiteIndex,
   matchSiteIndexDetailed,
   mergeCandidateFeed,
   normalizeQuestionKey,
   normalizeRedditUrl,
   parseAtomFeed,
+  parseRetryAfterMs,
   renderCandidateReport,
   scorePainEntry,
 } from "./lib/player-question-collector.mjs";
@@ -212,6 +215,146 @@ assert.equal(driftDoc.candidates[0].review.state, "system-review");
 const summaryText = renderEvidenceReviewSummary({ document: strongDoc, counts: promotedCounts });
 assert.match(summaryText, /候选证据审核/);
 assert.match(summaryText, /放行门槛/);
+
+// ---------------------------------------------------------------------------
+// 2026-10-19 outage regressions.
+// ---------------------------------------------------------------------------
+
+// 1. 429 handling: Reddit rate-limits by wall clock and sends Retry-After. The
+// collector used to ignore it, retry inside the same penalty window, and fail all
+// attempts -- which is why the feed stayed empty for days.
+assert.equal(parseRetryAfterMs("120"), 120000, "delta-seconds must be honoured");
+assert.equal(parseRetryAfterMs(" 0 "), 0);
+assert.equal(parseRetryAfterMs(null), null, "absent header must fall back to the caller's backoff");
+assert.equal(parseRetryAfterMs("not-a-date"), null);
+const dateNow = Date.parse("2026-10-21T00:00:00Z");
+assert.equal(parseRetryAfterMs("Wed, 21 Oct 2026 00:01:00 GMT", dateNow), 60000, "HTTP-date form must be honoured");
+assert.equal(parseRetryAfterMs("Wed, 21 Oct 2026 00:00:00 GMT", dateNow + 1000), 0, "past dates clamp to zero, never negative");
+assert.equal(parseRetryAfterMs("Tue, 20 Oct 2026 00:00:00 GMT", dateNow), 0, "past dates clamp to zero");
+
+// 2. Degraded runs must be recorded, not silent. The record is what lets the
+// traffic job distinguish "upstream refused us" from "we read a frozen file".
+const healthyCollection = buildCollectionHealth({ attemptedAt: "2026-10-21T09:50:00.000Z", fetchErrors: [], entries: 100, degraded: false });
+assert.equal(healthyCollection.degraded, false);
+assert.equal(healthyCollection.entriesCollected, 100);
+assert.equal(healthyCollection.reason, null);
+const degradedCollection = buildCollectionHealth({
+  attemptedAt: "2026-10-21T09:50:00.000Z",
+  fetchErrors: ["https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100: Reddit RSS request failed (429)"],
+  entries: 0,
+  degraded: true,
+});
+assert.equal(degradedCollection.degraded, true);
+assert.equal(degradedCollection.reason, "all-feeds-rejected");
+assert.match(degradedCollection.lastError, /429/, "the recorded reason must keep the HTTP status for triage");
+assert.ok(degradedCollection.lastError.length <= 500, "the recorded error must stay bounded");
+const docWithCollection = candidateDocument({ previous: {}, merged, now: "2026-07-16T12:00:00Z", feedUrl: "x", collection: healthyCollection });
+assert.equal(docWithCollection.collection.degraded, false, "healthy runs must also record their collection state");
+assert.equal(candidateDocument({ previous: {}, merged, now: "2026-07-16T12:00:00Z", feedUrl: "x" }).collection, undefined, "omitting collection must not fabricate a record");
+
+// 3. Inflection folding: "Bloom canker?" could not match a page titled
+// "...Angel Comb cankers open?" because "canker" != "cankers", so an answerable
+// question was held as if the site had no coverage.
+assert.equal(foldToken("cankers"), "canker");
+assert.equal(foldToken("fragments"), "fragment");
+assert.equal(foldToken("recipes"), "recipe");
+assert.equal(foldToken("boxes"), "box");
+assert.equal(foldToken("classes"), "class");
+assert.equal(foldToken("boxes"), "box");
+assert.equal(foldToken("docks"), "dock");
+// Words that merely end in s must survive intact.
+assert.equal(foldToken("gas"), "gas");
+assert.equal(foldToken("this"), "this");
+assert.equal(foldToken("fps"), "fps");
+assert.equal(foldToken("bonus"), "bonus");
+assert.equal(foldToken("campus"), "campus");
+assert.equal(foldToken("ruins"), "ruin");
+const pluralIndex = { entries: [{ title: "Angel Comb cankers", href: "q/cankers.html", terms: "canker bloom" }] };
+const pluralMatch = matchSiteIndexDetailed("Bloom canker?", pluralIndex);
+assert.equal(pluralMatch.suggestedPages[0].titleHits, 1, "singular question must match plural page title");
+assert.ok(pluralMatch.suggestedPages[0].hits >= 2, "plural and singular must both count as hits");
+
+// 4. Tie-breaking on specificity. Ranking used to fall back to search-index
+// order, so a generic word sent the reviewer to the wrong page: "Building a
+// protected corridor" resolved to base-building.html, and because the decision was
+// made on the top page only, the precise corridor page was never considered.
+// The fixture mirrors the real corpus, where a generic word like "building" appears
+// on many pages while "corridor" appears on exactly one.
+const tieIndex = {
+  entries: [
+    { title: "Base building", href: "base-building.html", terms: "Habitat Builder base modules" },
+    { title: "Corridor", href: "guide/items/corridor.html", terms: "Corridor Habitat Builder Titanium" },
+    { title: "Tadpole vehicle planner", href: "vehicle-planner.html", terms: "vehicle depth chassis" },
+    { title: "Base building advanced", href: "base-2.html", terms: "base building modules foundation" },
+    { title: "Base building power", href: "base-3.html", terms: "base building power reactor" },
+    { title: "Building a habitat", href: "base-4.html", terms: "building habitat construction" },
+  ],
+};
+const tieMatch = matchSiteIndexDetailed("Building a protected corridor : worth it?", tieIndex);
+assert.equal(tieMatch.suggestedPages[0].href, "guide/items/corridor.html", "the precise page must outrank a generic-token collision");
+// A page that merely repeats a generic token must not win on raw frequency.
+const genericMatch = matchSiteIndexDetailed("Base not enough power", tieIndex);
+assert.ok(genericMatch.suggestedPages.some((page) => page.href.startsWith("base-")), "a real base question must still find a base page");
+
+// 5. The reviewer must consider every suggested page, not just the top one.
+// Regression: a loose match ranked first used to hold a candidate even when a
+// later suggestion was a valid, cited, trilingual answer. Here the top-ranked page
+// covers all tokens but shares nothing with a *title* (so it must be rejected),
+// while the second-ranked page is a precise, entitled match that should pass.
+const alternateRoot = await mkdtemp(path.join(tmpdir(), "evidence-alt-"));
+const writeAlt = async (href) => {
+  for (const prefix of ["", "zh-cn/", "ru/"]) {
+    const target = path.join(alternateRoot, prefix, href);
+    await mkdir(path.dirname(target), { recursive: true });
+    await writeFixture(target, '<!doctype html><a href="https://wiki.subnautica.com/sn2/index.php?oldid=1">rev</a>');
+  }
+};
+await writeAlt("wrong/generic.html");
+await writeAlt("right/specific.html");
+const altIndex = {
+  entries: [
+    { title: "Generic page", href: "wrong/generic.html", terms: "corridor base building protected" },
+    { title: "Corridor", href: "right/specific.html", terms: "corridor protected" },
+  ],
+};
+const altRanking = matchSiteIndexDetailed("Building a protected corridor", altIndex);
+assert.equal(altRanking.suggestedPages[0].href, "wrong/generic.html", "fixture precondition: the loose match must rank first");
+assert.equal(altRanking.suggestedPages[0].titleHits, 0, "fixture precondition: the loose match must have no title overlap");
+const altVerdict = reviewCandidateEvidence({
+  candidate: { redditId: "alt", title: "Building a protected corridor", review: { state: "system-review" } },
+  searchIndex: altIndex,
+  pageEvidence: createPageEvidenceIndex({ root: alternateRoot }),
+});
+assert.equal(altVerdict.state, "ready-to-reply", "a valid alternate suggestion must be able to pass the gate");
+assert.equal(altVerdict.page, "right/specific.html", "the passing page must be the one recorded as evidence");
+// When genuinely nothing passes, the hold reasons still come from the best candidate.
+const altReject = reviewCandidateEvidence({
+  candidate: { redditId: "alt2", title: "Unrelated fan art question", review: { state: "system-review" } },
+  searchIndex: altIndex,
+  pageEvidence: createPageEvidenceIndex({ root: alternateRoot }),
+});
+assert.equal(altReject.state, "system-review");
+assert.ok(altReject.reasons.length, "a held candidate must always explain itself");
+
+// 6. A candidate whose stored page has disappeared from the live index must be
+// held, not crash. `ranked` is empty here while `suggestedPages` is not, and the
+// reviewer used to dereference a missing rank entry and throw, which took down the
+// whole collector run.
+const orphanVerdict = reviewCandidateEvidence({
+  candidate: {
+    redditId: "orphan",
+    title: "Some question that no longer matches anything zzz",
+    review: { state: "system-review" },
+    suggestedPages: [{ href: "gone/page.html", title: "Gone", score: 0.9 }],
+  },
+  searchIndex: { entries: [] },
+  pageEvidence: createPageEvidenceIndex({ root: alternateRoot }),
+});
+assert.equal(orphanVerdict.state, "system-review", "an orphaned stored page must hold the candidate");
+assert.ok(orphanVerdict.reasons.length, "an orphaned candidate must still explain itself");
+assert.equal(orphanVerdict.page, "gone/page.html", "the stored page must be reported for triage");
+await rm(alternateRoot, { recursive: true, force: true });
+
 await rm(fixtureRoot, { recursive: true, force: true });
 
 process.stdout.write("Player question collector tests passed.\n");

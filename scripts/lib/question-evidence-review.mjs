@@ -57,30 +57,67 @@ export function createPageEvidenceIndex({ root, policy = defaultEvidencePolicy }
 /**
  * Decides one candidate. Returns the review object to store plus a machine
  * readable reason list so a human can audit why the queue is (not) moving.
+ *
+ * Every suggested page is considered, not only the top-ranked one. The matcher
+ * ranks by overlap ratio, which structurally favors short generic pages over the
+ * page that actually answers a long question; judging a candidate on ranking
+ * order alone therefore rejected answerable questions whenever a loose match
+ * happened to outrank a precise one.
  */
 export function reviewCandidateEvidence({ candidate, searchIndex, pageEvidence, policy = defaultEvidencePolicy }) {
   const merged = { ...defaultEvidencePolicy, ...policy };
   // Always match against the live index so a page that was renamed or dropped
   // since the candidate was first collected cannot keep an stale approval.
   const detailed = matchSiteIndexDetailed(candidate.title, searchIndex);
-  const top = detailed.suggestedPages[0] ?? candidate.suggestedPages?.[0];
+  const ranked = detailed.suggestedPages ?? [];
+  const top = ranked[0] ?? candidate.suggestedPages?.[0];
   if (!top) return { state: "system-review", answerStatus: "no-matched-page", reasons: ["no-matched-page"], page: null };
 
-  const hits = top.hits ?? 0;
-  const titleHits = top.titleHits ?? 0;
-  const score = top.score ?? 0;
-  const page = pageEvidence.lookup(top.href);
+  const evaluate = (page_) => {
+    const hits = page_.hits ?? 0;
+    const titleHits = page_.titleHits ?? 0;
+    const score = page_.score ?? 0;
+    const page = pageEvidence.lookup(page_.href);
+    const reasons = [];
+    if (score < merged.minMatchScore) reasons.push("match-score-too-low");
+    if (hits < merged.minTokenHits) reasons.push("too-few-shared-tokens");
+    if (merged.requireTitleOverlap && !(titleHits > 0)) reasons.push("no-title-token-overlap");
+    if (!page.exists) reasons.push("page-missing-on-disk");
+    if (merged.requireTrilingual && !page.trilingual) reasons.push("locale-coverage-incomplete");
+    if (merged.requireExternalSource && !page.citesExternalSource) reasons.push("page-cites-no-external-source");
+    return { href: page_.href, hits, score, reasons };
+  };
 
-  const reasons = [];
-  if (score < merged.minMatchScore) reasons.push("match-score-too-low");
-  if (hits < merged.minTokenHits) reasons.push("too-few-shared-tokens");
-  if (merged.requireTitleOverlap && !(titleHits > 0)) reasons.push("no-title-token-overlap");
-  if (!page.exists) reasons.push("page-missing-on-disk");
-  if (merged.requireTrilingual && !page.trilingual) reasons.push("locale-coverage-incomplete");
-  if (merged.requireExternalSource && !page.citesExternalSource) reasons.push("page-cites-no-external-source");
-
-  if (reasons.length) return { state: "system-review", answerStatus: "evidence-thin", reasons, page: top.href, hits, score };
-  return { state: "ready-to-reply", answerStatus: "evidence-verified", reasons: ["evidence-verified"], page: top.href, hits, score };
+  const verdicts = ranked.map(evaluate);
+  const passing = verdicts.find((verdict) => verdict.reasons.length === 0);
+  if (passing) {
+    return { state: "ready-to-reply", answerStatus: "evidence-verified", reasons: ["evidence-verified"], page: passing.href, hits: passing.hits, score: passing.score };
+  }
+  // Nothing passed. `ranked` can legitimately be empty while the candidate still
+  // carries a page stored by an earlier run (it was renamed or dropped from the
+  // live index), so fall back to that stored suggestion instead of assuming a
+  // ranked entry exists -- dereferencing it used to throw and kill the collector.
+  const best = verdicts[0];
+  if (!best) {
+    const fallbackPage = pageEvidence.lookup(top.href);
+    return {
+      state: "system-review",
+      answerStatus: "no-matched-page",
+      reasons: [fallbackPage.exists ? "match-score-too-low" : "page-missing-on-disk"],
+      page: top.href,
+      hits: 0,
+      score: 0,
+    };
+  }
+  const missingPage = ranked.every((page_) => !pageEvidence.lookup(page_.href).exists);
+  return {
+    state: "system-review",
+    answerStatus: missingPage ? "no-matched-page" : "evidence-thin",
+    reasons: best.reasons.length ? best.reasons : ["no-matched-page"],
+    page: best.href,
+    hits: best.hits,
+    score: best.score,
+  };
 }
 
 /**

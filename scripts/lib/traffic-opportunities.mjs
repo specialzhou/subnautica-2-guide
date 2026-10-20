@@ -156,18 +156,37 @@ export function buildTrafficOpportunityState({ state = {}, report }) {
  * Distinguishes "today genuinely had no good question" from "the funnel has
  * stalled and nobody notices". The 2026-08-09 -> 2026-09-29 outage looked like a
  * green daily run for seven weeks precisely because nothing watched this.
+ *
+ * A dry streak has two possible owners, and they need different responses:
+ *   - the repo (`funnel-defect`): fresh candidates keep arriving and still never
+ *     convert. Fail the job red -- the owner can fix this today.
+ *   - the upstream feed (`upstream-starved`): Reddit rejected every request and
+ *     the existing queue has already been drained. The alarm must still fire and
+ *     still file an issue, but turning the job red does not make Reddit serve us
+ *     again; it only teaches everyone that red on this workflow is noise, which
+ *     is exactly the failure this gate was built to prevent.
+ * The streak itself, its threshold and the issue are unchanged. Only the
+ * attribution and the exit severity differ, and an unattributed dry streak is
+ * always treated as a funnel defect.
  */
-export function evaluatePipelineHealth({ state, alertAfterDryRuns = 3 } = {}) {
+export function evaluatePipelineHealth({ state, alertAfterDryRuns = 3, upstreamDegraded = false } = {}) {
   const dryRunStreak = Number(state?.dryRunStreak) || 0;
   const alert = dryRunStreak >= alertAfterDryRuns;
   const lastOpportunityAt = state?.lastOpportunityAt ?? null;
+  const cause = upstreamDegraded ? "upstream-starved" : "funnel-defect";
+  const message = alert
+    ? upstreamDegraded
+      ? `Reddit 流量机会已连续 ${dryRunStreak} 次运行产出 0 条（最后一次出水：${lastOpportunityAt ?? "从未"}）。队列里可回复的候选都已用尽，而上游 Reddit 采集一直拿不到新帖，所以没有新机会可发——这是外部限流导致的枯竭，不是本站漏斗缺陷。恢复采集后会自动出水；请不要通过调阈值或清空 seenOpportunityKeys 来制造产出。`
+      : `Reddit 流量机会已连续 ${dryRunStreak} 次运行产出 0 条（最后一次出水：${lastOpportunityAt ?? "从未"}）。这是管道空转，不是今天恰好没有问题：请检查候选队列的 ready-to-reply 数量与卡住原因分布。`
+    : `连续 0 产出运行次数：${dryRunStreak}（告警阈值 ${alertAfterDryRuns}）。`;
   return {
     dryRunStreak,
     alert,
+    cause: alert ? cause : null,
+    // The issue is filed for both causes; only the repo-owned one fails the job.
+    fail: alert && cause === "funnel-defect",
     lastOpportunityAt,
-    message: alert
-      ? `Reddit 流量机会已连续 ${dryRunStreak} 次运行产出 0 条（最后一次出水：${lastOpportunityAt ?? "从未"}）。这是管道空转，不是今天恰好没有问题：请检查候选队列的 ready-to-reply 数量与卡住原因分布。`
-      : `连续 0 产出运行次数：${dryRunStreak}（告警阈值 ${alertAfterDryRuns}）。`,
+    message,
   };
 }
 
@@ -178,8 +197,17 @@ export function evaluatePipelineHealth({ state, alertAfterDryRuns = 3 } = {}) {
  * every ready-to-reply entry is already in seenOpportunityKeys, so the pipeline
  * reports "0 opportunities" forever while looking like ordinary day-to-day variance.
  * Age is the one signal that separates a stale source from a genuinely quiet day.
+ *
+ * A stale age has two very different causes, and conflating them sends whoever is
+ * on call to the wrong place:
+ *   - `stale-read`: the collector is running fine but this job read an old copy.
+ *     That is a real defect here and must fail loudly.
+ *   - `upstream-degraded`: the collector ran recently and told us, in the file it
+ *     wrote, that Reddit rejected every request. Nothing is wrong with the read;
+ *     there was simply nothing new to read. Failing red here just re-reports an
+ *     outage we cannot fix from CI, and hides the fact that recovery is external.
  */
-export function evaluateCandidateFreshness({ collectedAt, generatedAt, maxAgeDays = 3 } = {}) {
+export function evaluateCandidateFreshness({ collectedAt, generatedAt, maxAgeDays = 3, collection = null } = {}) {
   const collectedMs = Date.parse(String(collectedAt ?? ""));
   const generatedMs = Date.parse(String(generatedAt ?? ""));
   if (!Number.isFinite(collectedMs)) {
@@ -187,15 +215,40 @@ export function evaluateCandidateFreshness({ collectedAt, generatedAt, maxAgeDay
   }
   const referenceMs = Number.isFinite(generatedMs) ? generatedMs : Date.now();
   const ageDays = (referenceMs - collectedMs) / 86_400_000;
+
+  // Did the collector itself report a degraded run? Its own timestamp is the
+  // authority: if it attempted the fetch recently, the file is current even
+  // though no new posts could be appended.
+  const attemptedMs = Date.parse(String(collection?.attemptedAt ?? ""));
+  const attemptedRecently = Number.isFinite(attemptedMs) && (referenceMs - attemptedMs) / 86_400_000 <= maxAgeDays;
+  const upstreamDegraded = Boolean(collection?.degraded) && attemptedRecently;
+
   if (ageDays > maxAgeDays) {
+    if (upstreamDegraded) {
+      return {
+        ok: true,
+        ageDays,
+        reason: "upstream-degraded",
+        degraded: true,
+        message: `候选队列自 ${collectedAt} 起没有新增：上游 Reddit 采集已降级（最后一次尝试 ${collection.attemptedAt}，${collection.reason ?? "feed-rejected"}${collection.lastError ? `：${collection.lastError}` : ""}）。这不是本步骤读到了旧文件，而是上游拒绝了全部请求；队列本身（${collection.entriesCollected ?? 0} 条新增）原样保留。恢复取决于 Reddit 是否解除限流，因此本步骤不重复报红。`,
+      };
+    }
     return {
       ok: false,
       ageDays,
       reason: "stale",
-      message: `候选数据源已过期：collectedAt=${collectedAt}，距运行时间 ${Math.floor(ageDays)} 天（阈值 ${maxAgeDays} 天）。这说明本步骤读到的不是采集工作流最新写入的文件，而不是"今天恰好没有问题"。`,
+      message: `候选数据源已过期：collectedAt=${collectedAt}，距运行时间 ${Math.floor(ageDays)} 天（阈值 ${maxAgeDays} 天），且采集工作流没有留下降级记录。这说明本步骤读到的不是采集工作流最新写入的文件，而不是"今天恰好没有问题"。`,
     };
   }
-  return { ok: true, ageDays, reason: null, message: `候选数据源新鲜：collectedAt=${collectedAt}（${ageDays.toFixed(2)} 天前）。` };
+  return {
+    ok: true,
+    ageDays,
+    reason: upstreamDegraded ? "upstream-degraded" : null,
+    degraded: upstreamDegraded,
+    message: upstreamDegraded
+      ? `候选数据源虽新，但上游采集已降级：${collection.lastError ?? collection.reason ?? "feed-rejected"}。`
+      : `候选数据源新鲜：collectedAt=${collectedAt}（${ageDays.toFixed(2)} 天前）。`,
+  };
 }
 
 export function renderPipelineHealthSummary(health) {
@@ -203,22 +256,39 @@ export function renderPipelineHealthSummary(health) {
 }
 
 /** Body for the "pipeline is dry" alert issue, written by the generator, filed by CI. */
-export function renderPipelineAlertIssue({ health, report, queueDepth = {} }) {
+export function renderPipelineAlertIssue({ health, report, queueDepth = {}, freshness = null }) {
+  const starvation = Boolean(freshness?.degraded);
+  const upstreamNote = starvation
+    ? `\n## ⚠️ 上游采集已降级（本次空转的归因）\n\n${freshness.message}\n\n` +
+      `这一条是**外因**：队列里可回复的候选都已经出过水，Reddit 又拒绝新帖，所以没有新机会可发。` +
+      `恢复采集后本 Issue 会自然停止；在恢复前请不要靠调阈值或清空 seenOpportunityKeys 来制造产出——` +
+      `那只会把同一批帖子重复发一遍。\n`
+    : "";
+  // The opening paragraph must not accuse the funnel when the feed is the cause;
+  // a wrong diagnosis here is what sent the previous investigation down the
+  // "CI read a frozen branch" path while Reddit was actually returning 429.
+  const opening = starvation
+    ? `工作流每天仍然报 success，是因为产出为 0 时它会跳过建单——2026-08-09 到 2026-09-29 ` +
+      `就是这样静默空转了七周。本次空转的归因是**上游限流**，不是本站漏斗缺陷，因此本步骤只发警告、不判红；` +
+      `下面的排查顺序仅在**上游恢复后仍然 0 产出**时才需要执行。\n`
+    : `这不是"今天恰好没有问题"。工作流每天仍然报 success，是因为产出为 0 时它会跳过建单——` +
+      `2026-08-09 到 2026-09-29 就是这样静默空转了七周，期间站点唯一的流量入口是干的。\n`;
+  const troubleshooting = `## 排查顺序\n\n` +
+    `1. 看最近一次「收集玩家问题候选」的 step summary 里的**卡住原因分布**——它会直接告诉你是匹配度不够、三语缺页，还是页面没外链证据。\n` +
+    `2. 若 ready-to-reply 为 0 且原因集中在"匹配度过低/无标题词重叠"，说明是**内容缺口**：站上没有能回答这些问题的页面，需要补攻略而不是调阈值。\n` +
+    `3. 若原因集中在"三语版本不齐全"或"目标页文件缺失"，说明是**本地化/构建回归**，跑 \`npm run validate\` 对照 check-locales 输出。\n` +
+    `4. 若候选总数本身在掉，说明 Reddit RSS 采集被限流，看采集工作流有没有 \`Reddit 采集已降级\` 警告。\n\n`;
   return `# 管道空转：Reddit 流量机会连续 ${health.dryRunStreak} 次运行 0 产出\n\n` +
     `生成时间：${report.generatedAt}\n\n` +
     `最后一次真正出水：${health.lastOpportunityAt ?? "从未"}\n\n` +
-    `这不是"今天恰好没有问题"。工作流每天仍然报 success，是因为产出为 0 时它会跳过建单——` +
-    `2026-08-09 到 2026-09-29 就是这样静默空转了七周，期间站点唯一的流量入口是干的。\n\n` +
-    `## 当前队列\n\n` +
+    opening +
+    upstreamNote +
+    `\n## 当前队列\n\n` +
     `| 指标 | 数值 |\n| --- | ---: |\n` +
     `| 候选总数 | ${queueDepth.total ?? "—"} |\n` +
     `| ready-to-reply（可出水） | ${queueDepth.readyToReply ?? "—"} |\n` +
     `| system-review（卡住） | ${queueDepth.systemReview ?? "—"} |\n\n` +
-    `## 排查顺序\n\n` +
-    `1. 看最近一次「收集玩家问题候选」的 step summary 里的**卡住原因分布**——它会直接告诉你是匹配度不够、三语缺页，还是页面没外链证据。\n` +
-    `2. 若 ready-to-reply 为 0 且原因集中在"匹配度过低/无标题词重叠"，说明是**内容缺口**：站上没有能回答这些问题的页面，需要补攻略而不是调阈值。\n` +
-    `3. 若原因集中在"三语版本不齐全"或"目标页文件缺失"，说明是**本地化/构建回归**，跑 \`npm run validate\` 对照 check-locales 输出。\n` +
-    `4. 若候选总数本身在掉，说明 Reddit RSS 采集被限流，看采集工作流有没有 \`Reddit 采集已降级\` 警告。\n\n` +
+    troubleshooting +
     `> 本 Issue 由 traffic-opportunities 工作流自动创建，不会自动操作 Reddit。\n`;
 }
 

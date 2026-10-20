@@ -17,6 +17,7 @@ import {
   defaultEvidencePolicy,
   renderEvidenceReviewSummary,
 } from "./lib/question-evidence-review.mjs";
+import { buildCollectionHealth, parseRetryAfterMs } from "./lib/player-question-collector.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Map(process.argv.slice(2).map((arg) => {
@@ -32,6 +33,9 @@ const maxDetails = Number(args.get("max-details") || 0);
 const detailDelayMs = Number(args.get("detail-delay-ms") || 65000);
 const fetchAttempts = Math.max(1, Number(args.get("fetch-attempts") || 1));
 const fetchRetryDelayMs = Math.max(0, Number(args.get("fetch-retry-delay-ms") || 5000));
+// A Retry-After can legitimately be minutes long; cap it so one hostile header
+// cannot park a CI job past its timeout.
+const maxRetryAfterMs = Math.max(0, Number(args.get("max-retry-after-ms") || 120000));
 const allowStaleFeed = args.has("allow-stale-feed");
 const skipAutoReview = args.has("no-auto-review");
 const feedsArg = args.get("feeds");
@@ -42,16 +46,31 @@ const userAgent = process.env.REDDIT_USER_AGENT || "subnautica-2-guide/0.1 (http
 const fetchText = async (url, { attempts = 1, retryDelayMs = 0 } = {}) => {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    let retryAfterMs = null;
     try {
       const response = await fetch(url, { headers: { Accept: "application/atom+xml", "User-Agent": userAgent } });
-      if (!response.ok) throw new Error(`Reddit RSS request failed (${response.status}) for ${url}`);
+      if (!response.ok) {
+        // Reddit rate-limits by wall clock and tells us how long to wait. Ignoring
+        // Retry-After made every retry land inside the same penalty window, so all
+        // attempts failed and the feed silently stayed empty.
+        retryAfterMs = parseRetryAfterMs(response.headers.get("retry-after"));
+        const error = new Error(`Reddit RSS request failed (${response.status}) for ${url}`);
+        error.status = response.status;
+        error.retryAfterMs = retryAfterMs;
+        throw error;
+      }
       const contentType = response.headers.get("content-type") ?? "";
       if (!/xml|atom/i.test(contentType)) throw new Error(`Unexpected Reddit RSS content type: ${contentType}`);
       return response.text();
     } catch (error) {
+      error.retryAfterMs ??= retryAfterMs;
       lastError = error;
-      if (attempt < attempts && retryDelayMs > 0) {
-        await new Promise((resolve) => setTimeout(resolve, retryDelayMs * attempt));
+      if (attempt < attempts) {
+        // Prefer the server's own guidance; fall back to the linear backoff, and
+        // never sleep longer than the caller's retry budget allows.
+        const serverHint = Number.isFinite(error.retryAfterMs) ? Math.min(error.retryAfterMs, maxRetryAfterMs) : null;
+        const delay = serverHint ?? retryDelayMs * attempt;
+        if (delay > 0) await new Promise((resolve) => setTimeout(resolve, delay));
       }
     }
   }
@@ -86,10 +105,38 @@ if (!allEntries.length) {
     throw new Error(fetchErrors.length ? fetchErrors.join("; ") : "Reddit RSS contained no readable entries");
   }
   const message = `Reddit 当前拒绝所有 RSS 请求；已保留现有候选队列，本次没有采集新帖子。${fetchErrors.join("; ")}`;
+  // Record the attempt instead of exiting silently. Without this the file keeps an
+  // old collectedAt, and the downstream traffic job concludes "CI is reading a
+  // frozen branch" when the truth is "Reddit is refusing every request". The queue
+  // is preserved verbatim: a degraded run must never evict or re-review anything.
+  //
+  // `collectedAt` deliberately keeps meaning "last successful collection" -- it is
+  // NOT bumped here. Bumping it would make a frozen queue look permanently fresh
+  // and destroy the very staleness signal that catches a broken collector. The
+  // attempt is recorded separately in `collection.attemptedAt`, which is what lets
+  // downstream tell "upstream is refusing us" apart from "we read an old file".
+  const carried = Array.isArray(previous.candidates) ? previous.candidates : [];
+  const degradedDocument = {
+    ...previous,
+    schemaVersion: previous.schemaVersion ?? "1.0.0",
+    source: previous.source ?? { platform: "Reddit", subreddit: subreddits[0] ?? "r/Subnautica_2", subreddits, feedUrl: feedUrls.join(", "), method: "public-atom-rss" },
+    collection: buildCollectionHealth({ attemptedAt: now, fetchErrors, entries: 0, degraded: true }),
+    counts: {
+      ...(previous.counts ?? {}),
+      total: carried.length,
+      systemReview: carried.filter((candidate) => candidate.review?.state === "system-review").length,
+      readyToReply: carried.filter((candidate) => candidate.review?.state === "ready-to-reply").length,
+      dismissed: carried.filter((candidate) => candidate.review?.state === "dismissed").length,
+      addedThisRun: 0,
+    },
+    candidates: carried,
+  };
+  await writeFile(outputPath, `${JSON.stringify(degradedDocument, null, 2)}\n`);
   process.stderr.write(`::warning title=Reddit 采集已降级::${message}\n`);
   if (process.env.GITHUB_STEP_SUMMARY) {
-    await writeFile(process.env.GITHUB_STEP_SUMMARY, `## Reddit 采集已降级\n\n${message}\n`, { flag: "a" });
+    await writeFile(process.env.GITHUB_STEP_SUMMARY, `## Reddit 采集已降级\n\n${message}\n\n已把本次尝试写入 \`data/player-question-candidates.json\` 的 \`collection\` 字段（\`degraded: true\`），候选队列 ${carried.length} 条原样保留。下游据此区分「上游限流」与「读到了冻结文件」。\n`, { flag: "a" });
   }
+  process.stdout.write(`Reddit feed unavailable (degraded run recorded); carried ${carried.length} existing candidates unchanged.\n`);
   process.exit(0);
 }
 if (fetchErrors.length) {
@@ -98,7 +145,14 @@ if (fetchErrors.length) {
 const feedEntries = allEntries;
 
 const merged = mergeCandidateFeed({ feedEntries, existing: previous, publishedUrls, now, threshold, searchIndex });
-const document = candidateDocument({ previous, merged, now, feedUrl: feedUrls.join(", "), subreddits });
+const document = candidateDocument({
+  previous,
+  merged,
+  now,
+  feedUrl: feedUrls.join(", "),
+  subreddits,
+  collection: buildCollectionHealth({ attemptedAt: now, fetchErrors, entries: feedEntries.length, degraded: false }),
+});
 for (const candidate of document.candidates) {
   candidate.possibleDuplicateOf = findPublishedDuplicate(candidate.title, published.questions);
 }

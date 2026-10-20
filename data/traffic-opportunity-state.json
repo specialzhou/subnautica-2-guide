@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-10-15T12:41:41.919Z",
-  "lastRunAt": "2026-10-20T16:44:48.075Z",
-  "lastOpportunityAt": "2026-10-15T12:41:41.919Z",
-  "dryRunStreak": 5,
+  "updatedAt": "2026-10-20T16:50:29.965Z",
+  "lastRunAt": "2026-10-20T16:50:29.965Z",
+  "lastOpportunityAt": "2026-10-20T16:50:29.965Z",
+  "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
     "1uuswe2:angel-comb-main-cankers-stuck",
@@ -22,6 +22,9 @@
     "1vjl3cl:page:guide/items/tadpole-dock.html",
     "1vpzqri:page:questions/rebioscan-biofilm-not-respawning.html",
     "1vivrud:dup:angel-comb-main-cankers-stuck",
-    "1x6betu:page:guide/items/dive-elevator.html"
+    "1x6betu:page:guide/items/dive-elevator.html",
+    "1wljwpp:page:guide/items/tadpole-dock.html",
+    "1x9gjz6:page:questions/scan-collector-leviathan-safely.html",
+    "1x032z3:page:guide/items/power-transmitter.html"
   ]
 }

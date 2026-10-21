@@ -75,16 +75,33 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
       buildContext = duplicateQuestion.buildContext;
       verification = duplicateQuestion.verification;
     } else {
-      // P1 B.2: new questions with a matched deep link also get a reply draft
+      // P1 B.2: new questions with a matched deep link also get a reply draft.
+      //
+      // When that deep link is one of our own question pages, the page already
+      // carries a vetted trilingual answer -- reuse it instead of degrading to a
+      // bare "here is a link" stub. Without this every non-duplicate opportunity
+      // shipped a content-free draft (see issues #84/#86/#88), which is useless
+      // to post and reads as spam.
       const relatedHref = candidate.relatedPages?.[0] ?? candidate.suggestedPages?.[0]?.href;
       if (!relatedHref) continue;
       deepLinkHref = relatedHref;
       guideId = relatedHref;
       matchScore = 0;
+      const questionMatch = /^questions\/([a-z0-9-]+)\.html$/.exec(relatedHref);
+      const linkedQuestion = questionMatch ? questionById.get(questionMatch[1]) : null;
+      if (linkedQuestion?.answer) {
+        answerText = linkedQuestion.answer;
+        buildContext = linkedQuestion.buildContext;
+        verification = linkedQuestion.verification;
+      }
     }
 
     const key = opportunityKey(candidate.redditId, isSolvedDuplicate ? `dup:${guideId}` : `page:${guideId}`);
     if (seenOpportunityKeys.has(key)) continue;
+    // An entry with no answer text is a link drop, not a draft. It is still
+    // listed (the pointer draft is a designed behaviour), but flagged so the
+    // rendered issue can say plainly that there is nothing to paste yet.
+    const hasAnswer = Boolean(answerText?.en?.trim());
     ranked.push({
       candidate,
       guideId,
@@ -94,6 +111,7 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
       answerText,
       buildContext,
       verification,
+      hasAnswer,
       score: opportunityScore(candidate),
     });
   }
@@ -120,6 +138,7 @@ export function buildTrafficOpportunities({ candidates, questions, generatedAt, 
       guideUrlRu: buildGuideUrl(entry.deepLinkHref, "ru", content),
       buildContext: entry.buildContext,
       verification: entry.verification,
+      hasAnswer: entry.hasAnswer,
       replyDraft: buildDraft(entry.answerText, entry.deepLinkHref, "en"),
       replyDraftZh: buildDraft(entry.answerText, entry.deepLinkHref, "zh-cn"),
       replyDraftRu: buildDraft(entry.answerText, entry.deepLinkHref, "ru"),
@@ -312,8 +331,22 @@ const escapeMarkdown = (value) => String(value ?? "—")
 const draftBlock = (label, text) => `**${label}**\n\`\`\`text\n${text}\n\`\`\``;
 
 export function renderTrafficOpportunityIssue(report) {
-  const rows = report.opportunities.map((entry, index) => `| ${index + 1} | ${entry.opportunityScore} | ${entry.comments ?? "?"} | [${escapeMarkdown(entry.title)}](${entry.redditUrl}) | [${escapeMarkdown(entry.guideId)}](${entry.guideUrl}) | ${entry.matchScore} |`);
-  const drafts = report.opportunities.map((entry, index) => `### ${index + 1}. ${escapeMarkdown(entry.title)}\n\n- Reddit 原帖：${entry.redditUrl}\n- 游戏版本：${entry.buildContext ?? "—"}\n- 证据等级：${verificationLabels[entry.verification] ?? entry.verification ?? "—"}\n- 推荐深链（英文）：${entry.guideUrl}\n- 推荐深链（中文）：${entry.guideUrlZh}\n- 推荐深链（俄文）：${entry.guideUrlRu}\n\n#### 已完成的系统审核\n\n- 已核对原帖上下文、当前解决状态、游戏版本和证据边界。\n- 草稿不会自动发布；站长只需决定是否手工复制发布。\n\n#### 可直接使用的回复（按目标社区语言选一条）\n\n${draftBlock("英文", entry.replyDraft)}\n\n${draftBlock("中文", entry.replyDraftZh)}\n\n${draftBlock("Русский", entry.replyDraftRu)}`);
+  const answerable = report.opportunities.filter((entry) => entry.hasAnswer);
+  const linkOnly = report.opportunities.length - answerable.length;
+  const rows = report.opportunities.map((entry, index) => `| ${index + 1} | ${entry.opportunityScore} | ${entry.comments ?? "?"} | [${escapeMarkdown(entry.title)}](${entry.redditUrl}) | [${escapeMarkdown(entry.guideId)}](${entry.guideUrl}) | ${entry.matchScore} | ${entry.hasAnswer ? "可直接发" : "待补内容"} |`);
+  const drafts = report.opportunities.map((entry, index) => {
+    const header = `### ${index + 1}. ${escapeMarkdown(entry.title)}`;
+    const meta = `- Reddit 原帖：${entry.redditUrl}\n- 游戏版本：${entry.buildContext ?? "—"}\n- 证据等级：${verificationLabels[entry.verification] ?? entry.verification ?? "—"}\n- 推荐深链（英文）：${entry.guideUrl}\n- 推荐深链（中文）：${entry.guideUrlZh}\n- 推荐深链（俄文）：${entry.guideUrlRu}`;
+    if (!entry.hasAnswer) {
+      // Be explicit: there is nothing to paste. Showing an empty "draft" is how
+      // these issues previously wasted the maintainer's time.
+      return `${header}\n\n${meta}\n\n#### ⚠️ 暂无可用回复\n\n本站还没有能直接回答这个问题的页面内容，**本条不需要你做任何决定**。\n它留在队列里只是提示内容缺口；等对应攻略页补齐答案后会自动重新进入待发列表。\n若你完全不打算手工发 Reddit，可以忽略或直接关闭本 Issue。`;
+    }
+    return `${header}\n\n${meta}\n\n#### 已完成的系统审核\n\n- 已核对原帖上下文、当前解决状态、游戏版本和证据边界。\n- 草稿不会自动发布；站长只需决定是否手工复制发布。\n\n#### 可直接使用的回复（按目标社区语言选一条）\n\n${draftBlock("英文", entry.replyDraft)}\n\n${draftBlock("中文", entry.replyDraftZh)}\n\n${draftBlock("Русский", entry.replyDraftRu)}`;
+  });
   const empty = "今天没有新的合格机会。候选问题仍保留在审核队列中，系统不会自动发帖、评论、投票或私信。";
-  return `# Reddit 流量机会\n\n生成时间：${report.generatedAt}\n\n本报告只接收已经完成证据审核的候选，并生成可直接使用的回复；不会自动操作 Reddit。\n\n| 排名 | 机会分 | 评论数 | Reddit 问题 | 匹配攻略 | 匹配度 |\n| ---: | ---: | ---: | --- | --- | ---: |\n${rows.length ? rows.join("\n") : `| — | — | — | ${empty} | — | — |`}\n\n## 可回复内容\n\n${drafts.length ? drafts.join("\n\n") : empty}\n`;
+  const summary = answerable.length
+    ? `${answerable.length} 条可直接复制发布${linkOnly ? `，另有 ${linkOnly} 条待补内容（无需你处理）` : "。"}`
+    : "今天没有可直接发布的回复。";
+  return `# Reddit 流量机会\n\n生成时间：${report.generatedAt}\n\n${summary}\n\n本报告只接收已经完成证据审核的候选；不会自动操作 Reddit。\n\n| 排名 | 机会分 | 评论数 | Reddit 问题 | 匹配攻略 | 匹配度 | 状态 |\n| ---: | ---: | ---: | --- | --- | ---: | --- |\n${rows.length ? rows.join("\n") : `| — | — | — | ${empty} | — | — | — |`}\n\n## 可回复内容\n\n${drafts.length ? drafts.join("\n\n") : empty}\n`;
 }

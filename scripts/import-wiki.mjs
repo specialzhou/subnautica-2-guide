@@ -23,19 +23,51 @@ function params(values) {
   return new URLSearchParams({ format: "json", formatversion: "2", origin: "*", ...values });
 }
 
+// The wiki's API sits behind a CDN that intermittently answers 502/503/504 for a
+// single request and then recovers immediately (2026-10-21 run: a lone 502 on
+// "Category:Crafted with Processor" failed the whole nightly job). The old budget
+// here was 4 attempts totalling 3.5s of backoff, which is far too short to ride out
+// a CDN blip, so a transient upstream error looked identical to a real regression.
+// Retry longer, and only on errors that are actually worth retrying: a 404 means
+// the page/category is genuinely gone and retrying just wastes the budget.
+const RETRYABLE_STATUS = new Set([408, 425, 429, 500, 502, 503, 504]);
+const MAX_ATTEMPTS = 6;
+const BASE_BACKOFF_MS = 1000;
+const MAX_BACKOFF_MS = 30000;
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function retryAfterMs(response) {
+  const raw = response.headers.get("retry-after");
+  if (!raw) return null;
+  if (/^\d+$/.test(raw.trim())) return Number(raw) * 1000;
+  const asDate = Date.parse(raw);
+  return Number.isFinite(asDate) ? Math.max(0, asDate - Date.now()) : null;
+}
+
 async function wiki(values) {
   const url = `${apiEndpoint}?${params(values)}`;
   let lastError;
-  for (let attempt = 0; attempt < 4; attempt += 1) {
+  for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt += 1) {
+    let waitMs = Math.min(MAX_BACKOFF_MS, BASE_BACKOFF_MS * (2 ** attempt));
     try {
       const response = await fetch(url, {
         headers: { "User-Agent": "Subnautica2EvidenceTracker/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" },
       });
-      if (!response.ok) throw new Error(`Wiki request failed: ${response.status} ${url}`);
+      if (!response.ok) {
+        const error = new Error(`Wiki request failed: ${response.status} ${url}`);
+        error.status = response.status;
+        if (!RETRYABLE_STATUS.has(response.status)) throw error;
+        // Honour the server's own backoff hint when it sends one.
+        waitMs = Math.min(MAX_BACKOFF_MS, retryAfterMs(response) ?? waitMs);
+        throw error;
+      }
       return response.json();
     } catch (error) {
       lastError = error;
-      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 500 * (2 ** attempt)));
+      // A non-retryable status (e.g. 404) must fail fast instead of burning 6 attempts.
+      if (Number.isInteger(error.status) && !RETRYABLE_STATUS.has(error.status)) throw error;
+      if (attempt < MAX_ATTEMPTS - 1) await sleep(waitMs);
     }
   }
   throw lastError;

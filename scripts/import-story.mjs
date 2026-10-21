@@ -9,12 +9,47 @@ const license = { name: "CC BY-NC-SA 3.0", url: "https://creativecommons.org/lic
 const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character]));
 const permanentUrl = (title, revisionId) => `${wikiBase}index.php?title=${encodeURIComponent(title.replaceAll(" ", "_"))}&oldid=${revisionId}`;
 
+// Retry transient CDN failures instead of failing the nightly import on a lone
+// 502/503/504. Kept local to this script because it intentionally has no shared
+// helper: it runs standalone in the import:wiki chain.
+const RETRYABLE_STATUS = new Set([408, 425, 429, 500, 502, 503, 504]);
+const MAX_ATTEMPTS = 6;
+const BASE_BACKOFF_MS = 1000;
+const MAX_BACKOFF_MS = 30000;
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function retryAfterMs(response) {
+  const raw = response.headers.get("retry-after");
+  if (!raw) return null;
+  if (/^\d+$/.test(raw.trim())) return Number(raw) * 1000;
+  const asDate = Date.parse(raw);
+  return Number.isFinite(asDate) ? Math.max(0, asDate - Date.now()) : null;
+}
+
 async function request(values) {
   const url = new URL(api);
   url.search = new URLSearchParams({ format: "json", formatversion: "2", origin: "*", ...values });
-  const response = await fetch(url, { headers: { "User-Agent": "Subnautica2EvidenceGuide/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" } });
-  if (!response.ok) throw new Error(`Wiki request failed: ${response.status}`);
-  return response.json();
+  let lastError;
+  for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt += 1) {
+    let waitMs = Math.min(MAX_BACKOFF_MS, BASE_BACKOFF_MS * (2 ** attempt));
+    try {
+      const response = await fetch(url, { headers: { "User-Agent": "Subnautica2EvidenceGuide/0.1 (https://specialzhou.github.io/subnautica-2-guide/)" } });
+      if (!response.ok) {
+        const error = new Error(`Wiki request failed: ${response.status} ${url}`);
+        error.status = response.status;
+        if (!RETRYABLE_STATUS.has(response.status)) throw error;
+        waitMs = Math.min(MAX_BACKOFF_MS, retryAfterMs(response) ?? waitMs);
+        throw error;
+      }
+      return response.json();
+    } catch (error) {
+      lastError = error;
+      if (Number.isInteger(error.status) && !RETRYABLE_STATUS.has(error.status)) throw error;
+      if (attempt < MAX_ATTEMPTS - 1) await sleep(waitMs);
+    }
+  }
+  throw lastError;
 }
 
 const membersData = await request({ action: "query", list: "categorymembers", cmtitle: "Category:Story", cmnamespace: "0", cmlimit: "500" });

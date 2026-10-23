@@ -19,11 +19,11 @@
   },
   "detailCursor": 0,
   "collection": {
-    "attemptedAt": "2026-10-22T10:11:16.589Z",
-    "entriesCollected": 100,
-    "degraded": false,
-    "reason": null,
-    "lastError": "https://www.reddit.com/r/Subnautica/new/.rss?limit=100: Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica/new/.rss?limit=100"
+    "attemptedAt": "2026-10-23T10:03:50.135Z",
+    "entriesCollected": 0,
+    "degraded": true,
+    "reason": "all-feeds-rejected",
+    "lastError": "https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100: Reddit RSS request failed (403) for https://www.reddit.com/r/Subnautica_2/new/.rss?limit=100; https://www.reddit.com/r/Subnautica/new/.rss?limit=100: Reddit RSS request failed (429) for https://www.reddit.com/r/Subnautica/new/.rss?limit=100"
   },
   "counts": {
     "total": 80,

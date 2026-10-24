@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-22T08:44:53.103Z",
+  "generatedAt": "2026-10-24T08:15:20.227Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1586,10 +1586,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cavitation_Muffler",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cavitation_Muffler&oldid=17844",
-        "revisionId": 17844,
-        "revisionTimestamp": "2026-07-11T15:17:01Z",
-        "fetchedAt": "2026-07-12T12:33:02.986Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cavitation_Muffler&oldid=25578",
+        "revisionId": 25578,
+        "revisionTimestamp": "2026-10-23T09:31:18Z",
+        "fetchedAt": "2026-10-24T08:15:22.580Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5816,10 +5816,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Modification_Station",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=25345",
-        "revisionId": 25345,
-        "revisionTimestamp": "2026-10-16T15:30:35Z",
-        "fetchedAt": "2026-10-20T16:12:03.875Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Modification_Station&oldid=25614",
+        "revisionId": 25614,
+        "revisionTimestamp": "2026-10-23T18:26:36Z",
+        "fetchedAt": "2026-10-24T08:15:22.587Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5861,10 +5861,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Moonpool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Moonpool&oldid=24700",
-        "revisionId": 24700,
-        "revisionTimestamp": "2026-10-12T11:13:56Z",
-        "fetchedAt": "2026-10-13T10:47:01.468Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Moonpool&oldid=25620",
+        "revisionId": 25620,
+        "revisionTimestamp": "2026-10-23T19:02:55Z",
+        "fetchedAt": "2026-10-24T08:15:22.586Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6356,10 +6356,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Photovoltaic_Charger",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Photovoltaic_Charger&oldid=19571",
-        "revisionId": 19571,
-        "revisionTimestamp": "2026-07-25T17:09:37Z",
-        "fetchedAt": "2026-08-12T05:09:30.299Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Photovoltaic_Charger&oldid=25577",
+        "revisionId": 25577,
+        "revisionTimestamp": "2026-10-23T09:30:33Z",
+        "fetchedAt": "2026-10-24T08:15:22.590Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9357,6 +9357,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Vehicle Fabricator",
+        "Incomplete references",
         "Needs In-Game Screenshots",
         "Vehicles"
       ],
@@ -9395,10 +9396,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=24942",
-        "revisionId": 24942,
-        "revisionTimestamp": "2026-10-12T21:43:21Z",
-        "fetchedAt": "2026-10-13T10:47:01.474Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25619",
+        "revisionId": 25619,
+        "revisionTimestamp": "2026-10-23T19:01:55Z",
+        "fetchedAt": "2026-10-24T08:15:22.591Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9446,10 +9447,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Depth_Module_Mk._1",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Depth_Module_Mk._1&oldid=24907",
-        "revisionId": 24907,
-        "revisionTimestamp": "2026-10-12T19:36:51Z",
-        "fetchedAt": "2026-10-13T10:47:01.475Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Depth_Module_Mk._1&oldid=25590",
+        "revisionId": 25590,
+        "revisionTimestamp": "2026-10-23T10:03:55Z",
+        "fetchedAt": "2026-10-24T08:15:22.592Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9470,7 +9471,8 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
-        "Tadpole upgrades"
+        "Tadpole upgrades",
+        "Unimplemented items"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -9503,10 +9505,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Depth_Module_Mk._2",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Depth_Module_Mk._2&oldid=21487",
-        "revisionId": 21487,
-        "revisionTimestamp": "2026-08-19T19:20:08Z",
-        "fetchedAt": "2026-08-24T17:09:21.527Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Depth_Module_Mk._2&oldid=25616",
+        "revisionId": 25616,
+        "revisionTimestamp": "2026-10-23T18:29:34Z",
+        "fetchedAt": "2026-10-24T08:15:22.592Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

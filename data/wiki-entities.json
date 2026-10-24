@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-21T14:47:38.974Z",
+  "generatedAt": "2026-10-24T08:15:23.248Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -2993,16 +2993,17 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Vehicle Fabricator",
+        "Incomplete references",
         "Needs In-Game Screenshots",
         "Vehicles"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=24942",
-        "revisionId": 24942,
-        "revisionTimestamp": "2026-10-12T21:43:21Z",
-        "fetchedAt": "2026-10-13T10:47:03.071Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25619",
+        "revisionId": 25619,
+        "revisionTimestamp": "2026-10-23T19:01:55Z",
+        "fetchedAt": "2026-10-24T08:15:24.547Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3010,7 +3011,7 @@
       },
       "facts": {
         "speed": "8m/s",
-        "depth": "No Module: 250m Tadpole Depth Module Mk. 1: 450m Tadpole Depth Module Mk. 2: 800m",
+        "depth": "No Module: 250m Tadpole Depth Module Mk. 1: 450m",
         "health": "100",
         "source": "Vehicle Fabricator",
         "fragments": "3"

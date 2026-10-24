@@ -1,13 +1,67 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-10-22T08:44:53.103Z",
+  "detectedAt": "2026-10-24T08:15:20.227Z",
   "changes": [
     {
-      "id": "scanner-station",
-      "title": "Scanner Station",
+      "id": "cavitation-muffler",
+      "title": "Cavitation Muffler",
       "change": "updated",
-      "previousRevisionId": 24367,
-      "revisionId": 25540,
+      "previousRevisionId": 17844,
+      "revisionId": 25578,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "modification-station",
+      "title": "Modification Station",
+      "change": "updated",
+      "previousRevisionId": 25345,
+      "revisionId": 25614,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "moonpool",
+      "title": "Moonpool",
+      "change": "updated",
+      "previousRevisionId": 24700,
+      "revisionId": 25620,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "photovoltaic-charger",
+      "title": "Photovoltaic Charger",
+      "change": "updated",
+      "previousRevisionId": 19571,
+      "revisionId": 25577,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole",
+      "title": "Tadpole",
+      "change": "updated",
+      "previousRevisionId": 24942,
+      "revisionId": 25619,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-depth-module-mk-1",
+      "title": "Tadpole Depth Module Mk. 1",
+      "change": "updated",
+      "previousRevisionId": 24907,
+      "revisionId": 25590,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-depth-module-mk-2",
+      "title": "Tadpole Depth Module Mk. 2",
+      "change": "updated",
+      "previousRevisionId": 21487,
+      "revisionId": 25616,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

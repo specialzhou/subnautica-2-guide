@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-24T08:15:20.227Z",
+  "generatedAt": "2026-10-25T08:33:24.732Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -379,10 +379,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Ingot&oldid=21536",
-        "revisionId": 21536,
-        "revisionTimestamp": "2026-08-19T20:58:33Z",
-        "fetchedAt": "2026-08-24T17:09:21.515Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Ingot&oldid=25626",
+        "revisionId": 25626,
+        "revisionTimestamp": "2026-10-24T09:37:00Z",
+        "fetchedAt": "2026-10-25T08:33:26.906Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1796,10 +1796,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cherimoya_Rotsac",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cherimoya_Rotsac&oldid=25506",
-        "revisionId": 25506,
-        "revisionTimestamp": "2026-10-18T00:42:24Z",
-        "fetchedAt": "2026-10-20T16:12:03.870Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cherimoya_Rotsac&oldid=25639",
+        "revisionId": 25639,
+        "revisionTimestamp": "2026-10-24T18:19:42Z",
+        "fetchedAt": "2026-10-25T08:33:26.903Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9396,10 +9396,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25619",
-        "revisionId": 25619,
-        "revisionTimestamp": "2026-10-23T19:01:55Z",
-        "fetchedAt": "2026-10-24T08:15:22.591Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25640",
+        "revisionId": 25640,
+        "revisionTimestamp": "2026-10-25T06:16:41Z",
+        "fetchedAt": "2026-10-25T08:33:26.917Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

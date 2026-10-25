@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-24T08:15:23.248Z",
+  "generatedAt": "2026-10-25T08:33:27.516Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -142,10 +142,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Ingot",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Ingot&oldid=21536",
-        "revisionId": 21536,
-        "revisionTimestamp": "2026-08-19T20:58:33Z",
-        "fetchedAt": "2026-08-24T17:09:26.567Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Ingot&oldid=25626",
+        "revisionId": 25626,
+        "revisionTimestamp": "2026-10-24T09:37:00Z",
+        "fetchedAt": "2026-10-25T08:33:27.932Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -222,10 +222,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Blackthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=24850",
-        "revisionId": 24850,
-        "revisionTimestamp": "2026-10-12T17:00:32Z",
-        "fetchedAt": "2026-10-13T10:47:02.807Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=25627",
+        "revisionId": 25627,
+        "revisionTimestamp": "2026-10-24T10:00:39Z",
+        "fetchedAt": "2026-10-25T08:33:28.346Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1587,10 +1587,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=25411",
-        "revisionId": 25411,
-        "revisionTimestamp": "2026-10-17T15:53:31Z",
-        "fetchedAt": "2026-10-20T16:13:32.784Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=25628",
+        "revisionId": 25628,
+        "revisionTimestamp": "2026-10-24T10:02:09Z",
+        "fetchedAt": "2026-10-25T08:33:28.347Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2639,6 +2639,7 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
+        "Incomplete references",
         "Leviathans",
         "Needs In-Game Screenshots",
         "Scannables"
@@ -2646,10 +2647,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Shiver_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=23807",
-        "revisionId": 23807,
-        "revisionTimestamp": "2026-09-20T18:55:14Z",
-        "fetchedAt": "2026-09-21T09:06:40.602Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Shiver_Leviathan&oldid=25630",
+        "revisionId": 25630,
+        "revisionTimestamp": "2026-10-24T10:23:58Z",
+        "fetchedAt": "2026-10-25T08:33:28.343Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3000,10 +3001,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25619",
-        "revisionId": 25619,
-        "revisionTimestamp": "2026-10-23T19:01:55Z",
-        "fetchedAt": "2026-10-24T08:15:24.547Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25640",
+        "revisionId": 25640,
+        "revisionTimestamp": "2026-10-25T06:16:41Z",
+        "fetchedAt": "2026-10-25T08:33:28.654Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

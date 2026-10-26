@@ -1,31 +1,31 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-10-25T08:33:24.732Z",
+  "detectedAt": "2026-10-26T09:07:56.605Z",
   "changes": [
     {
-      "id": "axum-ingot",
-      "title": "Axum Ingot",
+      "id": "growbed",
+      "title": "Growbed",
       "change": "updated",
-      "previousRevisionId": 21536,
-      "revisionId": 25626,
+      "previousRevisionId": 24763,
+      "revisionId": 25893,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "cherimoya-rotsac",
-      "title": "Cherimoya Rotsac",
+      "id": "portable-oxygen-generator",
+      "title": "Portable Oxygen Generator",
       "change": "updated",
-      "previousRevisionId": 25506,
-      "revisionId": 25639,
+      "previousRevisionId": 24348,
+      "revisionId": 25891,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "tadpole",
-      "title": "Tadpole",
+      "id": "power-plant-turbine",
+      "title": "Power Plant Turbine",
       "change": "updated",
-      "previousRevisionId": 25619,
-      "revisionId": 25640,
+      "previousRevisionId": 25400,
+      "revisionId": 25664,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T08:33:27.516Z",
+  "generatedAt": "2026-10-26T09:07:59.898Z",
   "count": 335,
   "entries": [
     {
@@ -3561,15 +3561,15 @@
       "title": "Bullethead",
       "type": "Creature",
       "href": "guide/creatures/bullethead.html",
-      "terms": "Bullethead Aggressive Mobile Predators Panopliateuthis velos ”armored squid dart” Graveyard Overgrown Ruins Root Canyon",
+      "terms": "Bullethead Aggressive Mobile Predators Panopliateuthis velos ”armored squid dart” Overgrown Ruins Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Bullethead_render.png/720px-Bullethead_render.png?63a76",
       "localizedTitles": {
         "zh-cn": "子弹头",
         "ru": "Кальмар-пуля"
       },
       "localizedTerms": {
-        "zh-cn": "蔓生遗迹 根系峡谷 子弹头 墓地",
-        "ru": "Заросшие руины Корневой каньон Кальмар-пуля Кладбище"
+        "zh-cn": "蔓生遗迹 根系峡谷 子弹头",
+        "ru": "Заросшие руины Корневой каньон Кальмар-пуля"
       }
     },
     {
@@ -3711,7 +3711,7 @@
       "title": "Dead Coral Crab",
       "type": "Creature",
       "href": "guide/creatures/dead-coral-crab.html",
-      "terms": "Dead Coral Crab Crustaceans Graveyard Caves South Raceway",
+      "terms": "Dead Coral Crab Crustaceans Graveyard South Raceway",
       "image": "https://wiki.subnautica.com/sn2/images/Dead_Coral_Crab.png?d1513",
       "localizedTitles": {
         "zh-cn": "死珊瑚蟹",

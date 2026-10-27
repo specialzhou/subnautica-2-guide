@@ -1,31 +1,22 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-10-26T09:07:56.605Z",
+  "detectedAt": "2026-10-27T09:09:34.406Z",
   "changes": [
     {
-      "id": "growbed",
-      "title": "Growbed",
+      "id": "carryables-rack",
+      "title": "Carryables Rack",
       "change": "updated",
-      "previousRevisionId": 24763,
-      "revisionId": 25893,
+      "previousRevisionId": 24716,
+      "revisionId": 25984,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "portable-oxygen-generator",
-      "title": "Portable Oxygen Generator",
+      "id": "tadpole",
+      "title": "Tadpole",
       "change": "updated",
-      "previousRevisionId": 24348,
-      "revisionId": 25891,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "power-plant-turbine",
-      "title": "Power Plant Turbine",
-      "change": "updated",
-      "previousRevisionId": 25400,
-      "revisionId": 25664,
+      "previousRevisionId": 25640,
+      "revisionId": 25974,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

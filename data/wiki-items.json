@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-26T09:07:56.605Z",
+  "generatedAt": "2026-10-27T09:09:34.406Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1539,10 +1539,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Carryables_Rack",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Carryables_Rack&oldid=24716",
-        "revisionId": 24716,
-        "revisionTimestamp": "2026-10-12T11:16:48Z",
-        "fetchedAt": "2026-10-13T10:47:01.459Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Carryables_Rack&oldid=25984",
+        "revisionId": 25984,
+        "revisionTimestamp": "2026-10-26T18:38:21Z",
+        "fetchedAt": "2026-10-27T09:09:37.453Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9396,10 +9396,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25640",
-        "revisionId": 25640,
-        "revisionTimestamp": "2026-10-25T06:16:41Z",
-        "fetchedAt": "2026-10-25T08:33:26.917Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25974",
+        "revisionId": 25974,
+        "revisionTimestamp": "2026-10-26T16:20:23Z",
+        "fetchedAt": "2026-10-27T09:09:37.465Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

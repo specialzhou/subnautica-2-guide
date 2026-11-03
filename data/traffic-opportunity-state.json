@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-01T14:18:58.349Z",
-  "lastRunAt": "2026-11-02T17:09:54.960Z",
-  "lastOpportunityAt": "2026-11-01T14:18:58.349Z",
-  "dryRunStreak": 1,
+  "updatedAt": "2026-11-03T15:15:48.301Z",
+  "lastRunAt": "2026-11-03T15:15:48.301Z",
+  "lastOpportunityAt": "2026-11-03T15:15:48.301Z",
+  "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
     "1uuswe2:angel-comb-main-cankers-stuck",
@@ -30,6 +30,8 @@
     "1xexf1n:page:questions/moonpool-fragments-location.html",
     "1xepwa7:page:guide/items/power-transmitter.html",
     "1xkhs9j:page:questions/livekernelevent-141-hp-omen-crash.html",
-    "1xkxlqb:page:questions/scan-collector-leviathan-safely.html"
+    "1xkxlqb:page:questions/scan-collector-leviathan-safely.html",
+    "1xm7lla:page:base-building.html",
+    "1xjnd00:page:questions/base-not-enough-power.html"
   ]
 }

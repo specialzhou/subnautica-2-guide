@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-03T15:15:48.301Z",
-  "lastRunAt": "2026-11-03T15:15:48.301Z",
-  "lastOpportunityAt": "2026-11-03T15:15:48.301Z",
+  "updatedAt": "2026-11-04T15:30:07.896Z",
+  "lastRunAt": "2026-11-04T15:30:07.896Z",
+  "lastOpportunityAt": "2026-11-04T15:30:07.896Z",
   "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
@@ -32,6 +32,7 @@
     "1xkhs9j:page:questions/livekernelevent-141-hp-omen-crash.html",
     "1xkxlqb:page:questions/scan-collector-leviathan-safely.html",
     "1xm7lla:page:base-building.html",
-    "1xjnd00:page:questions/base-not-enough-power.html"
+    "1xjnd00:page:questions/base-not-enough-power.html",
+    "1xmvo9b:dup:scan-collector-leviathan-safely"
   ]
 }

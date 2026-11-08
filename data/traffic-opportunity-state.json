@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-07T14:07:23.702Z",
-  "lastRunAt": "2026-11-07T14:07:23.702Z",
-  "lastOpportunityAt": "2026-11-07T14:07:23.702Z",
+  "updatedAt": "2026-11-08T14:20:29.442Z",
+  "lastRunAt": "2026-11-08T14:20:29.442Z",
+  "lastOpportunityAt": "2026-11-08T14:20:29.442Z",
   "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
@@ -34,6 +34,7 @@
     "1xm7lla:page:base-building.html",
     "1xjnd00:page:questions/base-not-enough-power.html",
     "1xmvo9b:dup:scan-collector-leviathan-safely",
-    "1xpseg4:page:questions/wall-rack-blueprint-location.html"
+    "1xpseg4:page:questions/wall-rack-blueprint-location.html",
+    "1xqirdt:page:questions/angel-comb-main-cankers-stuck.html"
   ]
 }

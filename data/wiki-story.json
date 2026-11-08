@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-27T09:09:43.313Z",
+  "generatedAt": "2026-11-08T15:07:36.835Z",
   "category": "Story",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -9,9 +9,9 @@
   "pages": [
     {
       "title": "Blackboxes",
-      "revisionId": 25966,
-      "revisionTimestamp": "2026-10-26T14:43:26Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackboxes&oldid=25966",
+      "revisionId": 26690,
+      "revisionTimestamp": "2026-10-29T15:06:43Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackboxes&oldid=26690",
       "sections": []
     },
     {
@@ -37,9 +37,9 @@
     },
     {
       "title": "Extraterrestrial Locations",
-      "revisionId": 24100,
-      "revisionTimestamp": "2026-09-27T22:02:32Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Extraterrestrial_Locations&oldid=24100",
+      "revisionId": 27505,
+      "revisionTimestamp": "2026-11-04T14:26:55Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Extraterrestrial_Locations&oldid=27505",
       "sections": []
     },
     {
@@ -72,9 +72,9 @@
     },
     {
       "title": "Phasegate",
-      "revisionId": 23066,
-      "revisionTimestamp": "2026-09-12T02:13:20Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Phasegate&oldid=23066",
+      "revisionId": 27502,
+      "revisionTimestamp": "2026-11-04T14:17:09Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Phasegate&oldid=27502",
       "sections": []
     },
     {
@@ -93,16 +93,9 @@
     },
     {
       "title": "Proteus",
-      "revisionId": 24529,
-      "revisionTimestamp": "2026-10-06T17:05:00Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteus&oldid=24529",
-      "sections": []
-    },
-    {
-      "title": "Qualified Investigator",
-      "revisionId": 23320,
-      "revisionTimestamp": "2026-09-13T23:23:31Z",
-      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Qualified_Investigator&oldid=23320",
+      "revisionId": 27492,
+      "revisionTimestamp": "2026-11-04T13:48:28Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Proteus&oldid=27492",
       "sections": []
     },
     {
@@ -116,6 +109,20 @@
         "The Chase",
         "Sleep Bay 3"
       ]
+    },
+    {
+      "title": "The Daughter",
+      "revisionId": 26963,
+      "revisionTimestamp": "2026-10-30T13:14:50Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=The_Daughter&oldid=26963",
+      "sections": []
+    },
+    {
+      "title": "The Expansion",
+      "revisionId": 27495,
+      "revisionTimestamp": "2026-11-04T14:05:41Z",
+      "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=The_Expansion&oldid=27495",
+      "sections": []
     },
     {
       "title": "Zezura",

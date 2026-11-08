@@ -1,10 +1,66 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-27T09:09:44.549Z",
-  "missingCount": 3,
+  "generatedAt": "2026-11-08T15:07:44.093Z",
+  "missingCount": 20,
   "items": [
     {
-      "english": "BigSub",
+      "english": "Alterra Rug",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Axum Barrel",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Axum Crate",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Coat Rack",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Collection Zone",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Cooked Sea Olive",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "EMT Tool",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Great Jaw Farms",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Homestead Ruins",
       "missingLocales": [
         "zh-cn",
         "ru"
@@ -18,7 +74,70 @@
       ]
     },
     {
+      "english": "Leapfrog Pistons",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Molten Reactor",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Molten Reactor Fuel Cell",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Pool Table",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
       "english": "Power Plant Turbine",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Radiothermal Generator",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Tadpole Rug",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Tadpole Seafrog Chassis",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Tar Flats",
+      "missingLocales": [
+        "zh-cn",
+        "ru"
+      ]
+    },
+    {
+      "english": "Tar Trenches",
       "missingLocales": [
         "zh-cn",
         "ru"

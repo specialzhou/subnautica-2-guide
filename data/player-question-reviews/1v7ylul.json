@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "redditId": "1v7ylul",
+  "decision": "promote",
+  "review": {
+    "reviewedAt": "2026-09-30",
+    "reviewedBy": "",
+    "duplicateDisposition": "not-duplicate",
+    "notes": "证据来源：Wiki Tadpole Dock 修订版 21067（2026-08-17，即本站 guide/items/tadpole-dock.html 当前引用的同一版本）+ 原帖全部 30 条评论实读。选 1v7ylul 作为 source 是因为它是四条同题帖里关注度最高的（157 赞 / 30 评论），且作者自己未解决，所以 resolution 只能给 partial。与 scout-ray-chassis-wont-fabricate 不构成重复：那条讲的是底盘无法制造，本条讲的是已造好的 Tadpole 无法停靠。待站长补 reviewedBy 后 promote。"
+  },
+  "question": {
+    "id": "tadpole-wont-dock",
+    "featuredRank": null,
+    "category": "vehicles",
+    "buildContext": "EA 1.1",
+    "resolution": "partial",
+    "verification": "wiki-and-community",
+    "question": {
+      "en": "Why won't my Tadpole dock?",
+      "zh-cn": "Tadpole 为什么停靠不了？",
+      "ru": "Почему Tadpole не пристыковывается?"
+    },
+    "answer": {
+      "en": "Clearance blocks docking, not the chassis itself: the wiki states a Tadpole can dock with its chassis attached and gives a required Moonpool size per variant — 3×3 for the default Tadpole, 3×4 for the Scout Ray chassis, 5×6 for the Tadpole Haul chassis. Player reports add four factors the wiki does not cover: the Haul chassis is the pickiest and needs a very flat approach; an obstacle such as a large sea anemone overlapping the slot triggers a \"not enough room to dock\" reading; several Moonpools in the same room can break docking even when the pool you are using is large enough; and centring the dock in the pool helps. The usual last culprit is approach angle — back off and re-enter. The dock itself must sit on the edge of a Moonpool with floor space behind it, and it only recharges a docked Tadpole while the habitat is powered.",
+      "zh-cn": "挡住停靠的是净空，不是底盘本身：Wiki 写明 Tadpole 可以在带着底盘的情况下停靠，并按规格给出所需的 Moonpool 尺寸——默认 Tadpole 3×3、Scout Ray 底盘 3×4、Tadpole Haul 底盘 5×6。玩家反馈补充了 Wiki 没写的四点：Haul 底盘最挑剔，需要几乎水平地进入；大型海葵等障碍物压到停靠位时，游戏会判定「not enough room to dock」；同一房间里有多个 Moonpool 时，即使你在用的那个够大也可能停靠失败；把停靠器放在池子正中更稳。最后常见的原因是进入角度——退开再重新进一次。停靠器本身必须建在 Moonpool 边缘且后方留有地板空间，并且只有在基地供电时才会为已停靠的 Tadpole 充电。",
+      "ru": "Мешает не шасси, а свободное пространство: в wiki прямо сказано, что Tadpole можно пристыковать вместе с шасси, и указаны требуемые размеры Moonpool — 3×3 для обычного Tadpole, 3×4 для шасси Scout Ray, 5×6 для шасси Tadpole Haul. Игроки добавляют четыре момента, которых в wiki нет: шасси Haul самое капризное и заходить нужно почти горизонтально; если препятствие вроде крупной морской анемона перекрывает место стыковки, игра считает, что «not enough room to dock»; несколько Moonpool в одном отсеке ломают стыковку, даже если нужный бассейн достаточно большой; док лучше ставить по центру бассейна. Часто виноват и угол захода — отойдите и попробуйте заново. Сам док строится только у края Moonpool при наличии свободного пола позади него и заряжает пристыкованный Tadpole лишь пока база получает энергию."
+    },
+    "evidenceNote": {
+      "en": "The per-variant Moonpool sizes, \"docks with a chassis attached\", the edge-of-Moonpool placement rule and the powered-recharge behaviour come from the official community wiki, Tadpole Dock revision 21067 (2026-08-17) — the same revision this site's Tadpole Dock page already cites. That article's Purpose section is still flagged a stub and documents no failure states. The obstacle, multi-Moonpool, centring and approach-angle factors are community reports read in full from the source thread and one sibling thread; we have not confirmed them with an in-game capture on a specific build number. The source thread's author never resolved their own case and blamed an anemone beneath the dock, so treat this as a checklist of reported causes rather than a confirmed fix.",
+      "zh-cn": "各规格的 Moonpool 尺寸、「可带底盘停靠」「必须建在 Moonpool 边缘且后方留地板空间」「基地供电时才充电」均来自官方社区 Wiki「Tadpole Dock」修订版 21067（2026-08-17），也就是本站 Tadpole Dock 页面当前引用的同一版本。该条目的 Purpose 段落仍被标记为待补充，且没有记录任何失败状态。障碍物、多 Moonpool、居中摆放与进入角度这几点是社区反馈，出自本帖及另一同帖的完整评论区，本站未用具体版本号的实机截图验证。本帖作者最终也没能解决自己的情况，并把原因归给停靠在下方的一株海葵，因此这应当被看作「已知成因清单」，而不是已确认的修复方法。",
+      "ru": "Размеры Moonpool по вариантам, возможность пристыковать Tadpole вместе с шасси, правило «строить у края Moonpool» и зарядка только при питании базы взяты из официально-общинной wiki, статья Tadpole Dock, ревизия 21067 (2026-08-17) — той же, на которую уже ссылается страница Tadpole Dock на этом сайте. Раздел Purpose в той статье помечен как незавершённый и никаких сбоев не описывает. Препятствия, несколько Moonpool, центровка и угол захода — это сообщения игроков из данной ветки и одной соседней; внутриигровыми снимками на конкретной сборке мы это не подтверждали. Автор основной ветки так и не решил свою проблему и списал её на анемона под доком, поэтому список следует читать как «известные причины», а не как проверенное решение."
+    },
+    "searchTerms": {
+      "en": "tadpole dock docking won't not enough room to dock moonpool size haul chassis scout ray 3x3 3x4 5x6 anemone obstacle multiple moonpool angle can't fit",
+      "zh-cn": "Tadpole 蝌蚪号 停靠 无法停靠 dock Moonpool 潮汐池 尺寸 不够空间 海葵 障碍物 底盘  hauling Scout Ray 角度",
+      "ru": "Tadpole Головастик стыковка не пристыковывается dock Moonpool размер не хватает места анемон препятствие шасси Haul Scout Ray 3x3 5x6 угол"
+    },
+    "relatedPages": [
+      "guide/items/tadpole-dock.html",
+      "vehicle-planner.html",
+      "guide/items/tadpole-haul-chassis.html",
+      "guide/items/tadpole-scout-ray-chassis.html",
+      "guide/items/moonpool.html"
+    ],
+    "evidenceSources": [
+      {
+        "type": "wiki-revision",
+        "label": "Subnautica 2 Wiki · Tadpole Dock, revision 21067 (2026-08-17)",
+        "url": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Dock&oldid=21067"
+      },
+      {
+        "type": "community",
+        "label": "r/Subnautica_2 · \"Tadpole won't dock\" (s_LEEP_y, 157 upvotes / 30 comments, OP unresolved)",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1v7ylul/tadpole_wont_dock/"
+      },
+      {
+        "type": "community",
+        "label": "r/Subnautica_2 · \"How do I dock my Tadpole with chassis?\" (approach-from-below workaround)",
+        "url": "https://www.reddit.com/r/Subnautica_2/comments/1wljwpp/how_do_i_dock_my_tadpole_with_chassis/"
+      }
+    ],
+    "attention": {
+      "observedAt": "2026-09-30",
+      "upvotes": 157,
+      "comments": 30,
+      "approximate": false
+    }
+  }
+}

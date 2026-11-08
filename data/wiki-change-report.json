@@ -1,13 +1,328 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-10-27T09:09:34.406Z",
+  "detectedAt": "2026-11-08T15:07:24.279Z",
   "changes": [
     {
-      "id": "carryables-rack",
-      "title": "Carryables Rack",
+      "id": "axum-barrel",
+      "title": "Axum Barrel",
       "change": "updated",
-      "previousRevisionId": 24716,
-      "revisionId": 25984,
+      "previousRevisionId": 26613,
+      "revisionId": 27806,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "axum-crate",
+      "title": "Axum Crate",
+      "change": "updated",
+      "previousRevisionId": 26617,
+      "revisionId": 27805,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "basic-first-aid-kit",
+      "title": "Basic First Aid Kit",
+      "change": "updated",
+      "previousRevisionId": 23454,
+      "revisionId": 27306,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "biofuel-block",
+      "title": "Biofuel Block",
+      "change": "updated",
+      "previousRevisionId": 20841,
+      "revisionId": 27335,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "bioreactor",
+      "title": "Bioreactor",
+      "change": "updated",
+      "previousRevisionId": 24931,
+      "revisionId": 27381,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cherimoya-chutney",
+      "title": "Cherimoya Chutney",
+      "change": "updated",
+      "previousRevisionId": 24951,
+      "revisionId": 27330,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cherimoya-rotsac",
+      "title": "Cherimoya Rotsac",
+      "change": "updated",
+      "previousRevisionId": 25639,
+      "revisionId": 27287,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-blackthorn",
+      "title": "Cooked Blackthorn",
+      "change": "updated",
+      "previousRevisionId": 24841,
+      "revisionId": 27322,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-bluemoon",
+      "title": "Cooked Bluemoon",
+      "change": "updated",
+      "previousRevisionId": 24833,
+      "revisionId": 27320,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-electric-geordie",
+      "title": "Cooked Electric Geordie",
+      "change": "updated",
+      "previousRevisionId": 24839,
+      "revisionId": 27318,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-geordie",
+      "title": "Cooked Geordie",
+      "change": "updated",
+      "previousRevisionId": 24838,
+      "revisionId": 27317,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-halfmoon",
+      "title": "Cooked Halfmoon",
+      "change": "updated",
+      "previousRevisionId": 24836,
+      "revisionId": 27316,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-harvestmoon",
+      "title": "Cooked Harvestmoon",
+      "change": "updated",
+      "previousRevisionId": 24834,
+      "revisionId": 27314,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-hoverthorn",
+      "title": "Cooked Hoverthorn",
+      "change": "updated",
+      "previousRevisionId": 24840,
+      "revisionId": 27313,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-pneuma",
+      "title": "Cooked Pneuma",
+      "change": "updated",
+      "previousRevisionId": 24842,
+      "revisionId": 27312,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-quadrate",
+      "title": "Cooked Quadrate",
+      "change": "updated",
+      "previousRevisionId": 24957,
+      "revisionId": 27347,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "cooked-sea-olive",
+      "title": "Cooked Sea Olive",
+      "change": "updated",
+      "previousRevisionId": 26081,
+      "revisionId": 27336,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "coral-mash",
+      "title": "Coral Mash",
+      "change": "updated",
+      "previousRevisionId": 24844,
+      "revisionId": 27311,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "emt-tool",
+      "title": "EMT Tool",
+      "change": "updated",
+      "previousRevisionId": 26964,
+      "revisionId": 27216,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "enhanced-first-aid-kit",
+      "title": "Enhanced First Aid Kit",
+      "change": "updated",
+      "previousRevisionId": 14620,
+      "revisionId": 27308,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "fabricator",
+      "title": "Fabricator",
+      "change": "updated",
+      "previousRevisionId": 24901,
+      "revisionId": 27422,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "fiber",
+      "title": "Fiber",
+      "change": "updated",
+      "previousRevisionId": 20875,
+      "revisionId": 27310,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "graphene-ingot",
+      "title": "Graphene Ingot",
+      "change": "updated",
+      "previousRevisionId": 26902,
+      "revisionId": 27482,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "halfmoon-jerky",
+      "title": "Halfmoon Jerky",
+      "change": "updated",
+      "previousRevisionId": 24824,
+      "revisionId": 27328,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "hoverthorn-souvlaki",
+      "title": "Hoverthorn Souvlaki",
+      "change": "updated",
+      "previousRevisionId": 27080,
+      "revisionId": 27327,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "leapfrog-pistons",
+      "title": "Leapfrog Pistons",
+      "change": "updated",
+      "previousRevisionId": 26635,
+      "revisionId": 27264,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "mimic-pylon",
+      "title": "Mimic Pylon",
+      "change": "updated",
+      "previousRevisionId": 23853,
+      "revisionId": 27195,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "nutrient-block",
+      "title": "Nutrient Block",
+      "change": "updated",
+      "previousRevisionId": 24843,
+      "revisionId": 27326,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "oily-salad",
+      "title": "Oily Salad",
+      "change": "updated",
+      "previousRevisionId": 24835,
+      "revisionId": 27300,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "pavlova",
+      "title": "Pavlova",
+      "change": "updated",
+      "previousRevisionId": 24828,
+      "revisionId": 27325,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "pent",
+      "title": "Pent",
+      "change": "updated",
+      "previousRevisionId": 23790,
+      "revisionId": 27299,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "pool-table",
+      "title": "Pool Table",
+      "change": "updated",
+      "previousRevisionId": 26982,
+      "revisionId": 27451,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "reaper-leviathan",
+      "title": "Reaper Leviathan",
+      "change": "updated",
+      "previousRevisionId": 24742,
+      "revisionId": 27266,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "resource-crusher",
+      "title": "Resource Crusher",
+      "change": "updated",
+      "previousRevisionId": 26564,
+      "revisionId": 27251,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "round-room",
+      "title": "Round Room",
+      "change": "updated",
+      "previousRevisionId": 26544,
+      "revisionId": 27245,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "sugar-of-saturn",
+      "title": "Sugar of Saturn",
+      "change": "updated",
+      "previousRevisionId": 24823,
+      "revisionId": 27324,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -15,8 +330,44 @@
       "id": "tadpole",
       "title": "Tadpole",
       "change": "updated",
-      "previousRevisionId": 25640,
-      "revisionId": 25974,
+      "previousRevisionId": 25974,
+      "revisionId": 27149,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-scout-ray-chassis",
+      "title": "Tadpole Scout Ray Chassis",
+      "change": "updated",
+      "previousRevisionId": 24641,
+      "revisionId": 27484,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-seafrog-chassis",
+      "title": "Tadpole Seafrog Chassis",
+      "change": "updated",
+      "previousRevisionId": 27076,
+      "revisionId": 27249,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "threemoon-temaki",
+      "title": "Threemoon Temaki",
+      "change": "updated",
+      "previousRevisionId": 24825,
+      "revisionId": 27323,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "troilite",
+      "title": "Troilite",
+      "change": "updated",
+      "previousRevisionId": 25116,
+      "revisionId": 27814,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

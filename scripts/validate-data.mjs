@@ -142,7 +142,8 @@ const entityByKey = new Map(entityData.entities.map((entity) => [`${entity.kind}
 const copper = entityByKey.get("resources:Copper");
 if (!copper?.facts.biomes.includes("Shallows") || copper.facts.group !== "Raw Materials") failures.push("Golden entity mismatch: Copper");
 const halfmoon = entityByKey.get("creatures:Halfmoon");
-if (halfmoon?.facts.attitude !== "Passive" || !halfmoon.facts.biomes.includes("Coral Gardens")) failures.push("Golden entity mismatch: Halfmoon");
+// Pinned to wiki rev 25986 (2026-10-27): Halfmoon moved from Coral Gardens to Shallows.
+if (halfmoon?.facts.attitude !== "Passive" || !halfmoon.facts.biomes.includes("Shallows")) failures.push("Golden entity mismatch: Halfmoon");
 const tadpole = entityByKey.get("vehicles:Tadpole");
 if (tadpole?.facts.speed !== "8m/s" || !tadpole.facts.depth.includes("250m")) failures.push("Golden entity mismatch: Tadpole");
 const shallows = entityByKey.get("biomes:Shallows");

@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-27T09:09:44.549Z",
+  "generatedAt": "2026-11-08T15:07:44.096Z",
   "source": {
     "name": "Subnautica 2 Wiki localized game-data index",
     "url": "https://subnautica2-wiki.com/en/items",
     "note": "Imported names use the site's localized game-data index. Explicit community translations fill records absent from that index. Missing translations gracefully fall back to English."
   },
   "counts": {
-    "recordNames": 273,
-    "total": 399,
+    "recordNames": 288,
+    "total": 416,
     "imported": 312,
     "community": 84,
-    "fallback": 3
+    "fallback": 20
   },
   "names": {
     "Advanced Battery": {
@@ -2390,9 +2390,57 @@
       "provenance": "community-translation",
       "sourceUrl": null
     },
-    "BigSub": {
-      "zh-cn": "BigSub",
-      "ru": "BigSub",
+    "Alterra Rug": {
+      "zh-cn": "Alterra Rug",
+      "ru": "Alterra Rug",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Axum Barrel": {
+      "zh-cn": "Axum Barrel",
+      "ru": "Axum Barrel",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Axum Crate": {
+      "zh-cn": "Axum Crate",
+      "ru": "Axum Crate",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Coat Rack": {
+      "zh-cn": "Coat Rack",
+      "ru": "Coat Rack",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Collection Zone": {
+      "zh-cn": "Collection Zone",
+      "ru": "Collection Zone",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Cooked Sea Olive": {
+      "zh-cn": "Cooked Sea Olive",
+      "ru": "Cooked Sea Olive",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "EMT Tool": {
+      "zh-cn": "EMT Tool",
+      "ru": "EMT Tool",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Great Jaw Farms": {
+      "zh-cn": "Great Jaw Farms",
+      "ru": "Great Jaw Farms",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Homestead Ruins": {
+      "zh-cn": "Homestead Ruins",
+      "ru": "Homestead Ruins",
       "provenance": "fallback-untranslated",
       "sourceUrl": null
     },
@@ -2402,9 +2450,63 @@
       "provenance": "fallback-untranslated",
       "sourceUrl": null
     },
+    "Leapfrog Pistons": {
+      "zh-cn": "Leapfrog Pistons",
+      "ru": "Leapfrog Pistons",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Molten Reactor": {
+      "zh-cn": "Molten Reactor",
+      "ru": "Molten Reactor",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Molten Reactor Fuel Cell": {
+      "zh-cn": "Molten Reactor Fuel Cell",
+      "ru": "Molten Reactor Fuel Cell",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Pool Table": {
+      "zh-cn": "Pool Table",
+      "ru": "Pool Table",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
     "Power Plant Turbine": {
       "zh-cn": "Power Plant Turbine",
       "ru": "Power Plant Turbine",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Radiothermal Generator": {
+      "zh-cn": "Radiothermal Generator",
+      "ru": "Radiothermal Generator",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Tadpole Rug": {
+      "zh-cn": "Tadpole Rug",
+      "ru": "Tadpole Rug",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Tadpole Seafrog Chassis": {
+      "zh-cn": "Tadpole Seafrog Chassis",
+      "ru": "Tadpole Seafrog Chassis",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Tar Flats": {
+      "zh-cn": "Tar Flats",
+      "ru": "Tar Flats",
+      "provenance": "fallback-untranslated",
+      "sourceUrl": null
+    },
+    "Tar Trenches": {
+      "zh-cn": "Tar Trenches",
+      "ru": "Tar Trenches",
       "provenance": "fallback-untranslated",
       "sourceUrl": null
     }

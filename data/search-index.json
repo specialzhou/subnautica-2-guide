@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T09:09:38.239Z",
-  "count": 335,
+  "generatedAt": "2026-11-08T15:07:29.437Z",
+  "count": 350,
   "entries": [
     {
       "title": "Start here",
@@ -198,6 +198,21 @@
       }
     },
     {
+      "title": "Alterra Rug",
+      "type": "Item",
+      "href": "guide/items/alterra-rug.html",
+      "terms": "Alterra Rug Habitat Builder Fiber",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Alterra Rug",
+        "ru": "Alterra Rug"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 Alterra Rug 纤维",
+        "ru": "Строитель Alterra Rug Волокно"
+      }
+    },
+    {
       "title": "Atacamite",
       "type": "Item",
       "href": "guide/items/atacamite.html",
@@ -210,6 +225,36 @@
       "localizedTerms": {
         "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 氯铜矿矿床 金属农场 氯铜矿",
         "ru": "Металлические фермы Каракорума Электростанция Каракорума Месторождение атакамита Металлическая ферма Атакамит"
+      }
+    },
+    {
+      "title": "Axum Barrel",
+      "type": "Item",
+      "href": "guide/items/axum-barrel.html",
+      "terms": "Axum Barrel Habitat Builder Glass Copper",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Axum Barrel",
+        "ru": "Axum Barrel"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 Axum Barrel 铜 玻璃",
+        "ru": "Строитель Axum Barrel Медь Стекло"
+      }
+    },
+    {
+      "title": "Axum Crate",
+      "type": "Item",
+      "href": "guide/items/axum-crate.html",
+      "terms": "Axum Crate Habitat Builder Glass Copper",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Axum Crate",
+        "ru": "Axum Crate"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 Axum Crate 铜 玻璃",
+        "ru": "Строитель Axum Crate Медь Стекло"
       }
     },
     {
@@ -318,21 +363,6 @@
       }
     },
     {
-      "title": "Axum-tech Multitool",
-      "type": "Item",
-      "href": "guide/items/axum-tech-multitool.html",
-      "terms": "Axum-tech Multitool Modification Station Survival Multitool Axum Ingot Hydraulic Bulb",
-      "image": "https://wiki.subnautica.com/sn2/images/EMT.png?2a234",
-      "localizedTitles": {
-        "zh-cn": "阿克苏姆科技多功能工具",
-        "ru": "Мультитул аксум-тек"
-      },
-      "localizedTerms": {
-        "zh-cn": "模改中心 阿克苏姆科技多功能工具 多功能生存工具 阿克苏姆锭",
-        "ru": "Модификационная станция Мультитул аксум-тек Мультитул Слиток аксума"
-      }
-    },
-    {
       "title": "Basic Battery",
       "type": "Item",
       "href": "guide/items/basic-battery.html",
@@ -405,36 +435,6 @@
       "localizedTerms": {
         "zh-cn": "栖息所建造器 钛 信标 铜",
         "ru": "Строитель Титан Маяк Медь"
-      }
-    },
-    {
-      "title": "Big Sub Key Item",
-      "type": "Item",
-      "href": "guide/items/big-sub-key-item.html",
-      "terms": "Big Sub Key Item Fabricator Axum Bacterial Culture Graphene Ingot",
-      "image": "https://wiki.subnautica.com/sn2/images/thumb/Big_Sub_Key_Item.png/720px-Big_Sub_Key_Item.png?ca703",
-      "localizedTitles": {
-        "zh-cn": "大型潜艇关键物品",
-        "ru": "Ключевой предмет большой подлодки"
-      },
-      "localizedTerms": {
-        "zh-cn": "阿克苏姆细菌培养物 大型潜艇关键物品 石墨烯锭 装配台",
-        "ru": "Бактериальная культура аксумов Ключевой предмет большой подлодки Слиток графена Изготовитель"
-      }
-    },
-    {
-      "title": "BigSub",
-      "type": "Item",
-      "href": "guide/items/bigsub.html",
-      "terms": "BigSub Habitat Builder Plasteel Ingot Volatile Acid Methane Clathrate",
-      "image": null,
-      "localizedTitles": {
-        "zh-cn": "BigSub",
-        "ru": "BigSub"
-      },
-      "localizedTerms": {
-        "zh-cn": "栖息所建造器 塑钢锭 BigSub",
-        "ru": "Строитель Слиток пластали BigSub"
       }
     },
     {
@@ -528,21 +528,6 @@
       }
     },
     {
-      "title": "Bullfrog Workmech",
-      "type": "Item",
-      "href": "guide/items/bullfrog-workmech.html",
-      "terms": "Bullfrog Workmech Vehicle Fabricator Plasteel Ingot Hydraulic Bulb",
-      "image": null,
-      "localizedTitles": {
-        "zh-cn": "牛蛙工程机甲",
-        "ru": "Рабочий мех «Лягушка-бык»"
-      },
-      "localizedTerms": {
-        "zh-cn": "载具制造台 牛蛙工程机甲 塑钢锭 装配台",
-        "ru": "Изготовитель транспорта Рабочий мех «Лягушка-бык» Слиток пластали Изготовитель"
-      }
-    },
-    {
       "title": "Carryables Rack",
       "type": "Item",
       "href": "guide/items/carryables-rack.html",
@@ -630,6 +615,21 @@
       "localizedTerms": {
         "zh-cn": "海荔枝 栖息所建造器",
         "ru": "Гнилушка-черимойя Строитель"
+      }
+    },
+    {
+      "title": "Coat Rack",
+      "type": "Item",
+      "href": "guide/items/coat-rack.html",
+      "terms": "Coat Rack Habitat Builder Titanium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Coat Rack",
+        "ru": "Coat Rack"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 Coat Rack 钛",
+        "ru": "Строитель Coat Rack Титан"
       }
     },
     {
@@ -795,6 +795,21 @@
       "localizedTerms": {
         "zh-cn": "烹饪过的四牙海鞘 装配台 四牙海鞘",
         "ru": "Приготовленный клыкач Изготовитель Клыкач"
+      }
+    },
+    {
+      "title": "Cooked Sea Olive",
+      "type": "Item",
+      "href": "guide/items/cooked-sea-olive.html",
+      "terms": "Cooked Sea Olive Fabricator Sea Olive",
+      "image": "https://wiki.subnautica.com/sn2/images/Cooked_Sea_Olive.png?a42ff",
+      "localizedTitles": {
+        "zh-cn": "Cooked Sea Olive",
+        "ru": "Cooked Sea Olive"
+      },
+      "localizedTerms": {
+        "zh-cn": "Cooked Sea Olive 装配台",
+        "ru": "Cooked Sea Olive Изготовитель"
       }
     },
     {
@@ -1050,6 +1065,21 @@
       "localizedTerms": {
         "zh-cn": "模改中心 回声定位 弱酸 氯铜矿 石英",
         "ru": "Модификационная станция Эхолокация Слабая кислота Атакамит Кварц"
+      }
+    },
+    {
+      "title": "EMT Tool",
+      "type": "Item",
+      "href": "guide/items/emt-tool.html",
+      "terms": "EMT Tool Fabricator Plasteel Ingot Advanced Wiring Kit Tar Graphene Hydraulic Bulb Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/EMT_Tool.png?c878f",
+      "localizedTitles": {
+        "zh-cn": "EMT Tool",
+        "ru": "EMT Tool"
+      },
+      "localizedTerms": {
+        "zh-cn": "高级接线盒 塑钢锭 装配台 接线盒 EMT Tool",
+        "ru": "Высокотехнологичный комплект проводов Слиток пластали Изготовитель Комплект проводов EMT Tool"
       }
     },
     {
@@ -1326,15 +1356,15 @@
       "title": "Graphene Ingot",
       "type": "Item",
       "href": "guide/items/graphene-ingot.html",
-      "terms": "Graphene Ingot Processor Tar Graphene Lithium",
-      "image": "https://wiki.subnautica.com/sn2/images/Graphene_Ingot.png?7426f",
+      "terms": "Graphene Ingot Processor Tar Graphene Lithium Lead",
+      "image": "https://wiki.subnautica.com/sn2/images/Graphene_Ingot.png?d821b",
       "localizedTitles": {
         "zh-cn": "石墨烯锭",
         "ru": "Слиток графена"
       },
       "localizedTerms": {
-        "zh-cn": "石墨烯锭 处理器 锂",
-        "ru": "Слиток графена Переработчик Литий"
+        "zh-cn": "石墨烯锭 处理器 锂 铅",
+        "ru": "Слиток графена Переработчик Литий Свинец"
       }
     },
     {
@@ -1563,6 +1593,21 @@
       }
     },
     {
+      "title": "Interior Wall",
+      "type": "Item",
+      "href": "guide/items/interior-wall.html",
+      "terms": "Interior Wall Habitat Builder Titanium",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "室内墙体",
+        "ru": "Внутренняя стена"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 室内墙体 钛",
+        "ru": "Строитель Внутренняя стена Титан"
+      }
+    },
+    {
       "title": "Isotonic Water",
       "type": "Item",
       "href": "guide/items/isotonic-water.html",
@@ -1665,6 +1710,21 @@
       "localizedTerms": {
         "zh-cn": "蔓生遗迹 铅矿床 金属农场 铅矿脉 铅区 铅",
         "ru": "Заросшие руины Месторождение свинца Металлическая ферма Свинцовая жила Свинцовая зона Свинец"
+      }
+    },
+    {
+      "title": "Leapfrog Pistons",
+      "type": "Item",
+      "href": "guide/items/leapfrog-pistons.html",
+      "terms": "Leapfrog Pistons Modification Station Graphene Ingot Hydraulic Bulb Crafting",
+      "image": "https://wiki.subnautica.com/sn2/images/Leapfrog_Pistons.png?047a9",
+      "localizedTitles": {
+        "zh-cn": "Leapfrog Pistons",
+        "ru": "Leapfrog Pistons"
+      },
+      "localizedTerms": {
+        "zh-cn": "模改中心 Leapfrog Pistons 石墨烯锭",
+        "ru": "Модификационная станция Leapfrog Pistons Слиток графена"
       }
     },
     {
@@ -1800,6 +1860,36 @@
       "localizedTerms": {
         "zh-cn": "模改中心 栖息所建造器 天青石 钛 铜",
         "ru": "Модификационная станция Строитель Целестин Титан Медь"
+      }
+    },
+    {
+      "title": "Molten Reactor",
+      "type": "Item",
+      "href": "guide/items/molten-reactor.html",
+      "terms": "Molten Reactor Habitat Builder Graphene Ingot Caustic Lye Methane Clathrate Lead",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Molten Reactor",
+        "ru": "Molten Reactor"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 石墨烯锭 Molten Reactor 铅",
+        "ru": "Строитель Слиток графена Molten Reactor Свинец"
+      }
+    },
+    {
+      "title": "Molten Reactor Fuel Cell",
+      "type": "Item",
+      "href": "guide/items/molten-reactor-fuel-cell.html",
+      "terms": "Molten Reactor Fuel Cell Modification Station Graphene Ingot Axum Ingot Salt",
+      "image": "https://wiki.subnautica.com/sn2/images/Molten_Reactor_Fuel_Cell.png?15e0b",
+      "localizedTitles": {
+        "zh-cn": "Molten Reactor Fuel Cell",
+        "ru": "Molten Reactor Fuel Cell"
+      },
+      "localizedTerms": {
+        "zh-cn": "Molten Reactor Fuel Cell 模改中心 石墨烯锭 Molten Reactor 阿克苏姆锭 盐",
+        "ru": "Molten Reactor Fuel Cell Модификационная станция Слиток графена Molten Reactor Слиток аксума Соль"
       }
     },
     {
@@ -2013,6 +2103,21 @@
       }
     },
     {
+      "title": "Pool Table",
+      "type": "Item",
+      "href": "guide/items/pool-table.html",
+      "terms": "Pool Table Habitat Builder Titanium Rubber Quartz",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Pool Table",
+        "ru": "Pool Table"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 Pool Table 钛 石英 橡胶",
+        "ru": "Строитель Pool Table Титан Кварц Резина"
+      }
+    },
+    {
       "title": "Portable Locker",
       "type": "Item",
       "href": "guide/items/portable-locker.html",
@@ -2178,6 +2283,21 @@
       }
     },
     {
+      "title": "Radiothermal Generator",
+      "type": "Item",
+      "href": "guide/items/radiothermal-generator.html",
+      "terms": "Radiothermal Generator Habitat Builder Titanium Copper Tar Graphene",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Radiothermal Generator",
+        "ru": "Radiothermal Generator"
+      },
+      "localizedTerms": {
+        "zh-cn": "Radiothermal Generator 栖息所建造器 钛 铜 无线电",
+        "ru": "Radiothermal Generator Строитель Титан Медь Радио"
+      }
+    },
+    {
       "title": "Reaper Leviathan",
       "type": "Item",
       "href": "guide/items/reaper-leviathan.html",
@@ -2256,15 +2376,15 @@
       "title": "Resource Crusher",
       "type": "Item",
       "href": "guide/items/resource-crusher.html",
-      "terms": "Resource Crusher Habitat Builder Axum Ingot Plasteel Ingot",
+      "terms": "Resource Crusher Habitat Builder Titanium Lead Advanced Wiring Kit",
       "image": null,
       "localizedTitles": {
         "zh-cn": "资源破碎机",
         "ru": "Дробилка ресурсов"
       },
       "localizedTerms": {
-        "zh-cn": "资源破碎机 栖息所建造器 塑钢锭 阿克苏姆锭",
-        "ru": "Дробилка ресурсов Строитель Слиток пластали Слиток аксума"
+        "zh-cn": "高级接线盒 资源破碎机 栖息所建造器 接线盒 钛 铅",
+        "ru": "Высокотехнологичный комплект проводов Дробилка ресурсов Строитель Комплект проводов Титан Свинец"
       }
     },
     {
@@ -2391,15 +2511,15 @@
       "title": "Round Room",
       "type": "Item",
       "href": "guide/items/round-room.html",
-      "terms": "Round Room Habitat Builder Titanium Glass",
+      "terms": "Round Room Habitat Builder Titanium",
       "image": null,
       "localizedTitles": {
         "zh-cn": "圆形房间",
         "ru": "Круглая комната"
       },
       "localizedTerms": {
-        "zh-cn": "栖息所建造器 圆形房间 钛 玻璃 房间",
-        "ru": "Строитель Круглая комната Титан Стекло Отсек"
+        "zh-cn": "栖息所建造器 圆形房间 钛 房间",
+        "ru": "Строитель Круглая комната Титан Отсек"
       }
     },
     {
@@ -2902,7 +3022,7 @@
       "type": "Item",
       "href": "guide/items/tadpole-depth-module-mk-2.html",
       "terms": "Tadpole Depth Module Mk. 2 Modification Station Tadpole Depth Module Mk. 1 Troilite Tar Graphene Crafting",
-      "image": "https://wiki.subnautica.com/sn2/images/Tadpole_Depth_Module_Mk._2.png?44af2",
+      "image": "https://wiki.subnautica.com/sn2/images/Tadpole_Depth_Module_Mk._2.png?3f3f8",
       "localizedTitles": {
         "zh-cn": "蝌蚪号深潜模块2型",
         "ru": "Модуль глубины погружения «Головастика» – Мод. 2"
@@ -2943,6 +3063,21 @@
       }
     },
     {
+      "title": "Tadpole Rug",
+      "type": "Item",
+      "href": "guide/items/tadpole-rug.html",
+      "terms": "Tadpole Rug Habitat Builder Fiber",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Tadpole Rug",
+        "ru": "Tadpole Rug"
+      },
+      "localizedTerms": {
+        "zh-cn": "栖息所建造器 Tadpole Rug 蝌蚪号 纤维",
+        "ru": "Строитель Tadpole Rug «Головастик» Волокно"
+      }
+    },
+    {
       "title": "Tadpole Scout Ray Chassis",
       "type": "Item",
       "href": "guide/items/tadpole-scout-ray-chassis.html",
@@ -2955,6 +3090,21 @@
       "localizedTerms": {
         "zh-cn": "蝌蚪号侦察鳐底盘 高级接线盒 载具制造台 侦察鳐底盘 专用核心 塑钢锭 强酸 装配台 接线盒 蝌蚪号",
         "ru": "Шасси «Скат» для «Головастика» Высокотехнологичный комплект проводов Изготовитель транспорта Шасси «Скат» Выделенное ядро Слиток пластали Концентрированная кислота Изготовитель Комплект проводов «Головастик»"
+      }
+    },
+    {
+      "title": "Tadpole Seafrog Chassis",
+      "type": "Item",
+      "href": "guide/items/tadpole-seafrog-chassis.html",
+      "terms": "Tadpole Seafrog Chassis Vehicle Fabricator Graphene Ingot Plasteel Ingot Hydraulic Bulb",
+      "image": null,
+      "localizedTitles": {
+        "zh-cn": "Tadpole Seafrog Chassis",
+        "ru": "Tadpole Seafrog Chassis"
+      },
+      "localizedTerms": {
+        "zh-cn": "Tadpole Seafrog Chassis 载具制造台 塑钢锭 石墨烯锭 装配台 蝌蚪号",
+        "ru": "Tadpole Seafrog Chassis Изготовитель транспорта Слиток пластали Слиток графена Изготовитель «Головастик»"
       }
     },
     {
@@ -3186,15 +3336,15 @@
       "title": "Ultra High Capacity Air Tank",
       "type": "Item",
       "href": "guide/items/ultra-high-capacity-air-tank.html",
-      "terms": "Ultra High Capacity Air Tank Fabricator High Capacity Air Tank Troilite Atacamite Crafting",
+      "terms": "Ultra High Capacity Air Tank Fabricator High Capacity Air Tank Tar Graphene Crafting",
       "image": "https://wiki.subnautica.com/sn2/images/Ultra_High_Capacity_Air_Tank.png?dd26e",
       "localizedTitles": {
         "zh-cn": "超大容量氧气瓶",
         "ru": "Баллон сверхвысокой ёмкости"
       },
       "localizedTerms": {
-        "zh-cn": "超大容量氧气瓶 大容量氧气瓶 装配台 氯铜矿 磁黄铁矿",
-        "ru": "Баллон сверхвысокой ёмкости Кислородный баллон высокой ёмкости Изготовитель Атакамит Троилит"
+        "zh-cn": "超大容量氧气瓶 大容量氧气瓶 装配台",
+        "ru": "Баллон сверхвысокой ёмкости Кислородный баллон высокой ёмкости Изготовитель"
       }
     },
     {
@@ -3603,18 +3753,33 @@
       }
     },
     {
+      "title": "Collection Zone",
+      "type": "Biome",
+      "href": "guide/biomes/collection-zone.html",
+      "terms": "Collection Zone 520 - 660m",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Collection_Zone.png/720px-Collection_Zone.png?da5bf",
+      "localizedTitles": {
+        "zh-cn": "Collection Zone",
+        "ru": "Collection Zone"
+      },
+      "localizedTerms": {
+        "zh-cn": "Collection Zone",
+        "ru": "Collection Zone"
+      }
+    },
+    {
       "title": "Collector Leviathan",
       "type": "Creature",
       "href": "guide/creatures/collector-leviathan.html",
-      "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farm Intermediary Basin",
+      "terms": "Collector Leviathan Aggressive Mobile Leviathans Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity” Karakorum Metal Farms Intermediary Basin",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Collector_render.png/720px-Collector_render.png?09f51",
       "localizedTitles": {
         "zh-cn": "深渊巨触",
         "ru": "Левиафан-коллекционер"
       },
       "localizedTerms": {
-        "zh-cn": "深渊巨触 Intermediary Basin 金属农场",
-        "ru": "Левиафан-коллекционер Intermediary Basin Металлическая ферма"
+        "zh-cn": "喀喇昆仑金属农场 深渊巨触 Intermediary Basin 金属农场",
+        "ru": "Металлические фермы Каракорума Левиафан-коллекционер Intermediary Basin Металлическая ферма"
       }
     },
     {
@@ -3666,15 +3831,15 @@
       "title": "Coral Crab",
       "type": "Creature",
       "href": "guide/creatures/coral-crab.html",
-      "terms": "Coral Crab Passive Mobile Foragers Ostrakonskelos anaktoraphore “Hard-Legged Palace-Bearer” Dolerite Spires",
+      "terms": "Coral Crab Passive Mobile Foragers Ostrakonskelos anaktoraphore “Hard-Legged Palace-Bearer” Dolerite Spires North Raceway",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Coral_Crab_render.png/720px-Coral_Crab_render.png?0a8fe",
       "localizedTitles": {
         "zh-cn": "珊瑚蟹",
         "ru": "Коралловый краб"
       },
       "localizedTerms": {
-        "zh-cn": "辉绿岩尖塔 珊瑚蟹",
-        "ru": "Долеритовые шпили Коралловый краб"
+        "zh-cn": "辉绿岩尖塔 北部赛道 珊瑚蟹",
+        "ru": "Долеритовые шпили Северная трасса Коралловый краб"
       }
     },
     {
@@ -3786,30 +3951,30 @@
       "title": "Foureye",
       "type": "Creature",
       "href": "guide/creatures/foureye.html",
-      "terms": "Foureye Defensive Mobile Predators Morokotoform duplex “twofold morokoto-shaped one” Coral Gardens Necrolei Hills",
+      "terms": "Foureye Defensive Mobile Predators Morokotoform duplex “twofold morokoto-shaped one” Shallows Necrolei Hills",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Foureye_render.png/720px-Foureye_render.png?a265c",
       "localizedTitles": {
         "zh-cn": "四眼鱼",
         "ru": "Четырёхглаз"
       },
       "localizedTerms": {
-        "zh-cn": "尼克罗蕾丘陵 珊瑚区 死腐水母 四眼鱼",
-        "ru": "Холмы Некролеи Коралловые сады Некролея Четырёхглаз"
+        "zh-cn": "尼克罗蕾丘陵 死腐水母 浅滩 四眼鱼",
+        "ru": "Холмы Некролеи Некролея Мелководье Четырёхглаз"
       }
     },
     {
       "title": "Geordie",
       "type": "Creature",
       "href": "guide/creatures/geordie.html",
-      "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Coral Gardens",
+      "terms": "Geordie Passive Mobile Foragers Salpapod geordie “Salp foot geordie” Shallows",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Geordie_render.png/720px-Geordie_render.png?5a532",
       "localizedTitles": {
         "zh-cn": "四翅海鞘",
         "ru": "Джорди"
       },
       "localizedTerms": {
-        "zh-cn": "珊瑚区 四翅海鞘",
-        "ru": "Коралловые сады Джорди"
+        "zh-cn": "浅滩 四翅海鞘",
+        "ru": "Мелководье Джорди"
       }
     },
     {
@@ -3903,33 +4068,48 @@
       }
     },
     {
+      "title": "Great Jaw Farms",
+      "type": "Biome",
+      "href": "guide/biomes/great-jaw-farms.html",
+      "terms": "Great Jaw Farms 420 - 540m",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Great_Jaw_Farms.png/720px-Great_Jaw_Farms.png?a935d",
+      "localizedTitles": {
+        "zh-cn": "Great Jaw Farms",
+        "ru": "Great Jaw Farms"
+      },
+      "localizedTerms": {
+        "zh-cn": "Great Jaw Farms 巨颚贝",
+        "ru": "Great Jaw Farms Устрица-живоглот"
+      }
+    },
+    {
       "title": "Halfmoon",
       "type": "Creature",
       "href": "guide/creatures/halfmoon.html",
-      "terms": "Halfmoon Passive Mobile Foragers Moliform luna “Mola-shaped moon” Coral Gardens Graveyard Necrolei Hills Root Canyon",
+      "terms": "Halfmoon Passive Mobile Foragers Moliform luna “Mola-shaped moon” Shallows Graveyard Necrolei Hills Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Halfmoon_render.png/720px-Halfmoon_render.png?e7230",
       "localizedTitles": {
         "zh-cn": "半月鱼",
         "ru": "Рыба-полумесяц"
       },
       "localizedTerms": {
-        "zh-cn": "尼克罗蕾丘陵 珊瑚区 根系峡谷 墓地 半月鱼 死腐水母",
-        "ru": "Холмы Некролеи Коралловые сады Корневой каньон Кладбище Рыба-полумесяц Некролея"
+        "zh-cn": "尼克罗蕾丘陵 根系峡谷 墓地 半月鱼 死腐水母 浅滩",
+        "ru": "Холмы Некролеи Корневой каньон Кладбище Рыба-полумесяц Некролея Мелководье"
       }
     },
     {
       "title": "Hammerhead",
       "type": "Creature",
       "href": "guide/creatures/hammerhead.html",
-      "terms": "Hammerhead Defensive Mobile Foragers Panoplia hammerhead \"fully-armoured hammerhead\" Coral Gardens Lead Zone",
+      "terms": "Hammerhead Defensive Mobile Foragers Panoplia hammerhead \"fully-armoured hammerhead\" Shallows Lead Zone",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Hammerhead_render.png/720px-Hammerhead_render.png?f0e32",
       "localizedTitles": {
         "zh-cn": "锤头鱼",
         "ru": "Рыба-таран"
       },
       "localizedTerms": {
-        "zh-cn": "珊瑚区 锤头鱼 铅区 铅",
-        "ru": "Коралловые сады Рыба-таран Свинцовая зона Свинец"
+        "zh-cn": "锤头鱼 铅区 浅滩 铅",
+        "ru": "Рыба-таран Свинцовая зона Мелководье Свинец"
       }
     },
     {
@@ -3945,6 +4125,21 @@
       "localizedTerms": {
         "zh-cn": "满月鱼 根系峡谷 浅滩",
         "ru": "Рыба-желтомесяц Корневой каньон Мелководье"
+      }
+    },
+    {
+      "title": "Homestead Ruins",
+      "type": "Biome",
+      "href": "guide/biomes/homestead-ruins.html",
+      "terms": "Homestead Ruins 440m",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Homestead_Ruins.png/720px-Homestead_Ruins.png?1fa1d",
+      "localizedTitles": {
+        "zh-cn": "Homestead Ruins",
+        "ru": "Homestead Ruins"
+      },
+      "localizedTerms": {
+        "zh-cn": "Homestead Ruins",
+        "ru": "Homestead Ruins"
       }
     },
     {
@@ -3966,30 +4161,30 @@
       "title": "Hoverthorn",
       "type": "Creature",
       "href": "guide/creatures/hoverthorn.html",
-      "terms": "Hoverthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Karakorum Metal Farms Karakorum Power Plant Overgrown Ruins Root Canyon",
+      "terms": "Hoverthorn Passive Mobile Foragers Monopter astrapakantha \"one-finned lightning-thorn\" Karakorum Metal Farms Overgrown Ruins Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Hoverthorn_render.png/720px-Hoverthorn_render.png?b48bb",
       "localizedTitles": {
         "zh-cn": "悬浮刺鱼",
         "ru": "Иглохвост"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 蔓生遗迹 根系峡谷 悬浮刺鱼 金属农场",
-        "ru": "Металлические фермы Каракорума Электростанция Каракорума Заросшие руины Корневой каньон Иглохвост Металлическая ферма"
+        "zh-cn": "喀喇昆仑金属农场 蔓生遗迹 根系峡谷 悬浮刺鱼 金属农场",
+        "ru": "Металлические фермы Каракорума Заросшие руины Корневой каньон Иглохвост Металлическая ферма"
       }
     },
     {
       "title": "Hycean",
       "type": "Creature",
       "href": "guide/creatures/hycean.html",
-      "terms": "Hycean Passive Mobile Predators Hycean hycean Coral Gardens Necrolei Hills",
+      "terms": "Hycean Passive Mobile Predators Hycean hycean Shallows Necrolei Hills",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Hycean_Render.png/720px-Hycean_Render.png?fb63e",
       "localizedTitles": {
         "zh-cn": "氢海鱿鱼",
         "ru": "Гикеан"
       },
       "localizedTerms": {
-        "zh-cn": "尼克罗蕾丘陵 珊瑚区 死腐水母 氢海鱿鱼",
-        "ru": "Холмы Некролеи Коралловые сады Некролея Гикеан"
+        "zh-cn": "尼克罗蕾丘陵 死腐水母 浅滩 氢海鱿鱼",
+        "ru": "Холмы Некролеи Некролея Мелководье Гикеан"
       }
     },
     {
@@ -4176,7 +4371,7 @@
       "title": "Needler Mango",
       "type": "Creature",
       "href": "guide/creatures/needler-mango.html",
-      "terms": "Needler Mango Aggressive Mobile Predators Mango kestros \"dart-throwing shark\" Overgrown Ruins Needler Nest",
+      "terms": "Needler Mango Aggressive Mobile Predators Mango kestros \"dart-throwing shark\" Overgrown Ruins",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Needler_Mango_render.png/720px-Needler_Mango_render.png?e3fa4",
       "localizedTitles": {
         "zh-cn": "飞针鲨",
@@ -4191,15 +4386,15 @@
       "title": "Nibbler Mango",
       "type": "Creature",
       "href": "guide/creatures/nibbler-mango.html",
-      "terms": "Nibbler Mango Aggressive Mobile Predators Mango tructa “Nibbler shark” Coral Gardens",
+      "terms": "Nibbler Mango Aggressive Mobile Predators Mango tructa “Nibbler shark” Shallows Plateaus",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Nibbler_Mango_render.png/720px-Nibbler_Mango_render.png?108a2",
       "localizedTitles": {
         "zh-cn": "啃咬鲨",
         "ru": "Акула-кусач"
       },
       "localizedTerms": {
-        "zh-cn": "啃咬鲨 珊瑚区",
-        "ru": "Акула-кусач Коралловые сады"
+        "zh-cn": "啃咬鲨 高原 浅滩",
+        "ru": "Акула-кусач Плато Мелководье"
       }
     },
     {
@@ -4506,15 +4701,15 @@
       "title": "Surge Jelly",
       "type": "Creature",
       "href": "guide/creatures/surge-jelly.html",
-      "terms": "Surge Jelly Defensive Mobile Foragers Staurobrachia capacitor “Pole-arms capacitor” Dolerite Spires Karakorum Power Plant",
+      "terms": "Surge Jelly Defensive Mobile Foragers Staurobrachia capacitor “Pole-arms capacitor” Dolerite Spires",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Surge_Jelly_render.png/720px-Surge_Jelly_render.png?84a16",
       "localizedTitles": {
         "zh-cn": "放电水母",
         "ru": "Медуза-шокер"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑发电站 辉绿岩尖塔 放电水母",
-        "ru": "Электростанция Каракорума Долеритовые шпили Медуза-шокер"
+        "zh-cn": "辉绿岩尖塔 放电水母",
+        "ru": "Долеритовые шпили Медуза-шокер"
       }
     },
     {
@@ -4560,6 +4755,36 @@
       "localizedTerms": {
         "zh-cn": "蝌蚪号侦察鳐底盘 侦察鳐底盘 蝌蚪号",
         "ru": "Шасси «Скат» для «Головастика» Шасси «Скат» «Головастик»"
+      }
+    },
+    {
+      "title": "Tar Flats",
+      "type": "Biome",
+      "href": "guide/biomes/tar-flats.html",
+      "terms": "Tar Flats 350m",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Flats.png/720px-Tar_Flats.png?43054",
+      "localizedTitles": {
+        "zh-cn": "Tar Flats",
+        "ru": "Tar Flats"
+      },
+      "localizedTerms": {
+        "zh-cn": "Tar Flats",
+        "ru": "Tar Flats"
+      }
+    },
+    {
+      "title": "Tar Trenches",
+      "type": "Biome",
+      "href": "guide/biomes/tar-trenches.html",
+      "terms": "Tar Trenches 350 - 580m",
+      "image": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Trenches.png/720px-Tar_Trenches.png?37585",
+      "localizedTitles": {
+        "zh-cn": "Tar Trenches",
+        "ru": "Tar Trenches"
+      },
+      "localizedTerms": {
+        "zh-cn": "Tar Trenches",
+        "ru": "Tar Trenches"
       }
     },
     {
@@ -4611,15 +4836,15 @@
       "title": "Twin Sitaray",
       "type": "Creature",
       "href": "guide/creatures/twin-sitaray.html",
-      "terms": "Twin Sitaray Aggressive Mobile Predators Sitaroid gemini \"sitar-like twins\" Karakorum Metal Farms Karakorum Power Plant Root Canyon",
+      "terms": "Twin Sitaray Aggressive Mobile Predators Sitaroid gemini \"sitar-like twins\" Karakorum Metal Farms Root Canyon",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Twin_Sitaray_render.png/720px-Twin_Sitaray_render.png?7ef49",
       "localizedTitles": {
         "zh-cn": "孪生西塔鳐",
         "ru": "Двойной ситар"
       },
       "localizedTerms": {
-        "zh-cn": "喀喇昆仑金属农场 喀喇昆仑发电站 孪生西塔鳐 根系峡谷 金属农场",
-        "ru": "Металлические фермы Каракорума Электростанция Каракорума Двойной ситар Корневой каньон Металлическая ферма"
+        "zh-cn": "喀喇昆仑金属农场 孪生西塔鳐 根系峡谷 金属农场",
+        "ru": "Металлические фермы Каракорума Двойной ситар Корневой каньон Металлическая ферма"
       }
     },
     {
@@ -4671,15 +4896,15 @@
       "title": "Waxmoon",
       "type": "Creature",
       "href": "guide/creatures/waxmoon.html",
-      "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Shallows Graveyard Necrolei Hills Root Canyon",
+      "terms": "Waxmoon Passive Mobile Foragers Moliform semiluna \"Mola-shaped half-moon\" Shallows Graveyard Necrolei Hills Root Canyon Overgrown Ruins",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Waxmoon_render.png/720px-Waxmoon_render.png?69288",
       "localizedTitles": {
         "zh-cn": "蜡月鱼",
         "ru": "Рыба-серп"
       },
       "localizedTerms": {
-        "zh-cn": "尼克罗蕾丘陵 根系峡谷 墓地 死腐水母 浅滩 蜡月鱼",
-        "ru": "Холмы Некролеи Корневой каньон Кладбище Некролея Мелководье Рыба-серп"
+        "zh-cn": "蔓生遗迹 尼克罗蕾丘陵 根系峡谷 墓地 死腐水母 浅滩 蜡月鱼",
+        "ru": "Заросшие руины Холмы Некролеи Корневой каньон Кладбище Некролея Мелководье Рыба-серп"
       }
     },
     {

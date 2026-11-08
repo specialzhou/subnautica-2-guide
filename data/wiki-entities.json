@@ -1,20 +1,20 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-10-27T09:09:38.239Z",
+  "generatedAt": "2026-11-08T15:07:29.437Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
     "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
-  "publishedCount": 82,
-  "excludedCount": 5,
+  "publishedCount": 87,
+  "excludedCount": 0,
   "counts": {
     "resources": 33,
     "creatures": 33,
     "vehicles": 3,
-    "biomes": 13
+    "biomes": 18
   },
-  "imageCount": 81,
+  "imageCount": 86,
   "entities": [
     {
       "id": "acidic-raion-pouch",
@@ -29,10 +29,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Acidic_Raion_Pouch",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acidic_Raion_Pouch&oldid=25094",
-        "revisionId": 25094,
-        "revisionTimestamp": "2026-10-14T13:15:52Z",
-        "fetchedAt": "2026-10-15T08:26:12.934Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Acidic_Raion_Pouch&oldid=27332",
+        "revisionId": 27332,
+        "revisionTimestamp": "2026-11-02T17:51:12Z",
+        "fetchedAt": "2026-11-08T15:07:30.495Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -181,10 +181,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Basic_First_Aid_Kit",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_First_Aid_Kit&oldid=23454",
-        "revisionId": 23454,
-        "revisionTimestamp": "2026-09-14T19:10:29Z",
-        "fetchedAt": "2026-09-15T08:47:52.992Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Basic_First_Aid_Kit&oldid=27306",
+        "revisionId": 27306,
+        "revisionTimestamp": "2026-11-02T17:44:21Z",
+        "fetchedAt": "2026-11-08T15:07:30.495Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -222,10 +222,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Blackthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=25627",
-        "revisionId": 25627,
-        "revisionTimestamp": "2026-10-24T10:00:39Z",
-        "fetchedAt": "2026-10-25T08:33:28.346Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Blackthorn&oldid=27295",
+        "revisionId": 27295,
+        "revisionTimestamp": "2026-11-02T17:33:16Z",
+        "fetchedAt": "2026-11-08T15:07:31.551Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -268,10 +268,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Bluemoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=24815",
-        "revisionId": 24815,
-        "revisionTimestamp": "2026-10-12T16:37:17Z",
-        "fetchedAt": "2026-10-13T10:47:02.804Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Bluemoon&oldid=27294",
+        "revisionId": 27294,
+        "revisionTimestamp": "2026-11-02T17:33:00Z",
+        "fetchedAt": "2026-11-08T15:07:31.550Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -350,16 +350,15 @@
         "Crafted with Metal Farm",
         "Needs In-Game Screenshots",
         "Raw Materials",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Celestine",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Celestine&oldid=24387",
-        "revisionId": 24387,
-        "revisionTimestamp": "2026-10-06T01:40:53Z",
-        "fetchedAt": "2026-10-10T06:00:00.709Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Celestine&oldid=27084",
+        "revisionId": 27084,
+        "revisionTimestamp": "2026-10-31T09:50:01Z",
+        "fetchedAt": "2026-10-31T16:54:46.754Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -430,24 +429,20 @@
       "id": "collection-zone",
       "title": "Collection Zone",
       "kind": "biomes",
-      "status": "excluded",
-      "exclusionReasons": [
-        "wiki status template"
-      ],
+      "status": "wiki-backed",
+      "exclusionReasons": [],
       "categories": [
-        "Future content",
-        "Incomplete references",
+        "Experimental content",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collection_Zone",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collection_Zone&oldid=25985",
-        "revisionId": 25985,
-        "revisionTimestamp": "2026-10-26T23:50:53Z",
-        "fetchedAt": "2026-10-27T09:09:41.740Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collection_Zone&oldid=27689",
+        "revisionId": 27689,
+        "revisionTimestamp": "2026-11-05T17:15:18Z",
+        "fetchedAt": "2026-11-08T15:07:34.408Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -459,7 +454,7 @@
       },
       "media": {
         "fileName": "Collection Zone.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Collection_Zone.png/720px-Collection_Zone.png?2b68e",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Collection_Zone.png/720px-Collection_Zone.png?da5bf",
         "filePage": "https://wiki.subnautica.com/sn2/File:Collection_Zone.png",
         "width": 720,
         "height": 405
@@ -480,10 +475,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=25895",
-        "revisionId": 25895,
-        "revisionTimestamp": "2026-10-26T04:50:38Z",
-        "fetchedAt": "2026-10-26T09:08:01.125Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=27667",
+        "revisionId": 27667,
+        "revisionTimestamp": "2026-11-05T00:31:38Z",
+        "fetchedAt": "2026-11-08T15:07:31.550Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -496,7 +491,7 @@
         "species": "Tyrannoteuthis phobocoeus “Tyrant Squid of Fearful Curiosity”",
         "nutrition": "",
         "biomes": [
-          "Karakorum Metal Farm",
+          "Karakorum Metal Farms",
           "Intermediary Basin"
         ]
       },
@@ -643,10 +638,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Coral_Crab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Crab&oldid=23765",
-        "revisionId": 23765,
-        "revisionTimestamp": "2026-09-20T17:16:14Z",
-        "fetchedAt": "2026-09-21T09:06:40.603Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Coral_Crab&oldid=26628",
+        "revisionId": 26628,
+        "revisionTimestamp": "2026-10-29T13:40:21Z",
+        "fetchedAt": "2026-10-31T16:54:48.114Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -659,7 +654,8 @@
         "species": "Ostrakonskelos anaktoraphore “Hard-Legged Palace-Bearer”",
         "nutrition": "",
         "biomes": [
-          "Dolerite Spires"
+          "Dolerite Spires",
+          "North Raceway"
         ]
       },
       "media": {
@@ -685,10 +681,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Crab_Feces",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Crab_Feces&oldid=20842",
-        "revisionId": 20842,
-        "revisionTimestamp": "2026-08-15T22:39:49Z",
-        "fetchedAt": "2026-08-24T17:09:26.568Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Crab_Feces&oldid=27334",
+        "revisionId": 27334,
+        "revisionTimestamp": "2026-11-02T17:51:39Z",
+        "fetchedAt": "2026-11-08T15:07:30.497Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -760,10 +756,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dead_Coral_Crab",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dead_Coral_Crab&oldid=25856",
-        "revisionId": 25856,
-        "revisionTimestamp": "2026-10-25T19:20:49Z",
-        "fetchedAt": "2026-10-26T09:08:01.128Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dead_Coral_Crab&oldid=27253",
+        "revisionId": 27253,
+        "revisionTimestamp": "2026-11-01T16:52:24Z",
+        "fetchedAt": "2026-11-08T15:07:31.552Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -928,10 +924,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Flash_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=25408",
-        "revisionId": 25408,
-        "revisionTimestamp": "2026-10-17T15:42:24Z",
-        "fetchedAt": "2026-10-20T16:13:32.784Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Flash_Slug&oldid=27292",
+        "revisionId": 27292,
+        "revisionTimestamp": "2026-11-02T17:32:37Z",
+        "fetchedAt": "2026-11-08T15:07:31.552Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -972,10 +968,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Foureye",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=23822",
-        "revisionId": 23822,
-        "revisionTimestamp": "2026-09-20T19:07:40Z",
-        "fetchedAt": "2026-09-21T09:06:40.605Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Foureye&oldid=25993",
+        "revisionId": 25993,
+        "revisionTimestamp": "2026-10-27T09:21:44Z",
+        "fetchedAt": "2026-10-31T16:54:48.115Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -988,7 +984,7 @@
         "species": "Morokotoform duplex “twofold morokoto-shaped one”",
         "nutrition": "",
         "biomes": [
-          "Coral Gardens",
+          "Shallows",
           "Necrolei Hills"
         ]
       },
@@ -1018,10 +1014,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Geordie",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=25409",
-        "revisionId": 25409,
-        "revisionTimestamp": "2026-10-17T15:46:22Z",
-        "fetchedAt": "2026-10-20T16:13:32.784Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Geordie&oldid=27291",
+        "revisionId": 27291,
+        "revisionTimestamp": "2026-11-02T17:32:22Z",
+        "fetchedAt": "2026-11-08T15:07:31.551Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1034,7 +1030,7 @@
         "species": "Salpapod geordie “Salp foot geordie”",
         "nutrition": "",
         "biomes": [
-          "Coral Gardens"
+          "Shallows"
         ]
       },
       "media": {
@@ -1276,24 +1272,20 @@
       "id": "great-jaw-farms",
       "title": "Great Jaw Farms",
       "kind": "biomes",
-      "status": "excluded",
-      "exclusionReasons": [
-        "wiki status template"
-      ],
+      "status": "wiki-backed",
+      "exclusionReasons": [],
       "categories": [
-        "Future content",
-        "Incomplete references",
+        "Experimental content",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Great_Jaw_Farms",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Great_Jaw_Farms&oldid=25896",
-        "revisionId": 25896,
-        "revisionTimestamp": "2026-10-26T06:05:24Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Great_Jaw_Farms&oldid=27656",
+        "revisionId": 27656,
+        "revisionTimestamp": "2026-11-04T23:48:26Z",
+        "fetchedAt": "2026-11-08T15:07:34.408Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1305,7 +1297,7 @@
       },
       "media": {
         "fileName": "Great Jaw Farms.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Great_Jaw_Farms.png/720px-Great_Jaw_Farms.png?839b0",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Great_Jaw_Farms.png/720px-Great_Jaw_Farms.png?a935d",
         "filePage": "https://wiki.subnautica.com/sn2/File:Great_Jaw_Farms.png",
         "width": 720,
         "height": 405
@@ -1329,10 +1321,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Halfmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=24845",
-        "revisionId": 24845,
-        "revisionTimestamp": "2026-10-12T16:58:33Z",
-        "fetchedAt": "2026-10-13T10:47:02.804Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Halfmoon&oldid=27290",
+        "revisionId": 27290,
+        "revisionTimestamp": "2026-11-02T17:32:09Z",
+        "fetchedAt": "2026-11-08T15:07:31.550Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1345,7 +1337,7 @@
         "species": "Moliform luna “Mola-shaped moon”",
         "nutrition": "",
         "biomes": [
-          "Coral Gardens",
+          "Shallows",
           "Graveyard",
           "Necrolei Hills",
           "Root Canyon"
@@ -1374,10 +1366,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hammerhead",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=25536",
-        "revisionId": 25536,
-        "revisionTimestamp": "2026-10-20T20:47:12Z",
-        "fetchedAt": "2026-10-21T14:47:40.440Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hammerhead&oldid=25989",
+        "revisionId": 25989,
+        "revisionTimestamp": "2026-10-27T09:19:58Z",
+        "fetchedAt": "2026-10-31T16:54:48.113Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1390,7 +1382,7 @@
         "species": "Panoplia hammerhead \"fully-armoured hammerhead\"",
         "nutrition": "",
         "biomes": [
-          "Coral Gardens",
+          "Shallows",
           "Lead Zone"
         ]
       },
@@ -1420,10 +1412,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Harvestmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=25448",
-        "revisionId": 25448,
-        "revisionTimestamp": "2026-10-17T18:18:31Z",
-        "fetchedAt": "2026-10-20T16:13:32.783Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Harvestmoon&oldid=27286",
+        "revisionId": 27286,
+        "revisionTimestamp": "2026-11-02T17:30:53Z",
+        "fetchedAt": "2026-11-08T15:07:31.549Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1452,22 +1444,20 @@
       "id": "homestead-ruins",
       "title": "Homestead Ruins",
       "kind": "biomes",
-      "status": "excluded",
-      "exclusionReasons": [
-        "wiki status template"
-      ],
+      "status": "wiki-backed",
+      "exclusionReasons": [],
       "categories": [
-        "Future content",
-        "Section stubs",
+        "Experimental content",
+        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Homestead_Ruins",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Homestead_Ruins&oldid=25210",
-        "revisionId": 25210,
-        "revisionTimestamp": "2026-10-15T15:27:34Z",
-        "fetchedAt": "2026-10-20T16:13:36.257Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Homestead_Ruins&oldid=27651",
+        "revisionId": 27651,
+        "revisionTimestamp": "2026-11-04T23:21:44Z",
+        "fetchedAt": "2026-11-08T15:07:34.408Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1479,7 +1469,7 @@
       },
       "media": {
         "fileName": "Homestead Ruins.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Homestead_Ruins.png/720px-Homestead_Ruins.png?e332b",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Homestead_Ruins.png/720px-Homestead_Ruins.png?1fa1d",
         "filePage": "https://wiki.subnautica.com/sn2/File:Homestead_Ruins.png",
         "width": 720,
         "height": 405
@@ -1545,10 +1535,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hoverthorn",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=24849",
-        "revisionId": 24849,
-        "revisionTimestamp": "2026-10-12T17:00:05Z",
-        "fetchedAt": "2026-10-13T10:47:02.806Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hoverthorn&oldid=27289",
+        "revisionId": 27289,
+        "revisionTimestamp": "2026-11-02T17:31:55Z",
+        "fetchedAt": "2026-11-08T15:07:31.551Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1562,7 +1552,6 @@
         "nutrition": "",
         "biomes": [
           "Karakorum Metal Farms",
-          "Karakorum Power Plant",
           "Overgrown Ruins",
           "Root Canyon"
         ]
@@ -1590,10 +1579,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Hycean",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=25628",
-        "revisionId": 25628,
-        "revisionTimestamp": "2026-10-24T10:02:09Z",
-        "fetchedAt": "2026-10-25T08:33:28.347Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Hycean&oldid=25994",
+        "revisionId": 25994,
+        "revisionTimestamp": "2026-10-27T09:22:01Z",
+        "fetchedAt": "2026-10-31T16:54:48.116Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1606,7 +1595,7 @@
         "species": "Hycean hycean",
         "nutrition": "",
         "biomes": [
-          "Coral Gardens",
+          "Shallows",
           "Necrolei Hills"
         ]
       },
@@ -1631,10 +1620,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Intermediary_Basin",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=25854",
-        "revisionId": 25854,
-        "revisionTimestamp": "2026-10-25T19:20:06Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Intermediary_Basin&oldid=27770",
+        "revisionId": 27770,
+        "revisionTimestamp": "2026-11-06T02:22:53Z",
+        "fetchedAt": "2026-11-08T15:07:34.407Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1947,10 +1936,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Medical_Gel_Sac",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Medical_Gel_Sac&oldid=20878",
-        "revisionId": 20878,
-        "revisionTimestamp": "2026-08-15T22:57:10Z",
-        "fetchedAt": "2026-08-24T17:09:26.566Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Medical_Gel_Sac&oldid=27302",
+        "revisionId": 27302,
+        "revisionTimestamp": "2026-11-02T17:40:37Z",
+        "fetchedAt": "2026-11-08T15:07:30.495Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2024,10 +2013,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Necrolei_Bud",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=24050",
-        "revisionId": 24050,
-        "revisionTimestamp": "2026-09-26T09:47:56Z",
-        "fetchedAt": "2026-09-27T09:22:47.689Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Necrolei_Bud&oldid=27301",
+        "revisionId": 27301,
+        "revisionTimestamp": "2026-11-02T17:37:00Z",
+        "fetchedAt": "2026-11-08T15:07:30.494Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2100,10 +2089,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Needler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=23779",
-        "revisionId": 23779,
-        "revisionTimestamp": "2026-09-20T17:36:31Z",
-        "fetchedAt": "2026-09-21T09:06:40.604Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=25995",
+        "revisionId": 25995,
+        "revisionTimestamp": "2026-10-27T09:22:24Z",
+        "fetchedAt": "2026-10-31T16:54:48.115Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2116,8 +2105,7 @@
         "species": "Mango kestros \"dart-throwing shark\"",
         "nutrition": "",
         "biomes": [
-          "Overgrown Ruins",
-          "Needler Nest"
+          "Overgrown Ruins"
         ]
       },
       "media": {
@@ -2143,10 +2131,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Nibbler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=23955",
-        "revisionId": 23955,
-        "revisionTimestamp": "2026-09-24T19:42:12Z",
-        "fetchedAt": "2026-09-25T08:56:14.286Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=25996",
+        "revisionId": 25996,
+        "revisionTimestamp": "2026-10-27T09:23:02Z",
+        "fetchedAt": "2026-10-31T16:54:48.113Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2159,7 +2147,8 @@
         "species": "Mango tructa “Nibbler shark”",
         "nutrition": "",
         "biomes": [
-          "Coral Gardens"
+          "Shallows",
+          "Plateaus"
         ]
       },
       "media": {
@@ -2328,16 +2317,15 @@
       "exclusionReasons": [],
       "categories": [
         "Corals Gardens biomes",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Needs In-Game Screenshots"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Plateaus",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plateaus&oldid=25845",
-        "revisionId": 25845,
-        "revisionTimestamp": "2026-10-25T19:15:05Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Plateaus&oldid=27029",
+        "revisionId": 27029,
+        "revisionTimestamp": "2026-10-30T18:02:49Z",
+        "fetchedAt": "2026-10-31T16:54:51.598Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2375,10 +2363,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Pneuma",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=24851",
-        "revisionId": 24851,
-        "revisionTimestamp": "2026-10-12T17:00:46Z",
-        "fetchedAt": "2026-10-13T10:47:02.805Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Pneuma&oldid=27288",
+        "revisionId": 27288,
+        "revisionTimestamp": "2026-11-02T17:31:28Z",
+        "fetchedAt": "2026-11-08T15:07:31.551Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2961,10 +2949,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Surge_Jelly",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=23961",
-        "revisionId": 23961,
-        "revisionTimestamp": "2026-09-24T20:19:59Z",
-        "fetchedAt": "2026-09-25T08:56:14.290Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Surge_Jelly&oldid=25991",
+        "revisionId": 25991,
+        "revisionTimestamp": "2026-10-27T09:20:45Z",
+        "fetchedAt": "2026-10-31T16:54:48.116Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2977,8 +2965,7 @@
         "species": "Staurobrachia capacitor “Pole-arms capacitor”",
         "nutrition": "",
         "biomes": [
-          "Dolerite Spires",
-          "Karakorum Power Plant"
+          "Dolerite Spires"
         ]
       },
       "media": {
@@ -3004,10 +2991,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=25974",
-        "revisionId": 25974,
-        "revisionTimestamp": "2026-10-26T16:20:23Z",
-        "fetchedAt": "2026-10-27T09:09:40.334Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=27149",
+        "revisionId": 27149,
+        "revisionTimestamp": "2026-10-31T21:53:22Z",
+        "fetchedAt": "2026-11-08T15:07:32.324Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3078,10 +3065,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Scout_Ray_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=24641",
-        "revisionId": 24641,
-        "revisionTimestamp": "2026-10-09T15:02:10Z",
-        "fetchedAt": "2026-10-10T06:00:03.495Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Scout_Ray_Chassis&oldid=27484",
+        "revisionId": 27484,
+        "revisionTimestamp": "2026-11-04T00:24:55Z",
+        "fetchedAt": "2026-11-08T15:07:32.324Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3106,23 +3093,20 @@
       "id": "tar-flats",
       "title": "Tar Flats",
       "kind": "biomes",
-      "status": "excluded",
-      "exclusionReasons": [
-        "wiki status template"
-      ],
+      "status": "wiki-backed",
+      "exclusionReasons": [],
       "categories": [
-        "Future content",
-        "Incomplete references",
-        "Section stubs",
+        "Experimental content",
+        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tar_Flats",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Flats&oldid=25807",
-        "revisionId": 25807,
-        "revisionTimestamp": "2026-10-25T18:12:00Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Flats&oldid=27644",
+        "revisionId": 27644,
+        "revisionTimestamp": "2026-11-04T23:04:29Z",
+        "fetchedAt": "2026-11-08T15:07:34.408Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3134,7 +3118,7 @@
       },
       "media": {
         "fileName": "Tar Flats.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Flats.png/720px-Tar_Flats.png?9e5a4",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Flats.png/720px-Tar_Flats.png?43054",
         "filePage": "https://wiki.subnautica.com/sn2/File:Tar_Flats.png",
         "width": 720,
         "height": 405
@@ -3144,24 +3128,20 @@
       "id": "tar-trenches",
       "title": "Tar Trenches",
       "kind": "biomes",
-      "status": "excluded",
-      "exclusionReasons": [
-        "wiki status template"
-      ],
+      "status": "wiki-backed",
+      "exclusionReasons": [],
       "categories": [
-        "Future content",
-        "Incomplete references",
+        "Experimental content",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tar_Trenches",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Trenches&oldid=25892",
-        "revisionId": 25892,
-        "revisionTimestamp": "2026-10-25T23:17:03Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Trenches&oldid=27661",
+        "revisionId": 27661,
+        "revisionTimestamp": "2026-11-04T23:57:31Z",
+        "fetchedAt": "2026-11-08T15:07:34.408Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3173,7 +3153,7 @@
       },
       "media": {
         "fileName": "Tar Trenches.png",
-        "url": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Trenches.png/720px-Tar_Trenches.png?9dccc",
+        "url": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Trenches.png/720px-Tar_Trenches.png?37585",
         "filePage": "https://wiki.subnautica.com/sn2/File:Tar_Trenches.png",
         "width": 720,
         "height": 405
@@ -3269,10 +3249,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Troilite",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=25116",
-        "revisionId": 25116,
-        "revisionTimestamp": "2026-10-14T18:19:30Z",
-        "fetchedAt": "2026-10-15T08:26:12.936Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Troilite&oldid=27814",
+        "revisionId": 27814,
+        "revisionTimestamp": "2026-11-06T22:12:01Z",
+        "fetchedAt": "2026-11-08T15:07:30.496Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3308,10 +3288,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Twin_Sitaray",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=25450",
-        "revisionId": 25450,
-        "revisionTimestamp": "2026-10-17T18:38:24Z",
-        "fetchedAt": "2026-10-20T16:13:32.784Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Twin_Sitaray&oldid=25997",
+        "revisionId": 25997,
+        "revisionTimestamp": "2026-10-27T09:23:24Z",
+        "fetchedAt": "2026-10-31T16:54:48.116Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3325,7 +3305,6 @@
         "nutrition": "",
         "biomes": [
           "Karakorum Metal Farms",
-          "Karakorum Power Plant",
           "Root Canyon"
         ]
       },
@@ -3426,10 +3405,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Water_Slug",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water_Slug&oldid=25519",
-        "revisionId": 25519,
-        "revisionTimestamp": "2026-10-18T20:31:12Z",
-        "fetchedAt": "2026-10-20T16:13:32.783Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Water_Slug&oldid=27296",
+        "revisionId": 27296,
+        "revisionTimestamp": "2026-11-02T17:33:35Z",
+        "fetchedAt": "2026-11-08T15:07:31.548Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3468,10 +3447,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Waxmoon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Waxmoon&oldid=24128",
-        "revisionId": 24128,
-        "revisionTimestamp": "2026-09-30T20:23:37Z",
-        "fetchedAt": "2026-10-01T10:17:11.007Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Waxmoon&oldid=27483",
+        "revisionId": 27483,
+        "revisionTimestamp": "2026-11-04T00:10:52Z",
+        "fetchedAt": "2026-11-08T15:07:31.550Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3487,7 +3466,8 @@
           "Shallows",
           "Graveyard",
           "Necrolei Hills",
-          "Root Canyon"
+          "Root Canyon",
+          "Overgrown Ruins"
         ]
       },
       "media": {

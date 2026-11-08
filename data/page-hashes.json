@@ -2,32 +2,36 @@
   "schemaVersion": "1.0.0",
   "pages": {
     "https://specialzhou.github.io/subnautica-2-guide/base-building.html": {
-      "hash": "2b721edfd3762df5",
-      "lastmod": "2026-10-27"
+      "hash": "bb091218726fb813",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/biomes.html": {
-      "hash": "c9a2902acb7354a5",
-      "lastmod": "2026-10-20"
+      "hash": "ed9c643ddcaf3da5",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/blueprints.html": {
-      "hash": "a69ebc5c5d70520c",
-      "lastmod": "2026-10-13"
+      "hash": "c5bf052990ba0baa",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/coop.html": {
       "hash": "8b46d29c51bda1a4",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/crafting.html": {
-      "hash": "a6379c383400d790",
-      "lastmod": "2026-10-27"
+      "hash": "7223a8c558a79234",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/creatures.html": {
-      "hash": "f4ba21916f78bd69",
-      "lastmod": "2026-10-26"
+      "hash": "3e6e34c8c71f866a",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/equipment-upgrades.html": {
-      "hash": "837faa9545d342ea",
-      "lastmod": "2026-10-20"
+      "hash": "03edc9a24131abb2",
+      "lastmod": "2026-10-31"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/collection-zone.html": {
+      "hash": "9c980e6766bf8423",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/dolerite-spires.html": {
       "hash": "8c921ac63cf04cac",
@@ -37,17 +41,25 @@
       "hash": "74b110a69034c8cc",
       "lastmod": "2026-10-26"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/great-jaw-farms.html": {
+      "hash": "ff5f0ea93b1bf782",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/homestead-ruins.html": {
+      "hash": "05a3aa74f408d6d6",
+      "lastmod": "2026-11-08"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/index.html": {
-      "hash": "72d10596f80dca57",
-      "lastmod": "2026-10-15"
+      "hash": "d1f28180202b1589",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/intermediary-basin.html": {
-      "hash": "c73aefa3ab60e770",
-      "lastmod": "2026-10-26"
+      "hash": "64547291aed16a76",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/karakorum-metal-farms.html": {
-      "hash": "b32df06952671407",
-      "lastmod": "2026-10-26"
+      "hash": "7a20d45a980d76d6",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/lead-zone.html": {
       "hash": "eed7910ac6209fe8",
@@ -58,40 +70,48 @@
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/north-raceway.html": {
-      "hash": "e861409abc0a1ed7",
-      "lastmod": "2026-10-26"
+      "hash": "d38317d394e2b2c8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/overgrown-ruins.html": {
-      "hash": "0dfe6d9ccce4aa4c",
-      "lastmod": "2026-10-26"
+      "hash": "cc5c2a86837fb5bf",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/plateaus.html": {
-      "hash": "4b42e74d7ffa1a24",
-      "lastmod": "2026-10-26"
+      "hash": "18f1e9adde3f11ba",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/root-canyon.html": {
       "hash": "b7cb3dc4d496e2bc",
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/shallows.html": {
-      "hash": "a491bd61c147729c",
-      "lastmod": "2026-10-26"
+      "hash": "7275c9e10cc457d6",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/south-raceway.html": {
       "hash": "97db9689cab05d9e",
       "lastmod": "2026-10-26"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/tar-flats.html": {
+      "hash": "c113b0e31d18c891",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/tar-trenches.html": {
+      "hash": "1a88f793ea3b6b7a",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/biomes/void.html": {
       "hash": "35f38c60fc11e827",
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/blackthorn.html": {
-      "hash": "0e25046ee957f973",
-      "lastmod": "2026-10-25"
+      "hash": "52457ad6fdeca3af",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/bluemoon.html": {
-      "hash": "ca0e24a744922dbb",
-      "lastmod": "2026-10-13"
+      "hash": "1dbada6bad6d12ce",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/bullethead.html": {
       "hash": "85dda029fe1b3f05",
@@ -102,16 +122,16 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/collector-leviathan.html": {
-      "hash": "2617f435a1fcd553",
-      "lastmod": "2026-10-26"
+      "hash": "dfafe3327f10b37e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/coral-crab.html": {
-      "hash": "52259cd84de0485e",
-      "lastmod": "2026-10-11"
+      "hash": "17dd1e8866f84751",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/dead-coral-crab.html": {
-      "hash": "095ab5b820ff7f04",
-      "lastmod": "2026-10-26"
+      "hash": "22cd76741a3155b6",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/deepwing-brooder.html": {
       "hash": "4d3e727e73368e16",
@@ -122,40 +142,40 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/flash-slug.html": {
-      "hash": "e265c6845837d325",
-      "lastmod": "2026-10-20"
+      "hash": "81f563fce62a434e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/foureye.html": {
-      "hash": "a123d4caaf982c41",
-      "lastmod": "2026-10-11"
+      "hash": "e8895e6030b3347c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/geordie.html": {
-      "hash": "6463d50fd512fe23",
-      "lastmod": "2026-10-20"
+      "hash": "43b163dc27bcafb1",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/halfmoon.html": {
-      "hash": "a416c344d252e6f1",
-      "lastmod": "2026-10-13"
+      "hash": "feac5c964f431ff2",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/hammerhead.html": {
-      "hash": "5d9374fb464ebad3",
-      "lastmod": "2026-10-21"
+      "hash": "7b37dfdb6900a0e8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/harvestmoon.html": {
-      "hash": "6fd4769e060d775e",
-      "lastmod": "2026-10-20"
+      "hash": "ef7bc335585885c3",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/houndgar.html": {
       "hash": "800be8ca68184d74",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/hoverthorn.html": {
-      "hash": "e9750642aa557f16",
-      "lastmod": "2026-10-13"
+      "hash": "480a3b10667d1312",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/hycean.html": {
-      "hash": "ade7bac939761d34",
-      "lastmod": "2026-10-25"
+      "hash": "be8e6ee892835f9a",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/index.html": {
       "hash": "faa7de6998542b9f",
@@ -174,20 +194,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/needler-mango.html": {
-      "hash": "66f8b420cc26069c",
-      "lastmod": "2026-10-11"
+      "hash": "e44527f4e637ffad",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/nibbler-mango.html": {
-      "hash": "aaa4f358c4fa3280",
-      "lastmod": "2026-10-11"
+      "hash": "05c55fc8a9714a95",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/periscopic-clowncrab.html": {
       "hash": "e59dc91e275c2a88",
       "lastmod": "2026-10-20"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/pneuma.html": {
-      "hash": "c25bb6f3990c9df0",
-      "lastmod": "2026-10-13"
+      "hash": "5c5e6f08e43133ab",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/ringbearer-krill.html": {
       "hash": "8ff1478bad8daed7",
@@ -206,20 +226,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/surge-jelly.html": {
-      "hash": "5129d7755bed8d1d",
-      "lastmod": "2026-10-11"
+      "hash": "8a1f2453be8f1b99",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/twin-sitaray.html": {
-      "hash": "7918ca2740f83fc2",
-      "lastmod": "2026-10-20"
+      "hash": "6c2f128777f9e5a0",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/water-slug.html": {
-      "hash": "5fcaf316ee1b1560",
-      "lastmod": "2026-10-20"
+      "hash": "b6814a9c1342078b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/creatures/waxmoon.html": {
-      "hash": "c9634e7e13fb762a",
-      "lastmod": "2026-10-11"
+      "hash": "87d2a4560ac32928",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/acid-raion.html": {
       "hash": "b90f568bdcce5e21",
@@ -241,9 +261,21 @@
       "hash": "0cc171f08702e7ad",
       "lastmod": "2026-10-20"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/alterra-rug.html": {
+      "hash": "d3e51894381e9a6d",
+      "lastmod": "2026-10-29"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/atacamite.html": {
       "hash": "f25e4740fe3a46c3",
       "lastmod": "2026-10-13"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/axum-barrel.html": {
+      "hash": "c865524ed96196e9",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/axum-crate.html": {
+      "hash": "4203a551f68e9f77",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/axum-ingot.html": {
       "hash": "4bd4610e88c94114",
@@ -265,10 +297,6 @@
       "hash": "2f259b7b021d68e6",
       "lastmod": "2026-10-20"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/guide/items/axum-tech-multitool.html": {
-      "hash": "21af0610fa37b593",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/axum-trashcan.html": {
       "hash": "dd5c566d157308c1",
       "lastmod": "2026-10-20"
@@ -286,8 +314,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/basic-first-aid-kit.html": {
-      "hash": "779c94a4c031fda5",
-      "lastmod": "2026-10-11"
+      "hash": "96c13d2d1a1dad35",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/battery-terminal.html": {
       "hash": "a85a43e2078aab79",
@@ -297,29 +325,21 @@
       "hash": "7f7e7ea749fe8d8b",
       "lastmod": "2026-10-13"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/guide/items/big-sub-key-item.html": {
-      "hash": "a5ae9623d4a3b3c9",
-      "lastmod": "2026-10-20"
-    },
-    "https://specialzhou.github.io/subnautica-2-guide/guide/items/bigsub.html": {
-      "hash": "8885c4ee0ad6817d",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/biobed.html": {
-      "hash": "71e6999513018ce0",
-      "lastmod": "2026-10-13"
+      "hash": "9acaa24e23727402",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/biofuel-block.html": {
-      "hash": "da7e374c78638abb",
-      "lastmod": "2026-10-11"
+      "hash": "e0ab61058cb79f01",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/biolab.html": {
       "hash": "0b9ebc25b7956645",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/bioreactor.html": {
-      "hash": "2872e0aad56b53d2",
-      "lastmod": "2026-10-13"
+      "hash": "120101e954ae1c13",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/bioscanner.html": {
       "hash": "96db7354b5f9aafd",
@@ -329,33 +349,33 @@
       "hash": "905966310727b367",
       "lastmod": "2026-10-20"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/guide/items/bullfrog-workmech.html": {
-      "hash": "30b4dbd3432a004b",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/carryables-rack.html": {
       "hash": "ba2147f910b4fd45",
       "lastmod": "2026-10-27"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cavitation-muffler.html": {
-      "hash": "cf4ca310634f4a98",
-      "lastmod": "2026-10-24"
+      "hash": "8ebd8410e49b96d1",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/celestine.html": {
-      "hash": "698dcd86799ff47d",
-      "lastmod": "2026-10-11"
+      "hash": "1976783cc9373023",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/chbc-live-poster.html": {
       "hash": "c5f2727984fc8298",
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cherimoya-chutney.html": {
-      "hash": "2a3aa0d8010c4e50",
-      "lastmod": "2026-10-13"
+      "hash": "fa76afc3b56adecb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cherimoya-rotsac.html": {
-      "hash": "2f88db9c8bd27ad8",
-      "lastmod": "2026-10-25"
+      "hash": "aabb4cdbffdd4e9f",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/coat-rack.html": {
+      "hash": "39daa56ec3f83365",
+      "lastmod": "2026-10-29"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/community-poster-02.html": {
       "hash": "c144d1db4aa37e36",
@@ -366,40 +386,44 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-blackthorn.html": {
-      "hash": "1e09275f0a4b2393",
-      "lastmod": "2026-10-13"
+      "hash": "f3b448d09f4add0f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-bluemoon.html": {
-      "hash": "5146510ce8f1b2c7",
-      "lastmod": "2026-10-13"
+      "hash": "bdccfd594b62f588",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-electric-geordie.html": {
-      "hash": "c08354e3bbc3a312",
-      "lastmod": "2026-10-13"
+      "hash": "3c049e29491a90f4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-geordie.html": {
-      "hash": "9ff1f62919528d82",
-      "lastmod": "2026-10-13"
+      "hash": "a7ac67cd53161c9b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-halfmoon.html": {
-      "hash": "02a22611c363485b",
-      "lastmod": "2026-10-13"
+      "hash": "a5af616de0e00db4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-harvestmoon.html": {
-      "hash": "448dd59acfa5ae44",
-      "lastmod": "2026-10-13"
+      "hash": "dba0ac72d450ed4e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-hoverthorn.html": {
-      "hash": "a034159371f20e77",
-      "lastmod": "2026-10-13"
+      "hash": "ec91119965ff3879",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-pneuma.html": {
-      "hash": "6222369a5d7e7f51",
-      "lastmod": "2026-10-13"
+      "hash": "74b4e7d138605ca5",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-quadrate.html": {
-      "hash": "a889d3e0c76c25cf",
-      "lastmod": "2026-10-13"
+      "hash": "9ef7341ff3555b71",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/cooked-sea-olive.html": {
+      "hash": "794d6de0b84f69cb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/copper-ingot.html": {
       "hash": "8235edc9ea209b75",
@@ -418,8 +442,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/coral-mash.html": {
-      "hash": "072583f61f800d5c",
-      "lastmod": "2026-10-13"
+      "hash": "4e37e7e1dec42147",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/corridor.html": {
       "hash": "6e816d1cbeedca6c",
@@ -454,8 +478,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/distraction-flare.html": {
-      "hash": "16024738a603b6ae",
-      "lastmod": "2026-10-11"
+      "hash": "0265b927b1412606",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/dive-elevator.html": {
       "hash": "cdaf6c291e249901",
@@ -469,17 +493,21 @@
       "hash": "b261fecd5aefbe1f",
       "lastmod": "2026-10-20"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/emt-tool.html": {
+      "hash": "3ab28dd540a088c6",
+      "lastmod": "2026-11-08"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/enameled-glass.html": {
       "hash": "a4405f646dda6ba7",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/engine-efficiency.html": {
-      "hash": "77abdfb2747fbeba",
-      "lastmod": "2026-10-11"
+      "hash": "168afd9c7a5ebe3b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/enhanced-first-aid-kit.html": {
-      "hash": "6ddf7eed932b46c8",
-      "lastmod": "2026-10-11"
+      "hash": "01227d530acc7dec",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/entangled-power-cell.html": {
       "hash": "308c1e334b929911",
@@ -490,12 +518,12 @@
       "lastmod": "2026-10-20"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/exterior-wall-light.html": {
-      "hash": "ead7634048b2978c",
-      "lastmod": "2026-10-13"
+      "hash": "1061226434945a43",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/fabricator.html": {
-      "hash": "b5ab54e4e71685ae",
-      "lastmod": "2026-10-13"
+      "hash": "6e0e4bdeef3a174f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/feedback-resonator.html": {
       "hash": "fc8551caccbdd9ec",
@@ -506,12 +534,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/fiber.html": {
-      "hash": "3e4a6420397177a8",
-      "lastmod": "2026-10-11"
+      "hash": "c70977b52aa02708",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/flashlight.html": {
-      "hash": "5c772a1e6205f975",
-      "lastmod": "2026-10-11"
+      "hash": "3d560e24b6d83a64",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/floor-locker.html": {
       "hash": "ffaa1d173d3aeb4d",
@@ -542,8 +570,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/graphene-ingot.html": {
-      "hash": "3c204f9b49b68878",
-      "lastmod": "2026-10-20"
+      "hash": "d495c2dca3e47a08",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/grease.html": {
       "hash": "c97ff00e73054f28",
@@ -562,12 +590,12 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/half-round-room.html": {
-      "hash": "84199b433148fa7f",
-      "lastmod": "2026-10-13"
+      "hash": "372660f22f0047d8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/halfmoon-jerky.html": {
-      "hash": "9986673e7045e656",
-      "lastmod": "2026-10-13"
+      "hash": "f3fa69e521bff68e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/hanging-tailing-jar.html": {
       "hash": "bb1ec732abf0c6a3",
@@ -578,16 +606,16 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/high-capacity-air-tank.html": {
-      "hash": "b5af3dc5b7b1050b",
-      "lastmod": "2026-10-13"
+      "hash": "0e61f1acdbf2dad3",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/high-capacity-deployable-locker.html": {
       "hash": "02a0f77820c0963a",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/hoverthorn-souvlaki.html": {
-      "hash": "a91841e003904aba",
-      "lastmod": "2026-10-13"
+      "hash": "3ece0a13c6e76896",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/hydroelectric-turbine.html": {
       "hash": "03aa75f7f9eaf984",
@@ -598,16 +626,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/index.html": {
-      "hash": "063b9fda8ef834ab",
-      "lastmod": "2026-10-13"
+      "hash": "bf57fbdf58751ba7",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/interior-arch.html": {
-      "hash": "629fefbaab3d9663",
-      "lastmod": "2026-10-13"
+      "hash": "b54abad6b3593a71",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/interior-door.html": {
       "hash": "84c450a4e5dd9205",
       "lastmod": "2026-10-13"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/interior-wall.html": {
+      "hash": "053afe146c297fb9",
+      "lastmod": "2026-10-30"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/isotonic-water.html": {
       "hash": "0b3d72c75c524c4c",
@@ -636,6 +668,10 @@
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/lead.html": {
       "hash": "95f69b24c4d5e25e",
       "lastmod": "2026-10-11"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/leapfrog-pistons.html": {
+      "hash": "dec272d4e3531111",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/leviathanawakens-poster.html": {
       "hash": "62ff435b36411a9c",
@@ -666,16 +702,24 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/mimic-pylon.html": {
-      "hash": "c23afbef6d6d8409",
-      "lastmod": "2026-10-11"
+      "hash": "30c204b4b050ba75",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/modification-station.html": {
       "hash": "57f6f5e1d91c73b0",
       "lastmod": "2026-10-24"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/molten-reactor-fuel-cell.html": {
+      "hash": "5d0581e8090ed8d9",
+      "lastmod": "2026-10-28"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/molten-reactor.html": {
+      "hash": "9199cd767f7cae06",
+      "lastmod": "2026-10-30"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/moonpool.html": {
-      "hash": "0e5926e5d480e867",
-      "lastmod": "2026-10-24"
+      "hash": "3c768eeba1ce580b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/necrolei-cyst.html": {
       "hash": "9e9adda73b3bd914",
@@ -690,32 +734,32 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/nook.html": {
-      "hash": "be881ab59b36e6e5",
-      "lastmod": "2026-10-13"
+      "hash": "47cf7c0e013e0d94",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/nutrient-block.html": {
-      "hash": "2e6d40381b76c0b0",
-      "lastmod": "2026-10-13"
+      "hash": "43aa0f962b25a73a",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/oily-salad.html": {
-      "hash": "20846d8398fb9c91",
-      "lastmod": "2026-10-13"
+      "hash": "9635715459e6856f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/painted-tree-poster.html": {
       "hash": "d4a3c5aad43688b2",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/pavlova.html": {
-      "hash": "2d828d35a5e0e84a",
-      "lastmod": "2026-10-13"
+      "hash": "de62e108b439f97b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/pent.html": {
-      "hash": "5b784a18b2b14872",
-      "lastmod": "2026-10-11"
+      "hash": "653c9c553c7cf780",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/photovoltaic-charger.html": {
-      "hash": "0a785c36e6ebb3a1",
-      "lastmod": "2026-10-24"
+      "hash": "e550d0d36db122ee",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/pioneer-hull-plate.html": {
       "hash": "c7407344adadad9e",
@@ -728,6 +772,10 @@
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/plasteel-ingot.html": {
       "hash": "cf4dd236b2e3067b",
       "lastmod": "2026-10-11"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/pool-table.html": {
+      "hash": "0f47765db44e3390",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/portable-locker.html": {
       "hash": "1bbd8ea8238d4f45",
@@ -773,9 +821,13 @@
       "hash": "bedc5c26a1f1aecb",
       "lastmod": "2026-10-11"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/radiothermal-generator.html": {
+      "hash": "9fae82afd40d8f2a",
+      "lastmod": "2026-10-29"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/reaper-leviathan.html": {
-      "hash": "a3ea4271b39e42e8",
-      "lastmod": "2026-10-13"
+      "hash": "c17e3f0fee0b676b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/rebreather.html": {
       "hash": "7ebd9fb5bb8a1f0d",
@@ -794,20 +846,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/resource-crusher.html": {
-      "hash": "be5859bcb7d27792",
-      "lastmod": "2026-10-13"
+      "hash": "076b38e5741a386a",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/roof-antenna-large.html": {
       "hash": "fc8d1aa37ba9e3c9",
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/roof-antenna.html": {
-      "hash": "668066cb4b205304",
-      "lastmod": "2026-10-13"
+      "hash": "a490e8565de5a453",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/roof-cylinder.html": {
-      "hash": "73049bf0593db49f",
-      "lastmod": "2026-10-13"
+      "hash": "b97b07a1710923a9",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/roof-listening-dish.html": {
       "hash": "60542ec17cbc291e",
@@ -822,16 +874,16 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/roof-pump.html": {
-      "hash": "4f8c6c767d285b20",
-      "lastmod": "2026-10-13"
+      "hash": "417869f2fbf55375",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/room.html": {
-      "hash": "f1e278f84bc8d903",
-      "lastmod": "2026-10-13"
+      "hash": "e0ff82600152f0e4",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/round-room.html": {
-      "hash": "76233cd9eaea0a26",
-      "lastmod": "2026-10-11"
+      "hash": "37f9320b7fd33557",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/rubber.html": {
       "hash": "225a21a6714d98e6",
@@ -850,8 +902,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/scanner-station.html": {
-      "hash": "aa816d5333c36ca3",
-      "lastmod": "2026-10-22"
+      "hash": "9806562006341d9d",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/scanner.html": {
       "hash": "92d220c71ce097fb",
@@ -902,8 +954,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/small-crate.html": {
-      "hash": "7ae2de05c9bf2357",
-      "lastmod": "2026-10-13"
+      "hash": "7a0c0f66a01f99d8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/solar-panel.html": {
       "hash": "e4760bba7004436b",
@@ -914,8 +966,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/spotlight.html": {
-      "hash": "5a68f9427902bf6e",
-      "lastmod": "2026-10-13"
+      "hash": "3e0766aef0a4fc88",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/standard-air-tank.html": {
       "hash": "f1675f19bf05ce1c",
@@ -930,8 +982,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/strike-armor.html": {
-      "hash": "6856b91c29cce1d0",
-      "lastmod": "2026-10-13"
+      "hash": "f559c5e2d48ad3d5",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/strong-acid.html": {
       "hash": "d1eb8a8237fc3c3c",
@@ -942,8 +994,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/sugar-of-saturn.html": {
-      "hash": "0b0670154be36352",
-      "lastmod": "2026-10-13"
+      "hash": "a526c3ee1ac032c0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/sulfur.html": {
       "hash": "833823bb688369f4",
@@ -958,12 +1010,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-depth-module-mk-1.html": {
-      "hash": "e7268cbaa9716965",
-      "lastmod": "2026-10-24"
+      "hash": "5275cf1deaf78dda",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-depth-module-mk-2.html": {
-      "hash": "f997d63d90e1db03",
-      "lastmod": "2026-10-24"
+      "hash": "cb134fc572d1f46c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-dock.html": {
       "hash": "0230d7184ed6c24e",
@@ -973,17 +1025,25 @@
       "hash": "4390d90736032f85",
       "lastmod": "2026-10-11"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-rug.html": {
+      "hash": "d84db80d4b4d01fe",
+      "lastmod": "2026-10-29"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-scout-ray-chassis.html": {
-      "hash": "06487f619ac7d1e3",
-      "lastmod": "2026-10-11"
+      "hash": "d52e015a064b981c",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-seafrog-chassis.html": {
+      "hash": "2e0ad7240104bb40",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole.html": {
-      "hash": "3577deb505bcf2fd",
-      "lastmod": "2026-10-27"
+      "hash": "9c4da5ec285d925e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tailing-barrel.html": {
-      "hash": "5e3bae9fc746d2cf",
-      "lastmod": "2026-10-13"
+      "hash": "1a8ece5da8a929d5",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/tailing-chest.html": {
       "hash": "730fd4673bd7b4d6",
@@ -1014,8 +1074,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/threemoon-temaki.html": {
-      "hash": "9fee87ab2ddd9905",
-      "lastmod": "2026-10-13"
+      "hash": "191da440ed2f198c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/time-of-day-display.html": {
       "hash": "c636a287ae6ef7de",
@@ -1038,12 +1098,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/troilite.html": {
-      "hash": "6624a1d8dc60e3a1",
-      "lastmod": "2026-10-15"
+      "hash": "d150762a976d7be5",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/ultra-high-capacity-air-tank.html": {
-      "hash": "541dc8729f961239",
-      "lastmod": "2026-10-20"
+      "hash": "6cf8877faac7ac34",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/vehicle-fabricator.html": {
       "hash": "2744ac4d716f416a",
@@ -1074,8 +1134,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/wall-unit-large.html": {
-      "hash": "e075519b56ea6329",
-      "lastmod": "2026-10-13"
+      "hash": "fe8e09a5b59763ee",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/items/wall-unit-small.html": {
       "hash": "277b7a340a10570e",
@@ -1114,8 +1174,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/acidic-raion-pouch.html": {
-      "hash": "1663113ee5d42500",
-      "lastmod": "2026-10-15"
+      "hash": "c162a00fa3590cd3",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/atacamite.html": {
       "hash": "533d0b7513c6c6b6",
@@ -1130,12 +1190,12 @@
       "lastmod": "2026-10-25"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/basic-first-aid-kit.html": {
-      "hash": "0c46f1f01608f869",
-      "lastmod": "2026-10-11"
+      "hash": "c68c4746779697b5",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/celestine.html": {
-      "hash": "f15a3c1c7a923bb3",
-      "lastmod": "2026-10-11"
+      "hash": "ea14ac260474c7eb",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/conduit-crystal.html": {
       "hash": "4346d61b86b99924",
@@ -1150,8 +1210,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/crab-feces.html": {
-      "hash": "07c2547aa88d9fde",
-      "lastmod": "2026-10-11"
+      "hash": "d85c68fa2050f558",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/creature-enamel.html": {
       "hash": "7512a1c0ff434b26",
@@ -1190,16 +1250,16 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/medical-gel-sac.html": {
-      "hash": "18e33a12019b88fa",
-      "lastmod": "2026-10-11"
+      "hash": "a677005a737cc1a3",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/mild-acid.html": {
       "hash": "a655b31734b8be0b",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/necrolei-bud.html": {
-      "hash": "03def9bfd0c2cb16",
-      "lastmod": "2026-10-11"
+      "hash": "cbe71f8d0df909f0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/plasteel-ingot.html": {
       "hash": "cf5c8ff0882b0aab",
@@ -1242,8 +1302,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/troilite.html": {
-      "hash": "5fcbe6a4f8f95b78",
-      "lastmod": "2026-10-15"
+      "hash": "6061f9c86c39b3c4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/resources/water.html": {
       "hash": "214b5c9ee4abae22",
@@ -1258,24 +1318,24 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/vehicles/tadpole-scout-ray-chassis.html": {
-      "hash": "3565bfaf72fe72c2",
-      "lastmod": "2026-10-11"
+      "hash": "529125c4371db01e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/guide/vehicles/tadpole.html": {
-      "hash": "bdf0012ceee630ed",
-      "lastmod": "2026-10-27"
+      "hash": "722eac64554696c8",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/": {
-      "hash": "cc08363dc1b69bce",
-      "lastmod": "2026-10-27"
+      "hash": "f4adb1cd3325af33",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/locations.html": {
-      "hash": "9e43050d8a044475",
-      "lastmod": "2026-10-26"
+      "hash": "29a77ee5beb24f01",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/oxygen.html": {
-      "hash": "db3b0cab133803ae",
-      "lastmod": "2026-10-26"
+      "hash": "88a367897442bcc1",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/questions.html": {
       "hash": "1d103a6d52184ffc",
@@ -1378,64 +1438,68 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/sources.html": {
-      "hash": "9a9bc0b6684b73cc",
-      "lastmod": "2026-10-27"
+      "hash": "47e9caca642e4e93",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/starter-materials.html": {
-      "hash": "a96b5f614cd9ef45",
-      "lastmod": "2026-10-20"
+      "hash": "9b11040e9f747135",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/starter-planner.html": {
-      "hash": "e69783ffd42e5138",
-      "lastmod": "2026-10-20"
+      "hash": "91e2b8a14cfb609c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/story.html": {
-      "hash": "4f920fb2c857bf97",
-      "lastmod": "2026-10-27"
+      "hash": "302eb4fc458a7179",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/tools.html": {
-      "hash": "588a0e2a63d90bea",
-      "lastmod": "2026-10-27"
+      "hash": "17f3f0b69926b906",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/tools/tadpole-calculator.html": {
       "hash": "d2f663236907fb51",
       "lastmod": "2026-09-21"
     },
     "https://specialzhou.github.io/subnautica-2-guide/vehicle-planner.html": {
-      "hash": "5a40c4aa999d537f",
-      "lastmod": "2026-10-27"
+      "hash": "0f1612bee2fc9a00",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/vehicles.html": {
       "hash": "ccad37c508709fd0",
       "lastmod": "2026-10-24"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/base-building.html": {
-      "hash": "8cbd810562988102",
-      "lastmod": "2026-10-27"
+      "hash": "64312d494232c76b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/biomes.html": {
-      "hash": "3156cddfdd1c07f5",
-      "lastmod": "2026-10-27"
+      "hash": "fc319d28ab54c424",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/blueprints.html": {
-      "hash": "05638163f4cd9f88",
-      "lastmod": "2026-10-13"
+      "hash": "0184d03872d727b1",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/coop.html": {
       "hash": "902b44402db931d3",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/crafting.html": {
-      "hash": "3854f61e610bbea1",
-      "lastmod": "2026-10-27"
+      "hash": "cc82414235b08efb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/creatures.html": {
-      "hash": "6c357c875d5d0d24",
-      "lastmod": "2026-10-27"
+      "hash": "cd6783c6d12bc0f0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/equipment-upgrades.html": {
-      "hash": "417e36cc3cf3ad66",
-      "lastmod": "2026-10-20"
+      "hash": "ea74879da9ac322a",
+      "lastmod": "2026-10-31"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/collection-zone.html": {
+      "hash": "c784d65ce2d0b839",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/dolerite-spires.html": {
       "hash": "ec6dfee88a2de52c",
@@ -1445,17 +1509,25 @@
       "hash": "20e67ddfd941f7db",
       "lastmod": "2026-10-26"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/great-jaw-farms.html": {
+      "hash": "e57218e009bdc5af",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/homestead-ruins.html": {
+      "hash": "10acd9d166b9ab1f",
+      "lastmod": "2026-11-08"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/index.html": {
-      "hash": "67bac076d70c92a1",
-      "lastmod": "2026-10-15"
+      "hash": "9e50d80c9a60d8a0",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/intermediary-basin.html": {
-      "hash": "051171ee30ec017e",
-      "lastmod": "2026-10-26"
+      "hash": "fc5fa36ab5b8ef32",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/karakorum-metal-farms.html": {
-      "hash": "1b7dd5941489ca0c",
-      "lastmod": "2026-10-26"
+      "hash": "85d774b11bee0445",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/lead-zone.html": {
       "hash": "9465c7c18c5df630",
@@ -1466,40 +1538,48 @@
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/north-raceway.html": {
-      "hash": "be40fe4e25f7dd1f",
-      "lastmod": "2026-10-26"
+      "hash": "efaf66241e843ec3",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/overgrown-ruins.html": {
-      "hash": "6409306da5e0faa7",
-      "lastmod": "2026-10-26"
+      "hash": "47df751671e5dabb",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/plateaus.html": {
-      "hash": "ab15e4694591b892",
-      "lastmod": "2026-10-26"
+      "hash": "b29315b7b4a03676",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/root-canyon.html": {
       "hash": "97c567e978659cae",
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/shallows.html": {
-      "hash": "7985b034454ce67a",
-      "lastmod": "2026-10-26"
+      "hash": "a72cb39dd8c29671",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/south-raceway.html": {
       "hash": "c50382172dea58d0",
       "lastmod": "2026-10-26"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/tar-flats.html": {
+      "hash": "9272ee6778e50855",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/tar-trenches.html": {
+      "hash": "578aa9d06de493ee",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/biomes/void.html": {
       "hash": "c1318148ea71eb05",
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/blackthorn.html": {
-      "hash": "949771cb6c6313aa",
-      "lastmod": "2026-10-25"
+      "hash": "416e8fd4bfdb16ee",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/bluemoon.html": {
-      "hash": "f188bc68a120a757",
-      "lastmod": "2026-10-13"
+      "hash": "e20903a463a1d32b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/bullethead.html": {
       "hash": "8942a179b94b9d19",
@@ -1510,16 +1590,16 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/collector-leviathan.html": {
-      "hash": "c4374f2459bea6cb",
-      "lastmod": "2026-10-26"
+      "hash": "8ab13796140d0537",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/coral-crab.html": {
-      "hash": "83bf2ba140854df9",
-      "lastmod": "2026-10-11"
+      "hash": "260e04460e1c4783",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/dead-coral-crab.html": {
-      "hash": "201f9fe0077bd5c6",
-      "lastmod": "2026-10-26"
+      "hash": "1901cdda61b271ae",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/deepwing-brooder.html": {
       "hash": "fec598144a7ef69f",
@@ -1530,40 +1610,40 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/flash-slug.html": {
-      "hash": "5f9bf52b0608ead8",
-      "lastmod": "2026-10-20"
+      "hash": "04b30bb04924143f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/foureye.html": {
-      "hash": "55191c04f1e17fa2",
-      "lastmod": "2026-10-11"
+      "hash": "69cdf4329f955dfb",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/geordie.html": {
-      "hash": "dc0d0835e87d903b",
-      "lastmod": "2026-10-20"
+      "hash": "4e6acbc5f1d430e4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/halfmoon.html": {
-      "hash": "fc4e9f4a46cbaa15",
-      "lastmod": "2026-10-13"
+      "hash": "1c49ff6d330c6c69",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/hammerhead.html": {
-      "hash": "d2c1e2610d96e219",
-      "lastmod": "2026-10-21"
+      "hash": "2f431725f925e21c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/harvestmoon.html": {
-      "hash": "b6ffd381fbbddf33",
-      "lastmod": "2026-10-20"
+      "hash": "d17ade3cec38fc98",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/houndgar.html": {
       "hash": "43b3d356ca0b8364",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/hoverthorn.html": {
-      "hash": "d05a1a26c7ef6504",
-      "lastmod": "2026-10-13"
+      "hash": "8737a7cdc1673679",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/hycean.html": {
-      "hash": "7b86d238271d17f0",
-      "lastmod": "2026-10-25"
+      "hash": "b57ae0ef3bd955e0",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/index.html": {
       "hash": "f539864ec0975e94",
@@ -1582,20 +1662,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/needler-mango.html": {
-      "hash": "fee46f450cbee2eb",
-      "lastmod": "2026-10-11"
+      "hash": "3e1e88ae6ef1065b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/nibbler-mango.html": {
-      "hash": "b97d63b0b3776b17",
-      "lastmod": "2026-10-11"
+      "hash": "c22861f4492923bb",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/periscopic-clowncrab.html": {
       "hash": "5168718c8d54a9b6",
       "lastmod": "2026-10-20"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/pneuma.html": {
-      "hash": "51cb6802b7d69f54",
-      "lastmod": "2026-10-13"
+      "hash": "9d7dead9b0f42930",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/ringbearer-krill.html": {
       "hash": "cc44312dc4b3fd2c",
@@ -1614,20 +1694,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/surge-jelly.html": {
-      "hash": "df69676ecf98389a",
-      "lastmod": "2026-10-11"
+      "hash": "33e2142cc0555d99",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/twin-sitaray.html": {
-      "hash": "64b5761419cfda09",
-      "lastmod": "2026-10-20"
+      "hash": "db472366d6564f17",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/water-slug.html": {
-      "hash": "d7227e245afd3d6c",
-      "lastmod": "2026-10-20"
+      "hash": "dd2d98dade4ace4e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/creatures/waxmoon.html": {
-      "hash": "af97b45bf36335ae",
-      "lastmod": "2026-10-11"
+      "hash": "24cf6839480ff6c0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/acid-raion.html": {
       "hash": "52fe3bec7473047a",
@@ -1649,9 +1729,21 @@
       "hash": "3aa004c08666d2db",
       "lastmod": "2026-10-20"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/alterra-rug.html": {
+      "hash": "d7a32a873e99cfb5",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/atacamite.html": {
       "hash": "ef25795a004f7be4",
       "lastmod": "2026-10-13"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/axum-barrel.html": {
+      "hash": "ce4dbb00c59d6415",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/axum-crate.html": {
+      "hash": "da811d4bb3f4ba81",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/axum-ingot.html": {
       "hash": "45c4fb0f37dbe90f",
@@ -1673,10 +1765,6 @@
       "hash": "284be2443e2c483f",
       "lastmod": "2026-10-20"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/axum-tech-multitool.html": {
-      "hash": "519b7b7692fd9ef5",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/axum-trashcan.html": {
       "hash": "b3ef4529d64f3239",
       "lastmod": "2026-10-20"
@@ -1694,8 +1782,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/basic-first-aid-kit.html": {
-      "hash": "f1c7456afc36968e",
-      "lastmod": "2026-10-11"
+      "hash": "5dc66c4d63fa78bf",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/battery-terminal.html": {
       "hash": "3bab7d13460a6bae",
@@ -1705,29 +1793,21 @@
       "hash": "5c807a3ca5e92eb1",
       "lastmod": "2026-10-13"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/big-sub-key-item.html": {
-      "hash": "b557004bb121454d",
-      "lastmod": "2026-10-20"
-    },
-    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/bigsub.html": {
-      "hash": "95f67cd2abbfa7cb",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/biobed.html": {
-      "hash": "01762c60411a2e81",
-      "lastmod": "2026-10-13"
+      "hash": "4fab9f976353431c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/biofuel-block.html": {
-      "hash": "a4d848ebfc1cf3f9",
-      "lastmod": "2026-10-11"
+      "hash": "2122bb8d7cd96b59",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/biolab.html": {
       "hash": "9ee27c7007ed535d",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/bioreactor.html": {
-      "hash": "f480f8106dad3218",
-      "lastmod": "2026-10-13"
+      "hash": "a702a57d8ea6a08a",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/bioscanner.html": {
       "hash": "b9a53575dc933cbd",
@@ -1737,33 +1817,33 @@
       "hash": "c8ade8ab482b42e1",
       "lastmod": "2026-10-20"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/bullfrog-workmech.html": {
-      "hash": "7ac11dc2f0c9ac75",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/carryables-rack.html": {
       "hash": "96c03d76e54cf819",
       "lastmod": "2026-10-27"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cavitation-muffler.html": {
-      "hash": "052f8be7f321452c",
-      "lastmod": "2026-10-24"
+      "hash": "d57a6fee49cb76d6",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/celestine.html": {
-      "hash": "1d26c079e88539ad",
-      "lastmod": "2026-10-11"
+      "hash": "3410dd1a42fd57a6",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/chbc-live-poster.html": {
       "hash": "7a8d407986734fc7",
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cherimoya-chutney.html": {
-      "hash": "ab407bcdafeb3d63",
-      "lastmod": "2026-10-13"
+      "hash": "f3efd55285c6f2a7",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cherimoya-rotsac.html": {
-      "hash": "f0bd0c30410d5a80",
-      "lastmod": "2026-10-25"
+      "hash": "f4457217753b67c9",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/coat-rack.html": {
+      "hash": "5a393fcfed170af4",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/community-poster-02.html": {
       "hash": "7c0e26b684c1a0d5",
@@ -1774,40 +1854,44 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-blackthorn.html": {
-      "hash": "332e16ff974ae174",
-      "lastmod": "2026-10-13"
+      "hash": "4ef9a969fddd6549",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-bluemoon.html": {
-      "hash": "60c8e25b86cd734d",
-      "lastmod": "2026-10-13"
+      "hash": "daa39b3d494c2e1b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-electric-geordie.html": {
-      "hash": "e4c8fa3efecc7ad1",
-      "lastmod": "2026-10-13"
+      "hash": "c67db4afc1a4fd3a",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-geordie.html": {
-      "hash": "9096e4a051cb8fa6",
-      "lastmod": "2026-10-13"
+      "hash": "b07c513e1c9e3d93",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-halfmoon.html": {
-      "hash": "e219dd17eca08d03",
-      "lastmod": "2026-10-13"
+      "hash": "8510d94f0093bddb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-harvestmoon.html": {
-      "hash": "f5f5fb76d9eae373",
-      "lastmod": "2026-10-13"
+      "hash": "1bc2f282be3712ab",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-hoverthorn.html": {
-      "hash": "db1d77c8a8dfb8ea",
-      "lastmod": "2026-10-13"
+      "hash": "cf96faa42512ab0d",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-pneuma.html": {
-      "hash": "d4fa73fff211c778",
-      "lastmod": "2026-10-13"
+      "hash": "97925b7904b018ea",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-quadrate.html": {
-      "hash": "93312cb09b03c4f9",
-      "lastmod": "2026-10-13"
+      "hash": "abcc398e481e2001",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/cooked-sea-olive.html": {
+      "hash": "aa14e69a760cd259",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/copper-ingot.html": {
       "hash": "5f1387ebe1d35598",
@@ -1826,8 +1910,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/coral-mash.html": {
-      "hash": "39d45c9929c5a7b7",
-      "lastmod": "2026-10-13"
+      "hash": "e4dcf2e817e92d84",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/corridor.html": {
       "hash": "e17e071a0f2cb82e",
@@ -1862,8 +1946,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/distraction-flare.html": {
-      "hash": "794d9489bfab6843",
-      "lastmod": "2026-10-11"
+      "hash": "94de8bfcff038fcb",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/dive-elevator.html": {
       "hash": "0271d73b332004c5",
@@ -1877,17 +1961,21 @@
       "hash": "74664b522ebcb068",
       "lastmod": "2026-10-20"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/emt-tool.html": {
+      "hash": "5efc4bdc90286a5e",
+      "lastmod": "2026-11-08"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/enameled-glass.html": {
       "hash": "8e464002c52aff32",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/engine-efficiency.html": {
-      "hash": "a97177250ce05509",
-      "lastmod": "2026-10-11"
+      "hash": "c185609ca8518a2a",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/enhanced-first-aid-kit.html": {
-      "hash": "ba6b7b63b2ba3a30",
-      "lastmod": "2026-10-11"
+      "hash": "17c14535b6038698",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/entangled-power-cell.html": {
       "hash": "108751ab51708fb6",
@@ -1898,12 +1986,12 @@
       "lastmod": "2026-10-20"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/exterior-wall-light.html": {
-      "hash": "ffa4739e1ba06a4d",
-      "lastmod": "2026-10-13"
+      "hash": "99538a540ab511f5",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/fabricator.html": {
-      "hash": "2fcfa1877da5a37f",
-      "lastmod": "2026-10-13"
+      "hash": "6f8a17b916f757cb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/feedback-resonator.html": {
       "hash": "b8c6fff1b00ff786",
@@ -1914,12 +2002,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/fiber.html": {
-      "hash": "14c78ef06f8ec4cb",
-      "lastmod": "2026-10-11"
+      "hash": "905b5fe59e7f3deb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/flashlight.html": {
-      "hash": "5ab955204973e85b",
-      "lastmod": "2026-10-11"
+      "hash": "c1d4289ede7dbbf6",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/floor-locker.html": {
       "hash": "3d98f42e91b0f199",
@@ -1950,8 +2038,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/graphene-ingot.html": {
-      "hash": "2d4097dbdd4de5f5",
-      "lastmod": "2026-10-20"
+      "hash": "1eed97a26152ae30",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/grease.html": {
       "hash": "1062def74c6e6e8f",
@@ -1970,12 +2058,12 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/half-round-room.html": {
-      "hash": "bbf07c894a488af8",
-      "lastmod": "2026-10-13"
+      "hash": "d7608d8789a78b29",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/halfmoon-jerky.html": {
-      "hash": "8ccf0df0f9604c4e",
-      "lastmod": "2026-10-13"
+      "hash": "671c052e981092da",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/hanging-tailing-jar.html": {
       "hash": "bea35d8be6a926f3",
@@ -1986,16 +2074,16 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/high-capacity-air-tank.html": {
-      "hash": "54331f45ee0a4920",
-      "lastmod": "2026-10-13"
+      "hash": "59979f93622f946c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/high-capacity-deployable-locker.html": {
       "hash": "7de854ad6f403d54",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/hoverthorn-souvlaki.html": {
-      "hash": "1289c5e11672757a",
-      "lastmod": "2026-10-13"
+      "hash": "03d0642cf8a0fadd",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/hydroelectric-turbine.html": {
       "hash": "af10c6df2c00bb25",
@@ -2006,16 +2094,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/index.html": {
-      "hash": "0e5a0cd081e598ee",
-      "lastmod": "2026-10-13"
+      "hash": "bc3655062184c33e",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/interior-arch.html": {
-      "hash": "8bd3b5fc1cc3d9be",
-      "lastmod": "2026-10-13"
+      "hash": "13ca32b225a605bd",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/interior-door.html": {
       "hash": "9a07cca5f0a3b4a0",
       "lastmod": "2026-10-13"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/interior-wall.html": {
+      "hash": "24cd3ab30978d90b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/isotonic-water.html": {
       "hash": "676894dfcd261bba",
@@ -2044,6 +2136,10 @@
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/lead.html": {
       "hash": "1182058af75df0a0",
       "lastmod": "2026-10-11"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/leapfrog-pistons.html": {
+      "hash": "d578ae2169a0ae9f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/leviathanawakens-poster.html": {
       "hash": "d42576e1454c7fe2",
@@ -2074,16 +2170,24 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/mimic-pylon.html": {
-      "hash": "3d21d88910bd3595",
-      "lastmod": "2026-10-11"
+      "hash": "388dcb0332ede458",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/modification-station.html": {
       "hash": "dc450fa07788ad15",
       "lastmod": "2026-10-24"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/molten-reactor-fuel-cell.html": {
+      "hash": "c674d48a5e91bbbe",
+      "lastmod": "2026-10-31"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/molten-reactor.html": {
+      "hash": "2a0bb1c46ea40e06",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/moonpool.html": {
-      "hash": "6291d5437def4744",
-      "lastmod": "2026-10-24"
+      "hash": "7398d97832c4175b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/necrolei-cyst.html": {
       "hash": "72dd756610f419f2",
@@ -2098,32 +2202,32 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/nook.html": {
-      "hash": "b112f0a65e9e5f81",
-      "lastmod": "2026-10-13"
+      "hash": "4a42524e03330eef",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/nutrient-block.html": {
-      "hash": "cf3b844a3fabd6f2",
-      "lastmod": "2026-10-13"
+      "hash": "cbb2aeaa61e283e2",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/oily-salad.html": {
-      "hash": "7d1728422e5e000a",
-      "lastmod": "2026-10-13"
+      "hash": "7ed9269ece69e7c5",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/painted-tree-poster.html": {
       "hash": "fb7da7c552993e93",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/pavlova.html": {
-      "hash": "82b751153661277e",
-      "lastmod": "2026-10-13"
+      "hash": "8ee245d7cc3827c9",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/pent.html": {
-      "hash": "d712cf78ca50004b",
-      "lastmod": "2026-10-11"
+      "hash": "2871952f8dc69b4d",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/photovoltaic-charger.html": {
-      "hash": "8e78ca36eb6f3193",
-      "lastmod": "2026-10-24"
+      "hash": "2c2679e1e40d9739",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/pioneer-hull-plate.html": {
       "hash": "34e77d962f3fcf16",
@@ -2136,6 +2240,10 @@
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/plasteel-ingot.html": {
       "hash": "a3e68f3d069d0d3b",
       "lastmod": "2026-10-11"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/pool-table.html": {
+      "hash": "f7af13a1ab155f35",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/portable-locker.html": {
       "hash": "ce3df02f531f4a7a",
@@ -2181,9 +2289,13 @@
       "hash": "3bff6d3e115d1a3b",
       "lastmod": "2026-10-11"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/radiothermal-generator.html": {
+      "hash": "3a3856b4f2a7c37b",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/reaper-leviathan.html": {
-      "hash": "8bd26976a10d52c0",
-      "lastmod": "2026-10-13"
+      "hash": "5620a918fba911c5",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/rebreather.html": {
       "hash": "bc5515f380378599",
@@ -2202,20 +2314,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/resource-crusher.html": {
-      "hash": "f98e8ac9db156efd",
-      "lastmod": "2026-10-13"
+      "hash": "0f5811c4b3f07e07",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/roof-antenna-large.html": {
       "hash": "13d1ec3ee34d63b6",
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/roof-antenna.html": {
-      "hash": "f2412b9f7c5f7e02",
-      "lastmod": "2026-10-13"
+      "hash": "f756f62caf6d6e79",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/roof-cylinder.html": {
-      "hash": "fac387e241753917",
-      "lastmod": "2026-10-13"
+      "hash": "104c1c0a7733618d",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/roof-listening-dish.html": {
       "hash": "5df17523b5b6aae7",
@@ -2230,16 +2342,16 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/roof-pump.html": {
-      "hash": "81f8f9d29d86b0aa",
-      "lastmod": "2026-10-13"
+      "hash": "3109bf080e2dfbe9",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/room.html": {
-      "hash": "d2a72622d7e230df",
-      "lastmod": "2026-10-13"
+      "hash": "c14a66acdfb88595",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/round-room.html": {
-      "hash": "275907589f14cc36",
-      "lastmod": "2026-10-11"
+      "hash": "b36bb92e4cfca7fe",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/rubber.html": {
       "hash": "9ccc68cd5b765f3e",
@@ -2258,8 +2370,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/scanner-station.html": {
-      "hash": "8ace5eba5daea3d1",
-      "lastmod": "2026-10-22"
+      "hash": "93cff69cc5671f20",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/scanner.html": {
       "hash": "bb58469b7bb55cb4",
@@ -2310,8 +2422,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/small-crate.html": {
-      "hash": "39f913bf73cf7089",
-      "lastmod": "2026-10-13"
+      "hash": "872c415507bb89ff",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/solar-panel.html": {
       "hash": "2fb92ef89ae25474",
@@ -2322,8 +2434,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/spotlight.html": {
-      "hash": "1835a0d74e5089fc",
-      "lastmod": "2026-10-13"
+      "hash": "a997c1218a09ccfc",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/standard-air-tank.html": {
       "hash": "2c70fd2f5f485001",
@@ -2338,8 +2450,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/strike-armor.html": {
-      "hash": "6b6a23e871df6556",
-      "lastmod": "2026-10-13"
+      "hash": "58b93fcd395f20b7",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/strong-acid.html": {
       "hash": "8390c525ea5dba28",
@@ -2350,8 +2462,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/sugar-of-saturn.html": {
-      "hash": "f943b07129443a62",
-      "lastmod": "2026-10-13"
+      "hash": "354228a9bf697069",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/sulfur.html": {
       "hash": "1544b4e2701437d2",
@@ -2366,12 +2478,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-depth-module-mk-1.html": {
-      "hash": "0346fd98a8b3b7d1",
-      "lastmod": "2026-10-24"
+      "hash": "56b7f3aa34234c0b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-depth-module-mk-2.html": {
-      "hash": "bc557cb362bcdccc",
-      "lastmod": "2026-10-24"
+      "hash": "9b8c17ab2fa0c73c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-dock.html": {
       "hash": "7fd0b878a0075ffc",
@@ -2381,17 +2493,25 @@
       "hash": "efb9b6ce6cf4cf32",
       "lastmod": "2026-10-11"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-rug.html": {
+      "hash": "d03b692ece0f9293",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-scout-ray-chassis.html": {
-      "hash": "ac04a5e18fa31745",
-      "lastmod": "2026-10-11"
+      "hash": "e31ed651730c8ad8",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole-seafrog-chassis.html": {
+      "hash": "8f84e969e6dd5cca",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tadpole.html": {
-      "hash": "181b4ea8928ebbcf",
-      "lastmod": "2026-10-27"
+      "hash": "e2de30c56bd25d37",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tailing-barrel.html": {
-      "hash": "99adbe5384aa0ab6",
-      "lastmod": "2026-10-13"
+      "hash": "c4d00c62d44de904",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/tailing-chest.html": {
       "hash": "4ebf6fc34b0228b2",
@@ -2422,8 +2542,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/threemoon-temaki.html": {
-      "hash": "57de5745346da935",
-      "lastmod": "2026-10-13"
+      "hash": "125e6f5ade5b4453",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/time-of-day-display.html": {
       "hash": "cd0c1b04f49b87ed",
@@ -2446,12 +2566,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/troilite.html": {
-      "hash": "da0bab5035280b13",
-      "lastmod": "2026-10-15"
+      "hash": "c5bf3f6ab41ed22f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/ultra-high-capacity-air-tank.html": {
-      "hash": "de92c11ce930dacb",
-      "lastmod": "2026-10-20"
+      "hash": "fc87389a6ae4587f",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/vehicle-fabricator.html": {
       "hash": "d06d55086a69a9bf",
@@ -2482,8 +2602,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/wall-unit-large.html": {
-      "hash": "f454411cecc356dc",
-      "lastmod": "2026-10-13"
+      "hash": "d8d6931ae78f4b38",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/items/wall-unit-small.html": {
       "hash": "b291aea34bac3b17",
@@ -2522,8 +2642,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/acidic-raion-pouch.html": {
-      "hash": "59311d5e71d1e3b8",
-      "lastmod": "2026-10-15"
+      "hash": "d136d33d26a68cae",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/atacamite.html": {
       "hash": "d228ae9e56bf251f",
@@ -2538,12 +2658,12 @@
       "lastmod": "2026-10-25"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/basic-first-aid-kit.html": {
-      "hash": "e25d4180ec455444",
-      "lastmod": "2026-10-11"
+      "hash": "b6909a7e425b12e1",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/celestine.html": {
-      "hash": "b925d105724088e5",
-      "lastmod": "2026-10-11"
+      "hash": "1c7da7f0323cad08",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/conduit-crystal.html": {
       "hash": "5e2311af9c62ea6d",
@@ -2558,8 +2678,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/crab-feces.html": {
-      "hash": "3ab6d7aedced6d5b",
-      "lastmod": "2026-10-11"
+      "hash": "162ac3e8605eb377",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/creature-enamel.html": {
       "hash": "3bec73654e997b31",
@@ -2598,16 +2718,16 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/medical-gel-sac.html": {
-      "hash": "36e6db095c5e0089",
-      "lastmod": "2026-10-11"
+      "hash": "ff62887ef91f1a26",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/mild-acid.html": {
       "hash": "f7944913ff014774",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/necrolei-bud.html": {
-      "hash": "c5b0ca4a29fb5b37",
-      "lastmod": "2026-10-11"
+      "hash": "b869f55d8f214253",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/plasteel-ingot.html": {
       "hash": "fc9b033cf284127a",
@@ -2650,8 +2770,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/troilite.html": {
-      "hash": "d1d80eeca95f3550",
-      "lastmod": "2026-10-15"
+      "hash": "d70ffe1ab88fd2e2",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/resources/water.html": {
       "hash": "ac9aa4da09c2d087",
@@ -2666,24 +2786,24 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/vehicles/tadpole-scout-ray-chassis.html": {
-      "hash": "fe034455222fcb0f",
-      "lastmod": "2026-10-11"
+      "hash": "37d20f18a30f0a12",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/guide/vehicles/tadpole.html": {
-      "hash": "969a553e37b8a25b",
-      "lastmod": "2026-10-27"
+      "hash": "8a93874981185592",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/": {
-      "hash": "c01194895e65fb54",
-      "lastmod": "2026-10-27"
+      "hash": "d4e5e02bb2f539e2",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/locations.html": {
-      "hash": "eb9a9b29efb9d781",
-      "lastmod": "2026-10-26"
+      "hash": "2cbf902bb94be29e",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/oxygen.html": {
-      "hash": "f22de02a27183429",
-      "lastmod": "2026-10-26"
+      "hash": "ddd0e61b2faa5bd1",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/questions.html": {
       "hash": "5053ef6d055dbcfb",
@@ -2782,68 +2902,72 @@
       "lastmod": "2026-09-21"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/resources.html": {
-      "hash": "b7de6deb76c92efd",
-      "lastmod": "2026-10-27"
+      "hash": "0219e9675c6d081e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/sources.html": {
-      "hash": "4e2e7f90eda14eee",
-      "lastmod": "2026-10-27"
+      "hash": "8a244f806a3e1f0e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/starter-materials.html": {
-      "hash": "f2657cb8087a7577",
-      "lastmod": "2026-10-20"
+      "hash": "5d063b0f4862feed",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/starter-planner.html": {
-      "hash": "9612ee44dd0688dc",
-      "lastmod": "2026-10-20"
+      "hash": "4579d6551614e880",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/story.html": {
-      "hash": "5ecbc2111252cb3b",
-      "lastmod": "2026-10-27"
+      "hash": "b90095e515c48744",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/tools.html": {
-      "hash": "ad66bf73301f4595",
-      "lastmod": "2026-10-27"
+      "hash": "7d0891c6fce4ffb9",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/tools/tadpole-calculator.html": {
       "hash": "006fba1b6ba38952",
       "lastmod": "2026-09-21"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/vehicle-planner.html": {
-      "hash": "10873d785fd4b163",
-      "lastmod": "2026-10-27"
+      "hash": "7a6b0b460a1c3f71",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/zh-cn/vehicles.html": {
-      "hash": "273a2f0a0ce95143",
-      "lastmod": "2026-10-27"
+      "hash": "46f59fb413c8f86d",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/base-building.html": {
-      "hash": "95b811cf4c4adc96",
-      "lastmod": "2026-10-27"
+      "hash": "a6648fa102548cbf",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/biomes.html": {
-      "hash": "177ec71c79fc9068",
-      "lastmod": "2026-10-27"
+      "hash": "89d5e23f5488abae",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/blueprints.html": {
-      "hash": "53ee1a98f1f404e9",
-      "lastmod": "2026-10-13"
+      "hash": "801b0be61189f70d",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/coop.html": {
       "hash": "5087aa3163c95cad",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/crafting.html": {
-      "hash": "4f3efb1350a9251f",
-      "lastmod": "2026-10-27"
+      "hash": "65d719f5461a1a14",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/creatures.html": {
-      "hash": "179691afcd4c5dc2",
-      "lastmod": "2026-10-27"
+      "hash": "227a02c56b76f3d8",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/equipment-upgrades.html": {
-      "hash": "5fadfd29f47e7adb",
-      "lastmod": "2026-10-20"
+      "hash": "777350717c122cc5",
+      "lastmod": "2026-10-31"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/collection-zone.html": {
+      "hash": "b91436a1f28a7e29",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/dolerite-spires.html": {
       "hash": "a61f6d7bf1db8b68",
@@ -2853,17 +2977,25 @@
       "hash": "c16d3e5d4faa9736",
       "lastmod": "2026-10-26"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/great-jaw-farms.html": {
+      "hash": "59866b0cbbd18433",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/homestead-ruins.html": {
+      "hash": "c1b5507c5fd6ae2a",
+      "lastmod": "2026-11-08"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/index.html": {
-      "hash": "c701ade49e47dd3d",
-      "lastmod": "2026-10-15"
+      "hash": "90e7119c2089bf34",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/intermediary-basin.html": {
-      "hash": "b94aa72db3c642f7",
-      "lastmod": "2026-10-26"
+      "hash": "81742ae80de7464c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/karakorum-metal-farms.html": {
-      "hash": "5d8bc84e80d06839",
-      "lastmod": "2026-10-26"
+      "hash": "90078be4a2114e48",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/lead-zone.html": {
       "hash": "c7d8a8f5807f9716",
@@ -2874,40 +3006,48 @@
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/north-raceway.html": {
-      "hash": "a6952c7b1fd9aae5",
-      "lastmod": "2026-10-26"
+      "hash": "751f3333b88c34ec",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/overgrown-ruins.html": {
-      "hash": "2978a19559725209",
-      "lastmod": "2026-10-26"
+      "hash": "08d639753beb1dfa",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/plateaus.html": {
-      "hash": "e7a61fc995517f00",
-      "lastmod": "2026-10-26"
+      "hash": "dd57d7a302143357",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/root-canyon.html": {
       "hash": "58caf7d7bbb4a553",
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/shallows.html": {
-      "hash": "c25def8b233c609e",
-      "lastmod": "2026-10-26"
+      "hash": "ff31bd66f3f4720b",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/south-raceway.html": {
       "hash": "b9654947ffacd6f2",
       "lastmod": "2026-10-26"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/tar-flats.html": {
+      "hash": "99e33f4fc120d52e",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/tar-trenches.html": {
+      "hash": "daeb1047b03e2ffe",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/biomes/void.html": {
       "hash": "55cc953e102fabd0",
       "lastmod": "2026-10-26"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/blackthorn.html": {
-      "hash": "716f2f8ca63d2a92",
-      "lastmod": "2026-10-25"
+      "hash": "9b476bdeb261a902",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/bluemoon.html": {
-      "hash": "bb04d917f29fb26c",
-      "lastmod": "2026-10-13"
+      "hash": "89ddf543612d27b0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/bullethead.html": {
       "hash": "2a39ebccfa55db22",
@@ -2918,16 +3058,16 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/collector-leviathan.html": {
-      "hash": "aae1bbcba6385299",
-      "lastmod": "2026-10-26"
+      "hash": "020ac60a4ea783b0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/coral-crab.html": {
-      "hash": "1a3f95a1ce45f46c",
-      "lastmod": "2026-10-11"
+      "hash": "e2e637e32c43477f",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/dead-coral-crab.html": {
-      "hash": "a369fb28d0eb201a",
-      "lastmod": "2026-10-26"
+      "hash": "fa8e779ce5ec0518",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/deepwing-brooder.html": {
       "hash": "c3331adb40f7857f",
@@ -2938,40 +3078,40 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/flash-slug.html": {
-      "hash": "6299193e51fb09f4",
-      "lastmod": "2026-10-20"
+      "hash": "6f869fd83e582979",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/foureye.html": {
-      "hash": "6a51b4e9adf82036",
-      "lastmod": "2026-10-11"
+      "hash": "59d106ab3029d23a",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/geordie.html": {
-      "hash": "b5bb42b66ac17c96",
-      "lastmod": "2026-10-20"
+      "hash": "b836a1bee467aad4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/halfmoon.html": {
-      "hash": "a3e0f5bff0ff0290",
-      "lastmod": "2026-10-13"
+      "hash": "be58f321df7dca76",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/hammerhead.html": {
-      "hash": "fafc9c9925044fe2",
-      "lastmod": "2026-10-21"
+      "hash": "495e94d4b6d09edc",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/harvestmoon.html": {
-      "hash": "ce48088502107680",
-      "lastmod": "2026-10-20"
+      "hash": "cac6e74d1df950e4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/houndgar.html": {
       "hash": "e207bb61902f7147",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/hoverthorn.html": {
-      "hash": "ef830be9900f550c",
-      "lastmod": "2026-10-13"
+      "hash": "9948de87baf2bd0c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/hycean.html": {
-      "hash": "c8a0b9de148a2921",
-      "lastmod": "2026-10-25"
+      "hash": "3b5deb27846b569a",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/index.html": {
       "hash": "3b9dffff542b16e9",
@@ -2990,20 +3130,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/needler-mango.html": {
-      "hash": "1056c335f2715f63",
-      "lastmod": "2026-10-11"
+      "hash": "3cc37d436e100561",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/nibbler-mango.html": {
-      "hash": "d381761717a92419",
-      "lastmod": "2026-10-11"
+      "hash": "561a7efa8a8b6d50",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/periscopic-clowncrab.html": {
       "hash": "a36930f5411acdad",
       "lastmod": "2026-10-20"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/pneuma.html": {
-      "hash": "0b43049cd7ee221d",
-      "lastmod": "2026-10-13"
+      "hash": "68497950d0da5067",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/ringbearer-krill.html": {
       "hash": "aac78e93892e4fa5",
@@ -3022,20 +3162,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/surge-jelly.html": {
-      "hash": "b1125f308041ffcf",
-      "lastmod": "2026-10-11"
+      "hash": "04090428def8d681",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/twin-sitaray.html": {
-      "hash": "496a79b0388831a8",
-      "lastmod": "2026-10-20"
+      "hash": "cedf5416a710834f",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/water-slug.html": {
-      "hash": "ec670938ad78900e",
-      "lastmod": "2026-10-20"
+      "hash": "0a774367f5778373",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/creatures/waxmoon.html": {
-      "hash": "d757faedb2b67e9d",
-      "lastmod": "2026-10-11"
+      "hash": "4fe437bf8b4c2716",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/acid-raion.html": {
       "hash": "ce26c943d2bb0dd4",
@@ -3057,9 +3197,21 @@
       "hash": "7ade2e7269f0db67",
       "lastmod": "2026-10-20"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/alterra-rug.html": {
+      "hash": "f21abebc1b70c2a0",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/atacamite.html": {
       "hash": "3ab987ea141e5121",
       "lastmod": "2026-10-13"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/axum-barrel.html": {
+      "hash": "d36a4b0dd5df9706",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/axum-crate.html": {
+      "hash": "2dcd917bd50f9f83",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/axum-ingot.html": {
       "hash": "544d8726e818d3a8",
@@ -3081,10 +3233,6 @@
       "hash": "6b39658b76299188",
       "lastmod": "2026-10-20"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/axum-tech-multitool.html": {
-      "hash": "36a4755c3c9df88d",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/axum-trashcan.html": {
       "hash": "4c19c62954229bbf",
       "lastmod": "2026-10-20"
@@ -3102,8 +3250,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/basic-first-aid-kit.html": {
-      "hash": "7da756187b6c497e",
-      "lastmod": "2026-10-11"
+      "hash": "db152b2dd04cb19e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/battery-terminal.html": {
       "hash": "10085284da0e6682",
@@ -3113,29 +3261,21 @@
       "hash": "73d3d8bafbf7d164",
       "lastmod": "2026-10-13"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/big-sub-key-item.html": {
-      "hash": "ae6cca5f719d6891",
-      "lastmod": "2026-10-20"
-    },
-    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/bigsub.html": {
-      "hash": "9cf75ed9c7190c7b",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/biobed.html": {
-      "hash": "ef0446f626efb5d4",
-      "lastmod": "2026-10-13"
+      "hash": "f57a37264f9ece6c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/biofuel-block.html": {
-      "hash": "781ac892a83250e5",
-      "lastmod": "2026-10-11"
+      "hash": "156c215818260d34",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/biolab.html": {
       "hash": "4e7d147c5fd5f7f3",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/bioreactor.html": {
-      "hash": "493b8dbf3d83a335",
-      "lastmod": "2026-10-13"
+      "hash": "6f678f9ad149552f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/bioscanner.html": {
       "hash": "8776eb091166b10c",
@@ -3145,33 +3285,33 @@
       "hash": "7c3001f46f25a4d0",
       "lastmod": "2026-10-20"
     },
-    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/bullfrog-workmech.html": {
-      "hash": "157ea19db9ca5d2c",
-      "lastmod": "2026-10-20"
-    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/carryables-rack.html": {
       "hash": "03fc00d2e81abaa2",
       "lastmod": "2026-10-27"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cavitation-muffler.html": {
-      "hash": "cfdfb2aa89662b52",
-      "lastmod": "2026-10-24"
+      "hash": "9929fee531dae4ac",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/celestine.html": {
-      "hash": "cfc4a62e5c3d88b4",
-      "lastmod": "2026-10-11"
+      "hash": "e06a9d3b1082f8b1",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/chbc-live-poster.html": {
       "hash": "ef1dfd9b28b7ab55",
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cherimoya-chutney.html": {
-      "hash": "6b0ec2eec22995bb",
-      "lastmod": "2026-10-13"
+      "hash": "68527c76745f693d",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cherimoya-rotsac.html": {
-      "hash": "b0846d46614d6fb0",
-      "lastmod": "2026-10-25"
+      "hash": "697543264d69eaab",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/coat-rack.html": {
+      "hash": "2d4322190a2dac2a",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/community-poster-02.html": {
       "hash": "21e52c2e7d60b252",
@@ -3182,40 +3322,44 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-blackthorn.html": {
-      "hash": "e53a08ed8b2aa63b",
-      "lastmod": "2026-10-13"
+      "hash": "fd2980eaf2f3e350",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-bluemoon.html": {
-      "hash": "aac79fc62a41dd96",
-      "lastmod": "2026-10-13"
+      "hash": "49e9e54bba4554de",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-electric-geordie.html": {
-      "hash": "2fcca7d9b9c57698",
-      "lastmod": "2026-10-13"
+      "hash": "3b76c81b49845070",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-geordie.html": {
-      "hash": "573a1a909bd6c886",
-      "lastmod": "2026-10-13"
+      "hash": "8464ba2981c8c8d4",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-halfmoon.html": {
-      "hash": "67069a9619700171",
-      "lastmod": "2026-10-13"
+      "hash": "9fddd8c44ffc281f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-harvestmoon.html": {
-      "hash": "32694c5bcb15f7a7",
-      "lastmod": "2026-10-13"
+      "hash": "6f8ca479aaa2d98b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-hoverthorn.html": {
-      "hash": "6c687817298e5f86",
-      "lastmod": "2026-10-13"
+      "hash": "3b20edf87e1c422b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-pneuma.html": {
-      "hash": "7a0827f8184c9ab9",
-      "lastmod": "2026-10-13"
+      "hash": "16d1d239778cf565",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-quadrate.html": {
-      "hash": "8939bf5ec0898707",
-      "lastmod": "2026-10-13"
+      "hash": "0f6c80ba0a73d635",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/cooked-sea-olive.html": {
+      "hash": "4503e5fb08701c42",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/copper-ingot.html": {
       "hash": "730a295fc8bc01be",
@@ -3234,8 +3378,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/coral-mash.html": {
-      "hash": "82e516a93f9f9713",
-      "lastmod": "2026-10-13"
+      "hash": "445fec116c82da6c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/corridor.html": {
       "hash": "68a877bfdc4ad96a",
@@ -3270,8 +3414,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/distraction-flare.html": {
-      "hash": "90b466fc74b800bc",
-      "lastmod": "2026-10-11"
+      "hash": "d4b4ce2810df9cf9",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/dive-elevator.html": {
       "hash": "376a26a4e23f449f",
@@ -3285,17 +3429,21 @@
       "hash": "816f22c8e661da3a",
       "lastmod": "2026-10-20"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/emt-tool.html": {
+      "hash": "e7bd7ed1496ae619",
+      "lastmod": "2026-11-08"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/enameled-glass.html": {
       "hash": "24c08671de471fc4",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/engine-efficiency.html": {
-      "hash": "6979790643f63e20",
-      "lastmod": "2026-10-11"
+      "hash": "692eee87843f94d9",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/enhanced-first-aid-kit.html": {
-      "hash": "7644f608115d77cf",
-      "lastmod": "2026-10-11"
+      "hash": "4476e6562c545048",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/entangled-power-cell.html": {
       "hash": "4aae9c2e64843e19",
@@ -3306,12 +3454,12 @@
       "lastmod": "2026-10-20"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/exterior-wall-light.html": {
-      "hash": "ee15fd170399e75c",
-      "lastmod": "2026-10-13"
+      "hash": "a47f5116a16b514e",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/fabricator.html": {
-      "hash": "52a40697264d199d",
-      "lastmod": "2026-10-13"
+      "hash": "5fd5c36c4027db10",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/feedback-resonator.html": {
       "hash": "d4d9e247b4945ce5",
@@ -3322,12 +3470,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/fiber.html": {
-      "hash": "6ba7f8842db9ade3",
-      "lastmod": "2026-10-11"
+      "hash": "4abf521ebc4d8879",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/flashlight.html": {
-      "hash": "482f7546cc9eda3b",
-      "lastmod": "2026-10-11"
+      "hash": "560b7cf6c1e338b8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/floor-locker.html": {
       "hash": "b0c8821561a5156d",
@@ -3358,8 +3506,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/graphene-ingot.html": {
-      "hash": "778d469953d235c2",
-      "lastmod": "2026-10-20"
+      "hash": "63075fc480a073cb",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/grease.html": {
       "hash": "26599b96d2518189",
@@ -3378,12 +3526,12 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/half-round-room.html": {
-      "hash": "83a0ccda3ec92b58",
-      "lastmod": "2026-10-13"
+      "hash": "350b76108410573c",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/halfmoon-jerky.html": {
-      "hash": "62a781a00cc18136",
-      "lastmod": "2026-10-13"
+      "hash": "3e5bb4f6650f1cbc",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/hanging-tailing-jar.html": {
       "hash": "ca28742bbcd87745",
@@ -3394,16 +3542,16 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/high-capacity-air-tank.html": {
-      "hash": "aefdd6a6daf6e390",
-      "lastmod": "2026-10-13"
+      "hash": "56a6cdc52a9bfbde",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/high-capacity-deployable-locker.html": {
       "hash": "d32ec2e5f41c6180",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/hoverthorn-souvlaki.html": {
-      "hash": "37782e4651441c20",
-      "lastmod": "2026-10-13"
+      "hash": "03733032dcce4217",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/hydroelectric-turbine.html": {
       "hash": "bd1cc881abefbecd",
@@ -3414,16 +3562,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/index.html": {
-      "hash": "398c6f53c711eea8",
-      "lastmod": "2026-10-13"
+      "hash": "56b191580551a274",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/interior-arch.html": {
-      "hash": "71ee418e0b8127ad",
-      "lastmod": "2026-10-13"
+      "hash": "2cd1df9fb52f56d1",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/interior-door.html": {
       "hash": "4b1018335bbd6249",
       "lastmod": "2026-10-13"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/interior-wall.html": {
+      "hash": "6670d3060c83ee56",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/isotonic-water.html": {
       "hash": "b15c62fe6bf48506",
@@ -3452,6 +3604,10 @@
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/lead.html": {
       "hash": "14d011d3c5d7d8f8",
       "lastmod": "2026-10-11"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/leapfrog-pistons.html": {
+      "hash": "664e42879071dbae",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/leviathanawakens-poster.html": {
       "hash": "e1ccbe362cec1918",
@@ -3482,16 +3638,24 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/mimic-pylon.html": {
-      "hash": "0e3437fa1fcc88b6",
-      "lastmod": "2026-10-11"
+      "hash": "82c3a7bae48b6c4c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/modification-station.html": {
       "hash": "7e3019b68e63fc76",
       "lastmod": "2026-10-24"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/molten-reactor-fuel-cell.html": {
+      "hash": "08b8d109da6627df",
+      "lastmod": "2026-10-31"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/molten-reactor.html": {
+      "hash": "7f138b2cd530eb5e",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/moonpool.html": {
-      "hash": "a80356405ca0c188",
-      "lastmod": "2026-10-24"
+      "hash": "587549cc24b0d742",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/necrolei-cyst.html": {
       "hash": "30b11f866cdc1edb",
@@ -3506,32 +3670,32 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/nook.html": {
-      "hash": "1b9b19d42d0b9425",
-      "lastmod": "2026-10-13"
+      "hash": "b9f8959985789ff6",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/nutrient-block.html": {
-      "hash": "faadab7ba502dfbd",
-      "lastmod": "2026-10-13"
+      "hash": "d9be0e71825b7bae",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/oily-salad.html": {
-      "hash": "f4cb9dddeba9337f",
-      "lastmod": "2026-10-13"
+      "hash": "8c42afdec587e207",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/painted-tree-poster.html": {
       "hash": "5a7269b0b060b95e",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/pavlova.html": {
-      "hash": "cab0f6c0a88a4b70",
-      "lastmod": "2026-10-13"
+      "hash": "1f4c310b933c7e35",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/pent.html": {
-      "hash": "849d3ec67ef02468",
-      "lastmod": "2026-10-11"
+      "hash": "3f3a8975f948e46b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/photovoltaic-charger.html": {
-      "hash": "15f12baa18f35b3c",
-      "lastmod": "2026-10-24"
+      "hash": "69caae8c5bcba918",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/pioneer-hull-plate.html": {
       "hash": "f5a0ca842b2037bd",
@@ -3544,6 +3708,10 @@
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/plasteel-ingot.html": {
       "hash": "1ccf423c825f7ce1",
       "lastmod": "2026-10-11"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/pool-table.html": {
+      "hash": "76a3d3b4daac2863",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/portable-locker.html": {
       "hash": "90e39f8bdba051e2",
@@ -3589,9 +3757,13 @@
       "hash": "dcb593005e855332",
       "lastmod": "2026-10-11"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/radiothermal-generator.html": {
+      "hash": "d4377b711751813a",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/reaper-leviathan.html": {
-      "hash": "c45605829999eb98",
-      "lastmod": "2026-10-13"
+      "hash": "03932fc1931a4717",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/rebreather.html": {
       "hash": "446d6f29713c004b",
@@ -3610,20 +3782,20 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/resource-crusher.html": {
-      "hash": "401441de1e6e4ecc",
-      "lastmod": "2026-10-13"
+      "hash": "f4a1964893dbd522",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/roof-antenna-large.html": {
       "hash": "5e31118091286441",
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/roof-antenna.html": {
-      "hash": "14f1424ab1f38fff",
-      "lastmod": "2026-10-13"
+      "hash": "c7ff949a2d45de1e",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/roof-cylinder.html": {
-      "hash": "27bc7408dc9fcd73",
-      "lastmod": "2026-10-13"
+      "hash": "e038813eca65f972",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/roof-listening-dish.html": {
       "hash": "facd2ce99c06ea59",
@@ -3638,16 +3810,16 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/roof-pump.html": {
-      "hash": "f40128cc93c4a983",
-      "lastmod": "2026-10-13"
+      "hash": "4019206a6485a5af",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/room.html": {
-      "hash": "d773f8c82f9bdf18",
-      "lastmod": "2026-10-13"
+      "hash": "c04347a2dab35969",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/round-room.html": {
-      "hash": "fef6862c1db32b41",
-      "lastmod": "2026-10-11"
+      "hash": "158e63cb5a31f143",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/rubber.html": {
       "hash": "9aff25f9596dfe93",
@@ -3666,8 +3838,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/scanner-station.html": {
-      "hash": "50772bea62549bff",
-      "lastmod": "2026-10-22"
+      "hash": "55fb199a41efb6aa",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/scanner.html": {
       "hash": "edfd8f652bbe6ad2",
@@ -3718,8 +3890,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/small-crate.html": {
-      "hash": "c380a8ac7cdea9ab",
-      "lastmod": "2026-10-13"
+      "hash": "00a29e5ad8ac25e8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/solar-panel.html": {
       "hash": "a0104241b9a9c8e0",
@@ -3730,8 +3902,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/spotlight.html": {
-      "hash": "0ba071ccef9a5c92",
-      "lastmod": "2026-10-13"
+      "hash": "bcb387fe251259e0",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/standard-air-tank.html": {
       "hash": "5e9fdfa915c0ce2a",
@@ -3746,8 +3918,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/strike-armor.html": {
-      "hash": "9d3068d9b7dfe350",
-      "lastmod": "2026-10-13"
+      "hash": "9029fc3bec70598d",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/strong-acid.html": {
       "hash": "3a6fa5820187d7d6",
@@ -3758,8 +3930,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/sugar-of-saturn.html": {
-      "hash": "8cd7ea435ec69494",
-      "lastmod": "2026-10-13"
+      "hash": "773182607b4e1c92",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/sulfur.html": {
       "hash": "5ef737221dd7a03c",
@@ -3774,12 +3946,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-depth-module-mk-1.html": {
-      "hash": "223fe9f9eee2686e",
-      "lastmod": "2026-10-24"
+      "hash": "4858a9c11ddb4bba",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-depth-module-mk-2.html": {
-      "hash": "eb3d6a3f38888a43",
-      "lastmod": "2026-10-24"
+      "hash": "760cdeab62947e24",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-dock.html": {
       "hash": "e8d47e98feb47a79",
@@ -3789,17 +3961,25 @@
       "hash": "552fde474505845f",
       "lastmod": "2026-10-11"
     },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-rug.html": {
+      "hash": "9c94a3ead3c41074",
+      "lastmod": "2026-10-31"
+    },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-scout-ray-chassis.html": {
-      "hash": "b1c1d8840af7377e",
-      "lastmod": "2026-10-11"
+      "hash": "d6378252d012adce",
+      "lastmod": "2026-11-08"
+    },
+    "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole-seafrog-chassis.html": {
+      "hash": "b61141b02f8a089e",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tadpole.html": {
-      "hash": "32406ad5ed11167c",
-      "lastmod": "2026-10-27"
+      "hash": "926dac9657840372",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tailing-barrel.html": {
-      "hash": "69ce5d78c067f7a3",
-      "lastmod": "2026-10-13"
+      "hash": "beb1e9e38e5b295a",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/tailing-chest.html": {
       "hash": "84f102579062f49a",
@@ -3830,8 +4010,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/threemoon-temaki.html": {
-      "hash": "417d36a72c420f66",
-      "lastmod": "2026-10-13"
+      "hash": "853ec8b066326183",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/time-of-day-display.html": {
       "hash": "572b5098cd86f6f8",
@@ -3854,12 +4034,12 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/troilite.html": {
-      "hash": "ab7e9f084a5b409d",
-      "lastmod": "2026-10-15"
+      "hash": "3045984711708d8f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/ultra-high-capacity-air-tank.html": {
-      "hash": "ead69349875cbf3b",
-      "lastmod": "2026-10-20"
+      "hash": "83a275114ae218ba",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/vehicle-fabricator.html": {
       "hash": "2a7518a3ff18ceed",
@@ -3890,8 +4070,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/wall-unit-large.html": {
-      "hash": "539c62eda3cc1c7d",
-      "lastmod": "2026-10-13"
+      "hash": "077786ef94ea9eb8",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/items/wall-unit-small.html": {
       "hash": "e9fa5fa6a6a01f51",
@@ -3930,8 +4110,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/acidic-raion-pouch.html": {
-      "hash": "e6a83574704a37cd",
-      "lastmod": "2026-10-15"
+      "hash": "b3f00e28d3d754b7",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/atacamite.html": {
       "hash": "fa630c75462e78fa",
@@ -3946,12 +4126,12 @@
       "lastmod": "2026-10-25"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/basic-first-aid-kit.html": {
-      "hash": "715111a03db1033a",
-      "lastmod": "2026-10-11"
+      "hash": "3e5fff289bc7a00f",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/celestine.html": {
-      "hash": "2a2fa8f7dfdf9a0b",
-      "lastmod": "2026-10-11"
+      "hash": "1f13916836a9fcda",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/conduit-crystal.html": {
       "hash": "6133e4b062539e40",
@@ -3966,8 +4146,8 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/crab-feces.html": {
-      "hash": "2d1e1b10aaffbbcc",
-      "lastmod": "2026-10-11"
+      "hash": "8b1293ba6d74a1c8",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/creature-enamel.html": {
       "hash": "841695270b9e67d9",
@@ -4006,16 +4186,16 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/medical-gel-sac.html": {
-      "hash": "1eb88768b9f140ce",
-      "lastmod": "2026-10-11"
+      "hash": "0f8af25be01aa5c2",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/mild-acid.html": {
       "hash": "1d53d6c43141d68a",
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/necrolei-bud.html": {
-      "hash": "248d8224da57ce32",
-      "lastmod": "2026-10-11"
+      "hash": "02e99316154f3fa0",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/plasteel-ingot.html": {
       "hash": "fbbaa98ee00e4ead",
@@ -4058,8 +4238,8 @@
       "lastmod": "2026-10-13"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/troilite.html": {
-      "hash": "102fd9bff5025b77",
-      "lastmod": "2026-10-15"
+      "hash": "365276400279774c",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/resources/water.html": {
       "hash": "421f9f329fb3d932",
@@ -4074,24 +4254,24 @@
       "lastmod": "2026-10-11"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/vehicles/tadpole-scout-ray-chassis.html": {
-      "hash": "0ac503a8a2f80ea7",
-      "lastmod": "2026-10-11"
+      "hash": "f3b338e8a3bbc26b",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/guide/vehicles/tadpole.html": {
-      "hash": "f6bf56f1ee21a25a",
-      "lastmod": "2026-10-27"
+      "hash": "30eab034e03b2150",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/": {
-      "hash": "b29fddfb183dfc7e",
-      "lastmod": "2026-10-27"
+      "hash": "eb46e3733df8abd8",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/locations.html": {
-      "hash": "eeaf2fcf4ba9153b",
-      "lastmod": "2026-10-26"
+      "hash": "68dae5749bb0bec3",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/oxygen.html": {
-      "hash": "e53519a75dbf2fe0",
-      "lastmod": "2026-10-26"
+      "hash": "1d81a59b0f179797",
+      "lastmod": "2026-10-31"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/questions.html": {
       "hash": "e7348dd66dc893d2",
@@ -4190,40 +4370,40 @@
       "lastmod": "2026-09-21"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/resources.html": {
-      "hash": "20b03c64c0867f0c",
-      "lastmod": "2026-10-27"
+      "hash": "7a5cd6c8db1cc5e6",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/sources.html": {
-      "hash": "1c803d8068cba266",
-      "lastmod": "2026-10-27"
+      "hash": "255fcd0f98c5b5da",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/starter-materials.html": {
-      "hash": "648121e354f03fea",
-      "lastmod": "2026-10-20"
+      "hash": "d40b320dad4163de",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/starter-planner.html": {
-      "hash": "a71ff548ebe24308",
-      "lastmod": "2026-10-20"
+      "hash": "f76c6e7ea5bea474",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/story.html": {
-      "hash": "77ba9ad47a3ebfc2",
-      "lastmod": "2026-10-27"
+      "hash": "a1a579df2236e701",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/tools.html": {
-      "hash": "b930f6085bffe7b2",
-      "lastmod": "2026-10-27"
+      "hash": "4fff646b006c8c33",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/tools/tadpole-calculator.html": {
       "hash": "b009c95a804662b0",
       "lastmod": "2026-09-21"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/vehicle-planner.html": {
-      "hash": "3e75ce7bbf599d3d",
-      "lastmod": "2026-10-27"
+      "hash": "416c454947d19aa6",
+      "lastmod": "2026-11-08"
     },
     "https://specialzhou.github.io/subnautica-2-guide/ru/vehicles.html": {
-      "hash": "80acac411325c8d6",
-      "lastmod": "2026-10-27"
+      "hash": "bf51bec4a1f6cfda",
+      "lastmod": "2026-11-08"
     }
   }
 }

@@ -1,6 +1,6 @@
 # 玩家问题候选审核
 
-采集时间：2026-11-08T11:56:08.869Z
+采集时间：2026-11-09T13:54:29.776Z
 
 这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。
 
@@ -55,7 +55,7 @@
 | 7 | 11 | 1 | system-review | [What are these repairable boxes for?](https://www.reddit.com/r/subnautica/comments/1xdcvsa/what_are_these_repairable_boxes_for/) | — | 0.33 | 1 | 22 | [What is the personal storage box actually useful for?](https://specialzhou.github.io/subnautica-2-guide/questions/personal-storage-use.html); [How do I permanently expand my inventory and hotbar?](https://specialzhou.github.io/subnautica-2-guide/questions/expand-inventory-with-hacked-biobeds.html) | r/Subnautica |
 | 36 | 11 | 1 | system-review | [How good/finished is Subnautica 2 story mode so far? (No spoilers please)](https://www.reddit.com/r/subnautica/comments/1wygq45/how_goodfinished_is_subnautica_2_story_mode_so/) | — | 0.25 | 1 | 21 | [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html); [How can I cross the Collector canyon without losing my Tadpole?](https://specialzhou.github.io/subnautica-2-guide/questions/cross-collector-canyon-safely.html); [Not enough power for base?](https://specialzhou.github.io/subnautica-2-guide/questions/base-not-enough-power.html) | r/Subnautica |
 | 15 | 7 | 1 | system-review | [What to do in the game ?](https://www.reddit.com/r/subnautica/comments/1xb25t5/what_to_do_in_the_game/) | — | 1 | 1 | 21 | [Where is the large habitat shown in the trailer?](https://specialzhou.github.io/subnautica-2-guide/questions/trailer-location-not-in-game.html); [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html); [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html) | r/Subnautica |
-| 10 | 15 | 1 | system-review | [Subnautica 2 vehicle fabricator woes: please help](https://www.reddit.com/r/subnautica/comments/1wzy2p4/subnautica_2_vehicle_fabricator_woes_please_help/) | — | 0.4 | 0 | 21 | [Vehicle Fabricator](https://specialzhou.github.io/subnautica-2-guide/guide/items/vehicle-fabricator.html); [Bullfrog Workmech](https://specialzhou.github.io/subnautica-2-guide/guide/items/bullfrog-workmech.html); [Tadpole](https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole.html) | r/Subnautica |
+| 10 | 15 | 1 | system-review | [Subnautica 2 vehicle fabricator woes: please help](https://www.reddit.com/r/subnautica/comments/1wzy2p4/subnautica_2_vehicle_fabricator_woes_please_help/) | — | 0.4 | 0 | 21 | [Vehicle Fabricator](https://specialzhou.github.io/subnautica-2-guide/guide/items/vehicle-fabricator.html); [Tadpole](https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole.html); [Tadpole Haul Chassis](https://specialzhou.github.io/subnautica-2-guide/guide/items/tadpole-haul-chassis.html) | r/Subnautica |
 | 65 | 10 | 1 | system-review | [What is the point of camera drones?](https://www.reddit.com/r/subnautica/comments/1xlsuv4/what_is_the_point_of_camera_drones/) | — | 0.33 | 1 | 20 | [Key locations](https://specialzhou.github.io/subnautica-2-guide/locations.html); [How do I permanently expand my inventory and hotbar?](https://specialzhou.github.io/subnautica-2-guide/questions/expand-inventory-with-hacked-biobeds.html); [Need help finding Moonpool fragments](https://specialzhou.github.io/subnautica-2-guide/questions/moonpool-fragments-location.html) | r/Subnautica |
 | 24 | 10 | 1 | system-review | [weird question, but how do i get more scared?](https://www.reddit.com/r/subnautica/comments/1xcmiwe/weird_question_but_how_do_i_get_more_scared/) | — | 0.33 | 1 | 20 | [How can I cross the Collector canyon without losing my Tadpole?](https://specialzhou.github.io/subnautica-2-guide/questions/cross-collector-canyon-safely.html); [How do I get this biomod?](https://specialzhou.github.io/subnautica-2-guide/questions/how-to-get-biomod.html); [Why isn't Biofilm respawning for a re-bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/rebioscan-biofilm-not-respawning.html) | r/Subnautica |
 | 22 | 9 | 1 | system-review | [How do I open this door?](https://www.reddit.com/r/subnautica/comments/1xcytjw/how_do_i_open_this_door/) | — | 0.5 | 1 | 20 | [Interior Door](https://specialzhou.github.io/subnautica-2-guide/guide/items/interior-door.html); [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html); [Where is the lever after powering the Axum station?](https://specialzhou.github.io/subnautica-2-guide/questions/axum-lever-location.html) | r/Subnautica |
@@ -94,7 +94,7 @@
 ## 候选证据审核
 
 - 队列总数：80
-- 可生成回复草稿（ready-to-reply）：28（本次自动放行 1，回退 0，人工保留 7）
+- 可生成回复草稿（ready-to-reply）：28（本次自动放行 0，回退 0，人工保留 7）
 - 仍待审核（system-review）：52
 
 本轮可出水的问题：

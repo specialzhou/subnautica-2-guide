@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:11:54.051Z",
+  "generatedAt": "2026-11-12T11:29:44.082Z",
   "count": 350,
   "entries": [
     {
@@ -3756,7 +3756,7 @@
       "title": "Collection Zone",
       "type": "Biome",
       "href": "guide/biomes/collection-zone.html",
-      "terms": "Collection Zone 520 - 660m",
+      "terms": "Collection Zone 520 - 660m Cicada Wreck (FROG Bay) Collector Trove Leviathan Harp",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Collection_Zone.png/720px-Collection_Zone.png?da5bf",
       "localizedTitles": {
         "zh-cn": "Collection Zone",
@@ -4761,15 +4761,15 @@
       "title": "Tar Flats",
       "type": "Biome",
       "href": "guide/biomes/tar-flats.html",
-      "terms": "Tar Flats 350m",
+      "terms": "Tar Flats 350m Axum Shed Shattered Dam Tar Flats Wreck 1 Trident",
       "image": "https://wiki.subnautica.com/sn2/images/thumb/Tar_Flats.png/720px-Tar_Flats.png?43054",
       "localizedTitles": {
         "zh-cn": "Tar Flats",
         "ru": "Tar Flats"
       },
       "localizedTerms": {
-        "zh-cn": "Tar Flats",
-        "ru": "Tar Flats"
+        "zh-cn": "Tar Flats 三叉戟",
+        "ru": "Tar Flats Трезубец"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-11T11:11:54.051Z",
+  "generatedAt": "2026-11-12T11:29:44.082Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -439,10 +439,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collection_Zone",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collection_Zone&oldid=27908",
-        "revisionId": 27908,
-        "revisionTimestamp": "2026-11-09T04:04:09Z",
-        "fetchedAt": "2026-11-09T11:49:14.510Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collection_Zone&oldid=27988",
+        "revisionId": 27988,
+        "revisionTimestamp": "2026-11-11T20:14:15Z",
+        "fetchedAt": "2026-11-12T11:29:46.170Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -450,7 +450,11 @@
       },
       "facts": {
         "depth": "520 - 660m",
-        "pointsOfInterest": []
+        "pointsOfInterest": [
+          "Cicada Wreck (FROG Bay)",
+          "Collector Trove",
+          "Leviathan Harp"
+        ]
       },
       "media": {
         "fileName": "Collection Zone.png",
@@ -3103,10 +3107,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tar_Flats",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Flats&oldid=27907",
-        "revisionId": 27907,
-        "revisionTimestamp": "2026-11-09T03:54:05Z",
-        "fetchedAt": "2026-11-09T11:49:14.509Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Flats&oldid=27989",
+        "revisionId": 27989,
+        "revisionTimestamp": "2026-11-11T20:15:49Z",
+        "fetchedAt": "2026-11-12T11:29:46.170Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3114,7 +3118,12 @@
       },
       "facts": {
         "depth": "350m",
-        "pointsOfInterest": []
+        "pointsOfInterest": [
+          "Axum Shed",
+          "Shattered Dam",
+          "Tar Flats Wreck 1",
+          "Trident"
+        ]
       },
       "media": {
         "fileName": "Tar Flats.png",

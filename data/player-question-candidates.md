@@ -1,6 +1,6 @@
 # 玩家问题候选审核
 
-采集时间：2026-11-12T13:46:01.665Z
+采集时间：2026-11-13T13:07:07.650Z
 
 这里只包含 RSS 自动发现的候选。评论数为近似值；点赞数必须通过 Reddit 登录态核对。本文件中的内容不会自动发布到攻略站。
 
@@ -75,6 +75,7 @@
 | 15 | 11 | 1 | system-review | [How to progress quicker?](https://www.reddit.com/r/subnautica/comments/1xp1n4e/how_to_progress_quicker/) | — | 0 | 1 | 17 | — | r/Subnautica |
 | 14 | 9 | 1 | system-review | [Where do people find friends to play with?](https://www.reddit.com/r/Subnautica_2/comments/1xtocq8/where_do_people_find_friends_to_play_with/) | — | 0.25 | 1 | 17 | [Find starter materials](https://specialzhou.github.io/subnautica-2-guide/starter-materials.html); [Where can I find a Sandspear for the bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/where-to-find-sandspear.html); [Help with multiplayer](https://specialzhou.github.io/subnautica-2-guide/questions/multiplayer-how-it-works.html) | r/Subnautica_2 |
 | 6 | 9 | 1 | system-review | [Alien Containment Stuck Fish](https://www.reddit.com/r/subnautica/comments/1xgk31a/alien_containment_stuck_fish/) | — | 0.25 | 1 | 17 | [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html) | r/Subnautica |
+| 33 | 9 | 1 | system-review | [What are some of your top biome wishes?](https://www.reddit.com/r/Subnautica_2/comments/1xuluiq/what_are_some_of_your_top_biome_wishes/) | — | 0.2 | 1 | 16 | [Why isn't Biofilm respawning for a re-bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/rebioscan-biofilm-not-respawning.html); [How do I permanently expand my inventory and hotbar?](https://specialzhou.github.io/subnautica-2-guide/questions/expand-inventory-with-hacked-biobeds.html); [Key locations](https://specialzhou.github.io/subnautica-2-guide/locations.html) | r/Subnautica_2 |
 | 31 | 7 | 1 | system-review | [How’d we get here?](https://www.reddit.com/r/Subnautica_2/comments/1xmitlm/howd_we_get_here/) | — | 0.5 | 1 | 16 | [Start here](https://specialzhou.github.io/subnautica-2-guide/starter-planner.html); [How do I get this biomod?](https://specialzhou.github.io/subnautica-2-guide/questions/how-to-get-biomod.html) | r/Subnautica_2 |
 | 20 | 9 | 1 | system-review | [What's your opinion of Nahema Nakota as a character? How do you feel about her?](https://www.reddit.com/r/subnautica/comments/1xgj5su/whats_your_opinion_of_nahema_nakota_as_a/) | — | 0.22 | 1 | 16 | [How do I permanently expand my inventory and hotbar?](https://specialzhou.github.io/subnautica-2-guide/questions/expand-inventory-with-hacked-biobeds.html); [Where can I find a Sandspear for the bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/where-to-find-sandspear.html); [How do I bioscan the Collector Leviathan safely?](https://specialzhou.github.io/subnautica-2-guide/questions/scan-collector-leviathan-safely.html) | r/Subnautica |
 | 18 | 9 | 1 | system-review | [Prawn Suit stuck in Jellyshroom Caves](https://www.reddit.com/r/subnautica/comments/1x3a2ws/prawn_suit_stuck_in_jellyshroom_caves/) | — | 0.2 | 1 | 16 | [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html); [Gold](https://specialzhou.github.io/subnautica-2-guide/guide/items/gold.html); [Lithium](https://specialzhou.github.io/subnautica-2-guide/guide/items/lithium.html) | r/Subnautica |
@@ -89,7 +90,6 @@
 | 3 | 12 | 1 | system-review | [Crazy coincidental discovery (Bug/Feature......but plz be a feature, lol)](https://www.reddit.com/r/subnautica/comments/1xh0ky1/crazy_coincidental_discovery_bugfeaturebut_plz_be/) | — | 0.22 | 0 | 15 | [Why isn't Biofilm respawning for a re-bioscan?](https://specialzhou.github.io/subnautica-2-guide/questions/rebioscan-biofilm-not-respawning.html); [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html); [How can I cross the Collector canyon without losing my Tadpole?](https://specialzhou.github.io/subnautica-2-guide/questions/cross-collector-canyon-safely.html) | r/Subnautica |
 | 1 | 12 | 1 | system-review | [Help with game voice chat?(xbox)](https://www.reddit.com/r/Subnautica_2/comments/1xqkuzk/help_with_game_voice_chatxbox/) | — | 0.25 | 0 | 15 | [Where is the large habitat shown in the trailer?](https://specialzhou.github.io/subnautica-2-guide/questions/trailer-location-not-in-game.html); [Why won't the last Angel Comb cankers open?](https://specialzhou.github.io/subnautica-2-guide/questions/angel-comb-main-cankers-stuck.html); [Why does Subnautica 2 keep crashing with LiveKernelEvent 141 on an HP Omen laptop?](https://specialzhou.github.io/subnautica-2-guide/questions/livekernelevent-141-hp-omen-crash.html) | r/Subnautica_2 |
 | 32 | 8 | 1 | system-review | [How far from life pod is the void](https://www.reddit.com/r/subnautica/comments/1x2tixc/how_far_from_life_pod_is_the_void/) | — | 0.2 | 1 | 14 | [New Life Poster](https://specialzhou.github.io/subnautica-2-guide/guide/items/new-life-poster.html); [Void](https://specialzhou.github.io/subnautica-2-guide/guide/biomes/void.html); [How can I cross the Collector canyon without losing my Tadpole?](https://specialzhou.github.io/subnautica-2-guide/questions/cross-collector-canyon-safely.html) | r/Subnautica |
-| 29 | 7 | 1 | system-review | [is this normal?](https://www.reddit.com/r/subnautica/comments/1x1tt45/is_this_normal/) | — | 1 | 0 | 14 | [Not enough power for base?](https://specialzhou.github.io/subnautica-2-guide/questions/base-not-enough-power.html) | r/Subnautica |
 
 ## 候选证据审核
 
@@ -112,7 +112,7 @@
 
 卡住原因分布：
 
-- 标题与目标页匹配度过低：34
+- 标题与目标页匹配度过低：35
 - 共享实词太少（可能只是通用词撞车）：30
 - 目标页标题与问题无实词重叠：27
 - 站点索引里没有可匹配的页面：1

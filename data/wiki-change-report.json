@@ -1,31 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-11T11:11:50.739Z",
+  "detectedAt": "2026-11-13T11:14:28.118Z",
   "changes": [
     {
-      "id": "reaper-leviathan",
-      "title": "Reaper Leviathan",
+      "id": "molten-reactor-fuel-cell",
+      "title": "Molten Reactor Fuel Cell",
       "change": "updated",
-      "previousRevisionId": 27266,
-      "revisionId": 27953,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "survival-multitool",
-      "title": "Survival Multitool",
-      "change": "updated",
-      "previousRevisionId": 24936,
-      "revisionId": 27945,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "work-light",
-      "title": "Work Light",
-      "change": "updated",
-      "previousRevisionId": 23235,
-      "revisionId": 27971,
+      "previousRevisionId": 26500,
+      "revisionId": 27997,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

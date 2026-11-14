@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-11-14T11:20:44.469Z",
-  "lastRunAt": "2026-11-14T11:20:44.469Z",
-  "lastOpportunityAt": "2026-11-14T11:20:44.469Z",
+  "updatedAt": "2026-11-14T14:14:42.256Z",
+  "lastRunAt": "2026-11-14T14:14:42.256Z",
+  "lastOpportunityAt": "2026-11-14T14:14:42.256Z",
   "dryRunStreak": 0,
   "seenOpportunityKeys": [
     "1uu1fdr:angel-comb-main-cankers-stuck",
@@ -39,6 +39,9 @@
     "1xsf8j9:dup:angel-comb-main-cankers-stuck",
     "1xg58q0:page:guide/items/titanium.html",
     "1xcytjw:page:guide/items/interior-door.html",
-    "1wzy2p4:page:guide/items/vehicle-fabricator.html"
+    "1wzy2p4:page:guide/items/vehicle-fabricator.html",
+    "1wzqh0y:page:starter-planner.html",
+    "1xf6b2e:page:equipment-upgrades.html",
+    "1x3lu1t:page:base-building.html"
   ]
 }

@@ -27,8 +27,8 @@
   },
   "counts": {
     "total": 80,
-    "systemReview": 51,
-    "readyToReply": 29,
+    "systemReview": 45,
+    "readyToReply": 35,
     "dismissed": 0,
     "addedThisRun": 2,
     "autoPromotedThisRun": 0,
@@ -2326,14 +2326,12 @@
       "redditId": "1xf6b2e",
       "firstSeenAt": "2026-10-28T11:20:49.902Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-13T13:07:07.650Z",
-        "holdReasons": [
-          "no-title-token-overlap"
-        ]
+        "reviewedAt": "2026-11-14T11:19:55.244Z",
+        "evidencePage": "equipment-upgrades.html",
+        "notes": "人工分诊放行（2026-11-14）：站长确认 equipment-upgrades.html 可答；匹配器误拦原因：no-title-token-overlap。"
       },
       "attention": {
         "upvotes": null,
@@ -2373,7 +2371,10 @@
         }
       ],
       "priorityScore": 30,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "equipment-upgrades.html"
+      ]
     },
     {
       "redditId": "1xaqvgp",
@@ -2428,14 +2429,12 @@
       "redditId": "1x3lu1t",
       "firstSeenAt": "2026-10-12T13:10:46.153Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-13T13:07:07.650Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "reviewedAt": "2026-11-14T11:19:55.244Z",
+        "evidencePage": "base-building.html",
+        "notes": "人工分诊放行（2026-11-14）：站长确认 base-building.html 可答；匹配器误拦原因：too-few-shared-tokens。"
       },
       "attention": {
         "upvotes": null,
@@ -2477,7 +2476,10 @@
         }
       ],
       "priorityScore": 30,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "base-building.html"
+      ]
     },
     {
       "redditId": "1x9o4a2",
@@ -2650,14 +2652,12 @@
       "redditId": "1xg58q0",
       "firstSeenAt": "2026-10-28T11:20:49.902Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-13T13:07:07.650Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "reviewedAt": "2026-11-14T11:19:55.244Z",
+        "evidencePage": "guide/items/titanium.html",
+        "notes": "人工分诊放行（2026-11-14）：站长确认 guide/items/titanium.html 可答；匹配器误拦原因：too-few-shared-tokens。"
       },
       "attention": {
         "upvotes": null,
@@ -2699,7 +2699,10 @@
         }
       ],
       "priorityScore": 27,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "guide/items/titanium.html"
+      ]
     },
     {
       "redditId": "1xgtuho",
@@ -3086,14 +3089,12 @@
       "redditId": "1wzy2p4",
       "firstSeenAt": "2026-10-12T13:10:46.153Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-13T13:07:07.650Z",
-        "holdReasons": [
-          "match-score-too-low"
-        ]
+        "reviewedAt": "2026-11-14T11:19:55.244Z",
+        "evidencePage": "guide/items/vehicle-fabricator.html",
+        "notes": "人工分诊放行（2026-11-14）：站长确认 guide/items/vehicle-fabricator.html 可答；匹配器误拦原因：match-score-too-low。"
       },
       "attention": {
         "upvotes": null,
@@ -3136,7 +3137,10 @@
         }
       ],
       "priorityScore": 21,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "guide/items/vehicle-fabricator.html"
+      ]
     },
     {
       "redditId": "1xlsuv4",
@@ -3253,14 +3257,12 @@
       "redditId": "1xcytjw",
       "firstSeenAt": "2026-10-25T09:48:56.348Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-13T13:07:07.650Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "reviewedAt": "2026-11-14T11:19:55.244Z",
+        "evidencePage": "guide/items/interior-door.html",
+        "notes": "人工分诊放行（2026-11-14）：站长确认 guide/items/interior-door.html 可答；匹配器误拦原因：too-few-shared-tokens。"
       },
       "attention": {
         "upvotes": null,
@@ -3300,7 +3302,10 @@
         }
       ],
       "priorityScore": 20,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "guide/items/interior-door.html"
+      ]
     },
     {
       "redditId": "1x2yb3j",
@@ -4558,14 +4563,12 @@
       "redditId": "1wzqh0y",
       "firstSeenAt": "2026-10-12T13:10:46.153Z",
       "review": {
-        "state": "system-review",
-        "answerStatus": "evidence-thin",
-        "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
+        "state": "ready-to-reply",
+        "answerStatus": "evidence-verified",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-13T13:07:07.650Z",
-        "holdReasons": [
-          "too-few-shared-tokens"
-        ]
+        "reviewedAt": "2026-11-14T11:19:55.244Z",
+        "evidencePage": "starter-planner.html",
+        "notes": "人工分诊放行（2026-11-14）：站长确认 starter-planner.html 可答；匹配器误拦原因：too-few-shared-tokens。"
       },
       "attention": {
         "upvotes": null,
@@ -4595,7 +4598,10 @@
         }
       ],
       "priorityScore": 15,
-      "possibleDuplicateOf": null
+      "possibleDuplicateOf": null,
+      "relatedPages": [
+        "starter-planner.html"
+      ]
     },
     {
       "redditId": "1xljbuq",

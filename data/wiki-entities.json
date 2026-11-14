@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-12T11:29:44.082Z",
+  "generatedAt": "2026-11-14T10:40:10.429Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -2213,10 +2213,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Overgrown_Ruins",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Overgrown_Ruins&oldid=25850",
-        "revisionId": 25850,
-        "revisionTimestamp": "2026-10-25T19:19:20Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Overgrown_Ruins&oldid=28038",
+        "revisionId": 28038,
+        "revisionTimestamp": "2026-11-14T05:33:39Z",
+        "fetchedAt": "2026-11-14T10:40:12.931Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2224,7 +2224,12 @@
       },
       "facts": {
         "depth": "210 meters",
-        "pointsOfInterest": []
+        "pointsOfInterest": [
+          "Axum Observatory",
+          "Needler Nest",
+          "Research Outpost",
+          "Rosetta Stone"
+        ]
       },
       "media": {
         "fileName": "Overgrown Ruins.png",

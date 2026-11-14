@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-13T11:14:28.118Z",
+  "detectedAt": "2026-11-14T10:40:07.978Z",
   "changes": [
     {
-      "id": "molten-reactor-fuel-cell",
-      "title": "Molten Reactor Fuel Cell",
+      "id": "acid-raion",
+      "title": "Acid Raion",
       "change": "updated",
-      "previousRevisionId": 26500,
-      "revisionId": 27997,
+      "previousRevisionId": 23856,
+      "revisionId": 28034,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-14T10:40:07.978Z",
+  "generatedAt": "2026-11-16T11:44:15.005Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -10569,10 +10569,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Thermal_Plant",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Thermal_Plant&oldid=24724",
-        "revisionId": 24724,
-        "revisionTimestamp": "2026-10-12T11:30:15Z",
-        "fetchedAt": "2026-10-13T10:47:01.475Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Thermal_Plant&oldid=28076",
+        "revisionId": 28076,
+        "revisionTimestamp": "2026-11-16T03:10:30Z",
+        "fetchedAt": "2026-11-16T11:44:17.366Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -11862,10 +11862,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/World_Tree_Relic",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree_Relic&oldid=24730",
-        "revisionId": 24730,
-        "revisionTimestamp": "2026-10-12T11:32:52Z",
-        "fetchedAt": "2026-10-13T10:47:01.477Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=World_Tree_Relic&oldid=28075",
+        "revisionId": 28075,
+        "revisionTimestamp": "2026-11-16T03:08:02Z",
+        "fetchedAt": "2026-11-16T11:44:17.367Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

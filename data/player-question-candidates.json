@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "collectedAt": "2026-11-16T13:39:23.744Z",
+  "collectedAt": "2026-11-17T14:24:18.573Z",
   "source": {
     "platform": "Reddit",
     "subreddit": "r/Subnautica_2",
@@ -19,7 +19,7 @@
   },
   "detailCursor": 0,
   "collection": {
-    "attemptedAt": "2026-11-16T13:39:23.744Z",
+    "attemptedAt": "2026-11-17T14:24:18.573Z",
     "entriesCollected": 100,
     "degraded": false,
     "reason": null,
@@ -30,13 +30,11 @@
     "systemReview": 45,
     "readyToReply": 35,
     "dismissed": 0,
-    "addedThisRun": 5,
+    "addedThisRun": 2,
     "autoPromotedThisRun": 0,
     "autoRevokedThisRun": 0
   },
   "seenRedditIds": [
-    "1vwccdo",
-    "1vwaxnn",
     "1vw8yhy",
     "1vw5uhl",
     "1vw3dai",
@@ -534,7 +532,9 @@
     "1xxi56q",
     "1xxdi0i",
     "1xx2hvq",
-    "1xwz56a"
+    "1xwz56a",
+    "1xylmbm",
+    "1xy7dei"
   ],
   "candidates": [
     {
@@ -1069,7 +1069,7 @@
       "questionKey": "experimental release base fragments",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1xpseg4/experimental_release_base_fragments/",
       "publishedAt": "2026-11-07T00:11:47+00:00",
-      "lastSeenAt": "2026-11-16T13:39:23.744Z",
+      "lastSeenAt": "2026-11-17T14:24:18.573Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -1858,7 +1858,7 @@
       "questionKey": "help with 2nd sick angel comb",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1xqirdt/help_with_2nd_sick_angel_comb/",
       "publishedAt": "2026-11-07T22:29:29+00:00",
-      "lastSeenAt": "2026-11-16T13:39:23.744Z",
+      "lastSeenAt": "2026-11-17T14:24:18.573Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 10,
       "signals": [
@@ -2475,7 +2475,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "no-title-token-overlap"
         ]
@@ -2537,7 +2537,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
@@ -2591,7 +2591,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2603,7 +2603,7 @@
         "observedAt": null,
         "approximate": true,
         "method": "not-checked",
-        "lastErrorAt": "2026-11-16T13:39:23.744Z",
+        "lastErrorAt": "2026-11-17T14:24:18.573Z",
         "lastError": "Reddit RSS request failed (429) for https://www.reddit.com/r/subnautica/comments/1xil8hn/beached_my_cyclops_saved_while_stuck_and_now_im/.rss?limit=500"
       },
       "title": "Beached my Cyclops, saved while stuck, and now I'm completely screwed. Any ideas?",
@@ -2651,7 +2651,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -2659,8 +2659,8 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": 9,
-        "observedAt": "2026-10-28T11:20:49.902Z",
+        "comments": 8,
+        "observedAt": "2026-11-17T14:24:18.573Z",
         "approximate": true,
         "method": "reddit-post-rss-comment-entry-count"
       },
@@ -2700,7 +2700,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -2755,7 +2755,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2810,7 +2810,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2867,7 +2867,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -2921,7 +2921,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -2978,7 +2978,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -3036,15 +3036,15 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
       },
       "attention": {
         "upvotes": null,
-        "comments": 24,
-        "observedAt": "2026-10-26T11:07:26.186Z",
+        "comments": 29,
+        "observedAt": "2026-11-17T14:24:18.573Z",
         "approximate": true,
         "method": "reddit-post-rss-comment-entry-count"
       },
@@ -3089,7 +3089,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -3097,8 +3097,8 @@
       },
       "attention": {
         "upvotes": null,
-        "comments": 7,
-        "observedAt": "2026-10-26T11:07:26.186Z",
+        "comments": 8,
+        "observedAt": "2026-11-17T14:24:18.573Z",
         "approximate": true,
         "method": "reddit-post-rss-comment-entry-count"
       },
@@ -3139,7 +3139,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -3193,7 +3193,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -3248,7 +3248,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -3304,7 +3304,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -3359,7 +3359,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -3409,7 +3409,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -3465,7 +3465,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
@@ -3481,7 +3481,7 @@
       "questionKey": "where should i build",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1xwdcz8/where_should_i_build/",
       "publishedAt": "2026-11-14T21:08:21+00:00",
-      "lastSeenAt": "2026-11-16T13:39:23.744Z",
+      "lastSeenAt": "2026-11-17T14:24:18.573Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3519,7 +3519,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -3574,7 +3574,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -3629,7 +3629,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -3686,7 +3686,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens",
           "no-title-token-overlap"
@@ -3730,7 +3730,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -3780,7 +3780,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -3840,7 +3840,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -3857,7 +3857,7 @@
       "questionKey": "how do you harvest atacamite",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1xvm88m/how_do_you_harvest_atacamite/",
       "publishedAt": "2026-11-13T22:47:47+00:00",
-      "lastSeenAt": "2026-11-16T13:39:23.744Z",
+      "lastSeenAt": "2026-11-17T14:24:18.573Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -3894,7 +3894,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -3949,7 +3949,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -4006,7 +4006,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -4051,7 +4051,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -4105,7 +4105,7 @@
         "answerStatus": "no-matched-page",
         "notes": "系统证据审核未通过：站点索引里没有可匹配的页面。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "no-matched-page"
         ]
@@ -4143,7 +4143,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -4160,7 +4160,7 @@
       "questionKey": "where do people find friends to play with",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1xtocq8/where_do_people_find_friends_to_play_with/",
       "publishedAt": "2026-11-11T17:44:44+00:00",
-      "lastSeenAt": "2026-11-16T13:39:23.744Z",
+      "lastSeenAt": "2026-11-17T14:24:18.573Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -4197,7 +4197,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -4243,7 +4243,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -4261,7 +4261,7 @@
       "questionKey": "what are some of your top biome wishes",
       "url": "https://www.reddit.com/r/Subnautica_2/comments/1xuluiq/what_are_some_of_your_top_biome_wishes/",
       "publishedAt": "2026-11-12T19:16:12+00:00",
-      "lastSeenAt": "2026-11-16T13:39:23.744Z",
+      "lastSeenAt": "2026-11-17T14:24:18.573Z",
       "sourceSubreddit": "r/Subnautica_2",
       "painScore": 9,
       "signals": [
@@ -4298,7 +4298,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
@@ -4345,7 +4345,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -4399,7 +4399,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens",
@@ -4455,7 +4455,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "no-title-token-overlap"
         ]
@@ -4507,7 +4507,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -4560,7 +4560,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -4610,7 +4610,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "too-few-shared-tokens"
@@ -4664,7 +4664,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low"
         ]
@@ -4719,7 +4719,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：共享实词太少（可能只是通用词撞车）。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "too-few-shared-tokens"
         ]
@@ -4774,7 +4774,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"
@@ -4827,7 +4827,7 @@
         "answerStatus": "evidence-thin",
         "notes": "系统证据审核未通过：标题与目标页匹配度过低；目标页标题与问题无实词重叠。",
         "autoReviewed": false,
-        "reviewedAt": "2026-11-16T13:39:23.744Z",
+        "reviewedAt": "2026-11-17T14:24:18.573Z",
         "holdReasons": [
           "match-score-too-low",
           "no-title-token-overlap"

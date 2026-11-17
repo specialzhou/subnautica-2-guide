@@ -1,22 +1,76 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-16T11:44:15.005Z",
+  "detectedAt": "2026-11-17T12:05:06.438Z",
   "changes": [
     {
-      "id": "thermal-plant",
-      "title": "Thermal Plant",
+      "id": "beacon",
+      "title": "Beacon",
       "change": "updated",
-      "previousRevisionId": 24724,
-      "revisionId": 28076,
+      "previousRevisionId": 24900,
+      "revisionId": 28108,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "world-tree-relic",
-      "title": "World Tree Relic",
+      "id": "dive-elevator",
+      "title": "Dive Elevator",
       "change": "updated",
-      "previousRevisionId": 24730,
-      "revisionId": 28075,
+      "previousRevisionId": 24804,
+      "revisionId": 28109,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "high-capacity-air-tank",
+      "title": "High Capacity Air Tank",
+      "change": "updated",
+      "previousRevisionId": 26871,
+      "revisionId": 28098,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "radiothermal-generator",
+      "title": "Radiothermal Generator",
+      "change": "updated",
+      "previousRevisionId": 26634,
+      "revisionId": 28102,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "standard-air-tank",
+      "title": "Standard Air Tank",
+      "change": "updated",
+      "previousRevisionId": 24920,
+      "revisionId": 28096,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "titanium",
+      "title": "Titanium",
+      "change": "updated",
+      "previousRevisionId": 24923,
+      "revisionId": 28091,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "ultra-high-capacity-air-tank",
+      "title": "Ultra High Capacity Air Tank",
+      "change": "updated",
+      "previousRevisionId": 26869,
+      "revisionId": 28089,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "vehicle-fabricator",
+      "title": "Vehicle Fabricator",
+      "change": "updated",
+      "previousRevisionId": 24483,
+      "revisionId": 28103,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

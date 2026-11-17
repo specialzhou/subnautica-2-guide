@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-16T11:44:15.005Z",
+  "generatedAt": "2026-11-17T12:05:06.438Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1096,10 +1096,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Beacon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Beacon&oldid=24900",
-        "revisionId": 24900,
-        "revisionTimestamp": "2026-10-12T19:07:31Z",
-        "fetchedAt": "2026-10-13T10:47:01.459Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Beacon&oldid=28108",
+        "revisionId": 28108,
+        "revisionTimestamp": "2026-11-17T02:21:27Z",
+        "fetchedAt": "2026-11-17T12:05:08.001Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3132,10 +3132,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dive_Elevator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=24804",
-        "revisionId": 24804,
-        "revisionTimestamp": "2026-10-12T16:09:25Z",
-        "fetchedAt": "2026-10-13T10:47:01.463Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=28109",
+        "revisionId": 28109,
+        "revisionTimestamp": "2026-11-17T02:22:56Z",
+        "fetchedAt": "2026-11-17T12:05:08.003Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -4811,10 +4811,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/High_Capacity_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=High_Capacity_Air_Tank&oldid=26871",
-        "revisionId": 26871,
-        "revisionTimestamp": "2026-10-29T22:45:24Z",
-        "fetchedAt": "2026-10-31T16:54:43.644Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=High_Capacity_Air_Tank&oldid=28098",
+        "revisionId": 28098,
+        "revisionTimestamp": "2026-11-16T23:21:39Z",
+        "fetchedAt": "2026-11-17T12:05:08.007Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7480,10 +7480,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Radiothermal_Generator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Radiothermal_Generator&oldid=26634",
-        "revisionId": 26634,
-        "revisionTimestamp": "2026-10-29T14:25:32Z",
-        "fetchedAt": "2026-10-31T16:54:43.648Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Radiothermal_Generator&oldid=28102",
+        "revisionId": 28102,
+        "revisionTimestamp": "2026-11-16T23:31:10Z",
+        "fetchedAt": "2026-11-17T12:05:08.011Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9274,10 +9274,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Standard_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Standard_Air_Tank&oldid=24920",
-        "revisionId": 24920,
-        "revisionTimestamp": "2026-10-12T19:45:42Z",
-        "fetchedAt": "2026-10-13T10:47:01.473Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Standard_Air_Tank&oldid=28096",
+        "revisionId": 28096,
+        "revisionTimestamp": "2026-11-16T23:19:14Z",
+        "fetchedAt": "2026-11-17T12:05:08.011Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10704,8 +10704,7 @@
         "Crafted with Fabricator",
         "Crafted with Metal Farm",
         "Raw Materials",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "availableByDefault": true,
       "unlock": {
@@ -10744,10 +10743,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=24923",
-        "revisionId": 24923,
-        "revisionTimestamp": "2026-10-12T19:47:49Z",
-        "fetchedAt": "2026-10-13T10:47:01.473Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=28091",
+        "revisionId": 28091,
+        "revisionTimestamp": "2026-11-16T23:11:52Z",
+        "fetchedAt": "2026-11-17T12:05:08.013Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -11000,10 +10999,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Ultra_High_Capacity_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=26869",
-        "revisionId": 26869,
-        "revisionTimestamp": "2026-10-29T22:39:47Z",
-        "fetchedAt": "2026-10-31T16:54:43.650Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=28089",
+        "revisionId": 28089,
+        "revisionTimestamp": "2026-11-16T23:01:51Z",
+        "fetchedAt": "2026-11-17T12:05:08.013Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -11114,10 +11113,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Vehicle_Fabricator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vehicle_Fabricator&oldid=24483",
-        "revisionId": 24483,
-        "revisionTimestamp": "2026-10-06T03:54:05Z",
-        "fetchedAt": "2026-10-10T05:59:57.675Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Vehicle_Fabricator&oldid=28103",
+        "revisionId": 28103,
+        "revisionTimestamp": "2026-11-16T23:33:49Z",
+        "fetchedAt": "2026-11-17T12:05:08.013Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-15T11:13:55.639Z",
+  "generatedAt": "2026-11-17T12:05:08.523Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -3183,16 +3183,15 @@
         "Crafted with Fabricator",
         "Crafted with Metal Farm",
         "Raw Materials",
-        "Scannables",
-        "Section stubs"
+        "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Titanium",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=24923",
-        "revisionId": 24923,
-        "revisionTimestamp": "2026-10-12T19:47:49Z",
-        "fetchedAt": "2026-10-13T10:47:02.408Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Titanium&oldid=28091",
+        "revisionId": 28091,
+        "revisionTimestamp": "2026-11-16T23:11:52Z",
+        "fetchedAt": "2026-11-17T12:05:09.532Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

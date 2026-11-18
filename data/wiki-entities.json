@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-17T12:05:08.523Z",
+  "generatedAt": "2026-11-18T11:56:05.720Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -1897,10 +1897,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Marrowbreach",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=23693",
-        "revisionId": 23693,
-        "revisionTimestamp": "2026-09-18T01:56:23Z",
-        "fetchedAt": "2026-09-18T08:21:28.349Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Marrowbreach&oldid=28117",
+        "revisionId": 28117,
+        "revisionTimestamp": "2026-11-17T21:25:08Z",
+        "fetchedAt": "2026-11-18T11:56:06.819Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2087,16 +2087,17 @@
       "categories": [
         "Aggressive",
         "Bioscannables",
+        "Pages with unsourced statements",
         "Predators",
         "Scannables"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Needler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=27950",
-        "revisionId": 27950,
-        "revisionTimestamp": "2026-11-10T19:21:12Z",
-        "fetchedAt": "2026-11-11T11:11:55.053Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Needler_Mango&oldid=28126",
+        "revisionId": 28126,
+        "revisionTimestamp": "2026-11-17T22:21:26Z",
+        "fetchedAt": "2026-11-18T11:56:06.822Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -2135,10 +2136,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Nibbler_Mango",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=25996",
-        "revisionId": 25996,
-        "revisionTimestamp": "2026-10-27T09:23:02Z",
-        "fetchedAt": "2026-10-31T16:54:48.113Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Nibbler_Mango&oldid=28125",
+        "revisionId": 28125,
+        "revisionTimestamp": "2026-11-17T22:20:29Z",
+        "fetchedAt": "2026-11-18T11:56:06.820Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

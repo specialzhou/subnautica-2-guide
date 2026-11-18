@@ -1,22 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-17T12:05:06.438Z",
+  "detectedAt": "2026-11-18T11:56:02.963Z",
   "changes": [
     {
-      "id": "beacon",
-      "title": "Beacon",
+      "id": "habitat-builder",
+      "title": "Habitat Builder",
       "change": "updated",
-      "previousRevisionId": 24900,
-      "revisionId": 28108,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "dive-elevator",
-      "title": "Dive Elevator",
-      "change": "updated",
-      "previousRevisionId": 24804,
-      "revisionId": 28109,
+      "previousRevisionId": 24902,
+      "revisionId": 28132,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -24,17 +15,8 @@
       "id": "high-capacity-air-tank",
       "title": "High Capacity Air Tank",
       "change": "updated",
-      "previousRevisionId": 26871,
-      "revisionId": 28098,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "radiothermal-generator",
-      "title": "Radiothermal Generator",
-      "change": "updated",
-      "previousRevisionId": 26634,
-      "revisionId": 28102,
+      "previousRevisionId": 28098,
+      "revisionId": 28124,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
@@ -42,35 +24,26 @@
       "id": "standard-air-tank",
       "title": "Standard Air Tank",
       "change": "updated",
-      "previousRevisionId": 24920,
-      "revisionId": 28096,
+      "previousRevisionId": 28096,
+      "revisionId": 28123,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "titanium",
-      "title": "Titanium",
+      "id": "tadpole-seafrog-chassis",
+      "title": "Tadpole Seafrog Chassis",
       "change": "updated",
-      "previousRevisionId": 24923,
-      "revisionId": 28091,
+      "previousRevisionId": 27249,
+      "revisionId": 28115,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     },
     {
-      "id": "ultra-high-capacity-air-tank",
-      "title": "Ultra High Capacity Air Tank",
+      "id": "wall-light-large",
+      "title": "Wall Light Large",
       "change": "updated",
-      "previousRevisionId": 26869,
-      "revisionId": 28089,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "vehicle-fabricator",
-      "title": "Vehicle Fabricator",
-      "change": "updated",
-      "previousRevisionId": 24483,
-      "revisionId": 28103,
+      "previousRevisionId": 24410,
+      "revisionId": 28121,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

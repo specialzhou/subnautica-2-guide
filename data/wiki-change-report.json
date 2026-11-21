@@ -1,49 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-18T11:56:02.963Z",
+  "detectedAt": "2026-11-21T11:24:58.415Z",
   "changes": [
     {
-      "id": "habitat-builder",
-      "title": "Habitat Builder",
+      "id": "axum-crate",
+      "title": "Axum Crate",
       "change": "updated",
-      "previousRevisionId": 24902,
-      "revisionId": 28132,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "high-capacity-air-tank",
-      "title": "High Capacity Air Tank",
-      "change": "updated",
-      "previousRevisionId": 28098,
-      "revisionId": 28124,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "standard-air-tank",
-      "title": "Standard Air Tank",
-      "change": "updated",
-      "previousRevisionId": 28096,
-      "revisionId": 28123,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "tadpole-seafrog-chassis",
-      "title": "Tadpole Seafrog Chassis",
-      "change": "updated",
-      "previousRevisionId": 27249,
-      "revisionId": 28115,
-      "previousStatus": "wiki-backed",
-      "status": "wiki-backed"
-    },
-    {
-      "id": "wall-light-large",
-      "title": "Wall Light Large",
-      "change": "updated",
-      "previousRevisionId": 24410,
-      "revisionId": 28121,
+      "previousRevisionId": 27805,
+      "revisionId": 28194,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

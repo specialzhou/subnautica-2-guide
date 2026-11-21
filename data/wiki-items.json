@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-18T11:56:02.963Z",
+  "generatedAt": "2026-11-21T11:24:58.415Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -473,10 +473,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Crate",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Crate&oldid=27805",
-        "revisionId": 27805,
-        "revisionTimestamp": "2026-11-06T15:35:53Z",
-        "fetchedAt": "2026-11-08T15:07:28.183Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Crate&oldid=28194",
+        "revisionId": 28194,
+        "revisionTimestamp": "2026-11-21T11:24:20Z",
+        "fetchedAt": "2026-11-21T11:25:00.514Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

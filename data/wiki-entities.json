@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-18T11:56:05.720Z",
+  "generatedAt": "2026-11-21T11:25:01.312Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -391,17 +391,19 @@
       "exclusionReasons": [],
       "categories": [
         "Bioscannables",
+        "Incomplete references",
         "Passive",
         "Predators",
-        "Scannables"
+        "Scannables",
+        "Unarchived X references"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Cerathecan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=24889",
-        "revisionId": 24889,
-        "revisionTimestamp": "2026-10-12T18:33:08Z",
-        "fetchedAt": "2026-10-13T10:47:02.805Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Cerathecan&oldid=28183",
+        "revisionId": 28183,
+        "revisionTimestamp": "2026-11-20T18:03:45Z",
+        "fetchedAt": "2026-11-21T11:25:02.452Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

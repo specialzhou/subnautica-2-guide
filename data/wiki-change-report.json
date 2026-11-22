@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-21T11:24:58.415Z",
+  "detectedAt": "2026-11-22T11:40:02.964Z",
   "changes": [
     {
       "id": "axum-crate",
       "title": "Axum Crate",
       "change": "updated",
-      "previousRevisionId": 27805,
-      "revisionId": 28194,
+      "previousRevisionId": 28194,
+      "revisionId": 28196,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-21T11:24:58.415Z",
+  "generatedAt": "2026-11-22T11:40:02.964Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -442,8 +442,9 @@
       "categories": [
         "Crafted with Habitat Builder",
         "Experimental content",
+        "Incomplete articles",
         "Needs In-Game Screenshots",
-        "Section stubs",
+        "Pages with broken file links",
         "Unimplemented seabase parts"
       ],
       "availableByDefault": false,
@@ -473,10 +474,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Crate",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Crate&oldid=28194",
-        "revisionId": 28194,
-        "revisionTimestamp": "2026-11-21T11:24:20Z",
-        "fetchedAt": "2026-11-21T11:25:00.514Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Crate&oldid=28196",
+        "revisionId": 28196,
+        "revisionTimestamp": "2026-11-21T19:27:43Z",
+        "fetchedAt": "2026-11-22T11:40:04.808Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

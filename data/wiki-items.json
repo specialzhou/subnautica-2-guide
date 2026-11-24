@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-22T11:40:02.964Z",
+  "generatedAt": "2026-11-24T02:41:39.705Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -393,7 +393,6 @@
         "Crafted with Habitat Builder",
         "Experimental content",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Unimplemented seabase parts"
       ],
       "availableByDefault": false,
@@ -423,10 +422,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Barrel",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Barrel&oldid=27806",
-        "revisionId": 27806,
-        "revisionTimestamp": "2026-11-06T15:36:30Z",
-        "fetchedAt": "2026-11-08T15:07:28.183Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Barrel&oldid=28261",
+        "revisionId": 28261,
+        "revisionTimestamp": "2026-11-23T20:11:46Z",
+        "fetchedAt": "2026-11-24T02:41:41.779Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -442,9 +441,7 @@
       "categories": [
         "Crafted with Habitat Builder",
         "Experimental content",
-        "Incomplete articles",
         "Needs In-Game Screenshots",
-        "Pages with broken file links",
         "Unimplemented seabase parts"
       ],
       "availableByDefault": false,
@@ -474,10 +471,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Axum_Crate",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Crate&oldid=28196",
-        "revisionId": 28196,
-        "revisionTimestamp": "2026-11-21T19:27:43Z",
-        "fetchedAt": "2026-11-22T11:40:04.808Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Axum_Crate&oldid=28274",
+        "revisionId": 28274,
+        "revisionTimestamp": "2026-11-23T20:48:49Z",
+        "fetchedAt": "2026-11-24T02:41:41.779Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6067,10 +6064,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Molten_Reactor",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Molten_Reactor&oldid=27053",
-        "revisionId": 27053,
-        "revisionTimestamp": "2026-10-30T19:55:28Z",
-        "fetchedAt": "2026-10-31T16:54:43.646Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Molten_Reactor&oldid=28293",
+        "revisionId": 28293,
+        "revisionTimestamp": "2026-11-23T23:53:34Z",
+        "fetchedAt": "2026-11-24T02:41:41.786Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -6087,13 +6084,12 @@
         "Crafted with Modification Station",
         "Experimental content",
         "Needs In-Game Screenshots",
-        "Section stubs",
         "Unimplemented items"
       ],
       "availableByDefault": false,
       "unlock": {
         "source": null,
-        "fragments": null,
+        "fragments": 1,
         "biomes": []
       },
       "recipes": [
@@ -6121,10 +6117,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Molten_Reactor_Fuel_Cell",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Molten_Reactor_Fuel_Cell&oldid=27997",
-        "revisionId": 27997,
-        "revisionTimestamp": "2026-11-12T13:42:19Z",
-        "fetchedAt": "2026-11-13T11:14:30.112Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Molten_Reactor_Fuel_Cell&oldid=28285",
+        "revisionId": 28285,
+        "revisionTimestamp": "2026-11-23T22:48:54Z",
+        "fetchedAt": "2026-11-24T02:41:41.786Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -7447,8 +7443,7 @@
       "categories": [
         "Crafted with Habitat Builder",
         "Experimental content",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Needs In-Game Screenshots"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -7481,10 +7476,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Radiothermal_Generator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Radiothermal_Generator&oldid=28102",
-        "revisionId": 28102,
-        "revisionTimestamp": "2026-11-16T23:31:10Z",
-        "fetchedAt": "2026-11-17T12:05:08.011Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Radiothermal_Generator&oldid=28276",
+        "revisionId": 28276,
+        "revisionTimestamp": "2026-11-23T21:38:31Z",
+        "fetchedAt": "2026-11-24T02:41:41.790Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -8652,8 +8647,7 @@
         "Crafted with Habitat Builder",
         "Discontinued content",
         "Furniture",
-        "Needs In-Game Screenshots",
-        "Section stubs"
+        "Needs In-Game Screenshots"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -8678,10 +8672,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Seamoth_Model",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=24626",
-        "revisionId": 24626,
-        "revisionTimestamp": "2026-10-08T19:17:16Z",
-        "fetchedAt": "2026-10-10T05:59:57.668Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Seamoth_Model&oldid=28237",
+        "revisionId": 28237,
+        "revisionTimestamp": "2026-11-23T18:57:16Z",
+        "fetchedAt": "2026-11-24T02:41:41.791Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9815,10 +9809,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=27149",
-        "revisionId": 27149,
-        "revisionTimestamp": "2026-10-31T21:53:22Z",
-        "fetchedAt": "2026-11-08T15:07:28.188Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=28210",
+        "revisionId": 28210,
+        "revisionTimestamp": "2026-11-23T13:13:39Z",
+        "fetchedAt": "2026-11-24T02:41:41.790Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10969,7 +10963,6 @@
       "categories": [
         "Crafted with Fabricator",
         "Experimental content",
-        "Section stubs",
         "Tank equipment",
         "Unimplemented items"
       ],
@@ -11000,10 +10993,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Ultra_High_Capacity_Air_Tank",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=28089",
-        "revisionId": 28089,
-        "revisionTimestamp": "2026-11-16T23:01:51Z",
-        "fetchedAt": "2026-11-17T12:05:08.013Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Ultra_High_Capacity_Air_Tank&oldid=28279",
+        "revisionId": 28279,
+        "revisionTimestamp": "2026-11-23T22:13:49Z",
+        "fetchedAt": "2026-11-24T02:41:41.792Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

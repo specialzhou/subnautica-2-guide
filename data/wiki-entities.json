@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-21T11:25:01.312Z",
+  "generatedAt": "2026-11-24T02:41:42.473Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -3003,17 +3003,17 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=27149",
-        "revisionId": 27149,
-        "revisionTimestamp": "2026-10-31T21:53:22Z",
-        "fetchedAt": "2026-11-08T15:07:32.324Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=28210",
+        "revisionId": 28210,
+        "revisionTimestamp": "2026-11-23T13:13:39Z",
+        "fetchedAt": "2026-11-24T02:41:43.912Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
       "facts": {
-        "speed": "8m/s",
+        "speed": "No Chassis: 8m/s Tadpole Scout Ray Chassis: 10m/s Tadpole Haul Chassis: 8m/s",
         "depth": "No Module: 250m Tadpole Depth Module Mk. 1: 450m",
         "health": "100",
         "source": "Vehicle Fabricator",
@@ -3109,16 +3109,15 @@
       "exclusionReasons": [],
       "categories": [
         "Experimental content",
-        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tar_Flats",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Flats&oldid=27989",
-        "revisionId": 27989,
-        "revisionTimestamp": "2026-11-11T20:15:49Z",
-        "fetchedAt": "2026-11-12T11:29:46.170Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Flats&oldid=28301",
+        "revisionId": 28301,
+        "revisionTimestamp": "2026-11-24T01:27:38Z",
+        "fetchedAt": "2026-11-24T02:41:44.918Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3149,16 +3148,15 @@
       "exclusionReasons": [],
       "categories": [
         "Experimental content",
-        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tar_Trenches",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Trenches&oldid=27661",
-        "revisionId": 27661,
-        "revisionTimestamp": "2026-11-04T23:57:31Z",
-        "fetchedAt": "2026-11-08T15:07:34.408Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tar_Trenches&oldid=28313",
+        "revisionId": 28313,
+        "revisionTimestamp": "2026-11-24T02:04:26Z",
+        "fetchedAt": "2026-11-24T02:41:44.918Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

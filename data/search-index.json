@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T11:40:02.964Z",
+  "generatedAt": "2026-11-24T02:41:42.473Z",
   "count": 350,
   "entries": [
     {
@@ -4716,15 +4716,15 @@
       "title": "Tadpole",
       "type": "Vehicle",
       "href": "guide/vehicles/tadpole.html",
-      "terms": "Tadpole 8m/s No Module: 250m Tadpole Depth Module Mk. 1: 450m 100 Vehicle Fabricator 3",
+      "terms": "Tadpole No Chassis: 8m/s Tadpole Scout Ray Chassis: 10m/s Tadpole Haul Chassis: 8m/s No Module: 250m Tadpole Depth Module Mk. 1: 450m 100 Vehicle Fabricator 3",
       "image": "https://wiki.subnautica.com/sn2/images/Tadpole.png?67e8d",
       "localizedTitles": {
         "zh-cn": "蝌蚪号",
         "ru": "«Головастик»"
       },
       "localizedTerms": {
-        "zh-cn": "蝌蚪号深潜模块1型 载具制造台 装配台 蝌蚪号",
-        "ru": "Модуль глубины погружения «Головастика» – Мод. 1 Изготовитель транспорта Изготовитель «Головастик»"
+        "zh-cn": "蝌蚪号深潜模块1型 蝌蚪号侦察鳐底盘 蝌蚪号搬运底盘 载具制造台 侦察鳐底盘 装配台 蝌蚪号",
+        "ru": "Модуль глубины погружения «Головастика» – Мод. 1 Шасси «Скат» для «Головастика» Грузовое шасси «Головастика» Изготовитель транспорта Шасси «Скат» Изготовитель «Головастик»"
       }
     },
     {

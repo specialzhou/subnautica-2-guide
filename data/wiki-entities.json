@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-24T02:41:42.473Z",
+  "generatedAt": "2026-11-25T13:11:53.251Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -435,16 +435,15 @@
       "exclusionReasons": [],
       "categories": [
         "Experimental content",
-        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collection_Zone",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collection_Zone&oldid=27988",
-        "revisionId": 27988,
-        "revisionTimestamp": "2026-11-11T20:14:15Z",
-        "fetchedAt": "2026-11-12T11:29:46.170Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collection_Zone&oldid=28333",
+        "revisionId": 28333,
+        "revisionTimestamp": "2026-11-25T02:55:44Z",
+        "fetchedAt": "2026-11-25T13:11:55.431Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1282,16 +1281,15 @@
       "exclusionReasons": [],
       "categories": [
         "Experimental content",
-        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Great_Jaw_Farms",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Great_Jaw_Farms&oldid=27656",
-        "revisionId": 27656,
-        "revisionTimestamp": "2026-11-04T23:48:26Z",
-        "fetchedAt": "2026-11-08T15:07:34.408Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Great_Jaw_Farms&oldid=28342",
+        "revisionId": 28342,
+        "revisionTimestamp": "2026-11-25T04:20:58Z",
+        "fetchedAt": "2026-11-25T13:11:55.431Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

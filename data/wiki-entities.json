@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-25T13:11:53.251Z",
+  "generatedAt": "2026-11-26T12:51:54.412Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -3335,23 +3335,22 @@
       "status": "wiki-backed",
       "exclusionReasons": [],
       "categories": [
-        "Biomes",
-        "Section stubs"
+        "Biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Void",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=25855",
-        "revisionId": 25855,
-        "revisionTimestamp": "2026-10-25T19:20:36Z",
-        "fetchedAt": "2026-10-26T09:08:02.881Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=28394",
+        "revisionId": 28394,
+        "revisionTimestamp": "2026-11-26T05:30:07Z",
+        "fetchedAt": "2026-11-26T12:51:56.625Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
         }
       },
       "facts": {
-        "depth": "0-5000+ meters",
+        "depth": "0-10486 meters",
         "pointsOfInterest": []
       },
       "media": {

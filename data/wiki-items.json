@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-25T13:11:50.618Z",
+  "generatedAt": "2026-11-27T12:46:00.399Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -2975,10 +2975,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dining_Chair",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Chair&oldid=24740",
-        "revisionId": 24740,
-        "revisionTimestamp": "2026-10-12T11:34:03Z",
-        "fetchedAt": "2026-10-13T10:47:01.465Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dining_Chair&oldid=28525",
+        "revisionId": 28525,
+        "revisionTimestamp": "2026-11-27T02:47:34Z",
+        "fetchedAt": "2026-11-27T12:46:02.658Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3130,10 +3130,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Dive_Elevator",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=28109",
-        "revisionId": 28109,
-        "revisionTimestamp": "2026-11-17T02:22:56Z",
-        "fetchedAt": "2026-11-17T12:05:08.003Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Dive_Elevator&oldid=28538",
+        "revisionId": 28538,
+        "revisionTimestamp": "2026-11-27T09:36:19Z",
+        "fetchedAt": "2026-11-27T12:46:02.656Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3296,10 +3296,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/EMT_Tool",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=EMT_Tool&oldid=27216",
-        "revisionId": 27216,
-        "revisionTimestamp": "2026-11-01T11:22:16Z",
-        "fetchedAt": "2026-11-08T15:07:28.185Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=EMT_Tool&oldid=28540",
+        "revisionId": 28540,
+        "revisionTimestamp": "2026-11-27T09:42:54Z",
+        "fetchedAt": "2026-11-27T12:46:02.661Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5512,7 +5512,7 @@
       "exclusionReasons": [],
       "categories": [
         "Crafted with Modification Station",
-        "Experimental content"
+        "Unimplemented items"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -5541,10 +5541,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Leapfrog_Pistons",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Leapfrog_Pistons&oldid=27264",
-        "revisionId": 27264,
-        "revisionTimestamp": "2026-11-02T00:28:18Z",
-        "fetchedAt": "2026-11-08T15:07:28.186Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Leapfrog_Pistons&oldid=28447",
+        "revisionId": 28447,
+        "revisionTimestamp": "2026-11-26T19:35:04Z",
+        "fetchedAt": "2026-11-27T12:46:02.663Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -5925,8 +5925,7 @@
         "Defensive",
         "Plantables",
         "Pylons",
-        "Scannables",
-        "Stubs"
+        "Scannables"
       ],
       "availableByDefault": false,
       "unlock": {
@@ -5955,10 +5954,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Mimic_Pylon",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=27910",
-        "revisionId": 27910,
-        "revisionTimestamp": "2026-11-09T17:05:42Z",
-        "fetchedAt": "2026-11-10T11:24:21.770Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Mimic_Pylon&oldid=28524",
+        "revisionId": 28524,
+        "revisionTimestamp": "2026-11-27T02:46:20Z",
+        "fetchedAt": "2026-11-27T12:46:02.661Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -9809,10 +9808,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=28210",
-        "revisionId": 28210,
-        "revisionTimestamp": "2026-11-23T13:13:39Z",
-        "fetchedAt": "2026-11-24T02:41:41.790Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=28449",
+        "revisionId": 28449,
+        "revisionTimestamp": "2026-11-26T19:44:46Z",
+        "fetchedAt": "2026-11-27T12:46:02.668Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -10185,10 +10184,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole_Seafrog_Chassis",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Seafrog_Chassis&oldid=28115",
-        "revisionId": 28115,
-        "revisionTimestamp": "2026-11-17T20:54:18Z",
-        "fetchedAt": "2026-11-18T11:56:04.916Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole_Seafrog_Chassis&oldid=28441",
+        "revisionId": 28441,
+        "revisionTimestamp": "2026-11-26T18:48:21Z",
+        "fetchedAt": "2026-11-27T12:46:02.670Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

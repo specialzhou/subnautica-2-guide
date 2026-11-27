@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedAt": "2026-11-26T12:51:54.412Z",
+  "generatedAt": "2026-11-27T12:46:03.374Z",
   "source": "https://wiki.subnautica.com/sn2/api.php",
   "license": {
     "name": "CC BY-NC-SA 3.0",
@@ -480,10 +480,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Collector_Leviathan",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=27667",
-        "revisionId": 27667,
-        "revisionTimestamp": "2026-11-05T00:31:38Z",
-        "fetchedAt": "2026-11-08T15:07:31.550Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Collector_Leviathan&oldid=28403",
+        "revisionId": 28403,
+        "revisionTimestamp": "2026-11-26T15:05:52Z",
+        "fetchedAt": "2026-11-27T12:46:04.334Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -1452,16 +1452,15 @@
       "exclusionReasons": [],
       "categories": [
         "Experimental content",
-        "Needs In-Game Screenshots",
         "Tar Delta biomes"
       ],
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Homestead_Ruins",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Homestead_Ruins&oldid=27906",
-        "revisionId": 27906,
-        "revisionTimestamp": "2026-11-09T03:52:40Z",
-        "fetchedAt": "2026-11-09T11:49:14.509Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Homestead_Ruins&oldid=28436",
+        "revisionId": 28436,
+        "revisionTimestamp": "2026-11-26T18:28:24Z",
+        "fetchedAt": "2026-11-27T12:46:05.592Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3001,10 +3000,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Tadpole",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=28210",
-        "revisionId": 28210,
-        "revisionTimestamp": "2026-11-23T13:13:39Z",
-        "fetchedAt": "2026-11-24T02:41:43.912Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Tadpole&oldid=28449",
+        "revisionId": 28449,
+        "revisionTimestamp": "2026-11-26T19:44:46Z",
+        "fetchedAt": "2026-11-27T12:46:04.692Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -3340,10 +3339,10 @@
       "source": {
         "type": "official-community-wiki",
         "pageUrl": "https://wiki.subnautica.com/sn2/Void",
-        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=28394",
-        "revisionId": 28394,
-        "revisionTimestamp": "2026-11-26T05:30:07Z",
-        "fetchedAt": "2026-11-26T12:51:56.625Z",
+        "permanentUrl": "https://wiki.subnautica.com/sn2/index.php?title=Void&oldid=28526",
+        "revisionId": 28526,
+        "revisionTimestamp": "2026-11-27T02:49:18Z",
+        "fetchedAt": "2026-11-27T12:46:05.592Z",
         "license": {
           "name": "CC BY-NC-SA 3.0",
           "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"

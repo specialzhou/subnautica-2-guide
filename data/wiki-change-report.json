@@ -1,13 +1,67 @@
 {
   "schemaVersion": "1.0.0",
-  "detectedAt": "2026-11-25T13:11:50.618Z",
+  "detectedAt": "2026-11-27T12:46:00.399Z",
   "changes": [
     {
-      "id": "tailing-barrel",
-      "title": "Tailing Barrel",
+      "id": "dining-chair",
+      "title": "Dining Chair",
       "change": "updated",
-      "previousRevisionId": 26094,
-      "revisionId": 28317,
+      "previousRevisionId": 24740,
+      "revisionId": 28525,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "dive-elevator",
+      "title": "Dive Elevator",
+      "change": "updated",
+      "previousRevisionId": 28109,
+      "revisionId": 28538,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "emt-tool",
+      "title": "EMT Tool",
+      "change": "updated",
+      "previousRevisionId": 27216,
+      "revisionId": 28540,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "leapfrog-pistons",
+      "title": "Leapfrog Pistons",
+      "change": "updated",
+      "previousRevisionId": 27264,
+      "revisionId": 28447,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "mimic-pylon",
+      "title": "Mimic Pylon",
+      "change": "updated",
+      "previousRevisionId": 27910,
+      "revisionId": 28524,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole",
+      "title": "Tadpole",
+      "change": "updated",
+      "previousRevisionId": 28210,
+      "revisionId": 28449,
+      "previousStatus": "wiki-backed",
+      "status": "wiki-backed"
+    },
+    {
+      "id": "tadpole-seafrog-chassis",
+      "title": "Tadpole Seafrog Chassis",
+      "change": "updated",
+      "previousRevisionId": 28115,
+      "revisionId": 28441,
       "previousStatus": "wiki-backed",
       "status": "wiki-backed"
     }
